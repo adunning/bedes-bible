@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <meta name="author" content="Andrew Dunning">
+  <title>Bede’s Bible</title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<header>
+<h1 class="title">Bede’s Bible</h1>
+<h1 class="subtitle">An Edition of the Latin Vulgate from the Codex Amiatinus</h1>
+<h2 class="author">Andrew Dunning</h2>
+</header>
+<section id="executive-summary" class="level1">
+<h1>Executive summary</h1>
+<p>The Latin ‘Vulgate’ translation of the Bible is a text that everyone interested in the history of Western civilization will need at some point in their studies. It shaped the development of Latin in the Middle Ages, and it is still quoted in modern literature and inscribed on monuments. The printed editions of this work overemphasize the text’s fixity, and do not convey the diversity of the manuscript tradition. Their online versions are unreliable. This project will contribute a solution to these problems by providing a snapshot of the Vulgate in the eighth century, through a documentary edition of the Codex Amiatinus, its earliest complete copy.</p>
+</section>
+<section id="state-of-the-field" class="level1">
+<h1>State of the field</h1>
+<p>Copies of the Latin Bible varied wildly throughout the Middle Ages, sometimes including books from the Old Latin alongside the revisions of Jerome, or mixtures of the two. By the thirteenth century, scholars were becoming increasingly aware of the textual variants between their copies, and produced ‘correctoria’ listing errors commonly found in Bibles of the day <span class="citation" data-cites="linde:2011how">(Linde <a href="#ref-linde:2011how">2011</a>)</span>. They conducted this work primarily through renewed interest in Hebrew and Greek rather than with reference to the earliest Vulgate manuscripts, meaning that the result had little relationship to that of the fifth century. The Parisian Bible trade, and later printing, gave these texts wide currency. The influence of this late medieval text was finally solidified in the Sixto-Clementine edition, which declared itself to be above inaccuracy in spite of errors known even at the time of its printing <span class="citation" data-cites="letis:2002vulgata">(Letis <a href="#ref-letis:2002vulgata">2002</a>)</span>. This discouraged further development of the Vulgate’s text until the eighteenth century, when <span class="citation" data-cites="bentley:1721proposals">Bentley (<a href="#ref-bentley:1721proposals">1721</a>)</span> proposed a critical edition. His scheme proved too ambitious, and the first successful modern editors of the New Testament in Latin – notably <span class="citation" data-cites="lachmann:1842novum">Lachmann (<a href="#ref-lachmann:1842novum">1842–1850</a>)</span> and <span class="citation" data-cites="tischendorf:1850novum">Tischendorf (<a href="#ref-tischendorf:1850novum">1850</a>)</span> – used few manuscripts. They gave primary attention to the Codex Amiatinus (Florence, Biblioteca Medicea Laurenziana, MS Amiatino 1), the earliest copy of the Vulgate that survives intact. Their reassessment of the text led to a critical edition of the New Testament in Latin by scholars at Oxford <span class="citation" data-cites="wordsworth:1889nouum">(Wordsworth et al. <a href="#ref-wordsworth:1889nouum">1889–1954</a>)</span>, followed by an edition published by the Vatican <span class="citation" data-cites="pontificalabbeyofstjeromeinthecity:1926biblia">(Pontifical Abbey of St Jerome-in-the-City <a href="#ref-pontificalabbeyofstjeromeinthecity:1926biblia">1926–1995</a>)</span>.</p>
+<p>This work resulted in three versions of the Vulgate widely used today. The Clementine edition is still printed in various forms <span class="citation" data-cites="hetzenauer:1906biblia">(most based on Hetzenauer <a href="#ref-hetzenauer:1906biblia">1906</a>)</span>, while the Oxford edition is available as an <em>editio minor</em> with modern punctuation <span class="citation" data-cites="wordsworth:1920nouum">(Wordsworth and White [<a href="#ref-wordsworth:1920nouum">1911</a>] <a href="#ref-wordsworth:1920nouum">1920</a>)</span>. The monks responsible for the Vatican edition, together with the last surviving editor of the Oxford New Testament and several other scholars, published another <em>editio minor</em> at Stuttgart that made the provisional results of their work available, producing a critical text of the full Vulgate for the first time <span class="citation" data-cites="weber:2007biblia">(Weber et al. [<a href="#ref-weber:2007biblia">1969</a>] <a href="#ref-weber:2007biblia">2007</a>)</span>.</p>
+<p>The Vatican cut its edition short, only publishing the Old Testament; this unexpectedly left the Stuttgart edition as the only text conveniently available to scholars. Yet as its prefaces admit, its editorial principles were arbitrary, essentially reflecting the personal decisions of Weber. This meant that it was no longer possible to update the text after his death, and his successors have only updated the apparatus in editions since 1983. It leaves much to be wished for: while it conveys a much more accurate rendition of the earliest textual tradition than earlier editions, its critical apparatus presents the air of being more comprehensive than it truly is. It does not present all variants from the few manuscripts it uses, meaning that one cannot get a sense of the context; further, it does not take into account later textual traditions, leading to many incorrect assumptions that medieval authors were purposely changing the text they quoted. The text itself sometimes makes importations of elements from outside the Latin tradition (e.g. in using the Greek form of the Eusebian Canons, or using variants that were almost never seen by readers), and does not aim to show some of its unique features, such as early chapter divisions. Further, unlike the Oxford <em>editio minor</em>, it reproduces the <em>per cola et commata</em> layout of the Codex Amiatinus rather than add modern punctuation. This proved disastrous for the text in electronic form, most electronic copies of which <span class="citation" data-cites="fischer:1970use">(originating with the concordance created for the second edition, described by Fischer <a href="#ref-fischer:1970use">1970</a>)</span> omit the line breaks, meaning that the text has no punctuation at all. It is not possible to amend this from the printed version, because the publisher argues that its text is a new literary work <span class="citation" data-cites="gounalakis:2004urheberschutz gounalakis:2004uscopyright">(Gounalakis <a href="#ref-gounalakis:2004urheberschutz">2004</a><a href="#ref-gounalakis:2004urheberschutz">a</a>; <a href="#ref-gounalakis:2004uscopyright">2004</a><a href="#ref-gounalakis:2004uscopyright">b</a>)</span>. This means that it cannot be reproduced or translated unless it is first modified, and online versions are corrupt or missing large sections of the text. One republication of the Stuttgart text skirted questions of copyright by altering it to fit a seventeenth-century English translation <span class="citation" data-cites="edgar:2010vulgate">(Edgar and Kinney <a href="#ref-edgar:2010vulgate">2010–2013</a>)</span>. The Vulgate needs to be re-edited to make accurate versions widely available and reveal the variety of its textual transmission, but it is clearly undesirable to repeat the work of the nineteenth- and twentieth-century textual critics. This has effectively created a new deadlock comparable to the situation after the publication of the Sixto-Clementine edition.</p>
+</section>
+<section id="project-description" class="level1">
+<h1>Project description</h1>
+<section id="objectives" class="level2">
+<h2>Objectives</h2>
+<p>This enterprise will analyse and make available the text of the Vulgate as it was received by the scriptorium of Wearmouth-Jarrow in the eighth century, as documented in the Codex Amiatinus and other fragments. This will be the first digital scholarly edition of the Vulgate, and complement printed texts. Made available under an open licence, it will finally replace the incomplete online copies of the Vulgate that are nonetheless commonly used for reference. This work will also test the feasibility of a long-term goal to allow the comparison of texts that critical editions have historically taken into account, such as twelfth-century manuscripts that are influential in the later reception of a work but thought irrelevant in terms of stemmatics. Accompanied by an online facsimile of the Codex Amiatinus, it will allow readers to verify the text and study the manuscript’s imagery and script.</p>
+</section>
+<section id="context-and-sources" class="level2">
+<h2>Context and sources</h2>
+<p>The text of the Codex Amiatinus derives from the Codex Grandior of Cassiodorus <span class="citation" data-cites="meyvaert:1996bede">(Meyvaert <a href="#ref-meyvaert:1996bede">1996</a>)</span>, and was a gift from Bede’s abbey to the Pope of the day. Its historical context makes it of great interest to many parties, as it is key to both the earliest forms of the Vulgate and its reception both on the continent and among the Anglo-Saxons. Its careful copying and completeness makes it an ideal candidate for a documentary edition. (Although it does not include the deuterocanonical book Baruch, this is a result of the textual tradition rather than a loss or oversight.) Understanding of the manuscript’s composition has grown in recent decades, especially after restoration work in 1999 <span class="citation" data-cites="corsano:1987first bicchieri:2000nondestructive chazelle:2003ceolfrids meyvaert:2005date">(Corsano <a href="#ref-corsano:1987first">1987</a>; Bicchieri et al. <a href="#ref-bicchieri:2000nondestructive">2000</a>; Chazelle <a href="#ref-chazelle:2003ceolfrids">2003</a>; Meyvaert <a href="#ref-meyvaert:2005date">2005</a>)</span>. This work included photography of its contents, made available on <span style="font-variant: small-caps;">cd-rom</span> in 2000 by <span style="font-variant: small-caps;">sismel</span>. This edition will also include fragments of two other pandects produced at Wearmouth-Jarrow, now <a href="http://www.bl.uk/manuscripts/FullDisplay.aspx?ref=Add_MS_37777">London, British Library, Add. MS 37777</a> (the ‘Greenwell leaf’), <a href="http://www.bl.uk/manuscripts/FullDisplay.aspx?ref=Add_MS_45025">Add. MS 45025</a> (the ‘Middletown leaves’), and Loan MS 81 (from Kingston Lacy); as well as a fragment of its exemplar, now in Durham, Dean and Chapter Library, MS B.<span style="font-variant: small-caps;">iv</span>.6, fol. 169* <span class="citation" data-cites="lowe:1962sixthcentury">(Lowe <a href="#ref-lowe:1962sixthcentury">1962</a>)</span>.</p>
+</section>
+<section id="methodology" class="level2">
+<h2>Methodology</h2>
+<p>Editors will produce a fresh assessment of the Codex Amiatinus text, and make it accessible for readers though a documentary edition that emends the text only where necessary for sense. It will be a collaborative project, with individuals sought to examine individual books as well as larger divisions (e.g. the Pentateuch, the letters of Paul) where desirable for consistency. Work will entail, in the first instance, high-resolution digital images of the manuscript, as those distributed in 2000 were compressed to fit on a disc and are not always legible.</p>
+<p>The first step in this project will be the establishment of an accurate transcription of the Codex Amiatinus. This is in contrast to earlier editions, produced through collation against the Clementine edition, which has occasionally allowing its readings to slip into the final version. It is believed that, with high-resolution photographs, the text will be sufficiently legible for capturing through optical character recognition. The resulting text will be checked against the manuscript, and collated with other files to obtain modern chapter and verse divisions and identify possible errors. This will result in an accurate transcription encoded using the Text Encoding Initiative (<span style="font-variant: small-caps;">tei</span>) guidelines, which will identify all expansions of abbreviations (of which there are only a small number). Automated comparison with Tischendorf’s edition will also be used to check the New Testament. Further accuracy could be attained through comparison with an independent transcription of the manuscript, but it is not believed that this would produce sufficient improvement to justify the labour.</p>
+<p>The resulting transcription will be collated against the Oxford, Rome, and Stuttgart editions to identify areas where past editors have favoured other branches of the textual traditions over the Amiatinus text. This process will be facilitated by these editions’ reproduction of the manuscript’s line breaks, which this edition will likewise retain, with the option of adding modern punctuation in the future. Following the pattern of series such as the Toronto Medieval Latin Texts <span class="citation" data-cites="dunning:2016samuel">(e.g. Dunning <a href="#ref-dunning:2016samuel">2016</a>)</span>, editors will determine at each point of variance whether the manuscript is intelligible; if not, they will introduce the reading with a record of the manuscripts it is based on.</p>
+</section>
+<section id="outputs" class="level2">
+<h2>Outputs</h2>
+<p>The edition created by this project will record both the readings of the Codex Amiatinus and the emended text, linked to a facsimile of the manuscript. This will allow its use for both general reading purposes and collatation against other digital texts such as the <a href="http://igntp.org/bezae.html">edition of the Codex Bezae</a>. It will allow the citation of the text according to the modern chapters and verses (using the divisions of the Clementine edition, normalized through the Stuttgart text). To allow citation of the specific text, it will also provide the chapter divisions of the Codex Amiatinus in combination with the folios and line numbers of the manuscript. The project will also propose a collection of articles for the Open Library of Humanities on scholarship linking the Mediterranean and Anglo-Saxon worlds and its later influence, with an open call for papers.</p>
+<p>Editors will be sought and a prototype version covering Genesis prepared by the end of 2016, with further books submitted to the editorial board in the order they are completed. With the work spread among a large group of editors working from clear guidelines, it is anticipated that all sections of the edition will be prepared for review by the end of 2019.</p>
+</section>
+</section>
+<section id="institutional-setting" class="level1">
+<h1>Institutional setting</h1>
+<p>An edition of the Codex Amiatinus is an ideal project for the development of the Digital Latin Library both from intellectual and pragmatic perpectives. A text of the Vulgate with a clear historical grounding will be a significant improvement over the Clementine or corrupted Stuttgart editions that most readers of Latin presently use, and will provide the opportunity for scholars to understand the liveliness of a text in its manuscript form through the integration of the images and diagrams that open the volume. The combination of the text’s expansiveness and focused manuscript tradition will also facilitate the development of standardized workflows for use in other Digital Latin Library texts. The <span style="font-variant: small-caps;">tei</span> encoding will act as a test case for a version of EpiDoc for manuscripts that can be broadly applied, and its use of parallel referencing systems will ensure that the developing Distributed Text Services can meet its needs. Its relatively uncomplicated encoding (since it will not make extensive use of <span style="font-variant: small-caps;">tei</span> apparatus tags) will serve as an ideal introduction to editors who do not yet have experience with digital methodologies, while assigning editors to individual books will allow for straightforward academic credit.</p>
+</section>
+<section id="bibliography" class="level1 unnumbered">
+<h1>Bibliography</h1>
+<div id="refs" class="references">
+<div id="ref-bentley:1721proposals">
+<p>Bentley, Richard. 1721. <em>Proposals for Printing a New Edition of the Greek Testament, and St. Hierom’s Latin Version</em>. London: Knapton. <a href="http://hdl.handle.net/2027/uc1.31175035489742" class="uri">http://hdl.handle.net/2027/uc1.31175035489742</a>.</p>
+</div>
+<div id="ref-bicchieri:2000nondestructive">
+<p>Bicchieri, Marina, Francesco Paolo Romano, Lighea Pappalardo, Luigi Cosentino, Michele Nardone, and Armida Sodo. 2000. “Non-Destructive Analysis of the Bibbia Amiatina by XRF, PIXE-α and Raman.” <em>Quinio</em> 3: 169–79.</p>
+</div>
+<div id="ref-chazelle:2003ceolfrids">
+<p>Chazelle, Celia. 2003. “Ceolfrid’s Gift to St Peter: The First Quire of the Codex Amiatinus and the Evidence of Its Roman Destination.” <em>Early Medieval Europe</em> 12 (2): 129–57. doi:<a href="https://doi.org/10.1111/j.0963-9462.2004.00124.x">10.1111/j.0963-9462.2004.00124.x</a>.</p>
+</div>
+<div id="ref-corsano:1987first">
+<p>Corsano, Karen. 1987. “The First Quire of the Codex Amiatinus and the <i>Institutiones</i> of Cassiodorus.” <em>Scriptorium</em> 41 (1): 3–34. doi:<a href="https://doi.org/10.3406/scrip.1987.1462">10.3406/scrip.1987.1462</a>.</p>
+</div>
+<div id="ref-dunning:2016samuel">
+<p>Dunning, Andrew N.J. 2016. <em>Samuel Presbiter: Notes from the School of William de Montibus. Collecta ex diuersis auditis in scola magistri Willelmi de Monte</em>. Toronto Medieval Latin Texts 33. Toronto: Pontifical Institute of Mediaeval Studies.</p>
+</div>
+<div id="ref-edgar:2010vulgate">
+<p>Edgar, Swift, and Angela M. Kinney, eds. 2010–2013. <em>The Vulgate Bible: Douay-Rheims Translation</em>. Dumbarton Oaks Medieval Library 1, 4, 5, 8, 13, 17, 21. Cambridge, MA: Harvard University Press.</p>
+</div>
+<div id="ref-fischer:1970use">
+<p>Fischer, Bonifatius. 1970. “The Use of Computers in New Testament Studies, with Special Reference to Textual Criticism.” <em>The Journal of Theological Studies</em>, n.s., 21 (2): 297–308. doi:<a href="https://doi.org/10.1093/jts/XXI.2.297">10.1093/jts/XXI.2.297</a>.</p>
+</div>
+<div id="ref-gounalakis:2004urheberschutz">
+<p>Gounalakis, Georgios. 2004a. “Urheberschutz für die Bibel?” <em>GRUR Int</em>, no. 12: 996–1001. <a href="https://www.uni-marburg.de/fb01/lehrstuehle/zivilrecht/gounalakis/gounalakis_schriften/gounalakis_aufsaetze/Urheberschutz" class="uri">https://www.uni-marburg.de/fb01/lehrstuehle/zivilrecht/gounalakis/gounalakis_schriften/gounalakis_aufsaetze/Urheberschutz</a>.</p>
+</div>
+<div id="ref-gounalakis:2004uscopyright">
+<p>———. 2004b. “US-Copyright für das Neue Testament?” <em>GRUR Int</em>, no. 6: 480–87. <a href="https://www.uni-marburg.de/fb01/lehrstuehle/zivilrecht/gounalakis/gounalakis_schriften/gounalakis_aufsaetze/US-Copyright" class="uri">https://www.uni-marburg.de/fb01/lehrstuehle/zivilrecht/gounalakis/gounalakis_schriften/gounalakis_aufsaetze/US-Copyright</a>.</p>
+</div>
+<div id="ref-hetzenauer:1906biblia">
+<p>Hetzenauer, Michael, ed. 1906. <em>Biblia sacra Vulgatae editionis, ex ipsis exemplaribus Vaticanis inter se atque cum indice errorum corrigendorum collatis</em>. Innsbruck: Wagner.</p>
+</div>
+<div id="ref-lachmann:1842novum">
+<p>Lachmann, Karl, ed. 1842–1850. <em>Novum Testamentum graece et latine</em>. 2 vols. Berlin: Reimer.</p>
+</div>
+<div id="ref-letis:2002vulgata">
+<p>Letis, Theodore P. 2002. “The <i>Vulgata Latina</i> as Sacred Text: What Did the Council of Trent Mean When It Claimed Jerome’s Bible Was <i>Authentica</i>?” <em>Reformation</em> 7 (1): 1–21. doi:<a href="https://doi.org/10.1179/ref_2002_7_1_002">10.1179/ref_2002_7_1_002</a>.</p>
+</div>
+<div id="ref-linde:2011how">
+<p>Linde, Cornelia. 2011. <em>How to Correct the Sacra Scriptura? Textual Criticism of the Latin Bible Between the Twelfth and Fifteenth Century</em>. Medium Ævum Monographs 29. Oxford: Society for the Study of Medieval Languages and Literature.</p>
+</div>
+<div id="ref-lowe:1962sixthcentury">
+<p>Lowe, E.A. 1962. “A Sixth-Century Italian Uncial Fragment of Maccabees and Its Eighth-Century Northumbrian Copy.” <em>Scriptorium</em> 16 (1): 84–85. doi:<a href="https://doi.org/10.3406/scrip.1962.3120">10.3406/scrip.1962.3120</a>.</p>
+</div>
+<div id="ref-meyvaert:1996bede">
+<p>Meyvaert, Paul. 1996. “Bede, Cassiodorus, and the Codex Amiatinus.” <em>Speculum</em> 71 (4): 827–83. doi:<a href="https://doi.org/10.2307/2865722">10.2307/2865722</a>.</p>
+</div>
+<div id="ref-meyvaert:2005date">
+<p>———. 2005. “The Date of Bede’s <i>In Ezram</i> and His Image of Ezra in the Codex Amiatinus.” <em>Speculum</em> 80 (4): 1087–1133. doi:<a href="https://doi.org/10.1017/S0038713400001366">10.1017/S0038713400001366</a>.</p>
+</div>
+<div id="ref-pontificalabbeyofstjeromeinthecity:1926biblia">
+<p>Pontifical Abbey of St Jerome-in-the-City, ed. 1926–1995. <em>Biblia Sacra iuxta latinam vulgatam versionem</em>. 18 vols. Rome: Libreria Editrice Vaticana.</p>
+</div>
+<div id="ref-tischendorf:1850novum">
+<p>Tischendorf, Constantinus von. 1850. <em>Novum Testamentum Latine interprete Hieronymo. Ex celeberrimo Codice Amiatino</em>. Leipzig: Avenarius et Mendelssohn. <a href="https://archive.org/details/novumtestamentu02tiscgoog" class="uri">https://archive.org/details/novumtestamentu02tiscgoog</a>.</p>
+</div>
+<div id="ref-weber:2007biblia">
+<p>Weber, Robert, Bonifatius Fischer, Jean Gribomont, Hedley F.D. Sparks, Walter Thiele, and Roger Gryson, eds. (1969) 2007. <em>Biblia Sacra iuxta vulgatam versionem</em>. 5th ed. Stuttgart: Deutsche Bibelgesellschaft.</p>
+</div>
+<div id="ref-wordsworth:1920nouum">
+<p>Wordsworth, John, and Henry Julian White, eds. (1911) 1920. <em>Nouum Testamentum Latine, secundum editionem sancti Hieronymi. Editio minor</em>. Rev. ed. Oxford: Clarendon Press.</p>
+</div>
+<div id="ref-wordsworth:1889nouum">
+<p>Wordsworth, John, Henry Julian White, Alexander Ramsbotham, Hedley F.D. Sparks, Claude Jenkins, and Arthur White Adams, eds. 1889–1954. <em>Nouum Testamentum Domini nostri Iesu Christi Latine, secundum editionem sancti Hieronymi</em>. 3 vols. Oxford: Clarendon Press.</p>
+</div>
+</div>
+</section>
+</body>
+</html>
