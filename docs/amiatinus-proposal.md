@@ -237,7 +237,7 @@ references:
 
 - id: 'corsano:1987first'
   type: article-journal
-  title: 'The First Quire of the Codex Amiatinus and the <i>Institutiones</i> of Cassiodorus'
+  title: 'The First Quire of the Codex Amiatinus and the *Institutiones* of Cassiodorus'
   container-title: Scriptorium
   page: 3-34
   volume: '41'
@@ -284,7 +284,7 @@ references:
 
 - id: 'letis:2002vulgata'
   type: article-journal
-  title: "The <i>Vulgata Latina</i> as sacred text: What did the Council of Trent mean when it claimed Jerome's Bible was <i>authentica</i>?"
+  title: "The *Vulgata Latina* as sacred text: What did the Council of Trent mean when it claimed Jerome's Bible was *authentica*?"
   container-title: Reformation
   page: 1-21
   volume: '7'
@@ -305,7 +305,7 @@ references:
       - - '2015'
         - 6
         - 18
-  title-short: 'The <i>Vulgata Latina</i> as Sacred Text'
+  title-short: 'The *Vulgata Latina* as Sacred Text'
 
 - id: 'fischer:1970use'
   type: article-journal
@@ -441,7 +441,7 @@ references:
 
 - id: 'meyvaert:2005date'
   type: article-journal
-  title: "The date of Bede's <i>In Ezram</i> and his image of Ezra in the Codex Amiatinus"
+  title: "The date of Bede's *In Ezram* and his image of Ezra in the Codex Amiatinus"
   container-title: Speculum
   page: 1087–1133
   volume: '80'
