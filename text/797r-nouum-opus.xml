@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:space="preserve">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title xml:lang="la">Nouum opus</title>
+</titleStmt>
+<publicationStmt>
+<authority>Digital Latin Library</authority>
+<availability>
+<licence target="http://creativecommons.org/licences/by-sa/4.0/">Provided under a Creative Commons Attribution-ShareAlike 4.0 International Licence.</licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<settlement>Florence</settlement>
+<repository>Biblioteca Medicea Laurenziana</repository>
+<collection>Amiatino</collection>
+<idno>1</idno>
+<msName>Codex Amiatinus</msName>
+</msIdentifier>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text xml:lang="la">
+<body>
+<pb n="797r"/>
+<cb n="a"/>
+<head rend="red" type="rubric">
+<lb/><hi rend="rubric red">Beatissimo papae <name>damaso</name> <name>hieronymus</name></hi>
+</head>
+<p rend="prose">
+<lb/>Nouum opus facere me cogis
+<lb/>ex<reg> </reg>ueteri ut<reg> </reg>post exemplaria
+<lb/>scripturarum toto orbe disper
+<lb break="no"/>sa quasi quidam abiter sedeam
+<lb/><unclear>E</unclear>t quia inter se uariant quae sint 
+<lb/>illa quae<reg> </reg>cum graeca consenti
+<lb break="no"/>ant ueritate decernam.
+<lb/>Pius labor sed periculosa prae
+<lb break="no"/>sumptio<space unit="character" n="1"/> iudicare de<reg> </reg>ceteris <del rend="strikethrough">ips<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan></del>
+<lb/>ipsum ab<reg> </reg>omni<expan>b<am>’</am><ex>us</ex></expan> iudicandum <unclear>·</unclear>
+<lb/>senis mutare linguam et<reg> </reg>can<choice><orig>i</orig><reg>e</reg></choice>
+<lb break="no"/>scentem mundum ad initia re
+<lb break="no"/>trahere paruulorum. Quis en<expan><abbr rend="supraline">i</abbr><ex>m</ex></expan> 
+<lb/>doctus pariter uel indoctus 
+<lb/>cum in manus uolumen adsump<pc rend="hyphen"/>
+<lb break="no"/>serit<space unit="character" n="1"/> et a<reg> </reg>saliua quam semel in<pc rend="hyphen"/>
+<lb break="no"/>bibit uiderit discrepare quod 
+<lb/>lectitat non<reg> </reg>statim erumpat 
+<lb/>in<reg> </reg>uocem. me falsarium me cla
+<lb break="no"/>mans esse sacrilegum qui<reg> </reg>aude
+<lb break="no"/>am aliquid in<reg> </reg>ueteri<expan>b<am>’</am><ex>us</ex></expan> libris ad
+<lb break="no"/>dere mutare corrigere.
+<lb/>Aduersum quam inuidiam du
+<lb break="no"/>plex causa me consolatur. quod 
+<lb/>et tu qui summus sacerdos es 
+<lb/>fieri iubes<space unit="character" n="1"/> et uerum non esse 
+<lb/>quod uariat<space unit="character" n="1"/> etiam maledicor<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> 
+<lb/>testimonio comprobatur. 
+<lb/>Si enim latinis exemplaribus 
+<lb/>fides est adhibenda respondeant 
+<lb/>quibus. tot sunt p<reg>a</reg>ene 
+<lb/>quot codices. sin autem ueritas 
+<lb/>est quaerenda de pluri<expan>b<am>’</am><ex>us</ex></expan> cur 
+<lb/>non ad gr<reg>a</reg>ecam originem reuer<pc rend="hyphen"/>
+<lb break="no"/>tentes ea quae uel a<reg> </reg>uitiosis in
+<lb break="no"/>terpreti<expan>b<am>’</am><ex>us</ex></expan> male edita uel a<reg> </reg>prae
+<lb break="no"/>sum<reg>p</reg>tori<expan>b<am>’</am><ex>us</ex></expan> imperitis emendata 
+<lb/>peruersius uel a<reg> </reg>librariis dor
+<lb break="no"/>mitanti<expan>b<am>’</am><ex>us</ex></expan> aut addita sunt aut 
+<lb/>mutata corrigimus. Neque ue
+<lb break="no"/>ro ego de ueteri disputo testa
+<lb break="no"/>mento quod a septuaginta se
+<lb break="no"/>niori<expan>b<am>’</am><ex>us</ex></expan> in graecam linguam 
+<cb n="b"/>
+<lb/>uersum tertio gradu ad nos us<expan>q<am>;</am><ex>ue</ex></expan> 
+<lb/>peruenit. non quaero quid <name>aqui
+<lb break="no"/>la</name> quid <name>symmachus</name> sapiant qua
+<lb break="no"/>re <name>theodotio<supplied reason="omitted">n</supplied></name> inter nouos et ue
+<lb break="no"/>teres <supplied reason="omitted">medius</supplied> incedat. Sit illa uera inter
+<lb break="no"/>pretatio quam apostoli proba
+<lb break="no"/>uerunt<space unit="character" n="1"/><reg>.</reg> De nouo nunc loquor 
+<lb/>testamento quod graecum <supplied reason="omitted">esse</supplied> 
+<lb/>non dubium est. excepto apo
+<lb break="no"/>stolo <name>mattheo</name> qui primus in<reg> </reg><name>iu
+<lb break="no"/>daea</name> euangelium <name><expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>i</expan></name> hebraeis 
+<lb/>litteris edidit. Hoc certe cum 
+<lb/>in nostro sermone discordat et 
+<lb/>diuersos riuulorum tramites du
+<lb break="no"/>cit unio de<reg> </reg>fonte quaerendu<choice><sic>s</sic><corr>m</corr></choice> 
+<lb/>est. Praetermitto eos codi
+<lb break="no"/>ces quos a<reg> </reg><name>luciano</name> et <name>hesychio</name> 
+<lb/>nuncupatos paucorum homin<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> 
+<lb/>adserit peruersa contentio. 
+<lb/>quibus utique nec in<reg> </reg>ueteri instru
+<lb break="no"/>mento post septuaginta inter
+<lb break="no"/>pretes emendare quid licuit 
+<lb/>nec in nouo profuit emendasse 
+<lb/>cum multarum gentium linguis 
+<lb/>scriptura ante translata doce
+<lb break="no"/>at falsa esse quae<reg> </reg>addita sunt<reg>.</reg>
+<lb/>Igitur haec praesens praefatiun
+<lb break="no"/>cula pollicetur quattuor <add place="inline">tantum</add> 
+<lb/>euangelia. quorum ordo iste est 
+<lb/><name>mattheus</name> <name>marcus</name> <name>lucas</name> <name>iohan
+<lb break="no"/>nes</name> codicum graecorum emen
+<lb break="no"/>data conlatione sed et ueterum 
+<lb/>quae ne multum <choice><sic>e</sic><corr>a</corr></choice><reg> </reg>lectionis lati
+<lb break="no"/>nae consuetudine discreparent 
+<lb/>ita calamo imperauimus ut 
+<lb/>his tantum quae sensum uide
+<lb break="no"/>bantur mutare correctis re
+<lb break="no"/>liqua manere pateremur ut<reg> </reg>fu
+<lb break="no"/>erant.<space unit="character" n="3"/> Canones quoque 
+<lb/>quos <name>eusebius caesariensis <roleName>epi
+<lb break="no"/>scopus <placeName>alexandrinum</placeName></roleName></name> secutus 
+<lb/><name>ammonium</name> in<reg> </reg>decem numeros 
+<lb/>ordinauit. sicut in graeco hab<expan><abbr rend="supraline">e</abbr><ex>n</ex></expan>
+<lb break="no"/>tur expressimus<unclear>.</unclear> quo si<unclear> </unclear>quis 
+<pb n="797v"/>
+<cb n="a"/>de<reg> </reg>curiosis uoluerit nosse quae 
+<lb/>in<reg> </reg>euangeliis uel eadem uel uicina 
+<lb/>uel sola sint eorum distinctione 
+<lb/>cognoscat.<space unit="character" n="2"/> Magnus siquidem 
+<lb/>hic in<reg> </reg>nostris codici<expan>b<am>’</am><ex>us</ex></expan> error inole
+<lb break="no"/>uit dum quod in eadem re alius 
+<lb/>euangelista plus dixit in<reg> </reg>alio 
+<lb/>quia minus putauerint addide
+<lb break="no"/>runt. uel dum eundem sens<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> 
+<lb/>alius aliter expressit ille qui 
+<lb/>unum e<reg> </reg>quattuor primum le
+<lb break="no"/>gerat ad eius exemplum cete
+<lb break="no"/>ros quoque aestimauerit emen
+<lb break="no"/>dandos. unde accidit ut apud 
+<lb/>nos mixta sint omnia et in 
+<lb/><name>marco</name> plura <name>lucae</name> atque <name>mat
+<lb break="no"/>thei</name> rursum in <name>mattheo</name> <name>ioh<expan><abbr rend="supraline">a</abbr><ex>n</ex></expan>
+<lb break="no"/>nis</name> et<reg> </reg><name>marci</name> et<reg> </reg>ceteris reliquo
+<lb break="no"/>rum quae<reg> </reg>aliis propria sunt 
+<lb/>inueniantur. Cum itaque ca
+<lb break="no"/>nones legeris qui subiecti<reg> </reg>sunt 
+<lb/>confusionis errore sublato 
+<lb/>et<reg> </reg>similia omnium scies et<reg> </reg>sin
+<lb break="no"/>gulis<reg> </reg>sua quaeque restitues<unclear>.</unclear> 
+<lb/>In canone primo concordant 
+<lb/>quattuor <name>mattheus</name> <name>marcus</name> 
+<lb/><name>lucas</name> <name>iohannes</name><reg>.</reg><space unit="character" n="1"/> In<reg> </reg>canone secun
+<lb break="no"/>do tres <name>mattheus</name> <name>marcus</name> <name>lucas</name> 
+<lb/>In canone tertio tres <name>mattheus</name> 
+<lb/><name>lucas</name> <name>iohannes</name><space unit="character" n="1"/> <choice><orig>i</orig><reg>I</reg></choice>n canone quarto 
+<lb/>tres <name>mattheus</name> <name>marcus</name> <name>iohannes</name> 
+<lb/>In canone quinto duo <name>mattheus</name> 
+<lb/><name>lucas</name><space unit="character" n="1"/> in canone sexto duo <name>mat
+<lb break="no"/>theus</name> <name>marcus</name><space unit="character" n="1"/> in septimo 
+<lb/>duo <name>mattheus</name> <name>iohannes</name><space unit="character" n="1"/> In cano
+<lb break="no"/>ne octauo duo <name>lucas</name> <name>marcus</name> 
+<lb/>In canone nono duo <name>lucas</name> <name>iohannes</name> 
+<lb/>In canone decimo propria unus
+<lb break="no"/>quisque quae non habentur in<reg> </reg>aliis 
+<lb/>ediderunt singulis euangeliis 
+<lb/>ab uno incipiens usque in<reg> </reg>finem 
+<lb/>librorum dispar numerus in
+<lb break="no"/>crescit<space unit="character" n="1"/> Hic nigro colore p<surplus>e</surplus>rae
+<lb break="no"/>scriptus sub<reg> </reg>se<reg> </reg>habet alium ex<reg> </reg>mi
+<cb n="b" break="no"/>
+<lb break="no"/>nio numerum discolorem qui 
+<lb/>ad decem usque procedens indi
+<lb break="no"/>cat prior numerus in quo sit 
+<lb/>canone requirendus<reg>.</reg> 
+<lb/>Cum igitur aperto codice uerbi 
+<lb/>gratia illud siue illud capitulum 
+<lb/>scire uolueris cuius canonis<reg> </reg>sit. 
+<lb/>statim ex subiecto numero 
+<lb/>doceberis. et<reg> </reg>recurrens ad prin
+<lb break="no"/>cipia in qui<expan>b<am>’</am><ex>us</ex></expan> canonum est distinc
+<lb break="no"/>ta congeries. eodem<surplus> </surplus>que statim 
+<lb/>canone ex<reg> </reg>titulo frontis inuen
+<lb break="no"/>to illum quem quaerebas nume
+<lb break="no"/>rum eiusdem euangelistae qui 
+<lb/>et<reg> </reg>ipse ex<reg> </reg>inscriptione signatur 
+<lb/>inuenies. atque e<reg> </reg>uicinia cetero
+<lb break="no"/>rum tramitibus inspectis quos 
+<lb/>numeros e<reg> </reg>regione habeant ad
+<lb break="no"/>notabis et<reg> </reg>cum scieris recurres 
+<lb/>ad<reg> </reg>uolumina singulorum et<reg> </reg>sine 
+<lb/>mora rep<reg>p</reg>ertis numeris quos 
+<lb/>ante signaueras repperies et<reg> </reg>loca 
+<lb/>in<reg> </reg>quibus uel<reg> </reg>eadem uel uicina 
+<lb/>dixerunt<unclear>.</unclear>
+</p>
+<p rend="finalRubric">
+<lb/>opto ut in <name><expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>o</expan></name> ualeas et<reg> </reg>memineris 
+<lb/>mei papa beatissime
+</p>
+</body>
+</text>
+</TEI>
