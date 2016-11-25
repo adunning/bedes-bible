@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:space="preserve">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title xml:lang="la">Preface to Mark</title>
+</titleStmt>
+<publicationStmt>
+<authority>Digital Latin Library</authority>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-sa/4.0/">Provided under a Creative Commons Attribution-ShareAlike 4.0 International Licence.</licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<settlement>Florence</settlement>
+<repository>Biblioteca Medicea Laurenziana</repository>
+<collection>Amiatino</collection>
+<idno>1</idno>
+<msName>Codex Amiatinus</msName>
+</msIdentifier>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text xml:lang="la">
+<body>
+<!--beginning 831ra -->
+<head rend="red rustic-caps"><expan>Inc<ex>i</ex>p<am>’</am><ex>it</ex></expan> praefatio</head>
+<p rend="prose">
+<lb/><name><hi rend="enlarged uncial red">M</hi><hi rend="red">arcus</hi></name> euangelista <expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan> et<reg> </reg><name>petri</name> in 
+<lb/>baptismate filius at<expan>q<am>·</am><ex>ue</ex></expan> in diuino ser
+<lb break="no"/>mone discipulus sacerdotium 
+<lb/>in<reg> </reg><name><expan>is<abbr rend="supraline">r</abbr><ex>ae</ex>l</expan></name> agens secundum carnem 
+<lb/><name>leuita</name> conuersus ad fidem <name><expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>i</expan></name> 
+<lb/><name>euangelium</name> in<reg> </reg><name>italia</name> scripsit. 
+<lb/>ostendens in<reg> </reg>eo quid et generi 
+<lb/>suo deberet et <name><expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>o</expan></name>. nam initium 
+<lb/>principii in<reg> </reg>uoce propheticae ex
+<lb break="no"/>clamationis instituens ordin<expan><abbr rend="supraline">e</abbr><ex>m</ex></expan> 
+<lb/><name>leuiticae</name> <add place="inline">e</add>lectionis ostendit. 
+<lb/>ut praedicans praedestinatum 
+<lb/><name>iohannem</name> filium <name>zachariae</name> in<reg> </reg>uo
+<lb break="no"/>ce angeli adnuntiantis emissum 
+<lb/>non solum uerbum caro factum 
+<lb/>sed et corpus <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name> per uerbum 
+<lb/>diuinae uocis animatum initio 
+<lb/>euangelicae praedicationis osten
+<lb break="no"/>deret. ut qui haec legens sciret 
+<lb/>cui initium carnis in <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>o</expan></name> et <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> ad
+<lb break="no"/>uenientis habitaculum deberet 
+<lb/>agnoscere· at<expan>q<am>·</am><ex>ue</ex></expan> in<reg> </reg>se uerbum uo
+<lb break="no"/>cis quod in<reg> </reg>consonanti<expan>b<am>·</am><ex>us</ex></expan> perdi
+<lb break="no"/>derat inueniret.
+</p>
+<p rend="prose">
+<pb n="831r"/>
+<cb n="b"/>
+<lb/>Deni<expan>q<am>·</am><ex>ue</ex></expan> et<reg> </reg>perfecti euangelii opus 
+<lb/>intrans et a baptismo <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name> prae
+<lb break="no"/>dicare <name><expan>d<ex>eu</ex><abbr rend="supraline">m</abbr></expan></name> inchoans non<reg> </reg>labora
+<lb break="no"/>uit natiuitatem carnis quam in<reg> </reg>pri
+<lb break="no"/>ori<expan>b<am>·</am><ex>us</ex></expan> uiderat dicere· sed<reg> </reg>totum in 
+<lb/>primis exp<surplus>l</surplus>osi<add place="above">ti</add>onem deserti ieiu
+<lb break="no"/>nium numeri temtationem diabo
+<lb break="no"/>li congregationem bestiarum et 
+<lb/>ministerium protulit angelor<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan>· 
+<lb/>ut instituens nos ad intelligen
+<lb break="no"/>dum ac singula in breui compingens 
+<lb/>nec auctoritatem factae rei deme
+<lb break="no"/><pc rend="hyphen"/>ret et perficiendo operi pleni
+<lb break="no"/>tudinem non negaret.
+</p>
+<p rend="prose">
+<lb/>Deni<expan>q<am>·</am><ex>ue</ex></expan> amputasse sibi post fidem 
+<lb/>pollicem dicitur ut sacerdotio 
+<lb/>reprobus haberetur· <name>sed</name> tant<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> 
+<lb/>consentiens fidei praedestinata 
+<lb/>potuit electio· ut<reg> </reg>nec<reg> </reg>sic in<reg> </reg>opere 
+<lb/>uerbi perderet quod<reg> </reg>prius meru<pc rend="hyphen"/>
+<lb break="no"/>erat in genere· nam <name>alexandriae</name> 
+<lb/>episcopus fuit· cuius per<reg> </reg>singu
+<lb break="no"/>la opus scire et<reg> </reg>euangelii in<reg> </reg>se 
+<lb/>dicta disponere et disciplinam 
+<lb/>in se<reg> </reg>legis agnoscere et<reg> </reg>diuinam 
+<lb/><name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name> in carne intelligere natur<expan><abbr rend="supraline">a</abbr><ex>m</ex></expan>· 
+<lb/>Quae et <add place="above">in</add><!-- not a replacement, is it?--> nos primum requiri dehinc 
+<lb/>inquisita uolumus agnosci· 
+<lb/>habentes mercedem exhortatio
+<lb break="no"/>nis quoniam qui plantat et<reg> </reg>qui<reg> </reg>ri
+<lb break="no"/>gat unum sunt qui<reg> </reg>autem incre
+<lb break="no"/>mentum praestat <name><expan>d<ex>eu</ex><abbr rend="supraline">s</abbr></expan></name> est.<space n="3" unit="character"/><seg type="rubric">explicit.</seg>
+</p>
+</body>
+</text>
+</TEI>
