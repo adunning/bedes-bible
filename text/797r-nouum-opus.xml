@@ -149,11 +149,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb/>confusionis errore sublato 
 <lb/>et<reg> </reg>similia omnium scies et<reg> </reg>sin
 <lb break="no"/>gulis<reg> </reg>sua quaeque restitues<unclear>.</unclear> 
-<lb/>In canone primo concordant 
+<lb rend="outdent"/>In canone primo concordant 
 <lb/>quattuor <name>mattheus</name> <name>marcus</name> 
 <lb/><name>lucas</name> <name>iohannes</name><reg>.</reg><space unit="character" n="1"/> In<reg> </reg>canone secun
 <lb break="no"/>do tres <name>mattheus</name> <name>marcus</name> <name>lucas</name> 
-<lb/>In canone tertio tres <name>mattheus</name> 
+<lb rend="outdent"/>In canone tertio tres <name>mattheus</name> 
 <lb/><name>lucas</name> <name>iohannes</name><space unit="character" n="1"/> <choice><orig>i</orig><reg>I</reg></choice>n canone quarto 
 <lb/>tres <name>mattheus</name> <name>marcus</name> <name>iohannes</name> 
 <lb/>In canone quinto duo <name>mattheus</name> 
@@ -173,19 +173,19 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb break="no"/>nio numerum discolorem qui 
 <lb/>ad decem usque procedens indi
 <lb break="no"/>cat prior numerus in quo sit 
-<lb/>canone requirendus<reg>.</reg> 
-<lb/>Cum igitur aperto codice uerbi 
+<lb/>canone requirendus
+<lb rend="outdent"/>Cum igitur aperto codice uerbi 
 <lb/>gratia illud siue illud capitulum 
 <lb/>scire uolueris cuius canonis<reg> </reg>sit. 
 <lb/>statim ex subiecto numero 
 <lb/>doceberis. et<reg> </reg>recurrens ad prin
 <lb break="no"/>cipia in qui<expan>b<am>’</am><ex>us</ex></expan> canonum est distinc
-<lb break="no"/>ta congeries. eodem<surplus> </surplus>que statim 
+<lb break="no"/>ta congeries· eodem<surplus> </surplus>que statim 
 <lb/>canone ex<reg> </reg>titulo frontis inuen
 <lb break="no"/>to illum quem quaerebas nume
 <lb break="no"/>rum eiusdem euangelistae qui 
 <lb/>et<reg> </reg>ipse ex<reg> </reg>inscriptione signatur 
-<lb/>inuenies. atque e<reg> </reg>uicinia cetero
+<lb/>inuenies· atque e<reg> </reg>uicinia cetero
 <lb break="no"/>rum tramitibus inspectis quos 
 <lb/>numeros e<reg> </reg>regione habeant ad
 <lb break="no"/>notabis et<reg> </reg>cum scieris recurres 
@@ -193,9 +193,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb/>mora rep<reg>p</reg>ertis numeris quos 
 <lb/>ante signaueras repperies et<reg> </reg>loca 
 <lb/>in<reg> </reg>quibus uel<reg> </reg>eadem uel uicina 
-<lb/>dixerunt<unclear>.</unclear>
+<lb/>dixerunt<unclear>·</unclear>
 </p>
-<p rend="finalRubric">
+<p rend="centre small" type="finalRubric">
 <lb/>opto ut in <name><expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>o</expan></name> ualeas et<reg> </reg>memineris 
 <lb/>mei papa beatissime
 </p>
