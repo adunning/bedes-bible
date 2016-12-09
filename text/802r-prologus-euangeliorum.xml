@@ -90,7 +90,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb break="no"/>gelii ueritatem seruabant.
 </p>
 <p rend="prose">
-<lb/>Secundus <name>marcus</name> interpres apostoli 
+<lb rend="outdent"/>Secundus <name>marcus</name> interpres apostoli 
 <lb/><name>petri</name> et <name>alexandrinae</name> ecclesiae pri
 <lb break="no"/>mus <expan>epi<abbr rend="supraline">sc</abbr><ex>opus</ex></expan>. qui <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>m</expan></name> quidem saluato
 <lb break="no"/>rem ipse non uidit sed ea quae magi
@@ -108,7 +108,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb/>magis quam uisa describens.
 </p>
 <p rend="prose">
-<lb/>Ultimus <name>iohannes</name> apostolus et eu
+<lb rend="outdent"/>Ultimus <name>iohannes</name> apostolus et eu
 <lb break="no"/>angelista quem <name><expan>i<am rend="supraline">h</am><ex>esu</ex>s</expan></name> amauit plurim<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> 
 <lb/>qui<reg> </reg>super pectus <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name> recumbens 
 <lb/>purissima doctrinarum fluenta 
@@ -116,7 +116,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb break="no"/>it audire <space unit="character" n="2"/>ecce mater tua.
 </p>
 <p rend="prose">
-<lb/>Is cum esset in <name>asia</name> et iam tunc here
+<lb rend="outdent"/>Is cum esset in <name>asia</name> et iam tunc here
 <lb break="no"/>ticorum semina pullulassent 
 <lb/><name>cer<choice><sic>e</sic><corr source="#Tischendorf1850">i</corr></choice>nthi</name> <name>hebionis</name> et<reg> </reg>ceterorum 
 <lb/>qui negant <name><expan><am>x</am><am rend="supraline">p</am><ex>christu</ex>m</expan></name> in<reg> </reg>carne uenisse 
@@ -159,7 +159,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb/><name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name> rectas facite semitas eius.</quote>
 </p>
 <p rend="prose">
-<lb/>Tertia uituli quae euangelistam <name>luc<expan><abbr rend="supraline">a</abbr><ex>m</ex></expan></name> 
+<lb rend="outdent"/>Tertia uituli quae euangelistam <name>luc<expan><abbr rend="supraline">a</abbr><ex>m</ex></expan></name> 
 <lb/>a<reg> </reg><name>zacharia</name> sacerdote sumsisse initi<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> 
 <lb/>praefigurauit. <space unit="character" n="4"/>Quarta <name>iohannem</name> 
 <lb/>euangelistam qui<reg> </reg>adsumtis pinnis 
@@ -168,7 +168,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb break="no"/>quuntur in eu<add place="above">n</add>dem sensum proficiunt<supplied reason="omitted">.</supplied>
 </p>
 <p rend="prose">
-<lb/>Crura eorum recta et pinnati pedes 
+<lb rend="outdent"/>Crura eorum recta et pinnati pedes 
 <lb/>et quocum<expan>q<am>’</am><ex>ue</ex></expan> <expan>s<abbr rend="supraline">p</abbr><ex>iritu</ex>s</expan> ibat ibant et<reg> </reg>non 
 <lb/>reuertebantur. et dorsa eorum 
 <lb/>plena oculis et<reg> </reg>scintillae et<reg> </reg>lampa
@@ -176,7 +176,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb/>in<reg> </reg>rota et in singulis quattuor facies<supplied reason="omitted">.</supplied>
 </p>
 <p rend="prose">
-<lb/>Unde et apocalypsis <name>iohannis</name> post expo
+<lb rend="outdent"/>Unde et apocalypsis <name>iohannis</name> post expo
 <lb break="no"/>sitionem xxiiii seniorum qui<reg> </reg>tenentes 
 <lb/>citharas et fialas adorant agnum <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> 
 <lb/>introducit fulgura et<reg> </reg>tonitrua et 
