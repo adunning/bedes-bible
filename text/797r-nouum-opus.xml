@@ -32,8 +32,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <body>
 <pb n="797r"/>
 <cb n="a"/>
-<head rend="red" type="rubric">
-<lb/><hi rend="rubric red">Beatissimo papae <name>damaso</name> <name>hieronymus</name></hi>
+<head rend="red rustic-caps" type="rubric">
+<lb/><hi rend="red rustic-caps">Beatissimo papae <name>damaso</name> <name>hieronymus</name></hi>
 </head>
 <p rend="prose">
 <lb/>Nouum opus facere me cogis
@@ -50,8 +50,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb break="no"/>scentem mundum ad initia re
 <lb break="no"/>trahere paruulorum. Quis en<expan><abbr rend="supraline">i</abbr><ex>m</ex></expan> 
 <lb/>doctus pariter uel indoctus 
-<lb/>cum in manus uolumen adsump<pc rend="hyphen"/>
-<lb break="no"/>serit<space unit="character" n="1"/> et a<reg> </reg>saliua quam semel in<pc rend="hyphen"/>
+<lb/>cum in manus uolumen adsump
+<lb break="no"/>serit<space unit="character" n="1"/> et a<reg> </reg>saliua quam semel in
 <lb break="no"/>bibit uiderit discrepare quod 
 <lb/>lectitat non<reg> </reg>statim erumpat 
 <lb/>in<reg> </reg>uocem. me falsarium me cla
@@ -69,7 +69,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb/>quibus. tot sunt p<reg>a</reg>ene 
 <lb/>quot codices. sin autem ueritas 
 <lb/>est quaerenda de pluri<expan>b<am>’</am><ex>us</ex></expan> cur 
-<lb/>non ad gr<reg>a</reg>ecam originem reuer<pc rend="hyphen"/>
+<lb/>non ad gr<reg>a</reg>ecam originem reuer
 <lb break="no"/>tentes ea quae uel a<reg> </reg>uitiosis in
 <lb break="no"/>terpreti<expan>b<am>’</am><ex>us</ex></expan> male edita uel a<reg> </reg>prae
 <lb break="no"/>sum<reg>p</reg>tori<expan>b<am>’</am><ex>us</ex></expan> imperitis emendata 

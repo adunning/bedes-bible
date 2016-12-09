@@ -80,7 +80,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb/><milestone unit="v" n="1.10"/>et<reg> </reg>statim ascendens de<reg> </reg>aqua
 <lb/>uidit apertos caelos
 <lb/>et <name><expan>s<abbr rend="supraline">p</abbr><ex>iritu</ex>m</expan></name> tamquam columb<expan><abbr rend="supraline">a</abbr><ex>m</ex></expan> 
-<lb rend="indent"/>descendentem et<reg> </reg>manen<pc rend="hyphen"/>
+<lb rend="indent"/>descendentem et<reg> </reg>manen
 <lb break="no"/>tem in<reg> </reg>ipso
 <cb n="b"/>
 <lb/><milestone unit="v" n="1.11"/>et uox facta est de<reg> </reg>caelis
@@ -1127,10 +1127,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb/><milestone unit="v" n="6.42"/>et<reg> </reg>manducauerunt omnes 
 <lb rend="indent"/>et<reg> </reg>saturati sunt
 <lb/><milestone unit="v" n="6.43"/>et<reg> </reg>sustulerunt reliquias 
-<lb rend="indent"/>fragmentorum duode<pc rend="hyphen"/>
+<lb rend="indent"/>fragmentorum duode
 <lb break="no"/>cim cophinos<!--cofinos S--> plenos 
 <lb rend="indent"/>et<reg> </reg>de piscibus
-<lb/><milestone unit="v" n="6.44"/>erant autem qui<reg> </reg>manduca<pc rend="hyphen"/>
+<lb/><milestone unit="v" n="6.44"/>erant autem qui<reg> </reg>manduca
 <lb break="no"/>uerunt quinque milia 
 <lb rend="indent"/>uirorum
 <lb rend="outdent"/><milestone unit="v" n="6.45"/><note type="canon">lxv <hi rend="red">vi</hi></note><note type="crossref">M cxlviii</note>Et statim coegit discipulos 
@@ -1823,7 +1823,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <label type="chapter" rend="red supraline" n="31">xxxi</label>
 <lb rend="outdent"/><milestone unit="v" n="10.1"/><note type="canon">ciii <hi rend="red">vi</hi></note><note type="crossref">M clxxxviiii</note><hi rend="red">Et</hi> inde<reg> </reg>exsurgens uenit in<reg> </reg>fines 
 <lb rend="indent"/><name>iudaeae</name> ultra <name>iordanen</name>
-<lb/>et<reg> </reg>conueniunt iterum tur<pc rend="hyphen"/>
+<lb/>et<reg> </reg>conueniunt iterum tur
 <lb break="no"/>bae ad eum
 <lb/>et<reg> </reg>sicut consueuerat iterum 
 <lb rend="indent"/>docebat illos
@@ -2530,7 +2530,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb rend="indent"/>id loquimini
 <lb/>non enim estis uos loquen
 <lb break="no"/>tes sed <name><expan>s<abbr rend="supraline">p</abbr><ex>iritu</ex>s</expan> <expan>s<ex>an</ex><abbr rend="supraline">c</abbr><ex>tu</ex>s</expan></name>
-<lb/><milestone unit="v" n="13.12"/>tradet autem frater fra<pc rend="hyphen"/>
+<lb/><milestone unit="v" n="13.12"/>tradet autem frater fra
 <lb break="no"/>trem in<reg> </reg>mortem 
 <lb rend="indent"/>et<reg> </reg>pater filium
 <lb/>et<reg> </reg>consurgent filii in<reg> </reg>paren
@@ -3258,7 +3258,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb break="no"/>dicauerunt ubique
 <lb/><name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>o</expan></name> cooperante et<reg> </reg>sermo
 <lb break="no"/>nem confirmante<reg> </reg>sequ<expan><abbr rend="supraline">e</abbr><ex>n</ex></expan>
-<lb rend="indent"/>tibus<reg> </reg>signis <space unit="character" n="2"/>amen <space unit="character" n="1"/><hi rend="rubric"><expan>ex<abbr rend="supraline">pl</abbr><ex>icit</ex></expan>·</hi>
+<lb rend="indent"/>tibus<reg> </reg>signis <space unit="character" n="2"/>amen <space unit="character" n="1"/><hi rend="red rustic-caps" type="finalRubric"><expan>ex<abbr rend="supraline">pl</abbr><ex>icit</ex></expan>·</hi>
 </p>
 </body>
 </text>

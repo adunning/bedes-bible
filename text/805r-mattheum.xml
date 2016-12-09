@@ -1732,7 +1732,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb rend="indent"/>sicut altera
 <cb n="b"/>
 <lb/><milestone unit="v" n="12.14"/><note type="canon">cxvii <hi rend="red supraline">iiii</hi></note><note type="crossref">M xxvi I xciii</note>Exeuntes autem <name>pharisaei</name> 
-<lb rend="indent"/>consilium faciebant aduer<pc rend="hyphen"/>
+<lb rend="indent"/>consilium faciebant aduer
 <lb break="no"/>sus eum
 <lb/>quomodo eum perderent
 <lb/><milestone unit="v" n="12.15"/><note type="canon">cxviii <hi rend="red supraline">x</hi></note><name><expan>I<am rend="supraline">h</am><ex>esu</ex>s</expan></name> autem sciens<reg> </reg>secessit inde
@@ -2326,7 +2326,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb/><name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>e</expan></name> si tu<reg> </reg>es iube<reg> </reg>me uenire 
 <lb rend="indent"/>ad<reg> </reg>te super aquas
 <lb/><milestone unit="v" n="14.29"/>at ipse ait ueni
-<lb/>et<reg> </reg>descendens <name>petrus</name> de<reg> </reg>naui<pc rend="hyphen"/>
+<lb/>et<reg> </reg>descendens <name>petrus</name> de<reg> </reg>naui
 <lb break="no"/>cula ambulabat super aquam 
 <lb/>ut<reg> </reg>ueniret ad<reg> </reg><name><expan>i<am rend="supraline">h</am><ex>esu</ex>m</expan></name>
 <lb/><milestone unit="v" n="14.30"/>uidens uero uentum ualid<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> 
@@ -3317,7 +3317,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <pb n="822r"/>
 <cb n="a"/>
 <lb/><milestone unit="v" n="21.10"/><note type="canon">ccx <hi rend="red supraline">x</hi></note>Et cum intrasset <name>hierosolym<expan><abbr rend="supraline">a</abbr><ex>m</ex></expan></name> 
-<lb/>commota est uniuersa ciui<pc rend="hyphen"/>
+<lb/>commota est uniuersa ciui
 <lb break="no"/>tas dicens<space unit="character" n="3"/> quis est hic
 <lb/><milestone unit="v" n="21.11"/>populus autem dicebat<!-- 'populi autem dicebant' S, but this works -->
 <lb/>hic est <name><expan>i<am rend="supraline">h</am><ex>esu</ex>s</expan></name> propheta 
@@ -3385,7 +3385,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb/>principes sacerdotum et<reg> </reg>se
 <lb break="no"/>niores populi dicentes
 <lb/>in qua potestate haec facis
-<lb/>et<reg> </reg>quis tibi dedit hanc pote<pc rend="hyphen"/>
+<lb/>et<reg> </reg>quis tibi dedit hanc pote
 <lb break="no"/>statem
 <lb/><milestone unit="v" n="21.24"/>Respondens <name><expan>i<am rend="supraline">h</am><ex>esu</ex>s</expan></name> dixit illis
 <lb/>interrogabo uos et<reg> </reg>ego 
@@ -4708,7 +4708,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb rend="indent"/>consueuerat praeses 
 <lb rend="indent"/>dimittere populo unum 
 <lb rend="indent"/>uinctum quem uoluissent
-<lb rend="hanging"/><milestone unit="v" n="27.16"/><note type="canon">cccxxiii <hi rend="red supraline">iiii</hi></note><note type="crossref">M cciii / I clxxxiii</note>Habebat autem tunc uinc<pc rend="hyphen"/>
+<lb rend="hanging"/><milestone unit="v" n="27.16"/><note type="canon">cccxxiii <hi rend="red supraline">iiii</hi></note><note type="crossref">M cciii / I clxxxiii</note>Habebat autem tunc uinc
 <lb break="no"/>tum insignem qui<reg> </reg>dice
 <lb break="no"/>batur <name>barabbas</name>
 <lb/><milestone unit="v" n="27.17"/>congregatis ergo illis 
@@ -5014,7 +5014,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <label type="chapter" rend="red supraline" n="88">lxxviii</label>
 <lb rend="hanging"/><milestone unit="v" n="28.16"/>Vndecim autem discipuli 
 <lb rend="indent"/>abierunt in<reg> </reg><name>galilaeam</name> 
-<lb rend="indent"/>in<reg> </reg>montem ubi constitu<pc rend="hyphen"/>
+<lb rend="indent"/>in<reg> </reg>montem ubi constitu
 <lb break="no"/>erat illis <name><expan>i<am rend="supraline">h</am><ex>esu</ex>s</expan></name>
 <lb/><milestone unit="v" n="28.17"/>et uidentes eum adorauerunt
 <lb/>quidam autem dubitauerunt
