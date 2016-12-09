@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:space="preserve">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title xml:lang="la">Praefatio Matthei</title>
+</titleStmt>
+<publicationStmt>
+<authority>Digital Latin Library</authority>
+<availability>
+<licence target="https://creativecommons.org/licences/by-sa/4.0/">Provided under a Creative Commons Attribution-ShareAlike 4.0 International Licence.</licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<settlement>Florence</settlement>
+<repository>Biblioteca Medicea Laurenziana</repository>
+<collection>Amiatino</collection>
+<idno>1</idno>
+<msName>Codex Amiatinus</msName>
+</msIdentifier>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text xml:lang="la">
+<body>
+<head rend="centre red rustic-caps">Praefatio</head>
+<p rend="prose">
+<lb rend="outdent"/><name>Matheus</name> ex <name>iudaea</name> sicut in<reg> </reg>ordine 
+<lb/>primus ponitur euangelium in <name>iudaea</name> 
+<lb/>primus<reg> </reg>scripsit <space unit="character" n="2"/>cuius uocatio ad <name><expan>d<ex>eu</ex><abbr rend="supraline">m</abbr></expan></name> 
+<lb/>ex<reg> </reg>publicanis acti<expan>b<am>’</am><ex>us</ex></expan> fuit <space unit="character" n="2"/>duorum in 
+<lb/>generatione <name><expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>i</expan></name> principia praesumens 
+<lb/>unius cuius prima circumcisio in<reg> </reg>car
+<lb break="no"/>ne<del rend="erased">.</del> alterius secundum cor electio fuit 
+<lb/>et ex<reg> </reg>utris<expan>q<am>’</am><ex>ue</ex></expan> in pa<add place="above">t</add>ri<expan>b<am>’</am><ex>us</ex></expan> <name><expan><am>x</am><am rend="supraline">p</am><ex>christu</ex>s</expan></name> est. Sicque 
+<lb/>quater<reg> </reg>denario numero triformiler 
+<lb/>posito principium a<reg> </reg>credendi fide in 
+<lb/>electionis tempus porrigens et<reg> </reg>ex 
+<lb/>electione in<reg> </reg>transmigrationis diem 
+<lb/>dirigens at<expan>q<am>’</am><ex>ue</ex></expan> a<reg> </reg>transmigratione us<expan>q<am>’</am><ex>ue</ex></expan> 
+<lb/>in<reg> </reg><name><expan><am>x</am><am rend="supraline">p</am><ex>christu</ex>m</expan></name> definiens decursam <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name> aduen
+<lb break="no"/>tus ostendit generationem. ut et 
+<lb/>numero satis<surplus> </surplus>faciens et tempori 
+<lb/>et se quod<reg> </reg>esset ostenderet et <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> in<reg> </reg>se 
+<lb/>opus monstrans etiam in<reg> </reg>his quor<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> 
+<lb/>genus posuit <name><expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>i</expan></name> operantis a<reg> </reg>prin
+<lb break="no"/>cipio testimonium non<reg> </reg>negaret 
+<lb/>quarum omnium rerum tempus 
+<lb/>ordo numerus dispositio uel ratio 
+<lb/>quod fidei necessarium est <name><expan>d<ex>eu</ex><abbr rend="supraline">s</abbr></expan></name> <name><expan><am>x</am><am rend="supraline">p</am><ex>christu</ex>s</expan></name> est 
+<lb/>qui factus est ex<reg> </reg>muliere factus sub 
+<lb/>lege natus ex<reg> </reg><del rend="expunct">m</del>uirgine passus in<reg> </reg>carne 
+<lb/>omnia in cruce fixit. ut<reg> </reg>triumphans 
+<lb/>ea in<reg> </reg>semet ipso resurgens in corpo
+<lb break="no"/>re et patris nomen in patri<expan>b<am>’</am><ex>us</ex></expan> filio 
+<lb/>et filii nomen patri restitueret in fi
+<lb break="no"/>liis. sine principio sine<reg> </reg>fine. ostendens 
+<lb/>unum se cum patre<reg> </reg>esse quia unus est<supplied reason="omitted">.</supplied>
+</p>
+<p rend="prose">
+<lb/>In quo euangelio utile est desideranti<expan>b<am>’</am><ex>us</ex></expan> 
+<pb n="803r"/>
+<cb n="a"/>
+<lb/><name><expan>d<ex>eu</ex><abbr rend="supraline">m</abbr></expan></name> sic prima uel media uel perfecta 
+<lb/>cognoscere. ut et uocationem apo
+<lb break="no"/>stoli et opus euangelii et<reg> </reg>dilectio
+<lb break="no"/>nem <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> in carne nascentis per uni
+<lb break="no"/>uersa legentes intellegant at<expan>q<am>’</am><ex>ue</ex></expan> id 
+<lb/>in<reg> </reg>eo in quo adprehensi sunt et ad
+<lb break="no"/>prehendere expetunt recogno
+<lb break="no"/>scant. nobis enim hoc in studio ar<pc rend="hyphen"/>
+<lb break="no"/>gumenti fuit <space unit="character" n="2"/>et fidem factae rei 
+<lb/>tradere <space unit="character" n="2"/>et operantis <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> intelle
+<lb break="no"/>gendam diligenter esse dispositi
+<lb break="no"/>onem quaerenti<expan>b<am>’</am><ex>us</ex></expan> non tacere<supplied reason="omitted">.</supplied> <seg type="finalRubric"><hi rend="red rustic-caps"><expan>ex<abbr rend="supraline">pl</abbr><ex>icit</ex></expan></hi></seg>
+</p>
+</body>
+</text>
+</TEI>
