@@ -45,8 +45,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb rend="outdent"/>Qui cum iam descripta essent 
 <lb/>euangelia per <name>matheum</name> quidem 
 <lb/>in<reg> </reg><name>iudaea</name> per <name>marcum</name> autem in 
-<lb/><name>italia</name> <expan>s<ex>an</ex><abbr rend="supraline">c</abbr><ex>t</ex>o</expan> instigante <name><expan>s<abbr rend="supraline">p</abbr><ex>irit</ex>u</expan> <surplus><expan>s<ex>an</ex><abbr rend="supraline">c</abbr><ex>t</ex>o</expan></surplus></name> in 
-<lb/><name>achaiae</name> parti<expan>b<am>’</am><ex>us</ex></expan> hoc <add place="above">de</add>scripsit euan
+<lb/><name>italia</name> <expan>s<ex>an</ex><abbr rend="supraline">c</abbr><ex>t</ex>o</expan> instigante <name><expan>s<abbr rend="supraline">p</abbr><ex>irit</ex>u</expan> <surplus source="#Tischendorf1850"><expan>s<ex>an</ex><abbr rend="supraline">c</abbr><ex>t</ex>o</expan></surplus></name> in 
+<lb/><name>achaiae</name> parti<expan>b<am>’</am><ex>us</ex></expan> hoc <surplus source="#Tischendorf1850"><add place="above">de</add></surplus>scripsit euan
 <lb break="no"/>gelium <space unit="character" n="2"/>significans etiam ipse 
 <lb/>in principio ante alia esse descripta<supplied reason="omitted">.</supplied>
 </p>
@@ -54,7 +54,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb rend="outdent"/>Cui extra ea quae ordo euangelicae 
 <lb/>dispositionis exposcit ea maxime 
 <lb/>necessitas fuit laboris ut<reg> </reg>prim<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> 
-<lb/>graecis fideli<expan>b<am>’</am><ex>us</ex></expan> omni <seg xml:id="perfectione"><!-- is it useful to encode the ÷ above this work as a metamark? -->perfectione</seg><note target="#perfectione" place="margin"><expan>u<ex>e</ex><abbr rend="stroke">l</abbr></expan> prophetatione</note> 
+<lb/>graecis fideli<expan>b<am>’</am><ex>us</ex></expan> omni <seg xml:id="perfectione"><!-- is it useful to encode the ÷ above this word as a metamark? -->perfectione</seg><note target="#perfectione" place="margin"><expan>u<ex>e</ex><abbr rend="stroke">l</abbr></expan> prophetatione</note> 
 <lb/>uenturi in carne <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> manifestata 
 <lb/>ne iudaicis fabulis intenti in<reg> </reg>solo 
 <lb/>legis desiderio tenerentur neue 

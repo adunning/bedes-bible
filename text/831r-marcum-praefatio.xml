@@ -94,7 +94,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb/>habentes mercedem exhortatio
 <lb break="no"/>nis quoniam qui plantat et<reg> </reg>qui<reg> </reg>ri
 <lb break="no"/>gat unum sunt qui<reg> </reg>autem incre
-<lb break="no"/>mentum praestat <name><expan>d<ex>eu</ex><abbr rend="supraline">s</abbr></expan></name> est. <space n="2" unit="character"/><seg type="rubric"><expan>ex<abbr rend="supraline">pl</abbr><ex>icit</ex></expan>·</seg>
+<lb break="no"/>mentum praestat <name><expan>d<ex>eu</ex><abbr rend="supraline">s</abbr></expan></name> est. <space n="2" unit="character"/><seg type="rubric"><hi rend="red rustic-caps"><expan>ex<abbr rend="supraline">pl</abbr><ex>icit</ex></expan>·</hi></seg>
 </p>
 </body>
 </text>
