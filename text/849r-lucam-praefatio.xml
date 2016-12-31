@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:space="preserve">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title xml:lang="la">Preface to Luke</title>
+</titleStmt>
+<publicationStmt>
+<authority>Digital Latin Library</authority>
+<availability>
+<licence target="https://creativecommons.org/licences/by-sa/4.0/">Provided under a Creative Commons Attribution-ShareAlike 4.0 International Licence.</licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<settlement>Florence</settlement>
+<repository>Biblioteca Medicea Laurenziana</repository>
+<collection>Amiatino</collection>
+<idno>1</idno>
+<msName>Codex Amiatinus</msName>
+</msIdentifier>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text xml:lang="la">
+<body>
+<!--beginning 849rb -->
+<head rend="red rustic-caps"><expan>I<abbr rend="supraline">nc</abbr><ex>i</ex>p<ex>it</ex></expan> praefatio</head>
+<p rend="prose">
+<name><hi rend="red"><hi rend="enlarged">L</hi>ucas</hi></name> <name>syros</name> natione <name>anthiocensis</name> 
+<lb/>arte medicus discipulus apostolor<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> 
+<lb/>postea <name>paulum</name> secutus us<expan>q<am>’</am><ex>ue</ex></expan> ad con
+<lb break="no"/>fessionem eius seruiens <expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>o</expan> sine 
+<lb/>crimine nam ne<expan>q<am>’</am><ex>ue</ex></expan> uxorem umqu<expan><abbr rend="supraline">a</abbr><ex>m</ex></expan> 
+<lb/>habens ne<expan>q<am>’</am><ex>ue</ex></expan> filios <space unit="character" n="2"/>Lxxiiii annor<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> 
+<lb/>obiit in<reg> </reg><name>bythinia</name> plenus <name><expan>s<abbr rend="supraline">p</abbr><ex>irit</ex>u</expan> <expan>s<ex>an</ex><abbr rend="supraline">c</abbr><ex>t</ex>o</expan></name>. 
+</p>
+<p rend="prose">
+<lb rend="outdent"/>Qui cum iam descripta essent 
+<lb/>euangelia per <name>matheum</name> quidem 
+<lb/>in<reg> </reg><name>iudaea</name> per <name>marcum</name> autem in 
+<lb/><name>italia</name> <expan>s<ex>an</ex><abbr rend="supraline">c</abbr><ex>t</ex>o</expan> instigante <name><expan>s<abbr rend="supraline">p</abbr><ex>irit</ex>u</expan> <surplus><expan>s<ex>an</ex><abbr rend="supraline">c</abbr><ex>t</ex>o</expan></surplus></name> in 
+<lb/><name>achaiae</name> parti<expan>b<am>’</am><ex>us</ex></expan> hoc <add place="above">de</add>scripsit euan
+<lb break="no"/>gelium <space unit="character" n="2"/>significans etiam ipse 
+<lb/>in principio ante alia esse descripta<supplied reason="omitted">.</supplied>
+</p>
+<p rend="prose">
+<lb rend="outdent"/>Cui extra ea quae ordo euangelicae 
+<lb/>dispositionis exposcit ea maxime 
+<lb/>necessitas fuit laboris ut<reg> </reg>prim<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> 
+<lb/>graecis fideli<expan>b<am>’</am><ex>us</ex></expan> omni <seg xml:id="perfectione"><!-- is it useful to encode the ÷ above this work as a metamark? -->perfectione</seg><note target="#perfectione" place="margin"><expan>u<ex>e</ex><abbr rend="stroke">l</abbr></expan> prophetatione</note> 
+<lb/>uenturi in carne <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> manifestata 
+<lb/>ne iudaicis fabulis intenti in<reg> </reg>solo 
+<lb/>legis desiderio tenerentur neue 
+<lb/>hereticis fabulis et<reg> </reg>stultis sollici
+<lb break="no"/>tationi<expan>b<am>’</am><ex>us</ex></expan> seducti excederent a<reg> </reg>ue
+<lb break="no"/>ritate elaboraret.
+</p>
+<pb n="849v"/>
+<cb n="a"/>
+<p rend="prose">
+<lb rend="outdent"/>Dehinc ut in principio euangelii 
+<lb/><name>iohannis</name> natiuitate praesumta cui 
+<lb/>euangelium scriberet et in<reg> </reg>quo 
+<lb/>electus scriberet indicaret conte
+<lb break="no"/>stans in<reg> </reg>se completa esse quae es
+<lb break="no"/>sent ab<reg> </reg>aliis inchoata <space unit="character" n="2"/>cui ideo 
+<lb/>post baptismum filii <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> a perfecti
+<lb break="no"/>one generationis in<reg> </reg><name><expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>o</expan></name> impletae 
+<lb/>et<reg> </reg>repetendae a<reg> </reg>principio natiuita
+<lb break="no"/>tis humanae potestas permissa 
+<lb/>est <space unit="character" n="2"/>ut<reg> </reg>requirenti<expan>b<am>’</am><ex>us</ex></expan> demonstra
+<lb break="no"/>ret in<reg> </reg>quo adprehendens erat 
+<lb/>per <name>nathan</name> filium introitu recur
+<lb break="no"/>rentis in <name><expan>d<ex>eu</ex><abbr rend="supraline">m</abbr></expan></name> generationis admis
+<lb break="no"/>so indispartibilis <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> praedicans in 
+<lb/>hominibus <name><expan><am>x</am><am rend="supraline">p</am><ex>christu</ex>m</expan></name> suum perfecti 
+<lb/>opus <add place="left">hominis</add> redire in<reg> </reg>se per<reg> </reg>filium face
+<lb break="no"/>ret <space unit="character" n="1"/>qui<reg> </reg>per <name>dauid</name> patrem uenien
+<lb break="no"/>ti<expan>b<am>’</am><ex>us</ex></expan> iter praebebat in <name><expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>o</expan></name>. Cui <name>lucae</name> 
+<lb/>non inmerito etiam scribendor<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> 
+<lb/>apostolicorum actuum potestas 
+<lb/>in<reg> </reg>mysterio datur. ut <name><expan>d<ex>e</ex><abbr rend="supraline">o</abbr></expan></name> in <name><expan>d<ex>eu</ex><abbr rend="supraline">m</abbr></expan></name> ple
+<lb break="no"/>no ac filio proditionis extincto 
+<lb/>oratione ab apostolis facta sorte 
+<lb/><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan> electionis numerus comple
+<lb break="no"/>retur. Sic<expan>q<am>’</am><ex>ue</ex></expan> <name>paulus</name> consumma
+<lb break="no"/>tionem apostolicis acti<expan>b<am>’</am><ex>us</ex></expan> daret 
+<lb/>quem diu contra stimulos recalci
+<lb break="no"/>trantem <expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>s</expan> elegisset. <space unit="character" n="2"/>Quod leg<expan><abbr rend="supraline">e</abbr><ex>n</ex></expan>
+<lb break="no"/>ti<expan>b<am>’</am><ex>us</ex></expan> ac requirenti<expan>b<am>’</am><ex>us</ex></expan> <expan>d<ex>eu</ex><abbr rend="supraline">m</abbr></expan> etsi per 
+<lb/>singula expediri a<reg> </reg>nobis utile fuerat 
+<lb/>scientes tamen quod operantem 
+<lb/>agricolam oporteat de<reg> </reg>fructibus 
+<lb/>suis edere <space unit="character" n="2"/>uitamus publicam 
+<lb/>curiositatem <space unit="character" n="2"/>ne<reg> </reg>non tam demon
+<lb break="no"/>strare uolenti<expan>b<am>’</am><ex>us</ex></expan> <name><expan>d<ex>eu</ex><abbr rend="supraline">m</abbr></expan></name> uideremur 
+<lb/>quam fastidienti<expan>b<am>’</am><ex>us</ex></expan> prodisse. <space n="2" unit="character"/><seg type="rubric"><hi rend="red rustic-caps"><expan>ex<abbr rend="supraline">pl</abbr><ex>icit</ex></expan></hi></seg>
+</p>
+</body>
+</text>
+</TEI>
