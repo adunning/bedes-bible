@@ -83,457 +83,457 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <body>
 <!--beginning 849ra -->
 <head>
-<lb/><hi rend="red rustic-caps">Item indicia siue capitula</hi>
-<lb/>lectionum euangelii <expan>s<abbr rend="supraline">ec</abbr><ex>undum</ex></expan> lucan</head>
+<lb rend="indent"/><hi rend="red rustic-caps">Item indicia siue capitula</hi>
+<lb rend="indent"/>lectionum euangelii <expan>s<abbr rend="supraline">ec</abbr><ex>undum</ex></expan> lucan</head>
 <cb n="b"/>
 <list>
 <item><lb/><label rend="red">i</label> <hi rend="red">Praefatione <name>lucas</name> <name>theophilo</name></hi> 
-<lb/>euangelium indicat per ordi
-<lb break="no"/>nem descripturum</item>
+<lb rend="indent"/>euangelium indicat per ordi
+<lb break="no" rend="indent"/>nem descripturum</item>
 <item><lb/><label rend="red">ii</label> <hi rend="red">S</hi>acerdotium iusti <name>zachariae</name> refer
-<lb break="no"/>tur et<reg> </reg>uisio in<reg> </reg>templo qua<reg> </reg>ei filius 
+<lb break="no" rend="indent"/>tur et<reg> </reg>uisio in<reg> </reg>templo qua<reg> </reg>ei filius 
 <lb rend="indent"/>angelo reuelante promittitur 
 <lb rend="indent"/>nasciturus cuius etiam concep
-<lb break="no"/>tio memoratur</item>
+<lb break="no" rend="indent"/>tio memoratur</item>
 <item><lb/><label rend="red">iii</label> <hi rend="red">M</hi>issus angelus ad <name>mariam</name> nascitur<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> 
 <lb rend="indent"/>loquitur saluatorem quo mox 
-<lb/>concepto salutatur ab<reg> </reg><name>eli<!-- hole in parchment? -->sabeth</name> 
-<lb/>exultante in<reg> </reg>utero <name>iohanne</name> 
-<lb/>unde post tres menses reuer
-<lb break="no"/>sa est in domum suam</item>
+<lb rend="indent"/>concepto salutatur ab<reg> </reg><name>eli<!-- hole in parchment? -->sabeth</name> 
+<lb rend="indent"/>exultante in<reg> </reg>utero <name>iohanne</name> 
+<lb rend="indent"/>unde post tres menses reuer
+<lb break="no" rend="indent"/>sa est in domum suam</item>
 <item><lb/><label rend="red">iiii</label> <hi rend="red">N</hi>ato <name>iohanne</name> uox eloquii muto 
-<lb/>redditur patri ilico prophetanti 
-<lb/>puer in<reg> </reg>deserto est us<expan>q<am>’</am><ex>ue</ex></expan> in<reg> </reg>diem 
-<lb/>ostensionis suae ad <name>israhel</name></item>
+<lb rend="indent"/>redditur patri ilico prophetanti 
+<lb rend="indent"/>puer in<reg> </reg>deserto est us<expan>q<am>’</am><ex>ue</ex></expan> in<reg> </reg>diem 
+<lb rend="indent"/>ostensionis suae ad <name>israhel</name></item>
 <item><lb/><label rend="red">v</label> <hi rend="red">R</hi>efertur edictum <name>caesaris</name> et<reg> </reg>na
-<lb break="no"/>tiuitas <name><expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>i</expan></name> pastori<expan>b<am>’</am><ex>us</ex></expan> ab<reg> </reg>angelo 
-<lb/>nuntiatur cum quo caelestis 
-<lb/>multitudo canit gloria in<reg> </reg>ex
-<lb break="no"/>celsis <name><expan>d<ex>e</ex><abbr rend="supraline">o</abbr></expan></name></item>
+<lb break="no" rend="indent"/>tiuitas <name><expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>i</expan></name> pastori<expan>b<am>’</am><ex>us</ex></expan> ab<reg> </reg>angelo 
+<lb rend="indent"/>nuntiatur cum quo caelestis 
+<lb rend="indent"/>multitudo canit gloria in<reg> </reg>ex
+<lb break="no" rend="indent"/>celsis <name><expan>d<ex>e</ex><abbr rend="supraline">o</abbr></expan></name></item>
 <item><lb/><label rend="red">vi</label> <hi rend="red">A</hi>ngelis descendenti<expan>b<am>’</am><ex>us</ex></expan> pastores 
-<lb/>profecti saluatorem in praese
-<lb break="no"/>pio positum reppererunt 
-<lb/><name><expan>d<ex>eu</ex><abbr rend="supraline">m</abbr></expan></name> super his quae uidebant 
-<lb/>conlaudantes</item>
+<lb rend="indent"/>profecti saluatorem in praese
+<lb break="no" rend="indent"/>pio positum reppererunt 
+<lb rend="indent"/><name><expan>d<ex>eu</ex><abbr rend="supraline">m</abbr></expan></name> super his quae uidebant 
+<lb rend="indent"/>conlaudantes</item>
 <item><lb/><label rend="red">vii</label> <hi rend="red">Oc</hi>tauo die circumcisionis eius 
-<lb/>prophetia<surplus source="#Tischendorf1850">e</surplus> praesentis <name>symeo
-<lb break="no"/>nis</name> iusti uel <name>annae</name> prophetis
-<lb break="no"/>sae narratur</item>
+<lb rend="indent"/>prophetia<surplus source="#Tischendorf1850">e</surplus> praesentis <name>symeo
+<lb break="no" rend="indent"/>nis</name> iusti uel <name>annae</name> prophetis
+<lb break="no" rend="indent"/>sae narratur</item>
 <item><lb/><label rend="red">viii</label> <hi rend="red">D</hi>uodenis ipse remansit a<reg> </reg>suis 
-<lb/>in<reg> </reg>templo quaerenti matri 
-<lb/>dicens in<reg> </reg>his quae patris mei 
-<lb/>oportet me<reg> </reg>esse</item>
+<lb rend="indent"/>in<reg> </reg>templo quaerenti matri 
+<lb rend="indent"/>dicens in<reg> </reg>his quae patris mei 
+<lb rend="indent"/>oportet me<reg> </reg>esse</item>
 <item><lb/><label rend="red">ix</label> <hi rend="red">A</hi>nno xv <name>tiberii</name> <name>caesaris</name> <name>iohan
-<lb break="no"/>nis</name> orta praedicatio dicitur 
-<lb/>qua<reg> </reg>cunctos ad<reg> </reg>paenitentiam 
-<lb/>cohortatur et<reg> </reg>calciamentis 
-<lb/><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan> se fatetur indignum</item>
+<lb break="no" rend="indent"/>nis</name> orta praedicatio dicitur 
+<lb rend="indent"/>qua<reg> </reg>cunctos ad<reg> </reg>paenitentiam 
+<lb rend="indent"/>cohortatur et<reg> </reg>calciamentis 
+<lb rend="indent"/><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan> se fatetur indignum</item>
 <item><lb/><label rend="red">x</label> <hi rend="red">H</hi>erodes carceri dat <name>iohannem</name> 
-<lb/>et ·xxx· annorum baptizato <expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>o</expan> 
-<lb/>trinitatis in baptismo mysteri<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> 
+<lb rend="indent"/>et ·xxx· annorum baptizato <expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>o</expan> 
+<lb rend="indent"/>trinitatis in baptismo mysteri<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> 
 <pb n="850r"/>
 <cb n="a"/>
-<lb/>declaratur. generationum lxxvii 
-<lb/>a <name><expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>o</expan></name> sursum uersus us<expan>q<am>’</am><ex>ue</ex></expan> ad <name><expan>d<ex>eu</ex><abbr rend="supraline">m</abbr></expan></name> 
-<lb/>ordo conte<del rend="erased"><gap reason="illegible" quantity="2" unit="character"/></del>xitur</item>
+<lb rend="indent"/>declaratur. generationum lxxvii 
+<lb rend="indent"/>a <name><expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>o</expan></name> sursum uersus us<expan>q<am>’</am><ex>ue</ex></expan> ad <name><expan>d<ex>eu</ex><abbr rend="supraline">m</abbr></expan></name> 
+<lb rend="indent"/>ordo conte<del rend="erased"><gap reason="illegible" quantity="2" unit="character"/></del>xitur</item>
 <item><lb/><label rend="red">xi</label> <hi rend="red">XL</hi> dierum ieiunium et<reg> </reg>trina temta
-<lb break="no"/>tione diabolus superatus osten
-<lb break="no"/>ditur</item>
+<lb break="no" rend="indent"/>tione diabolus superatus osten
+<lb break="no" rend="indent"/>ditur</item>
 <item><lb/><label rend="red">xii</label> <hi rend="red">F</hi>ama regressi in<reg> </reg><name>galilaeam</name> refer
-<lb break="no"/>tur et quod <name>esaiae</name> librum accipi
-<lb break="no"/>ens de<reg> </reg>se<reg> </reg>impletum dixerit 
-<lb/>nec habere prophetam honor<expan><abbr rend="supraline">e</abbr><ex>m</ex></expan> 
-<lb/>in<reg> </reg>patria sua <space unit="character" n="2"/>relata etiam uidua 
-<lb/>de <name>serapta</name> uel leprosi <name>neman</name> 
-<lb/><name>syri</name> mundatione <space unit="character" n="2"/>quod per 
-<lb/>medium eorum qui eam de 
-<lb/>monte praecipitare uolebant 
-<lb/>transierit indicatur</item>
+<lb break="no" rend="indent"/>tur et quod <name>esaiae</name> librum accipi
+<lb break="no" rend="indent"/>ens de<reg> </reg>se<reg> </reg>impletum dixerit 
+<lb rend="indent"/>nec habere prophetam honor<expan><abbr rend="supraline">e</abbr><ex>m</ex></expan> 
+<lb rend="indent"/>in<reg> </reg>patria sua <space unit="character" n="2"/>relata etiam uidua 
+<lb rend="indent"/>de <name>serapta</name> uel leprosi <name>neman</name> 
+<lb rend="indent"/><name>syri</name> mundatione <space unit="character" n="2"/>quod per 
+<lb rend="indent"/>medium eorum qui eam de 
+<lb rend="indent"/>monte praecipitare uolebant 
+<lb rend="indent"/>transierit indicatur</item>
 <item><lb/><label rend="red">xiii</label> <hi rend="red">C</hi>onfitentem in<reg> </reg>synagoga daemo
-<lb break="no"/>nem pellit ex<reg> </reg>homine</item>
+<lb break="no" rend="indent"/>nem pellit ex<reg> </reg>homine</item>
 <item><lb/><label rend="red">xiiii</label> <hi rend="red">S</hi>ocrus <name>petri</name> et multorum infir
-<lb break="no"/>morum turba sanatur et<reg> </reg>con
-<lb break="no"/>fessio daemonum prohibetur</item>
+<lb break="no" rend="indent"/>morum turba sanatur et<reg> </reg>con
+<lb break="no" rend="indent"/>fessio daemonum prohibetur</item>
 <item><lb/><label rend="red">xv</label> <hi rend="red">D</hi>uabus nauiculis captura piscium 
-<lb/>in<reg> </reg>uerbo <expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan> repente completis 
-<lb/>timor pauescentis <name>petri</name> socio
-<lb break="no"/>rum<expan>q<am>’</am><ex>ue</ex></expan> eius edicitur</item>
+<lb rend="indent"/>in<reg> </reg>uerbo <expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan> repente completis 
+<lb rend="indent"/>timor pauescentis <name>petri</name> socio
+<lb break="no" rend="indent"/>rum<expan>q<am>’</am><ex>ue</ex></expan> eius edicitur</item>
 <item><lb/><label rend="red">xvi</label> <hi rend="red">L</hi>eproso mundato multi uirtute 
-<lb/><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan> curantur infirmi</item>
+<lb rend="indent"/><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan> curantur infirmi</item>
 <item><lb/><label rend="red">xvii</label> <hi rend="red">P</hi>aralyticum nudato tecto dimiss<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> 
-<lb/>ante<reg> </reg>se <space unit="character" n="2"/>et<reg> </reg>a<reg> </reg>peccatis et<reg> </reg>a<reg> </reg>paraly
-<lb break="no"/>si curat</item>
+<lb rend="indent"/>ante<reg> </reg>se <space unit="character" n="2"/>et<reg> </reg>a<reg> </reg>peccatis et<reg> </reg>a<reg> </reg>paraly
+<lb break="no" rend="indent"/>si curat</item>
 <item><lb/><label rend="red">xviii</label> <hi rend="red">L</hi>eui qui<reg> </reg>et<reg> </reg><name>matheus</name> de teloneo uo
-<lb break="no"/>catur<add place="inline" hand="#faint">.</add> murmurantes de<reg> </reg>publi
-<lb break="no"/>canorum conuiuio uel de<reg> </reg>ieiunio 
-<lb/>adhibita sponsi et<reg> </reg>uestimenti 
-<lb/>ac uini noui comparatione 
-<lb/>redarguit</item>
+<lb break="no" rend="indent"/>catur<add place="inline" hand="#faint">.</add> murmurantes de<reg> </reg>publi
+<lb break="no" rend="indent"/>canorum conuiuio uel de<reg> </reg>ieiunio 
+<lb rend="indent"/>adhibita sponsi et<reg> </reg>uestimenti 
+<lb rend="indent"/>ac uini noui comparatione 
+<lb rend="indent"/>redarguit</item>
 <item><lb/><label rend="red">xix</label> <hi rend="red">Q</hi>uaerentes de<reg> </reg>euulsione spicar<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> 
-<lb/>in<reg> </reg>sabbatis relato <name>dauid</name> exem
-<lb break="no"/>plo conuincit</item>
+<lb rend="indent"/>in<reg> </reg>sabbatis relato <name>dauid</name> exem
+<lb break="no" rend="indent"/>plo conuincit</item>
 <item><lb/><label rend="red">xx</label> <hi rend="red">I</hi>n synagoga manum aridam sanat 
-<lb/>repletis insipientia <name>pharisaeis</name></item>
+<lb rend="indent"/>repletis insipientia <name>pharisaeis</name></item>
 <item><lb/><label rend="red">xxi</label> <hi rend="red">P</hi>ernoctans in<reg> </reg>oratione mane duo
-<lb break="no"/>decim apostolos nominat 
-<lb/>tangentes eum sanantur egroti</item>
+<lb break="no" rend="indent"/>decim apostolos nominat 
+<lb rend="indent"/>tangentes eum sanantur egroti</item>
 <cb n="b"/>
 <item><lb/><label rend="red">xxii</label> <hi rend="red">P</hi>auperes esurientes flentes per
-<lb break="no"/>secutionem patientes beatos uocat 
-<lb/>uae diuitibus ac ridenti<expan>b<am>’</am><ex>us</ex></expan> dicens 
-<lb/>etiam inimicos praec<subst><del rend="alt">e</del><add place="above">i</add></subst>pit diligen
-<lb break="no"/>dos et<reg> </reg>percutienti uel nudanti 
-<lb/>minime resistendum</item>
+<lb break="no" rend="indent"/>secutionem patientes beatos uocat 
+<lb rend="indent"/>uae diuitibus ac ridenti<expan>b<am>’</am><ex>us</ex></expan> dicens 
+<lb rend="indent"/>etiam inimicos praec<subst><del rend="alt">e</del><add place="above">i</add></subst>pit diligen
+<lb break="no" rend="indent"/>dos et<reg> </reg>percutienti uel nudanti 
+<lb rend="indent"/>minime resistendum</item>
 <item><lb/><label rend="red">xxiii</label> <hi rend="red">D</hi>e<reg> </reg>festuca et trabe arbore quoque 
-<lb/>bona et mala atque domo aedifi
-<lb break="no"/>canda parabolam ponit</item>
+<lb rend="indent"/>bona et mala atque domo aedifi
+<lb break="no" rend="indent"/>canda parabolam ponit</item>
 <item><lb/><label rend="red">xxiiii</label> <hi rend="red">C</hi>enturionis seruum curat rogan
-<lb break="no"/>tibus pro eo seniori<expan>b<am>’</am><ex>us</ex></expan> et amicis</item>
+<lb break="no" rend="indent"/>tibus pro eo seniori<expan>b<am>’</am><ex>us</ex></expan> et amicis</item>
 <item><lb/><label rend="red">xxv</label> <hi rend="red">F</hi>ilius unicus uiduae<reg> </reg>matris mortu
-<lb break="no"/>us iam ciuitate elatus de<reg> </reg>fere
-<lb break="no"/>tro suscitatur</item>
+<lb break="no" rend="indent"/>us iam ciuitate elatus de<reg> </reg>fere
+<lb break="no" rend="indent"/>tro suscitatur</item>
 <item><lb/><label rend="red">xxvi</label> <hi rend="red">R</hi>egressis <name>iohannis</name> nuntiis multa 
-<lb/>de<reg> </reg>eius magnitudine loquitur 
-<lb/>et<reg> </reg>pueris sedenti<expan>b<am>’</am><ex>us</ex></expan> in<reg> </reg>foro gene
-<lb break="no"/>rationem comparat <name>iudaeorum</name></item>
+<lb rend="indent"/>de<reg> </reg>eius magnitudine loquitur 
+<lb rend="indent"/>et<reg> </reg>pueris sedenti<expan>b<am>’</am><ex>us</ex></expan> in<reg> </reg>foro gene
+<lb break="no" rend="indent"/>rationem comparat <name>iudaeorum</name></item>
 <item><lb/><label rend="red">xxvii</label> <hi rend="red">D</hi>iscumbentis <expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan> pedes mulier 
-<lb/>lacrimis rigat et<reg> </reg><name>pharisaei</name> cogi
-<lb break="no"/>tatio <space unit="character" n="2"/>parabola duorum 
-<lb/>arguitur debitorum</item>
+<lb rend="indent"/>lacrimis rigat et<reg> </reg><name>pharisaei</name> cogi
+<lb break="no" rend="indent"/>tatio <space unit="character" n="2"/>parabola duorum 
+<lb rend="indent"/>arguitur debitorum</item>
 <item><lb/><label rend="red">xxviii</label> <hi rend="red">E</hi>uangelizanti <expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>o</expan> et<reg> </reg>discipulis 
-<lb/>eius mulieres de<reg> </reg>suis dicuntur 
-<lb/>facultati<expan>b<am>’</am><ex>us</ex></expan> ministrasse parabo
-<lb break="no"/>lam quo<expan>q<am>’</am><ex>ue</ex></expan> seminantis fructu
-<lb break="no"/>um<expan>q<am>’</am><ex>ue</ex></expan> proponit at<expan>q<am>’</am><ex>ue</ex></expan> exponit</item>
+<lb rend="indent"/>eius mulieres de<reg> </reg>suis dicuntur 
+<lb rend="indent"/>facultati<expan>b<am>’</am><ex>us</ex></expan> ministrasse parabo
+<lb break="no" rend="indent"/>lam quo<expan>q<am>’</am><ex>ue</ex></expan> seminantis fructu
+<lb break="no" rend="indent"/>um<expan>q<am>’</am><ex>ue</ex></expan> proponit at<expan>q<am>’</am><ex>ue</ex></expan> exponit</item>
 <item><lb/><label rend="red">xxix</label> <hi rend="red">L</hi>ucernam sub<reg> </reg>uase non ponend<expan><abbr rend="supraline">a</abbr><ex>m</ex></expan> 
-<lb/>et<reg> </reg>eos matrem fratres<expan>q<am>’</am><ex>ue</ex></expan> uocan
-<lb break="no"/>dos ait qui patris fecerint 
-<lb/>uoluntatem</item>
+<lb rend="indent"/>et<reg> </reg>eos matrem fratres<expan>q<am>’</am><ex>ue</ex></expan> uocan
+<lb break="no" rend="indent"/>dos ait qui patris fecerint 
+<lb rend="indent"/>uoluntatem</item>
 <item><lb/><label rend="red">xxx</label> <hi rend="red">In</hi><reg> </reg>naui dormiens excitatur a<reg> </reg>peri
-<lb break="no"/>clitanti<expan>b<am>’</am><ex>us</ex></expan> et<reg> </reg>tempestatem maris 
-<lb/>uerbo compescit</item>
+<lb break="no" rend="indent"/>clitanti<expan>b<am>’</am><ex>us</ex></expan> et<reg> </reg>tempestatem maris 
+<lb rend="indent"/>uerbo compescit</item>
 <item><lb/><label rend="red">xxxi</label> <hi rend="red">H</hi>ominem a daemonum legione cu
-<lb break="no"/>rauit quos in<reg> </reg>porcos ire concessit</item>
+<lb break="no" rend="indent"/>rauit quos in<reg> </reg>porcos ire concessit</item>
 <item><lb/><label rend="red">xxxii</label> <hi rend="red">P</hi>ergens ad filiam <name>iairi</name> suscitandam 
-<lb/>mulierem a<reg> </reg>profluuio sanguinis 
-<lb/>saluat <space unit="character" n="2"/>resuscitatae puellae dari 
-<lb/>prae<del rend="expunct">c</del>cipit manducare</item>
+<lb rend="indent"/>mulierem a<reg> </reg>profluuio sanguinis 
+<lb rend="indent"/>saluat <space unit="character" n="2"/>resuscitatae puellae dari 
+<lb rend="indent"/>prae<del rend="expunct">c</del>cipit manducare</item>
 <item><lb/><label rend="red">xxxiii</label> <hi rend="red">C</hi>onlatis uirtuti<expan>b<am>’</am><ex>us</ex></expan> mittit duode
-<lb break="no"/>cim praedicaturos praeceptis 
-<lb/>salutari<expan>b<am>’</am><ex>us</ex></expan> institutos</item>
+<lb break="no" rend="indent"/>cim praedicaturos praeceptis 
+<lb rend="indent"/>salutari<expan>b<am>’</am><ex>us</ex></expan> institutos</item>
 <item><lb/><label rend="red">xxxiiii</label> <hi rend="red">F</hi>amam eius audisse <name>herodes</name><!-- chk: figure out how to encode transposition, which however T rejects --> 
 <pb n="850v"/>
 <cb n="a"/>
-<lb/>refertur et apostoli dicuntur 
-<lb/>quae fecerant rettulisse</item>
+<lb rend="indent"/>refertur et apostoli dicuntur 
+<lb rend="indent"/>quae fecerant rettulisse</item>
 <item><lb/><label rend="red">xxxv</label> <hi rend="red">Q</hi>uin<expan>q<am>’</am><ex>ue</ex></expan> pani<expan>b<am>’</am><ex>us</ex></expan> et duo<expan>b<am>’</am><ex>us</ex></expan> pisci<expan>b<am>’</am><ex>us</ex></expan> quin
-<lb break="no"/>que hominum milia saturat</item>
+<lb break="no" rend="indent"/>que hominum milia saturat</item>
 <item><lb/><label rend="red">xxxvi</label> <hi rend="red">In</hi>terroganti discipulos quem eum 
-<lb/>dicerent homines <name>petrus</name> resp<expan><abbr rend="supraline">o</abbr><ex>n</ex></expan>
-<lb break="no"/>dit <name><expan><am>x</am><am rend="supraline">p</am><ex>christu</ex>m</expan></name> <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> at ipse praenuntiat 
-<lb/>se passurum</item>
+<lb rend="indent"/>dicerent homines <name>petrus</name> resp<expan><abbr rend="supraline">o</abbr><ex>n</ex></expan>
+<lb break="no" rend="indent"/>dit <name><expan><am>x</am><am rend="supraline">p</am><ex>christu</ex>m</expan></name> <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> at ipse praenuntiat 
+<lb rend="indent"/>se passurum</item>
 <item><lb/><label rend="red">xxxvii</label> <hi rend="red">D</hi>ocet ut<reg> </reg>eum quis<expan>q<am>’</am><ex>ue</ex></expan> secuturus abne
-<lb break="no"/>get semet ipsum et<reg> </reg>quosdam 
-<lb/>non<reg> </reg>uisuros ait mortem donec 
-<lb/>uideant regnum <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> mox infer
-<lb break="no"/>tur transfiguratus in mont<expan><abbr rend="supraline">e</abbr><ex>m</ex></expan></item> 
+<lb break="no" rend="indent"/>get semet ipsum et<reg> </reg>quosdam 
+<lb rend="indent"/>non<reg> </reg>uisuros ait mortem donec 
+<lb rend="indent"/>uideant regnum <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> mox infer
+<lb break="no" rend="indent"/>tur transfiguratus in mont<expan><abbr rend="supraline">e</abbr><ex>m</ex></expan></item> 
 <item><lb/><label rend="red">xxxviii</label> <hi rend="red">C</hi>uiusdam filiam a<reg> </reg>daemonio 
-<lb/>increpata generationis 
-<lb/>incredulitate curauit</item>
+<lb rend="indent"/>increpata generationis 
+<lb rend="indent"/>incredulitate curauit</item>
 <item><lb/><label rend="red">xxxix</label> <hi rend="red">I</hi>terum dicit se<reg> </reg>passurum fore 
-<lb/>et<reg> </reg>de<reg> </reg>primatu cogitationes eor<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> 
-<lb/>statuto in<reg> </reg>medio puero uetans 
-<lb/>humilitatem docet et<reg> </reg>non<reg> </reg>pro
-<lb break="no"/>hiberi uirtutes in<reg> </reg>ipsius nomi
-<lb break="no"/>ne facientem</item>
+<lb rend="indent"/>et<reg> </reg>de<reg> </reg>primatu cogitationes eor<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> 
+<lb rend="indent"/>statuto in<reg> </reg>medio puero uetans 
+<lb rend="indent"/>humilitatem docet et<reg> </reg>non<reg> </reg>pro
+<lb break="no" rend="indent"/>hiberi uirtutes in<reg> </reg>ipsius nomi
+<lb break="no" rend="indent"/>ne facientem</item>
 <item><lb/><label rend="red">xl</label> <hi rend="red">Ig</hi>nem de<reg> </reg>caelo super contemto
-<lb break="no"/>res petere uolentes discipu
-<lb break="no"/>los increpat et<reg> </reg>dicenti sequar 
-<lb/>te uulpes foueas habere 
-<lb/>testatur iuuens sequenti di
-<lb break="no"/>mittere mortuos et tenen
-<lb break="no"/>tem aratrum non respicere 
-<lb/>retro</item>
+<lb break="no" rend="indent"/>res petere uolentes discipu
+<lb break="no" rend="indent"/>los increpat et<reg> </reg>dicenti sequar 
+<lb rend="indent"/>te uulpes foueas habere 
+<lb rend="indent"/>testatur iuuens sequenti di
+<lb break="no" rend="indent"/>mittere mortuos et tenen
+<lb break="no" rend="indent"/>tem aratrum non respicere 
+<lb rend="indent"/>retro</item>
 <item><lb/><label rend="red">xli</label> <hi rend="red">D</hi>esignatis et<reg> </reg>aliis lxx duo<expan>b<am>’</am><ex>us</ex></expan> dat 
-<lb/>praecepta qui<expan>b<am>’</am><ex>us</ex></expan> debeant prae
-<lb break="no"/>dicare <space unit="character" n="2"/>mox incredulas incre
-<lb break="no"/>pat ciuitates<!--here, looks as if T was partially copying MS punctuation and didn't think about its actual function--> ·lxx· duo<expan>b<am>’</am><ex>us</ex></expan> reuersis 
-<lb/>at<expan>q<am>’</am><ex>ue</ex></expan> gaudenti<expan>b<am>’</am><ex>us</ex></expan> praecipit non 
-<lb/>de<reg> </reg>subiectione daemonum 
-<lb/>sed de suorum in<reg> </reg>caelo nomi
-<lb break="no"/>num scriptione gaudere</item>
+<lb rend="indent"/>praecepta qui<expan>b<am>’</am><ex>us</ex></expan> debeant prae
+<lb break="no" rend="indent"/>dicare <space unit="character" n="2"/>mox incredulas incre
+<lb break="no" rend="indent"/>pat ciuitates<!--here, looks as if T was partially copying MS punctuation and didn't think about its actual function--> ·lxx· duo<expan>b<am>’</am><ex>us</ex></expan> reuersis 
+<lb rend="indent"/>at<expan>q<am>’</am><ex>ue</ex></expan> gaudenti<expan>b<am>’</am><ex>us</ex></expan> praecipit non 
+<lb rend="indent"/>de<reg> </reg>subiectione daemonum 
+<lb rend="indent"/>sed de suorum in<reg> </reg>caelo nomi
+<lb break="no" rend="indent"/>num scriptione gaudere</item>
 <item><lb/><label rend="red">xlii</label> <hi rend="red">Con</hi>fessio laudis in<reg> </reg>gaudio refer
-<lb break="no"/>tur ad<reg> </reg>patrem postquam in
-<lb break="no"/>fert priores iustos quae ui
-<lb break="no"/>dent discipuli non uidisse</item>
+<lb break="no" rend="indent"/>tur ad<reg> </reg>patrem postquam in
+<lb break="no" rend="indent"/>fert priores iustos quae ui
+<lb break="no" rend="indent"/>dent discipuli non uidisse</item>
 <item><lb/><label rend="red">xliii</label> <hi rend="red">L</hi>egis perito de<reg> </reg>uita aeterna quae
-<lb break="no"/>rente et quis eius esset proxi
+<lb break="no" rend="indent"/>rente et quis eius esset proxi
 <cb n="b" break="no"/>
-<lb break="no"/>mus sciscitante inducit parabo
-<lb break="no"/>lam uulnerati cui conlatam a<reg> </reg><name>sa
-<lb break="no"/>maritano</name> misericordiam prae
-<lb break="no"/>cipit imitandam</item>
+<lb break="no" rend="indent"/>mus sciscitante inducit parabo
+<lb break="no" rend="indent"/>lam uulnerati cui conlatam a<reg> </reg><name>sa
+<lb break="no" rend="indent"/>maritano</name> misericordiam prae
+<lb break="no" rend="indent"/>cipit imitandam</item>
 <item><lb/><label rend="red">xliiii</label> <hi rend="red">Q</hi>uerellam ministrantis <name>marthae</name> 
-<lb/>de<reg> </reg>sorore non eam adiuuante 
-<lb/>optimam eam partem elegisse 
-<lb/>dicendo compescit</item>
+<lb rend="indent"/>de<reg> </reg>sorore non eam adiuuante 
+<lb rend="indent"/>optimam eam partem elegisse 
+<lb rend="indent"/>dicendo compescit</item>
 <item><lb/><label rend="red">xlv</label> <hi rend="red">N</hi>ormam orationis quinque petiti
-<lb break="no"/>onum rogatus a<reg> </reg>discipulo tradit</item>
+<lb break="no" rend="indent"/>onum rogatus a<reg> </reg>discipulo tradit</item>
 <item><lb/><label rend="red">xlvi</label> <hi rend="red">A</hi>mici tres panes media nocte peti
-<lb break="no"/>ti parabolam ponens petend<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> 
-<lb/>quaerendum pulsandumque 
-<lb/>per<surplus> </surplus>suadit</item>
+<lb break="no" rend="indent"/>ti parabolam ponens petend<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> 
+<lb rend="indent"/>quaerendum pulsandumque 
+<lb rend="indent"/>per<surplus> </surplus>suadit</item>
 <item><lb/><label rend="red">xlvii</label> <hi rend="red">M</hi>utum daemoniacum restituto 
-<lb/>curat <add place="left" hand="#faint">eloquio</add> et<reg> </reg>in<reg> </reg><name>belzebub</name> talia eum 
-<lb/>posse dicentes de<reg> </reg>armato forti
-<lb break="no"/>ore deuicto et de <expan>s<abbr rend="supraline">p</abbr><ex>irit</ex>u</expan> immundo 
-<lb/>septempliciter in<reg> </reg>homine regres
-<lb break="no"/>so redarguit</item>
+<lb rend="indent"/>curat <add place="left" hand="#faint">eloquio</add> et<reg> </reg>in<reg> </reg><name>belzebub</name> talia eum 
+<lb rend="indent"/>posse dicentes de<reg> </reg>armato forti
+<lb break="no" rend="indent"/>ore deuicto et de <expan>s<abbr rend="supraline">p</abbr><ex>irit</ex>u</expan> immundo 
+<lb rend="indent"/>septempliciter in<reg> </reg>homine regres
+<lb break="no" rend="indent"/>so redarguit</item>
 <item><lb/><label rend="red">xlviii</label> <hi rend="red">E</hi>xclamanti mulieri beatum<reg> </reg>esse 
-<lb/>uentrem qui<reg> </reg>eum portasset 
-<lb/>respondit esse<reg> </reg>eum beatum<reg> </reg>qui 
-<lb/>seruauerit uerbum <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name>. et de<reg> </reg>signo 
-<lb/><name>ionae</name> dicens reginam austri 
-<lb/>commemorat</item>
+<lb rend="indent"/>uentrem qui<reg> </reg>eum portasset 
+<lb rend="indent"/>respondit esse<reg> </reg>eum beatum<reg> </reg>qui 
+<lb rend="indent"/>seruauerit uerbum <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name>. et de<reg> </reg>signo 
+<lb rend="indent"/><name>ionae</name> dicens reginam austri 
+<lb rend="indent"/>commemorat</item>
 <item><lb/><label rend="red">xlix</label> <hi rend="red">L</hi>ucernam dicens non<reg> </reg>esse sub 
-<lb/>modio poni oculum docet 
-<lb/>simplicem esse debere</item>
+<lb rend="indent"/>modio poni oculum docet 
+<lb rend="indent"/>simplicem esse debere</item>
 <item><lb/><label rend="red">l</label> <hi rend="red">A</hi>pud <name>pharisaeum</name> prandere roga
-<lb break="no"/>tus cogitantem de iudaico bapti
-<lb break="no"/>smate notans et<reg> </reg>uae <name>pharisaeis</name> 
-<lb/>sexies dicens multa eorum 
-<lb/>mala coarguit</item>
+<lb break="no" rend="indent"/>tus cogitantem de iudaico bapti
+<lb break="no" rend="indent"/>smate notans et<reg> </reg>uae <name>pharisaeis</name> 
+<lb rend="indent"/>sexies dicens multa eorum 
+<lb rend="indent"/>mala coarguit</item>
 <item><lb/><label rend="red">li</label> <hi rend="red">D</hi>iscipulis praecipit et a<reg> </reg>fermento 
-<lb/>hypocrisis cauere et<reg> </reg>eos qui<reg> </reg>cor
-<lb break="no"/>pus occidunt non<reg> </reg>metuere 
-<lb/>nec in<reg> </reg>persecutione quid locu
-<lb break="no"/>turi sint cogitare</item>
+<lb rend="indent"/>hypocrisis cauere et<reg> </reg>eos qui<reg> </reg>cor
+<lb break="no" rend="indent"/>pus occidunt non<reg> </reg>metuere 
+<lb rend="indent"/>nec in<reg> </reg>persecutione quid locu
+<lb break="no" rend="indent"/>turi sint cogitare</item>
 <item><lb/><label rend="red">lii</label> <hi rend="red">P</hi>etenti quodam inter se et<reg> </reg>fra
-<lb break="no"/>trem suum diuidi hereditat<expan><abbr rend="supraline">e</abbr><ex>m</ex></expan> 
-<lb/>parabolam ponit de<reg> </reg>diuite auaro 
-<lb/>mox et<reg> </reg>discipulis sollicitudin<expan><abbr rend="supraline">e</abbr><ex>m</ex></expan> 
-<lb/>cibi uestis<surplus> </surplus>que qua carent aues 
+<lb break="no" rend="indent"/>trem suum diuidi hereditat<expan><abbr rend="supraline">e</abbr><ex>m</ex></expan> 
+<lb rend="indent"/>parabolam ponit de<reg> </reg>diuite auaro 
+<lb rend="indent"/>mox et<reg> </reg>discipulis sollicitudin<expan><abbr rend="supraline">e</abbr><ex>m</ex></expan> 
+<lb rend="indent"/>cibi uestis<surplus> </surplus>que qua carent aues 
 <pb n="851r"/>
 <cb n="a"/>
-<lb/>praecipit euitandam</item>
+<lb rend="indent"/>praecipit euitandam</item>
 <item><lb/><label rend="red">liii</label> <hi rend="red">P</hi>usillo gregi regnum promittens 
-<lb/>possidenda uel possessa propter 
-<lb/>elemosynam uendi lumbos<surplus> </surplus>que 
-<lb/>praecinctos et<reg> </reg>lucernas arden
-<lb break="no"/>tes esse debere iubet <space unit="character" n="2"/><!-- chk -->uigiland<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> 
-<lb/>quo<expan>q<am>’</am><ex>ue</ex></expan> serui boni mali<expan>q<am>’</am><ex>ue</ex></expan> mentio
-<lb break="no"/>ne facta praecipiens seruum 
-<lb/>scientem uoluntatem <expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan> mul
-<lb break="no"/>tis ignorantem uero paucis 
-<lb/>uapulare confirmat</item>
+<lb rend="indent"/>possidenda uel possessa propter 
+<lb rend="indent"/>elemosynam uendi lumbos<surplus> </surplus>que 
+<lb rend="indent"/>praecinctos et<reg> </reg>lucernas arden
+<lb break="no" rend="indent"/>tes esse debere iubet <space unit="character" n="2"/><!-- chk -->uigiland<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> 
+<lb rend="indent"/>quo<expan>q<am>’</am><ex>ue</ex></expan> serui boni mali<expan>q<am>’</am><ex>ue</ex></expan> mentio
+<lb break="no" rend="indent"/>ne facta praecipiens seruum 
+<lb rend="indent"/>scientem uoluntatem <expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan> mul
+<lb break="no" rend="indent"/>tis ignorantem uero paucis 
+<lb rend="indent"/>uapulare confirmat</item>
 <item><lb/><label rend="red">liiii</label> <hi rend="red">Ig</hi>nem in terram se dicit necessi
-<lb break="no"/>tudinum diuisione missurum 
-<lb/>et<reg> </reg>faciem caeli probantes debe
-<lb break="no"/>re tempus intellegere manife
-<lb break="no"/>stum at<expan>q<am>’</am><ex>ue</ex></expan> consentiendum ad
-<lb break="no"/>uersario in<reg> </reg>uia pronuntiat</item>
+<lb break="no" rend="indent"/>tudinum diuisione missurum 
+<lb rend="indent"/>et<reg> </reg>faciem caeli probantes debe
+<lb break="no" rend="indent"/>re tempus intellegere manife
+<lb break="no" rend="indent"/>stum at<expan>q<am>’</am><ex>ue</ex></expan> consentiendum ad
+<lb break="no" rend="indent"/>uersario in<reg> </reg>uia pronuntiat</item>
 <item><lb/><label rend="red">lv</label> <hi rend="red">N</hi>untiatis quibusdam a<reg> </reg><name>pilato</name> occi
-<lb break="no"/>sis ait omnes nisi paenitenti<expan><abbr rend="supraline">a</abbr><ex>m</ex></expan> 
-<lb/>agant similiter perituros 
-<lb/>uel sicut illi decem et octo ruina 
-<lb/>turris oppressi <space unit="character" n="2"/>parabolam 
-<lb/>quo<expan>q<am>’</am><ex>ue</ex></expan> de<reg> </reg>sterili arbore fici po
-<lb break="no"/>nens indicat paenitentiam dif
-<lb break="no"/>ferentes. et mulierem ab<reg> </reg>an
-<lb break="no"/>nis decem et<reg> </reg>octo curuatam eri
-<lb break="no"/>gens <space unit="character" n="2"/>de<reg> </reg>cura sabbati murmu
-<lb break="no"/>rantes exemplo bouis adaquan
-<lb break="no"/>di refellit gaudente populo 
-<lb/>de eius miraculis gloriosis</item>
+<lb break="no" rend="indent"/>sis ait omnes nisi paenitenti<expan><abbr rend="supraline">a</abbr><ex>m</ex></expan> 
+<lb rend="indent"/>agant similiter perituros 
+<lb rend="indent"/>uel sicut illi decem et octo ruina 
+<lb rend="indent"/>turris oppressi <space unit="character" n="2"/>parabolam 
+<lb rend="indent"/>quo<expan>q<am>’</am><ex>ue</ex></expan> de<reg> </reg>sterili arbore fici po
+<lb break="no" rend="indent"/>nens indicat paenitentiam dif
+<lb break="no" rend="indent"/>ferentes. et mulierem ab<reg> </reg>an
+<lb break="no" rend="indent"/>nis decem et<reg> </reg>octo curuatam eri
+<lb break="no" rend="indent"/>gens <space unit="character" n="2"/>de<reg> </reg>cura sabbati murmu
+<lb break="no" rend="indent"/>rantes exemplo bouis adaquan
+<lb break="no" rend="indent"/>di refellit gaudente populo 
+<lb rend="indent"/>de eius miraculis gloriosis</item>
 <item><lb/><label rend="red">lvi</label> <hi rend="red">R</hi>egnum <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> grano sinapis compa
-<lb break="no"/>rans et<reg> </reg>fermento <space unit="character" n="2"/>de<reg> </reg>angusta 
-<lb/>quo<expan>q<am>’</am><ex>ue</ex></expan> ui<add place="above">t</add>a<del rend="alt"> </del>e<del rend="erased">t</del> uia paucorum loquens 
-<lb/>erunt inquit primi nouissimi 
-<lb/>et nouissimi primi</item>
+<lb break="no" rend="indent"/>rans et<reg> </reg>fermento <space unit="character" n="2"/>de<reg> </reg>angusta 
+<lb rend="indent"/>quo<expan>q<am>’</am><ex>ue</ex></expan> ui<add place="above">t</add>a<del rend="alt"> </del>e<del rend="erased">t</del> uia paucorum loquens 
+<lb rend="indent"/>erunt inquit primi nouissimi 
+<lb rend="indent"/>et nouissimi primi</item>
 <item><lb/><label rend="red">lvii</label> <hi rend="red">H</hi>erodem uulpem appellat et<reg> </reg><name>hie
-<lb break="no"/>rusalem</name> increpat alis eius 
-<lb/>protegi respuentem</item>
+<lb break="no" rend="indent"/>rusalem</name> increpat alis eius 
+<lb rend="indent"/>protegi respuentem</item>
 <item><lb/><label rend="red">lviiii</label> <hi rend="red">H</hi>ydropicum sabbato curans uelut 
-<lb/>de umoris puteo liberatum 
-<lb/>murmurantes <name>pharisaeos</name> asini 
-<lb/>uel bouis in<reg> </reg>eo cadentis extrac
-<lb break="no"/>tione confundit <space unit="character" n="2"/>humilitat<expan><abbr rend="supraline">e</abbr><ex>m</ex></expan> 
-<lb/>quo<expan>q<am>’</am><ex>ue</ex></expan> sectandam docens in<reg> </reg>con
+<lb rend="indent"/>de umoris puteo liberatum 
+<lb rend="indent"/>murmurantes <name>pharisaeos</name> asini 
+<lb rend="indent"/>uel bouis in<reg> </reg>eo cadentis extrac
+<lb break="no" rend="indent"/>tione confundit <space unit="character" n="2"/>humilitat<expan><abbr rend="supraline">e</abbr><ex>m</ex></expan> 
+<lb rend="indent"/>quo<expan>q<am>’</am><ex>ue</ex></expan> sectandam docens in<reg> </reg>con
 <cb n="b" break="no"/>
-<lb break="no"/>uiuio primum accubitum praeci
-<lb break="no"/>pit non quaerendum nec<reg> </reg>diuites 
-<lb/>sed pauperes qui non retribuant 
-<lb/>esse<reg> </reg>pascendos</item>
+<lb break="no" rend="indent"/>uiuio primum accubitum praeci
+<lb break="no" rend="indent"/>pit non quaerendum nec<reg> </reg>diuites 
+<lb rend="indent"/>sed pauperes qui non retribuant 
+<lb rend="indent"/>esse<reg> </reg>pascendos</item>
 <item><lb/><label rend="red">lix</label> <hi rend="red">P</hi>onit parabolam de<reg> </reg>inuitatis qui<reg> </reg>se 
-<lb/>excusare studentes cena non<reg> </reg>fu
-<lb break="no"/>erint digni</item>
+<lb rend="indent"/>excusare studentes cena non<reg> </reg>fu
+<lb break="no" rend="indent"/>erint digni</item>
 <item><lb/><label rend="red">lx</label> <hi rend="red">O</hi>dituris necessitudines insuper 
-<lb/>et<reg> </reg>animam suam et<reg> </reg>assumta cru
-<lb break="no"/>ce secuturis similitudinem 
-<lb/>aedificandae turris et<reg> </reg>de<reg> </reg>bello 
-<lb/>regum duorum exponi<del rend="erased"><gap reason="illegible" quantity="1" unit="character"/></del>t 
-<lb/>neue sit quis sal infatuatum 
-<lb/>sed aures habeat audiendi</item>
+<lb rend="indent"/>et<reg> </reg>animam suam et<reg> </reg>assumta cru
+<lb break="no" rend="indent"/>ce secuturis similitudinem 
+<lb rend="indent"/>aedificandae turris et<reg> </reg>de<reg> </reg>bello 
+<lb rend="indent"/>regum duorum exponi<del rend="erased"><gap reason="illegible" quantity="1" unit="character"/></del>t 
+<lb rend="indent"/>neue sit quis sal infatuatum 
+<lb rend="indent"/>sed aures habeat audiendi</item>
 <item><lb/><label rend="red">lxi</label> <hi rend="red">M</hi>urmuranti<expan>b<am>’</am><ex>us</ex></expan> de<reg> </reg>peccatorum 
-<lb/>conuiuio parabolam ouis et<reg> </reg>drag
-<lb break="no"/>mae ponit inuentae commen
-<lb break="no"/>dans gaudium de paenitent<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> 
-<lb/>salute futurum</item>
+<lb rend="indent"/>conuiuio parabolam ouis et<reg> </reg>drag
+<lb break="no" rend="indent"/>mae ponit inuentae commen
+<lb break="no" rend="indent"/>dans gaudium de paenitent<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> 
+<lb rend="indent"/>salute futurum</item>
 <item><lb/><label rend="red">lxii</label> <hi rend="red">P</hi>arabolam ponens de<reg> </reg>frugi et<reg> </reg>lu
-<lb break="no"/>xurioso filiis reuersionem pro
-<lb break="no"/>digi ad<reg> </reg>patrem salutem indicat 
-<lb/>paenitentum</item>
+<lb break="no" rend="indent"/>xurioso filiis reuersionem pro
+<lb break="no" rend="indent"/>digi ad<reg> </reg>patrem salutem indicat 
+<lb rend="indent"/>paenitentum</item>
 <item><lb/><label rend="red">lxiii</label> <hi rend="red">De</hi> uilico iniquitatis ex<reg> </reg>dissimili
-<lb break="no"/>tudine qui<reg> </reg>debitum domini sui 
-<lb/>astu sollertiore minuerat 
-<lb/>introducit</item>
+<lb break="no" rend="indent"/>tudine qui<reg> </reg>debitum domini sui 
+<lb rend="indent"/>astu sollertiore minuerat 
+<lb rend="indent"/>introducit</item>
 <item><lb/><label rend="red">lxiiii</label> <hi rend="red">N</hi>on posse <add place="above"><name><expan>d<ex>e</ex><abbr rend="supraline">o</abbr></expan></name></add> seruire quemquam et 
-<lb/>mamonae <space unit="character" n="2"/><!--chk-->auaros increpat 
-<lb/><name>pharisaeos</name> <space unit="character" n="2"/>legem<expan>q<am>’</am><ex>ue</ex></expan> dicens uel 
-<lb/>prophetas us<expan>q<am>’</am><ex>ue</ex></expan> ad<reg> </reg><name>iohannem baptistam</name> et<reg> </reg>quod dimittens 
-<lb/>quis uxorem moechetur</item>
+<lb rend="indent"/>mamonae <space unit="character" n="2"/><!--chk-->auaros increpat 
+<lb rend="indent"/><name>pharisaeos</name> <space unit="character" n="2"/>legem<expan>q<am>’</am><ex>ue</ex></expan> dicens uel 
+<lb rend="indent"/>prophetas us<expan>q<am>’</am><ex>ue</ex></expan> ad<reg> </reg><name>iohannem baptistam</name> et<reg> </reg>quod dimittens 
+<lb rend="indent"/>quis uxorem moechetur</item>
 <item><lb/><label rend="red">lxv</label> <hi rend="red">In</hi><reg> </reg>misericordem diuitem purpu
-<lb break="no"/>ratum et<reg> </reg>pauperem <name>lazaram</name> 
-<lb/>introducens ostendit qualia 
-<lb/>sint passuri raptores <supplied reason="omitted" source="#Tischendorf1850">si</supplied><!--chk W--> sic me
-<lb break="no"/>rentur puniri tenaces</item>
+<lb break="no" rend="indent"/>ratum et<reg> </reg>pauperem <name>lazaram</name> 
+<lb rend="indent"/>introducens ostendit qualia 
+<lb rend="indent"/>sint passuri raptores <supplied reason="omitted" source="#Tischendorf1850">si</supplied><!--chk W--> sic me
+<lb break="no" rend="indent"/>rentur puniri tenaces</item>
 <item><lb/><label rend="red">lxvi</label> <hi rend="red">V</hi>ae<reg> </reg>dicit scandalizanti paenitenti 
-<lb/>uero fratri etiam septuagies 
-<lb/>septies praecipit remittend<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan></item>
+<lb rend="indent"/>uero fratri etiam septuagies 
+<lb rend="indent"/>septies praecipit remittend<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan></item>
 <item><lb/><label rend="red">lxvii</label> <hi rend="red">A</hi>ugeri sibi petunt apostoli fidem 
-<lb/>et<reg> </reg>audiant de<reg> </reg>translatione ar
-<lb break="no"/>boris facultatem positaque 
+<lb rend="indent"/>et<reg> </reg>audiant de<reg> </reg>translatione ar
+<lb break="no" rend="indent"/>boris facultatem positaque 
 <pb n="851v"/>
 <cb n="a"/>
-<lb/>similitudine de<reg> </reg>seruo arante uel 
-<lb/>pascente docet et inutiles se eti<expan><abbr rend="supraline">a</abbr><ex>m</ex></expan> 
-<lb/>implentes quae praecepta sunt 
-<lb/>fateantur</item>
+<lb rend="indent"/>similitudine de<reg> </reg>seruo arante uel 
+<lb rend="indent"/>pascente docet et inutiles se eti<expan><abbr rend="supraline">a</abbr><ex>m</ex></expan> 
+<lb rend="indent"/>implentes quae praecepta sunt 
+<lb rend="indent"/>fateantur</item>
 <item><lb/><label rend="red">lxviii</label> <hi rend="red">·X·</hi> leprosis mundatis unus tant<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> 
-<lb/>et<reg> </reg>hoc<reg> </reg>alienigena ad<reg> </reg>gratias reuer
-<lb break="no"/>titur referendas</item>
+<lb rend="indent"/>et<reg> </reg>hoc<reg> </reg>alienigena ad<reg> </reg>gratias reuer
+<lb break="no" rend="indent"/>titur referendas</item>
 <item><lb/><label rend="red">lxix</label> <hi rend="red">In</hi>terrogatus de<reg> </reg>tempore regni <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> 
-<lb/>respondit non<reg> </reg>cum obseruatione 
-<lb/>uentarum <space unit="character" n="2"/>eum<expan>q<am>’</am><ex>ue</ex></expan> fulgori com
-<lb break="no"/>parans occupandos eos dicit ho
-<lb break="no"/>mines sicut in<reg> </reg>die<expan>b<am>’</am><ex>us</ex></expan> <name>noe</name> et<reg> </reg><name>loth</name> 
-<lb/>et de<reg> </reg>binis in<reg> </reg>tecto in<reg> </reg>mola et<reg> </reg>in 
-<lb/>agro singulos assumendos 
-<lb/>et singulos pronuntiat relin
-<lb break="no"/>quendos</item>
+<lb rend="indent"/>respondit non<reg> </reg>cum obseruatione 
+<lb rend="indent"/>uentarum <space unit="character" n="2"/>eum<expan>q<am>’</am><ex>ue</ex></expan> fulgori com
+<lb break="no" rend="indent"/>parans occupandos eos dicit ho
+<lb break="no" rend="indent"/>mines sicut in<reg> </reg>die<expan>b<am>’</am><ex>us</ex></expan> <name>noe</name> et<reg> </reg><name>loth</name> 
+<lb rend="indent"/>et de<reg> </reg>binis in<reg> </reg>tecto in<reg> </reg>mola et<reg> </reg>in 
+<lb rend="indent"/>agro singulos assumendos 
+<lb rend="indent"/>et singulos pronuntiat relin
+<lb break="no" rend="indent"/>quendos</item>
 <item><lb/><label rend="red">lxx</label> <hi rend="red">A</hi>d semper orandum parabolam 
-<lb/>de<reg> </reg>uidua ponit ultionem de<reg> </reg>ad
-<lb break="no"/>uersario suo ab<reg> </reg>iniquo iudice 
-<lb/>postulante</item>
+<lb rend="indent"/>de<reg> </reg>uidua ponit ultionem de<reg> </reg>ad
+<lb break="no" rend="indent"/>uersario suo ab<reg> </reg>iniquo iudice 
+<lb rend="indent"/>postulante</item>
 <item><lb/><label rend="red">lxxi</label> <hi rend="red">O</hi>ratione <name>pharisaei</name> in<reg> </reg>templo et<reg> </reg>pu
-<lb break="no"/>blicani proposita docet non<reg> </reg>iac
-<lb break="no"/>tanda merita sed confitenda 
-<lb/>peccata</item>
+<lb break="no" rend="indent"/>blicani proposita docet non<reg> </reg>iac
+<lb break="no" rend="indent"/>tanda merita sed confitenda 
+<lb rend="indent"/>peccata</item>
 <item><lb/><label rend="red">lxxii</label> <hi rend="red">P</hi>aruulos a<reg> </reg>se uetari prohibens 
-<lb/>humilitatem sub<reg> </reg>eorum nomine 
-<lb/>significat optinendam</item>
+<lb rend="indent"/>humilitatem sub<reg> </reg>eorum nomine 
+<lb rend="indent"/>significat optinendam</item>
 <item><lb/><label rend="red">lxxiii</label> <hi rend="red">In</hi>terrogans diues de<reg> </reg>possidenda 
-<lb/>uita aeterna secunda responsi
-<lb break="no"/>one tristis abscedit et relinquen
-<lb break="no"/>ti<expan>b<am>’</am><ex>us</ex></expan> propter nomen suum tem
-<lb break="no"/>poralia <expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>s</expan> aeterna promittit</item>
+<lb rend="indent"/>uita aeterna secunda responsi
+<lb break="no" rend="indent"/>one tristis abscedit et relinquen
+<lb break="no" rend="indent"/>ti<expan>b<am>’</am><ex>us</ex></expan> propter nomen suum tem
+<lb break="no" rend="indent"/>poralia <expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>s</expan> aeterna promittit</item>
 <item><lb/><label rend="red">lxxiiii</label> <hi rend="red">T</hi>radendum se <name>hierosolymis</name> pas
-<lb break="no"/>surum<expan>q<am>’</am><ex>ue</ex></expan> praedicit</item>
+<lb break="no" rend="indent"/>surum<expan>q<am>’</am><ex>ue</ex></expan> praedicit</item>
 <item><lb/><label rend="red">lxxv</label> <hi rend="red">I</hi>uxta <name>hiericho</name> caeco mendicanti 
-<lb/>lumen in praesenti restituit</item>
+<lb rend="indent"/>lumen in praesenti restituit</item>
 <item><lb/><label rend="red">lxxvi</label> <hi rend="red">P</hi>erambulans <name>hiericho</name> <name>zaccheum</name> 
-<lb/>publicanum absoluit qui uenit 
-<lb/>saluum facere quod perierat</item>
+<lb rend="indent"/>publicanum absoluit qui uenit 
+<lb rend="indent"/>saluum facere quod perierat</item>
 <item><lb/><label rend="red">lxxvii</label> <hi rend="red">P</hi>arabolam ponit seruorum acci
-<lb break="no"/>pientium a<reg> </reg>domino suo decem 
-<lb/>mnas ut negotiarentur ex<reg> </reg>eis 
-<lb/>et inimicos regni sui pronunti
-<lb break="no"/>at perimendos</item>
+<lb break="no" rend="indent"/>pientium a<reg> </reg>domino suo decem 
+<lb rend="indent"/>mnas ut negotiarentur ex<reg> </reg>eis 
+<lb rend="indent"/>et inimicos regni sui pronunti
+<lb break="no" rend="indent"/>at perimendos</item>
 <cb n="b"/>
 <item><lb/><label rend="red">lxxviii</label> <hi rend="red">S</hi>uper pullum asinae sedit cunctis 
-<lb/>dicenti<expan>b<am>’</am><ex>us</ex></expan> <name>pax</name> in caelo et<reg> </reg>gloria 
-<lb/>in<reg> </reg>excelsis et<reg> </reg>de increpandis disci
-<lb break="no"/>pulis suis ait si hi tacuerint lapi
-<lb break="no"/>des clamabunt</item>
+<lb rend="indent"/>dicenti<expan>b<am>’</am><ex>us</ex></expan> <name>pax</name> in caelo et<reg> </reg>gloria 
+<lb rend="indent"/>in<reg> </reg>excelsis et<reg> </reg>de increpandis disci
+<lb break="no" rend="indent"/>pulis suis ait si hi tacuerint lapi
+<lb break="no" rend="indent"/>des clamabunt</item>
 <item><lb/><label rend="red">lxxix</label> <hi rend="red">V</hi>idens ciuitatem fleuit super<reg> </reg>eam 
-<lb/>praenuntians euertendam <supplied reason="subaudible"><space unit="character" n="2"/></supplied>
-<lb/>de templo uendentes eicit <supplied reason="omitted"><space unit="character" n="2"/></supplied>scribis 
-<lb/>insidianti<expan>b<am>’</am><ex>us</ex></expan> a<reg> </reg>populo libenter auditur</item>
+<lb rend="indent"/>praenuntians euertendam <supplied reason="subaudible"><space unit="character" n="2"/></supplied>
+<lb rend="indent"/>de templo uendentes eicit <supplied reason="omitted"><space unit="character" n="2"/></supplied>scribis 
+<lb rend="indent"/>insidianti<expan>b<am>’</am><ex>us</ex></expan> a<reg> </reg>populo libenter auditur</item>
 <item><lb/><label rend="red">lxxx</label> <hi rend="red">S</hi>ciscitantes de<reg> </reg>potestate<reg> </reg>eius uicis
-<lb break="no"/>sim ab interrogante de <name>iohannis 
-<lb/>baptismo</name> conuincuntur</item>
+<lb break="no" rend="indent"/>sim ab interrogante de <name>iohannis 
+<lb rend="indent"/>baptismo</name> conuincuntur</item>
 <item><lb/><label rend="red">lxxxi</label> <hi rend="red">P</hi>arabolam dicit de cultori<expan>b<am>’</am><ex>us</ex></expan> uineae 
-<lb/>qui domini<reg> </reg>sui et<reg> </reg>seruos et<reg> </reg>fili
-<lb break="no"/>um occiderunt</item>
+<lb rend="indent"/>qui domini<reg> </reg>sui et<reg> </reg>seruos et<reg> </reg>fili
+<lb break="no" rend="indent"/>um occiderunt</item>
 <item><lb/><label rend="red">lxxxii</label> <hi rend="red">T</hi>emtantes de<reg> </reg>tributo <name>caesaris</name> red
-<lb break="no"/>dendo denarii inscriptione 
-<lb/>conuincit</item>
+<lb break="no" rend="indent"/>dendo denarii inscriptione 
+<lb rend="indent"/>conuincit</item>
 <item><lb/><label rend="red">lxxxiii</label> <hi rend="red">S</hi>adducaeis de septem fratrum uxo
-<lb break="no"/>re quaerenti<expan>b<am>’</am><ex>us</ex></expan> resurrection<expan><abbr rend="supraline">e</abbr><ex>m</ex></expan> 
-<lb/>etiam <name>mosi</name><reg> </reg>testimonio firmat</item>
+<lb break="no" rend="indent"/>re quaerenti<expan>b<am>’</am><ex>us</ex></expan> resurrection<expan><abbr rend="supraline">e</abbr><ex>m</ex></expan> 
+<lb rend="indent"/>etiam <name>mosi</name><reg> </reg>testimonio firmat</item>
 <item><lb/><label rend="red">lxxxiiii</label> <hi rend="red">Q</hi>uaerit quomodo <name><expan><am>x</am><am rend="supraline">p</am><ex>christu</ex>s</expan></name> filius sit <name>dauid</name> 
-<lb/>cum <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>s</expan></name> ab<reg> </reg>eo uocaretur in<reg> </reg>psal
-<lb break="no"/>mo centesimo nono. elation<expan><abbr rend="supraline">e</abbr><ex>m</ex></expan> 
-<lb/>quoque scribarum arguit uidu<expan><abbr rend="supraline">a</abbr><ex>m</ex></expan> 
-<lb/>in<reg> </reg>gazophilacium duo aera mit
-<lb break="no"/>tentem plus omni<expan>b<am>’</am><ex>us</ex></expan> misisse 
-<lb/>confirmat</item>
+<lb rend="indent"/>cum <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>s</expan></name> ab<reg> </reg>eo uocaretur in<reg> </reg>psal
+<lb break="no" rend="indent"/>mo centesimo nono. elation<expan><abbr rend="supraline">e</abbr><ex>m</ex></expan> 
+<lb rend="indent"/>quoque scribarum arguit uidu<expan><abbr rend="supraline">a</abbr><ex>m</ex></expan> 
+<lb rend="indent"/>in<reg> </reg>gazophilacium duo aera mit
+<lb break="no" rend="indent"/>tentem plus omni<expan>b<am>’</am><ex>us</ex></expan> misisse 
+<lb rend="indent"/>confirmat</item>
 <item><lb/><label rend="red">lxxxv</label> <hi rend="red">L</hi>audanti<expan>b<am>’</am><ex>us</ex></expan> aedificium templi prae
-<lb break="no"/>dicit ocius destruendum et<reg> </reg>in
-<lb break="no"/>terroganti<expan>b<am>’</am><ex>us</ex></expan> de<reg> </reg>fine respondit 
-<lb/>mala plurima praecessura 
-<lb/>nec praecogitandum quid traditi 
-<lb/>loquantur sed in<reg> </reg>patientia sua 
-<lb/>possideant animas suas</item>
+<lb break="no" rend="indent"/>dicit ocius destruendum et<reg> </reg>in
+<lb break="no" rend="indent"/>terroganti<expan>b<am>’</am><ex>us</ex></expan> de<reg> </reg>fine respondit 
+<lb rend="indent"/>mala plurima praecessura 
+<lb rend="indent"/>nec praecogitandum quid traditi 
+<lb rend="indent"/>loquantur sed in<reg> </reg>patientia sua 
+<lb rend="indent"/>possideant animas suas</item>
 <item><lb/><label rend="red">lxxxvi</label> <hi rend="red">C</hi>ircumdandam ab<reg> </reg>exercitu <name>hie
-<lb break="no"/>rusalem</name> et<reg> </reg>uae praeg<choice><sic>r</sic><corr source="#Tischendorf1850">n</corr></choice>anti<expan>b<am>’</am><ex>us</ex></expan> 
-<lb/>gladium quo<expan>q<am>’</am><ex>ue</ex></expan> et captiuitatem 
-<lb/>signa<surplus> </surplus>que caeli futura se<expan>q<am>’</am><ex>ue</ex></expan> uentu
-<lb break="no"/>rum in<reg> </reg>nube cum potestate 
-<lb/>magna et maiestate praedicit</item>
+<lb break="no" rend="indent"/>rusalem</name> et<reg> </reg>uae praeg<choice><sic>r</sic><corr source="#Tischendorf1850">n</corr></choice>anti<expan>b<am>’</am><ex>us</ex></expan> 
+<lb rend="indent"/>gladium quo<expan>q<am>’</am><ex>ue</ex></expan> et captiuitatem 
+<lb rend="indent"/>signa<surplus> </surplus>que caeli futura se<expan>q<am>’</am><ex>ue</ex></expan> uentu
+<lb break="no" rend="indent"/>rum in<reg> </reg>nube cum potestate 
+<lb rend="indent"/>magna et maiestate praedicit</item>
 <item><lb/><label rend="red">lxxxvii</label> <hi rend="red">R</hi>espicite<!-- Resipiscite T, not in app. --> inquit quia adpropinquat 
-<lb/>redemtio uestra ab<reg> </reg>ebrietate 
-<lb/>quo<expan>q<am>’</am><ex>ue</ex></expan> et curis huius uitae prohibens 
+<lb rend="indent"/>redemtio uestra ab<reg> </reg>ebrietate 
+<lb rend="indent"/>quo<expan>q<am>’</am><ex>ue</ex></expan> et curis huius uitae prohibens 
 <pb n="852r"/>
 <cb n="a"/>
-<lb/>uigilandum praecipit et orand<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan></item>
+<lb rend="indent"/>uigilandum praecipit et orand<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan></item>
 <item><lb/><label rend="red">lxxxviii</label> <hi rend="red">I</hi>udas paciscitur pretium parant 
-<lb/>discipuli pascha mysterium 
-<lb/>caenae dominicae celebratur</item>
+<lb rend="indent"/>discipuli pascha mysterium 
+<lb rend="indent"/>caenae dominicae celebratur</item>
 <item><lb/><label rend="red">lxxxix</label> <hi rend="red">C</hi>ontentionem discipulorum 
-<lb/>se<reg> </reg>ipsum illorum ministrum 
-<lb/>astruens tollit qui<expan>b<am>’</am><ex>us</ex></expan> regnum 
-<lb/>promittens ait post aliqua 
-<lb/><name>petro</name> confirma fratres tuos <surplus><lb rend="centre"/><note rend="red rustic-caps">quae lectio potest quo libet 
+<lb rend="indent"/>se<reg> </reg>ipsum illorum ministrum 
+<lb rend="indent"/>astruens tollit qui<expan>b<am>’</am><ex>us</ex></expan> regnum 
+<lb rend="indent"/>promittens ait post aliqua 
+<lb rend="indent"/><name>petro</name> confirma fratres tuos <surplus><lb rend="centre"/><note rend="red rustic-caps">quae lectio potest quo libet 
 <lb rend="centre"/>tempore dici<!--explained by Meyvaert 2005, p. 1130, https://doi.org/10.1017/S0038713400001366--></note></surplus></item>
 <item><lb/><label rend="red">xc</label> <hi rend="red">P</hi>assionis gesta narrantur ubi 
-<lb/>inter cetera etiam auricul<expan><abbr rend="supraline">a</abbr><ex>m</ex></expan> qu<expan><abbr rend="supraline">a</abbr><ex>m</ex></expan> 
-<lb/>puero <name>petrus</name> absciderat ipse 
-<lb/>manus suae tactu restituit</item>
+<lb rend="indent"/>inter cetera etiam auricul<expan><abbr rend="supraline">a</abbr><ex>m</ex></expan> qu<expan><abbr rend="supraline">a</abbr><ex>m</ex></expan> 
+<lb rend="indent"/>puero <name>petrus</name> absciderat ipse 
+<lb rend="indent"/>manus suae tactu restituit</item>
 <item><lb/><label rend="red">xci</label> <hi rend="red">C</hi>rucifigenti<expan>b<am>’</am><ex>us</ex></expan> ueniam a<reg> </reg>patre de
-<lb break="no"/>poscens <space unit="character" n="3"/>etiam unum ex<reg> </reg>la
-<lb break="no"/>tronibus crucifixum confiten
-<lb break="no"/>tem absoluit</item>
+<lb break="no" rend="indent"/>poscens <space unit="character" n="3"/>etiam unum ex<reg> </reg>la
+<lb break="no" rend="indent"/>tronibus crucifixum confiten
+<lb break="no" rend="indent"/>tem absoluit</item>
 <item><lb/><label rend="red">xcii</label> <hi rend="red">R</hi>esurrexisse<reg> </reg>eum mulieres ange
-<lb break="no"/>lica reuelatione cognoscunt 
-<lb/>et<reg> </reg><name>petrus</name> ad<reg> </reg>monumentum 
-<lb/>currens ac<reg> </reg>uidens quod fact<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> 
-<lb/>fuerat ammiratur</item>
+<lb break="no" rend="indent"/>lica reuelatione cognoscunt 
+<lb rend="indent"/>et<reg> </reg><name>petrus</name> ad<reg> </reg>monumentum 
+<lb rend="indent"/>currens ac<reg> </reg>uidens quod fact<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> 
+<lb rend="indent"/>fuerat ammiratur</item>
 <item><lb/><label rend="red">xciii</label> <hi rend="red">A</hi> duo<expan>b<am>’</am><ex>us</ex></expan> id<reg> </reg>est <name>cleopa</name> et<reg> </reg>socio eius 
-<lb/>cuius nomen tacetur eunti<expan>b<am>’</am><ex>us</ex></expan> 
-<lb/>in<reg> </reg>castellum quod tunc <name>emma
-<lb break="no"/>us</name> uocabatur post confabu
-<lb break="no"/>lationem prolixam in<reg> </reg>fracti
-<lb break="no"/>one panis agnoscitur</item>
+<lb rend="indent"/>cuius nomen tacetur eunti<expan>b<am>’</am><ex>us</ex></expan> 
+<lb rend="indent"/>in<reg> </reg>castellum quod tunc <name>emma
+<lb break="no" rend="indent"/>us</name> uocabatur post confabu
+<lb break="no" rend="indent"/>lationem prolixam in<reg> </reg>fracti
+<lb break="no" rend="indent"/>one panis agnoscitur</item>
 <item><lb/><label rend="red">xciiii</label> <hi rend="red">C</hi>onloquenti<expan>b<am>’</am><ex>us</ex></expan> discipulis adstans 
-<lb/>in<reg> </reg>medio dicit pax uobis et<reg> </reg>ad
-<lb break="no"/>huc p<add place="above">a</add>uentes <expan>s<abbr rend="supraline">p</abbr><ex>iritu</ex>m</expan><expan>q<am>’</am><ex>ue</ex></expan> putantes 
-<lb/>ostensione transfixarum 
-<lb/>manuum pedum<expan>q<am>’</am><ex>ue</ex></expan> confirmat 
-<lb/>edens coram ipsis partem piscis 
-<lb/>assi et<reg> </reg>fauum mellis instruit 
-<lb/>eos promissum patris missu
-<lb break="no"/>rum se dicens ascendit in<reg> </reg>cael<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan></item>
+<lb rend="indent"/>in<reg> </reg>medio dicit pax uobis et<reg> </reg>ad
+<lb break="no" rend="indent"/>huc p<add place="above">a</add>uentes <expan>s<abbr rend="supraline">p</abbr><ex>iritu</ex>m</expan><expan>q<am>’</am><ex>ue</ex></expan> putantes 
+<lb rend="indent"/>ostensione transfixarum 
+<lb rend="indent"/>manuum pedum<expan>q<am>’</am><ex>ue</ex></expan> confirmat 
+<lb rend="indent"/>edens coram ipsis partem piscis 
+<lb rend="indent"/>assi et<reg> </reg>fauum mellis instruit 
+<lb rend="indent"/>eos promissum patris missu
+<lb break="no" rend="indent"/>rum se dicens ascendit in<reg> </reg>cael<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan></item>
 </list>
 </body>
 </text>
