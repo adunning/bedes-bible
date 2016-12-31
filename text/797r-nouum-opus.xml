@@ -25,6 +25,92 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <msName>Codex Amiatinus</msName>
 </msIdentifier>
 </msDesc>
+<listBibl>
+<biblStruct type="book" xml:id="Tischendorf1850" corresp="http://zotero.org/users/254032/items/CCTVHEQ4">
+<monogr>
+<title level="m">Novum Testamentum Latine interprete Hieronymo. Ex celeberrimo Codice Amiatino</title>
+<title type="short">Novum Testamentum Amiatinum</title>
+<author>
+<forename>Constantinus von</forename>
+<surname>Tischendorf</surname>
+</author>
+<imprint>
+<pubPlace>Leipzig</pubPlace>
+<publisher>Avenarius et Mendelssohn</publisher>
+<date>1850</date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct type="book" xml:id="Weber2007" corresp="http://zotero.org/users/254032/items/W6D8WMM3">
+<monogr>
+<title level="m">Biblia Sacra iuxta vulgatam versionem</title>
+<editor>
+<forename>Robert</forename>
+<surname>Weber</surname>
+</editor>
+<editor>
+<forename>Bonifatius</forename>
+<surname>Fischer</surname>
+</editor>
+<editor>
+<forename>Jean</forename>
+<surname>Gribomont</surname>
+</editor>
+<editor>
+<forename>Hedley F.D.</forename>
+<surname>Sparks</surname>
+</editor>
+<editor>
+<forename>Walter</forename>
+<surname>Thiele</surname>
+</editor>
+<editor>
+<forename>Roger</forename>
+<surname>Gryson</surname>
+</editor>
+<edition>5</edition>
+<imprint>
+<pubPlace>Stuttgart</pubPlace>
+<publisher>Deutsche Bibelgesellschaft</publisher>
+<date>2007</date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct type="book" xml:id="Wordsworth1889" corresp="http://zotero.org/users/254032/items/WCM7IWE8">
+<monogr>
+<title level="m">Nouum Testamentum Domini nostri Iesu Christi Latine, secundum editionem sancti Hieronymi</title>
+<editor>
+<forename>John</forename>
+<surname>Wordsworth</surname>
+</editor>
+<editor>
+<forename>Henry Julian</forename>
+<surname>White</surname>
+</editor>
+<editor>
+<forename>Alexander</forename>
+<surname>Ramsbotham</surname>
+</editor>
+<editor>
+<forename>Hedley F.D.</forename>
+<surname>Sparks</surname>
+</editor>
+<editor>
+<forename>Claude</forename>
+<surname>Jenkins</surname>
+</editor>
+<editor>
+<forename>Arthur White</forename>
+<surname>Adams</surname>
+</editor>
+<imprint>
+<pubPlace>Oxford</pubPlace>
+<publisher>Clarendon Press</publisher>
+<date>1889–1954</date>
+</imprint>
+</monogr>
+</biblStruct>
+</listBibl>
 </sourceDesc>
 </fileDesc>
 </teiHeader>
@@ -195,7 +281,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb/>in<reg> </reg>quibus uel<reg> </reg>eadem uel uicina 
 <lb/>dixerunt<unclear>·</unclear>
 </p>
-<p rend="centre small" type="finalRubric">
+<p rend="centre small" rendition="finalRubric">
 <lb/>opto ut in <name><expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>o</expan></name> ualeas et<reg> </reg>memineris 
 <lb/>mei papa beatissime
 </p>
