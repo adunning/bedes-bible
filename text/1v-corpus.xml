@@ -1,0 +1,76 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng"
+type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title xml:lang="la">Dedication</title>
+</titleStmt>
+<publicationStmt>
+<authority>Digital Latin Library</authority>
+<availability>
+<licence target="https://creativecommons.org/licences/by-sa/4.0/">Provided under a Creative Commons Attribution-ShareAlike 4.0 International Licence.</licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<settlement>Florence</settlement>
+<repository>Biblioteca Medicea Laurenziana</repository>
+<collection>Amiatino</collection>
+<idno>1</idno>
+<msName>Codex Amiatinus</msName>
+</msIdentifier>
+</msDesc>
+<listBibl>
+<biblStruct type="journalArticle" xml:id="Newton2012" corresp="http://zotero.org/users/254032/items/CHPIXXSU">
+<analytic>
+<title level="a">Domiciling the evangelists in Anglo-Saxon England: a fresh reading of Aldred's colophon in the ‘Lindisfarne Gospels’</title>
+<idno type="DOI">10.1017/S0263675112000026</idno>
+<title type="short">Domiciling the evangelists in Anglo-Saxon England</title>
+<author>
+<forename>Francis L.</forename>
+<surname>Newton</surname>
+</author>
+<author>
+<forename>Christopher R. J.</forename>
+<surname>Scheirer</surname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Anglo-Saxon England</title>
+<idno type="ISSN">0263-6751, 1474-0532</idno>
+<imprint>
+<biblScope unit="volume">41</biblScope>
+<biblScope unit="page">101-144</biblScope>
+<date>2012</date>
+</imprint>
+</monogr>
+</biblStruct>
+</listBibl>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text xml:lang="la">
+<body>
+<div type="textpart">
+<pb n="1v"/>
+<lg>
+<lb/><l>C<choice><sic><subst><del rend="erased">orpus</del><add place="overstrike">enobium</add></subst></sic><corr>orpus</corr></choice> ad eximii merito
+<lb/>uenerabile <choice><sic><subst><del rend="erased"><name>petri</name></del><add place="overstrike">saluatoris</add></subst></sic><corr><name>petri</name></corr></choice></l>
+<lb/><l>quem caput ecclesiae
+<lb rend="indent"/>dedicat alta fides</l>
+<lb/><l><choice><sic><subst><del rend="erased"><name>ceolfridus</name> <name>anglorum</name></del><add place="overstrike"><name>petrus</name> <name>langobardorum</name></add></subst></sic><corr><name>ceolfridus</name> <name>anglorum</name></corr></choice>
+<lb rend="indent"/>extremis de fini<expan>b<am>’</am><ex>us</ex></expan> abbas</l>
+<lb/><l>deuoti affectus
+<lb rend="indent"/>pignora mitto mei</l>
+<lb/><l>meque meos<expan>q<am>’</am><ex>ue</ex></expan> optans
+<lb rend="indent"/>tanti inter gaudia patris</l>
+<lb/><l>in caelis memorem
+<lb rend="indent"/>semper habere locum</l>
+</lg>
+</div>
+</body>
+</text>
+</TEI>

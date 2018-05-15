@@ -1,0 +1,263 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng"
+type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title xml:lang="la">Si diuino ut dignum est</title>
+<author>Cassiodorus</author>
+</titleStmt>
+<publicationStmt>
+<authority>Digital Latin Library</authority>
+<availability>
+<licence target="https://creativecommons.org/licences/by-sa/4.0/">Provided under a Creative Commons Attribution-ShareAlike 4.0 International Licence.</licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<settlement>Florence</settlement>
+<repository>Biblioteca Medicea Laurenziana</repository>
+<collection>Amiatino</collection>
+<idno>1</idno>
+<msName>Codex Amiatinus</msName>
+</msIdentifier>
+</msDesc>
+<listBibl>
+<biblStruct type="bookSection" xml:id="White1890" corresp="http://zotero.org/users/254032/items/HPRC58XJ">
+<analytic>
+<title level="a">The Codex Amiatinus and its birthplace</title>
+<author>
+<forename>H.J.</forename>
+<surname>White</surname>
+</author>
+</analytic>
+<monogr>
+<title level="m">Studia Biblica et ecclesiastica: essays chiefly in Biblical and patristic criticism</title>
+<imprint>
+<pubPlace>Oxford</pubPlace>
+<biblScope unit="volume">2</biblScope>
+<biblScope unit="page">273-308</biblScope>
+<publisher>Clarendon Press</publisher>
+<date>1890</date>
+<note type="url">https://archive.org/details/studiabiblicaete02oxfouoft</note>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct type="journalArticle" xml:id="Newton2012" corresp="http://zotero.org/users/254032/items/CHPIXXSU">
+<analytic>
+<title level="a">Domiciling the evangelists in Anglo-Saxon England: a fresh reading of Aldred's colophon in the ‘Lindisfarne Gospels’</title>
+<idno type="DOI">10.1017/S0263675112000026</idno>
+<title type="short">Domiciling the evangelists in Anglo-Saxon England</title>
+<author>
+<forename>Francis L.</forename>
+<surname>Newton</surname>
+</author>
+<author>
+<forename>Francis L., Jr</forename>
+<surname>Newton</surname>
+</author>
+<author>
+<forename>Christopher R. J.</forename>
+<surname>Scheirer</surname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Anglo-Saxon England</title>
+<idno type="ISSN">0263-6751, 1474-0532</idno>
+<imprint>
+<biblScope unit="volume">41</biblScope>
+<biblScope unit="page">101-144</biblScope>
+<date>2012</date>
+</imprint>
+</monogr>
+</biblStruct>
+</listBibl>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text xml:lang="la">
+<body>
+<div type="textpart">
+<pb n="4r"/>
+<cb n="a"/>
+<head>Prologus</head>
+<p>
+<lb/>Si diuino ut dignum 
+<lb/>est amore flammati 
+<lb/>ad ueram cupimus 
+<lb/>sapientiam peruenire 
+<lb/>et in hac uita fragili 
+<lb/>aeterni saeculi desi
+<lb break="no"/>deramus imaginem 
+<lb/>contueri <name>Patrem</name> 
+<lb/>luminum deprecemur 
+<lb/>ut nobis cor mund<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> 
+<lb/>tribuat actionem 
+<lb/>bonae uoluntatis in
+<lb break="no"/>pertiat perseueran
+<lb break="no"/>tiam sua uirtute 
+<lb/>concedat. ut scrip
+<lb break="no"/>turarum diuinarum 
+<lb/>palatia ipsius miseri
+<lb break="no"/>cordia largiente pos
+<lb break="no"/>simus fiducialiter 
+<lb/>introire ne nobis 
+<lb/>dicatur. <quote source="Ps49.16" rend="sidequotes">quare tu 
+<lb/>enarras iustitias 
+<lb/>meas et adsumis testa
+<lb break="no"/>mentum meum per 
+<lb/>os tuum.</quote> Sed inuitati 
+<lb/>illud potius audiamus 
+<lb/><quote source="Matt11.28">uenite ad me omnes 
+<lb/>qui laboratis et onera
+<lb break="no"/>ti estis et ego uos 
+<lb/>reficiam.</quote> Magnum munus inaestimabile 
+<lb/>beneficium audire 
+<lb/>hominem secreta <expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan>
+<lb/>et quemadmodum 
+<lb/>ad ipsum ueniatur 
+<lb/>institui. Festine
+<lb break="no"/>mus itaque fratres 
+<cb n="b"/>
+<lb/>ad animarum fontem 
+<lb/>uiuum salutaria reme
+<lb break="no"/>dia iussionum. Quis
+<lb break="no"/>quis enim in terris scrip
+<lb break="no"/>turis talibus occupa
+<lb break="no"/>tur paene caelestis 
+<lb/>iam regni suauitate 
+<lb/>perfruitur.
+</p>
+<p>
+<lb/>Nec uos moueat q<add place="above">u</add>od 
+<lb/>pater <name>augustinus</name> in 
+<lb/>septuaginta unum libros 
+<lb/>testamentum uetus 
+<lb/>nouumque diuisit 
+<lb/>doctissimus autem 
+<lb/><name>hieronymus</name> idem ue
+<lb break="no"/>tus nouumque testa
+<lb break="no"/>mentum <num>xlviiii</num> sectio
+<lb break="no"/>nibus comprehendit. 
+<lb/>In hoc autem corpo
+<lb break="no"/>re utrumque testa
+<lb break="no"/>mentum septuage
+<lb break="no"/>nario numero proba
+<lb break="no"/>tur impletum in illa 
+<lb/>palmarum quantita
+<lb break="no"/>te forsitan praesaga
+<lb break="no"/>tu<choice><sic>s</sic><corr source="#Newton2012">m</corr></choice> quas in mansione 
+<lb/><name>helim</name> inuenit popu
+<lb break="no"/>lus <name>hebraeorum</name>. 
+<lb/>nam licet haec calcu
+<lb break="no"/>lo disparia uideantur 
+<lb/>doctrina tamen pa
+<lb break="no"/>trum ad instructio
+<lb break="no"/>nem caelestis eccle
+<lb break="no"/>siae concorditer 
+<lb/>uniuersa perducunt<reg>.</reg></p>
+<div type="textpart" subtype="finalRubric">
+<lb/><p><lb/>Amen</p>
+</div>
+</div>
+<pb n="4v"/>
+<cb n="a"/>
+<div type="textpart">
+<head>
+<lb/>In hoc codice continentur ueteris
+<lb break="no"/>et noui testamenti libri <expan>n<ex>umeri</ex></expan> lxxi
+</head>
+<list>
+<lb/><item><title>Genesis</title></item> <item><title>exodus</title></item>
+<lb/><item><title>leuiticus</title></item> <item><title>numeri</title></item>
+<lb/><item><title>deuteronomium</title></item>
+<lb/><item><name>iosue</name></item> <item><title>iudicum</title></item>
+<lb/><item><name>ruth</name></item>
+</list>
+<list>
+<lb/><item><name>Samuhel</name></item> <item><name>malachim</name></item>
+<lb/><item><title>paralypomenon</title></item>
+<lb/><item><title>li<expan><abbr rend="stroke">b</abbr><ex>er</ex></expan> psalmorum</title></item>
+<lb/><item><title>prouerbia</title></item> <item><title>ecclesi
+<lb break="no"/>astes</title></item> <item><title>cantica
+<lb/>canticorum</title></item> <item><title>li<expan><abbr rend="stroke">b</abbr><ex>er</ex></expan>
+<lb/>sapientiae</title></item> <item><title>ecclesi
+<lb break="no"/>asticum</title></item><!-- correction here to centre the line -->
+</list>
+<list>
+<lb/><item><name>Esias</name></item> <item><name>hieremias</name></item>
+<lb/><item><name>hiezechiel</name></item> <item><name>danihel</name></item>
+<lb/><item><name>osee</name></item> <item><name>iohel</name></item> <item><name>amos</name></item>
+<lb/><item><name>abdias</name></item> <item><name>ionas</name></item> <item><name>michas</name></item>
+<lb/><item><name>naum</name></item> <item><name><name>habacuc</name></name></item>
+<lb/><item><name>soffonias</name></item> <item><name>aggeus</name></item>
+<lb/><item><name>zacharias</name></item> <item><name>malachias</name></item>
+<lb/><item><name>iob</name></item> <item><name>thobias</name></item> <item><name>iudith</name></item>
+<lb/><item><name>hester</name></item> <item><name>ezras</name></item>
+<lb/><item><name>machabeo
+<lb break="no"/>rum</name>
+<lb/>li<expan><abbr rend="stroke">b</abbr><ex>ri</ex></expan>
+<lb/>d
+<lb break="no"/>u
+<lb break="no"/>o</item>
+</list>
+<cb n="b"/>
+<list>
+<lb/><head>Euangelium</head>
+<lb/><item><title>secundum <name>mathe<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan></name></title></item>
+<lb/><item><title>secundum <name>marcum</name></title></item>
+<lb/><item><title>secundum <name>lucam</name></title></item>
+<lb/><item><title>secundum <name>iohann<expan><abbr rend="supraline">e</abbr><ex>m</ex></expan></name></title></item>
+<lb/><item><title>actus apostolorum</title></item>
+</list>
+<list>
+<lb/><head>Epistulae <name>pauli</name>
+<lb/><expan>apost<ex>oli</ex></expan></head>
+<lb/><item><title>ad <name>romanos</name> <num>i</num></title></item>
+<lb/><item><title>ad <name>corintheos</name> <num>ii</num></title></item>
+<lb/><item><title>ad <name>galatias</name> <num>i</num></title></item>
+<lb/><item><title>ad <name>ephesios</name></title> <num>i</num></item>
+<lb/><item><title>ad <name>colosenses</name></title> <num>i</num></item>
+<lb/><item><title>ad <name><expan>thessalon<ex>icenses</ex></expan></name></title> <num>ii</num></item>
+<lb/><item><title>ad <name>timotheum</name></title> <num>ii</num></item>
+<lb/><item><title>ad <name>titum</name></title> <space n="4" unit="character"/><num>i</num></item>
+<lb/><item><title>ad <name>philimon</name></title> <space n="4" unit="character"/><num>i</num></item>
+<lb/><item><title>ad <name>hebreos</name></title> <space n="4" unit="character"/><num>i</num></item>
+</list><list>
+<lb/><item><title><expan>Epist<ex>ula</ex></expan> <name>iacobi</name></title> <space n="4" unit="character"/><num>i</num></item>
+<lb/><item><name>petri</name> <space n="4" unit="character"/><num>i</num></item>
+<lb/><item><name>iohannis</name> <space n="4" unit="character"/><num>iii</num></item>
+<lb/><item><name>iudae</name> <space n="4" unit="character"/><num>i</num></item>
+<lb/><item><title>apocalypsis <name><expan>iohan<ex>ni</ex></expan></name></title></item>
+</list>
+<div type="textpart" subtype="finalRubric">
+<lb/><p>Amen</p>
+</div>
+<div type="textpart">
+<addSpan spanTo="#gazis"/>
+<lg>
+<l><name>Hieronyme</name> interpres uariis doctissime linguis</l>
+<l>Te <name>bethlem</name> celebrat te totus personat orbis</l>
+<l>Te quoque nostra tuis promet bibliotheca libris</l>
+<l>Qua noua cum priscis condis donaria gazis</l>
+</lg>
+<anchor xml:id="gazis"/>
+</div>
+<pb n="5r"/>
+<div type="textpart">
+<lg met="elegiacs">
+<lb/><l met="hexameter">Codicibus sacris hostili clade perustis</l>
+<lb/><l rend="indent">Ezra deo feruens hoc reparauit opus</l>
+</lg>
+</div>
+<div type="textpart">
+<head>Auctoritas diuina continetur in testamenta duo id est in uetus et in nouum</head>
+<p>In lege Genesis Exodum Leuiticum Numerorum Deute ronomium In prophetis Iesu Naue Iudicum et Ruth Samuhel Ma lachian Esaias Hieremias Hi ezecihel Liber duodecim prophetarum In agiographis lob Dauid Salom Prouerbia Ecclesiastes Cantica Canticorum Danihel Uerba dierum id est Paralip Esras Hester In Euangeliis Matheus Marcus Lucas Iohannes Epist Apost Pauli Apostoli xiiii Petri Apost ii Iohann Apost iii Iacobi Ap i Iudae Ap i Act Apost Actus Apostolorum Liber uuus Apocalypsi Apocalypsin Liber unus </p>
+<p>Sic fiunt ueteris nouique testamenti secundum Hieronymuni libri quadraginta nouem quibus adde dominum Christum de quo et per quern ista conscripta sunt fit quinquagenarius numerus qui ad instar iobelei anni debita re mittit et paenitentium peccata dissoluit </p>
+</div>
+</div>
+</body>
+</text>
+</TEI>
