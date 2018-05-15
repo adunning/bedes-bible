@@ -2103,7 +2103,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb break="no"/>runt indignari de<reg> </reg><name>iacobo</name> 
 <lb rend="indent"/>et <name>iohanne</name>
 <lb/><milestone unit="v" n="10.42"/><name><expan>i<am rend="supraline">h</am><ex>esu</ex>s</expan></name> autem uocans eos ait illis
-<lb/>scitis quia hi<supplied reason="omitted">i</supplied> qui<reg> </reg>uidentur 
+<lb/>scitis quia hi<!-- hii S --> qui<reg> </reg>uidentur 
 <lb rend="indent"/>principari gentibus 
 <lb rend="indent"/>dominantur eis
 <lb/>et<reg> </reg>principes eorum potesta
@@ -2534,7 +2534,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <fw place="top"><expan>marc<am>’</am><ex>um</ex></expan></fw>
 <cb n="a"/>
 <lb rend="indent"/>orationis
-<lb/>hi<supplied reason="omitted">i</supplied> accipient prolixius iudici<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan>
+<lb/>hi<!-- hii S --> accipient prolixius iudici<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan>
 </p>
 <p>
 <label type="chapter" rend="red supraline" n="41">xli</label>

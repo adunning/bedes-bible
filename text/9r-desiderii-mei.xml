@@ -105,7 +105,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb break="no"/>scere facit quae minus ante<reg> </reg>fuerant. 
 <lb/>aut superflua quaeque iugulat et<reg> </reg>con
 <lb break="no"/>fodit. maximeque euangelistarum et 
-<lb/>apostolorum auctoritas<surplus><add place="above" hand="later"> promulgauit</add></surplus>. In<reg> </reg>quibus 
+<lb/>apostolorum auctoritas <surplus><add place="above" hand="later">promulgauit</add></surplus>. In<reg> </reg>quibus 
 <lb/>multa de<reg> </reg>ueteri testamento legimus 
 <lb/>quae in<reg> </reg>nostris codici<expan>b<am>’</am><ex>us</ex></expan> non habentur 
 <lb/>ut<reg> </reg>est illud. <quote rend="sidequotes">ex<reg> </reg><name>aegypto</name> uocaui filium 
@@ -122,7 +122,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb break="no"/>ramus. primum testimonium est 
 <lb/>in<reg> </reg><name>osee</name>. secundum in<reg> </reg><name>isaia</name>. tertium 
 <lb/>in<reg> </reg><name>zaccharia</name>. quartum in<reg> </reg><title>prouerbiis</title>. 
-<lb/>quintum aequ<del rend="erased"><gap unit="character" n="1" reason="illegible"/></del>e in<reg> </reg><name>isaia</name>. quod multi 
+<lb/>quintum aequ<del rend="erased">i</del>e in<reg> </reg><name>isaia</name>. quod multi 
 <lb/>ignorantes apocryforum deliramenta 
 <lb/>sectantur et<reg> </reg>hiberas nenias libris 
 <lb/>authenticis praeferunt<unclear>.</unclear> causas erro
@@ -130,7 +130,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <cb n="b"/>
 <lb rend="indent"/>prudenti factum dicunt esse con
 <lb break="no" rend="indent"/>silio. ne<reg> </reg><name>ptolomeus</name> unius <expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan> cultor 
-<lb rend="indent"/>etiam apud <name>hebraeos</name> duplicem diuini
+<lb rend="indent"/>etiam aput <name>hebrę<subst><del rend="alt">u</del><add place="overstrike">o</add></subst>s</name> duplicem diuini
 <lb break="no"/>tatem depr<surplus>a</surplus>ehenderet. quod maxime<!-- Rome: quos maximi--> 
 <lb/>idcirco faciebat quia in<reg> </reg><name>platonis</name> dogma 
 <lb/>cadere uidebantur<unclear>.</unclear> denique ubicumque 
@@ -175,9 +175,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <pb n="9v"/>
 <cb n="a"/>praefero. per istorum os mihi <name><expan><am>x</am><am rend="supraline">p</am><ex>christu</ex>s</expan></name> sonat<unclear>.</unclear> 
 <lb/>quos ante prophetas inter spiritalia 
-<lb/>charismata positos lego<unclear>.</unclear> in<reg> </reg>qui<expan>b<am>’</am><ex>us</ex></expan> ultim<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> 
-<lb/>paene gradum interpretes tenent. 
- <lb/>quid li<choice><orig>b</orig><reg>u</reg></choice>ore torqueris? quid imperitorum 
+<lb/>charismata positos lego<unclear>.</unclear> In<reg> </reg>qui<expan>b<am>’</am><ex>us</ex></expan> ultim<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> 
+<lb/>paene gradum interpr<surplus>a</surplus>etes tenent. 
+<lb/>quid li<choice><orig>b</orig><reg>u</reg></choice>ore torqueris? quid imperitorum 
 <lb/>animos contra me concitas? sicubi tibi 
 <lb/>in<reg> </reg>translatione uideor errare<choice><sic>?</sic><corr>.</corr></choice><!-- is interrogatiuus later addition here? --> inter
 <lb break="no"/>roga <name>hebraeos</name> diuersarum urbium magi
@@ -188,7 +188,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb break="no"/>tiora sunt exemplaria latina quam 
 <lb/>gr<reg>a</reg>eca. gr<reg>a</reg>eca quam hebr<reg>a</reg>ea<unclear>.</unclear> uerum<reg> </reg>haec 
 <lb/>contra inuidos. nunc te precor <name>deside
-<lb break="no"/>ri</name> carissime ut<reg> </reg>qui tantum opus me 
+<lb break="no"/>ri<surplus>i</surplus></name> carissime ut<reg> </reg>qui tantum opus me 
 <lb/>subire fecisti. et<reg> </reg>a<reg> </reg><title>genesi</title> exordium 
 <lb/>capere orationibus iuues quo<reg> </reg>possim 
 <lb/>eodem <expan>s<abbr rend="supraline">p</abbr><ex>irit</ex>u</expan> quo scripti sunt libri in<reg> </reg>lati
