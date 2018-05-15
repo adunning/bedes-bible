@@ -1,0 +1,2595 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:space="preserve">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title xml:lang="la">Luke</title>
+</titleStmt>
+<publicationStmt>
+<authority>Digital Latin Library</authority>
+<availability>
+<licence target="https://creativecommons.org/licences/by-sa/4.0/">Provided under a Creative Commons Attribution-ShareAlike 4.0 International Licence.</licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<settlement>Florence</settlement>
+<repository>Biblioteca Medicea Laurenziana</repository>
+<collection>Amiatino</collection>
+<idno>1</idno>
+<msName>Codex Amiatinus</msName>
+</msIdentifier>
+</msDesc>
+<listBibl>
+<biblStruct type="book" xml:id="Tischendorf1850" corresp="http://zotero.org/users/254032/items/CCTVHEQ4">
+<monogr>
+<title level="m">Novum Testamentum Latine interprete Hieronymo. Ex celeberrimo Codice Amiatino</title>
+<title type="short">Novum Testamentum Amiatinum</title>
+<author>
+<forename>Constantinus von</forename>
+<surname>Tischendorf</surname>
+</author>
+<imprint>
+<pubPlace>Leipzig</pubPlace>
+<publisher>Avenarius et Mendelssohn</publisher>
+<date>1850</date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct type="book" xml:id="Weber2007" corresp="http://zotero.org/users/254032/items/W6D8WMM3">
+<monogr>
+<title level="m">Biblia Sacra iuxta vulgatam versionem</title>
+<editor>
+<forename>Robert</forename>
+<surname>Weber</surname>
+</editor>
+<editor>
+<forename>Bonifatius</forename>
+<surname>Fischer</surname>
+</editor>
+<editor>
+<forename>Jean</forename>
+<surname>Gribomont</surname>
+</editor>
+<editor>
+<forename>Hedley F.D.</forename>
+<surname>Sparks</surname>
+</editor>
+<editor>
+<forename>Walter</forename>
+<surname>Thiele</surname>
+</editor>
+<editor>
+<forename>Roger</forename>
+<surname>Gryson</surname>
+</editor>
+<edition>5</edition>
+<imprint>
+<pubPlace>Stuttgart</pubPlace>
+<publisher>Deutsche Bibelgesellschaft</publisher>
+<date>2007</date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct type="book" xml:id="Wordsworth1889" corresp="http://zotero.org/users/254032/items/WCM7IWE8">
+<monogr>
+<title level="m">Nouum Testamentum Domini nostri Iesu Christi Latine, secundum editionem sancti Hieronymi</title>
+<editor>
+<forename>John</forename>
+<surname>Wordsworth</surname>
+</editor>
+<editor>
+<forename>Henry Julian</forename>
+<surname>White</surname>
+</editor>
+<editor>
+<forename>Alexander</forename>
+<surname>Ramsbotham</surname>
+</editor>
+<editor>
+<forename>Hedley F.D.</forename>
+<surname>Sparks</surname>
+</editor>
+<editor>
+<forename>Claude</forename>
+<surname>Jenkins</surname>
+</editor>
+<editor>
+<forename>Arthur White</forename>
+<surname>Adams</surname>
+</editor>
+<imprint>
+<pubPlace>Oxford</pubPlace>
+<publisher>Clarendon Press</publisher>
+<date>1889–1954</date>
+</imprint>
+</monogr>
+</biblStruct>
+</listBibl>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text xml:lang="la">
+<body>
+<!-- starting at 852rb -->
+<cb n="b"/>
+<p>
+<label type="chapter" rend="red supraline" n="1">i</label>
+<lb/><milestone unit="v" n="1.1"/><note type="canon">i <hi rend="red">x</hi></note><hi rend="red"><hi rend="dropcap3">Q</hi>uoniam quidem mul
+<lb break="no"/>ti conati sunt ordina
+<lb break="no"/>re narrationem</hi> 
+<lb/>quae in nobis conpletae 
+<lb rend="indent"/>sunt rerum
+<lb/><milestone unit="v" n="1.2"/>sicut tradiderunt nobis 
+<lb rend="indent"/>qui ab initio ipsi uiderunt<!-- where is S getting lineation in this section? --> 
+<lb/>et ministri fuerunt 
+<lb rend="indent"/>sermonis
+<lb/><milestone unit="v" n="1.3"/>uisum est et mihi 
+<lb/>assecuto a principio omnia<!-- omnibus S --> 
+<lb/>diligenter ex ordine tibi scri
+<lb break="no"/>bere optime <name>theophile</name>
+<lb/><milestone unit="v" n="1.4"/>ut cognoscas eorum uerbo
+<lb break="no"/>rum de quibus eruditus 
+<lb rend="indent"/>es ueritatem
+</p>
+<p>
+<label type="chapter" rend="red supraline" n="2">ii</label>
+<lb/><milestone unit="v" n="1.5"/><hi rend="red">Fuit in diebus <name>herodis</name></hi> 
+<lb rend="indent"/>regis <name>iudaeae</name> 
+<lb/>sacerdos quidam nomine 
+<lb rend="indent"/><name>zacharias<!-- zaccharias S --></name> de uice <name>abia</name>
+<lb/>et uxor illi de filiabus <name>aaron</name> 
+<lb rend="indent"/>et nomen eius <name>elisabet<!-- elisabeth S: chk --></name>
+<lb/><milestone unit="v" n="1.6"/>erant autem iusti ambo 
+<lb rend="indent"/>ante <name><expan>d<ex>eu</ex><abbr rend="supraline">m</abbr></expan></name>
+<lb/>incedentes in omnibus 
+<lb rend="indent"/>mandatis et iustificationi
+<lb break="no"/>bus <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name> sine querella
+<lb/><milestone unit="v" n="1.7"/>et non erat illis filius eo quod 
+<lb rend="indent"/>esset <name>elisabet<!-- elisabeth S: chk --></name> sterilis
+<lb/>et ambo processissent 
+<lb rend="indent"/>in diebus suis
+</p>
+<p>
+<lb rend="outdent"/><milestone unit="v" n="1.8"/><hi rend="dropcap2">F</hi>actum est autem cum sacer
+<lb break="no"/>dotio fungeretur in ordine 
+<lb rend="indent"/>uicis suae ante <name><expan>d<ex>eu</ex><abbr rend="supraline">m</abbr></expan></name>
+<lb/><milestone unit="v" n="1.9"/>secundum consuetudinem 
+<lb rend="indent"/>sacerdotii
+<lb/>sorte exiit ut incensum pone
+<lb break="no"/>ret ingressus in templum <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name><!-- dni possibly added, but I think they just wanted to avoid using another line -->
+<lb/><milestone unit="v" n="1.10"/>et omnis multitudo erat 
+<lb rend="indent"/>populi orans foris hora 
+<lb rend="indent"/>incensi
+<lb/><milestone unit="v" n="1.11"/>apparuit autem illi angelus 
+<lb rend="indent"/><name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name> stans a dextris altaris 
+<lb rend="indent"/>incensi
+<pb n="852v"/>
+<fw><expan>s<abbr rend="supraline">ec</abbr><ex>undum</ex></expan></fw>
+<cb n="a"/>
+<lb/><milestone unit="v" n="1.12"/>et <name>zacharias<!-- zaccharias S --></name> turbatus est uidens 
+<lb rend="indent"/>et timor inruit super eum
+<lb/><milestone unit="v" n="1.13"/>ait autem ad illum angelus
+<lb/>ne timeas <name>zacharia<!-- zaccharia S --></name> quoniam 
+<lb rend="indent"/>exaudita est deprecatio tua
+<lb/>et uxor tua <name>elisabet<!-- elisabeth S: chk --></name> pariet 
+<lb rend="indent"/>tibi filium et uocabis 
+<lb rend="indent"/>nomen eius <name>iohannem</name>
+<lb/><milestone unit="v" n="1.14"/>et erit gaudium tibi et exul
+<lb break="no"/>tatio et multi in natiuita
+<lb break="no"/>te eius gaudebunt
+<lb/><milestone unit="v" n="1.15"/>erit enim magnus coram <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>o</expan></name> 
+<lb rend="indent"/>et uinum et sicera non 
+<lb rend="indent"/>bibet
+<lb/>et <name><expan>s<abbr rend="supraline">p</abbr><ex>irit</ex>u</expan> <expan>s<ex>an</ex><abbr rend="supraline">c</abbr><ex>t</ex>o</expan></name> replebitur adhuc 
+<lb rend="indent"/>ex utero matris suae
+<lb/><milestone unit="v" n="1.16"/>et multos filiorum <name>israhel</name> 
+<lb rend="indent"/>conuertet ad <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>m</expan> <expan>d<ex>eu</ex><abbr rend="supraline">m</abbr></expan></name> 
+<lb rend="indent"/>ipsorum
+<lb/><milestone unit="v" n="1.17"/>et ipse praecedet ante ill<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> 
+<lb rend="indent"/>in <expan>s<abbr rend="supraline">p</abbr><ex>irit</ex>u</expan> et uirtute <name>heliae</name>
+<lb/>ut conuertat corda patr<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> 
+<lb rend="indent"/>in filios
+<lb/>et incredibiles ad pruden
+<lb break="no"/>tiam iustorum
+<lb/>parare <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>o</expan></name> plebem perfect<expan><abbr rend="supraline">a</abbr><ex>m</ex></expan>
+<lb/><milestone unit="v" n="1.18"/>et dixit <name>zacharias<!-- zaccharias S --></name> ad angel<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> 
+<lb rend="indent"/>unde hoc sciam
+<lb/>ego enim sum senex 
+<lb rend="indent"/>et uxor mea processit 
+<lb rend="indent"/>in diebus suis
+<lb rend="outdent"/><milestone unit="v" n="1.19"/><note type="canon">ii <hi rend="red">v</hi></note><note type="crossref">M iii</note><!-- S moved this below, with good reason -->Et respondens angelus 
+<lb rend="indent"/>dixit ei
+<lb/>ego sum <name>gabrihel</name> qui adsto 
+<lb rend="indent"/>ante <name><expan>d<ex>eu</ex><abbr rend="supraline">m</abbr></expan></name>
+<lb/>et missus sum loqui ad te 
+<lb rend="indent"/>et haec tibi euangelizare
+<lb rend="outdent"/><milestone unit="v" n="1.20"/><note type="canon">iii <hi rend="red">x</hi></note><!-- again, S moved this below -->Et ecce eris tacens et non 
+<lb rend="indent"/>poteris loqui usque in di
+<lb break="no"/>em quo haec fiant
+<lb/><!-- cap? -->pro eo quod non credidisti 
+<lb rend="indent"/>uerbis meis
+<lb/>quae implebuntur in tem
+<lb break="no"/>pore suo
+<cb n="b"/>
+<lb/><milestone unit="v" n="1.21"/>et erat plebs expectans 
+<lb rend="indent"/><name>zachariam<!-- zacchariam S--></name>
+<lb/>et mirabantur quod tardaret 
+<lb rend="indent"/>ipse in templo
+<lb/><milestone unit="v" n="1.22"/>egressus autem non poterat 
+<lb rend="indent"/>loqui ad illos
+<lb/>et cognouerunt quod uisio
+<lb break="no"/>nem uidisset in templo
+<lb/>et ipse erat innuens illis 
+<lb rend="indent"/>et permansit mutus
+<lb/><milestone unit="v" n="1.23"/>et fact<choice><sic>i sunt</sic><corr source="#Weber2007">um est</corr></choice><!-- this must be wrong, though S does not report in app. --> ut impleti sunt 
+<lb rend="indent"/>dies officii eius abiit 
+<lb rend="indent"/>in domum suam
+<lb/><milestone unit="v" n="1.24"/>post hos autem dies concepit 
+<lb rend="indent"/><name>elisabet<!-- elisabeth S: chk --></name> uxor eius
+<lb/>et occultabat se mensibus 
+<lb rend="indent"/>quinque dicens
+<lb/><milestone unit="v" n="1.25"/>quia sic mihi fecit <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>s</expan></name> 
+<lb/>in diebus quibus respexit 
+<lb rend="indent"/>auferre obprobrium 
+<lb rend="indent"/>meum inter homines
+</p>
+<p>
+<label type="chapter" rend="red supraline" n="3">iii</label>
+<lb rend="outdent"/><milestone unit="v" n="1.26"/><hi rend="red">In</hi> mense autem sexto missus 
+<lb rend="indent"/>est angelus <name>gabrihel</name> a <name><expan>d<ex>e</ex><abbr rend="supraline">o</abbr></expan></name> 
+<lb/>in ciuitatem <name>galilaeae</name> 
+<lb rend="indent"/>cui nomen <name>nazareth</name>
+<lb/><milestone unit="v" n="1.27"/>ad uirginem desponsatam 
+<lb rend="indent"/>uiro cui nomen erat <name>ioseph</name> 
+<lb rend="indent"/>de domo <name>dauid</name>
+<lb/>et nomen uirginis <name>maria</name>
+<lb/><milestone unit="v" n="1.28"/>et ingressus angelus 
+<lb rend="indent"/>ad eam dixit
+<lb/>haue gratia plena <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>s</expan></name> tecum 
+<lb rend="indent"/>benedicta tu in mulieribus
+<lb/><milestone unit="v" n="1.29"/>quae cum audisset<!-- uidisset S; interestingly, an uncommon rdg? chk WW --> turbata 
+<lb rend="indent"/>est in sermone eius
+<lb/>et cogitabat qualis esset 
+<lb rend="indent"/>ista salutatio
+<lb/><milestone unit="v" n="1.30"/>et ait angelus ei ne timeas 
+<lb rend="indent"/><name>maria</name> inuenisti enim 
+<lb rend="indent"/>gratiam apud <name><expan>d<ex>eu</ex><abbr rend="supraline">m</abbr></expan></name>
+<lb/><milestone unit="v" n="1.31"/>ecce concipies in utero 
+<lb rend="indent"/>et paries filium
+<lb/>et uocabis nomen eius <name><expan>i<am rend="supraline">h</am><ex>esu</ex>m</expan></name>
+<lb/><milestone unit="v" n="1.32"/>hic erit magnus et <name>filius 
+<pb n="853r"/>
+<fw><expan>lu<abbr rend="supraline">c</abbr><ex>am</ex></expan></fw>
+<cb n="a"/>
+<lb rend="indent"/>altissimi</name> uocabitur
+<lb/>et dabit illi <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>s</expan><!-- deus add. S: chk WW--></name> sedem <name>dauid</name> 
+<lb rend="indent"/>patris eius
+<lb/><milestone unit="v" n="1.33"/>et regnabit in domo <name>iacob</name> 
+<lb rend="indent"/>in aeternum
+<lb/>et regni eius non erit finis
+<lb rend="outdent"/><milestone unit="v" n="1.34"/>Dixit autem <name>maria</name> ad angelum
+<lb/>quomodo fiet istud quoniam 
+<lb rend="indent"/>uirum non cognosco
+<lb/><milestone unit="v" n="1.35"/><!-- 2/5 canon here in S -->et respondens angelus dixit ei 
+<lb rend="indent"/><name><expan>s<abbr rend="supraline">p</abbr><ex>iritu</ex>s</expan> <expan>s<ex>an</ex><abbr rend="supraline">c</abbr><ex>tu</ex>s</expan></name> superueniet in te
+<lb/>et uirtus <name>altissimi</name> obumbra
+<lb break="no"/>bit tibi
+<lb/>ideo<surplus> </surplus>que et quod nascetur 
+<lb rend="indent"/><expan>s<ex>an</ex><abbr rend="supraline">c</abbr><ex>tu</ex>m</expan> uocabitur <name>filius <expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name>
+<lb/><milestone unit="v" n="1.36"/><!-- 3/10 canon here in S -->et ecce <name>elisabet<!-- elisabeth S: chk --></name> cognata tua 
+<lb rend="indent"/>et ipsa concepit filium 
+<lb rend="indent"/>in senecta sua
+<lb/>et hic mensis est sextus illi 
+<lb rend="indent"/>quae uocatur sterelis<!-- sterilis S, but this is also an acceptable spelling in this context -->
+<lb/><milestone unit="v" n="1.37"/>quia non erit inpossibile 
+<lb rend="indent"/>apud <name><expan>d<ex>eu</ex><abbr rend="supraline">m</abbr></expan></name> omne uerbum
+<lb/><milestone unit="v" n="1.38"/>dixit autem <name>maria</name>
+<lb/>ecce ancilla <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name> fiat mihi 
+<lb rend="indent"/>secundum uerbum tuum
+<lb/>et discessit ab illa angelus
+<lb rend="outdent"/><milestone unit="v" n="1.39"/>Exsurgens autem <name>maria</name> in die<expan>b<am>’</am><ex>us</ex></expan> 
+<lb rend="indent"/>illis abiit in montana 
+<lb rend="indent"/>cum festinatione 
+<lb rend="indent"/>in ciuitatem <name>iuda</name>
+<lb/><milestone unit="v" n="1.40"/>et intrauit in domum <name>zacha
+<lb break="no"/>riae<!-- zacchariae S --></name> et salutauit <name>elisabet<!-- elisabeth S: chk --></name>
+<lb/><milestone unit="v" n="1.41"/>et factum est ut audiuit 
+<lb rend="indent"/>salutationem <name>mariae</name> 
+<lb rend="indent"/><name>elisabet<!-- elisabeth S: chk --></name> exultauit infans 
+<lb rend="indent"/>in utero eius
+<lb/>et repleta est <name><expan>s<abbr rend="supraline">p</abbr><ex>irit</ex>u</expan> <expan>s<ex>an</ex><abbr rend="supraline">c</abbr><ex>t</ex>o</expan></name> <name>elisa
+<lb break="no"/>bet<!-- elisabeth S: chk --></name> <milestone unit="v" n="1.42"/>et exclamauit uoce 
+<lb rend="indent"/>magna et dixit
+<lb/>benedicta tu inter mulieres 
+<lb rend="indent"/>et benedictus fructus 
+<lb rend="indent"/>uentris tui
+<lb/><milestone unit="v" n="1.43"/>et unde hoc mihi ut ueniat 
+<lb rend="indent"/>mater <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name> mei ad me
+<cb n="b"/>
+<lb/><milestone unit="v" n="1.44"/>ecce enim ut facta est uox 
+<lb rend="indent"/>salutationis tuae 
+<lb rend="indent"/>in auribus meis
+<lb/>exultauit in gaudio infans 
+<lb rend="indent"/>in utero meo
+<lb/><milestone unit="v" n="1.45"/>et beata quae credidit quoni<expan><abbr rend="supraline">a</abbr><ex>m</ex></expan> 
+<lb rend="indent"/>perficientur ea quae dicta 
+<lb rend="indent"/>sunt ei a <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>o</expan></name>
+<lb/><milestone unit="v" n="1.46"/>et ait <name>maria</name>
+</p>
+<p>
+<lb/><hi rend="red">M</hi>agnificat anima mea <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>m</expan></name>
+<lb/><milestone unit="v" n="1.47"/>et exultauit <expan>s<abbr rend="supraline">p</abbr><ex>iritu</ex>s</expan> meus 
+<lb rend="indent"/>in <name><expan>d<ex>e</ex><abbr rend="supraline">o</abbr></expan></name> salutari meo
+<lb/><milestone unit="v" n="1.48"/>quia respexit humilitatem 
+<lb rend="indent"/>ancillae suae
+<lb/>ecce enim ex hoc beatam me 
+<lb rend="indent"/>dicent omnes generationes
+<lb/><milestone unit="v" n="1.49"/>quia fecit mihi magna qui po
+<lb break="no"/>tens est et <expan>s<ex>an</ex><abbr rend="supraline">c</abbr><ex>tu</ex>m</expan> nomen eius
+<lb/><milestone unit="v" n="1.50"/>et misericordia eius in proge
+<lb break="no"/>nies et progenies timen
+<lb break="no"/>tibus eum
+<lb/><milestone unit="v" n="1.51"/>fecit potentiam in brachio 
+<lb rend="indent"/>suo dispersit superbos 
+<lb rend="indent"/>mente cordis sui
+<lb/><milestone unit="v" n="1.52"/>deposuit potentes de sede 
+<lb rend="indent"/>et exaltauit humiles
+<lb/><milestone unit="v" n="1.53"/>esurientes impleuit bonis 
+<lb rend="indent"/>et diuites dimisit inanes
+<lb/><milestone unit="v" n="1.54"/>suscepit <name>israhel</name> puerum su<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> 
+<lb rend="indent"/>memorari misericordiae
+<lb/><milestone unit="v" n="1.55"/>sicut locutus est ad patres 
+<lb rend="indent"/>nostros <name>abraham</name> et semi
+<lb break="no"/>ni eius in saecula
+<lb/><milestone unit="v" n="1.56"/>mansit autem <name>maria</name> cum illa 
+<lb rend="indent"/>quasi mensibus tribus
+<lb/>et reuersa est in domum su<expan><abbr rend="supraline">a</abbr><ex>m</ex></expan>
+</p>
+<p>
+<label type="chapter" rend="red supraline" n="4">iiii</label>
+<lb/><milestone unit="v" n="1.57"/><name><hi rend="red">Eli</hi>sabeth</name> autem impletum 
+<lb rend="indent"/>est tempus pariendi
+<lb/>et peperit filium
+<lb/><milestone unit="v" n="1.58"/>et audierunt uicini et cogna
+<lb break="no"/>ti eius quia magnificauit 
+<lb rend="indent"/><name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>s</expan></name> misericordiam suam 
+<lb rend="indent"/>cum illa
+<lb/>et congratulabantur ei
+<pb n="853v"/>
+<cb n="a"/>
+<lb rend="outdent"/><milestone unit="v" n="1.59"/>Et factum est in die octauo
+<lb/>uenerunt circumcidere puer<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan>
+<lb/>et uoca<supplied reason="omitted" source="#Weber2007">ba</supplied>nt eum nomine patris 
+<lb rend="indent"/>eius <name>zachariam<!-- zacchariam S --></name>
+<lb/><milestone unit="v" n="1.60"/>et respondens mater eius 
+<lb rend="indent"/>dixit
+<lb/>nequaquam sed uocabitur 
+<lb rend="indent"/><name>iohannes</name>
+<lb/><milestone unit="v" n="1.61"/>et dixerunt ad illam
+<lb/>quia nemo est in cognatione 
+<lb rend="indent"/>tua qui uocetur hoc nomine
+<lb/><milestone unit="v" n="1.62"/>innuebant autem patri eius 
+<lb rend="indent"/>quem uellet uocari eum
+<lb/><milestone unit="v" n="1.63"/>et postulans pugil<supplied reason="omitted">l</supplied>arem 
+<lb rend="indent"/>scripsit dicens
+<lb/><name>iohannes</name> est nomen eius
+<lb/>et mirati sunt uniuersi
+<lb/><milestone unit="v" n="1.64"/>apertum est autem ilico 
+<lb rend="indent"/>os eius et lingua eius
+<lb/>et loquebatur benedi
+<lb break="no"/>cens <name><expan>d<ex>eu</ex><abbr rend="supraline">m</abbr></expan></name>
+<lb/><milestone unit="v" n="1.65"/>et factus est timor super 
+<lb rend="indent"/>omnes uicinos eorum
+<lb/>et super omnia montana 
+<lb rend="indent"/><name>iudaeae</name> diuulgabantur 
+<lb rend="indent"/>omnia uerba haec
+<lb/><milestone unit="v" n="1.66"/>et posuerunt omnes qui 
+<lb rend="indent"/>audierant in corde suo 
+<lb rend="indent"/>dicentes
+<lb/>quid putas puer iste erit
+<lb/>etenim manus <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name> erat 
+<lb rend="indent"/>cum illo
+<lb/><milestone unit="v" n="1.67"/>et <name>zacharias<!-- zaccharias S --></name> pater eius imple
+<lb break="no"/>tus est <name><expan>s<abbr rend="supraline">p</abbr><ex>irit</ex>u</expan> <expan>s<ex>an</ex><abbr rend="supraline">c</abbr><ex>t</ex>o</expan></name> et prophe
+<lb break="no"/>tauit dicens
+</p>
+<p>
+<lb/><milestone unit="v" n="1.68"/><hi rend="red">Bene</hi>dictus <name><expan>d<ex>eu</ex><abbr rend="supraline">s</abbr></expan></name> <name>israhel</name> 
+<lb rend="indent"/>quia uisitauit et fecit 
+<lb rend="indent"/>redemtionem<!-- redemptionem S --> plebi suae
+<lb/><milestone unit="v" n="1.69"/>et erexit cornu salutis nobis 
+<lb rend="indent"/>in domo <name>dauid</name> pueri sui
+<lb/><milestone unit="v" n="1.70"/>sicut locutus est per os <expan>s<ex>an</ex><abbr rend="supraline">c</abbr><ex>t</ex>o</expan>
+<lb rend="indent"/>rum qui a saeculo sunt 
+<lb rend="indent"/>prophetarum eius
+<lb/><milestone unit="v" n="1.71"/>salutem ex inimicis nostris
+<cb n="b"/>
+<lb/>et de manu omnium qui nos 
+<lb rend="indent"/>oderunt <!-- oderunt nos S -->
+<lb/><milestone unit="v" n="1.72"/>ad faciendam misericordiam 
+<lb rend="indent"/>cum patribus nostris
+<lb/>et memorari testamenti 
+<lb rend="indent"/>sui <expan>s<ex>an</ex><abbr rend="supraline">c</abbr><ex>t</ex>i</expan>
+<lb/><milestone unit="v" n="1.73"/>iusiurandum quod iurauit 
+<lb rend="indent"/>ad <name>abraham</name> patrem nostr<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> 
+<lb rend="indent"/><milestone unit="v" n="1.74"/>daturum se nobis
+<lb/>ut sine timore de manu inimi
+<lb break="no"/>corum nostrorum liberati
+<lb/>seruiamus illi <milestone unit="v" n="1.75"/>in <expan>s<ex>an</ex><abbr rend="supraline">c</abbr><ex>t</ex>i</expan>tate 
+<lb rend="indent"/>et iustitia coram ipso 
+<lb rend="indent"/>omnibus diebus nostris
+<lb/><milestone unit="v" n="1.76"/>et tu puer propheta <name>altis
+<lb break="no"/>simi</name> uocaberis
+<lb/>praeibis enim ante faciem 
+<lb rend="indent"/><name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name> parare uias eius
+<lb/><milestone unit="v" n="1.77"/>ad dandam scientiam salutis 
+<lb rend="indent"/>plebi eius in remissionem 
+<lb rend="indent"/>peccatorum eorum
+<lb/><milestone unit="v" n="1.78"/>per uiscera misericordiae 
+<lb rend="indent"/><name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> nostri
+<lb/>in quibus uisitauit nos 
+<lb rend="indent"/>oriens ex alto
+<lb/><milestone unit="v" n="1.79"/>inluminare his qui in tene
+<lb break="no"/>bris et in umbra mortis 
+<lb rend="indent"/>sedent
+<lb/>ad dirigendos pedes nostros 
+<lb rend="indent"/>in uiam pacis
+<lb/><milestone unit="v" n="1.80"/>puer autem crescebat 
+<lb rend="indent"/>et confortabatur <expan>s<abbr rend="supraline">p</abbr><ex>irit</ex>u</expan>
+<lb/>et erat in deserto usque in 
+<lb rend="indent"/>diem ostensionis suae 
+<lb rend="indent"/>ad <name>israhel</name></p>
+<p>
+<label type="chapter" rend="red supraline" n="5">v</label>
+<lb rend="outdent"/><milestone unit="v" n="2.1"/><hi rend="red">Fa</hi>ctum est autem in die<expan>b<am>’</am><ex>us</ex></expan> 
+<lb rend="indent"/>illis exiit edictum 
+<lb rend="indent"/>a <name>caesare augusto</name>
+<lb/>ut describeretur uniuer
+<lb break="no"/>sus orbis
+<lb/><milestone unit="v" n="2.2"/>haec descriptio prima facta 
+<lb rend="indent"/>est praeside <name>syriae</name> <name>cyrino</name>
+<lb/><milestone unit="v" n="2.3"/>et ibant omnes ut profiter<expan><abbr rend="supraline">e</abbr><ex>n</ex></expan>
+<lb break="no"/>tur singuli in suam ciuitat<expan><abbr rend="supraline">e</abbr><ex>m</ex></expan>
+<pb n="854r"/>
+<cb n="a"/>
+<lb/><milestone unit="v" n="2.4"/>ascendit autem et <name>ioseph</name> a <name>gali
+<lb break="no"/>laea</name> de ciuitate <name>nazareth</name>
+<lb/>in <name>iudaeam</name> ciuitatem <name>dauid</name> 
+<lb rend="indent"/>quae uocatur <name>bethleem</name>
+<lb/>eo quod esset de domo 
+<lb rend="indent"/>et familia <name>dauid</name>
+<lb/><milestone unit="v" n="2.5"/>ut profiteretur cum <name>maria</name> 
+<lb rend="indent"/>desponsata sibi uxore 
+<lb rend="indent"/>praegnate
+<lb rend="outdent"/><milestone unit="v" n="2.6"/>Factum est autem cum essent 
+<lb rend="indent"/>ibi impleti sunt dies 
+<lb rend="indent"/>ut pareret
+<lb/><milestone unit="v" n="2.7"/>et peperit filium suum 
+<lb rend="indent"/>primogenitum
+<lb/>et pannis eum inuoluit
+<lb/>et reclinauit eum in praesepio 
+<lb rend="indent"/>quia non erat eis locus 
+<lb rend="indent"/>in diuersorio
+<lb/><milestone unit="v" n="2.8"/>et pastores erant in regione 
+<lb rend="indent"/>eadem uigilantes et custo
+<lb break="no"/>dientes uigilias noctis 
+<lb rend="indent"/>supra gregem suum
+<lb/><milestone unit="v" n="2.9"/>et ecce angelus <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name> stetit 
+<lb rend="indent"/>iuxta illos
+<lb/>et claritas <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> circumfulsit illos
+<lb/>et timuerunt timore magno
+<lb/><milestone unit="v" n="2.10"/>et dixit illis angelus 
+<lb rend="indent"/>nolite timere
+<lb/>ecce enim euangelizo uobis 
+<lb rend="indent"/>gaudium magnum quod 
+<lb rend="indent"/>erit omni populo
+<lb/><milestone unit="v" n="2.11"/>quia natus est uobis hodie 
+<lb rend="indent"/>saluator qui est <name><expan><am>x</am><am rend="supraline">p</am><ex>christu</ex>s</expan></name> <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>s</expan></name> 
+<lb rend="indent"/>in ciuitate <name>dauid</name>
+<lb/><milestone unit="v" n="2.12"/>et hoc uobis signum inuenie
+<lb break="no"/>tis infantem pannis inuolut<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> 
+<lb rend="indent"/>et positum in praesepio
+<lb rend="outdent"/><milestone unit="v" n="2.13"/>Et subito facta est cum 
+<lb rend="indent"/>angelo multitudo militi
+<lb break="no"/>ae caelestis
+<lb/>laudantium <name><expan>d<ex>eu</ex><abbr rend="supraline">m</abbr></expan></name> et dicentium
+<lb/><milestone unit="v" n="2.14"/>gloria in altissimis <name><expan>d<ex>e</ex><abbr rend="supraline">o</abbr></expan></name>
+<lb/>et in terra pax in homini<expan>b<am>’</am><ex>us</ex></expan> 
+<lb rend="indent"/>bonae uoluntatis
+</p>
+<cb n="b"/>
+<p>
+<label type="chapter" rend="red supraline" n="6">vi</label>
+<lb/><milestone unit="v" n="2.15"/><hi rend="red">Et</hi> factum est ut discesserunt 
+<lb rend="indent"/>ab eis angeli in caelum
+<lb/>pastores loquebantur 
+<lb rend="indent"/>ad inuicem transeamus 
+<lb rend="indent"/>usque <name>bethle<supplied reason="omitted">e</supplied>m</name>
+<lb/>et uideamus hoc uerbum 
+<lb rend="indent"/>quod factum est
+<lb/>quod fecit <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>s</expan></name> et osten
+<lb break="no"/>dit nobis
+<lb/><milestone unit="v" n="2.16"/>et uenerunt festinantes
+<lb/>et inuenerunt <name>mariam</name> 
+<lb rend="indent"/>et <name>ioseph</name> et infantem 
+<lb rend="indent"/>positum in praes<subst><del rend="alt">i</del><add place="overstrike">e</add></subst>pio
+<lb/><milestone unit="v" n="2.17"/>uidentes autem cognoue
+<lb break="no"/>runt de uerbo quod dictum 
+<lb rend="indent"/>erat illis de puero hoc
+<lb/><milestone unit="v" n="2.18"/>et omnes qui audierunt 
+<lb rend="indent"/>mirati sunt
+<lb/>et de his quae dicta erant 
+<lb rend="indent"/>a pastoribus ad ipsos
+<lb/><milestone unit="v" n="2.19"/><name>maria</name> autem conseruabat 
+<lb rend="indent"/>omnia uerba haec 
+<lb/>conferens in corde suo
+<lb/><milestone unit="v" n="2.20"/>et reuersi sunt pastores 
+<lb rend="indent"/>glorificantes et laudan
+<lb break="no"/>tes <name><expan>d<ex>eu</ex><abbr rend="supraline">m</abbr></expan></name> in omnibus quae 
+<lb rend="indent"/>audierant et uiderant
+<lb/>sicut dictum est ad illos
+</p>
+<p>
+<label type="chapter" rend="red supraline" n="7">vii</label>
+<lb rend="outdent"/><milestone unit="v" n="2.21"/><hi rend="red">Et</hi> post<surplus> </surplus>quam consummati 
+<lb rend="indent"/>sunt dies octo ut circum
+<lb break="no"/>cideretur
+<lb/>uocatum est nomen eius <name><expan>i<am rend="supraline">h</am><ex>esu</ex>s</expan></name>
+<lb/>quod uocatum est ab angelo 
+<lb rend="indent"/>priusquam in utero 
+<lb rend="indent"/>conciperetur
+<lb/><milestone unit="v" n="2.22"/>et post<surplus> </surplus>quam impleti sunt 
+<lb rend="indent"/>dies purgationis eius 
+<lb rend="indent"/>secundum legem <name>mosi</name>
+<lb/>tulerunt illum in <name>hierusa
+<lb break="no"/>lem</name> ut sisterent eum <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>o</expan></name>
+<lb/><milestone unit="v" n="2.23"/>sicut scriptum est 
+<lb rend="indent"/>in lege <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name>
+<lb/>quia omne masculinum 
+<lb rend="indent"/>adaperiens uuluam 
+<pb n="854v"/>
+<expan>s<abbr rend="supraline">ec</abbr><ex>undum</ex></expan>
+<cb n="a"/>
+<lb rend="indent"/><expan>s<ex>an</ex><abbr rend="supraline">c</abbr><ex>tu</ex>m</expan> <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>o</expan></name> uocabitur
+<lb/><milestone unit="v" n="2.24"/>et ut darent hostiam secun
+<lb break="no"/>dum quod dictum est 
+<lb rend="indent"/>in lege<!-- domini add. S -->
+<lb/>par turturum aut duos 
+<lb rend="indent"/>pullos columbarum
+</p>
+<p>
+<lb/><milestone unit="v" n="2.25"/><hi rend="red">Et</hi> ecce homo erat in <name>hieru
+<lb break="no"/>salem</name> cui nomen <name>symeon</name>
+<lb/>et homo iste iustus 
+<lb rend="indent"/>et timoratus
+<lb/>expectans consolationem 
+<lb rend="indent"/><name>israhel</name> et <name><expan>s<abbr rend="supraline">p</abbr><ex>iritu</ex>s</expan> <expan>s<ex>an</ex><abbr rend="supraline">c</abbr><ex>tu</ex>s</expan></name> erat in eo
+<lb/><milestone unit="v" n="2.26"/>et responsum acceperat 
+<lb rend="indent"/>ab <name><expan>s<abbr rend="supraline">p</abbr><ex>irit</ex>u</expan> <expan>s<ex>an</ex><abbr rend="supraline">c</abbr><ex>t</ex>o</expan></name>
+<lb/>non uisurum se mortem 
+<lb rend="indent"/>nisi prius uideret <name><expan><am>x</am><am rend="supraline">p</am><ex>christu</ex>m</expan></name> <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name>
+<lb/><milestone unit="v" n="2.27"/>et uenit in <name><expan>s<abbr rend="supraline">p</abbr><ex>irit</ex>u</expan></name> in templum
+<lb/>et cum inducerent puer<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> 
+<lb rend="indent"/><name><expan>i<am rend="supraline">h</am><ex>esu</ex>m</expan></name> parentes eius 
+<lb/>ut facerent secundum con
+<lb break="no"/>suetudinem legis pro eo
+<lb/><milestone unit="v" n="2.28"/>et ipse accepit eum in ulnas 
+<lb rend="indent"/>suas et benedixit <name><expan>d<ex>eu</ex><abbr rend="supraline">m</abbr></expan></name> 
+<lb rend="indent"/>et dixit
+<lb/><milestone unit="v" n="2.29"/>nunc dimittis seruum tu<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>e</expan></name> secundum uerbum 
+<lb rend="indent"/>tuum in pace
+<lb/><milestone unit="v" n="2.30"/>quia uiderunt oculi mei 
+<lb rend="indent"/>salutare tuum
+<lb/><milestone unit="v" n="2.31"/>quod parasti ante faciem 
+<lb rend="indent"/>omnium populorum
+<lb/><milestone unit="v" n="2.32"/>lumen ad reuelationem 
+<lb rend="indent"/>gentium et gloriam 
+<lb rend="indent"/>plebis tuae <name>israhel</name>
+<lb rend="outdent"/><milestone unit="v" n="2.33"/>Et erat pater eius et mater 
+<lb rend="indent"/>mirantes super his quae 
+<lb rend="indent"/>dicebantur de illo
+<lb/><milestone unit="v" n="2.34"/>et benedixit illis <name>symeon</name>
+<lb/>et dixit ad <name>mariam</name> matrem eius
+<lb/>ecce positus est hic in ruinam 
+<lb rend="indent"/>et resurrectionem 
+<lb rend="indent"/>multorum in <name>israhel</name>
+<lb/>et in signum cui contra
+<lb break="no"/>dicetur
+<cb n="b"/>
+<lb/><milestone unit="v" n="2.35"/>et tuam ipsius animam 
+<lb rend="indent"/>pertransibit<!-- pertransiet S --> gladius
+<lb/>ut reuelentur ex multis 
+<lb rend="indent"/>cordibus cogitationes
+<lb rend="outdent"/><milestone unit="v" n="2.36"/>Et erat <name>anna</name> prophetissa 
+<lb rend="indent"/>filia <name>phanuhel</name> de tribu <name>aser</name>
+<lb/>haec processerat in d<add place="above">i</add>ebus 
+<lb rend="indent"/>multis
+<lb/>et uixerat cum uiro suo annis 
+<lb rend="indent"/>septem a uirginitate sua
+<lb/><milestone unit="v" n="2.37"/>et haec uidua usque ad annos 
+<lb rend="indent"/>octoginta quattuor
+<lb/>quae non discedebat de templo
+<lb/>ieiuniis et obsecrationibus 
+<lb rend="indent"/>seruiens nocte ac die
+<lb/><milestone unit="v" n="2.38"/>et haec ipsa hora superueni
+<lb break="no"/>ens confitebatur <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>o</expan></name>
+<lb/>et loquebatur de illo 
+<lb rend="indent"/>omni<expan>b<am>’</am><ex>us</ex></expan> qui expectabant 
+<lb rend="indent"/>redemtionem <name>hierusal<expan><abbr rend="supraline">e</abbr><ex>m</ex></expan></name>
+<lb/><milestone unit="v" n="2.39"/>et ut perfecerunt omnia 
+<lb rend="indent"/>secundum legem <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name>
+<lb/>reuersi sunt in <name>galilaeam</name> 
+<lb rend="indent"/>in ciuitatem suam <name>nazareth</name>
+<lb/><milestone unit="v" n="2.40"/>puer autem crescebat 
+<lb rend="indent"/>et confortabatur plenus 
+<lb rend="indent"/>sapientia
+<lb/>et gratia <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> erat in illo
+<lb/><milestone unit="v" n="2.41"/>et ibant parentes eius per 
+<lb rend="indent"/>omnes annos in <name>hierusalem</name> 
+<lb rend="indent"/>in die sollemni paschae
+</p>
+<p>
+<label type="chapter" rend="red supraline" n="8">viii</label>
+<lb/><milestone unit="v" n="2.42"/><hi rend="red">Et</hi> cum factus esset anno
+<lb break="no"/>rum duodecim
+<lb/>ascendentibus illis in <name>hiero
+<lb break="no"/>solymam</name> secundum con
+<lb break="no"/>suetudinem diei festi
+<lb/><milestone unit="v" n="2.43"/>consummatisque diebus 
+<lb rend="indent"/>cum redirent
+<lb/>remansit puer <name><expan>i<am rend="supraline">h</am><ex>esu</ex>s</expan></name> in <name>hierusal<expan><abbr rend="supraline">e</abbr><ex>m</ex></expan></name>
+<lb/>et non cognouerunt 
+<lb rend="indent"/>parentes eius
+<lb/><milestone unit="v" n="2.44"/>existimantes autem illum 
+<lb rend="indent"/>esse in comitatu
+<lb/>uenerunt iter diei
+<pb n="855r"/>
+<fw><expan>lu<abbr rend="supraline">c</abbr><ex>am</ex></expan></fw>
+<cb n="a"/>
+<lb/>et requirebant eum inter 
+<lb rend="indent"/>cognatos et notos
+<lb/><milestone unit="v" n="2.45"/>et non inuenientes regressi 
+<lb rend="indent"/>sunt in <name>hierusalem</name> 
+<lb rend="indent"/>requirentes eum
+<lb/><milestone unit="v" n="2.46"/>et factum est post triduum
+<lb/>inuenerunt illum in templo 
+<lb rend="indent"/>sedentem in medio doctor<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan>
+<lb/>audientem illos et interro
+<lb break="no"/>gantem
+<lb/><milestone unit="v" n="2.47"/><note type="canon">iiii <hi rend="red">ii</hi></note><note type="crossref">Mt lxii / Mr xiii</note>Stupebant autem omnes 
+<lb rend="indent"/>qui eum audiebant
+<lb/>super prudentia 
+<lb rend="indent"/>et respon<del rend="erased"><gap reason="illegible" quantity="1" unit="character"/></del>sis eius
+<lb/><milestone unit="v" n="2.48"/>et uidentes ammirati sunt
+<lb/><note type="canon">v <hi rend="red">x</hi></note>Et dixit mater eius ad illum
+<lb rend="indent"/>fili<surplus>i</surplus> quid fecisti nobis <supplied reason="omitted">sic<!-- chk --></supplied>
+<lb/>ecce pater tuus et ego dolen
+<lb break="no"/>tes quaerebamus te
+<lb/><milestone unit="v" n="2.49"/>et ait ad illos
+<lb/>quid est quod me quaerebatis
+<lb/>nesciebatis quia in his quae 
+<lb rend="indent"/><name>patris</name> mei sunt oportet 
+<lb rend="indent"/>me esse
+<lb/><milestone unit="v" n="2.50"/>et ipsi non intellexerunt 
+<lb rend="indent"/>uerbum quod locutus 
+<lb rend="indent"/>est ad illos
+<lb/><milestone unit="v" n="2.51"/>et descendit cum eis 
+<lb rend="indent"/>et uenit <name>nazareth</name>
+<lb rend="indent"/>et erat subditus illis
+<lb/>et mater eius conseruabat 
+<lb rend="indent"/>omnia uerba haec in corde suo
+<lb/><milestone unit="v" n="2.52"/>et <name><expan>i<am rend="supraline">h</am><ex>esu</ex>s</expan></name> proficiebat sapientia 
+<lb rend="indent"/>aetate et gratia apud <name><expan>d<ex>eu</ex><abbr rend="supraline">m</abbr></expan></name> 
+<lb rend="indent"/>et homines
+</p>
+<p>
+<label type="chapter" rend="red supraline" n="9">viiii</label>
+<lb rend="outdent"/><milestone unit="v" n="3.1"/><note type="canon">vi <hi rend="red">iii</hi></note><note type="crossref">Mt vii / I ii</note><hi rend="red">An</hi>no autem quintodecimo 
+<lb rend="indent"/>imperii <name>tiberii caesaris</name>
+<lb/>procurante <name>pontio pilato</name> 
+<lb rend="indent"/><name>iudaeam</name>
+<lb/>tetrarcha autem <name>galilaeae</name> 
+<lb rend="indent"/><name>herode</name>
+<lb/><name>philippo</name> autem fratre eius 
+<lb rend="indent"/>tetrarcha <name>itureae</name> 
+<lb rend="indent"/>et <name>trachonitidis</name> regionis
+<cb n="b"/>
+<lb/>et <name>lysania</name> <name>abilinae</name> tetrarcha
+<lb/><milestone unit="v" n="3.2"/>sub principibus sacerdotum 
+<lb rend="indent"/><name>anna</name> et <name>caiapha</name>
+<lb/>factum est uerbum <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> 
+<lb rend="indent"/>super <name>iohannem</name> <name>zachariae<!-- zacchariae S --></name> 
+<lb rend="indent"/>filium in deserto
+<lb/><milestone unit="v" n="3.3"/><note type="canon">vii <hi rend="red">i</hi></note><note type="crossref">Mt viii / Mr ii / I x</note>Et uenit in omnem region<expan><abbr rend="supraline">e</abbr><ex>m</ex></expan> 
+<lb rend="indent"/><name>iordanis</name>
+<lb/>praedicans baptismum 
+<lb rend="indent"/>paenitentiae in remissio
+<lb break="no"/>nem peccatorum
+<lb/><milestone unit="v" n="3.4"/>sicut scriptum est in libro 
+<lb rend="indent"/>sermonum <name>esaiae</name> prophetae
+<quote rend="sidequotes">
+<lb/>uox clamantis in deserto 
+<lb rend="indent"/>parate uiam <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name> rectas 
+<lb rend="indent"/>facite semitas eius
+<lb/><milestone unit="v" n="3.5"/>omnis uallis implebitur 
+<lb rend="indent"/>et omnis mons et collis 
+<lb rend="indent"/>humiliabitur
+<lb/>et erunt praua in directa 
+<lb rend="indent"/>et aspera in uias planas
+<lb/><milestone unit="v" n="3.6"/>et uidebit omnis caro 
+<lb rend="indent"/>salutare <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name>
+</quote>
+<lb/><milestone unit="v" n="3.7"/><note type="canon">viii <hi rend="red">v</hi></note><note type="crossref">Mt x</note>Dicebat ergo ad turbas 
+<lb rend="indent"/>quae exiebant ut bapti
+<lb break="no"/>zarentur ab ipso
+<lb/>genimina uiperarum 
+<lb rend="indent"/>quis ostendit uobis 
+<lb rend="indent"/>fugere a uentura ira
+<lb/><milestone unit="v" n="3.8"/>facite ergo fructus dignos 
+<lb rend="indent"/>paenitentiae
+<lb/>et ne coeperitis dicere 
+<lb rend="indent"/>patrem habemus <name>abraham</name>
+<lb/>dico enim uobis quia potest 
+<lb rend="indent"/><name><expan>d<ex>eu</ex><abbr rend="supraline">s</abbr></expan></name> de lapidibus istis 
+<lb rend="indent"/>suscitare filios <name>abrahae</name>
+<lb/><milestone unit="v" n="3.9"/>iam enim securis ad radicem 
+<lb rend="indent"/>arborum posita est
+<lb/>omnis ergo arbor non faci
+<lb break="no"/>ens fructum exciditur 
+<lb rend="indent"/>et <supplied reason="omitted">in</supplied> ignem mittitur
+<lb rend="outdent"/><milestone unit="v" n="3.10"/><note type="canon">viiii <hi rend="red">x</hi></note>Et interrogabant eum turbae 
+<lb rend="indent"/>dicentes quid ergo faciemus
+<lb/><milestone unit="v" n="3.11"/>respondens autem dicebat illis
+<pb n="855v"/>
+<cb n="a"/>
+<lb/>qui habet duas tunicas 
+<lb rend="indent"/>det non habenti
+<lb/>et qui habet escas 
+<lb rend="indent"/>similiter faciat
+<lb rend="outdent"/><milestone unit="v" n="3.12"/>Venerunt autem et publicani 
+<lb rend="indent"/>ut baptizarentur
+<lb/>et dixerunt ad illum
+<lb rend="indent"/>magister quid faciemus
+<lb/><milestone unit="v" n="3.13"/>at ille dixit ad eos
+<lb/>nihil amplius quam quod consti
+<lb break="no"/>tutum est uobis faciatis
+<lb rend="outdent"/><milestone unit="v" n="3.14"/>Interrogabant autem eum 
+<lb rend="indent"/>et milites dicentes
+<lb/>quid faciemus et nos
+<lb/>et ait illis neminem concutiatis
+<lb/>neque calumniam faciatis
+<lb/>et contenti estote 
+<lb rend="indent"/>stipendiis uestris
+<lb rend="outdent"/><milestone unit="v" n="3.15"/>Existimante autem populo
+<lb/>et cogitantibus omnibus 
+<lb rend="indent"/>in cordibus suis de <name>iohanne</name> 
+<lb rend="indent"/>ne forte ipse esset <name><expan><am>x</am><am rend="supraline">p</am><ex>christu</ex>s</expan></name>
+<lb/><milestone unit="v" n="3.16"/>respondit <name>iohannes</name> 
+<lb rend="indent"/>dicens omnibus
+<lb rend="outdent"/><note type="canon">x <hi rend="red">i</hi></note><note type="crossref">Mt xi / Mr iiii / I vi</note>Ego quidem aqua baptizo uos
+<lb/>uenit autem fortior me
+<lb/>cuius non sum dignus 
+<lb rend="indent"/>soluere corrigiam 
+<lb rend="indent"/>calciamentorum eius
+<lb/>ipse uos baptizabit 
+<lb rend="indent"/>in <name><expan>s<abbr rend="supraline">p</abbr><ex>irit</ex>u</expan> <expan>s<ex>an</ex><abbr rend="supraline">c</abbr><ex>t</ex>o</expan></name> et igni
+<lb/><milestone unit="v" n="3.17"/><note type="canon">xi <hi rend="red">v</hi></note><note type="crossref">Mt xii</note>Cuius uentilabrum in manu 
+<lb rend="indent"/>eius et purgabit aream su<expan><abbr rend="supraline">a</abbr><ex>m</ex></expan>
+<lb/>et congregabit triticum 
+<lb rend="indent"/>in horreum su<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan>
+<lb/>paleas autem conburet 
+<lb rend="indent"/>igni inextinguibili
+<lb/><milestone unit="v" n="3.18"/>multa quidem et alia exhor
+<lb break="no"/>tans euangelizabat popul<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan>
+</p>
+<p>
+<label type="chapter" rend="red supraline" n="10">x</label>
+<lb rend="outdent"/><milestone unit="v" n="3.19"/><note type="canon">xii <hi rend="red">ii</hi></note><note type="crossref">Mt cxliiii / Mr lviiii</note><hi rend="red">He</hi>rodes autem tetrarcha 
+<lb rend="indent"/>cum corriperetur ab illo 
+<lb rend="indent"/>de <name>herodiade</name> uxore 
+<lb rend="indent"/>fratris sui
+<lb/>et de omnibus malis quae 
+<cb n="b"/>
+<lb rend="indent"/>fecit <name>herodes</name>
+<lb/><milestone unit="v" n="3.20"/>adiecit et hoc supra omnia 
+<lb rend="indent"/>et inclusit <name>iohannen</name> 
+<lb rend="indent"/>in carcere
+</p>
+<p>
+<lb/><milestone unit="v" n="3.21"/><note type="canon">xiii <hi rend="red">i</hi></note><note type="crossref">Mt xiiii / Mr v / I xv</note><hi rend="dropcap2">F</hi>actum est autem cum bapti
+<lb break="no"/>zaretur omnis populus
+<lb/>et <name><expan>i<am rend="supraline">h</am><ex>es</ex>u</expan></name> baptizato et orante
+<lb rend="indent"/>apertum est caelum
+<lb/><milestone unit="v" n="3.22"/>et descendit <name><expan>s<abbr rend="supraline">p</abbr><ex>iritu</ex>s</expan> <expan>s<ex>an</ex><abbr rend="supraline">c</abbr><ex>tu</ex>s</expan></name> 
+<lb rend="indent"/>corporali specie 
+<lb rend="indent"/>sicut columba in ipsum
+<lb/>et uox de caelo facta est
+<lb/>tu es <name>filius</name> meus dilectus 
+<lb rend="indent"/>in te conplacuit mihi
+<lb/><milestone unit="v" n="3.23"/><note type="canon">xiiii <hi rend="red">iii</hi></note><note type="crossref">Mt i / I i</note>Et ipse <name><expan>i<am rend="supraline">h</am><ex>esu</ex>s</expan></name> erat incipiens 
+<lb rend="indent"/>quasi annorum triginta
+<lb/>ut putaretur<!-- putabatur S; chk --> filius <name>ioseph</name>
+<lb/>qui fuit <name>heli</name>
+<lb/><milestone unit="v" n="3.24"/>qui fuit <name>mattat<!-- matthat S --></name>
+<lb/>qui fuit <name>leui</name>
+<lb/>qui fuit <name>melchi</name>
+<lb/>qui fuit <name>iannae</name>
+<lb/>qui fuit <name>ioseph</name>
+<lb/><milestone unit="v" n="3.25"/>qui fuit <name>matthathiae</name>
+<lb/>qui fuit <name>amos</name>
+<lb/>qui fuit <name>naum</name>
+<lb/>qui fuit <name>esli</name>
+<lb/>qui fuit <name>naggae</name>
+<lb/><milestone unit="v" n="3.26"/>qui fuit <name>maath</name>
+<lb/>qui fuit <name>matthathiae</name>
+<lb/>qui fuit <name>semei</name>
+<lb/>qui fuit <name>iosec<!-- iosech S --></name>
+<lb/>qui fuit <name>ioda</name>
+<lb/><milestone unit="v" n="3.27"/>qui fuit <name>iohanna</name>
+<lb/>qui fuit <name>resa</name>
+<lb/>qui fuit <name>zorobabel</name>
+<lb/>qui fuit <name>salathiel<!-- salathihel S; chk --></name>
+<lb/>qui fuit <name>neri</name>
+<lb/><milestone unit="v" n="3.28"/>qui fuit <name>melchi</name>
+<add place="right" hand="#curved"><lb/>qui fuit <name>addi</name></add>
+<lb/>qui fuit <name>cosam</name>
+<lb/>qui fuit <name>helmadam</name>
+<lb/>qui fuit <name>her</name>
+<lb/><milestone unit="v" n="3.29"/>qui fuit <name>ihesu<!-- chk: is this evidence for how they would spell ihu? --></name>
+<lb/>qui fuit <name>eliezer</name>
+<pb n="856r"/>
+<cb n="a"/>
+<lb/>qui fuit <name>iorim</name>
+<lb/>qui fuit <name>matthad<!-- matthat S --></name>
+<lb/>qui fuit <name>leui</name>
+<lb/><milestone unit="v" n="3.30"/>qui fuit <name>symeon</name>
+<lb/>qui fuit <name>iuda</name>
+<lb/>qui fuit <name>ioseph</name>
+<lb/>qui fuit <name>iona</name>
+<lb/>qui fuit <name>eliachim</name>
+<lb/><milestone unit="v" n="3.31"/>qui fuit <name>melea</name>
+<lb/>qui fuit <name>menna</name>
+<lb/>qui fuit <name>matthata</name>
+<lb/>qui fuit <name>nathan</name>
+<lb/>qui fuit <name>dauid</name>
+<lb/><milestone unit="v" n="3.32"/>qui fuit <name>iesse</name>
+<lb/>qui fuit <name>obed</name>
+<lb/>qui fuit <name>booz</name>
+<lb/>qui fuit <name>salmon</name>
+<lb/>qui fuit <name>naasson</name>
+<lb/><milestone unit="v" n="3.33"/>qui fuit <name>aminadab</name>
+<lb/>qui fuit <name>aran<!-- aram S --></name>
+<lb/>qui fuit <name>esrom</name>
+<lb/>qui fuit <name>phares</name>
+<lb/>qui fuit <name>iudae</name>
+<lb/><milestone unit="v" n="3.34"/>qui fuit <name>iacob</name>
+<lb/>qui fuit <name>isaac</name>
+<lb/>qui fuit <name>abraham</name>
+<lb/>qui fuit <name>tharae</name>
+<lb/>qui fuit <name>nachor</name>
+<lb/><milestone unit="v" n="3.35"/>qui fuit <name>seruch</name>
+<lb/>qui fuit <name>ragau</name>
+<lb/>qui fuit <name>phalec</name>
+<lb/>qui fuit <name>eber</name>
+<lb/>qui fuit <name>sale</name>
+<lb/><milestone unit="v" n="3.36"/>qui fuit <name>cainan</name>
+<lb/>qui fuit <name>arfaxat</name>
+<lb/>qui fuit <name>sem</name>
+<lb/>qui fuit <name>noe</name>
+<lb/>qui fuit <name>lamech</name>
+<lb/><milestone unit="v" n="3.37"/>qui fuit <name>mathusale<!-- mathusalae S; chk --></name>
+<lb/>qui fuit <name>enoch</name>
+<lb/>qui fuit <name>iared</name>
+<lb/>qui fuit <name>malelehel</name>
+<lb/>qui fuit <name>cainan</name>
+<lb/><milestone unit="v" n="3.38"/>qui fuit <name>enos</name>
+<cb n="b"/>
+<lb/>qui fuit <name>seth</name>
+<lb/>qui fuit <name>adam</name>
+<lb/>qui fuit <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name>
+</p>
+<p>
+<label type="chapter" rend="red supraline" n="11">xi</label>
+<lb rend="outdent"/><milestone unit="v" n="4.1"/><note type="canon">xv <hi rend="red">ii</hi></note><note type="crossref">Mt xv / Mr vi</note> <hi rend="red"><name><expan>I<am rend="supraline">h</am><ex>esu</ex>s</expan></name></hi> autem plenus <name><expan>s<abbr rend="supraline">p</abbr><ex>irit</ex>u</expan> <expan>s<ex>an</ex><abbr rend="supraline">c</abbr><ex>t</ex>o</expan></name> 
+<lb rend="indent"/>regressus est ab <name>iordane</name>
+<lb/>et agebatur in <name><expan>s<abbr rend="supraline">p</abbr><ex>irit</ex>u</expan></name> in desert<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> 
+<lb rend="indent"/><milestone unit="v" n="4.2"/>diebus quadraginta
+<lb/>et temtabatur a diabolo
+<lb/><note type="canon">xvi <hi rend="red">v</hi></note><note type="crossref">Mt xvi</note>Et nihil manducauit 
+<lb rend="indent"/>in diebus illis
+<lb/>et consummatis illis esuriit
+<lb/><milestone unit="v" n="4.3"/>dixit autem illi diabolus
+<lb/>si <name>filius</name> <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> es dic lapidi huic 
+<lb rend="indent"/>ut panis fiat
+<lb/><milestone unit="v" n="4.4"/>et respondit ad illum <name><expan>i<am rend="supraline">h</am><ex>esu</ex>s</expan></name>
+<lb/>scriptum est quia <quote rend="sidequotes">non in 
+<lb rend="indent"/>pane solo uiuet homo 
+<lb rend="indent"/>sed in omni uerbo <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name></quote>
+<lb rend="outdent"/><milestone unit="v" n="4.5"/>Et duxit illum diabolus
+<lb/>et ostendit illi omnia regna 
+<lb rend="indent"/>orbis terrae in momento 
+<lb rend="indent"/>temporis <space unit="character" n="2"/><milestone unit="v" n="4.6"/>et ait ei
+<lb/>tibi dabo potestatem hanc 
+<lb rend="indent"/>uniuersam et gloriam 
+<lb rend="indent"/>illorum
+<lb/>quia mihi tradita sunt 
+<lb rend="indent"/>et cui uolo <space unit="character" n="2"/>do illa
+<lb/><milestone unit="v" n="4.7"/>tu ergo procidens<!-- procidens om. S; chk --> si adora
+<lb break="no"/>ueris coram me 
+<lb rend="indent"/>erunt tua omnia
+<lb/><milestone unit="v" n="4.8"/>et respondens <name><expan>i<am rend="supraline">h</am><ex>esu</ex>s</expan></name> dixit illi
+<lb/>scriptum est <quote rend="sidequotes"><name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>m</expan></name> <name><expan>d<ex>eu</ex><abbr rend="supraline">m</abbr></expan></name> tuum 
+<lb rend="indent"/>adorabis et illi soli seruies</quote>
+<lb rend="outdent"/><milestone unit="v" n="4.9"/>Et duxit illum in <name>hierusalem</name>
+<lb/>et statuit eum supra pinn<expan><abbr rend="supraline">a</abbr><ex>m</ex></expan> 
+<lb rend="indent"/>templi <space unit="character" n="2"/>et dixit illi
+<lb/>si <name>filius</name> <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> es mitte te 
+<lb rend="indent"/>hinc deorsum
+<lb/><milestone unit="v" n="4.10"/>scriptum est enim
+<lb/>quod <quote rend="sidequotes">angelis suis mandabit 
+<lb rend="indent"/>de te ut conseruent te</quote>
+<lb/><milestone unit="v" n="4.11"/>et quia <quote>in mani<expan>b<am>’</am><ex>us</ex></expan> tollent te 
+<lb/>ne forte offendas ad lapi
+<lb break="no"/>dem pedem tuum</quote>
+<pb n="856v"/>
+<fw><expan>secu<abbr rend="supraline">n</abbr><ex>dum</ex></expan></fw>
+<cb n="a"/>
+<lb rend="outdent"/><milestone unit="v" n="4.12"/>Et respondens <name><expan>i<am rend="supraline">h</am><ex>esu</ex>s</expan></name> ait illi
+<lb/>dictum est non temtabis 
+<lb rend="indent"/><name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>m</expan></name> <name><expan>d<ex>eu</ex><abbr rend="supraline">m</abbr></expan></name> tuum
+<lb/><milestone unit="v" n="4.13"/>et consummata omni tem
+<lb break="no"/>tatione diabolus recessit 
+<lb rend="indent"/>ab illo usque ad tempus
+</p>
+<p>
+<label type="chapter" rend="red supraline" n="12">xii</label>
+<lb/><milestone unit="v" n="4.14"/><note type="canon">xvii <hi rend="red">i</hi></note><note type="crossref">Mt xxiii / Mr xxvii / I xlvi</note><hi rend="red">E</hi>t <supplied reason="omitted" source="#Weber2007">r</supplied>egressus<!-- chk W --> est <name><expan>i<am rend="supraline">h</am><ex>esu</ex>s</expan></name> in uirtute 
+<lb rend="indent"/><name><expan>s<abbr rend="supraline">p</abbr><ex>iritu</ex>s</expan></name> in <name>galilaeam</name>
+<lb/>et fama exiit per uniuersam 
+<lb rend="indent"/>regionem de illo
+<lb/><milestone unit="v" n="4.15"/>et ipse docebat in synagogis 
+<lb rend="indent"/>eorum
+<lb/>et magnificabatur ab omni<expan>b<am>’</am><ex>us</ex></expan>
+<lb rend="outdent"/><milestone unit="v" n="4.16"/><note type="canon">xviii <hi rend="red">x</hi></note>Et uenit <name>nazareth</name> 
+<lb rend="indent"/>ubi erat nutritus
+<lb/>et intrauit secundum consue
+<lb break="no"/>tudinem suam die sabbati 
+<lb rend="indent"/>in synagogam
+<lb/>et surrexit legere
+<lb/><milestone unit="v" n="4.17"/>et traditus est illi liber 
+<lb rend="indent"/>prophetae <name>esaiae</name>
+<lb/>et ut reuoluit librum 
+<lb rend="indent"/>inuenit locum ubi 
+<lb rend="indent"/>scriptum erat
+<quote rend="sidequotes">
+<lb rend="outdent"/><milestone unit="v" n="4.18"/><name><expan>S<abbr rend="supraline">p</abbr><ex>iritu</ex>s</expan></name> <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name> super me propter 
+<lb rend="indent"/>quod unxit me
+<lb/>euangelizare pauperibus 
+<lb rend="indent"/>misit me
+<lb/><milestone unit="v" n="4.19"/>praedicare captiuis remissio
+<lb break="no"/>nem et caecis uisum
+<lb/>dimittere confractos 
+<lb rend="indent"/>in remissionem
+<lb/>praedicare annum <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name> accep
+<lb break="no"/>tum et diem retributionis
+</quote>
+<lb/><milestone unit="v" n="4.20"/>et cum plicuisset librum 
+<lb rend="indent"/>reddidit ministro et sedit
+<lb/>et omnium in synagoga oculi 
+<lb rend="indent"/>erant intendentes in eum
+<lb/><milestone unit="v" n="4.21"/>coepit autem dicere ad illos
+<lb/>quia hodie impleta est haec 
+<lb rend="indent"/>scriptura in auribus uestris
+<lb rend="outdent"/><milestone unit="v" n="4.22"/><note type="canon">xviiii <hi rend="red">i</hi></note><note type="crossref">Mt cxli / Mr l / I lviii</note>Et omnes testimonium 
+<lb rend="indent"/>illi dabant
+<lb/>et mirabantur in uerbis 
+<cb n="b"/>
+<lb rend="indent"/>gratiae quae procedebant 
+<lb rend="indent"/>de ore ipsius
+<lb/>et dicebant nonne hic 
+<lb rend="indent"/>filius est <name>ioseph</name>
+<lb rend="outdent"/><milestone unit="v" n="4.23"/><note type="canon">xx <hi rend="red">x</hi></note>Et ait illis
+<lb/>utique dicetis mihi hanc 
+<lb rend="indent"/>similitudinem medice 
+<lb rend="indent"/>cura te ipsum
+<lb/>quanta audiuimus facta 
+<lb rend="indent"/>in <name>capharnaum</name> 
+<lb rend="indent"/>fac et hic in patria tua
+<lb rend="outdent"/><milestone unit="v" n="4.24"/><note type="canon">xxi <hi rend="red">i</hi></note><note type="crossref">Mt cxlii / Mr li / I xxv</note>Ait autem amen dico uobis
+<lb/>quia nemo propheta accep
+<lb break="no"/>tus est in patria sua
+<lb rend="outdent"/><milestone unit="v" n="4.25"/><note type="canon">xxii <hi rend="red">x</hi></note>In ueritate dico uobis
+<lb/>multae uiduae erant in 
+<lb rend="indent"/>diebus <name>heliae</name> in <name>israhel</name>
+<lb/>quando clusum est caelum 
+<lb rend="indent"/>annis tribus et mensi<expan>b<am>’</am><ex>us</ex></expan> sex
+<lb/>cum facta est fames magna 
+<lb rend="indent"/>in omni terra
+<lb/><milestone unit="v" n="4.26"/>et ad nullam illarum 
+<lb rend="indent"/>missus est <name>helias</name>
+<lb/>nisi in <name>sareptha</name> <name>sydonae<!-- sidoniae S: chk --></name> 
+<lb rend="indent"/>ad mulierem uiduam
+<lb rend="outdent"/><milestone unit="v" n="4.27"/>Et multi leprosi erant in <name><expan>is<abbr rend="supraline">r</abbr><ex>ahe</ex>l</expan></name> 
+<lb rend="indent"/>sub <name>heliseo</name> propheta
+<lb/>et nemo eorum mundatus 
+<lb rend="indent"/>est nisi <name>neman</name> <name>syrus</name>
+<lb rend="outdent"/><milestone unit="v" n="4.28"/>Et repleti sunt omnes in syna
+<lb break="no"/>goga ira haec audientes
+<lb/><milestone unit="v" n="4.29"/>et surrexerunt et eiecerunt 
+<lb rend="indent"/>illum extra ciuitatem
+<lb/>et duxerunt illum usque 
+<lb rend="indent"/>ad supercilium montis
+<lb/>supra quem ciuitas illor<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> 
+<lb rend="indent"/>erat aedificata
+<lb/>ut praecipitarent eum
+<lb/><milestone unit="v" n="4.30"/>ipse autem transiens 
+<lb rend="indent"/>per medium illorum ibat
+</p>
+<p>
+<label type="chapter" rend="red supraline" n="12">xii</label>
+<lb rend="outdent"/><milestone unit="v" n="4.31"/><note type="canon">xxiii <hi rend="red">viii</hi></note><note type="crossref">Mt xii</note><hi rend="red">Et</hi> descendit in <name>capharnaum</name> 
+<lb rend="indent"/>ciuitatem <name>galilaeae</name>
+<lb/>ibique docebat illos sabbatis
+<lb rend="outdent"/><milestone unit="v" n="4.32"/><note type="canon">xxiiii <hi rend="red">ii</hi></note><note type="crossref">Mt lxiiii / Mr xiii</note>Et stupebant in doctrina eius
+<pb n="857r"/>
+<fw>luc<expan><abbr rend="supraline">a</abbr><ex>m</ex></expan></fw>
+<cb n="a"/>
+<lb/>quia in potestate erat 
+<lb rend="indent"/>sermo ipsius
+<lb/><milestone unit="v" n="4.33"/><note type="canon">xxv <hi rend="red">viii</hi></note><note type="crossref">Mr xiiii</note>Et in synagoga erat homo habens 
+<lb rend="indent"/>daemonium inmundum
+<lb/>et exclamauit uoce magna 
+<lb rend="indent"/><milestone unit="v" n="4.34"/>dicens
+<lb/>sine quid nobis et tibi <name><expan>i<am rend="supraline">h</am><ex>es</ex>u</expan></name> 
+<lb rend="indent"/><name>nazarene</name> uenisti perdere nos
+<lb/>scio te qui sis <name><expan>s<ex>an</ex><abbr rend="supraline">c</abbr><ex>tu</ex>s</expan></name> <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name>
+<lb/><milestone unit="v" n="4.35"/>et increpauit illi <name><expan>i<am rend="supraline">h</am><ex>esu</ex>s</expan></name> dicens 
+<lb rend="indent"/>ommutesce et exi ab illo
+<lb/>et cum proiecisset illum 
+<lb rend="indent"/>daemonium in medium 
+<lb rend="indent"/>exiit ab illo nihilque 
+<lb rend="indent"/>illum nocuit
+<lb/><milestone unit="v" n="4.36"/>et factus est pauor in omni<expan>b<am>’</am><ex>us</ex></expan>
+<lb/>et conloquebantur 
+<lb rend="indent"/>ad inuicem dicentes
+<lb/>quod est hoc uerbum
+<lb/>quia in potestate et uirtute 
+<lb rend="indent"/>imperat spiritibus 
+<lb rend="indent"/>inmundis<!-- inmundis spiritibus S --> et exeunt
+<lb/><milestone unit="v" n="4.37"/>et diuulgabatur fama de illo 
+<lb rend="indent"/>in omnem locum regionis
+</p>
+<p>
+<label type="chapter" rend="red supraline" n="13">xiii</label>
+<lb/><milestone unit="v" n="4.38"/><note type="canon">xxvi <hi rend="red">ii</hi></note><note type="crossref">Mt lxvii / Mr xv</note><hi rend="red">S</hi>urgens autem de synagoga 
+<lb rend="indent"/>introiuit in domum <name>simonis</name>
+<lb/>socrus autem <name>simonis</name> 
+<lb rend="indent"/>tenebatur magnis febri<expan>b<am>’</am><ex>us</ex></expan>
+<lb/>et rogauerunt illum pro ea
+<lb/><milestone unit="v" n="4.39"/>et stans super illam impera
+<lb break="no"/>uit febri et dimisit illam
+<lb/>et continuo surgens 
+<lb rend="indent"/>ministrabat illis
+<lb/><milestone unit="v" n="4.40"/>cum sol autem occidisset
+<lb/>omnes qui habebant infir
+<lb break="no"/>mos uariis languoribus 
+<lb rend="indent"/>ducebant illos ad eum
+<lb/>at ille singulis manus impo
+<lb break="no"/>nens curabat eos
+<lb rend="outdent"/><milestone unit="v" n="4.41"/><note type="canon">xxvii <hi rend="red">viii</hi></note><note type="crossref">Mr xvi</note>Exiebant<!-- autem add. S; chk --> etiam daemonia 
+<lb rend="indent"/>a multis clamantia et di
+<lb break="no"/>centia quia tu es <name>filius</name> <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name>
+<lb/>et increpans non sinebat 
+<lb rend="indent"/>ea loqui
+<cb n="b"/>
+<lb/>quia sciebant ipsum esse <name><expan><am>x</am><am rend="supraline">p</am><ex>christu</ex>m</expan></name>
+<lb/><milestone unit="v" n="4.42"/><note type="canon">xxviii <hi rend="red">viii</hi></note><note type="crossref">Mt xvii</note>Facta autem die egressus ibat 
+<lb rend="indent"/>in desertum locum
+<lb/>et turbae requirebant eum 
+<lb rend="indent"/>et uenerunt usque ad ips<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan>
+<lb/>et detinebant illum 
+<lb rend="indent"/>ne discederet ab eis
+<lb/><milestone unit="v" n="4.43"/>qui<expan>b<am>’</am><ex>us</ex></expan> ille ait quia et aliis ciui
+<lb break="no"/>tatibus oportet me euan
+<lb break="no"/>gelizare regnum <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name>
+<lb/>quia ideo missus sum
+<lb/><milestone unit="v" n="4.44"/>et erat praedicans in syna
+<lb break="no"/>gogis <name>galilaeae</name>
+</p>
+<p>
+<label type="chapter" rend="red supraline" n="15">xv</label>
+<lb/><milestone unit="v" n="5.1"/><note type="canon">xxviiii <hi rend="red">x</hi></note><hi rend="red">F</hi>actum est autem cum 
+<lb rend="indent"/>turbae inruerent in eum 
+<lb rend="indent"/>ut audirent uerbum <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name>
+<lb/>et ipse stabat secus stagn<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> 
+<lb rend="indent"/><name>genesareth<!-- gennesareth S --></name>
+<lb/><milestone unit="v" n="5.2"/>et uidit duas naues stantes 
+<lb rend="indent"/>secus stagnum
+<lb/>piscatores autem descende
+<lb break="no"/>rant et lauabant retia
+<lb/><milestone unit="v" n="5.3"/>ascendens autem in unam 
+<lb rend="indent"/>nauem quae erat 
+<lb rend="indent"/><name>simonis</name>
+<lb/>rogauit eum a terra 
+<lb rend="indent"/>reducere pusillum
+<lb/>et sedens docebat 
+<lb rend="indent"/>de nauicula turbas
+<lb rend="outdent"/><milestone unit="v" n="5.4"/><note type="canon">xxx <hi rend="red">viiii</hi></note><note type="crossref">I ccxviiii</note>Ut cessauit autem loqui 
+<lb rend="indent"/>dixit ad <name>simonem</name>
+<lb/>duc in altum et laxa<add place="above">te</add> retia 
+<lb rend="indent"/>uestra in capturam
+<lb/><milestone unit="v" n="5.5"/>et respondens <name>simon</name> 
+<lb rend="indent"/>dixit illi
+<lb/>praeceptor per totam 
+<lb rend="indent"/>noctem laborantes 
+<lb rend="indent"/>nihil cepimus
+<lb/>in uerbo autem tuo 
+<lb rend="indent"/>laxabo rete
+<lb/><milestone unit="v" n="5.6"/>et cum hoc fecissent 
+<lb rend="indent"/>concluserunt piscium 
+<lb rend="indent"/>multitudinem copiosam
+<lb/>rumpebatur autem rete eor<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan>
+<pb n="857v"/>
+<cb n="a"/>
+<lb/><milestone unit="v" n="5.7"/>et annuerunt sociis qui erant 
+<lb rend="indent"/>in alia naui ut uenirent 
+<lb rend="indent"/>et adiuuarent eos
+<lb/>et uenerunt et impleuerunt 
+<lb rend="indent"/>ambas nauiculas 
+<lb rend="indent"/>ita ut mergerentur
+<lb/><milestone unit="v" n="5.8"/><note type="canon">xxxi <hi rend="red">x</hi></note>Quod cum uideret <name>simon 
+<lb rend="indent"/>petrus</name> procidit ad genua 
+<lb rend="indent"/><name><expan>i<am rend="supraline">h</am><ex>es</ex>u</expan></name> dicens
+<lb/>exi a me quia homo pecca
+<lb break="no"/>tor sum <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>e</expan></name>
+<lb/><milestone unit="v" n="5.9"/>stupor enim circumdede
+<lb break="no"/>rat eum et omnes qui 
+<lb rend="indent"/>cum illo erant
+<lb/>in captura piscium quam 
+<lb rend="indent"/>ceperant
+<lb/><milestone unit="v" n="5.10"/>similiter autem <name>iacobum</name> 
+<lb rend="indent"/>et <name>iohannem</name> filios <name>zebe
+<lb break="no"/>daei</name> qui erant socii <name>simonis</name>
+<lb rend="outdent"/><note type="canon">xxxii <hi rend="red">ii</hi></note><note type="crossref">Mt xxi / Mr x</note>Et ait ad <name>simonem</name> <name><expan>i<am rend="supraline">h</am><ex>esu</ex>s</expan></name>
+<lb rend="indent"/>noli timere
+<lb/>ex hoc iam homines eris 
+<lb rend="indent"/>capiens
+<lb/><milestone unit="v" n="5.11"/>et subductis ad terram 
+<lb rend="indent"/>nauibus relictis omni<expan>b<am>’</am><ex>us</ex></expan> 
+<lb rend="indent"/>secuti sunt illum
+</p>
+<p>
+<label type="chapter" rend="red supraline" n="16">xvi</label>
+<lb rend="outdent"/><milestone unit="v" n="5.12"/><note type="canon">xxxiii <hi rend="red">ii</hi></note><note type="crossref">Mt lxiii / Mr xviii</note><hi rend="red">Et</hi> factum est cum esset 
+<lb rend="indent"/>in una ciuitatum
+<lb/>et ecce uir plenus lepra
+<lb/>et uidens <name><expan>i<am rend="supraline">h</am><ex>esu</ex>m</expan></name> et procidens 
+<lb rend="indent"/>in faciem <surplus>et<!-- chk --></surplus> rogauit eum 
+<lb rend="indent"/>dicens
+<lb/><name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>e</expan></name> si uis potes me mundare
+<lb/><milestone unit="v" n="5.13"/>et extendens manum teti
+<lb break="no"/>git illum dicens
+<lb/>uolo <space unit="character" n="3"/>mundare
+<lb/>et confestim lepra 
+<lb rend="indent"/>discessit ab illo
+<lb/><milestone unit="v" n="5.14"/>et ipse praecepit illi 
+<lb rend="indent"/>ut nemini diceret
+<lb/>sed uade ostende te sacerdoti
+<lb/>et offer pro emundati
+<lb break="no"/>one tua
+<lb/>sicut praecepit <name>moses</name> 
+<cb n="b"/>
+<lb rend="indent"/>in testimonium illis
+<lb rend="outdent"/><milestone unit="v" n="5.15"/><note type="canon">xxxiiii <hi rend="red">i</hi></note><note type="crossref">Mt xxiii / Mr xxvii / I xlvi</note>Perambulabat autem magis 
+<lb rend="indent"/>sermo de illo
+<lb/>et conueniebant turbae 
+<lb rend="indent"/>multae ut audirent
+<lb/>et curarentur ab infirmi
+<lb break="no"/>tatibus suis
+<lb rend="outdent"/><milestone unit="v" n="5.16"/><note type="canon">xxxv <hi rend="red">ii</hi></note><note type="crossref">Mt cxlviiii / Mr lxvi</note>Ipse autem se<add place="above">ce</add>debat in deser
+<lb break="no"/>t<subst><del rend="alt">u</del><add place="above">o</add></subst><!-- chk W --> et orabat
+</p>
+<p>
+<label type="chapter" rend="red supraline" n="17">xvii</label>
+<lb rend="outdent"/><milestone unit="v" n="5.17"/><note type="canon">xxxvi <hi rend="red">ii</hi></note><note type="crossref">Mt cliii / Mr lxviiii</note><hi rend="red">Et</hi> factum est in una dierum 
+<lb rend="indent"/>et ipse sedebat docens
+<lb/>et erant <name>pharisaei</name> sedentes 
+<lb/>et legis doctores qui uene
+<lb break="no"/>rant ex omni castello 
+<lb rend="indent"/><name>galilaeae</name> et <name>iudaeae</name> 
+<lb rend="indent"/>et <name>hierusalem</name>
+<lb/>et uirtus erat <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name> ad sanan
+<lb break="no"/>dum eos
+<lb rend="outdent"/><milestone unit="v" n="5.18"/><note type="canon">xxxvii <hi rend="red">i</hi></note><note type="crossref">Mt lxx / Mr xx / I xxxviii</note>Et ecce uiri portantes in lecto 
+<lb rend="indent"/>hominem qui erat para
+<lb break="no"/>lyticus
+<lb/>et quaerebant eum inferre 
+<lb rend="indent"/>et ponere ante eum
+<lb/><milestone unit="v" n="5.19"/>et non inuenientes qua parte 
+<lb rend="indent"/>illum inferrent prae 
+<lb rend="indent"/>turba
+<lb/>ascenderunt supra tectum 
+<lb rend="indent"/>per tegulas 
+<lb/>et<!-- om. S; chk --> summiserunt illum cum 
+<lb rend="indent"/>lecto in medium ante <name><expan>i<am rend="supraline">h</am><ex>esu</ex>m</expan></name>
+<lb/><milestone unit="v" n="5.20"/>quorum fidem ut uidit dixit
+<lb/>homo remittuntur tibi 
+<lb rend="indent"/>peccata tua
+<lb/><milestone unit="v" n="5.21"/>et coeperunt cogitare scri
+<lb break="no"/>bae et <name>pharisaei</name> dicentes
+<lb/>quis est hic qui loquitur 
+<lb rend="indent"/>blasphemias
+<lb/>quis potest dimittere pec
+<lb break="no"/>cata nisi solus <name><expan>d<ex>eu</ex><abbr rend="supraline">s</abbr></expan></name>
+<lb/><milestone unit="v" n="5.22"/>ut cognouit autem <name><expan>i<am rend="supraline">h</am><ex>esu</ex>s</expan></name> cogi
+<lb break="no"/>tationes eorum respon
+<lb break="no"/>dens dixit ad illos
+<lb/>quid cogitatis in cordibus 
+<lb rend="indent"/>uestris
+<pb n="858r"/>
+<cb n="a"/>
+<lb/><milestone unit="v" n="5.23"/>quid est facilius dicere 
+<lb rend="indent"/>dimittuntur tibi peccata 
+<lb rend="indent"/>an dicere surge et ambula
+<lb/><milestone unit="v" n="5.24"/>ut autem sciatis quia <name>filius</name> 
+<lb rend="indent"/>hominis potestatem habet 
+<lb rend="indent"/>in terra dimittere peccata
+<lb/>ait paralytico tibi dico 
+<lb/>surge tolle lectum tuum 
+<lb rend="indent"/>et uade in domum tuam
+<lb/><milestone unit="v" n="5.25"/>et confestim surgens coram 
+<lb rend="indent"/>illis tulit in quo iacebat
+<lb/>et abiit in domum suam 
+<lb rend="indent"/>magnificans <name><expan>d<ex>eu</ex><abbr rend="supraline">m</abbr></expan></name>
+<lb/><milestone unit="v" n="5.26"/>et stupor apprehendit omnes 
+<lb rend="indent"/>et magnificabant <name><expan>d<ex>eu</ex><abbr rend="supraline">m</abbr></expan></name>
+<lb/>et repleti sunt timore 
+<lb rend="indent"/>dicentes
+<lb/>quia uidimus mirabilia hodie
+</p>
+<p>
+<label type="chapter" rend="red supraline" n="18">xviii</label>
+<lb/><milestone unit="v" n="5.27"/><note type="canon">xxxviii <hi rend="red">ii</hi></note><note type="crossref">Mt lxxi / Mr xxi</note>Et post haec exiit
+<lb/>et uidit publicanum nomine 
+<lb rend="indent"/><name>leui</name> sedentem ad teloneum
+<lb/>et ait illi sequere me
+<lb/><milestone unit="v" n="5.28"/>et relictis omnibus surgens 
+<lb rend="indent"/>secutus est eum
+<lb rend="outdent"/><milestone unit="v" n="5.29"/><note type="canon">xxxviiii <hi rend="red">ii</hi></note><note type="crossref">Mt lxxii / Mr xxii</note>Et fecit ei conuiuium magn<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> 
+<lb rend="indent"/><name>leui</name> in domo sua
+<lb/>et erat turba multa publi
+<lb break="no"/>canorum et aliorum qui 
+<lb rend="indent"/>cum illis erant discum
+<lb break="no"/>bentes
+<lb/><milestone unit="v" n="5.30"/>et murmurabant <name>pharisaei</name> 
+<lb rend="indent"/>et scribae eorum dicentes 
+<lb rend="indent"/>ad discipulos eius
+<lb/>quare cum publicanis et pec
+<lb break="no"/>catoribus manducatis 
+<lb rend="indent"/>et bibitis
+<lb rend="outdent"/><milestone unit="v" n="5.31"/><note type="canon">xl <hi rend="red">ii</hi></note><note type="crossref">Mt lxxii / Mr xxiii</note>Et respondens <name><expan>i<am rend="supraline">h</am><ex>esu</ex>s</expan></name> dixit ad illos
+<lb/>non egent qui sani sunt medi
+<lb break="no"/>co sed qui male habent
+<lb/><milestone unit="v" n="5.32"/>non ueni uocare iustos sed 
+<lb rend="indent"/>peccatores in paenitenti<expan><abbr rend="supraline">a</abbr><ex>m</ex></expan>
+<lb/><milestone unit="v" n="5.33"/>at illi dixerunt ad eum
+<lb/>quare discipuli <name>iohannis</name> 
+<lb rend="indent"/>ieiunant frequenter 
+<cb n="b"/>
+<lb rend="indent"/>et obsecrationes faciunt
+<lb/>similiter et <name>pharisaeorum</name>
+<lb/>tui autem <space unit="character" n="5"/><!-- chk: sth erased here? -->edunt et bibunt
+<lb/><milestone unit="v" n="5.34"/>quibus ipse ait
+<lb/>numquid potestis filios 
+<lb rend="indent"/>sponsi dum cum illis est 
+<lb rend="indent"/>sponsus facere ieiunare
+<lb/><milestone unit="v" n="5.35"/>uenient autem dies<!-- et add. S; chk --> cum abla
+<lb rend="indent"/>tus fuerit ab illis sponsus
+<lb/>tunc ieiunabunt in illis diebus
+<lb rend="outdent"/><milestone unit="v" n="5.36"/>Dicebat autem et similitudi
+<lb break="no"/>nem ad illos
+<lb/>quia nemo commissuram 
+<lb rend="indent"/>a uestimento nouo inmit
+<lb break="no"/>tit in uestimentum uetus
+<lb/>alioquin et nouum rumpit 
+<lb/>et ueteri non conuenit 
+<lb rend="indent"/>commissura a nouo
+<lb/><milestone unit="v" n="5.37"/>et nemo mittit uinum nou<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> 
+<lb rend="indent"/>in utres ueteres
+<lb/>alioquin rumpit<!-- rumpet S; chk --> uinum 
+<lb rend="indent"/>nouum utres
+<lb/>et ipsum effunditur<!-- effundetur S; chk --> 
+<lb rend="indent"/>et utres peribunt
+<lb/><milestone unit="v" n="5.38"/>sed uinum nouum in utres 
+<lb rend="indent"/>nouos mittendum est
+<lb/>et utraque conseruantur
+<lb/><milestone unit="v" n="5.39"/>et nemo bibens uetus 
+<lb rend="indent"/>statim uult nouum
+<lb/>dicit enim uetus melius est
+</p>
+<p>
+<label type="chapter" rend="red supraline" n="19">xviiii</label>
+<lb rend="outdent"/><milestone unit="v" n="6.1"/><note type="canon">xli <hi rend="red">ii</hi></note><note type="crossref">Mt cxiii / Mr xxiiii</note><hi rend="red">F</hi>actum est autem in sabbato 
+<lb rend="indent"/>secundo<surplus> </surplus>primo<!-- chk --> cum 
+<lb rend="indent"/>transiret per sata
+<lb/>uellebant discipuli eius 
+<lb rend="indent"/>spicas et manducabant 
+<lb rend="indent"/>confricantes manibus
+<lb/><milestone unit="v" n="6.2"/>quidam autem <name>pharisaeor<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan></name> 
+<lb rend="indent"/>dicebant illis
+<lb/>quid facitis quod non licet 
+<lb rend="indent"/>in sabbatis
+<lb/><milestone unit="v" n="6.3"/>et respondens <name><expan>i<am rend="supraline">h</am><ex>esu</ex>s</expan></name> ad eos dixit
+<lb/>nec hoc legistis quod fecit 
+<lb rend="indent"/><name>dauid</name>
+<lb/>cum esurisset ipse 
+<pb n="858v"/>
+<fw><expan>s<abbr rend="supraline">ec</abbr><ex>undum</ex></expan></fw>
+<cb n="a"/>
+<lb rend="indent"/>et qui cum eo erant
+<lb/><milestone unit="v" n="6.4"/>quomodo intrauit in dom<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name>
+<lb/>et panes propositionis sumpsit 
+<lb rend="indent"/>et manducauit
+<lb/>et dedit his qui cum ipso erant
+<lb/>quos non licet manducare 
+<lb rend="indent"/>nisi tantum sacerdotibus
+<lb/><milestone unit="v" n="6.5"/>et dicebat illis
+<lb/>quia <expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>s</expan> est <name>filius</name> hominis 
+<lb rend="indent"/>etiam sabbati
+</p>
+<p>
+<label type="chapter" rend="red supraline" n="20">xx</label>
+<lb/><milestone unit="v" n="6.6"/><note type="canon">xlii <hi rend="red">ii</hi></note><note type="crossref">Mt cxvi / Mr xxv</note>Factum est autem et in 
+<lb rend="indent"/>alio sabbato 
+<lb/>ut intraret in synagogam 
+<lb rend="indent"/>et doceret
+<lb/>et erat ibi homo et manus 
+<lb rend="indent"/>eius dextra <supplied reason="omitted"><!-- chk -->erat</supplied> arida
+<lb/><milestone unit="v" n="6.7"/>obseruabant autem 
+<lb rend="indent"/>scribae et <name>pharisaei</name> 
+<lb rend="indent"/>si<!-- in add. S; chk --> sabbato curaret
+<lb/>ut inuenirent accusare ill<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan>
+<lb/><milestone unit="v" n="6.8"/>ipse uero sciebat cogitatio
+<lb break="no"/>nes eorum
+<lb/>et ait homini qui habebat 
+<lb rend="indent"/>manum aridam
+<lb/>surge et sta in medium 
+<lb rend="indent"/>et surgens stetit
+<lb/><milestone unit="v" n="6.9"/>ait autem ad illos <name><expan>i<am rend="supraline">h</am><ex>esu</ex>s</expan></name>
+<lb/>interrogo uos si licet sabba
+<lb break="no"/>to bene facere an male
+<lb/>animam saluam facere 
+<lb rend="indent"/>an perdere
+<lb/><milestone unit="v" n="6.10"/>et circumspectis omni<expan>b<am>’</am><ex>us</ex></expan> 
+<lb rend="indent"/>dixit homini
+<lb/>extende manum tuam 
+<lb rend="indent"/>et extendit 
+<lb/>et restituta est manus eius
+<lb/><milestone unit="v" n="6.11"/>ipsi autem repleti sunt 
+<lb rend="indent"/>insipientia
+<lb/>et conloquebantur ad inuic<expan><abbr rend="supraline">e</abbr><ex>m</ex></expan> 
+<lb rend="indent"/>quidnam facerent <name><expan>i<am rend="supraline">h</am><ex>es</ex>u</expan></name>
+<lb rend="outdent"/><milestone unit="v" n="6.12"/><note type="canon">xliii <hi rend="red">ii</hi></note><note type="crossref">Mt cxlviii / Mr cxvi</note>Factum est autem in illis die<expan>b<am>’</am><ex>us</ex></expan>
+<lb/>exiit in montem orare
+<lb/>et erat pernoctans in orati
+<lb break="no"/>one <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name>
+<cb n="b"/>
+<lb rend="outdent"/><milestone unit="v" n="6.13"/><note type="canon">xliiii <hi rend="red">ii</hi></note><note type="crossref">Mt lxxx / Mr xxx</note>Et cum dies factus esset
+<lb/>uocauit discipulos suos 
+<lb rend="indent"/>et elegit duodecim ex ipsis
+<lb/>quos et apostolos nominauit
+<lb/><milestone unit="v" n="6.14"/><name>simonem</name> quem cognomi
+<lb break="no"/>nauit <name>petrum</name>
+<lb/>et <name>andrean<!-- andream S --></name> fratrem eius
+<lb/><name>iacobum</name> et <name>iohannen<!-- iohannem S --></name>
+<lb/><name>philippum</name> et <name>bartholome<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan></name>
+<lb/><milestone unit="v" n="6.15"/><name>mattheum</name> et <name>thoman<!-- thomam S --></name>
+<lb/><name>iacobum</name> <name>alphei</name> 
+<lb/>et <name>simonem</name> qui uocatur 
+<lb rend="indent"/><name>zelotes</name>
+<lb/><milestone unit="v" n="6.16"/><name>iudam</name> <name>iacobi</name> et <name>iudam</name> <name>scari
+<lb break="no"/>ot<!-- scarioth S --></name> qui fuit proditor
+<lb/><milestone unit="v" n="6.17"/><note type="canon">xlv <hi rend="red">i</hi></note><note type="crossref">Mt xviii / Mr xxvii / I xlvi</note>Et descendens cum illis ste
+<lb break="no"/>tit in loco campestri
+<lb/>et turba discipulorum eius
+<lb/>et multitudo copiosa 
+<lb rend="indent"/>plebis ab omni <name>iudaea</name> 
+<lb rend="indent"/>et <name>hierusalem</name>
+<lb/>et maritima<!-- maritimae S; chk --> et <!-- om. S; chk --><name>tyri</name> et <name>sidonis</name>
+<lb/><milestone unit="v" n="6.18"/>qui uenerunt ut audi
+<lb break="no"/>rent eum
+<lb/>et sanarentur a languori
+<lb break="no"/>bus suis
+<lb/>et qui uexabantur a<!-- ab S; chk --> spiriti<expan>b<am>’</am><ex>us</ex></expan> 
+<lb rend="indent"/>inmundis curabantur
+<lb/><milestone unit="v" n="6.19"/>et omnis turba quaerebant 
+<lb rend="indent"/>eum tangere
+<lb/>quia uirtus de illo exiebat 
+<lb rend="indent"/>et sanabat omnes
+</p>
+<p>
+<label type="chapter" rend="red supraline" n="21">xxi</label>
+<lb rend="outdent"/><milestone unit="v" n="6.20"/><note type="canon">xlvi <hi rend="red">v</hi></note><note type="crossref">Mt xxv</note>Et ipse eleuatis oculis in disci
+<lb break="no"/>pulos suos dicebat
+<lb/>beati pauperes quia uestrum 
+<lb rend="indent"/>est regnum <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name>
+<lb rend="outdent"/><milestone unit="v" n="6.21"/><note type="canon">xlvii <hi rend="red">v</hi></note><note type="crossref">Mt xxviiii</note>Beati qui nunc esuritis 
+<lb rend="indent"/>quia saturabimini
+<lb rend="outdent"/><note type="canon">xlviii <hi rend="red">v</hi></note><note type="crossref">Mt xxvii</note>Beati qui nunc fletis 
+<lb rend="indent"/>quia ridebitis
+<lb rend="outdent"/><milestone unit="v" n="6.22"/><note type="canon">xlviiii <hi rend="red">v</hi></note><note type="crossref">Mt xxx</note>Beati eritis cum uos oderint 
+<lb rend="indent"/>homines
+<lb/>et cum separauerint uos 
+<lb rend="indent"/>et exprobrauerint
+<pb n="859r"/>
+<fw><expan>lu<abbr rend="supraline">c</abbr><ex>am</ex></expan></fw>
+<cb n="a"/>
+<lb/>et eiecerint nomen uestrum 
+<lb rend="indent"/>tamquam malum propter 
+<lb rend="indent"/><name>filium</name> hominis
+<lb/><milestone unit="v" n="6.23"/>gaudete in illa die et exultate
+<lb/>ecce enim merces uestra 
+<lb rend="indent"/>multa in caelo
+<lb/>secundum haec enim faciebant 
+<lb rend="indent"/>prophetis patres eorum
+<lb rend="outdent"/><milestone unit="v" n="6.24"/><note type="canon">l <hi rend="red">x</hi></note>Verumtamen uae uobis 
+<lb rend="indent"/>diuitibus quia habetis 
+<lb rend="indent"/>consolationem uestram
+<lb/><milestone unit="v" n="6.25"/>uae uobis qui saturati estis 
+<lb rend="indent"/>quia esurietis
+<lb/>uae uobis qui ridetis nunc 
+<lb rend="indent"/>quia lugebitis et flebitis
+<lb rend="outdent"/><milestone unit="v" n="6.26"/><note type="canon">li <hi rend="red">x</hi></note>Vae cum bene uobis dixerint 
+<lb rend="indent"/>omnes homines
+<lb/>secundum haec faciebant 
+<lb rend="indent"/>prophetis patres eorum
+<lb rend="outdent"/><milestone unit="v" n="6.27"/><note type="canon">lii <hi rend="red">v</hi></note><note type="crossref">Mt xl</note>Sed uobis dico qui auditis
+<lb/>diligite inimicos uestros
+<lb/>benefacite his qui uos 
+<lb rend="indent"/>oderunt
+<lb/><milestone unit="v" n="6.28"/>benedicite maledicenti<expan>b<am>’</am><ex>us</ex></expan> 
+<lb rend="indent"/>uobis
+<lb/>orate pro calumnianti<expan>b<am>’</am><ex>us</ex></expan> uos
+<lb rend="outdent"/><milestone unit="v" n="6.29"/><note type="canon">liii <hi rend="red">v</hi></note>Ei qui te percutit in maxill<expan><abbr rend="supraline">a</abbr><ex>m</ex></expan> 
+<lb rend="indent"/>praebe et alteram
+<lb/>et ab eo qui aufert tibi 
+<lb rend="indent"/>uestimentum etiam 
+<lb rend="indent"/>tunicam noli prohibere
+<lb/><milestone unit="v" n="6.30"/>omni autem petenti te 
+<lb rend="indent"/>tribue
+<lb/>et qui aufert quae tua 
+<lb rend="indent"/>sunt ne repetas
+</p>
+<p>
+<label type="chapter" rend="red supraline" n="22">xxii</label>
+<lb rend="outdent"/><milestone unit="v" n="6.31"/><note type="canon">liiii <hi rend="red">v</hi></note><note type="crossref">Mt liiii</note>Et pro<surplus> </surplus>ut uultis ut faciant 
+<lb rend="indent"/>uobis homines
+<lb/>et uos facite illis similiter
+<lb rend="outdent"/><milestone unit="v" n="6.32"/><note type="canon">lv <hi rend="red">v</hi></note><note type="crossref">Mt xli</note>Et si diligitis eos qui uos dili
+<lb break="no"/>gunt quae uobis est gratia
+<lb/>nam et peccatores diligen
+<lb break="no"/>tes se diligunt
+<lb/><milestone unit="v" n="6.33"/>et si benefeceritis his qui 
+<lb rend="indent"/>uobis benefaciunt 
+<cb n="b"/>
+<lb rend="indent"/>quae uobis est gratia
+<lb/>siquidem et peccatores 
+<lb rend="indent"/>hoc faciunt
+<lb/><milestone unit="v" n="6.34"/>et si mutuum dederitis his 
+<lb rend="indent"/>a quibus speratis recipere 
+<lb/>quae gratia est uobis
+<lb/>nam et peccatores peccato
+<lb break="no"/>ribus faenerantur<!-- fenerantur S; chk --> 
+<lb rend="indent"/>ut recipiant aequalia
+<lb/><milestone unit="v" n="6.35"/>uerumtamen diligite inimi
+<lb break="no"/>cos uestros et benefacite 
+<lb rend="indent"/>et mutuum date
+<lb/>nihil inde sperantes<!-- nihil desperantes S; chk -->
+<lb/>et erit merces uestra multa
+<lb/>et eritis filii <name>altissimi</name>
+<lb/>quia ipse benignus est 
+<lb rend="indent"/>super ingratos et malos
+<lb/><milestone unit="v" n="6.36"/>estote ergo misericordes 
+<lb rend="indent"/>sicut et <name>pater</name> uester 
+<lb rend="indent"/>misericors est
+</p>
+<p>
+<label type="chapter" rend="red supraline" n="23">xxiii</label>
+<lb rend="outdent"/><milestone unit="v" n="6.37"/><note type="canon">lvi <hi rend="red">ii</hi></note><note type="crossref">Mt l / Mr xli</note>Nolite iudicare et non 
+<lb rend="indent"/>iudicabimini
+<lb/>nolite <del rend="erased"><unclear>co</unclear></del>condemnare 
+<lb rend="indent"/>et non condemnabimini
+<add place="right"><lb/>dimittite et dimit
+<lb break="no"/>timini<!-- dimittemini S; chk --></add>
+<lb/><milestone unit="v" n="6.38"/>date et dabitur uobis
+<lb/>mensuram bonam confer
+<lb break="no"/>tam<!-- confersam S --> et coagitatam 
+<lb rend="indent"/>et super<surplus> </surplus>effluentem 
+<lb rend="indent"/>dabunt in sinum uestrum
+<lb/>eadem quippe mensura 
+<lb rend="indent"/>qua mensi fueritis 
+<lb rend="indent"/>remetietur uobis
+<lb rend="outdent"/><milestone unit="v" n="6.39"/><note type="canon">lvii <hi rend="red">v</hi></note><note type="crossref">Mt clvi</note>Dicebat autem illis 
+<lb rend="indent"/>et similitudinem
+<lb/>numquid potest caecus 
+<lb rend="indent"/>caecum ducere
+<lb/>nonne ambo in foueam cadent
+<lb/><milestone unit="v" n="6.40"/><note type="canon">lviii <hi rend="red">iii</hi></note><note type="crossref">Mt xc / I cxxxviiii</note>Non est discipulus 
+<lb rend="indent"/>super magistrum
+<lb/>perfectus autem omnis 
+<lb rend="indent"/>erit sicut magister eius
+<lb/><milestone unit="v" n="6.41"/><note type="canon">lviiii <hi rend="red">v</hi></note><note type="crossref">Mt li</note>Quid autem uides festucam 
+<lb rend="indent"/>in oculo fratris tui
+<lb/>trabem autem quae in oculo tuo est<!-- last two words added? -->
+<pb n="859v"/>
+<cb n="a"/> 
+<lb rend="indent"/>non consideras
+<lb/><milestone unit="v" n="6.42"/>et quomodo potes dicere 
+<lb rend="indent"/>fratri tuo
+<lb/>frater sine eiciam festuc<expan><abbr rend="supraline">a</abbr><ex>m</ex></expan> 
+<lb rend="indent"/>de oculo tuo
+<lb/>ipse in oculo tuo trabem 
+<lb rend="indent"/>non uidens
+<lb/>hypocrita eice primum 
+<lb rend="indent"/>trabem de oculo tuo
+<lb/>et tunc perspicies ut educas 
+<lb rend="indent"/>festucam de oculo 
+<lb rend="indent"/>fratris tui
+<lb rend="outdent"/><milestone unit="v" n="6.43"/><note type="canon">lx <hi rend="red">v</hi></note><note type="crossref">Mt lviii</note>Non est enim arbor bona 
+<lb rend="indent"/>quae facit fructus malos
+<lb/>neque arbor mala faciens 
+<lb rend="indent"/>fructum bonum
+<lb/><milestone unit="v" n="6.44"/>unaquaeque enim arbor 
+<lb rend="indent"/>de fructu suo cognoscitur
+<lb/><note type="canon">lxi <hi rend="red">v</hi></note><note type="crossref">Mt lv</note>Neque enim de spinis 
+<lb rend="indent"/>colligunt ficus
+<lb/>neque de rubo uindemiant 
+<lb rend="indent"/>uuam
+<lb/><milestone unit="v" n="6.45"/><note type="canon">lxii <hi rend="red">v</hi></note><note type="crossref">Mt cxxvi</note>Bonus homo de bono 
+<lb rend="indent"/>thesauro cordis sui 
+<lb rend="indent"/>profert bonum
+<lb/>et malus homo de malo 
+<lb rend="indent"/>profert malum
+<lb/>ex abundantia enim cordis 
+<lb rend="indent"/>os loquitur
+<lb/><milestone unit="v" n="6.46"/><note type="canon">lxiii <hi rend="red">iii</hi></note><note type="crossref">Mt lviiii / I cxvi</note>Quid autem uocatis me 
+<lb rend="indent"/><name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>e</expan></name> <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>e</expan></name> et non facitis 
+<lb rend="indent"/>quae dico
+<lb/><milestone unit="v" n="6.47"/><note type="canon">lxiiii <hi rend="red">v</hi></note><note type="crossref">Mt lxi</note>Omnis qui uenit ad me 
+<lb rend="indent"/>et audit sermones meos 
+<lb rend="indent"/>et facit eos
+<lb/>ostendam uobis cui similis sit<!-- est S -->
+<lb/><milestone unit="v" n="6.48"/>similis est homini 
+<lb rend="indent"/>aedificanti domum
+<lb/>qui fodit in altum et posuit 
+<lb rend="indent"/>fundamenta supra petr<expan><abbr rend="supraline">a</abbr><ex>m</ex></expan>
+<lb/>inundatione autem facta
+<lb/>inlisum est flumen domui 
+<lb rend="indent"/>illi et non potuit eam 
+<lb rend="indent"/>mouere
+<cb n="b"/>
+<lb/>fundata enim erat 
+<lb rend="indent"/>supra petram
+<lb/><milestone unit="v" n="6.49"/>qui autem audiuit et non fecit
+<lb/>similis est homini 
+<lb rend="indent"/>aedificanti domum suam 
+<lb rend="indent"/>supra terram sine 
+<lb rend="indent"/>fundamento
+<lb/>in qua<supplied reason="omitted">m</supplied> inlisus est fluuius 
+<lb rend="indent"/>et continuo cecidit<!-- concidit S; chk -->
+<lb/>et facta est ruina domus 
+<lb rend="indent"/>illius magna
+</p>
+<p>
+<label type="chapter" rend="red supraline" n="24">xxiiii</label>
+<lb rend="outdent"/><milestone unit="v" n="7.1"/><note type="canon">lx<subst><del rend="alt">i</del><add place="inline">v</add></subst> <hi rend="red">iii</hi></note><note type="crossref">Mt lxiiii / I xxxvii</note><hi rend="red">C</hi>um autem implesset omnia 
+<lb rend="indent"/>uerba sua in aures plebis 
+<lb rend="indent"/>intrauit <name>capharnaum</name>
+<lb/><milestone unit="v" n="7.2"/>centurionis autem cuius
+<lb break="no"/>dam seruus male habens 
+<lb rend="indent"/>erat moriturus qui illi 
+<lb rend="indent"/>erat pretiosus
+<lb/><milestone unit="v" n="7.3"/>et cum audisset de <name><expan>i<am rend="supraline">h</am><ex>es</ex>u</expan></name> misit 
+<lb rend="indent"/>ad eum seniores <name>iudaeor<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan></name>
+<lb/>rogans eum ut ueniret 
+<lb rend="indent"/>et saluaret seruum eius
+<lb/><milestone unit="v" n="7.4"/>at illi cum uenissent ad <name><expan>i<am rend="supraline">h</am><ex>esu</ex>m</expan></name> 
+<lb rend="indent"/>rogabant eum sollicite 
+<lb rend="indent"/>dicentes ei
+<lb/>quia dignus est ut hoc illi 
+<lb rend="indent"/>praestes
+<lb/><milestone unit="v" n="7.5"/>diligit enim gentem nostr<expan><abbr rend="supraline">a</abbr><ex>m</ex></expan>
+<lb/>et synagogam ipse aedifi
+<lb break="no"/>cauit nobis
+<lb/><milestone unit="v" n="7.6"/><name><expan>i<am rend="supraline">h</am><ex>esu</ex>s</expan></name> autem ibat cum illis
+<lb/>et cum iam non longe 
+<lb rend="indent"/>esset a domo
+<lb/>misit ad eum centurio ami
+<lb break="no"/>cos dicens <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>e</expan></name> noli uexari
+<lb/>non enim dignus sum ut sub 
+<lb rend="indent"/>tectum meum intres
+<lb/><milestone unit="v" n="7.7"/>propter quod et me ipsum 
+<lb rend="indent"/>non sum dignum arbitra
+<lb break="no"/>tus ut uenirem ad te
+<lb/>sed dic uerbo et sanabitur 
+<lb rend="indent"/>puer meus
+<lb/><milestone unit="v" n="7.8"/>nam et ego homo sum sub 
+<lb rend="indent"/>potestate constitutus
+<pb n="860r"/>
+<cb n="a"/>
+<lb/>habens sub me milites
+<lb/>et dico huic uade et uadit
+<lb/>et alio ueni et uenit
+<lb/>et seruo meo fac hoc et facit
+<lb/><milestone unit="v" n="7.9"/>quo audito <name><expan>i<am rend="supraline">h</am><ex>esu</ex>s</expan></name> miratus est
+<lb/>et conuersus sequentibus 
+<lb rend="indent"/>se turbis dixit
+<lb/>amen dico uobis nec in <name><expan>is<abbr rend="supraline">r</abbr><ex>ae</ex>l</expan></name> 
+<lb rend="indent"/>tantam fidem inueni
+<lb rend="outdent"/><milestone unit="v" n="7.10"/><note type="canon">lxvi <hi rend="red">v</hi></note>Et reuersi qui missi fuerant 
+<lb rend="indent"/>domum
+<lb/>inuenerunt seruum qui 
+<lb rend="indent"/>languerat sanum
+</p>
+<p>
+<label type="chapter" rend="red supraline" n="25">xxv</label>
+<lb/><milestone unit="v" n="7.11"/><note type="canon">lxvii <hi rend="red">x</hi></note><hi rend="red">Et</hi> factum est deinceps 
+<lb rend="indent"/>ibat in ciuitatem quae 
+<lb rend="indent"/>uocatur <name>naim</name>
+<lb/>et ibant cum illo discipuli 
+<lb rend="indent"/>eius et turba copiosa
+<lb/><milestone unit="v" n="7.12"/>cum autem appropinqua
+<lb break="no"/>ret portae ciuitatis
+<lb/>et ecce defunctus efferebatur 
+<lb rend="indent"/>filius unicus matri suae
+<lb/>et haec uidua erat
+<lb/>et turba ciuitatis multa 
+<lb rend="indent"/>cum illa
+<lb/><milestone unit="v" n="7.13"/>quam cum uidisset <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>s</expan></name> 
+<lb rend="indent"/>misericordia motus super ea 
+<lb rend="indent"/>dixit illi noli flere
+<lb/><milestone unit="v" n="7.14"/>et accessit et tetigit locul<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan>
+<lb/>hi<!-- hii S --> autem qui portabant 
+<lb rend="indent"/>steterunt et ait
+<lb/>adulescens tibi dico surge
+<lb/><milestone unit="v" n="7.15"/>et resedit qui fuerat<!-- erat S; chk --> mor
+<lb break="no"/>tuus et coepit loqui
+<lb/>et dedit illum matri suae
+<lb/><milestone unit="v" n="7.16"/>accepit autem omnes timor
+<lb/>et magnificabant <name><expan>d<ex>eu</ex><abbr rend="supraline">m</abbr></expan></name> dicentes
+<lb/>quia propheta magnus 
+<lb rend="indent"/>surrexit in nobis
+<lb/>et quia <name><expan>d<ex>eu</ex><abbr rend="supraline">s</abbr></expan></name> uisitauit plebem 
+<lb rend="indent"/>suam
+<lb rend="outdent"/><milestone unit="v" n="7.17"/><note type="canon">lxviii <hi rend="red">x</hi></note>Et exiit hic sermo  in uniuer
+<lb break="no"/>sam <name>iudaeam</name> de eo 
+<lb rend="indent"/>et omnem circa region<expan><abbr rend="supraline">e</abbr><ex>m</ex></expan>
+<cb n="b"/>
+<lb rend="outdent"/><milestone unit="v" n="7.18"/><note type="canon">lxviiii <hi rend="red">v</hi></note><note type="crossref">Mt cii</note>Et nuntiauerunt <name>iohanni</name> 
+<lb rend="indent"/>discipuli eius de omni<expan>b<am>’</am><ex>us</ex></expan> his
+</p>
+<p>
+<label type="chapter" rend="red supraline" n="26">xxvi</label>
+<lb/><milestone unit="v" n="7.19"/><hi rend="red">et<!-- chk: cap? --></hi> conuocauit duos de disci
+<lb break="no"/>pulis suis <name>iohannes</name> et mi
+<lb break="no"/>sit ad <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>m</expan></name> dicens
+<lb/>tu es qui uenturus es 
+<lb rend="indent"/>an alium expectamus
+<lb/><milestone unit="v" n="7.20"/>cum autem uenissent 
+<lb rend="indent"/>ad eum uiri dixerunt
+<lb/><name>iohannes</name> <name>baptista</name> misit 
+<lb rend="indent"/>nos ad te dicens
+<lb/>tu es qui uenturus es 
+<lb rend="indent"/>an alium expectamus
+<lb/><milestone unit="v" n="7.21"/>in ipsa autem hora curauit 
+<lb rend="indent"/>multos <space unit="character" n="2"/>a languoribus 
+<lb rend="indent"/>et plagis et spiriti<expan>b<am>’</am><ex>us</ex></expan> malis
+<lb/>et caecis multis donauit uis<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan>
+<lb/><milestone unit="v" n="7.22"/>et respondens dixit illis
+<lb/>euntes nuntiate <name>iohanni</name> 
+<lb rend="indent"/>quae uidistis et audistis
+<lb/>quia caeci uident 
+<lb rend="indent"/>claudi ambulant
+<lb/>leprosi mundantur 
+<lb rend="indent"/>surdi audiunt
+<lb/>mortui resurgunt 
+<lb rend="indent"/>pauperes euangelizantur
+<lb/><milestone unit="v" n="7.23"/>et beatus est quicumque 
+<lb rend="indent"/>non fuerit scandaliza
+<lb break="no"/>tus in me
+<lb/><milestone unit="v" n="7.24"/>et cum discessissent 
+<lb rend="indent"/>nuntii <name>iohannis</name>
+<lb/>coepit dicere de <name>iohanne</name> 
+<lb rend="indent"/>ad turbas
+<lb/>quid existis in desertum 
+<lb rend="indent"/>uidere harundinem 
+<lb rend="indent"/>uento moueri
+<lb/><milestone unit="v" n="7.25"/>sed quid existis uidere 
+<lb rend="indent"/>hominem mollibus 
+<lb rend="indent"/>uestimentis indutum
+<lb/>ecce qui in ueste pretiosa 
+<lb rend="indent"/>sunt et deliciis 
+<lb rend="indent"/>in domibus regum sunt
+<lb/><milestone unit="v" n="7.26"/>sed quid existis uidere 
+<lb rend="indent"/>prophetam<!-- here and below, good example of erroneous lineation in S -->
+<pb n="860v"/>
+<cb n="a"/>
+<lb/>utique dico uobis 
+<lb rend="indent"/>et plus quam prophetam
+<lb rend="outdent"/><milestone unit="v" n="7.27"/><note type="canon">lxx <hi rend="red">ii</hi></note><note type="crossref">Mt ciii / Mr i</note>Hic est de quo scriptum est
+<quote rend="sidequotes">
+<lb/>ecce mitto angelum meum 
+<lb rend="indent"/>ante faciem tuam qui prae
+<lb break="no"/>parabit uiam tuam ante te
+</quote>
+<lb/><milestone unit="v" n="7.28"/><note type="canon">lxxi <hi rend="red">v</hi></note><note type="crossref">Mt ciiii</note>Dico enim uobis
+<lb/>maior inter natos mulierum 
+<lb rend="indent"/>propheta <name>iohanne</name> <name>baptista</name> 
+<lb rend="indent"/>nemo est
+<lb/>qui autem minor est in regno 
+<lb rend="indent"/><name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> maior est illo
+<lb/><milestone unit="v" n="7.29"/><note type="canon">lxxii <hi rend="red">x</hi></note>Et omnis populus audiens 
+<lb rend="indent"/>et publicani iustificaue
+<lb break="no"/>runt <name><expan>d<ex>eu</ex><abbr rend="supraline">m</abbr></expan></name>
+<lb/>baptizati baptismo <name>iohannis</name>
+<lb/><milestone unit="v" n="7.30"/><name>pharisaei</name> autem et legis 
+<lb rend="indent"/>periti consilium <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> spre
+<lb break="no"/>uerunt in semet ipsos
+<lb/>non baptizati ab eo
+<lb rend="outdent"/><milestone unit="v" n="7.31"/><note type="canon">lxxiii <hi rend="red">v</hi></note><note type="crossref">Mt cvii</note>Cui ergo similes dicam homi
+<lb break="no"/>nes generationis huius
+<lb/>et cui similes sunt
+<lb/><milestone unit="v" n="7.32"/>similes sunt pueris sedenti<expan>b<am>’</am><ex>us</ex></expan> 
+<lb rend="indent"/>in foro 
+<lb/>et loquentibus ad inuicem 
+<lb rend="indent"/>et dicentibus
+<lb/>cantauimus uobis tibiis 
+<lb rend="indent"/>et non saltastis
+<lb/>lamentauimus et non plo
+<lb break="no"/>rastis
+<lb/><milestone unit="v" n="7.33"/>uenit enim <name>iohannes</name> <name>baptista</name>
+<lb/>neque manducans panem 
+<lb rend="indent"/>neque bibens uinum
+<lb/>et dicitis daemonium habet
+<lb/><milestone unit="v" n="7.34"/>uenit <name>filius</name> hominis 
+<lb rend="indent"/>manducans et bibens
+<lb/>et dicitis ecce homo deuora
+<lb break="no"/>tor et bibens uinum
+<lb/>amicus publicanorum 
+<lb rend="indent"/>et peccatorum
+<lb/><milestone unit="v" n="7.35"/>et iustificata est sapientia 
+<lb rend="indent"/>ab omnibus filiis suis
+</p>
+<p>
+<label type="chapter" rend="red supraline" n="27">xxvii</label>
+<lb rend="outdent"/><milestone unit="v" n="7.36"/><note type="canon">lxxiiii <hi rend="red">i</hi></note><note type="crossref">Mt cclxxvi / Mr clviii / I xcviii</note>Rogabat autem illum 
+<cb n="b"/>quidam de <name>pharisaeis</name> 
+<lb rend="indent"/>ut manducaret cum illo
+<lb/>et ingressus domum 
+<lb rend="indent"/><name>pharisaei</name> discubuit
+<lb/><milestone unit="v" n="7.37"/>et ecce mulier quae erat 
+<lb rend="indent"/>in ciuitate peccatrix
+<lb/>ut cognouit quod accubuit 
+<lb rend="indent"/>in domo <name>pharisaei</name>
+<lb/>attulit alabastrum unguenti
+<lb/><milestone unit="v" n="7.38"/>et stans retro secus pedes 
+<lb rend="indent"/>eius lacrimis coepit 
+<lb rend="indent"/>rigare pedes eius
+<lb/>et capillis capitis sui tergebat
+<lb/>et osculabatur pedes eius 
+<lb rend="indent"/>et ung<supplied reason="omitted">u</supplied>ento ungebat<!-- unguento unguebat S; chk: does spelling occur elsewhere -->
+<lb/><milestone unit="v" n="7.39"/>uidens autem <name>pharisaeus</name> 
+<lb rend="indent"/>qui uocauerat eum 
+<lb rend="indent"/>ait intra se dicens
+<lb/>hic si esset propheta sciret 
+<lb rend="indent"/>utique quae et qualis 
+<lb rend="indent"/>mulier esset<!-- om. S --> quae tangit 
+<lb rend="indent"/>eum quia peccatrix est
+<lb/><milestone unit="v" n="7.40"/>et respondens <name><expan>i<am rend="supraline">h</am><ex>esu</ex>s</expan></name> dixit ad ill<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan>
+<lb/><name>simon</name> habeo tibi aliquid 
+<lb rend="indent"/>dicere
+<lb/>at ille ait magister dic
+<lb/><milestone unit="v" n="7.41"/>duo debitores erant 
+<lb rend="indent"/>cuidam faeneratori<!-- feneratori S -->
+<lb/>unus debebat denarios 
+<lb rend="indent"/>quingentos <space unit="character" n="2"/>alius 
+<lb rend="indent"/>quinquaginta
+<lb/><milestone unit="v" n="7.42"/>non habentibus illis unde 
+<lb rend="indent"/>redderent donauit utris<expan>q<am>’</am><ex>ue</ex></expan>
+<lb/>quis ergo eum plus diliget
+<lb/><milestone unit="v" n="7.43"/>respondens <name>simon</name> dixit
+<lb/>aestimo quia is cui plus 
+<lb rend="indent"/>donauit
+<lb/>at ille dixit ei recte iudicasti
+<lb/><milestone unit="v" n="7.44"/>et conuersus ad mulier<expan><abbr rend="supraline">e</abbr><ex>m</ex></expan> 
+<lb rend="indent"/>dixit <name>simoni</name>
+<lb/>uides hanc mulierem
+<lb/>intraui in domum tuam
+<lb/>aquam pedibus meis 
+<lb rend="indent"/>non dedisti
+<gb n="108"/>
+<pb n="861r"/>
+<cb n="a"/>
+<lb/>haec autem lacrimis 
+<lb rend="indent"/>rigauit pedes meos 
+<lb rend="indent"/>et capillis suis tersit
+<lb/><milestone unit="v" n="7.45"/>osculum mihi non dedisti
+<lb/>haec autem ex quo intrauit 
+<lb rend="indent"/>non cessauit osculari 
+<lb rend="indent"/>pedes meos
+<lb/><milestone unit="v" n="7.46"/>oleo caput meum non unxisti
+<lb/>haec autem unguento unxit 
+<lb rend="indent"/>pedes meos
+<lb/><milestone unit="v" n="7.47"/>propter quod dico tibi
+<lb/>remittentur ei peccata multa 
+<lb rend="indent"/>quoniam dilexit multum
+<lb/>cui autem minus dimittitur 
+<lb rend="indent"/>minus diligit
+<lb/><milestone unit="v" n="7.48"/>dixit autem ad illam
+<lb/>remittuntur tibi peccata
+<lb/><milestone unit="v" n="7.49"/>et coeperunt qui simul 
+<lb rend="indent"/><choice><sic>dis</sic><corr>ac</corr></choice>cumbebant<!-- accumbebant S; chk --> dicere 
+<lb rend="indent"/>intra se
+<lb/>quis est hic qui etiam 
+<lb rend="indent"/>peccata dimittit
+<lb/><milestone unit="v" n="7.50"/>dixit autem ad mulierem
+<lb/>fides tua te saluam fecit 
+<lb rend="indent"/>uade in pace
+</p>
+<p>
+<label type="chapter" rend="red supraline" n="28">xxviii</label>
+<lb/><milestone unit="v" n="8.1"/><note type="canon">lxxv <hi rend="red">x</hi></note><hi rend="red">Et</hi> factum est deinceps
+<lb/>et ipse iter faciebat per ciui
+<lb break="no"/>tatem et castellum
+<lb/>praedicans et euangelizans 
+<lb rend="indent"/>regnum <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name>
+<lb/>et duodecim cum illo
+<lb/><milestone unit="v" n="8.2"/>et mulieres aliquae quae 
+<lb rend="indent"/>erant curatae ab spiriti<expan>b<am>’</am><ex>us</ex></expan> 
+<lb rend="indent"/>malignis et infirmitati<expan>b<am>’</am><ex>us</ex></expan>
+<lb/><name>maria</name> quae uocatur <name>mag
+<lb break="no"/>dalene</name> 
+<lb/>de qua daemonia septem 
+<lb rend="indent"/>exierant
+<lb/><milestone unit="v" n="8.3"/>et <name>iohanna</name> uxor <name>chuza</name> 
+<lb rend="indent"/>procuratoris <name>herodis</name> 
+<lb rend="indent"/>et <name>susanna</name> <space unit="character" n="2"/>et aliae multae
+<lb/>quae ministrabant eis 
+<lb rend="indent"/>de facultatibus suis
+<lb rend="outdent"/><milestone unit="v" n="8.4"/><note type="canon">lxxvi <hi rend="red">ii</hi></note><note type="crossref">M cxxxi / Mr xxxvi</note>Cum autem turba plurima 
+<cb n="b"/>
+<lb rend="indent"/>conueniret
+<lb/><add place="inline">et</add> de ciuitatibus propera
+<lb break="no"/>rent ad eum
+<lb/>dixit per similitudinem
+<lb rend="outdent"/><milestone unit="v" n="8.5"/>Exiit qui seminat seminare 
+<lb rend="indent"/>semen suum
+<lb/>et dum seminat
+<lb/>aliud cecidit secus uiam 
+<lb rend="indent"/>et conculcatum est
+<lb/>et uolucres caeli 
+<lb rend="indent"/>comederunt illud
+<lb/><milestone unit="v" n="8.6"/>et aliud cecidit supra petr<expan><abbr rend="supraline">a</abbr><ex>m</ex></expan> 
+<lb rend="indent"/>et natum aruit 
+<lb/>quia non habebat umorem<!-- humorem S; chk -->
+<lb/><milestone unit="v" n="8.7"/>et aliud cecidit secus<!-- inter S; chk --> spinas
+<lb/>et simul exortae spinae 
+<lb rend="indent"/>suffocauerunt illud
+<lb/><milestone unit="v" n="8.8"/>et aliud cecidit in terram 
+<lb rend="indent"/>bonam
+<lb/>et ortum fecit fructum 
+<lb rend="indent"/>centuplum
+<lb/>haec dicens clamabat
+<lb/>qui habet aures audiendi 
+<lb rend="indent"/>audiat
+<lb/><milestone unit="v" n="8.9"/>interrogabant autem eum 
+<lb rend="indent"/>discipuli eius 
+<lb/>quae esset haec parabola
+<lb/><milestone unit="v" n="8.10"/>quibus ipse dixit
+<lb/>uobis datum est nosse 
+<lb rend="indent"/>mysterium regni <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name>
+<lb rend="outdent"/><note type="canon">lxxvii <hi rend="red">i</hi></note><note type="crossref">Mt cxxxiii / Mr xxxvii / I cviiii</note>Ceteris autem in parabolis
+<lb/>ut uidentes non uideant
+<lb/>et audientes non intellegant
+<lb rend="outdent"/><milestone unit="v" n="8.11"/><note type="canon">lxxviii <hi rend="red">ii</hi></note><note type="crossref">Mt cxxxv / Mr xxxviii</note>Est autem haec parabola
+<lb/>semen est uerbum <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name>
+<lb/><milestone unit="v" n="8.12"/>qui autem secus uiam sunt 
+<lb rend="indent"/><add place="inline">hi</add><!-- om. S; chk --> qui audiunt
+<lb/>de<surplus> </surplus>inde uenit diabolus 
+<lb rend="indent"/>et tollit uerbum 
+<lb rend="indent"/>de corde eorum
+<lb/>ne credentes salui fiant
+<lb/><milestone unit="v" n="8.13"/>nam qui supra petram
+<lb/>qui cum audierint cum gau
+<lb break="no"/>dio suscipiunt uerbum
+<pb n="861v"/>
+<cb n="a"/>
+<lb/>et hi<!-- hii S --> radicem<!-- radices S; chk --> non habent 
+<lb rend="indent"/>qui ad tempus credunt
+<lb/>et in tempore temtationis 
+<lb rend="indent"/>recedunt
+<lb/><milestone unit="v" n="8.14"/>quod autem in spinis cecidit
+<lb/>hi<!-- hii S --> sunt qui audierunt et <!-- a add. S; chk --> sol
+<lb break="no"/>licitudinibus et diuitiis 
+<lb rend="indent"/>et uoluptatibus uitae 
+<lb rend="indent"/>euntes suffocantur
+<lb/>et non referunt fructum
+<lb/><milestone unit="v" n="8.15"/>quod autem in bonam terram
+<lb/>hi<!-- hii S --> sunt qui in corde bono 
+<lb rend="indent"/>et optimo audientes 
+<lb rend="indent"/>uerbum retinent
+<lb/>et fructum afferunt 
+<lb rend="indent"/>in patientia
+</p>
+<p>
+<label type="chapter" rend="red supraline" n="29">xxix</label>
+<lb rend="outdent"/><milestone unit="v" n="8.16"/><note type="canon">lxxviiii <hi rend="red">ii</hi></note><note type="crossref">Mt xxxii / Mr xxxviii</note><hi rend="red">N</hi>emo autem lucernam ac
+<lb break="no"/>cendens operit eam uase<!-- uaso S -->
+<lb/>aut subtus lectum ponit
+<lb/>sed supra candelabrum ponit 
+<lb rend="indent"/>ut intrantes uideant lum<expan><abbr rend="supraline">e</abbr><ex>n</ex></expan>
+<lb rend="outdent"/><milestone unit="v" n="8.17"/><note type="canon">lxxx <hi rend="red">ii</hi></note><note type="crossref">Mt xcii / Mr xl</note>Non enim est occultum 
+<lb rend="indent"/>quod non manifestetur
+<lb/>nec absconditum 
+<lb rend="indent"/>quod non cognoscatur 
+<lb rend="indent"/>et in palam ueniat
+<lb rend="outdent"/><milestone unit="v" n="8.18"/><note type="canon">lxxxi <hi rend="red">v</hi></note><note type="crossref">Mt cxxxii</note>Videte ergo quomodo 
+<lb rend="indent"/>auditis
+<lb/>qui enim habet dabitur illi
+<lb/>et quicumque non habet
+<lb/>etiam quod putat se habere 
+<lb rend="indent"/>auferetur ab illo
+<lb/><milestone unit="v" n="8.19"/><note type="canon">lxxxii <hi rend="red">ii</hi></note><note type="crossref">Mt cxxx / Mr xxxv</note>Venerunt autem ad illum 
+<lb rend="indent"/>mater et fratres eius
+<lb/>et non poterant adire 
+<lb rend="indent"/>ad eum prae turba
+<lb/><milestone unit="v" n="8.20"/>et nuntiatum est illi
+<lb/>mater tua et fratres tui 
+<lb rend="indent"/>stant foris uolentes 
+<lb rend="indent"/>te uidere
+<lb/><milestone unit="v" n="8.21"/>qui respondens dixit ad eos
+<lb/>mater mea et fratres mei 
+<lb rend="indent"/>hi<!-- hii S --> sunt qui uerbum <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> 
+<lb rend="indent"/>audiunt et faciunt
+<cb n="b"/>
+</p>
+<p>
+<label type="chapter" rend="red supraline" n="30">xxx</label>
+<lb/><milestone unit="v" n="8.22"/><note type="canon">lxxxiii <hi rend="red">ii</hi></note><note type="crossref">Mt lxciii / Mr xlvii</note><hi rend="red">F</hi>actum est autem in una 
+<lb rend="indent"/>dierum
+<lb/>et ipse ascendit in nauicu
+<lb break="no"/>la<supplied reason="omitted">m</supplied> et discipuli eius
+<lb/>et ait ad illos
+<lb/>transfretemus trans stagn<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> 
+<lb rend="indent"/>et ascenderunt
+<lb/><milestone unit="v" n="8.23"/>nauigantibus autem illis 
+<lb rend="indent"/>obdormiuit<!-- obdormiit S (interesting comparison to C) -->
+<lb/>et descendit procella uenti 
+<lb rend="indent"/>in stagnum et conpleban
+<lb break="no"/>tur et periclitabantur
+<lb/><milestone unit="v" n="8.24"/>accedentes autem suscita
+<lb break="no"/>uerunt eum dicentes
+<lb/>praeceptor perimus
+<lb/>at ille surgens increpauit 
+<lb rend="indent"/>uentum et tempestatem 
+<lb rend="indent"/>aquae et cessauit 
+<lb/>et facta est tranquillitas
+<lb/><milestone unit="v" n="8.25"/>dixit autem illis 
+<lb rend="indent"/>ubi est fides uestra
+<lb/>qui timentes mirati sunt 
+<lb rend="indent"/>dicentes ad inuicem
+<lb/>quis putas hic est quia et 
+<lb rend="indent"/>uentis imperat et ma<del rend="erased"><unclear>t</unclear></del>ri 
+<lb rend="indent"/>et oboediunt ei
+</p>
+<p>
+<label type="chapter" rend="red supraline" n="31">xxxi</label>
+<lb rend="outdent"/><milestone unit="v" n="8.26"/>Enauigauerunt autem ad re
+<lb break="no"/>gionem <name>gerasenorum</name> 
+<lb rend="indent"/>quae est contra <name>galilaeam</name>
+<lb/><milestone unit="v" n="8.27"/>et cum egressus esset ad terr<expan><abbr rend="supraline">a</abbr><ex>m</ex></expan>
+<lb/>occurrit illi uir quidam 
+<lb rend="indent"/>qui habebat daemonium 
+<lb rend="indent"/>iam temporibus multis
+<lb/>et uestimento non indue
+<lb break="no"/>batur
+<lb/>neque in domo manebat 
+<lb rend="indent"/>sed in monumentis
+<lb/><milestone unit="v" n="8.28"/>is ut uidit <name><expan>i<am rend="supraline">h</am><ex>esu</ex>m</expan></name> procidit 
+<lb rend="indent"/>ante illum
+<lb/>et exclamans uoce magna dixit
+<lb/>quid mihi et tibi est <name><expan>i<am rend="supraline">h</am><ex>es</ex>u</expan></name> 
+<lb rend="indent"/><name>fili<surplus>i</surplus><!-- chk --></name> <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> altissimi
+<lb/>obsecro te ne me torqueas
+<lb/><milestone unit="v" n="8.29"/>praecipiebat enim spiritui 
+<pb n="862r"/>
+<cb n="a"/>
+<lb rend="indent"/>immundo ut exiret ab homine
+<lb/>multis enim temporibus 
+<lb rend="indent"/>arripiebat illum
+<lb/>et uinciebatur catenis 
+<lb rend="indent"/>et compedi<expan>b<am>’</am><ex>us</ex></expan> custoditus
+<lb/>et ruptis uinculis agebatur 
+<lb rend="indent"/>a daemonio in deserta
+<lb/><milestone unit="v" n="8.30"/>interrogauit autem illum 
+<lb rend="indent"/><name><expan>i<am rend="supraline">h</am><ex>esu</ex>s</expan></name> dicens quod tibi nomen <add place="inline">est</add>
+<lb/>at ille dixit <name>legio</name>
+<lb/>quia intrauerunt daemonia 
+<lb rend="indent"/>multa in eum
+<lb/><milestone unit="v" n="8.31"/>et rogabant eum<!-- illum S --> ne impera
+<lb break="no"/>ret illis ut in abyssum irent
+<lb/><milestone unit="v" n="8.32"/>erat autem ibi grex porcor<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> 
+<lb rend="indent"/>multorum pascentium 
+<lb rend="indent"/>in monte
+<lb/>et rogabant eum ut permit
+<lb break="no"/>teret eos in illos ingredi 
+<lb rend="indent"/>et per<surplus> </surplus>misit illis<!-- illos S; chk -->
+<lb/><milestone unit="v" n="8.33"/>exierunt ergo daemonia 
+<lb rend="indent"/>ab homine et intrauerunt 
+<lb rend="indent"/>in porcos
+<lb/>et impetu abiit grex per 
+<lb rend="indent"/>praeceps in stagnum 
+<lb rend="indent"/>et suffocatus est
+<lb/><milestone unit="v" n="8.34"/>quod ut uiderunt factum 
+<lb rend="indent"/>qui pascebant fugerunt
+<lb/>et nuntiauerunt in ciuitat<expan><abbr rend="supraline">e</abbr><ex>m</ex></expan> 
+<lb rend="indent"/>et in uillas
+<lb/><milestone unit="v" n="8.35"/>exierunt autem uidere 
+<lb rend="indent"/>quod factum est
+<lb/>et uenerunt ad <name><expan>i<am rend="supraline">h</am><ex>esu</ex>m</expan></name>
+<lb/>et inuenerunt hominem 
+<lb rend="indent"/>sedentem a quo daemonia 
+<lb rend="indent"/>exierant 
+<lb/>uestitum ac sana mente ad pe
+<lb break="no"/>des eius et timuerunt
+<lb/><milestone unit="v" n="8.36"/>nuntiauerunt autem illis 
+<lb/>et qui uiderant quomodo 
+<lb rend="indent"/>sanus factus esset a <name>legione</name>
+<lb/><milestone unit="v" n="8.37"/>et rogauerunt illum omnis 
+<lb rend="indent"/>multitudo regionis 
+<lb rend="indent"/><name>gerasenorum</name> 
+<cb n="b"/>
+<lb rend="indent"/>ut discederet ab ipsis
+<lb/>quia timore magno tenebantur
+<lb rend="outdent"/><note type="canon">lxxxiiii <hi rend="red">viii</hi></note><note type="crossref">Mr xlviii</note>Ipse autem ascendens nauem 
+<lb rend="indent"/>reuersus est
+<lb/><milestone unit="v" n="8.38"/>et rogabat illum uir a quo 
+<lb rend="indent"/>daemonia exierant 
+<lb rend="indent"/>ut cum eo esset
+<lb/>dimisit autem eum <name><expan>i<am rend="supraline">h</am><ex>esu</ex>s</expan></name> dicens
+<lb/><milestone unit="v" n="8.39"/>redi domum tuam et narra 
+<lb rend="indent"/>quanta tibi fecit <name><expan>d<ex>eu</ex><abbr rend="supraline">s</abbr></expan></name>
+<lb/>et abiit per uniuersam 
+<lb rend="indent"/>ciuitatem
+<lb/>praedicans quanta illi 
+<lb rend="indent"/>fecisset <name><expan>i<am rend="supraline">h</am><ex>esu</ex>s</expan></name>
+</p>
+<p>
+<label type="chapter" rend="red supraline" n="32">xxxii</label>
+<lb rend="outdent"/><milestone unit="v" n="8.40"/><note type="canon">lxxxv <hi rend="red">ii</hi></note><note type="crossref">Mt lxxiiii / Mr xlviiii</note>Factum est autem cum redis
+<lb break="no"/>set <name><expan>i<am rend="supraline">h</am><ex>esu</ex>s</expan></name> excepit illum turba
+<lb/>erant enim omnes 
+<lb rend="indent"/>expectantes eum
+<lb/><milestone unit="v" n="8.41"/>et ecce uenit uir 
+<lb rend="indent"/>cui nomen <name>iairus</name>
+<lb/>et ipse princeps syna
+<lb break="no"/>gogae erat
+<lb/>et cecidit ad pedes <name><expan>i<am rend="supraline">h</am><ex>es</ex>u</expan></name>
+<lb/>rogans eum ut intraret 
+<lb rend="indent"/>in domum eius
+<lb/><milestone unit="v" n="8.42"/>quia filia unica erat illi 
+<lb/>fere annorum duodecim 
+<lb rend="indent"/>et haec moriebatur
+<lb/>et contigit dum iret 
+<lb rend="indent"/>a turba<!-- turbis S; chk --> comprimebatur
+<lb rend="outdent"/><milestone unit="v" n="8.43"/>Et mulier quaedam erat 
+<lb rend="indent"/>in fluxu sanguinis 
+<lb rend="indent"/>ab annis duodecim
+<lb/>quae in medicos erogauerat 
+<lb rend="indent"/>omnem substantiam su<expan><abbr rend="supraline">a</abbr><ex>m</ex></expan>
+<lb/>nec ab ullo potuit curari
+<lb/><milestone unit="v" n="8.44"/>accessit retro et tetigit 
+<lb rend="indent"/>fimbriam uestimenti eius
+<lb/>et confestim stetit 
+<lb rend="indent"/>fluxus sanguinis eius
+<lb/><milestone unit="v" n="8.45"/>et ait <name><expan>i<am rend="supraline">h</am><ex>esu</ex>s</expan></name> quis est qui me 
+<lb rend="indent"/>tetigit
+<lb/>negantibus autem omni<expan>b<am>’</am><ex>us</ex></expan>
+<lb/>dixit <name>petrus</name> et qui cum illo 
+<lb rend="indent right"/>erant
+<pb n="862v"/>
+<fw><expan>s<abbr rend="supraline">ec</abbr><ex>undum</ex></expan></fw>
+<cb n="a"/>
+<lb/>praeceptor turbae te com
+<lb break="no"/>primunt et affligunt
+<lb/>et dicis quis me tetigit
+<lb/><milestone unit="v" n="8.46"/>et dixit <name><expan>i<am rend="supraline">h</am><ex>esu</ex>s</expan></name> tetigit me aliquis
+<lb/>nam ego noui uirtutem 
+<lb rend="indent"/>de me exisse
+<lb/><milestone unit="v" n="8.47"/>uidens autem mulier 
+<lb rend="indent"/>quia non latuit
+<lb/>tremens uenit et procidit 
+<lb rend="indent"/>ante pedes illius
+<lb/>et ob quam causam tetige
+<lb break="no"/>rit eum indicauit 
+<lb rend="indent"/>coram omni populo
+<lb/>et quema<choice><sic>m</sic><corr>d</corr></choice>modum<!-- chk: do they do this elsewhere? --> 
+<lb rend="indent"/>confestim sanata sit
+<lb/><milestone unit="v" n="8.48"/>at ipse dixit illi
+<lb/>filia fides tua te saluam 
+<lb rend="indent"/>fecit uade in pace
+<lb/><milestone unit="v" n="8.49"/>adhuc illo loquente uenit 
+<lb rend="indent"/>a principe synagogae dicens ei
+<lb/>quia mortua est filia tua 
+<lb rend="indent"/>noli uexare illum
+<lb/><milestone unit="v" n="8.50"/><name><expan>i<am rend="supraline">h</am><ex>esu</ex>s</expan></name> autem audito hoc uerbo 
+<lb rend="indent"/>respondit patri puellae
+<lb/>noli timere crede tantum 
+<lb rend="indent"/>et salua erit
+<lb/><milestone unit="v" n="8.51"/>et cum uenisset domum
+<lb/>non permisit intrare 
+<lb rend="indent"/>secum quemquam
+<lb/>nisi <name>petrum</name> <name>iacobum</name> 
+<lb rend="indent"/>et <name>iohannem</name><!-- petrum et iohannem et iacobum S; chk -->
+<lb/>et patrem et matrem puellae
+<lb/><milestone unit="v" n="8.52"/>flebant autem omnes 
+<lb rend="indent"/>et plangebant illam
+<lb/>at ille dixit nolite flere 
+<lb/>non est mortua sed dormit
+<lb/><milestone unit="v" n="8.53"/>et deridebant eum 
+<lb rend="indent"/>scientes quia mortua esset
+<lb/><milestone unit="v" n="8.54"/>ipse autem tenens manum 
+<lb rend="indent"/>eius clamauit dicens
+<lb/>puella surge
+<lb/><milestone unit="v" n="8.55"/>et reuersus est <expan>s<abbr rend="supraline">p</abbr><ex>iritu</ex>s</expan> eius
+<lb/>et surrexit continuo
+<lb/>et iussit illi dari manducare
+<cb n="b"/>
+<lb/><milestone unit="v" n="8.56"/>et stupuerunt parentes eius
+<lb/>quibus praecepit ne alicui 
+<lb rend="indent"/>dicerent quod factum erat
+</p>
+<p>
+<label type="chapter" rend="red supraline" n="33">xxxiii</label>
+<lb rend="outdent"/><milestone unit="v" n="9.1"/><note type="canon">lxxxvi <hi rend="red">ii</hi></note><note type="crossref">Mt lxxviiii / Mr xxviiii</note><hi rend="red">Con</hi>uocatis autem duodecim 
+<lb rend="indent"/>apostolis
+<lb/>dedit illis uirtutem 
+<lb rend="indent"/>et potestatem super 
+<lb rend="indent"/>omnia daemonia
+<lb/>et ut languores curarent
+<lb/><milestone unit="v" n="9.2"/>et misit illos praedicare 
+<lb rend="indent"/>regnum <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> 
+<lb rend="indent"/>et sanare infirmos
+<lb rend="outdent"/><milestone unit="v" n="9.3"/><note type="canon">lxxxvii <hi rend="red">ii</hi></note><note type="crossref">Mt lxxvii / Mr liii</note>Et ait ad illos nihil tuleritis 
+<lb rend="indent"/>in uia
+<lb/>neque uirgam neque peram 
+<lb/>neque panem neque pecuni<expan><abbr rend="supraline">a</abbr><ex>m</ex></expan>
+<lb/>neque duas tunicas habeatis
+<lb/><milestone unit="v" n="9.4"/>et in quamcumque domum 
+<lb rend="indent"/>intraueritis ibi manete 
+<lb rend="indent"/>et inde ne exeatis
+<lb rend="outdent"/><milestone unit="v" n="9.5"/><note type="canon">lxxxviii <hi rend="red">ii</hi></note><note type="crossref">Mt lxxxv / Mr lv</note>Et quicumque non recepe
+<lb break="no"/>rint uos
+<lb/>exeuntes de ciuitate illa
+<lb/>etiam puluerem pedum 
+<lb rend="indent"/>uestrorum excutite 
+<lb rend="indent"/>in testimonium supra illos
+<lb rend="outdent"/><milestone unit="v" n="9.6"/><note type="canon">lxxxviiii <hi rend="red">viii</hi></note><note type="crossref">Mr lvi</note>Egressi autem circumibant 
+<lb rend="indent"/>per castella
+<lb/>euangelizantes et curan
+<lb break="no"/>tes ubique
+</p>
+<p>
+<label type="chapter" rend="red supraline" n="34">xxxiiii</label>
+<lb rend="outdent"/><milestone unit="v" n="9.7"/><note type="canon">xc <hi rend="red">ii</hi></note><note type="crossref">Mt cxliii / Mr lvii</note><hi rend="red">A</hi>udiuit autem <name>herodes</name> 
+<lb rend="indent"/>tetrarcha omnia quae 
+<lb rend="indent"/>fiebant ab eo
+<lb/>et haesitabat eo quod dicere
+<lb break="no"/>tur <milestone unit="v" n="9.8"/>a quibusdam quia 
+<lb rend="indent"/><name>iohannes</name> surrexit a mortuis
+<lb/>a quibusdam uero 
+<lb rend="indent"/>quia <name>helias</name> apparuit
+<lb/>ab aliis autem quia propheta 
+<lb rend="indent"/>unus de antiquis surrexit
+<lb/><milestone unit="v" n="9.9"/>et ait <name>herodes</name>
+<lb/><name>iohannem</name> ego decollaui
+<lb/>quis autem est iste de quo 
+<lb rend="indent"/>audio ego talia
+<pb n="863r"/>
+<fw><expan>lu<abbr rend="supraline">c</abbr><ex>am</ex></expan></fw>
+<cb n="a"/>
+<lb/>et quaerebat uidere eum
+<lb rend="outdent"/><milestone unit="v" n="9.10"/><note type="canon">xci <hi rend="red">viii</hi></note><note type="crossref">Mr lvi</note>Et reuersi apostoli 
+<lb rend="indent"/>narrauerunt illi 
+<lb rend="indent"/>quaecumque fecerunt
+<lb/><note type="canon">xcii <hi rend="red">ii<supplied reason="omitted">i</supplied></hi></note>Et assumtis illis secessit 
+<lb rend="indent"/>seorsum in locum 
+<lb rend="indent"/>desert<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> qui est 
+<lb rend="indent"/><name>bethsaida</name>
+<lb/><milestone unit="v" n="9.11"/>quod cum cognouissent 
+<lb rend="indent"/>turbae secutae sunt ill<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan>
+<lb/>et excepit illos
+<lb/>et loquebatur illis de reg<add place="overstrike">no <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name></add>
+<lb/>et eos qui cura indigebant 
+<lb rend="indent"/>sanabat
+</p>
+<p>
+<label type="chapter" rend="red supraline" n="35">xxxv</label>
+<lb rend="outdent"/><milestone unit="v" n="9.12"/><note type="canon">xciii <hi rend="red">i</hi></note><note type="crossref">Mt cxlvii / Mr lviii / I xlviiii</note><hi rend="red">D</hi>ies autem coeperat declinare
+<lb/>et accedentes duodecim 
+<lb rend="indent"/>dixerunt illi dimitte turbas 
+<lb/>ut euntes in castella uillas<expan>q<am>’</am><ex>ue</ex></expan> 
+<lb rend="indent"/>quae circa sunt deuertant 
+<lb rend="indent"/>et inueniant escas
+<lb/>quia hic in loco deserto sumus
+<lb/><milestone unit="v" n="9.13"/>ait autem ad illos
+<lb/>uos date illis manducare
+<lb/>at illi dixerunt
+<lb/>non sunt nobis plus quam<!-- chk --> 
+<lb rend="indent"/>quinque panes et duo<surplus><add place="above">s</add></surplus> pisces
+<lb/>nisi forte nos eamus 
+<lb rend="indent"/>et emamus in omnem 
+<lb rend="indent"/>hanc turbam escas
+<lb/><milestone unit="v" n="9.14"/>erant autem fere uiri 
+<lb rend="indent"/>quinque milia
+<lb/>ait autem ad discipulos suos
+<lb/>facite illos discumbere 
+<lb rend="indent"/>per conuiuia quinquagenos
+<lb/><milestone unit="v" n="9.15"/>et ita fecerunt
+<lb/>et discumbere fecerunt 
+<lb rend="indent"/>omnes
+<lb/><milestone unit="v" n="9.16"/>acceptis autem quinque 
+<lb rend="indent"/>panibus et duobus piscibus
+<lb/>respexit in caelum 
+<lb rend="indent"/>et benedixit illis
+<lb/>et fregit et distribuit 
+<lb rend="indent"/>discipulis suis ut pone
+<lb break="no"/>rent ante turbas
+<cb n="b"/>
+<lb/><milestone unit="v" n="9.17"/>et manducauerunt omnes 
+<lb rend="indent"/>et saturati sunt
+<lb/>et sublatum est quod 
+<lb rend="indent"/>superfuit illis
+<lb/>fragmentorum cophini<!-- cofini S --> 
+<lb rend="indent"/>duodecim
+</p>
+<p>
+<label type="chapter" rend="red supraline" n="36">xxxvi</label>
+<lb/><milestone unit="v" n="9.18"/><note type="canon">xc<choice><sic>l</sic><corr>i</corr></choice>iii <hi rend="red">i</hi></note><note type="crossref">Mt clxvi / Mr lxxxii / I lxviiii</note><hi rend="red">Et</hi> factum est cum solus 
+<lb rend="indent"/>esset orans erant cum 
+<lb rend="indent"/>illo et discipuli
+<lb/>et interrogauit illos dicens
+<lb/>quem me dicunt esse turbae
+<lb/><milestone unit="v" n="9.19"/>at illi responderunt et dixe
+<lb break="no"/>runt <name>iohannem baptistam</name>
+<lb/>alii autem <name>heliam</name>
+<lb/>alii quia propheta unus 
+<lb rend="indent"/>de prioribus surrexit
+<lb/><milestone unit="v" n="9.20"/>dixit autem illis
+<lb/>uos autem quem me esse 
+<lb rend="indent"/>dicitis
+<lb/>respondens <name>simon</name> <name>petrus</name> 
+<lb rend="indent"/>dixit <name><expan><am>x</am><am rend="supraline">p</am><ex>christu</ex>m</expan></name> <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name>
+<lb rend="outdent"/><milestone unit="v" n="9.21"/><note type="canon">xcv <hi rend="red">ii</hi></note><note type="crossref">Mt clxviii / Mr lxxxiii</note>At ille increpans illos praec<choice><sic>i</sic><corr>e</corr></choice><!-- chk WW -->
+<lb rend="indent"/>pit ne cui dicerent hoc <milestone unit="v" n="9.22"/>dicens
+<lb/>quia oportet <name>filium</name> homi
+<lb break="no"/>nis multa pati
+<lb/>et reprobari a senioribus 
+<lb/>et principibus sacerdotum 
+<lb rend="indent"/>et scribis et occidi 
+<lb/>et tertia die resurgere
+<lb rend="outdent"/><milestone unit="v" n="9.23"/><note type="canon">xcvi <hi rend="red">ii</hi></note><note type="crossref">Mt clxx / Mr lxxxv</note>Dicebat autem ad omnes
+<lb/>si quis uult post me uenire 
+<lb rend="indent"/>abneget se ipsum
+<lb/>et tollat crucem suam 
+<lb rend="indent"/>cotidie et sequatur me
+<lb/><milestone unit="v" n="9.24"/>qui enim uoluerit animam 
+<lb rend="indent"/>suam saluam facere 
+<lb rend="indent"/>perdet illam
+<lb/>nam qui perdiderit animam 
+<lb rend="indent"/>suam propter me 
+<lb rend="indent"/>saluam faciet illam
+<lb/><milestone unit="v" n="9.25"/>quid enim proficit homo 
+<lb rend="indent"/>si lucretur uniuersum 
+<lb rend="indent"/>mundum
+<lb/>se autem ipsum perdat
+<pb n="863v"/>
+<cb n="a"/>
+<lb/>et detrimentum sui faciat
+<lb rend="outdent"/><milestone unit="v" n="9.26"/><note type="canon">xcvii <hi rend="red">ii</hi></note><note type="crossref">Mt xciiii / Mr lxxxvi</note>Nam qui me erubuerit 
+<lb rend="indent"/>et meos sermones
+<lb/>hunc <name>filius</name> hominis erubesc<choice><sic>i</sic><corr>e</corr></choice>t<!-- chk WW -->
+<lb/>cum uenerit in maiestate 
+<lb rend="indent"/>sua et <name>patris</name> 
+<lb/>et <expan>s<ex>an</ex><abbr rend="supraline">c</abbr><ex>t</ex>orum</expan> angelorum
+</p>
+<p>
+<label type="chapter" rend="red supraline" n="37">xxxvii</label>
+<lb/><milestone unit="v" n="9.27"/><note type="canon">xcviii <hi rend="red">ii</hi></note><note type="crossref">Mt clxxii / Mr lxxxvii</note>dico<!-- wonder why this isn't capitalized? chk whether the chapter starts with 'Factum' below  --> autem uobis
+<lb/>uere sunt aliqui hic stantes 
+<lb rend="indent"/>qui non gustabunt mort<expan><abbr rend="supraline">e</abbr><ex>m</ex></expan> 
+<lb/>donec uideant regnum <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name>
+<lb rend="outdent"/><milestone unit="v" n="9.28"/><hi rend="red">Factum</hi> est autem post haec 
+<lb rend="indent"/>uerba fere dies octo
+<lb/>et assumsit<!-- assumpsit S --> <name>petrum</name> et <name>iaco
+<lb break="no"/>bum</name> et <name>iohannen</name><!-- et iohannem et iacobum S; chk -->
+<lb/>et ascendit in montem 
+<lb rend="indent"/>ut oraret
+<lb/><milestone unit="v" n="9.29"/>et factum est dum oraret 
+<lb rend="indent"/>species uultus eius altera
+<lb/>et uestitus eius albus 
+<lb rend="indent"/>refulgens
+<lb/><milestone unit="v" n="9.30"/>et ecce duo uiri loqueban
+<lb break="no"/>tur cum eo<!-- illo S; chk WW -->
+<lb/>erant autem <name>moses</name> et <name>he
+<lb break="no"/>lias</name> <milestone unit="v" n="9.31"/>uisi in maiestate
+<lb/>et dicebant excessum eius 
+<lb/>quem conpleturus erat 
+<lb/>in <name>hierusalem</name>
+<lb/><milestone unit="v" n="9.32"/><name>petrus</name> uero et qui cum 
+<lb rend="indent"/>illo grauati erant somno
+<lb/>et euigilantes uiderunt 
+<lb rend="indent"/>maiestatem eius
+<lb/>et duos uiros qui stabant 
+<lb rend="indent"/>cum illo
+<lb/><milestone unit="v" n="9.33"/>et factum est cum disce
+<lb break="no"/>derent ab illo
+<lb/>ait <name>petrus</name> ad <name><expan>i<am rend="supraline">h</am><ex>esu</ex>m</expan></name> praecep
+<lb break="no"/>tor bonum est nos hic esse
+<lb/>et faciamus tria tabernacula
+<lb/>unum tibi et unum <name>mosi</name> 
+<lb rend="indent"/>et unum <name>heliae</name>
+<lb/>nesciens quid diceret
+<lb/><milestone unit="v" n="9.34"/>haec autem illo loquente
+<lb/>facta est nubes et obumbra
+<lb break="no" rend="right"/>uit eos
+<cb n="b"/>
+<lb/>et timuerunt intrantibus 
+<lb rend="indent"/>illis in nubem
+<lb/><milestone unit="v" n="9.35"/>et uox facta est de nube dicens
+<lb/>hic est <name>filius</name> meus dilectus<!-- electus S; chk --> 
+<lb rend="indent"/>ipsum audite
+<lb/><milestone unit="v" n="9.36"/>et dum fieret uox 
+<lb rend="indent"/>inuentus est <name><expan>i<am rend="supraline">h</am><ex>esu</ex>s</expan></name> solus
+<lb/>et ipsi tacuerunt
+<lb/>et nemini dixerunt in illis 
+<lb rend="indent"/>diebus quicquam ex his 
+<lb rend="indent"/>quae uiderant
+</p>
+<p>
+<label type="chapter" rend="red supraline" n="38">xxxviii</label>
+<lb/><milestone unit="v" n="9.37"/><note type="canon">xcviiii <hi rend="red">ii</hi></note><note type="crossref">Mt clx<unclear>c</unclear>iiii / Mr xvi</note><hi rend="red">F</hi>actum est autem in sequen
+<lb break="no"/>ti die descendentibus illis 
+<lb/>de monte
+<lb/>occurrit illi turba multa
+<lb/><milestone unit="v" n="9.38"/>et ecce uir de turba 
+<lb rend="indent"/>exclamauit dicens
+<lb/>magister obsecro te respice 
+<lb rend="indent"/>in filium meum quia 
+<lb rend="indent"/>unicus est mihi
+<lb/><milestone unit="v" n="9.39"/>et ecce <expan>s<abbr rend="supraline">p</abbr><ex>iritu</ex>s</expan> apprehendit 
+<lb rend="indent"/>illum et subito clamat
+<lb/>et elidit et dissipat eum 
+<lb rend="indent"/>cum spuma et uix discedit 
+<lb rend="indent"/>dilanians eum
+<lb/><milestone unit="v" n="9.40"/>et rogaui discipulos tuos 
+<lb rend="indent"/>ut eicerent illum 
+<lb rend="indent"/>et non potuerunt
+<lb/><milestone unit="v" n="9.41"/>respondens <add place="right">autem</add> <name><expan>i<am rend="supraline">h</am><ex>esu</ex>s</expan></name> dixit
+<lb/>o· generatio infidelis 
+<lb rend="indent"/>et peruersa
+<lb/>usquequo ero apud uos 
+<lb rend="indent"/>et patiar uos
+<lb/>adduc huc filium tuum
+<lb/><milestone unit="v" n="9.42"/>et cum accederet elisit ill<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> 
+<lb rend="indent"/>daemonium et dissipauit
+<lb/><milestone unit="v" n="9.43"/>et increpauit <name><expan>i<am rend="supraline">h</am><ex>esu</ex>s</expan></name> <expan>s<abbr rend="supraline">p</abbr><ex>iritu</ex>m</expan> in
+<lb break="no"/>mundum et sanauit puer<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> 
+<lb/>et reddidit illum patri eius
+<lb rend="outdent"/><milestone unit="v" n="9.44"/><note type="canon">c <hi rend="red">viii</hi></note><note type="crossref">Mt lxxv</note>Stupebant autem omnes 
+<lb rend="indent"/>in magnitudine <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name>
+<lb/><note type="canon">ci <hi rend="red">ii</hi></note><note type="crossref">Mt clxxvi / Mr xciii</note>omnibusque<!-- cap S --> mirantibus 
+<lb rend="indent"/>in omnibus quae faciebat
+</p>
+<p>
+<label type="chapter" rend="red supraline" n="39">xxxix</label>
+<lb/>Dixit ad discipulos suos
+<pb n="864r"/>
+<cb n="a"/>
+<lb/>ponite uos in cordibus uestris 
+<lb rend="indent"/>sermones istos
+<lb/><name>filius</name> enim hominis futuru<choice><sic>s</sic><corr>m</corr></choice><!-- chk --> 
+<lb rend="indent"/>est ut tradatur in manus 
+<lb rend="indent"/>hominum
+<lb/><milestone unit="v" n="9.45"/>at illi ignorabant uerbum 
+<lb rend="indent"/>istud
+<lb/>et erat uelatum ante eos 
+<lb rend="indent"/>ut non sentirent illud<!-- NB these lines are indented further due to hole in parchment, not sense  -->
+<lb/>et timebant interrogare e<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> 
+<lb rend="indent"/>de hoc uerbo
+<lb rend="outdent"/><milestone unit="v" n="9.46"/><note type="canon">cii <hi rend="red">ii</hi></note><note type="crossref">Mt clxxvii<add place="above">i</add> / Mr xcv</note>Intrauit autem cogitatio 
+<lb rend="indent"/>in eos quis eorum maior 
+<lb rend="indent"/>esset
+<lb/><milestone unit="v" n="9.47"/>at <name><expan>i<am rend="supraline">h</am><ex>esu</ex>s</expan></name> uidens cogitationes 
+<lb rend="indent"/>cordis illorum
+<lb/>adprehendens puerum 
+<lb rend="indent"/>statuit eum secus se 
+<lb rend="indent"/><milestone unit="v" n="9.48"/>et ait illis
+<lb/>quicumque susceperit 
+<lb rend="indent"/>puerum istum in nomine 
+<lb rend="indent"/>meo me recipit
+<lb/>et quicumque me recipit
+<lb/>recipit eum qui me misit
+<lb/>nam qui minor est inter 
+<lb rend="indent"/>omnes uos hic maior est
+<lb/><milestone unit="v" n="9.49"/><note type="canon">ciii <hi rend="red">viii</hi></note><note type="crossref">Mt xcvii</note>Respondens autem <name>iohan
+<lb break="no"/>nes</name> dixit
+<lb/>praeceptor uidimus quend<expan><abbr rend="supraline">a</abbr><ex>m</ex></expan> 
+<lb rend="indent"/>in nomine tuo eicientem 
+<lb rend="indent"/>daemonia et prohibuimus e<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> 
+<lb/>quia non sequitur nobiscum
+<lb/><milestone unit="v" n="9.50"/>et ait ad illum <name><expan>i<am rend="supraline">h</am><ex>esu</ex>s</expan></name>
+<lb/>nolite prohibere
+<lb/>qui enim non est aduersum 
+<lb rend="indent"/>uos pro uobis est
+</p>
+<p>
+<label type="chapter" rend="red supraline" n="40">xl</label><!-- does chapter go here? looks like next line, but surely not what is intended … -->
+<lb rend="outdent"/><milestone unit="v" n="9.51"/><note type="canon">ciiii <hi rend="red">x</hi></note>Factum est autem dum com
+<lb break="no"/>plerentur dies assumtio
+<lb break="no"/>nis eius
+<lb/>et ipse faciem suam firmauit 
+<lb rend="indent"/>ut iret <name>hierusalem</name>
+<lb/><milestone unit="v" n="9.52"/>et misit nuntios ante 
+<lb rend="indent"/>conspectum suum
+<lb/>et euntes intrauerunt 
+<cb n="b"/>
+<lb rend="indent"/>in ciuitatem <name>samaritanor<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan></name> 
+<lb rend="indent"/>ut pararent illi
+<lb/><milestone unit="v" n="9.53"/>et non receperunt eum
+<lb/>quia facies eius erat euntis 
+<lb rend="indent"/><name>hierusalem</name>
+<lb/><milestone unit="v" n="9.54"/>cum uidissent <add place="above">autem</add> discipuli eius 
+<lb rend="indent"/><name>iacobus</name> et <name>iohannes</name> dixerunt
+<lb/><name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>e</expan></name> uis dicimus ut ignis 
+<lb rend="indent"/>descendat de caelo 
+<lb rend="indent"/>et consumat illos
+<lb/><milestone unit="v" n="9.55"/>et conuersus increpauit illos
+<lb/>et dixit nescitis cuius
+<lb rend="indent"/><expan>s<abbr rend="supraline">p</abbr><ex>iritu</ex>s</expan> estis
+<lb/><milestone unit="v" n="9.56"/>filius hominis non uenit
+<lb rend="indent"/>animas perdere sed saluare<!-- et dixit … saluare om. S; et dixit] dicens C: good example! -->
+<lb/>et abierunt in aliud castell<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan>
+<lb/><milestone unit="v" n="9.57"/><note type="canon">cv <hi rend="red">v</hi></note><note type="crossref">Mt lxviii</note>Factum est autem ambulan
+<lb break="no"/>tibus illis in uia
+<lb/>dixit quidam ad illum
+<lb rend="indent"/>sequar te quocum<expan>q<am>’</am><ex>ue</ex></expan> ieris
+<lb/><milestone unit="v" n="9.58"/>et ait illi <name><expan>i<am rend="supraline">h</am><ex>esu</ex>s</expan></name>
+<lb/>uulpes foueas habent 
+<lb rend="indent"/>et uolucres caeli nidos
+<lb/><name>filius</name> autem hominis non 
+<lb rend="indent"/>habet ubi caput reclinet
+<lb rend="outdent"/><milestone unit="v" n="9.59"/><note type="canon">cvi <hi rend="red">x</hi></note>Ait autem ad alterum
+<lb rend="indent"/>sequere me
+<lb/>ille autem dixit
+<lb/><name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>e</expan></name> permitte mihi primum 
+<lb rend="indent"/>ire et<!-- om. S --> sepelire patrem me<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan>
+<lb/><milestone unit="v" n="9.60"/>dixitque<!-- ei add. S; chk --> <name><expan>i<am rend="supraline">h</am><ex>esu</ex>s</expan></name> sine ut mortui 
+<lb rend="indent"/>sepeliant mortuos suos
+<lb/>tu autem uade annuntia 
+<lb rend="indent"/>regnum <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name>
+<lb/><milestone unit="v" n="9.61"/><!-- last canon here in S -->et ait illi<!-- alter S; chk --> sequar te <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>e</expan></name>
+<lb/>sed primum permitte mihi 
+<lb rend="indent"/>renuntiare his qui domi sunt
+<lb/><milestone unit="v" n="9.62"/>ait ad illum <name><expan>i<am rend="supraline">h</am><ex>esu</ex>s</expan></name>
+<lb/>nemo mittens manum suam 
+<lb rend="indent"/>in aratrum et aspiciens 
+<lb rend="indent"/>retro aptus est regno <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name>
+</p>
+<p>
+<label type="chapter" rend="red supraline" n="41">xli</label>
+<lb rend="outdent"/><milestone unit="v" n="10.1"/><note type="canon">cvii <hi rend="red">x</hi></note><hi rend="red">Post</hi> haec autem designauit 
+<lb rend="indent"/><name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>s</expan></name> et alios septuaginta duos
+<lb/>et misit illos binos 
+<pb n="864v"/>
+<fw><expan>sec<abbr rend="supraline">un</abbr><ex>dum</ex></expan></fw>
+<cb n="a"/>
+<lb rend="indent"/>ante faciem suam
+<lb/>in omnem ciuitatem et loc<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> 
+<lb rend="indent"/>quo erat ipse uenturus
+<lb/><milestone unit="v" n="10.2"/><!-- next canon here in S -->et dicebat illis
+<lb/><note type="canon">cviii <hi rend="red">v</hi></note><note type="crossref">Mt lxxviii</note>Messis quidem multa 
+<lb rend="indent"/>operarii autem pauci
+<lb/>rogate ergo <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>m</expan></name> messis 
+<lb rend="indent"/>ut mittat operarios 
+<lb rend="indent"/>in messem suam<!-- om. S -->
+<lb rend="outdent"/><milestone unit="v" n="10.3"/><note type="canon">cviiii <hi rend="red">v</hi></note><note type="crossref">Mt <unclear>lxx</unclear>vii</note>Ite ecce ego mitto uos 
+<lb rend="indent"/>sicut agnos inter lupos
+<lb rend="outdent"/><milestone unit="v" n="10.4"/><note type="canon">cx <hi rend="red">ii</hi></note><note type="crossref">Mt lxxxii / Mr liii</note>Nolite portare sacculum 
+<lb/>neque peram 
+<lb/>neque calciamenta
+<lb/>et neminem per uiam 
+<lb rend="indent"/>salutaueritis
+<lb rend="outdent"/><milestone unit="v" n="10.5"/><note type="canon">cxi <hi rend="red">v</hi></note><note type="crossref">Mt lxxxiii<add place="above">i</add></note>In quamcumque domum 
+<lb rend="indent"/>intraueritis
+<lb/>primum dicite pax huic domui
+<lb/><milestone unit="v" n="10.6"/>et si ibi fuerit filius pacis 
+<lb rend="indent"/>requiescet super illam 
+<lb rend="indent"/>pax uestra
+<lb/>sin autem ad uos reuertetur
+<lb/><milestone unit="v" n="10.7"/><note type="canon">cxii <hi rend="red">ii</hi></note><note type="crossref">Mt lxxviii / Mr liiii</note>In eadem autem domo manete
+<lb/>edentes et bibentes 
+<lb rend="indent"/>quae apud illos sunt
+<lb/>dignus enim est operarius 
+<lb rend="indent"/>mercede sua
+<lb/>nolite transire de domo 
+<lb rend="indent"/>in domum
+<lb rend="outdent"/><milestone unit="v" n="10.8"/><note type="canon">cxiii <hi rend="red">x</hi></note>Et in quamcumque ciuitat<expan><abbr rend="supraline">e</abbr><ex>m</ex></expan> 
+<lb rend="indent"/>intraueritis et suscepe
+<lb break="no"/>rint uos
+<lb/>manducate quae apponun
+<lb break="no"/>tur uobis
+<lb/><milestone unit="v" n="10.9"/>et curate infirmos qui in 
+<lb rend="indent"/>illa sunt
+<lb/>et dicite illis appropinqua
+<lb break="no"/>uit in uos regnum <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name>
+<lb/><milestone unit="v" n="10.10"/><note type="canon">cxiiii <hi rend="red">ii</hi></note><note type="crossref">Mt lxxxv / Mr lv</note>In quamcumque ciuitatem 
+<lb rend="indent"/>intraueritis et non rece
+<lb break="no"/>perint uos
+<lb/>exeuntes in plateas eius dicite
+<lb/><milestone unit="v" n="10.11"/>etiam puluerem qui adhesit 
+<cb n="b"/>
+<lb rend="indent"/>nobis de ciuitate uestra 
+<lb rend="indent"/>extergimus in uos
+<lb/>tamen hoc scitote quia 
+<lb rend="indent"/>appropinquauit regnum <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name>
+<lb/><milestone unit="v" n="10.12"/>dico uobis quia <name>sodomis</name> 
+<lb rend="indent"/>in die illa remissius erit 
+<lb rend="indent"/>quam illi ciuitati
+<lb rend="outdent"/><milestone unit="v" n="10.13"/><note type="canon">cxv <hi rend="red">v</hi></note><note type="crossref">Mt cviii</note>Vae tibi <name>corazain</name>
+<lb/>uae tibi <name>bethsaida</name>
+<lb/>quia si in <name>tyro</name> et <name>sidone</name> 
+<lb rend="indent"/>factae fuissent uirtutes 
+<lb rend="indent"/>quae in uobis factae sunt
+<lb/>olim in cilicio et cinere 
+<lb rend="indent"/>sedentes paeniterent
+<lb/><milestone unit="v" n="10.14"/>uerumtamen <name>tyro</name> et <name>sidoni</name> 
+<lb rend="indent"/>remissius erit in iudicio 
+<lb rend="indent"/>quam uobis
+<lb/><milestone unit="v" n="10.15"/>et tu <name>capharnaum</name> usque 
+<lb rend="indent"/>in caelum exaltata 
+<lb/>usque ad infernum demer
+<lb break="no"/>geris
+<lb rend="outdent"/><milestone unit="v" n="10.16"/><note type="canon">cxvi <hi rend="red">i</hi></note><note type="crossref">Mt xcviii / Mr xcvi / I cxi xl</note>Qui uos audit me audit
+<lb/>et qui uos spernit me spernit
+<lb/>qui autem me spernit 
+<lb rend="indent"/>spernit eum qui me misit
+<lb rend="outdent"/><milestone unit="v" n="10.17"/><note type="canon">cxvii <hi rend="red">x</hi></note>Reuersi sunt autem septua
+<lb break="no"/>ginta duo cum gaudio dicentes
+<lb/><name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>e</expan></name> etiam daemonia subici
+<lb break="no"/>untur nobis in nomine tuo
+<lb/><milestone unit="v" n="10.18"/>et ait illis uidebam <name>satanan</name> 
+<lb rend="indent"/>sicut fulgur de caelo 
+<lb rend="indent"/>cadentem
+<lb/><milestone unit="v" n="10.19"/>ecce dedi uobis potestatem 
+<lb rend="indent"/>calcandi supra serpentes 
+<lb rend="indent"/>et scorpiones
+<lb/>et supra omnem uirtutem 
+<lb rend="indent"/>inimici
+<lb/>et nihil uobis nocebit
+<lb/><milestone unit="v" n="10.20"/>uerumtamen in hoc nolite 
+<lb rend="indent"/>gaudere quia <expan>s<abbr rend="supraline">p</abbr><ex>iritu</ex>s</expan> uobis 
+<lb rend="indent"/>subiciuntur
+<lb/>gaudete autem quod 
+<lb rend="indent"/>nomina uestra scripta 
+<lb rend="indent"/>sunt in caelis
+</p>
+</body>
+</text>
+</TEI>
