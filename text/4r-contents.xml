@@ -5,8 +5,7 @@ type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <teiHeader>
 <fileDesc>
 <titleStmt>
-<title xml:lang="la">Si diuino ut dignum est</title>
-<author>Cassiodorus</author>
+<title>Contents</title>
 </titleStmt>
 <publicationStmt>
 <authority>Digital Latin Library</authority>
@@ -70,6 +69,23 @@ type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <biblScope unit="volume">41</biblScope>
 <biblScope unit="page">101-144</biblScope>
 <date>2012</date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct type="book" xml:id="r" corresp="http://zotero.org/users/254032/items/SV9ECTS4">
+<monogr>
+<title level="m">Biblia Sacra iuxta latinam vulgatam versionem</title>
+<editor>
+<orgName>Pontifical Abbey of St Jerome-in-the-City</orgName>
+</editor>
+<editor>
+<forename>Henri</forename>
+<surname>Quentin</surname>
+</editor>
+<imprint>
+<pubPlace>Rome</pubPlace>
+<publisher>Libreria Editrice Vaticana</publisher>
+<date>1926–1995</date>
 </imprint>
 </monogr>
 </biblStruct>
@@ -148,7 +164,7 @@ type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <lb break="no"/>tur impletum in illa 
 <lb/>palmarum quantita
 <lb break="no"/>te forsitan praesaga
-<lb break="no"/>tu<choice><sic>s</sic><corr source="#Newton2012">m</corr></choice> quas in mansione 
+<lb break="no"/>tu<choice><sic>s</sic><corr source="#Newton2012">m</corr></choice><!-- chk Quentin 1:xxi–xxii --> quas in mansione 
 <lb/><name>helim</name> inuenit popu
 <lb break="no"/>lus <name>hebraeorum</name>. 
 <lb/>nam licet haec calcu
@@ -170,32 +186,52 @@ type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <lb break="no"/>et noui testamenti libri <expan>n<ex>umeri</ex></expan> lxxi
 </head>
 <list>
-<lb/><item><title>Genesis</title></item> <item><title>exodus</title></item>
-<lb/><item><title>leuiticus</title></item> <item><title>numeri</title></item>
+<lb/><item><title>Genesis</title></item>
+<item><title>exodus</title></item>
+<lb/><item><title>leuiticus</title></item>
+<item><title>numeri</title></item>
 <lb/><item><title>deuteronomium</title></item>
-<lb/><item><name>iosue</name></item> <item><title>iudicum</title></item>
+<lb/><item><name>iosue</name></item>
+<item><title>iudicum</title></item>
 <lb/><item><name>ruth</name></item>
 </list>
 <list>
-<lb/><item><name>Samuhel</name></item> <item><name>malachim</name></item>
+<lb/><item><name>Samuhel</name></item>
+<item><name>malachim</name></item>
 <lb/><item><title>paralypomenon</title></item>
 <lb/><item><title>li<expan><abbr rend="stroke">b</abbr><ex>er</ex></expan> psalmorum</title></item>
-<lb/><item><title>prouerbia</title></item> <item><title>ecclesi
-<lb break="no"/>astes</title></item> <item><title>cantica
-<lb/>canticorum</title></item> <item><title>li<expan><abbr rend="stroke">b</abbr><ex>er</ex></expan>
-<lb/>sapientiae</title></item> <item><title>ecclesi
+<lb/><item><title>prouerbia</title></item>
+<item><title>ecclesi
+<lb break="no"/>astes</title></item>
+<item><title>cantica
+<lb/>canticorum</title></item>
+<item><title>li<expan><abbr rend="stroke">b</abbr><ex>er</ex></expan>
+<lb/>sapientiae</title></item>
+<item><title>ecclesi
 <lb break="no"/>asticum</title></item><!-- correction here to centre the line -->
 </list>
 <list>
-<lb/><item><name>Esias</name></item> <item><name>hieremias</name></item>
-<lb/><item><name>hiezechiel</name></item> <item><name>danihel</name></item>
-<lb/><item><name>osee</name></item> <item><name>iohel</name></item> <item><name>amos</name></item>
-<lb/><item><name>abdias</name></item> <item><name>ionas</name></item> <item><name>michas</name></item>
-<lb/><item><name>naum</name></item> <item><name><name>habacuc</name></name></item>
-<lb/><item><name>soffonias</name></item> <item><name>aggeus</name></item>
-<lb/><item><name>zacharias</name></item> <item><name>malachias</name></item>
-<lb/><item><name>iob</name></item> <item><name>thobias</name></item> <item><name>iudith</name></item>
-<lb/><item><name>hester</name></item> <item><name>ezras</name></item>
+<lb/><item><name>Esias</name></item>
+<item><name>hieremias</name></item>
+<lb/><item><name>hiezechiel</name></item>
+<item><name>danihel</name></item>
+<lb/><item><name>osee</name></item>
+<item><name>iohel</name></item>
+<item><name>amos</name></item>
+<lb/><item><name>abdias</name></item>
+<item><name>ionas</name></item>
+<item><name>michas</name></item>
+<lb/><item><name>naum</name></item>
+<item><name><name>habacuc</name></name></item>
+<lb/><item><name>soffonias</name></item>
+<item><name>aggeus</name></item>
+<lb/><item><name>zacharias</name></item>
+<item><name>malachias</name></item>
+<lb/><item><name>iob</name></item>
+<item><name>thobias</name></item>
+<item><name>iudith</name></item>
+<lb/><item><name>hester</name></item>
+<item><name>ezras</name></item>
 <lb/><item><name>machabeo
 <lb break="no"/>rum</name>
 <lb/>li<expan><abbr rend="stroke">b</abbr><ex>ri</ex></expan>
@@ -215,13 +251,14 @@ type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <list>
 <lb/><head>Epistulae <name>pauli</name>
 <lb/><expan>apost<ex>oli</ex></expan></head>
-<lb/><item><title>ad <name>romanos</name> <num>i</num></title></item>
-<lb/><item><title>ad <name>corintheos</name> <num>ii</num></title></item>
-<lb/><item><title>ad <name>galatias</name> <num>i</num></title></item>
-<lb/><item><title>ad <name>ephesios</name></title> <num>i</num></item>
-<lb/><item><title>ad <name>colosenses</name></title> <num>i</num></item>
-<lb/><item><title>ad <name><expan>thessalon<ex>icenses</ex></expan></name></title> <num>ii</num></item>
-<lb/><item><title>ad <name>timotheum</name></title> <num>ii</num></item>
+<lb/><item><title>ad <name>romanos</name> <space n="4" unit="character"/><num>i</num></title></item>
+<lb/><item><title>ad <name>corintheos</name> <space n="4" unit="character"/><num>ii</num></title></item>
+<lb/><item><title>ad <name>galatias</name> <space n="4" unit="character"/><num>i</num></title></item>
+<lb/><item><title>ad <name>ephesios</name></title> <space n="4" unit="character"/><num>i</num></item>
+<lb/><item><title>ad <name><expan>philippens<ex>es</ex></expan></name> <space n="4" unit="character"/><num>i</num></title></item>
+<lb/><item><title>ad <name>colosenses</name></title> <space n="4" unit="character"/><num>i</num></item>
+<lb/><item><title>ad <name><expan>thessalon<ex>icenses</ex></expan></name></title> <space n="4" unit="character"/><num>ii</num></item>
+<lb/><item><title>ad <name>timotheum</name></title> <space n="4" unit="character"/><num>ii</num></item>
 <lb/><item><title>ad <name>titum</name></title> <space n="4" unit="character"/><num>i</num></item>
 <lb/><item><title>ad <name>philimon</name></title> <space n="4" unit="character"/><num>i</num></item>
 <lb/><item><title>ad <name>hebreos</name></title> <space n="4" unit="character"/><num>i</num></item>
@@ -230,7 +267,7 @@ type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <lb/><item><name>petri</name> <space n="4" unit="character"/><num>i</num></item>
 <lb/><item><name>iohannis</name> <space n="4" unit="character"/><num>iii</num></item>
 <lb/><item><name>iudae</name> <space n="4" unit="character"/><num>i</num></item>
-<lb/><item><title>apocalypsis <name><expan>iohan<ex>ni</ex></expan></name></title></item>
+<lb/><item><title>apocalypsis <name><expan>iohan<ex>nis</ex></expan></name></title></item>
 </list>
 <div type="textpart" subtype="finalRubric">
 <lb/><p>Amen</p>
@@ -238,9 +275,10 @@ type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <div type="textpart">
 <addSpan spanTo="#gazis"/>
 <lg>
-<l><name>Hieronyme</name> interpres uariis doctissime linguis</l>
-<l>Te <name>bethlem</name> celebrat te totus personat orbis</l>
-<l>Te quoque nostra tuis promet bibliotheca libris</l>
+<l xml:id="i1"><name>Hieronyme</name> interpres uariis doctissime linguis</l>
+<l xml:id="i2">Te <name>bethlem</name> celebrat te totus personat orbis</l>
+<l xml:id="i3">Te quoque nostra tuis promet bibliotheca libris</l>
+<note type="fontium" target="#i1 #i2 #i3"><bibl><author>Isidore</author> <title>Carmina</title> <biblScope unit="part">8</biblScope> (ed. J.M. Sánchez Martín, CCSL 113A, p. 219)</bibl></note>
 <l>Qua noua cum priscis condis donaria gazis</l>
 </lg>
 <anchor xml:id="gazis"/>
@@ -248,14 +286,313 @@ type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <pb n="5r"/>
 <div type="textpart">
 <lg met="elegiacs">
-<lb/><l met="hexameter">Codicibus sacris hostili clade perustis</l>
+<lb/><l>Codicibus sacris hostili clade perustis</l>
 <lb/><l rend="indent">Ezra deo feruens hoc reparauit opus</l>
 </lg>
 </div>
+<pb n="6r"/>
 <div type="textpart">
-<head>Auctoritas diuina continetur in testamenta duo id est in uetus et in nouum</head>
-<p>In lege Genesis Exodum Leuiticum Numerorum Deute ronomium In prophetis Iesu Naue Iudicum et Ruth Samuhel Ma lachian Esaias Hieremias Hi ezecihel Liber duodecim prophetarum In agiographis lob Dauid Salom Prouerbia Ecclesiastes Cantica Canticorum Danihel Uerba dierum id est Paralip Esras Hester In Euangeliis Matheus Marcus Lucas Iohannes Epist Apost Pauli Apostoli xiiii Petri Apost ii Iohann Apost iii Iacobi Ap i Iudae Ap i Act Apost Actus Apostolorum Liber uuus Apocalypsi Apocalypsin Liber unus </p>
-<p>Sic fiunt ueteris nouique testamenti secundum Hieronymuni libri quadraginta nouem quibus adde dominum Christum de quo et per quern ista conscripta sunt fit quinquagenarius numerus qui ad instar iobelei anni debita re mittit et paenitentium peccata dissoluit </p>
+<list>
+<head>Auctoritas diuina continetur in testamenta duo id est</head>
+<item>in uetus
+<list>
+<item>in lege
+<list>
+<item><title>genesi</title></item>
+<item><title>exodum</title></item>
+<item><title>leuiticum</title></item>
+<item><title>numerorum</title></item>
+<item><title>deuteronomium</title></item>
+</list>
+</item>
+<item>in prophetis
+<list>
+<item><title><name><expan>i<am rend="supraline">h</am><ex>es</ex>u</expan></name> <name>naue</name></title></item>
+<item><name>iudicum</name> et <name>ruth</name></item>
+<item><name>samuhel</name></item>
+<item><name>malachian</name></item>
+<item><name>esaias</name></item>
+<item><name>hieremias</name></item>
+<item><name>hiezecihel</name></item>
+<item><title>liber duodecim prophetarum</title></item>
+</list>
+</item>
+<item>in agiographis
+<list>
+<item><name>iob</name></item>
+<item><name>dauid</name></item>
+<item><title><name><expan>salom<ex>onis</ex></expan></name> prouerbia</title></item>
+<item><title>ecclesiastes</title></item>
+<item><title>cantica canticorum</title></item>
+<item><name>danihel</name></item>
+<item><title>uerba dierum id est <expan>paralip<ex>omenon</ex></expan></title></item>
+<item><name>ezras</name></item>
+<item><name>hester</name></item>
+</list>
+</item>
+</list>
+</item>
+<item>et in nouum
+<list>
+<item>in euangeliis
+<list>
+<item><name>matheus</name></item>
+<item><name>marcus</name></item>
+<item><name>lucas</name></item>
+<item><name>iohannes</name></item>
+</list>
+</item>
+<item><expan>epist<ex>ulis</ex></expan> <expan>apost<ex>olorum</ex></expan>
+<list>
+<item><name>pauli apostoli</name> <num>xiiii</num></item>
+<item><name>petri <expan>apost<ex>oli</ex></expan></name> <num>ii</num></item>
+<item><name><expan>iohann<ex>is</ex></expan> <expan>apost<ex>oli</ex></expan></name> <num>iii</num></item>
+<item><name>iacobi <expan>ap<ex>ostoli</ex></expan></name> <num>i</num></item>
+<item><name>iudae <expan>ap<ex>ostoli</ex></expan></name> <num>i</num></item>
+</list>
+</item>
+<item><expan>act<ex>is</ex></expan> <expan>apost<ex>olorum</ex></expan>
+<list>
+<item><title>actus apostolorum liber unus</title></item>
+</list>
+</item>
+<item>apocalypsi
+<list>
+<item><title>apocalypsin liber unus</title></item>
+</list>
+</item> 
+</list>
+</item>
+</list>
+<p>
+<lb/>Sic fiunt ueteris nouique testamenti secundum <name>hieronymum</name> libri 
+<lb/>quadraginta nouem quibus adde <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>m</expan> <expan><am>x</am><am rend="supraline">p</am><ex>christu</ex>m</expan></name> de quo et per quem ista con
+<lb break="no"/>scripta sunt fit quinquagenarius numerus qui ad instar iobelei anni 
+<lb/>debita remittit et paenitentium peccata dissoluit ☧</p>
+</div>
+<div type="textpart">
+<list>
+<head>Scriptura diuina diuiditur in testamenta duo id est</head>
+<item>in uetus
+<list>
+<item><title>genesi</title></item>
+<item><title>exodum</title></item>
+<item><title>leuiticum</title></item>
+<item><title>numerorum</title></item>
+<item><title>deuteronomium</title></item>
+<item><title><name>iesu</name> <name>naue</name></title></item>
+<item><title>iudicum</title></item>
+<item><title>ruth</title></item>
+<item><title>regum libri <num>iiii</num></title></item>
+<item><title>paralipomenon libri <num>ii</num></title></item>
+<item><title>psalmorum <expan>lib<ex>ri</ex></expan> <num>v</num></title></item>
+<item><name><expan>salom<ex>onis</ex></expan></name> <expan>lib<ex>ri</ex></expan> <num>v</num> id est
+<list>
+<item><title>prouerbia</title></item>
+<item><title>sapientia</title></item>
+<item><title>ecclesiastic<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan></title></item>
+<item><title>ecclesiastes</title></item>
+<item><title>cantica canticorum</title></item>
+</list>
+</item>
+<item>prophetae id est
+<list>
+<item><title>esaias</title></item>
+<item><title>hieremias</title></item>
+<item><title>ezecihel</title></item>
+<item><title>danihel</title></item>
+<item><title>osee</title></item>
+<item><title>amos</title></item>
+<item><title>micheas</title></item>
+<item><title>iahel</title></item>
+<item><title>abdias</title></item>
+<item><title>ionas</title></item>
+<item><title>naum</title></item>
+<item><title>ambac<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan></title></item>
+<item><title>sofonias</title></item>
+<item><title>aggeus</title></item>
+<item><title>zacharias</title></item>
+<item><title>malachim</title> qui et angelus</item>
+</list>
+</item>
+<item>
+<list>
+<item><title>iob</title></item>
+<item><title>tobis</title></item>
+<item><title>hester</title></item>
+<item><title>iudith</title></item>
+<item><title>esdrae libri duo</title></item>
+<item><title>machabeorum libri duo</title></item>
+</list>
+</item>
+</list>
+</item>
+<item>et in nouum
+<list>
+<item>euangelia <num>iiii</num> id est
+<list>
+<item><title>matheus</title></item>
+<item><title>marcus</title></item>
+<item><title>lucas</title></item>
+<item><title>iohannes</title></item>
+</list>
+</item>
+<item><title>actus apostolorum</title></item>
+<item><title><expan>epist<ex>ula</ex></expan> <name>petri</name> ad gentes</title></item>
+<item><title><name>iacobi</name></title></item>
+<item><title><name>iohannis</name> ad <name>parthos</name></title></item>
+<item><expan>epist<ex>ulae</ex></expan> <name>pauli <expan>apost<ex>oli</ex></expan></name> id est
+<list>
+<item><title>ad <name><expan>rom<ex>anos</ex></expan></name> <num>i</num></title></item>
+<item><title>ad <name><expan>corint<ex>heos</ex></expan></name> <num>ii</num></title></item>
+<item><title>ad <name>galat<supplied reason="omitted">i</supplied>as</name> <num>i</num></title></item>
+<item><title>ad <name><expan>philipp<ex>enses</ex></expan></name> <num>i</num></title></item>
+<item><title>ad <name><expan>colos<ex>enses</ex></expan></name> <num>i</num></title></item>
+<item><title>ad <name>ephesios</name> <num>i</num></title></item>
+<item><title>ad <name>thessalonicenses</name> <num>ii</num></title></item>
+<item><title>ad <name>timotheum</name> <num>ii</num></title></item>
+<item><title>ad <name>titum</name> <num>i</num></title></item>
+<item><title>ad <name>philemonem</name> <num>i</num></title></item>
+</list>
+</item>
+<item><title>apocalypsim <name>iohannis euangelistae</name></title></item>
+</list>
+</item>
+</list>
+<p>
+<lb/>Sic fiunt ueteris nouique testamenti sicut diuidit <expan>s<ex>an</ex><abbr rend="supraline">c</abbr><ex>tu</ex>s</expan> <name>hilar<del rend="erased">i</del>us</name> ro
+<lb break="no"/>manae urbis antistes et <name>epiphanius cyprius</name> quem latino feci
+<lb break="no"/>mus sermone transferri libri <num>lxx</num> in illo palmarum nu
+<lb break="no"/>merum fortasse praesagati quas in mansione <name>helim</name> inue
+<lb break="no"/>nit populus <name>hebreorum</name>.
+</p>
+</div>
+<pb n="7v"/>
+<div type="textpart">
+<p>
+<lb/>Manifestissi
+<lb break="no"/>ma est <title>genesis</title> in 
+<lb/>qua de creatura mun
+<lb break="no"/>di de exordio huma
+<lb break="no"/>ni generis et gente 
+<lb/>us<expan>q<am>’</am><ex>ue</ex></expan> ad <placeName>aegypt<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan></placeName> scri
+<lb break="no"/>bitur <name><expan>hebr<ex>eorum</ex></expan></name>
+</p>
+<p>
+<lb/>Patet <title>exo
+<lb break="no"/>dus</title> cum decem 
+<lb/>plagis decalogo 
+<lb/>cum mysticis scri
+<lb break="no"/>pturis diuinis<expan>q<am>’</am><ex>ue</ex></expan> 
+<lb/>praeceptis
+</p>
+<p>
+<lb/>In promptu est <title>leuiticus</title> <expan>lib<ex>er</ex></expan> 
+<lb/>in quo singula sacri
+<lb break="no"/>ficia et uestes <name>aaron</name> 
+<lb/>et totus ordo <title>leui
+<lb break="no"/>ticus</title> spirant cae
+<lb break="no"/>lestia sacram
+</p>
+<p>
+<lb/><title>Numeri</title> ue
+<lb break="no"/>ro nonne totius 
+<lb/>arithmeticae et 
+<lb/>mensura terrae et 
+<lb/><num>xl duarum</num> per he
+<lb break="no"/>remum <expan>mansion<ex>em</ex></expan> 
+<lb/>mysteria continent</p>
+<p>
+<lb/>Deuterono
+<lb break="no"/>mium quoque 
+<lb/>secunda lex et eu
+<lb break="no"/>angelicae legis prae
+<lb break="no"/>figuratio nonne sic ea 
+<lb/>habet quae propria 
+<lb/>sunt ut tamen no
+<lb break="no"/>ua sint omnia de 
+<lb/>ueteri<expan>b<am>’</am><ex>us</ex></expan></p> 
+</div>
+<pb n="8r"/>
+<div type="textpart">
+<p><add place="inline">
+<lb/>Eloquium <expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan> quaecum<expan>q<am>’</am><ex>ue</ex></expan> uolumina pandunt 
+<lb/><name><expan>s<abbr rend="supraline">p</abbr><ex>iritu</ex>s</expan> hoc sancto</name> fudit ab ore <expan>d<ex>eu</ex><abbr rend="supraline">s</abbr></expan></add>
+</p>
+<list>
+<head>Scriptura sancta diuiditur</head>
+<item>in uetus
+<list>
+<item>in historiam libri <expan>n<ex>umeri</ex></expan> <num>xxii</num> id est
+<list>
+<item><name>mosi</name> <expan>lib<ex>ri</ex></expan> <num>v</num></item>
+<item><name><expan>i<am rend="supraline">h</am><ex>es</ex>u</expan> <name>naue</name></name> <expan>lib<ex>er</ex></expan> i</item>
+<item><title><expan>iudic<ex>ium</ex></expan> <expan>lib<ex>ri</ex></expan></title> i</item>
+<item><name>ruth</name> <expan>lib<ex>er</ex></expan> i</item>
+<item><title><expan>reg<ex>um</ex></expan></title> <expan>lib<ex>ri</ex></expan> iiii</item>
+<item><title><expan>paral<ex>ipomenon</ex></expan></title> <expan>lib<ex>ri</ex></expan> ii</item>
+<item><name>iob</name> <expan>lib<ex>er</ex></expan> i</item>
+<item><name>tobi</name> <expan>lib<ex>er</ex></expan> i</item>
+<item><name>hester</name> <expan>lib<ex>er</ex></expan> i</item>
+<item><name>iudith</name> <expan>lib<ex>er</ex></expan> i</item>
+<item><name>esdrae</name> <expan>lib<ex>ri</ex></expan> ii</item>
+<item><name><expan>machabeor<ex>um</ex></expan></name> <expan>lib<ex>ri</ex></expan> ii</item>
+</list>
+</item>
+<item>in prophetiam libri <expan>n<ex>umeri</ex></expan> <num>xxii</num> id est
+<list>
+<item><name>dauid</name> <expan>psalm<ex>i</ex></expan> <expan>lib<ex>er</ex></expan> i</item>
+<item><name><expan>sal<ex>omonis</ex></expan></name> <expan>lib<ex>ri</ex></expan> iii</item>
+<item><name>iesu filii <name>sirach</name></name> <expan>lib<ex>ri</ex></expan> ii</item>
+<item>prophetarum id est <name>osee</name> <name>iohel</name> <name>amos</name> <name>abdiae</name> <name>ionae</name> <name>micheae</name> <name>naum</name> <name>habacuc</name> <name><expan>sofon<ex>iae</ex></expan></name> <name><expan>zach<ex>ariae</ex></expan></name> <name><expan>agg<ex>ei</ex></expan></name> <name>mal<ex>achiae</ex></name> <name>esaiae</name> <name><expan>hier<ex>emiae</ex></expan></name> <name><expan>dan<ex>ihelis</ex></expan></name> et <name><expan>hez<ex>ecihelis</ex></expan></name> <expan>lib<ex>ri</ex></expan> <expan>n<ex>umeri</ex></expan> <num>xvi</num></item>
+</list>
+</item>
+</list>
+</item>
+<item>et in nouum
+<list>
+<item>in euangelia quattuor
+<list>
+<item>secundum <name>matthe<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan></name></item>
+<item>secund<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> <name>marc<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan></name></item>
+<item><expan>secund<ex>um</ex></expan> <name>luc<expan><abbr rend="supraline">a</abbr><ex>m</ex></expan></name></item>
+<item><expan>secun<ex>dum</ex></expan> <name><expan>ioh<ex>annem</ex></expan></name></item>
+</list>
+</item>
+<item>in epistolas apostolorum <num>xxi</num> id est
+<list>
+<item><name>pauli <expan>apost<ex>oli</ex></expan></name>
+<list>
+<item>ad <name><expan>rom<ex>anos</ex></expan></name> <num>i</num></item>
+<item>ad <name><expan>cor<ex>intheos</ex></expan></name> <num>ii</num></item>
+<item>ad <name><expan>gal<ex>atias</ex></expan></name> <num>i</num></item>
+<item>ad <name><expan>efes<ex>ios</ex></expan></name> <num>i</num></item>
+<item>ad <name><expan>phil<ex>ippenses</ex></expan></name> <num>i</num></item>
+<item>ad <name><expan>thessal<ex>onicenses</ex></expan></name> <num>ii</num></item>
+<item>ad <name><expan>col<ex>osenses</ex></expan></name> <num>i</num></item>
+<item>ad <name><expan>tim<ex>otheum</ex></expan></name> <num>ii</num></item>
+<item>ad <name><expan>tit<ex>um</ex></expan></name> <num>i</num></item>
+<item>ad <name><expan>fil<ex></ex>imon</expan></name> <num>i</num></item>
+<item>ad <name><expan>heb<ex>reos</ex></expan></name> <num>i</num></item>
+</list>
+</item>
+<item><name>petri</name> duae</item>
+<item><name><expan>ioh<ex>annis</ex></expan></name> <num>iii</num></item>
+<item><name>iudae</name> <num>i</num></item>
+<item><name><expan>iac<ex>obi</ex></expan></name> <num>i</num></item>
+</list>
+</item>
+<item>in actus apostolor<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> <expan>lib<ex>er</ex></expan> <num>i</num></item>
+<item>in apocalypsin <expan>iohan<ex>nis</ex></expan> <expan>lib<ex>er</ex></expan> <num>i</num></item>
+</list>
+</item>
+</list>
+<p>
+<lb/>Sic fiunt ueteris noui<expan>q<am>’</am><ex>ue</ex></expan> testamenti sicut pater <name>augustinus</name> in libris <title>de doctrina 
+<lb/><expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>i</expan>ana</title> complexus est simul libri <expan>n<ex>umeri</ex></expan> lxxi<del rend="erased">i</del> qui<expan>b<am>’</am><ex>us</ex></expan> adde unitatem diuinam 
+<lb/>per quam ista completa sunt <!-- note the extra space here: they seem to know it's a quotation? Cassiodorus, Institutiones 1.13.2 --><quote>fit totius librae competens et gloriosa per
+<lb break="no"/>fectio</quote><reg>.</reg> ipsa est enim rerum conditrix et uitalis omnium plenitudo uirtut<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan>
+</p>
 </div>
 </div>
 </body>
