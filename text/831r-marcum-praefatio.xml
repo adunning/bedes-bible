@@ -82,7 +82,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <text xml:lang="la">
 <body>
 <!--beginning 831ra -->
-<head rend="red rustic-caps"><expan>Inc<ex>i</ex>p<am>’</am><ex>it</ex></expan> praefatio</head>
+<head rend="red rustic-caps"><expan>Inc<ex>i</ex>p<am>·</am><ex>it</ex></expan> praefatio</head>
 <p rend="prose">
 <lb/><name><hi rend="enlarged uncial red">M</hi><hi rend="red">arcus</hi></name> euangelista <expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan> et<reg> </reg><name>petri</name> in 
 <lb/>baptismate filius at<expan>q<am>·</am><ex>ue</ex></expan> in diuino ser

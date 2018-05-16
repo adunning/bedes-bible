@@ -131,7 +131,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb break="no"/>ant ueritate decernam.
 <lb/>Pius labor sed periculosa prae
 <lb break="no"/>sumptio<space unit="character" n="1"/> iudicare de<reg> </reg>ceteris <del rend="strikethrough">ips<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan></del>
-<lb/>ipsum ab<reg> </reg>omni<expan>b<am>’</am><ex>us</ex></expan> iudicandum <unclear>·</unclear>
+<lb/>ipsum ab<reg> </reg>omni<expan>b<am>·</am><ex>us</ex></expan> iudicandum <unclear>·</unclear>
 <lb/>senis mutare linguam et<reg> </reg>can<choice><orig>i</orig><reg>e</reg></choice>
 <lb break="no"/>scentem mundum ad initia re
 <lb break="no"/>trahere paruulorum. Quis en<expan><abbr rend="supraline">i</abbr><ex>m</ex></expan> 
@@ -142,7 +142,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb/>lectitat non<reg> </reg>statim erumpat 
 <lb/>in<reg> </reg>uocem. me falsarium me cla
 <lb break="no"/>mans esse sacrilegum qui<reg> </reg>aude
-<lb break="no"/>am aliquid in<reg> </reg>ueteri<expan>b<am>’</am><ex>us</ex></expan> libris ad
+<lb break="no"/>am aliquid in<reg> </reg>ueteri<expan>b<am>·</am><ex>us</ex></expan> libris ad
 <lb break="no"/>dere mutare corrigere.
 <lb/>Aduersum quam inuidiam du
 <lb break="no"/>plex causa me consolatur. quod 
@@ -154,17 +154,17 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb/>fides est adhibenda respondeant 
 <lb/>quibus. tot sunt p<reg>a</reg>ene 
 <lb/>quot codices. sin autem ueritas 
-<lb/>est quaerenda de pluri<expan>b<am>’</am><ex>us</ex></expan> cur 
+<lb/>est quaerenda de pluri<expan>b<am>·</am><ex>us</ex></expan> cur 
 <lb/>non ad gr<reg>a</reg>ecam originem reuer
 <lb break="no"/>tentes ea quae uel a<reg> </reg>uitiosis in
-<lb break="no"/>terpreti<expan>b<am>’</am><ex>us</ex></expan> male edita uel a<reg> </reg>prae
-<lb break="no"/>sum<reg>p</reg>tori<expan>b<am>’</am><ex>us</ex></expan> imperitis emendata 
+<lb break="no"/>terpreti<expan>b<am>·</am><ex>us</ex></expan> male edita uel a<reg> </reg>prae
+<lb break="no"/>sum<reg>p</reg>tori<expan>b<am>·</am><ex>us</ex></expan> imperitis emendata 
 <lb/>peruersius uel a<reg> </reg>librariis dor
-<lb break="no"/>mitanti<expan>b<am>’</am><ex>us</ex></expan> aut addita sunt aut 
+<lb break="no"/>mitanti<expan>b<am>·</am><ex>us</ex></expan> aut addita sunt aut 
 <lb/>mutata corrigimus. Neque ue
 <lb break="no"/>ro ego de ueteri disputo testa
 <lb break="no"/>mento quod a septuaginta se
-<lb break="no"/>niori<expan>b<am>’</am><ex>us</ex></expan> in graecam linguam 
+<lb break="no"/>niori<expan>b<am>·</am><ex>us</ex></expan> in graecam linguam 
 <cb n="b"/>
 <lb/>uersum tertio gradu ad nos us<expan>q<am>;</am><ex>ue</ex></expan> 
 <lb/>peruenit. non quaero quid <name>aqui
@@ -215,7 +215,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb/>in<reg> </reg>euangeliis uel eadem uel uicina 
 <lb/>uel sola sint eorum distinctione 
 <lb/>cognoscat.<space unit="character" n="2"/> Magnus siquidem 
-<lb/>hic in<reg> </reg>nostris codici<expan>b<am>’</am><ex>us</ex></expan> error inole
+<lb/>hic in<reg> </reg>nostris codici<expan>b<am>·</am><ex>us</ex></expan> error inole
 <lb break="no"/>uit dum quod in eadem re alius 
 <lb/>euangelista plus dixit in<reg> </reg>alio 
 <lb/>quia minus putauerint addide
@@ -265,7 +265,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb/>scire uolueris cuius canonis<reg> </reg>sit. 
 <lb/>statim ex subiecto numero 
 <lb/>doceberis. et<reg> </reg>recurrens ad prin
-<lb break="no"/>cipia in qui<expan>b<am>’</am><ex>us</ex></expan> canonum est distinc
+<lb break="no"/>cipia in qui<expan>b<am>·</am><ex>us</ex></expan> canonum est distinc
 <lb break="no"/>ta congeries· eodem<surplus> </surplus>que statim 
 <lb/>canone ex<reg> </reg>titulo frontis inuen
 <lb break="no"/>to illum quem quaerebas nume
