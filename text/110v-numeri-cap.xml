@@ -1,0 +1,212 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng"
+type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title xml:lang="la">Capitula</title>
+</titleStmt>
+<publicationStmt>
+<authority>Digital Latin Library</authority>
+<availability>
+<licence target="https://creativecommons.org/licences/by-sa/4.0/">Provided under a Creative Commons Attribution-ShareAlike 4.0 International Licence.</licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<settlement>Florence</settlement>
+<repository>Biblioteca Medicea Laurenziana</repository>
+<collection>Amiatino</collection>
+<idno>1</idno>
+<msName>Codex Amiatinus</msName>
+</msIdentifier>
+</msDesc>
+<listBibl>
+<biblStruct type="book" xml:id="Heyse1873" corresp="http://zotero.org/users/254032/items/69EHSXJZ">
+<monogr>
+<title level="m">Biblia sacra latina Veteris Testamenti Hieronymo interprete ex antiquissima auctoriatate in stichos descripta: Vulgatam lectionem ex editione Clementina principe anni MDXCII et Romana ultima anni MDCCCLXI repetitam testimonium comitatur Codicis Amiatini Latinorum omnium antiquissimi</title>
+<editor>
+<forename>Theodor</forename>
+<surname>Heyse</surname>
+</editor>
+<editor>
+<forename>Constantinus von</forename>
+<surname>Tischendorf</surname>
+</editor>
+<imprint>
+<pubPlace>Leipzig</pubPlace>
+<publisher>Brockhaus</publisher>
+<date>1873</date>
+<note type="url">https://archive.org/details/biblicasacralati00unse</note>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct type="book" xml:id="r" corresp="http://zotero.org/users/254032/items/SV9ECTS4">
+<monogr>
+<title level="m">Biblia Sacra iuxta latinam vulgatam versionem</title>
+<editor>
+<orgName>Pontifical Abbey of St Jerome-in-the-City</orgName>
+</editor>
+<editor>
+<forename>Henri</forename>
+<surname>Quentin</surname>
+</editor>
+<imprint>
+<pubPlace>Rome</pubPlace>
+<publisher>Libreria Editrice Vaticana</publisher>
+<date>1926–1995</date>
+</imprint>
+</monogr>
+</biblStruct>
+</listBibl>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text xml:lang="la">
+<body>
+<div type="textpart">
+<list>
+<head rend="red">incipiunt capitula libri numerorum</head>
+<lb/><item><label>i</label> <hi rend="red">Vbi praecepit <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>s</expan></name></hi> <name>mosi</name> ut numerum 
+<lb rend="indent"/>totius populi a uiginti annis et 
+<lb rend="indent"/>supra omnium uirorum <add place="inRas">ac princip<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan></add> 
+<lb rend="indent"/>familiarum describat excepta 
+<lb rend="indent"/>tribu <name>leui</name> et qualiter castra 
+<lb rend="indent"/>promoueantur uel ponant<supplied reason="omitted" source="#Heyse1873">ur</supplied><!-- chk r --></item>
+<lb/><item><label>ii</label> Descriptio tribu<del rend="strikethrough expunct">u</del>s <name>leuiticae</name> 
+<lb rend="indent"/>et cui quis debeat in ministerio 
+<lb rend="indent"/><name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name> officio mancipari</item>
+<lb/><item><label>iii</label> Vbi praecepit maculatos extra 
+<lb rend="indent"/>castra esse de uotis reo<choice><sic>s</sic><corr source="#Heyse1873">rum</corr></choice> de aqua 
+<lb rend="indent"/>zelot<choice><orig>i</orig><reg>y</reg></choice>piae inter maritum 
+<lb rend="indent"/>et uxorem</item>
+<lb/><item><label>iiii</label> De consecratione nazarenorum 
+<lb rend="indent"/>et oblationi<expan>b<am>’</am><ex>us</ex></expan> eorum<reg>.</reg> quomodo 
+<lb rend="indent"/>sacerdotes populum benedicant</item>
+<lb/><item><label>v</label> De dedicatione tabernaculi et al
+<lb break="no"/>taris et quid per duodecim dies 
+<lb rend="indent"/>singuli principes tribuum o<choice><orig>p</orig><reg>b</reg></choice>tu
+<lb break="no"/>lerint<reg>.</reg> de consecratione <name>leuita
+<lb break="no"/>rum</name> et de lucernis contra <name>aqui
+<lb break="no"/>lonem</name> ponendis ut mensam 
+<lb rend="indent"/>panum propositionis respiciant</item>
+<lb/><item><label>vi</label> De primo pascha in deserto et secun
+<lb break="no"/>do eorum qui primum facere 
+<lb rend="indent"/>non potuerunt et tubis argen
+<lb break="no"/>teis ad congregandum popul<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> 
+<lb rend="indent"/>faciendis</item>
+<lb/><item><label>vii</label> Vbi mota castra cognato suo <name>moses</name> 
+<lb rend="indent"/>suadet ut ad terram promissi
+<pb n="111r" break="no"/>
+<cb n="a" break="no"/>
+<lb break="no"/>onis secum pergat<reg>.</reg> de murmura
+<lb break="no"/>tione populi et ign<del rend="strikethrough expunct">a</del>e ira<surplus>e</surplus>cundiae 
+<lb rend="indent"/><name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> uindicantis in eos<reg>.</reg> de desiderio 
+<lb rend="indent"/>populi quaerentis carnes. cepas 
+<lb rend="indent"/>et cucumeres et cetera et no
+<lb break="no"/>lentium dulcissimum <expan><abbr rend="supraline">man</abbr><ex>na</ex></expan><reg>.</reg> de sep
+<lb break="no"/>tuaginta pr<surplus>a</surplus>es<choice><orig>pi</orig><reg>by</reg></choice>teris prophe
+<lb break="no"/>tanti<expan>b<am>’</am><ex>us</ex></expan> et de coturnici<expan>b<am>’</am><ex>us</ex></expan> ad come
+<lb break="no"/>dendum eis irascente <name><expan>d<ex>e</ex><abbr rend="supraline">o</abbr></expan></name> adduc
+<lb break="no"/>tis. et de sepulchris concupis
+<lb break="no"/>centiae</item>
+<lb/><item><label>viii</label> De murmuratione <name>aaron</name> et <name>mariae</name> 
+<lb rend="indent"/>et de lepra <name>mariae</name>. de explora
+<lb break="no"/>tori<expan>b<am>’</am><ex>us</ex></expan> ad terram promissionis 
+<lb rend="indent"/>considerandam missis<reg>.</reg> de fructu<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> 
+<lb rend="indent"/>indiciis adlatis. de temptatione 
+<lb rend="indent"/>populi et pauore. de fide <name>iosue</name> 
+<lb rend="indent"/>et <name>chaleb</name><reg>.</reg> de iracundia <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> ubi per 
+<lb rend="indent"/>seipsum iurat nullum ex eis 
+<lb rend="indent"/>terram promissam contingere</item>
+<lb/><item><label>viiii</label> De spontaneis uotis de primitiis 
+<lb rend="indent"/>separandis. de anima. quae per 
+<lb rend="indent"/>ignoranti<expan><abbr rend="supraline">a</abbr><ex>m</ex></expan> uel per superbiam 
+<lb rend="indent"/>peccat. de homine ligna colligen
+<lb break="no"/>te die sabbati qua<surplus source="#Heyse1873">e</surplus> sententia 
+<lb rend="indent"/>debuit <name><expan>d<ex>e</ex><abbr rend="supraline">o</abbr></expan></name> imperante percelli. de fimbriis in angulis palliorum</item>
+<lb/><item><label>x</label> De certamine <name>dathan</name> <name>core</name> et <name>abiron</name> 
+<lb rend="indent"/>et <add place="inRas">d</add>e interitu eorum<reg>.</reg> Vbi populus 
+<lb rend="indent"/>contra <name>mosen</name> et <name>aaron</name> pro eis 
+<lb rend="indent"/>murmuratus est<reg>.</reg> Vbi ira exiit a <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>o</expan></name> 
+<lb rend="indent"/>et populum percutere coepit. 
+<lb rend="indent"/>et <name>aaron</name> t<reg>h</reg>uribulum cum t<reg>h</reg>ymi
+<lb break="no"/>ama<supplied reason="omitted" source="#Heyse1873">te</supplied> offerens prohibuerit uas
+<lb break="no"/>tatorem<reg>.</reg> de uirgis <num>xii</num> et uirga 
+<lb rend="indent"/><name>aaron</name> frondescente</item>
+<lb/><item><label>xi</label> De custodia tabernaculi quod ad 
+<lb rend="indent"/>sacerdotem pertineat. De pri
+<lb break="no"/>mogenitis redimendis et decimis 
+<lb rend="indent"/>decimandis</item>
+<lb/><item><label>xii</label> De uitula rufa quae extra cas
+<lb break="no"/>tra mactatur. de expiatione. 
+<lb rend="indent"/>de aqua contradictionis 
+<lb rend="indent"/>et morte <name>mariae</name></item>
+<cb n="b"/>
+<lb/><item><label>xiii</label> Vbi <name>moses</name> nuntios mittit ad <name>edom</name> 
+<lb rend="indent"/>transitum petens et prohibi
+<lb break="no"/>tus est<reg>.</reg> De morte <name>aaron</name> 
+<lb rend="indent"/>in monte <name>hor</name>. De <name>eleazaro</name> suc
+<lb break="no"/>cessore<reg>.</reg> De filio eius. De ser
+<lb break="no"/>pente aeneo<reg>.</reg> De nuntiis ad <name>seon</name> 
+<lb rend="indent"/>regem <name>amorraeorum</name> directis</item>
+<lb/><item><label>xiiii</label> De <name>balaac</name> rege et <name>balaam</name> <subst><del rend="alt">o</del><add place="inRas">a</add></subst>riolo 
+<lb rend="indent"/>ubi asina locuta est et quomo
+<lb break="no"/>do contrario benedixerit 
+<lb rend="indent"/>populo <name>israhel</name></item>
+<lb/><item><label>xv</label> Vbi populus initiatus est <name>beel
+<lb break="no"/>phegor</name> et iubet <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>s</expan></name> principes 
+<lb rend="indent"/>populi suspendi in patibulis<reg>.</reg> 
+<lb rend="indent"/>de s<subst><del rend="alt">e</del><add place="above">c</add><add place="above">o</add></subst>rto <name>madianitae</name> et uin
+<lb break="no"/>dicta <name><choice><orig>f</orig><reg>ph</reg></choice>inees</name> in utro<expan>q<am>’</am><ex>ue</ex></expan><reg>.</reg> de bello 
+<lb rend="indent"/><name>ma<choice><orig>z</orig><reg>d</reg></choice>ianitis</name> inlato<reg>.</reg> De populo 
+<lb rend="indent"/>iterum numerato. De filia<expan>b<am>’</am><ex>us</ex></expan> 
+<lb rend="indent"/><name>salphaad</name> hereditatem quae
+<lb break="no"/>renti<expan>b<am>’</am><ex>us</ex></expan><reg>.</reg> De <name>mosi</name> morte prae
+<lb break="no"/>dicta et <name>iosue</name> ordinato 
+<lb rend="indent"/>successore eius</item>
+<lb/><item><label>xv<supplied reason="omitted">i</supplied></label> De <del rend="strikethrough">s</del>ritu sacrificii matutini et 
+<lb rend="indent"/>holocausti faciendi per singu
+<lb break="no"/>los menses qui sibi anno uer
+<lb break="no"/>tente succedunt. De oblatione 
+<lb rend="indent"/><supplied reason="omitted" source="#Heyse1873">in</supplied> pentecosten. De oblatione 
+<lb rend="indent"/>mensis tubarum et uotis 
+<lb rend="indent"/>mulierum</item>
+<lb/><item><label>xvi<supplied reason="omitted">i</supplied></label> De interfectione <name>ma<choice><orig>z</orig><reg>d</reg></choice>ianitarum</name> 
+<lb rend="indent"/>et praeda eorum. De petitione 
+<lb rend="indent"/><name>rubenitarum</name> et <name>gaditarum</name>. 
+<lb rend="indent"/>ut in eadem terra animalium 
+<lb rend="indent"/>merito sort<expan><abbr rend="supraline">e</abbr><ex>m</ex></expan> accipiant 
+<lb rend="indent"/>et concisione <name>mosi</name></item>
+<lb/><item><label>xvii<supplied reason="omitted">i</supplied></label> Hic profectionum loca comme
+<lb break="no"/>morat et a quo in quem fixe
+<lb break="no"/>rint loca tentoriae<!-- chk r; et in quibus fixerint locis tentoria H --></item>
+<lb/><item><label>xviii<supplied reason="omitted">i</supplied></label> Vbi <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>s</expan></name> praec<choice><sic>e</sic><corr source="#Heyse1873">i</corr></choice>pit<!-- TEI transpose a.c. --> qualiter ter
+<lb break="no"/>ram promissionis sorte 
+<lb rend="indent"/>diuidant et unaquae<expan>q<am>’</am><ex>ue</ex></expan> tri<expan>b<am>’</am><ex>us</ex></expan> 
+<lb rend="indent"/>cuius loci debeat fine concludi</item>
+<lb/><item><label>x<surplus>i</surplus>x</label> Vbi iubentur urbes in fugitiuo
+<lb break="no"/>rum praesidia separari 
+<pb n="111v"/>
+<cb n="a"/>
+<lb rend="indent"/>et qui sint qui debeant praesi
+<lb break="no"/>dio confoueri. filii filiorum 
+<lb rend="indent"/><name>ioseph</name> <name>mosen</name> interpellant 
+<lb rend="indent"/>pro filia<expan>b<am>’</am><ex>us</ex></expan> <name>salphaad</name>. ne heredi
+<lb break="no"/>tate<supplied reason="omitted" source="#Heyse1873">m</supplied> donante in alia tribu <!-- chk r -->con
+<lb break="no"/>iugia sortiantur ne sortium 
+<lb rend="indent"/>confusio fiat et aliorum pos
+<lb break="no"/>sessio ad alteros transeat 
+<lb rend="indent"/>ac praeceptae sunt in tribu 
+<lb rend="indent"/>sua in qui<expan>b<am>’</am><ex>us</ex></expan> uoluissent 
+<lb rend="indent"/>coniugio sociari.<!-- Hayes text is quite different here; chk --></item>
+</list>
+<div type="textpart" subtype="finalRubric">
+<p rend="red"><expan>ex<abbr rend="supraline">pli</abbr>c<ex>iunt</ex></expan> <expan>c<abbr rend="supraline">ap</abbr>it<ex>ula</ex></expan></p>
+</div>
+</div>
+</body>
+</text>
+</TEI>

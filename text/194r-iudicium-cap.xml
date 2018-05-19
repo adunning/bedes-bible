@@ -1,0 +1,223 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng"
+type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title xml:lang="la">Capitula</title>
+</titleStmt>
+<publicationStmt>
+<authority>Digital Latin Library</authority>
+<availability>
+<licence target="https://creativecommons.org/licences/by-sa/4.0/">Provided under a Creative Commons Attribution-ShareAlike 4.0 International Licence.</licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<settlement>Florence</settlement>
+<repository>Biblioteca Medicea Laurenziana</repository>
+<collection>Amiatino</collection>
+<idno>1</idno>
+<msName>Codex Amiatinus</msName>
+</msIdentifier>
+</msDesc>
+<listBibl>
+<biblStruct type="book" xml:id="Heyse1873" corresp="http://zotero.org/users/254032/items/69EHSXJZ">
+<monogr>
+<title level="m">Biblia sacra latina Veteris Testamenti Hieronymo interprete ex antiquissima auctoriatate in stichos descripta: Vulgatam lectionem ex editione Clementina principe anni MDXCII et Romana ultima anni MDCCCLXI repetitam testimonium comitatur Codicis Amiatini Latinorum omnium antiquissimi</title>
+<editor>
+<forename>Theodor</forename>
+<surname>Heyse</surname>
+</editor>
+<editor>
+<forename>Constantinus von</forename>
+<surname>Tischendorf</surname>
+</editor>
+<imprint>
+<pubPlace>Leipzig</pubPlace>
+<publisher>Brockhaus</publisher>
+<date>1873</date>
+<note type="url">https://archive.org/details/biblicasacralati00unse</note>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct type="book" xml:id="r" corresp="http://zotero.org/users/254032/items/SV9ECTS4">
+<monogr>
+<title level="m">Biblia Sacra iuxta latinam vulgatam versionem</title>
+<editor>
+<orgName>Pontifical Abbey of St Jerome-in-the-City</orgName>
+</editor>
+<editor>
+<forename>Henri</forename>
+<surname>Quentin</surname>
+</editor>
+<imprint>
+<pubPlace>Rome</pubPlace>
+<publisher>Libreria Editrice Vaticana</publisher>
+<date>1926–1995</date>
+</imprint>
+</monogr>
+</biblStruct>
+</listBibl>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text xml:lang="la">
+<body>
+<div type="textpart">
+<list>
+<head>capitula iudicium</head>
+<lb/><item><label>i</label> Vbi post mortem <name>iosue</name> consulue
+<lb break="no"/>runt filii <name>israhel</name> <choice><sic><name><expan>d<ex>eu</ex><abbr rend="supraline">m</abbr></expan></name></sic><corr source="#Heyse1873"><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>m</expan></corr></choice> <said>quis esset 
+<lb rend="indent"/>dux belli</said> et <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>s</expan></name> <said><name>iudas</name></said>. <name>Adonibezech<surplus source="#Heyse1873">i</surplus></name> 
+<lb rend="indent"/>rex <supplied reason="omitted" source="#Heyse1873">ab</supplied> <name><expan>i<abbr rend="supraline">sr</abbr><ex>ahe</ex>l</expan></name> conprehenditur ciuitas 
+<lb rend="indent"/>capitur. Deinde <name>cariatharbe</name> et cete
+<lb break="no"/>rae ciuitates. De <name>chaleb</name> et <name>axa</name> 
+<lb rend="indent"/>filia eius. De agro postulato. 
+<lb rend="indent"/>De <name>gaza</name>. De filiis <name>enach</name> extinctis. 
+<lb rend="indent"/>De <name>bethel</name>. De <name>luza</name> et homine 
+<lb rend="indent"/>proditore eius quarum cum habita
+<lb break="no"/>tores non deleuissent postea re
+<lb break="no"/>uersi obpresserunt <name>israhelem</name>. 
+<lb rend="indent"/>et angelus <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name> uenit et inproperat 
+<lb rend="indent"/>eis flentibus</item>
+<lb/><item><label>ii</label> Vbi tamquam mox mortuum <name>iosue</name> 
+<lb rend="indent"/>commemorat. Et senioribus timo
+<lb break="no"/>ratis mortuis nouella aetas lasciua 
+<lb rend="indent"/>subcreuit. Qui<!-- chk r --> <name><expan>d<ex>eu</ex><abbr rend="supraline">m</abbr></expan></name> omnino non coluit 
+<lb rend="indent"/>et <name>bahalim</name> seruiendo <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>m</expan></name> ad iracun
+<lb break="no"/>diam prouocauit. Et tradidit eos 
+<lb rend="indent"/>in mani<expan>b<am>’</am><ex>us</ex></expan> hostium. De quinque 
+<lb rend="indent"/>satrapis <name>ph<choice><orig>y</orig><reg>i</reg></choice>listinorum</name> relictis. 
+<lb rend="indent"/>De filiis <name>chananaeorum</name> et filiis 
+<lb rend="indent"/>eorum sociatis. De <name>chusanrasatain</name> 
+<lb rend="indent"/>regem <name>mesopotamiae</name> et de <name>othoni
+<lb break="no"/>hel</name> iudice<surplus source="#Heyse1873">s</surplus><!-- chk r --> <name>israhel</name>.</item>
+<lb/><item><label>iii</label> <p>Vbi peccauerunt filii <name>israhel</name> et tradi
+<lb break="no"/>dit eos <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>s</expan></name> <name>eglon</name> regi <name>moab</name>. 
+<lb rend="indent"/>et clamauerunt ad <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>m</expan></name> et suscitauit 
+<lb rend="indent"/>eis <name>aoth</name> filium <name>gera</name>. qui occidit 
+<lb rend="indent"/><name>eglon</name> crassum et <name>moabitas</name> <num>x</num> milia. 
+<lb rend="indent"/>De <name>samgari</name> filio <name>anath</name> qui occidit 
+<lb rend="indent"/>sescentos uiros de uomere.</p>
+<p><lb rend="indent"/>Vbi iterum peccauerunt et traditi 
+<lb rend="indent"/>sunt <name>iabin</name> regi. De <name>debbora</name> et <name>barach</name> 
+<lb rend="indent"/>qui exercitu ducto occiderunt <name>iabin</name>. 
+<lb rend="indent"/>De <name>iachal</name> uxore <name>haber</name> quae de pala<!-- chk r: palo? --> 
+<lb rend="indent"/>occidit <name>sisara</name>. Et canticum <name>debborę</name> 
+<lb rend="indent"/>et <name>barach</name>.</p></item>
+<lb/><item><label>iiii</label> <p>Vbi peccantes iterum traditi sunt 
+<lb rend="indent"/>in manu <name>madian</name> et humiliati clamant 
+<lb rend="indent"/>ad <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>m</expan></name> et mittit ad eos prophetam 
+<lb rend="indent"/>inproperans. Vbi angelus <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name> uenit 
+<lb rend="indent"/>ad <name>gedeon</name> frumenta terentem 
+<cb n="b"/>
+<lb rend="indent"/>et salutat eum et mala quae sibi acci
+<lb break="no"/>derant enumerat et audit quod per 
+<lb rend="indent"/>ipsum liberaturus esset <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>s</expan></name> <name>israhel<expan><abbr rend="supraline">e</abbr><ex>m</ex></expan></name>.</p>
+<p><lb rend="indent"/>De sacrificio oblato et cetera. 
+<lb rend="indent"/>ubi dixit <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>s</expan></name> ad eum nocte ut destructa 
+<lb rend="indent"/>ara <name>baal</name> et luco exciso. De tauro sep
+<lb break="no"/>tenario patris sui ut<del rend="erased">i</del> altero<!-- om. H; chk r --> offerat 
+<lb rend="indent"/>sacrificium. De conuentu <name>madian</name>. 
+<lb rend="indent"/>Vbi <name>gedeon</name> uellere posito in area quaerit 
+<lb rend="indent"/>signum. Item ut siccitas in uellere ros 
+<lb rend="indent"/>in omni terra. Vbi <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>s</expan></name> dicit<reg>.</reg> <said>multus est populus tecum<reg>.</reg></said> Ad aquas probantur. 
+<lb rend="indent"/>et <num>ccc</num> uiri probi inueniuntur. 
+<lb rend="indent"/>Vbi <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>s</expan></name> dicit<reg>.</reg> <said>descende in castra et audi 
+<lb rend="indent"/>somnium referentem.</said> Et de prouentu 
+<lb rend="indent"/>belli. De <name>salmana</name> et <name>zebe</name>. De <name>oreb</name> et <name>zeb</name><reg>.</reg> 
+<lb rend="indent"/>De uiris <name>soccoth</name>. De turre <name>fanuhel</name> 
+<lb rend="indent"/>et <num>.c.xx</num> milia occisorum. De inauribus 
+<lb rend="indent"/>aureis a <name>gedeon</name>. de praeda postulatis. 
+<lb rend="indent"/>et de morte quieta eiusdem <name>gedeon</name>.</p></item>
+<lb/><item><label>v</label> Vbi iterum peccauerunt filii <name><expan>i<abbr rend="supraline">sr</abbr><ex>ahe</ex>l</expan></name>. 
+<lb rend="indent"/>ubi <name>abimelech</name> naturalis <name>gedeon</name> conspi
+<lb break="no"/>rat cum <name>s<choice><orig>y</orig><reg>i</reg></choice>chimitis</name>. Et conductis uagis 
+<lb rend="indent"/>occidit <num>lxx</num> uiros filios <name>gedeon</name> et <name>ionathan</name> 
+<lb rend="indent"/>minor absconditus est. Vbi uenit 
+<lb rend="indent"/><name>io<supplied reason="omitted" source="#Heyse1873">n</supplied>atha<supplied reason="omitted" source="#Heyse1873">n</supplied></name> et dicit super eos parabolam. 
+<lb rend="indent"/>ubi <name>ga<supplied reason="omitted" source="#Heyse1873">a</supplied>l</name> filius <name>obe<choice><orig>th</orig><reg>d</reg></choice></name> cum fratri<expan>b<am>’</am><ex>us</ex></expan> suis 
+<lb rend="indent"/>transit in <name>sycima<supplied reason="omitted">m</supplied></name> et <name>zebul</name> princeps 
+<lb rend="indent"/>ciuitatis mittit ad <name>abimelech</name> occulte. 
+<lb rend="indent"/>Vbi committunt proelium<reg>.</reg> De tur<choice><sic>b</sic><corr source="#Heyse1873">r</corr></choice>e<!-- chk Iud 9.46 --> 
+<lb rend="indent"/><name>sycimorum</name> ubi fumo et igne mille 
+<lb rend="indent"/>homines perierunt. De oppido <name>thebes</name>. 
+<lb rend="indent"/>et turre in medio eius firmissima. 
+<lb rend="indent"/>ad quam accedens <name>abimelech</name> iecit 
+<lb rend="indent"/>mulier fragmentum molae super 
+<lb rend="indent"/>caput eius et occidit eum.</item>
+<lb/><item><label>vi</label> Post <name>abimelech</name> surrexit <name>thola</name>. post 
+<lb rend="indent"/>eum <name>iair</name>. Iterum peccauerunt filii <name><expan>i<abbr rend="supraline">sr</abbr><ex>ahe</ex>l</expan></name>. 
+<lb rend="indent"/><name><expan>d<ex>e</ex><abbr rend="supraline">o</abbr></expan></name> et traditi sunt <name>ph<choice><orig>y</orig><reg>i</reg></choice>list<reg>ha</reg>eis</name> et adflicti 
+<lb rend="indent"/>sunt nimis<reg>.</reg> Et clamauerunt ad <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>m</expan></name> 
+<lb rend="indent"/>dicentes<reg>.</reg> <said>peccauimu tibi.s</said> Et lo<choice><orig>qu</orig><reg>c</reg></choice>utus 
+<lb rend="indent"/>est eis <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>s</expan></name> et inproperauit illis. 
+<lb rend="indent"/>Iterum clamauerunt ad <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>m</expan></name> et miser
+<lb break="no"/>tus est eis<reg>.</reg> De <name>iephthe</name> <name>gala<reg>a</reg>dite</name> 
+<pb n="194v"/>
+<cb n="a"/>
+<lb rend="indent"/>constituto principe super <name>israhel</name>. 
+<lb rend="indent"/>Vbi legatos mittit ad <name>philisthim</name>. 
+<lb rend="indent"/>De uoto temerario. De uictoria belli. 
+<lb rend="indent"/>et morte filiae. De seditione <name>ephraim</name>. 
+<lb rend="indent"/>post <name>iepth<reg>a</reg>e</name> surrexit <name>abessa</name>. deinde 
+<lb rend="indent"/><name>ahialon</name> et <name>abdo</name>. Rursum de peccato <name><expan>i<abbr rend="supraline">sr</abbr><ex>ahe</ex>l</expan></name>.</item>
+<lb/><item><label>vii</label> De <name>manoe</name> et ubi angelus apparuit. 
+<lb rend="indent"/>De natiuitate <name>samson</name>. ubi adultus acce
+<lb break="no"/>pit mulierem. De filia<expan>b<am>’</am><ex>us</ex></expan> <name>philisthim</name>. 
+<lb rend="indent"/>De leone occiso<reg>.</reg> parabolam proposuit 
+<lb rend="indent"/>quam uxor publicat. qua dimissa pater 
+<lb rend="indent"/>alteri tradidit. iratus uulpes capit 
+<lb rend="indent"/>et conligatas igne subposito in segete<add place="inline">s</add> 
+<lb rend="indent"/>mittit. Veniunt <name>philisthim</name> ut eum 
+<lb rend="indent"/>capiant. Et de maxilla asini mille uiros 
+<lb rend="indent"/>occidit. Et inde aqua sitienti processit. 
+<lb rend="indent"/>De muliere in <name>gaza</name> adamata. De <name>dalila</name> 
+<lb rend="indent"/>et qualiter eum deceperit. Vbi eiectis 
+<lb rend="indent"/>oculis in carcerem mittunt. productis<!-- chk r --> 
+<lb rend="indent"/>ut luderet. Templum super eos una 
+<lb rend="indent"/>secum deiecit. Vbi pariter mortui sunt.</item>
+<lb/><item><label>viii</label> De <name>michas</name> et mille <num>.c.</num> argenteis. De sculp
+<lb break="no"/>tili et conflatili. De altero adule
+<lb break="no"/>scente <name>bethleemita<surplus>e</surplus></name> peregrinante 
+<lb rend="indent"/>qui factus est sacerdos in domo <name>micha</name>. 
+<lb rend="indent"/>De filiis <name>dan</name>. eunti<expan>b<am>’</am><ex>us</ex></expan> <name>lachis</name> anferen
+<lb break="no"/>ti<expan>b<am>’</am><ex>us</ex></expan> sacerdotem et idola. De <name>ionathan</name> 
+<lb rend="indent"/>fili<surplus>o</surplus> <name>gersan</name>. filii <name>mosi</name> sacerdotis idolis.</item>
+<lb/><item><label>viiii</label> De <name>leuit<choice><sic>e</sic><corr source="#Heyse1873">a</corr></choice></name> accipiente uxorem de <name>bethle<expan><abbr rend="supraline">e</abbr><ex>m</ex></expan></name> 
+<lb rend="indent"/><name>iuda</name> quae reuersa est in domum patris 
+<lb rend="indent"/>sui quam uir eius secutus grate suscipit. 
+<lb rend="indent"/>De laetitia eorum. De itinere. De <name>gabaa</name> 
+<lb rend="indent"/><name>beniamin</name> et homini<expan>b<am>’</am><ex>us</ex></expan> eius iniquis 
+<lb rend="indent"/>uirum appetenti<expan>b<am>’</am><ex>us</ex></expan> ac mulierem. 
+<lb rend="indent"/>De abusa muliere ac fatigata coitu 
+<lb rend="indent"/>et mortua. De cadauere eius inposito 
+<lb rend="indent"/>ac diuiso in duodecim partes emisso 
+<lb rend="indent"/>per omnes tri<expan>b<am>’</am><ex>us</ex></expan><reg>.</reg> omnis populus con
+<lb break="no"/>gregatur ad tribum <name>beniamin</name> dirigi
+<lb break="no"/>tur ut huius sceleris patratores 
+<lb rend="indent"/>tradantur despiciunt. Coniurantes 
+<lb rend="indent"/>tribus undecim. in uno conspirant. 
+<lb rend="indent"/>Interrogant <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>m</expan></name> et aduersus eos 
+<lb rend="indent"/>indic<choice><sic>e</sic><corr source="#Heyse1873">u</corr></choice>nt bellum. Semel et iterum 
+<cb n="b"/>
+<lb rend="indent"/>superantur tertio uictores existunt. 
+<lb rend="indent"/>Paenitentia ducti flentes dolent 
+<lb rend="indent"/>unam perisse tribum extinctis uniuer
+<lb break="no"/>sis uiris ac feminis remanentibus 
+<lb rend="indent"/>uiris solis sescentis. Consilium 
+<lb rend="indent"/>ineunt qualiter tribus quae cecidit 
+<lb rend="indent"/>reparetur. Et de <name>iabis</name> <name>galaad</name> 
+<lb rend="indent"/>quadringentae uirgines adducuntur. 
+<lb rend="indent"/>quae quadringentae directae sunt 
+<lb rend="indent"/>singulae <choice><sic>ducentis qui</sic><corr source="#Heyse1873">quae</corr></choice> supererant. 
+<lb rend="indent"/>Consilium dederunt ut de <supplied reason="omitted" source="#Heyse1873">ducentibus</supplied> choros 
+<lb rend="indent"/><name>silo</name> singuli singulas raperent.</item>
+</list>
+</div>
+</body>
+</text>
+</TEI>

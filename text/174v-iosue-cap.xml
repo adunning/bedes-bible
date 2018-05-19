@@ -1,0 +1,226 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng"
+type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title xml:lang="la">Capitula</title>
+</titleStmt>
+<publicationStmt>
+<authority>Digital Latin Library</authority>
+<availability>
+<licence target="https://creativecommons.org/licences/by-sa/4.0/">Provided under a Creative Commons Attribution-ShareAlike 4.0 International Licence.</licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<settlement>Florence</settlement>
+<repository>Biblioteca Medicea Laurenziana</repository>
+<collection>Amiatino</collection>
+<idno>1</idno>
+<msName>Codex Amiatinus</msName>
+</msIdentifier>
+</msDesc>
+<listBibl>
+<biblStruct type="book" xml:id="Heyse1873" corresp="http://zotero.org/users/254032/items/69EHSXJZ">
+<monogr>
+<title level="m">Biblia sacra latina Veteris Testamenti Hieronymo interprete ex antiquissima auctoriatate in stichos descripta: Vulgatam lectionem ex editione Clementina principe anni MDXCII et Romana ultima anni MDCCCLXI repetitam testimonium comitatur Codicis Amiatini Latinorum omnium antiquissimi</title>
+<editor>
+<forename>Theodor</forename>
+<surname>Heyse</surname>
+</editor>
+<editor>
+<forename>Constantinus von</forename>
+<surname>Tischendorf</surname>
+</editor>
+<imprint>
+<pubPlace>Leipzig</pubPlace>
+<publisher>Brockhaus</publisher>
+<date>1873</date>
+<note type="url">https://archive.org/details/biblicasacralati00unse</note>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct type="book" xml:id="r" corresp="http://zotero.org/users/254032/items/SV9ECTS4">
+<monogr>
+<title level="m">Biblia Sacra iuxta latinam vulgatam versionem</title>
+<editor>
+<orgName>Pontifical Abbey of St Jerome-in-the-City</orgName>
+</editor>
+<editor>
+<forename>Henri</forename>
+<surname>Quentin</surname>
+</editor>
+<imprint>
+<pubPlace>Rome</pubPlace>
+<publisher>Libreria Editrice Vaticana</publisher>
+<date>1926–1995</date>
+</imprint>
+</monogr>
+</biblStruct>
+</listBibl>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text xml:lang="la">
+<body>
+<div type="textpart">
+<list>
+<head rend="red">capitula</head>
+<lb/><item><label>i</label> <p><hi rend="red">Post</hi> mortem <name>mosi</name> <name>iosue</name> <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>s</expan></name> adlo
+<lb break="no"/>quitur et hortatur ut surgens <name>iorda
+<lb break="no"/>ne</name> transmisso ad terram quam pro
+<lb break="no"/>miserat pergeret obtinendam. <said>tecum 
+<lb rend="indent"/>ero</said> ait <said>confortare et esto robustus</said><reg>.</reg> 
+<lb rend="indent"/><said>Volumen legis de corde tuo non re
+<lb break="no"/>cedat</said><reg>.</reg> et cetera.
+</p>
+<p>
+<lb/>Vbi <name>iosue</name> praecepit populo inclamari 
+<lb rend="indent"/>ut cibariis praeparatis <name>iordanen</name> per
+<lb break="no"/>gerent transituri<reg>.</reg> Duos absc<expan><abbr rend="supraline">o</abbr><ex>n</ex></expan>
+<lb break="no"/>ditos uiros exploratores ad <name><surplus>h</surplus>ieric<reg>h</reg>o</name> 
+<lb rend="indent"/>dirigit ciuitatem<reg>.</reg> Qui meretricis 
+<lb rend="indent"/><name>raab</name> domum ingressi at<expan>q<am>’</am><ex>ue</ex></expan> a rege 
+<lb rend="indent"/>quaesiti absconditi sunt pacto<expan>q<am>’</am><ex>ue</ex></expan> 
+<lb rend="indent"/>ini<subst><del rend="erased">ti</del><add place="inRas">t</add></subst>o per murum demissi monta
+<lb break="no"/>na conscendunt. ad <name>iosue</name> ueniunt 
+<lb rend="indent"/>et quae sibi contigerant pandunt</p></item>
+<lb/><item><label>ii</label> <hi rend="red">Vbi</hi> <name>iosue</name> mota castra uenit ad <name>ior
+<lb break="no"/>danen</name> populum triduo <expan>s<ex>an</ex><abbr rend="supraline">c</abbr><ex>t</ex>i</expan>ficat 
+<lb rend="indent"/><name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>s</expan></name> et ei dicit. <said>hodie te incipiam 
+<lb rend="indent"/>exaltare coram filiis <name><expan>i<abbr rend="supraline">sr</abbr><ex>ahe</ex>l</expan></name> dic <name>leuitis</name> 
+<lb rend="indent"/>ut cum ingressi fuerint aquas 
+<lb rend="indent"/><name>iordanis</name> stent.</said> Ac deinde descen
+<lb break="no"/>denti<expan>b<am>’</am><ex>us</ex></expan> sacerdoti<expan>b<am>’</am><ex>us</ex></expan> in aqua super
+<lb break="no"/>uenientes aquae instar monti<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> 
+<lb rend="indent"/>intumescentes in una consiste
+<lb break="no"/>bant mole inferiores uero desicca
+<lb break="no"/>tae sunt per siccam humum omnis 
+<lb rend="indent"/>populus pertransiuit<reg>.</reg> Bis duode
+<lb break="no"/>nos pro testimonio lapides de eius 
+<lb rend="indent"/>medio adportantes</item>
+<lb/><item><label>iii</label> <hi rend="red">Vbi</hi> castra metantur in <name>galgalis</name><reg>.</reg> 
+<lb rend="indent"/><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>s</expan> ad <name>iosue</name> dicit ut lapideos faciat 
+<lb rend="indent"/>cultros et causa<supplied reason="omitted" source="#Heyse1873">m</supplied> secundae circum
+<lb break="no"/>cisionis ostendit. Ibi pascha 
+<lb rend="indent"/>celebrant<reg>.</reg> comedunt de frugibus 
+<lb rend="indent"/>terrae promissionis azyma noua 
+<lb rend="indent"/>et non est ultra eis praestitum 
+<lb rend="indent"/>manna. Ibi <name>iosue</name> eleuatis ocu
+<lb break="no"/>lis militiae caelestis gladium ten<expan><abbr rend="supraline">e</abbr><ex>n</ex></expan>
+<lb break="no"/>tem principem cernit et audit<reg>.</reg> 
+<lb rend="indent"/><said>solue calciamentum de pedibus 
+<lb rend="indent"/>tuis</said><reg>.</reg> et <expan>ce<abbr rend="supraline">t</abbr><ex>era</ex></expan>. Et iterum<reg>.</reg> <said>tradidi 
+<lb rend="indent"/><name><surplus>h</surplus>iericho</name> et regem eius in manu tua<reg>.</reg>
+<cb n="b"/> 
+<lb rend="indent"/>sit omnis anathema<reg>.</reg></said> Sic et sic con
+<lb break="no"/>clamabitis tubis et supradictae 
+<lb rend="indent"/>sequitur interitus ciuitatis<reg>.</reg> 
+<lb rend="indent"/>raab educitur ac seruatur<reg>.</reg> 
+<lb rend="indent"/><subst><del rend="alt">i</del><add place="inRas">V</add></subst>bi filii <name><expan>i<abbr rend="supraline">sr</abbr><ex>ahe</ex>l</expan></name> praeuaricati sunt id est 
+<lb rend="indent"/><name>achan</name> filius <name>charmi</name>. Ad <name>hai</name> exercit<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> 
+<lb rend="indent"/>dirigit qui terga hosti<expan>b<am>’</am><ex>us</ex></expan> dedit<reg>.</reg> 
+<lb rend="indent"/>Ipse scissis uesti<expan>b<am>’</am><ex>us</ex></expan> <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>m</expan></name> deprecatur 
+<lb rend="indent"/>et <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>s</expan></name> dicit quod peccauerit popu
+<lb break="no"/>lus. Inquisitus qui hoc fecerit 
+<lb rend="indent"/>deprehenditur et a populo lapidatur</item>
+<lb/><item><label>iiii</label> <p>
+<hi rend="red">Vbi</hi> praecepit <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>s</expan></name> ut ad supradict<expan><abbr rend="supraline">a</abbr><ex>m</ex></expan> 
+<lb rend="indent"/>pergeret ciuitatem at<expan>q<am>’</am><ex>ue</ex></expan> clypeo 
+<lb rend="indent"/>eleuato scire<supplied reason="omitted" source="#Heyse1873">t</supplied> sibi eam fuisse con
+<lb break="no"/>traditam<reg>.</reg> Qui pergens cepit 
+<lb rend="indent"/>deleuit occidit. iumenta autem 
+<lb rend="indent"/>et praedam ciuitatis populus 
+<lb rend="indent"/>inuicem sibi distribuit. Et aedifi
+<lb break="no"/>cato altari sacrificium obtulit. 
+<lb rend="indent"/>Deut<surplus>h</surplus>eronomium scripsit. uerba 
+<lb rend="indent"/>benedictionis et maledictionis 
+<lb rend="indent"/>omni populo legi<del rend="erased">i</del>t
+</p>
+<p>
+<lb/>Vbi reges <name>c<surplus>h</surplus>anaan</name> turbantur <name>gabao
+<lb break="no"/>nitae</name> legatos callide mittunt 
+<lb rend="indent"/>foedus ineunt et in seruitio de
+<lb break="no"/>putantur
+</p></item>
+<lb/><item><label>v</label> <hi rend="red">Vbi</hi> quin<expan>q<am>’</am><ex>ue</ex></expan> reges <name>amorraeorum</name> 
+<lb rend="indent"/>congregantur aduersus <name>israhel</name> 
+<lb rend="indent"/>et eos <name>iosue</name> persequitur et dicit<reg>.</reg> 
+<lb rend="indent"/><said>stet sol in <name>gabaon</name></said>. et <expan>c<abbr rend="supraline">et</abbr><ex>era</ex></expan>. Caeso<expan>q<am>’</am><ex>ue</ex></expan> 
+<lb rend="indent"/>exercitu quin<expan>q<am>’</am><ex>ue</ex></expan> reges in spelunca<supplied reason="omitted" source="#Heyse1873">m</supplied> 
+<lb rend="indent"/>fugiunt at<expan>q<am>’</am><ex>ue</ex></expan> apprehensi occidun
+<lb break="no"/>tur. Eodem die percutit <name>maceda</name> 
+<lb rend="indent"/>et <name>lemna</name> deinde <name>lachis</name> et <name>gazer</name> 
+<lb rend="indent"/>omnes<expan>q<am>’</am><ex>ue</ex></expan> montanas et plano po
+<lb break="no"/>sitas ciuitates <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>o</expan></name> tradente 
+<lb rend="indent"/>possidet</item>
+<lb/><item><label>vi</label> <hi rend="red">Vbi</hi> <name>enachim</name> interfectos reges 
+<lb rend="indent"/>enumerat singulos id est <num>xxxi</num> 
+<lb rend="indent"/>qui<expan>b<am>’</am><ex>us</ex></expan> extinctis prouincias eor<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> 
+<lb rend="indent"/>possedit</item>
+<lb/><item><label>vii</label> <p><hi rend="red">Vbi</hi> dicit <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>s</expan></name> ad <name>iosue</name> <said>senuisti et 
+<lb rend="indent"/>longaeuus es<reg>.</reg> Diuide terram filiis 
+<lb rend="indent"/><name>israhel</name>.</said> at<expan>q<am>’</am><ex>ue</ex></expan> sedens cum <name>eleazaro</name> 
+<pb n="175r"/>
+<cb n="a"/>
+<lb rend="indent"/>sacerdote uniuersam terram diuidit<reg>.</reg>
+</p>
+<p>
+<lb/>C<reg>h</reg>aleb ad eum loquitur ut <name>cariath
+<lb break="no"/>sepher</name><!-- word division? chk MS in Iosue --> ciuitatem ei sorte contrade
+<lb break="no"/>ret. et sicut iusserat <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>s</expan></name><reg>.</reg> et sequi
+<lb break="no"/>tur quae sors unicui<expan>q<am>’</am><ex>ue</ex></expan> tribui 
+<lb rend="indent"/>sit tradita
+</p>
+</item>
+<lb/><item><label>viii</label> <hi rend="red">Vbi</hi> in <name>silo</name> fixerunt tabernacul<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> 
+<lb rend="indent"/>testimonii et inde sit tradita ad 
+<lb rend="indent"/>reliquam quae necdum subiecta 
+<lb rend="indent"/>fuerat terram dirigit inspec
+<lb break="no"/>tores. Leuitis ac sacerdoti<expan>b<am>’</am><ex>us</ex></expan> 
+<lb rend="indent"/>ad habitandum separat ciuitates 
+<lb rend="indent"/>de tribu<expan>b<am>’</am><ex>us</ex></expan> singulis et subur
+<lb break="no"/>bana ad alenda iumenta</item>
+<lb/><item><supplied reason="omitted"><label>viiii</label> <hi rend="red">Vbi</hi></supplied> praecepit <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>s</expan></name> <name>iosue</name> ut urbes 
+<lb rend="indent"/>in praesidia fugitiuorum sepa
+<lb break="no"/>rentur sicut locutus est ad 
+<lb rend="indent"/><name>mosen</name> et legem dat qui illar<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> 
+<lb rend="indent"/>ciuitatum debeat intrare prae
+<lb break="no"/>sidia. <name>leuitis</name> et sacerdoti<expan>b<am>’</am><ex>us</ex></expan> ciuita
+<lb break="no"/>tes et suburbana distribuuntur</item><!-- H omits last phrase and does not supply 'ubi' -->
+<lb/><item><label><choice><sic>viiii</sic><corr source="#Heyse1873">x</corr></choice></label> <hi rend="red">Vbi</hi> <name>iosue</name> uocauit <name>rubenitas</name> et <name>gaditas</name> 
+<lb rend="indent"/>et mediam partem filiorum <name>ma
+<lb break="no"/>nasse</name> et di<choice><sic>c</sic><corr source="#Heyse1873">x</corr></choice>it eis<reg>.</reg> <said>implestis impe
+<lb break="no"/>rium <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name> ite in tabernacula uestra</said><reg>.</reg> 
+<lb rend="indent"/>et pergentes ad tumulos <name>iorda
+<lb break="no"/>nis</name> aedificauerunt altare infini
+<lb break="no"/>tae magnitudinis<reg>.</reg> Quod <name>iosue</name> 
+<lb rend="indent"/>et <name><expan>i<abbr rend="supraline">sr</abbr><ex>ahe</ex>l</expan></name> putauerunt esse sacri
+<lb break="no"/>legum<reg>.</reg> et nuntios dirigunt 
+<lb rend="indent"/>qui ratione accepta leniti sunt</item>
+<lb/><item><label>x<supplied reason="omitted" source="#Heyse1873">i</supplied></label> <hi rend="red">Vbi</hi> <name>iosue</name> uocauit omnem <name>israhel<expan><abbr rend="supraline">e</abbr><ex>m</ex></expan></name> 
+<lb rend="indent"/>et admonet ut seruiant <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>o</expan></name> 
+<lb rend="indent"/>et numerat seriem generationis 
+<lb rend="indent"/>antiquae et quomodo de <name>aegyp
+<lb break="no"/>to</name> sint liberati<reg>.</reg> Quomodo <name>amor
+<lb break="no"/>raei</name> uel <name>chananaei</name> et ceteri sint 
+<lb rend="indent"/>uirtute <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name> pressi. et optionem 
+<lb rend="indent"/>dat utrum <add place="above"><name><expan>d<ex>e</ex><abbr rend="supraline">o</abbr></expan></name></add> uelint seruire an diis 
+<lb rend="indent"/>gentium<reg>.</reg> populus spondet se <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>o</expan></name> 
+<lb rend="indent"/>seruiturum. <name>Iosue</name> lapidem po
+<lb break="no"/>nit in testimonium posthaec mortuus et sepultus in <name>tham
+<lb break="no"/>nassare</name>. Ossa <name>ioseph</name> sepeli
+<cb n="b" break="no"/>
+<lb break="no"/>untur in <name>sycem</name><reg>.</reg> Et <name>eleazar</name> sacer
+<lb break="no"/>dos in <name>gab</name> in monte <name>ephraim</name></item>
+</list>
+<div type="textpart" subtype="finalRubric">
+<p rend="red"><expan>expl<am>’</am><ex>iciunt</ex></expan> capitula</p>
+</div>
+</div>
+</body>
+</text>
+</TEI>
