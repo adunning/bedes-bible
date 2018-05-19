@@ -57,11 +57,11 @@ type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <div type="textpart">
 <pb n="1v"/>
 <lg>
-<lb/><l>C<choice><sic><subst><del rend="erased">orpus</del><add place="overstrike">enobium</add></subst></sic><corr>orpus</corr></choice> ad eximii merito
-<lb/>uenerabile <choice><sic><subst><del rend="erased"><name>petri</name></del><add place="overstrike">saluatoris</add></subst></sic><corr><name>petri</name></corr></choice></l>
+<lb/><l>C<choice><sic><subst><del rend="erased">orpus</del><add place="inRas">enobium</add></subst></sic><corr>orpus</corr></choice> ad eximii merito
+<lb/>uenerabile <choice><sic><subst><del rend="erased"><name>petri</name></del><add place="inRas">saluatoris</add></subst></sic><corr><name>petri</name></corr></choice></l>
 <lb/><l>quem caput ecclesiae
 <lb rend="indent"/>dedicat alta fides</l>
-<lb/><l><choice><sic><subst><del rend="erased"><name>ceolfridus</name> <name>anglorum</name></del><add place="overstrike"><name>petrus</name> <name>langobardorum</name></add></subst></sic><corr><name>ceolfridus</name> <name>anglorum</name></corr></choice>
+<lb/><l><choice><sic><subst><del rend="erased"><name>ceolfridus</name> <name>anglorum</name></del><add place="inRas"><name>petrus</name> <name>langobardorum</name></add></subst></sic><corr><name>ceolfridus</name> <name>anglorum</name></corr></choice>
 <lb rend="indent"/>extremis de fini<expan>b<am>·</am><ex>us</ex></expan> abbas</l>
 <lb/><l>deuoti affectus
 <lb rend="indent"/>pignora mitto mei</l>

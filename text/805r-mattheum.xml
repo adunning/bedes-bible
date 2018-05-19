@@ -3542,7 +3542,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb/>ut<reg> </reg>acciperent fructus eius
 <lb/><milestone unit="v" n="21.35"/>et agricolae adprehensis 
 <lb rend="indent"/>seruis eius
-<lb/>alium ce<add place="overstrike">ci</add>derunt<!--what happened with -ci- here? chk O-->
+<lb/>alium ce<add place="inRas">ci</add>derunt<!--what happened with -ci- here? chk O-->
 <lb/>alium occiderunt
 <lb/>alium uero lapidauerunt
 <lb/><milestone unit="v" n="21.36"/>iterum misit alios seruos 
@@ -4699,7 +4699,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb rend="indent"/>dicens
 <lb/>et<reg> </reg>tu cum <name><expan>i<am rend="supraline">h</am><ex>es</ex>u</expan></name> <name>galilaeo</name> eras
 <lb/><milestone unit="v" n="26.70"/>at ille negauit coram omni<expan>b<am>·</am><ex>us</ex></expan> 
-<lb rend="indent"/>dicens nescio qu<subst><del rend="erased"><unclear>o</unclear></del><add place="overstrike">i</add></subst>d dicis
+<lb rend="indent"/>dicens nescio qu<subst><del rend="erased"><unclear>o</unclear></del><add place="inRas">i</add></subst>d dicis
 <lb/><milestone unit="v" n="26.71"/><note type="canon">cccxv <hi rend="red supraline">i</hi></note><note type="crossref">M cxcvi / L ccxcii / I clxxv</note>Exeunte autem illo ianuam 
 <lb/>uidit eum alia
 <lb/>et<reg> </reg>ait his qui erant ibi

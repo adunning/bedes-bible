@@ -130,7 +130,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <cb n="b"/>
 <lb rend="indent"/>prudenti factum dicunt esse con
 <lb break="no" rend="indent"/>silio. ne<reg> </reg><name>ptolomeus</name> unius <expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan> cultor 
-<lb rend="indent"/>etiam aput <name>hebrę<subst><del rend="alt">u</del><add place="overstrike">o</add></subst>s</name> duplicem diuini
+<lb rend="indent"/>etiam aput <name>hebrę<subst><del rend="alt">u</del><add place="inline">o</add></subst>s</name> duplicem diuini
 <lb break="no"/>tatem depr<surplus>a</surplus>ehenderet. quod maxime<!-- Rome: quos maximi--> 
 <lb/>idcirco faciebat quia in<reg> </reg><name>platonis</name> dogma 
 <lb/>cadere uidebantur<unclear>.</unclear> denique ubicumque 

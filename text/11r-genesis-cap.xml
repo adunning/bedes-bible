@@ -107,7 +107,7 @@ type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <lb rend="indent"/>habitatores terrae in terra <name>sennaar</name>. 
 <lb rend="indent"/>ubi ad uidendum descendit <name><expan>d<ex>eu</ex><abbr rend="supraline">s</abbr></expan></name> gene
 <lb break="no"/>rationes <name>tharae</name> qui genuit <name>abram</name> 
-<lb rend="indent"/>et <name>nahor</name> et <name>aran</name> unde oritur <placeName><expan>isr<ex>ae</ex><abbr rend="stroke">l</abbr></expan></placeName> 
+<lb rend="indent"/>et <name>nahor</name> et <name>aran</name> unde oritur <placeName><expan>i<abbr rend="supraline">sr</abbr><ex>ahe</ex>l</expan></placeName> 
 <lb rend="indent"/><name>principium</name> sermonis <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name> ad <name>abram</name></item>
 <lb/><item><label>xii</label> Abraham facta fame in terra <name>aegypti</name> 
 <lb rend="indent"/>abiit cum uxorem suam</item>
@@ -185,7 +185,7 @@ type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <lb rend="indent"/>ibi enim apparuit ei cum fugeret 
 <lb rend="indent"/>fratrem suum</item>
 <lb/><item><label>xliiii</label> Apparuit iterum <name><expan>d<ex>eu</ex><abbr rend="supraline">s</abbr></expan></name> <name>iacob</name> cui et nomen 
-<lb rend="indent"/>mutauit dicens <placeName><expan>isr<ex>ae</ex><abbr rend="stroke">l</abbr></expan></placeName> erit nomen tuum 
+<lb rend="indent"/>mutauit dicens <placeName><expan>i<abbr rend="supraline">sr</abbr><ex>ahe</ex>l</expan></placeName> erit nomen tuum 
 <lb rend="indent"/>ibi obiit <name>rahel</name></item>
 <lb/><item><label>xlv</label> Filii <name>iacob</name> <num>xii</num>. qui de qua matre nasceretur. 
 <lb rend="indent"/>indicatur et obitus <name>isaac</name> <num>clxxx</num> annor<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan></item>
@@ -216,7 +216,7 @@ type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <lb/>sunt in <name>aegyptum</name> quos agnouit <name>iosep<add place="above">h</add></name> frater</item>
 <lb/><item><label>lviii</label> Agnitis fratri<expan>b<am>’</am><ex>us</ex></expan> suis <name>ioseph</name> commotus 
 <lb rend="indent"/>miseratione fleuit</item>
-<lb/><item><label>lviiii</label> Nomina filiorum <placeName><expan>isr<ex>ae</ex><abbr rend="stroke">l</abbr></expan></placeName> qui ingressi <expan>s<ex>un</ex><abbr rend="supraline">t</abbr></expan> in <name>aegypt<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan></name></item>
+<lb/><item><label>lviiii</label> Nomina filiorum <placeName><expan>i<abbr rend="supraline">sr</abbr><ex>ahe</ex>l</expan></placeName> qui ingressi <expan>s<ex>un</ex><abbr rend="supraline">t</abbr></expan> in <name>aegypt<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan></name></item>
 <lb/><item><label>lx</label> Nuntiatum est <name>ioseph</name> <expan>q<ex>uo</ex><abbr rend="stroke">d</abbr></expan> infirmaretur pater eius</item>
 <lb/><item><label>lxi</label> Praecepit <name>iacob</name> filiis suis dicens <said>congrega
 <lb break="no"/>mini ut adnuntiem uobis uentura</said></item>

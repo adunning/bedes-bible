@@ -264,7 +264,7 @@ type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <lb/><item><title>ad <name>hebreos</name></title> <space n="4" unit="character"/><num>i</num></item>
 </list><list>
 <lb/><item><title><expan>Epist<ex>ula</ex></expan> <name>iacobi</name></title> <space n="4" unit="character"/><num>i</num></item>
-<lb/><item><name>petri</name> <space n="4" unit="character"/><num>i</num></item>
+<lb/><item><name>petri</name> <space n="4" unit="character"/><num>i<supplied reason="omitted">i</supplied></num></item>
 <lb/><item><name>iohannis</name> <space n="4" unit="character"/><num>iii</num></item>
 <lb/><item><name>iudae</name> <space n="4" unit="character"/><num>i</num></item>
 <lb/><item><title>apocalypsis <name><expan>iohan<ex>nis</ex></expan></name></title></item>

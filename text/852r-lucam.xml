@@ -518,7 +518,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb/><milestone unit="v" n="2.16"/>et uenerunt festinantes
 <lb/>et inuenerunt <name>mariam</name> 
 <lb rend="indent"/>et <name>ioseph</name> et infantem 
-<lb rend="indent"/>positum in praes<subst><del rend="alt">i</del><add place="overstrike">e</add></subst>pio
+<lb rend="indent"/>positum in praes<subst><del rend="alt">i</del><add place="inline">e</add></subst>pio
 <lb/><milestone unit="v" n="2.17"/>uidentes autem cognoue
 <lb break="no"/>runt de uerbo quod dictum 
 <lb rend="indent"/>erat illis de puero hoc
@@ -1630,7 +1630,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb/><milestone unit="v" n="7.9"/>quo audito <name><expan>i<am rend="supraline">h</am><ex>esu</ex>s</expan></name> miratus est
 <lb/>et conuersus sequentibus 
 <lb rend="indent"/>se turbis dixit
-<lb/>amen dico uobis nec in <name><expan>is<abbr rend="supraline">r</abbr><ex>ae</ex>l</expan></name> 
+<lb/>amen dico uobis nec in <placeName><expan>i<abbr rend="supraline">sr</abbr><ex>ahe</ex>l</expan></placeName> 
 <lb rend="indent"/>tantam fidem inueni
 <lb rend="outdent"/><milestone unit="v" n="7.10"/><note type="canon">lxvi <hi rend="red">v</hi></note>Et reuersi qui missi fuerant 
 <lb rend="indent"/>domum
@@ -2215,7 +2215,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb/><milestone unit="v" n="9.11"/>quod cum cognouissent 
 <lb rend="indent"/>turbae secutae sunt ill<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan>
 <lb/>et excepit illos
-<lb/>et loquebatur illis de reg<add place="overstrike">no <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name></add>
+<lb/>et loquebatur illis de reg<add place="inRas">no <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name></add>
 <lb/>et eos qui cura indigebant 
 <lb rend="indent"/>sanabat
 </p>
