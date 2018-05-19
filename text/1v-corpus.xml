@@ -62,10 +62,10 @@ type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <lb/><l>quem caput ecclesiae
 <lb rend="indent"/>dedicat alta fides</l>
 <lb/><l><choice><sic><subst><del rend="erased"><name>ceolfridus</name> <name>anglorum</name></del><add place="inRas"><name>petrus</name> <name>langobardorum</name></add></subst></sic><corr><name>ceolfridus</name> <name>anglorum</name></corr></choice>
-<lb rend="indent"/>extremis de fini<expan>b<am>·</am><ex>us</ex></expan> abbas</l>
+<lb rend="indent"/>extremis de fini<expan>b<am>’</am><ex>us</ex></expan> abbas</l>
 <lb/><l>deuoti affectus
 <lb rend="indent"/>pignora mitto mei</l>
-<lb/><l>meque meos<expan>q<am>·</am><ex>ue</ex></expan> optans
+<lb/><l>meque meos<expan>q<am>’</am><ex>ue</ex></expan> optans
 <lb rend="indent"/>tanti inter gaudia patris</l>
 <lb/><l>in caelis memorem
 <lb rend="indent"/>semper habere locum</l>

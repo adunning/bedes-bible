@@ -82,10 +82,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <text xml:lang="la">
 <body>
 <!--beginning 831ra -->
-<head rend="red rustic-caps"><expan>Inc<ex>i</ex>p<am>·</am><ex>it</ex></expan> praefatio</head>
+<head rend="red rustic-caps"><expan>Inc<ex>i</ex>p<am>’</am><ex>it</ex></expan> praefatio</head>
 <p rend="prose">
 <lb/><name><hi rend="enlarged uncial red">M</hi><hi rend="red">arcus</hi></name> euangelista <expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan> et<reg> </reg><name>petri</name> in 
-<lb/>baptismate filius at<expan>q<am>·</am><ex>ue</ex></expan> in diuino ser
+<lb/>baptismate filius at<expan>q<am>’</am><ex>ue</ex></expan> in diuino ser
 <lb break="no"/>mone discipulus sacerdotium 
 <lb/>in<reg> </reg><placeName><expan>i<abbr rend="supraline">sr</abbr><ex>ahe</ex>l</expan></placeName> agens secundum carnem 
 <lb/><name>leuita</name> conuersus ad fidem <name><expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>i</expan></name> 
@@ -105,18 +105,18 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb break="no"/>deret. ut qui haec legens sciret 
 <lb/>cui initium carnis in <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>o</expan></name> et <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> ad
 <lb break="no"/>uenientis habitaculum deberet 
-<lb/>agnoscere· at<expan>q<am>·</am><ex>ue</ex></expan> in<reg> </reg>se uerbum uo
-<lb break="no"/>cis quod in<reg> </reg>consonanti<expan>b<am>·</am><ex>us</ex></expan> perdi
+<lb/>agnoscere· at<expan>q<am>’</am><ex>ue</ex></expan> in<reg> </reg>se uerbum uo
+<lb break="no"/>cis quod in<reg> </reg>consonanti<expan>b<am>’</am><ex>us</ex></expan> perdi
 <lb break="no"/>derat inueniret.
 </p>
 <p rend="prose">
 <pb n="831r"/>
 <cb n="b"/>
-<lb/>Deni<expan>q<am>·</am><ex>ue</ex></expan> et<reg> </reg>perfecti euangelii opus 
+<lb/>Deni<expan>q<am>’</am><ex>ue</ex></expan> et<reg> </reg>perfecti euangelii opus 
 <lb/>intrans et a baptismo <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name> prae
 <lb break="no"/>dicare <name><expan>d<ex>eu</ex><abbr rend="supraline">m</abbr></expan></name> inchoans non<reg> </reg>labora
 <lb break="no"/>uit natiuitatem carnis quam in<reg> </reg>pri
-<lb break="no"/>ori<expan>b<am>·</am><ex>us</ex></expan> uiderat dicere· sed<reg> </reg>totum in 
+<lb break="no"/>ori<expan>b<am>’</am><ex>us</ex></expan> uiderat dicere· sed<reg> </reg>totum in 
 <lb/>primis exp<surplus>l</surplus>osi<add place="above">ti</add>onem deserti ieiu
 <lb break="no"/>nium numeri temtationem diabo
 <lb break="no"/>li congregationem bestiarum et 
@@ -128,7 +128,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb break="no"/>tudinem non negaret.
 </p>
 <p rend="prose">
-<lb/>Deni<expan>q<am>·</am><ex>ue</ex></expan> amputasse sibi post fidem 
+<lb/>Deni<expan>q<am>’</am><ex>ue</ex></expan> amputasse sibi post fidem 
 <lb/>pollicem dicitur ut sacerdotio 
 <lb/>reprobus haberetur· <name>sed</name> tant<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> 
 <lb/>consentiens fidei praedestinata 

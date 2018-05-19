@@ -475,7 +475,7 @@ type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <lb/>qua de creatura mun
 <lb break="no"/>di de exordio huma
 <lb break="no"/>ni generis et gente 
-<lb/>us<expan>q<am>·</am><ex>ue</ex></expan> ad <placeName>aegypt<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan></placeName> scri
+<lb/>us<expan>q<am>’</am><ex>ue</ex></expan> ad <placeName>aegypt<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan></placeName> scri
 <lb break="no"/>bitur <name><expan>hebr<ex>eorum</ex></expan></name>
 </p>
 <p>
@@ -483,7 +483,7 @@ type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <lb break="no"/>dus</title> cum decem 
 <lb/>plagis decalogo 
 <lb/>cum mysticis scri
-<lb break="no"/>pturis diuinis<expan>q<am>·</am><ex>ue</ex></expan> 
+<lb break="no"/>pturis diuinis<expan>q<am>’</am><ex>ue</ex></expan> 
 <lb/>praeceptis
 </p>
 <p>
@@ -511,12 +511,12 @@ type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <lb/>habet quae propria 
 <lb/>sunt ut tamen no
 <lb break="no"/>ua sint omnia de 
-<lb/>ueteri<expan>b<am>·</am><ex>us</ex></expan></p> 
+<lb/>ueteri<expan>b<am>’</am><ex>us</ex></expan></p> 
 </div>
 <pb n="8r"/>
 <div type="textpart">
 <p><add place="inline">
-<lb/>Eloquium <expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan> quaecum<expan>q<am>·</am><ex>ue</ex></expan> uolumina pandunt 
+<lb/>Eloquium <expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan> quaecum<expan>q<am>’</am><ex>ue</ex></expan> uolumina pandunt 
 <lb/><name><expan>s<abbr rend="supraline">p</abbr><ex>iritu</ex>s</expan> hoc sancto</name> fudit ab ore <expan>d<ex>eu</ex><abbr rend="supraline">s</abbr></expan></add>
 </p>
 <list>
@@ -588,8 +588,8 @@ type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 </item>
 </list>
 <p>
-<lb/>Sic fiunt ueteris noui<expan>q<am>·</am><ex>ue</ex></expan> testamenti sicut pater <name>augustinus</name> in libris <title>de doctrina 
-<lb/><expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>i</expan>ana</title> complexus est simul libri <expan>n<ex>umeri</ex></expan> lxxi<del rend="erased">i</del> qui<expan>b<am>·</am><ex>us</ex></expan> adde unitatem diuinam 
+<lb/>Sic fiunt ueteris noui<expan>q<am>’</am><ex>ue</ex></expan> testamenti sicut pater <name>augustinus</name> in libris <title>de doctrina 
+<lb/><expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>i</expan>ana</title> complexus est simul libri <expan>n<ex>umeri</ex></expan> lxxi<del rend="erased">i</del> qui<expan>b<am>’</am><ex>us</ex></expan> adde unitatem diuinam 
 <lb/>per quam ista completa sunt <!-- note the extra space here: they seem to know it's a quotation? Cassiodorus, Institutiones 1.13.2 --><quote>fit totius librae competens et gloriosa per
 <lb break="no"/>fectio</quote><reg>.</reg> ipsa est enim rerum conditrix et uitalis omnium plenitudo uirtut<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan>
 </p>

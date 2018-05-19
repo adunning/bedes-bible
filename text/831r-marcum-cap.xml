@@ -97,8 +97,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <cb n="a"/>
 <lb rend="indent"/>inmundum metuentem et<reg> </reg>con
 <lb break="no" rend="indent"/>fitentem expellens sua ab<reg> </reg>ho
-<lb break="no" rend="indent"/>mini<expan>b<am>·</am><ex>us</ex></expan> potestate laudatur</item>
-<item><lb/><label rend="red">v</label> A socru <name>petri</name> febre uerbo tactu<expan>q<am>·</am><ex>ue</ex></expan> 
+<lb break="no" rend="indent"/>mini<expan>b<am>’</am><ex>us</ex></expan> potestate laudatur</item>
+<item><lb/><label rend="red">v</label> A socru <name>petri</name> febre uerbo tactu<expan>q<am>’</am><ex>ue</ex></expan> 
 <lb rend="indent"/>depulsa uaria cunctos infirmi
 <lb break="no" rend="indent"/>tate curauit</item>
 <item><lb/><label rend="red">vi</label> Leprosus uerbo quo ait uolo mun
@@ -112,7 +112,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb rend="indent"/>et uini uel utrium comparati
 <lb break="no" rend="indent"/>one refellitur</item>
 <item><lb/><label rend="red">viii</label> Pro<reg> </reg>spicarum in sabbato uulsione 
-<lb rend="indent"/>reprehensori<expan>b<am>·</am><ex>us</ex></expan> increpatis se
+<lb rend="indent"/>reprehensori<expan>b<am>’</am><ex>us</ex></expan> increpatis se
 <lb break="no" rend="indent"/>quitur manus aridae restitutio</item>
 <item><lb/><label rend="red">ix</label> Consilium contra eum faciunt 
 <lb rend="indent"/>pharisaei deseruiente sibi 
@@ -121,7 +121,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb break="no" rend="indent"/>ti sanantur</item>
 <item><lb/><label rend="red">x</label> Duodecim discipulos ad praedi
 <lb break="no" rend="indent"/>candum uerbo conlatis uir
-<lb break="no" rend="indent"/>tuti<expan>b<am>·</am><ex>us</ex></expan> mittit. et in<reg> </reg><name>belzebub</name> 
+<lb break="no" rend="indent"/>tuti<expan>b<am>’</am><ex>us</ex></expan> mittit. et in<reg> </reg><name>belzebub</name> 
 <lb rend="indent"/>eum posse dicentes redarguit. 
 <lb rend="indent"/>inremissibilem esse dicens in 
 <lb rend="indent"/><name><expan>s<abbr rend="supraline">p</abbr><ex>iritu</ex>m</expan> <expan>s<ex>an</ex><abbr rend="supraline">c</abbr><ex>tu</ex>m</expan></name> blasphemiam 
@@ -151,27 +151,27 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb rend="indent"/>praeceptis instruit conlata 
 <lb rend="indent"/>gratia sanitatum</item>
 <item><lb/><label rend="red">xvii</label> Herodes tenens <name>iohannem</name> die 
-<lb rend="indent"/>sui natalis occidit caput<expan>q<am>·</am><ex>ue</ex></expan> eius 
+<lb rend="indent"/>sui natalis occidit caput<expan>q<am>’</am><ex>ue</ex></expan> eius 
 <lb rend="indent"/>saltationis praemium in disco 
 <lb rend="indent"/>filiae tradit</item>
-<item><lb/><label rend="red">xviii</label> De quin<expan>q<am>·</am><ex>ue</ex></expan> panibus et duo<expan>b<am>·</am><ex>us</ex></expan> pisci<expan>b<am>·</am><ex>us</ex></expan> 
-<lb rend="indent"/>quin<expan>q<am>·</am><ex>ue</ex></expan> uirorum milia saturauit</item>
+<item><lb/><label rend="red">xviii</label> De quin<expan>q<am>’</am><ex>ue</ex></expan> panibus et duo<expan>b<am>’</am><ex>us</ex></expan> pisci<expan>b<am>’</am><ex>us</ex></expan> 
+<lb rend="indent"/>quin<expan>q<am>’</am><ex>ue</ex></expan> uirorum milia saturauit</item>
 <item><lb/><label rend="red">xix</label> Quarta noctis uigilia uenit ad<reg> </reg>disci
 <lb break="no" rend="indent"/>pulos ambulans supra mare</item>
 <item><lb/><label rend="red">xx</label> Accusant <name>pharisaei</name> discipulos 
-<lb rend="indent"/>non lotis mani<expan>b<am>·</am><ex>us</ex></expan> manducantes 
+<lb rend="indent"/>non lotis mani<expan>b<am>’</am><ex>us</ex></expan> manducantes 
 <lb rend="indent"/>et increpantur ab<reg> </reg>eo de paren
 <lb break="no" rend="indent"/>tum in<reg> </reg>spretione uel de<reg> </reg>ceteris 
 <lb rend="indent"/>exponente quae poss<subst><del rend="alt">i</del><add place="inline">e</add></subst>nt homi
 <lb break="no" rend="indent"/>nem inquinare</item>
 <item><lb/><label rend="red">xxi</label> Mulieris syrophenissae filiam 
 <lb rend="indent"/>a daemonio liberat</item>
-<item><lb/><label rend="red">xxii</label> Muto surdo<surplus> </surplus><expan>q<am>·</am><ex>ue</ex></expan> uocem restituens 
+<item><lb/><label rend="red">xxii</label> Muto surdo<surplus> </surplus><expan>q<am>’</am><ex>ue</ex></expan> uocem restituens 
 <lb rend="indent"/>dicit effeta</item>
-<item><lb/><label rend="red">xxiii</label> De septem pani<expan>b<am>·</am><ex>us</ex></expan> et<reg> </reg>paucis pisci
+<item><lb/><label rend="red">xxiii</label> De septem pani<expan>b<am>’</am><ex>us</ex></expan> et<reg> </reg>paucis pisci
 <lb break="no" rend="indent"/>culis quattuor hominum 
 <lb rend="indent"/>milia saturauit</item>
-<item><lb/><label rend="red">xxiiii</label> <name>Pharisaeis</name> signum quaerenti<expan>b<am>·</am><ex>us</ex></expan> 
+<item><lb/><label rend="red">xxiiii</label> <name>Pharisaeis</name> signum quaerenti<expan>b<am>’</am><ex>us</ex></expan> 
 <lb rend="indent"/>dari negat et doctrinam eor<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> 
 <lb rend="indent"/>praecepit sub<reg> </reg>fermenti nomi
 <lb break="no" rend="indent"/>ne praecauendum</item>
@@ -187,12 +187,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <cb n="a"/>
 <lb rend="indent"/>nec gustaturos quosdam mor
 <lb break="no" rend="indent"/>tem donec uideant eum in<reg> </reg>re
-<lb break="no" rend="indent"/>gno eius statim<expan>q<am>·</am><ex>ue</ex></expan> transfigu
+<lb break="no" rend="indent"/>gno eius statim<expan>q<am>’</am><ex>ue</ex></expan> transfigu
 <lb break="no" rend="indent"/>ratus inducitur et <name>iohann<expan><abbr rend="supraline">e</abbr><ex>m</ex></expan></name> 
 <lb rend="indent"/><name>heliae</name> passuri<!--nice long s--> ipse similia 
 <lb rend="indent"/>passum dicit</item>
 <item><lb/><label rend="red">xxviii</label> Omnis populus uidens <expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>m</expan> 
-<lb rend="indent"/>pauescens occurrens<expan>q<am>·</am><ex>ue</ex></expan> salu
+<lb rend="indent"/>pauescens occurrens<expan>q<am>’</am><ex>ue</ex></expan> salu
 <lb break="no" rend="indent"/>tat <space unit="character" n="1"/>et<reg> </reg>filius cuiusdam incredu
 <lb break="no" rend="indent"/>litatem suam iuuari precantis 
 <lb rend="indent"/>a daemonio liberatur</item>
@@ -224,15 +224,15 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <item><lb/><label rend="red">xxxv</label> Mittit adduci pullum asinae 
 <lb rend="indent"/>cui sedens audit <hi rend="acute">a</hi><reg> </reg>turbis osanna</item>
 <item><lb/><label rend="red">xxxvi</label> Egressus de templo ficulneae 
-<lb rend="indent"/>maledicit regressus<expan>q<am>·</am><ex>ue</ex></expan> uenden
-<lb break="no" rend="indent"/>tes eicit arefacta<expan>q<am>·</am><ex>ue</ex></expan> ficulnea 
-<lb rend="indent"/>miranti<expan>b<am>·</am><ex>us</ex></expan> ait orantes creden
+<lb rend="indent"/>maledicit regressus<expan>q<am>’</am><ex>ue</ex></expan> uenden
+<lb break="no" rend="indent"/>tes eicit arefacta<expan>q<am>’</am><ex>ue</ex></expan> ficulnea 
+<lb rend="indent"/>miranti<expan>b<am>’</am><ex>us</ex></expan> ait orantes creden
 <lb break="no" rend="indent"/>do accipere postulata</item>
 <item><lb/><label rend="red">xxxvi<add place="above">i</add></label> De<reg> </reg>potestate percontantibus 
 <cb n="b"/>
 <lb rend="indent"/><name>iudaeos</name> ipse de<reg> </reg>baptismo <name>iohan
 <lb break="no" rend="indent"/>nis</name> interrogando conuincit 
-<lb rend="indent"/>et de uinea colonis<expan>q<am>·</am><ex>ue</ex></expan> pessimis 
+<lb rend="indent"/>et de uinea colonis<expan>q<am>’</am><ex>ue</ex></expan> pessimis 
 <lb rend="indent"/>parabolam ponit</item>
 <item><lb/><label rend="red">xxxviii</label> Temtantes de<reg> </reg>reddendo <name>caesaris</name> 
 <lb rend="indent"/>tributo consequenter ex<reg> </reg>su
@@ -247,15 +247,15 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb rend="indent"/>ostendit. et cuius <add place="above">sit</add> filius <name><expan><am>x</am><am rend="supraline">p</am><ex>christu</ex>s</expan></name> 
 <lb rend="indent"/>interrogans docet ex<reg> </reg>princi
 <lb break="no" rend="indent"/>pio psalmi centensimi<reg> </reg>noni 
-<lb rend="indent"/>salutationum quo<expan>q<am>·</am><ex>ue</ex></expan> eorum 
+<lb rend="indent"/>salutationum quo<expan>q<am>’</am><ex>ue</ex></expan> eorum 
 <lb rend="indent"/>in foro ambitum notat</item>
 <item><lb/><label rend="red">xli</label> In gazophilacium pauperem uidu
 <lb break="no" rend="indent"/>am duo minuta mittentem 
-<lb rend="indent"/>cunctis dona iactanti<expan>b<am>·</am><ex>us</ex></expan> praefert</item>
+<lb rend="indent"/>cunctis dona iactanti<expan>b<am>’</am><ex>us</ex></expan> praefert</item>
 <item><lb/><label rend="red">xlii</label> Aedificationes templi monstr<expan><abbr rend="supraline">a</abbr><ex>n</ex></expan>
-<lb break="no" rend="indent"/>ti<expan>b<am>·</am><ex>us</ex></expan> praenuntiat ruituras 
+<lb break="no" rend="indent"/>ti<expan>b<am>’</am><ex>us</ex></expan> praenuntiat ruituras 
 <lb rend="indent"/>et de diuersis ultimi temporis 
-<lb rend="indent"/>temtationi<expan>b<am>·</am><ex>us</ex></expan> futuris prolixius 
+<lb rend="indent"/>temtationi<expan>b<am>’</am><ex>us</ex></expan> futuris prolixius 
 <lb rend="indent"/>disputans seductiones ammo
 <lb break="no" rend="indent"/>net praecauendas</item>
 <item><lb/><label rend="red">xliii</label> Diem aduentus solum patrem 
@@ -274,7 +274,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb break="no" rend="indent"/>ter arguitur et ascensio atque 
 <lb rend="indent"/>a<reg> </reg>dextris <expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan> consessio uel disci
 <lb break="no" rend="indent"/>pulorum praedicatio signis seq<add place="above">u</add>en
-<lb break="no" rend="right"/>ti<expan>b<am>·</am><ex>us</ex></expan> indicatur</item>
+<lb break="no" rend="right"/>ti<expan>b<am>’</am><ex>us</ex></expan> indicatur</item>
 </list>
 </body>
 </text>
