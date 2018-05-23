@@ -1,0 +1,257 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng"
+type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title xml:lang="la">Capitula</title>
+</titleStmt>
+<publicationStmt>
+<authority>Digital Latin Library</authority>
+<availability>
+<licence target="https://creativecommons.org/licences/by-sa/4.0/">Provided under a Creative Commons Attribution-ShareAlike 4.0 International Licence.</licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<settlement>Florence</settlement>
+<repository>Biblioteca Medicea Laurenziana</repository>
+<collection>Amiatino</collection>
+<idno>1</idno>
+<msName>Codex Amiatinus</msName>
+</msIdentifier>
+</msDesc>
+<listBibl>
+<biblStruct type="book" xml:id="Heyse1873" corresp="http://zotero.org/users/254032/items/69EHSXJZ">
+<monogr>
+<title level="m">Biblia sacra latina Veteris Testamenti Hieronymo interprete ex antiquissima auctoriatate in stichos descripta: Vulgatam lectionem ex editione Clementina principe anni MDXCII et Romana ultima anni MDCCCLXI repetitam testimonium comitatur Codicis Amiatini Latinorum omnium antiquissimi</title>
+<editor>
+<forename>Theodor</forename>
+<surname>Heyse</surname>
+</editor>
+<editor>
+<forename>Constantinus von</forename>
+<surname>Tischendorf</surname>
+</editor>
+<imprint>
+<pubPlace>Leipzig</pubPlace>
+<publisher>Brockhaus</publisher>
+<date>1873</date>
+<note type="url">https://archive.org/details/biblicasacralati00unse</note>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct type="book" xml:id="r" corresp="http://zotero.org/users/254032/items/SV9ECTS4">
+<monogr>
+<title level="m">Biblia Sacra iuxta latinam vulgatam versionem</title>
+<editor>
+<orgName>Pontifical Abbey of St Jerome-in-the-City</orgName>
+</editor>
+<editor>
+<forename>Henri</forename>
+<surname>Quentin</surname>
+</editor>
+<imprint>
+<pubPlace>Rome</pubPlace>
+<publisher>Libreria Editrice Vaticana</publisher>
+<date>1926–1995</date>
+</imprint>
+</monogr>
+</biblStruct>
+</listBibl>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text xml:lang="la">
+<body>
+<div type="textpart" subtype="capitula">
+<list>
+<lb/><item><label>i</label> <hi rend="red">Vbi euersa <name>hierusalem</name></hi> 
+<lb rend="indent"/>consenserunt <name>iudaei</name> edicto regis 
+<lb rend="indent"/>sacrificare idolis</item>
+<lb/><item><label>ii</label> Vbi lex <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> ex<del rend="strikethrough">s</del>usta est iussu regis 
+<lb rend="indent"/><name>antiochi</name> populo sacrificante idolis</item>
+<lb/><item><label>iii</label> De <name>mat<del rend="erased">h</del>thathia</name> et filiis eius lamentan
+<lb break="no"/>ti<expan>b<am>’</am><ex>us</ex></expan> populum <name>hierusalem</name></item>
+<lb/><item><label>iiii</label> Vbi ministri regis cum cogerent 
+<lb rend="indent"/><name>matthathia<supplied reason="omitted" source="#Heyse1873 #r">m</supplied></name> sacrificare non fecit 
+<lb rend="indent"/>et interfecit sacrificantem</item>
+<lb/><item><label>v</label> Vbi <name>iudaei</name> qui non sacrificarunt 
+<lb rend="indent"/>fugientes in deserto occisi sunt</item>
+<lb/><item><label>vi</label> Vbi <name>matthathias</name> cum filiis occidit 
+<lb rend="indent"/>persecutores et aras euertit</item>
+<lb/><item><label>vii</label> Vbi <name>matthathias</name> moriens 
+<lb rend="indent"/>admonet filios</item>
+<lb/><item><label>viii</label> Vbi surrexit <name>iudas</name> post mort<expan><abbr rend="supraline">e</abbr><ex>m</ex></expan> 
+<lb rend="indent"/><name>matthathiae</name> defendere <name><expan>i<abbr rend="supraline">sr</abbr><ex>ahe</ex>l</expan></name></item>
+<lb/><item><label>viiii</label> Vbi <name>iudas</name> occidit <name>apollonium</name> et <name>serom</name> 
+<lb rend="indent"/>principem exercitus <name>syriae</name></item>
+<lb/><item><label>x</label> Vbi <name>antiochus</name> congregat <add place="above">ex</add>ercitum 
+<lb rend="indent"/>contra <name>iudam</name> et de acti<expan>b<am>’</am><ex>us</ex></expan> <name>lysiae</name> 
+<lb rend="indent"/>et uictoria <name>iudae</name></item>
+<lb/><item><label>xi</label> Vbi ueniens <name>lysias</name> amicus <name>antiochi</name> 
+<lb rend="indent"/>cum exercitu a <name>iuda</name> debellatus est</item>
+<lb/><item><label>xii</label> Vbi <name>iudas</name> purificat templum ab in
+<lb break="no"/>mund<supplied reason="omitted" source="#r">iti</supplied>is gentium</item>
+<lb/><item><label>xiii</label> Vbi <name>iudas</name> debellauit gentes uolentes 
+<lb rend="indent"/>perdere <name>israhel</name> et <add place="above">de</add> <name>timotheo</name></item>
+<lb/><item><label>xiiii</label> Vbi <name>simon</name> expugnauit gentes 
+<lb rend="indent"/>missus a <name>iuda</name> fratre suo</item>
+<lb/><item><label>xv</label> Vbi <name>iudas</name> et fratres eius expugnauit 
+<lb rend="indent"/>castra <name>timothei</name> et cepit ciuitates 
+<lb rend="indent"/>munitas et ciuitatem <name>e<choice><sic>b</sic><corr source="#r">f</corr></choice>ron</name></item>
+<lb/><item><label>xvi</label> Vbi <name>ioseppus</name> et <name>azarias</name> uoluerunt 
+<lb rend="indent"/>expugnare gentes et uicti sunt<reg>.</reg> 
+<lb rend="indent"/>et ubi <name>iudas</name> expugnauit 
+<lb rend="indent"/>filios <name>esau</name></item>
+<lb/><item><label>xvii</label> De morte <name>antiochi</name> et successione 
+<lb rend="indent"/>filii eius</item>
+<lb/><item><label>xviii</label> Vbi filius <name>antiochi</name> mittit exercitum 
+<lb rend="indent"/>ad debellandum <name>iudam</name> et uinci
+<lb break="no"/>tur et pa<del rend="expunct">r</del>cem dat fincte quam 
+<lb rend="indent"/>continuo di<choice><orig>r</orig><reg>s</reg></choice>rupit</item>
+<cb n="b"/>
+<lb/><item><label>xviiii</label> Vbi <name>demetrius</name> occiso <name>antiocho</name> et <name>lysia</name> 
+<lb rend="indent"/>obtinuit regnum<reg>.</reg> et de <name><add place="above">al</add>cimo</name> et <name>bac<reg>c</reg>hide</name> 
+<lb rend="indent"/>et malitia eorum</item>
+<lb/><item><label>xx</label> Vbi secundo misit <name>demetrius</name> <name>nicanorem</name> 
+<lb rend="indent"/>ad debellandum <name>iudam</name></item>
+<lb/><item><label>xxi</label> Vbi orauit <subst><del rend="alt"><name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>m</expan></name> <name>iudas</name></del><add place="inline"><name>iudas</name> <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>m</expan></name></add></subst>.<!-- transpose --> et uicit <name>nicanorem</name> 
+<lb rend="indent"/>et occidit eum</item>
+<lb/><item><label>xxii</label> De <name>romanorum</name> fama quod omnia 
+<lb rend="indent"/>regna sibi subiecerunt</item>
+<lb/><item><label>xxiii</label> Vbi <name>iudas</name> mittit legatos <name>rom<expan><abbr rend="supraline">a</abbr><ex>m</ex></expan></name> 
+<lb rend="indent"/>coniurationis gratia</item>
+<lb/><item><label>xxiiii</label> Rescripta <name>romanorum</name> ad <name>iudaeos</name> 
+<lb rend="indent"/>et ut <name>demetrius</name> <name>iudae<subst><del rend="expunct">o</del><add place="above">i</add></subst>s</name> non ad
+<lb break="no"/>uersetur<surplus>.</surplus></item>
+<lb/><item><label>xxv</label> Vbi <name>demetrius</name> mittit exercitum 
+<lb rend="indent"/>ad <name>iudaeos</name> debellandos</item>
+<lb/><item><label>xxvi</label> Vbi <name>iudas</name> mortuus est in bello 
+<lb rend="indent"/>postquam destin<surplus><add place="above">c</add></surplus>xit partem <name>bac<reg>c</reg>hidis</name></item>
+<lb/><item><label>xxvii</label> De uiris impiis in malitia <name>bacchid<subst><del rend="strikethrough">e</del><add place="above">i</add></subst>s</name> 
+<lb rend="indent"/>post obitum <name>iudae</name></item>
+<lb/><item><label>xxviii</label> Vbi <name>ionathas</name> suscepit principatum 
+<lb rend="indent"/>et expugnauit filios <name>iambri</name> et <name>bac<reg>c</reg>hid<expan><abbr rend="supraline">e</abbr><ex>m</ex></expan></name></item>
+<lb/><item><label>xxviiii</label> Vbi <name>alchimus</name> uolens templum destruere 
+<lb rend="indent"/>obmutuit et de consilio malignorum 
+<lb rend="indent"/>prodito</item>
+<lb/><item><label>xxx</label> Vbi superatus est <name>bacchides</name> a <name>simone</name> 
+<lb rend="indent"/>et <name>ionatha<surplus source="#r">n</surplus></name> 
+<lb rend="indent"/>et reddit<supplied reason="omitted" source="#r">a</supplied> e<add place="above">i</add> <name>ionathas</name> 
+<lb rend="indent"/>captiuitate pacem firmauit</item>
+<lb/><item><label>xxxi</label> Vbi <name>alexander</name> <name>antiochi</name> filius 
+<lb rend="indent"/>suscepit regnum et uult cum eo 
+<lb rend="indent"/>pugnare <name>demetrius</name> et <name>ionatha<choice><sic>s</sic><corr source="#Heyse1873 #r">n</corr></choice></name> 
+<lb rend="indent"/>praeuenit ad amicitias facien
+<lb break="no"/>das <name>demetrius</name></item>
+<lb/><item><label>xxxii</label> Vbi <name>ionathan</name> tenuit <name>hierusalem</name> 
+<lb rend="indent"/>et muniuit eam</item>
+<lb/><item><label>xxxiii</label> Vbi rex <name>alexander</name> petit auxilium 
+<lb rend="indent"/><name>ionathae</name> aduersus <name>demetrium</name></item>
+<lb/><item><label>xxxiiii</label> Vbi <name>demetrius</name> petit auxilium 
+<lb rend="indent"/><name>ionathae</name> contra <name>alexandrum</name> 
+<lb rend="indent"/>et contemnitur</item>
+<lb/><item><label>xxxv</label> Vbi <name>alexander</name> in pugna occidit 
+<lb rend="indent"/><name>demetrium</name> et accepit filiam 
+<lb rend="indent"/><name>ptolomei</name> regis uxorem<reg>.</reg> 
+<lb rend="indent"/>et gloria <name>ionathae</name></item>
+<pb n="751r"/>
+<cb n="a"/>
+<lb/><item><label>xxxvi</label> Vbi <name>demetrius</name> filius <name>demetri<del rend="expunct">us</del><supplied reason="omitted" source="#Heyse1873 #r">i</supplied></name> 
+<lb rend="indent"/>accepit regnum et missum ab eo 
+<lb rend="indent"/><name>apollonium</name> expugnauit <name>ionathas</name></item>
+<lb/><item><label>xxxvii</label> Vbi <name>ionathas</name> uenit <name>ascalona</name> cum 
+<lb rend="indent"/>gloria et mittit ei <name>alexander</name> 
+<lb rend="indent"/>fibulam auream</item>
+<lb/><item><label>xxxviii</label> Vbi <name>ptolomeus</name> rex surrexit contra 
+<lb rend="indent"/><name>alexandrum</name> et ablatam ab eo 
+<lb rend="indent"/>filiam suam dedit <name>demetrio</name> 
+<lb rend="indent"/>et quod duo regna habuer<subst><del rend="expunct">a</del><add place="above">i</add></subst>t</item>
+<lb/><item><label>xxxviiii</label> Vbi occiditur <name>alexander</name> rex a <name>ga<choice><orig>t</orig><reg>d</reg></choice>di<surplus><add place="above">h</add></surplus>el</name> 
+<lb rend="indent"/><name>arab<surplus source="#Heyse1873 #r">a</surplus>e</name> et de morte <name>ptolomei</name> regis</item>
+<lb/><item><label>xl</label> Vbi <name>demetrius</name> regnans confirmat 
+<lb rend="indent"/>foedus cum <name>ionatha</name> et quietis 
+<lb rend="indent"/>omni<expan>b<am>’</am><ex>us</ex></expan> dimisit exercitum 
+<lb rend="indent"/><name>demetrius</name></item>
+<lb/><item><label>xli</label> Vbi <name>tryfon</name> erigit regem <name>antiochum</name> 
+<lb rend="indent"/>filium <name>alexandri</name> aduersus <name>demetri<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan></name> 
+<lb rend="indent"/>et auxilio <name>iudaeorum</name> saluatur 
+<lb rend="indent"/><name>demetrius</name> et perfidus existit</item>
+<lb/><item><label>xlii</label> Vbi uictus est <del rend="strikethrough"><name>ionathas</name></del> <name>demetrius</name> 
+<lb rend="indent"/>a <name>tryfone</name> et <name>antiocho</name></item>
+<lb/><item><label>xliii</label> De amicitiis <name>antiochi</name> cum 
+<lb rend="indent"/><name>ionatha</name> et <name>simone</name></item>
+<lb/><item><label>xliiii</label> Vbi <name>ionathas</name> pugnauit cum alieni genis 
+<lb rend="indent"/>et recuperata uirtute expug
+<lb break="no"/>nauit eos</item>
+<lb/><item><label>xlv</label> Vbi <name>ionathas</name> legatos mittit <name>romanis</name> 
+<lb rend="indent"/>et <name>spartiatis</name> de renouatione 
+<lb rend="indent"/>amicitiae et pacis</item>
+<lb/><item><label>xlvi</label> Vbi principes <name>demetrii</name> cum exercitu 
+<lb rend="indent"/>fugat <name>ionatha<surplus source="#r">n</surplus></name> et percussit <name>arabas</name> 
+<lb rend="indent"/>qui uoca<add place="above">n</add>tur <name>zabadaei</name></item>
+<lb/><item><label>xlvii</label> Vbi <name>tryfon</name> adsumere uolens regn<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> 
+<lb rend="indent"/><name>antiochiae</name> dolo agit cum <name>ionatha</name> 
+<lb rend="indent"/>et apud <name>ptolomaidam</name> conclusus est</item>
+<lb/><item><label>xlviii</label> Vbi <name>simonem</name> loco fratrum eius 
+<lb rend="indent"/>exercitus ducem constituit 
+<lb rend="indent"/>et de morte <name>ionathae</name></item>
+<lb/><item><label>xlv<damage>iiii</damage></label> Vbi <name>tryfon</name> occidit <name>antiochum</name> 
+<lb rend="indent"/>et regnauit pro eo</item>
+<lb/><item><label>l</label> Vbi <name>demetrius</name> constituit pacem 
+<lb rend="indent"/>cum <name>simone</name> et tributa dimisit</item>
+<lb/><item><label>li</label> Vbi <name>simon</name> expugnans <supplied reason="omitted" source="#Heyse1873 #r"><name>gazam</name></supplied> exoratus 
+<cb n="b"/>
+<lb rend="indent"/>dextras dedit et filium suum 
+<lb rend="indent"/>constituit ducem</item>
+<lb/><item><label>lii</label> Vbi congregauit rex <name>demetrius</name> 
+<lb rend="indent"/>exercitus suos et abiit <name>mediam</name> ad con
+<lb break="no"/>trahenda sibi auxilia ut expugnaret 
+<lb rend="indent"/><name>tryfonem</name><reg>.</reg> et misit <name>arsaces</name> rex 
+<lb rend="indent"/><name>persidis</name> et <name>mediae</name> principem suum 
+<lb rend="indent"/>et uiuum conprehendit <name>demetrius</name> 
+<lb rend="indent"/>et posuit eum in custodiam</item>
+<lb/><item><label>liii</label> Vbi captus <name>demetrius</name> est a rege 
+<lb rend="indent"/><name>persidis</name> et habitus in custodia<reg>.</reg> 
+<lb rend="indent"/>de sublimitate et potentia <name>simonis</name> 
+<lb rend="indent"/>et quiete terrae</item>
+<lb/><item><label>liiii</label> Rescri<choice><sic>b</sic><corr source="#Heyse1873 #r">p</corr></choice>ta pacis ad <name>simonem</name> ab <name>spartiatis</name></item>
+<lb/><item><label>lv</label> Vbi populus <name>iudaeorum</name> titulos 
+<lb rend="indent"/>gloriae <name>simoni</name> duci<del rend="strikethrough">s</del> suo statuerunt 
+<lb rend="indent"/>tabulis aen<del rend="strikethrough">a</del>eis</item>
+<lb/><item><label>lvi</label> Vbi <name>antiochus</name> <name>demetri<add place="above">i</add></name> filius accepit 
+<lb rend="indent"/>regnum paternum et coniuratus 
+<lb rend="indent"/><name>simoni</name> persecutus est <name>tryfonem</name> 
+<lb rend="indent"/>et fugauit</item>
+<lb/><item><label>lvii</label> Rescripta <name>romanorum</name> pacis cum 
+<lb rend="indent"/><name>simone<surplus source="#Heyse1873 #r">m</surplus></name> constitutę ad <name>ptolome<choice><sic>o</sic><corr source="#Heyse1873 #r">um</corr></choice></name> 
+<lb rend="indent"/>regem et ceter<subst><del rend="expunct">i</del><add place="above">o</add></subst>s</item>
+<lb/><item><label>lviii</label> Vbi <name>antiochus</name> <name>demetrii</name> rupta pace 
+<lb rend="indent"/>mittit <name>cendebeum</name> ad debellandam 
+<lb rend="indent"/><name>iudaeam</name> et ipse persequitur 
+<lb rend="indent"/><name>tryfonem</name></item>
+<lb/><item><label>lviiii</label> Vbi <name>simon</name> mittit duos filios suos 
+<lb rend="indent"/>ad <name>cendebeum</name> ducem <name>ptolomei</name> 
+<lb rend="indent"/>expugnandum</item>
+<lb/><item><label>lx</label> Vbi filii <name>simonis</name> uicerunt <name>cen
+<lb break="no"/>debeum</name> et <name>iudas</name> filius <name>simonis</name> 
+<lb rend="indent"/>uulneratus est</item>
+<lb/><item><label>lxi</label> Vbi <name>ptolomeus</name> filius <name>abobi</name> 
+<lb rend="indent"/>occidit <name>simonem</name> cum filiis 
+<lb rend="indent"/>suis in conuiuio et <name>iohann<choice><sic>e</sic><corr source="#Heyse1873 #r">i</corr></choice>s</name> 
+<lb rend="indent"/>filius <name>simonis</name> occidit eos 
+<lb rend="indent"/>qui uenerant perdere eum<surplus>:~</surplus></item>
+</list>
+<div type="textpart" subtype="finalRubric">
+<p rend="caps">
+<lb/><hi rend="red">expliciunt capitula</hi>
+<lb/><name>macchabeorum</name> <expan><abbr rend="supraline">lib</abbr><ex>ri</ex></expan> <num>·i·</num>
+</p>
+</div>
+</div>
+</body>
+</text>
+</TEI>

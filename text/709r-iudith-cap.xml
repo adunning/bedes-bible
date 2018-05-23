@@ -1,0 +1,136 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng"
+type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title xml:lang="la">Capitula</title>
+</titleStmt>
+<publicationStmt>
+<authority>Digital Latin Library</authority>
+<availability>
+<licence target="https://creativecommons.org/licences/by-sa/4.0/">Provided under a Creative Commons Attribution-ShareAlike 4.0 International Licence.</licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<settlement>Florence</settlement>
+<repository>Biblioteca Medicea Laurenziana</repository>
+<collection>Amiatino</collection>
+<idno>1</idno>
+<msName>Codex Amiatinus</msName>
+</msIdentifier>
+</msDesc>
+<listBibl>
+<biblStruct type="book" xml:id="Heyse1873" corresp="http://zotero.org/users/254032/items/69EHSXJZ">
+<monogr>
+<title level="m">Biblia sacra latina Veteris Testamenti Hieronymo interprete ex antiquissima auctoriatate in stichos descripta: Vulgatam lectionem ex editione Clementina principe anni MDXCII et Romana ultima anni MDCCCLXI repetitam testimonium comitatur Codicis Amiatini Latinorum omnium antiquissimi</title>
+<editor>
+<forename>Theodor</forename>
+<surname>Heyse</surname>
+</editor>
+<editor>
+<forename>Constantinus von</forename>
+<surname>Tischendorf</surname>
+</editor>
+<imprint>
+<pubPlace>Leipzig</pubPlace>
+<publisher>Brockhaus</publisher>
+<date>1873</date>
+<note type="url">https://archive.org/details/biblicasacralati00unse</note>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct type="book" xml:id="r" corresp="http://zotero.org/users/254032/items/SV9ECTS4">
+<monogr>
+<title level="m">Biblia Sacra iuxta latinam vulgatam versionem</title>
+<editor>
+<orgName>Pontifical Abbey of St Jerome-in-the-City</orgName>
+</editor>
+<editor>
+<forename>Henri</forename>
+<surname>Quentin</surname>
+</editor>
+<imprint>
+<pubPlace>Rome</pubPlace>
+<publisher>Libreria Editrice Vaticana</publisher>
+<date>1926–1995</date>
+</imprint>
+</monogr>
+</biblStruct>
+</listBibl>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text xml:lang="la">
+<body>
+<div type="textpart">
+<list>
+<head rend="red caps">
+<lb/>incipiunt capitula
+</head>
+<lb/><item><label>i</label> <hi rend="red">De</hi> regno <name>arfaxat</name> et magnitudine 
+<lb rend="indent"/>ciuitatis eius</item>
+<lb/><item><label>ii</label> De regno <name>nabuchodonosor</name></item>
+<lb/><item><label>iii</label> De <name>nabuchodonosor</name> uolente 
+<lb rend="indent"/>subiugare sibi omnem terram 
+<lb rend="indent"/>per <name>holofornem</name> ducem</item>
+<lb/><item><label>iiii</label> Vbi optinuit <name>damascum</name> et omn<expan><abbr rend="supraline">e</abbr><ex>m</ex></expan> 
+<lb rend="indent"/>orbem terrarum<reg>.</reg> et uoluit <name>deum</name> 
+<lb rend="indent"/>se ab homini<expan>b<am>’</am><ex>us</ex></expan> nuncupari</item>
+<lb/><item><label>v</label> De filiis <name>israhel</name> praeparanti<expan>b<am>’</am><ex>us</ex></expan> se ad pugn<expan><abbr rend="supraline">a</abbr><ex>m</ex></expan>
+<lb rend="indent"/>contra <name>holofornem</name> ad pugnam ieiuniis 
+<lb rend="indent"/>et orationi<expan>b<am>’</am><ex>us</ex></expan> instructi cum sacerdoti<expan>b<am>’</am><ex>us</ex></expan></item>
+<cb n="b"/>
+<lb/><item><label>vi</label> Vbi cognoscit <name>holofornes</name> famam 
+<lb rend="indent"/>populi <name>israhel</name> et mirabilia <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> 
+<lb rend="indent"/>per <name>achior</name></item>
+<lb/><item><label>vii</label> Irato <name>holoforne</name> tradidit <name>achior</name> 
+<lb rend="indent"/>populo <name>israheli</name></item>
+<lb/><item><label>viii</label> De <name>achior</name> narrante filiis <name>israhel</name> 
+<lb rend="indent"/>consilia <name>holofornis</name></item>
+<lb/><item><label>viiii</label> De obsidione populi <name>israhel</name> 
+<lb rend="indent"/>in <name><choice><sic>u</sic><corr source="#r">b</corr></choice>etulia</name> ciuitate</item>
+<lb/><item><label>x</label> De populo disperante et uolen<del rend="erased">t</del>te 
+<lb rend="indent"/>ciuitatem tradere in mani<expan>b<am>’</am><ex>us</ex></expan> <name>holofornis</name></item>
+<lb/><item><label>xi</label> De consilio sacerdotum cum ludith</item>
+<lb/><item><label>xii</label> Oratio <name>iudith</name></item>
+<lb/><item><label>xiii</label> De ornatu <name>iudith</name> cum quo p<del rend="expunct">e</del>rofecta 
+<lb rend="indent"/>est ad <name>holofornem</name></item>
+<lb/><item><label>xiiii</label> De simulatione <name>iudith</name> quod traderet 
+<lb rend="indent"/>populum <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> in mani<expan>b<am>’</am><ex>us</ex></expan> <name>holofornis</name></item>
+<lb/><item><label>xv</label> De rogatione <name>holofornis</name> per eu
+<lb break="no"/>nuchum ut <name>iudith</name> in con
+<lb break="no"/>iugium acciperet</item>
+<lb/><item><label>xvi</label> Vbi <name>iudith</name> occidit <name>holofornem</name> 
+<lb rend="indent"/>et auferens caput eius abiit</item>
+<lb/><item><label>xvii</label> De reuersione <name>iudith</name> ad ciuitatem 
+<lb rend="indent"/>et narratione eius 
+<lb rend="indent"/>de mirabilia <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name></item>
+<lb/><item><label>xviii</label> De capite <name>holofornis</name> suspenso 
+<lb rend="indent"/>in porta et adhortatione 
+<lb rend="indent"/>ciui<del rend="erased">c</del>um ad bellum</item>
+<lb/><item><label>xviiii</label> De circumcisione <name>achior</name></item>
+<lb/><item><label>xx</label> Vbi tradidit <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>s</expan></name> <name>assyrios</name> in manu 
+<lb rend="indent"/><name><expan>i<abbr rend="supraline">sr</abbr><ex>ahe</ex>l</expan></name> et depraedati sunt eos</item>
+<lb/><item><label>xxi</label> De sacerdoti<expan>b<am>’</am><ex>us</ex></expan> benedicenti<expan>b<am>’</am><ex>us</ex></expan> <name>iudith</name> 
+<lb rend="indent"/>et danti<expan>b<am>’</am><ex>us</ex></expan> ei omnes diuitias 
+<lb rend="indent"/><name>holofornis</name></item>
+<lb/><item><label>xxii</label> Canticum <name>iudith</name></item>
+<lb/><item><label>xxiii</label> De populo uenienti <name>hierusalem</name> 
+<lb rend="indent"/>et adoranti <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>m</expan></name> optulit<expan>q<am>’</am><ex>ue</ex></expan> 
+<lb rend="indent"/>sacrificia et <name>iudith</name> uasa 
+<lb rend="indent"/>et conopeum <name>holofornis</name> 
+<lb rend="indent"/>optulit in templum <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name><surplus>:⁓</surplus></item>
+</list>
+<div type="textpart" subtype="finalRubric">
+<p rend="red caps">
+<lb/>expliciunt capitula
+</p>
+</div>
+</div>
+</body>
+</text>
+</TEI>

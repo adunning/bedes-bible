@@ -183,7 +183,7 @@ type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <lb/><item><label>xvii<supplied reason="omitted">i</supplied></label> Hic profectionum loca comme
 <lb break="no"/>morat et a quo in quem fixe
 <lb break="no"/>rint loca tentoriae<!-- chk r; et in quibus fixerint locis tentoria H --></item>
-<lb/><item><label>xviii<supplied reason="omitted">i</supplied></label> Vbi <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>s</expan></name> praec<choice><sic>e</sic><corr source="#Heyse1873">i</corr></choice>pit<!-- TEI transpose a.c. --> qualiter ter
+<lb/><item><label>xviii<supplied reason="omitted">i</supplied></label> Vbi <subst><del rend="alt"><name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>s</expan></name> praecepit</del><add place="inline"><name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>s</expan></name> praec<choice><sic>e</sic><corr source="#Heyse1873">i</corr></choice>pit</add></subst><!-- TEI transpose? --> qualiter ter
 <lb break="no"/>ram promissionis sorte 
 <lb rend="indent"/>diuidant et unaquae<expan>q<am>’</am><ex>ue</ex></expan> tri<expan>b<am>’</am><ex>us</ex></expan> 
 <lb rend="indent"/>cuius loci debeat fine concludi</item>

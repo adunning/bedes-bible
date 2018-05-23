@@ -109,9 +109,9 @@ type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <lb break="no"/>rationes <name>tharae</name> qui genuit <name>abram</name> 
 <lb rend="indent"/>et <name>nahor</name> et <name>aran</name> unde oritur <placeName><expan>i<abbr rend="supraline">sr</abbr><ex>ahe</ex>l</expan></placeName> 
 <lb rend="indent"/><name>principium</name> sermonis <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name> ad <name>abram</name></item>
-<lb/><item><label>xii</label> Abraham facta fame in terra <name>aegypti</name> 
+<lb/><item><label>xii</label> <name>Abraham</name> facta fame in terra <name>aegypti</name> 
 <lb rend="indent"/>abiit cum uxorem suam</item>
-<lb/><item><label>xiii</label> Abraham et <name>loth</name> ascenderunt de 
+<lb/><item><label>xiii</label> <name>Abraham</name> et <name>loth</name> ascenderunt de 
 <lb rend="indent"/><name>aegypto</name> diuiseruntque ab inuicem
 <lb rend="indent"/><name>abraham</name> habitauit in terra <name>chanaan</name> 
 <lb rend="indent"/>et <name>loth</name> in <name>sodomis</name></item>

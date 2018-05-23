@@ -131,7 +131,7 @@ type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <pb n="86v"/>
 <cb n="a"/>
 <lb rend="indent"/>non offerre nullum alienige
-<lb break="no"/>nam <expan>s<ex>an</ex><abbr rend="supraline">c</abbr><ex>t</ex>a</expan> <expan>s<ex>an</ex><abbr rend="supraline">c</abbr><ex>t</ex>o</expan>rum adtingere</item>
+<lb break="no"/>nam <expan>s<ex>an</ex><abbr rend="supraline">c</abbr><ex>t</ex>a</expan> <expan>s<ex>an</ex><abbr rend="supraline">c</abbr><ex>t</ex>orum</expan> adtingere</item>
 <lb/><item><label>xiiii</label> De uictimis pacificorum quae sint 
 <lb rend="indent"/>in <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>o</expan></name> consecranda<reg>.</reg> de solemni
 <lb break="no"/>tate azymorum et consecrati

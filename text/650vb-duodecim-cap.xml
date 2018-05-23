@@ -1,0 +1,381 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng"
+type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title xml:lang="la">Capitula</title>
+</titleStmt>
+<publicationStmt>
+<authority>Digital Latin Library</authority>
+<availability>
+<licence target="https://creativecommons.org/licences/by-sa/4.0/">Provided under a Creative Commons Attribution-ShareAlike 4.0 International Licence.</licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<settlement>Florence</settlement>
+<repository>Biblioteca Medicea Laurenziana</repository>
+<collection>Amiatino</collection>
+<idno>1</idno>
+<msName>Codex Amiatinus</msName>
+</msIdentifier>
+</msDesc>
+<listBibl>
+<biblStruct type="book" xml:id="Heyse1873" corresp="http://zotero.org/users/254032/items/69EHSXJZ">
+<monogr>
+<title level="m">Biblia sacra latina Veteris Testamenti Hieronymo interprete ex antiquissima auctoriatate in stichos descripta<reg>.</reg> Vulgatam lectionem ex editione Clementina principe anni MDXCII et Romana ultima anni MDCCCLXI repetitam testimonium comitatur Codicis Amiatini Latinorum omnium antiquissimi</title>
+<editor>
+<forename>Theodor</forename>
+<surname>Heyse</surname>
+</editor>
+<editor>
+<forename>Constantinus von</forename>
+<surname>Tischendorf</surname>
+</editor>
+<imprint>
+<pubPlace>Leipzig</pubPlace>
+<publisher>Brockhaus</publisher>
+<date>1873</date>
+<note type="url">https://archive.org/details/biblicasacralati00unse</note>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct type="book" xml:id="r" corresp="http://zotero.org/users/254032/items/SV9ECTS4">
+<monogr>
+<title level="m">Biblia Sacra iuxta latinam vulgatam versionem</title>
+<editor>
+<orgName>Pontifical Abbey of St Jerome-in-the-City</orgName>
+</editor>
+<editor>
+<forename>Henri</forename>
+<surname>Quentin</surname>
+</editor>
+<imprint>
+<pubPlace>Rome</pubPlace>
+<publisher>Libreria Editrice Vaticana</publisher>
+<date>1926–1995</date>
+</imprint>
+</monogr>
+</biblStruct>
+</listBibl>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text xml:lang="la">
+<body>
+<div type="textpart">
+<head rend="red caps">
+<lb/>Incipiunt tituli d<supplied reason="omitted" source="#Heyse1873">u</supplied>odecim
+<lb/><expan>pro<abbr rend="supraline">p</abbr><ex>hetarum</ex></expan>
+</head>
+<div type="textpart">
+<list>
+<lb/><item><label>i</label> <hi rend="red"><hi rend="enlargeds">D</hi>e uxore fornicaria quam a <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>o</expan></name> propheta</hi> 
+<lb rend="indent"/>iubetur accipere et de populo peccaturo 
+<lb rend="indent"/>et a <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>o</expan></name> castigando</item>
+<lb/><item><label>ii</label> Ammonetur populus <name><expan>i<abbr rend="supraline">sr</abbr><ex>ahe</ex>l</expan></name> a malis recedere 
+<lb rend="indent"/>ne diuersas quas interminatur <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>s</expan></name> 
+<lb rend="indent"/>suscipiat ultiones</item>
+<lb/><item><label>iii</label> De idolorum destructione perpetua 
+<lb rend="indent"/>et de <name><expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>i</expan></name> ecclesia construenda</item>
+<lb/><item><label>iiii</label> Iubetur adhuc propheta populos monere ne peccent<reg>.</reg> 
+<lb rend="indent"/>quorum aliqui quidem redituri tantum 
+<lb rend="indent"/>promissione dicuntur ad <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>m</expan></name></item>
+<lb/><item><label>v</label> Sacerdoti<expan>b<am>’</am><ex>us</ex></expan> et domui <name><expan>i<abbr rend="supraline">sr</abbr><ex>ahe</ex>l</expan></name> pro peccatis cladem 
+<lb rend="indent"/>uenire pronuntiat et misericordiam <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> 
+<lb rend="indent"/>paenitenti<expan>b<am>’</am><ex>us</ex></expan> pollicetur</item>
+<lb/><item><label>vi</label> Diuersa mala referuntur <name><expan>i<abbr rend="supraline">sr</abbr><ex>ahe</ex>l</expan></name><reg>.</reg> quos nimiam 
+<lb rend="indent"/>famem passuros et post haec dicit 
+<lb rend="indent"/><name>assyriis</name> esse tradendos</item>
+<lb/><item><label>vii</label> Adhuc peccata referuntur <name><expan>i<abbr rend="supraline">sr</abbr><ex>ahe</ex>l</expan></name> et ultio in eos 
+<lb rend="indent"/>per iram <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name> processura narratur</item>
+<lb/><item><label>viii</label> Per paenitentiam et damnationem malorum actu<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> 
+<lb rend="indent"/><name><expan>i<abbr rend="supraline">sr</abbr><ex>ahe</ex>l</expan></name> reuerti monetur ad <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>m</expan></name></item>
+</list>
+<div type="textpart" subtype="finalRubric">
+<lb/><p rend="red caps"><expan>exp<abbr rend="supraline">l</abbr><ex>iciunt</ex></expan> tituli <name>osee</name> <expan>pro<abbr rend="supraline">p</abbr><ex>hetae</ex></expan></p>
+</div>
+</div>
+<div type="textpart">
+<list>
+<head><expan>in<abbr rend="supraline">c</abbr><ex>ipiunt</ex></expan> tituli <name>iohel</name> prophetae</head>
+<pb n="651r"/>
+<cb n="a"/>
+<lb/><item><label>i</label> <hi rend="red"><hi rend="enlarged">D</hi>e fame</hi> et bellis et uastatione<surplus source="#r">m</surplus> quam passurus 
+<lb rend="indent"/>erat <name><expan>i<abbr rend="supraline">sr</abbr><ex>ahe</ex>l</expan></name> uerbis propheticis admonetur</item>
+<lb/><item><label>ii</label> De his quae uentura sunt in nouissimis temporibus 
+<lb rend="indent"/>super infideles dicit et de futuro iudicio</item>
+<lb/><item><label>iii</label> De congregatione futura populi fidelis <surplus>e</surplus>
+<lb rend="indent"/>et diaboli destructione <expan>s<ex>an</ex><abbr rend="supraline">c</abbr><ex>t</ex>orum</expan><expan>q<am>’</am><ex>ue</ex></expan> 
+<lb rend="indent"/>aeterna beatitudine prophetatur</item>
+<lb/><item><label>iiii</label> De <name><expan>s<ex>an</ex><abbr rend="supraline">c</abbr><ex>t</ex>o</expan> <expan>s<abbr rend="supraline">p</abbr><ex>irit</ex>u</expan></name> quem erant apostoli percepturi 
+<lb rend="indent"/>et de prodigi<supplied reason="omitted" source="#Heyse1873">i</supplied>s nouissimi temporis 
+<lb rend="indent"/>et salute fidelium</item>
+<lb/><item><label>v</label> De uniuersis genti<expan>b<am>’</am><ex>us</ex></expan> infideli<expan>b<am>’</am><ex>us</ex></expan> populus <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name> 
+<lb rend="indent"/>promittitur uindicandus et beatitudine 
+<lb rend="indent"/>at<expan>q<am>’</am><ex>ue</ex></expan> perpetua amoenitate laetari</item>
+</list>
+<div type="textpart" subtype="finalRubric">
+<p rend="red caps">
+<lb/>expliciunt tituli <name>iohel</name> prophetae
+</p>
+</div>
+</div>
+<div type="textpart">
+<list>
+<lb/><head rend="red caps">Inci<add place="above">pi</add>unt tituli <name>amos</name> prophetae</head>
+<lb/><item><label>i</label> <hi rend="red"><hi rend="enlarged">D</hi>e</hi> temporibus prophetae <name>amos</name> et de indignatio
+<lb break="no"/><del rend="expunct">i</del>ne dicit <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name><reg>.</reg> quae sit infideli<expan>b<am>’</am><ex>us</ex></expan> adfutura</item>
+<lb/><item><label>ii</label> Genti<expan>b<am>’</am><ex>us</ex></expan> quae numerantur et <name><expan>i<abbr rend="supraline">sr</abbr><ex>ahe</ex>l</expan></name> delinquenti 
+<lb rend="indent"/>d<add place="above">i</add>cit tertio miserendum ulterius uero 
+<lb rend="indent"/>nec conuersionem conc<choice><sic>i</sic><corr source="#Heyse1873 #r">e</corr></choice>dendam eis 
+<lb rend="indent"/>fore nec ueniam</item>
+<lb/><item><label>iii</label> De increpatione populi <name><expan>i<abbr rend="supraline">sr</abbr><ex>ahe</ex>l</expan></name> et idololatria gentili<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan></item>
+<lb/><item><label>iiii</label> Pro idolorum cultura <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>s</expan></name> infidelibus 
+<lb rend="indent"/>minatur interitum</item>
+<lb/><item><label>v</label> <expan>D<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan> indignatione praemissa peccatores hortatur 
+<lb rend="indent"/>ad paenitentiam et idolorum damnare cultur<expan><abbr rend="supraline">a</abbr><ex>m</ex></expan></item>
+<lb/><item><label>vi</label> Delicta referuntur eorum qui spernentes 
+<lb rend="indent"/>mandata <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name> idolorum culturae deseruiunt<reg>.</reg> 
+<lb rend="indent"/>qui<expan>b<am>’</am><ex>us</ex></expan> quanta sint superuentura mala 
+<lb rend="indent"/>prophetatur</item>
+<lb/><item><label>vii</label> Propter scelera populi <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>m</expan></name> propheta depraeca
+<lb break="no"/>tur<reg>.</reg> cui <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>s</expan></name> respondit et idola destruenda 
+<lb rend="indent"/>et templi subuertenda sacraria</item>
+<lb/><item><label>viii</label> De indignatione <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name> quae multimodis super impios 
+<lb rend="indent"/>nouissimo tempore sit futura</item>
+<lb/><item><label>viiii</label> Relinquentes <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>m</expan></name> et idolorum culturae 
+<lb rend="indent"/>seruientes commemorat qualia sint 
+<lb rend="indent"/>mala passuri</item>
+<lb/><item><label>x</label> De futura dicit congregatione fidelium 
+<lb rend="indent"/>et de conferenda eis afluentia praemiorum</item>
+</list>
+<div type="textpart" subtype="finalRubric">
+<p rend="red caps">
+<lb/><expan>ex<abbr rend="supraline">p</abbr><ex>liciunt</ex></expan> tituli <name>amos</name> prophetae
+</p>
+</div>
+</div>
+<div type="textpart">
+<list>
+<head rend="red caps">
+<lb/><expan>inci<abbr rend="supraline">p</abbr><ex>iunt</ex></expan> tituli <name>abdiae</name> prophetae</head>
+<cb n="b"/>
+<lb/><item><label>i</label> <hi rend="red">Ar</hi>guuntur illi qui populum <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name> persequentes 
+<lb rend="indent"/>eum uirtute dicebant propria subiugatum<reg>.</reg> 
+<lb rend="indent"/>simul<expan>q<am>’</am><ex>ue</ex></expan> et persequentium poena et populi <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name> 
+<lb rend="indent"/>praemia referuntur</item>
+</list>
+<div type="textpart" subtype="finalRubric">
+<p rend="red caps">
+<lb/><expan>ex<abbr rend="supraline">p</abbr><ex>liciunt</ex></expan> tituli <name>abdiae</name> prophetae
+</p>
+</div>
+</div>
+<div type="textpart">
+<list>
+<head rend="red caps">
+<lb/>Incipiunt tituli <name>ionae</name> prophetae
+</head>
+<lb/><item><label>i</label> <hi rend="red">De</hi> <name>iona</name> misso <name>nineue</name> orta nauigii tempestate</item>
+<lb/><item><label>ii</label> De <name>nineuetarum</name> paenitentia et <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name> misericor
+<lb break="no"/>dia subsecuta</item>
+</list>
+<div type="textpart" subtype="finalRubric">
+<p rend="red caps">
+<lb/><expan>ex<abbr rend="supraline">pl</abbr><ex>iciunt</ex></expan> tituli <name>ionae</name> prophetae
+</p>
+</div>
+</div>
+<div type="textpart">
+<list>
+<head rend="red caps">
+<lb/>Incipiunt tituli in <name>micheam</name> prophetam
+</head>
+<lb/><item><label>i</label> <hi rend="red">Pro</hi>pter idololatriam <name>samariae</name> et praeuarica
+<lb break="no"/>tionem populi <name><expan>i<abbr rend="supraline">sr</abbr><ex>ahe</ex>l</expan></name> captiuitatem et interit<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> 
+<lb rend="indent"/>eis uenturum propheta pronuntiat</item>
+<lb/><item><label>ii</label> Super prophetas sacerdotes et principes 
+<lb rend="indent"/>qui ad similitudinem legis idolorum 
+<lb rend="indent"/>culturae seruiebant indignatio <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name> 
+<lb rend="indent"/>uentura praedic<choice><sic>e</sic><corr source="#Heyse1873 #r">i</corr></choice>tur</item>
+<lb/><item><label>iii</label> De noua <name>hierusalem</name> dicit et de populo qui sub
+<lb break="no"/>iugati<supplied reason="omitted" source="#Heyse1873 #r">s</supplied> genti<expan>b<am>’</am><ex>us</ex></expan> in ea sunt regnaturi cum <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>o</expan></name></item>
+<lb/><item><label>iiii</label> De regno <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan> <expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>i</expan></name> futuro et de uindicta gentili<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> 
+<lb rend="indent"/>et fidelium purificatione populorum</item>
+<lb/><item><label>v</label> Enumeratione beneficiorum <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>s</expan></name> peccantem 
+<lb rend="indent"/>increpat <name><expan>i<abbr rend="supraline">sr</abbr><ex>ahe</ex>l</expan></name> respuens eius sacrificia 
+<lb rend="indent"/>et mandata uirtutum potius monens 
+<lb rend="indent"/>esse seruanda</item>
+<lb/><item><label>vi</label> De lamentatione <name>micheae</name> prophetae 
+<lb rend="indent"/>pro interitu populi delinquentis et de paeni
+<lb break="no"/>tentia eorum et misericordia <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name> secutura 
+<lb rend="indent"/>et de infidelium destructione perpetua</item>
+<lb/><item><label>vii</label> Nouissimis tempori<expan>b<am>’</am><ex>us</ex></expan> fideli<expan>b<am>’</am><ex>us</ex></expan> congregatis 
+<lb rend="indent"/>ad praemia gentes adnihilandas esse pronuntiat. 
+<lb rend="indent"/><expan>s<ex>an</ex><abbr rend="supraline">c</abbr><ex>t</ex>is</expan> in beata aeternitate mansuris</item>
+</list>
+<div type="textpart" subtype="finalRubric">
+<p rend="red caps">
+<lb/><expan>ex<abbr rend="supraline">pl</abbr><ex>iciunt</ex></expan> tituli in <name>micheam</name> prophetam
+</p>
+</div>
+</div>
+<div type="textpart">
+<list>
+<head rend="red caps">
+<lb/><expan>Inci<abbr rend="supraline">p</abbr><ex>iunt</ex></expan> tituli in <name>naum</name> prophetam
+</head>
+<lb/><item><label>i</label> <hi rend="red">Ni</hi>neuitae per <name>naum</name> prohibentur peccare 
+<lb rend="indent"/>quatenus per paenitentiam liberentur<reg>.</reg> 
+<lb rend="indent"/><name>nineue</name> uero ab <name>assyriis</name> subuertendam 
+<lb rend="indent"/>praedicitur</item>
+</list>
+<div type="textpart" subtype="finalRubric">
+<p rend="red caps">
+<lb/><expan>ex<abbr rend="supraline">p</abbr><ex>liciunt</ex></expan> tituli in <name>na<add place="above">u</add>m</name> prophetam
+</p>
+</div>
+</div>
+<div type="textpart">
+<list>
+<head rend="red caps">
+<lb/><expan>inci<abbr rend="supraline">p</abbr><ex>iunt</ex></expan> tituli in <name>ambacum</name> prophetam
+</head>
+<pb n="651v"/>
+<cb n="a"/>
+<lb/><item><label>i</label> <hi rend="red">De</hi> iniquitate <name><expan>i<abbr rend="supraline">sr</abbr><ex>ahe</ex>l</expan>itici</name> populi ad <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>m</expan></name> propheta 
+<lb rend="indent"/>clamante<reg>.</reg> <name>chaldaeorum</name> gens in eorum uindicta 
+<lb rend="indent"/>dicitur excitanda</item>
+<lb/><item><label>ii</label> Propter populi peccata quae refert indignatione 
+<lb rend="indent"/><name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name> excitatis genti<expan>b<am>’</am><ex>us</ex></expan> ciuitatem et populum 
+<lb rend="indent"/>dicit esse periturum</item>
+<lb/><item><label>iii</label> Oratio <name>ambacum</name> prophetae cum cantico</item>
+</list>
+<div type="textpart" subtype="finalRubric">
+<p rend="red caps">
+<lb/><expan>ex<abbr rend="supraline">p</abbr><ex>liciunt</ex></expan> tituli <name>ambacuc</name> prophetae
+</p>
+</div>
+</div>
+<div type="textpart">
+<list>
+<head rend="red caps">
+<lb/><expan>inci<abbr rend="supraline">p</abbr><ex>iunt</ex></expan> tituli <name>sofoniae</name> prophetae
+</head>
+<lb/><item><label>i</label> <hi rend="red">Di</hi>uersa pericula quae post mortem <name>iosiae</name> 
+<lb rend="indent"/>erant populo delinquenti uentura propheta 
+<lb rend="indent"/>praedicit sub cuius tamen imperio 
+<lb rend="indent"/>securitas mansura promittitur</item>
+</list>
+<div type="textpart" subtype="finalRubric">
+<p rend="red caps">
+<lb/><expan>exp<abbr rend="supraline">l</abbr><ex>iciunt</ex></expan> <name>sofoniae</name> prophetae
+</p>
+</div>
+</div>
+<div type="textpart">
+<list>
+<head rend="red caps">
+<lb/><expan>in<abbr rend="supraline">c</abbr><ex>ipiunt</ex></expan> tituli <name>aggei</name> prophetae
+</head>
+<lb/><item><label>i</label> <hi rend="red">De</hi> reuersione populi post captiuitatem 
+<lb rend="indent"/><name>chaldaeorum</name> et templi aedificatione 
+<lb rend="indent"/>et renouatione ciuitatis et obseruantia 
+<lb rend="indent"/>sacerdotum et gentium destructione 
+<lb rend="indent"/>prophetatur</item>
+</list>
+<div type="textpart" subtype="finalRubric">
+<p rend="red caps">
+<lb/><expan>ex<abbr rend="supraline">p</abbr><ex>liciunt</ex></expan> tituli <name>aggei</name> prophetae
+</p>
+</div>
+</div>
+<div type="textpart">
+<list>
+<head rend="red caps">
+<lb/><expan>inci<abbr rend="supraline">p</abbr><ex>iunt</ex></expan> tituli <name>zacchariae</name> prophetae
+</head>
+<lb/><item><label>i</label> <hi rend="red">Am</hi>monetur populus <name><expan>i<abbr rend="supraline">sr</abbr><ex>ahe</ex>l</expan></name> ne peccata quae 
+<lb rend="indent"/>commemorantur paterna sectetur 
+<lb rend="indent"/>sed <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name> potius mandata custodiat</item>
+<lb/><item><label>ii</label> De uindicta in genti<expan>b<am>’</am><ex>us</ex></expan> facienda quae populum 
+<lb rend="indent"/><name><expan>i<abbr rend="supraline">sr</abbr><ex>ahe</ex>l</expan></name> in captiuitatem red<choice><sic>i</sic><corr source="#Heyse1873 #r">e</corr></choice>gera<supplied reason="omitted" source="#Heyse1873 #r">n</supplied>t et de miseri
+<lb break="no"/>cordia <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name> super populum <name>israhel</name> 
+<lb rend="indent"/>et restaurationem <name>hierusalem</name></item>
+<lb/><item><label>iii</label> De quattuor regnis<del rend="expunct">i</del> quae populum <name><expan>i<abbr rend="supraline">sr</abbr><ex>ahe</ex>l</expan></name> 
+<lb rend="indent"/>disperserant extinguendis et de restaura
+<lb break="no"/>tione <name>hierusalem</name> et congregatione fideli<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> 
+<lb rend="indent"/>et de hostium prophetatur interitu</item>
+<lb/><item><label>iiii</label> Post captiuitatem <name>hierusalem</name> laetitiam illi 
+<lb rend="indent"/>dicit esse uenturam commemorans diabol<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> 
+<lb rend="indent"/>destruend<subst><del rend="alt">a</del><add place="above">u</add></subst>m quia dextris <name><expan>i<am rend="supraline">h</am><ex>es</ex>u</expan></name> magni sacerdo
+<lb break="no"/>tis adstabat et de purificatione populi fidelis</item>
+<lb/><item><label>v</label> De aduentu <name><expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>i</expan></name> et lapide<surplus source="#Heyse1873 #r">m</surplus> ante faciem eius dato 
+<lb rend="indent"/>et de interpr<surplus>a</surplus>etatione uisionum quae sunt 
+<lb rend="indent"/>prophetae monstratae per angelum</item>
+<lb/><item><label>vi</label> Visio duarum mulierum et quattuor curru<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> 
+<cb n="b"/>
+<lb rend="indent"/>procedentium de medio duorum montium 
+<lb rend="indent"/>quae interpr<surplus>a</surplus>etatur ab angelo</item>
+<lb/><item><label>vii</label> De aduentu <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan> <expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>i</expan></name> eius potentia et de ecclesia 
+<lb rend="indent"/>construenda prophetatur</item>
+<lb/><item><label>viii</label> Non tantum de ieiuniis sed potius obseruatio
+<lb break="no"/>ne<surplus source="#r">m</surplus> iustitiae ceterarum<expan>q<am>’</am><ex>ue</ex></expan> uirtutum 
+<lb rend="indent"/><name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>o</expan></name> placer<choice><sic>i</sic><corr source="#Heyse1873">e</corr></choice> commemorat</item>
+<lb/><item><label>viiii</label> In captiuitate deficiente populo qui peccauerat 
+<lb rend="indent"/>eorum filios qui reuersi sunt <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name> 
+<lb rend="indent"/>consecuturos dicit esse misericordia<supplied reason="omitted" source="#Heyse1873">m</supplied> 
+<lb rend="indent"/>quos tamen ammonet ut praeceptis 
+<lb rend="indent"/>debeant oboed<choice><sic>e</sic><corr source="#Heyse1873">i</corr></choice>re diuinis</item>
+<lb/><item><label>x</label> De ieiuniis dicit quarti quinti septimi 
+<lb rend="indent"/>et decimi mensis</item>
+<lb/><item><label>xi</label> Post captiuitatem reuerso populo <name><expan>i<abbr rend="supraline">sr</abbr><ex>ahe</ex>l</expan></name> 
+<lb rend="indent"/>gentes quas enumerat asserit subiugandas</item>
+<lb/><item><label>xii</label> De <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>o</expan></name> saluatore et quod super pullum 
+<lb rend="indent"/>asinae esset uentur<choice><sic>o</sic><corr source="#Heyse1873">u</corr></choice>s in <name>hierusalem</name> 
+<lb rend="indent"/>propheta praedicit</item>
+<lb/><item><label>xiii</label> De seductori<expan>b<am>’</am><ex>us</ex></expan> populi futuro <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> iudicio 
+<lb rend="indent"/>conburendis et de idolorum cultura 
+<lb rend="indent"/>funditus amputanda <subst><del rend="alt">m</del><add place="inline">co</add></subst>mmemorat<surplus>.</surplus></item>
+<lb/><item><label>xiiii</label> Vindictam de genti<expan>b<am>’</am><ex>us</ex></expan> facere <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>m</expan></name> creatorem 
+<lb rend="indent"/>omnium pollicetur<reg>.</reg> de <name>gog</name> et <name>magog</name> 
+<lb rend="indent"/>et de beatitudine futura fidelium 
+<lb rend="indent"/>et damnatione simulacra colentium</item>
+<lb/><item><label>xv</label> De futuro regn<choice><sic>i</sic><corr source="#Heyse1873">o</corr></choice> caelestis <name>hierusalem</name> textus 
+<lb rend="indent"/>lectionis euidenter eloquitur</item>
+</list>
+<div type="textpart" subtype="finalRubric">
+<p rend="red caps">
+<lb/>Expliciunt tituli <name>zachariae</name> prophetae
+</p>
+</div>
+</div>
+<div type="textpart">
+<list>
+<head rend="red caps">
+<lb/><expan>Inci<abbr rend="supraline">p</abbr><ex>iunt</ex></expan> tituli <name>malachiae</name> prophetae
+</head>
+<lb/><item><label>i</label> <hi rend="red">In</hi>crepantur populi <name><expan>i<abbr rend="supraline">sr</abbr><ex>ahe</ex>l</expan></name> cur sacerdotes 
+<lb rend="indent"/>haberent corpore uitiosos et deos 
+<lb rend="indent"/>colerent alienos</item>
+<lb/><item><label>ii</label> De angelo id est <name>helia</name> qui in <expan>s<ex>e</ex>c<ex>u</ex><abbr rend="supraline">l</abbr>i</expan> fine 
+<lb rend="indent"/>uenturus est et de <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name> futuro iudicio</item>
+<lb/><item><label>iii</label> Referuntur qualia sint in die iudicii impior<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> 
+<lb rend="indent"/>futura supplicia et praemia perpetua 
+<lb rend="indent"/>beatorum</item>
+</list>
+</div>
+<div type="textpart" subtype="finalRubric">
+<p rend="red caps">
+<lb/>Expliciunt capitula duo
+<lb break="no"/>decim prophetarum
+</p>
+</div>
+</div>
+</body>
+</text>
+</TEI>

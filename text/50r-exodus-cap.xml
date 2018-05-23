@@ -90,7 +90,7 @@ type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <lb rend="indent"/>et ineloquentem se esse pronun
 <lb break="no"/>tiat. iratus <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>s</expan></name> ut cum <name>aaron</name> 
 <lb rend="indent"/>pergeret iubet</item>
-<lb/><item><label>iii</label> Mosi reuertenti in <name>aegyptum</name> occur
+<lb/><item><label>iii</label> <name>Mosi</name> reuertenti in <name>aegyptum</name> occur
 <lb break="no"/>rit angelus <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name> ob circumcision<expan><abbr rend="supraline">e</abbr><ex>m</ex></expan> 
 <lb rend="indent"/>filii et sponsione<supplied reason="omitted" source="#Heyse1873">m</supplied> sanguinum. 
 <lb rend="indent"/><name>aaron</name> praecipitur obuiam <name>mosi</name> 

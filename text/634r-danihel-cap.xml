@@ -1,0 +1,145 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng"
+type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title xml:lang="la">Capitula</title>
+</titleStmt>
+<publicationStmt>
+<authority>Digital Latin Library</authority>
+<availability>
+<licence target="https://creativecommons.org/licences/by-sa/4.0/">Provided under a Creative Commons Attribution-ShareAlike 4.0 International Licence.</licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<settlement>Florence</settlement>
+<repository>Biblioteca Medicea Laurenziana</repository>
+<collection>Amiatino</collection>
+<idno>1</idno>
+<msName>Codex Amiatinus</msName>
+</msIdentifier>
+</msDesc>
+<listBibl>
+<biblStruct type="book" xml:id="Heyse1873" corresp="http://zotero.org/users/254032/items/69EHSXJZ">
+<monogr>
+<title level="m">Biblia sacra latina Veteris Testamenti Hieronymo interprete ex antiquissima auctoriatate in stichos descripta<reg>.</reg> Vulgatam lectionem ex editione Clementina principe anni MDXCII et Romana ultima anni MDCCCLXI repetitam testimonium comitatur Codicis Amiatini Latinorum omnium antiquissimi</title>
+<editor>
+<forename>Theodor</forename>
+<surname>Heyse</surname>
+</editor>
+<editor>
+<forename>Constantinus von</forename>
+<surname>Tischendorf</surname>
+</editor>
+<imprint>
+<pubPlace>Leipzig</pubPlace>
+<publisher>Brockhaus</publisher>
+<date>1873</date>
+<note type="url">https://archive.org/details/biblicasacralati00unse</note>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct type="book" xml:id="r" corresp="http://zotero.org/users/254032/items/SV9ECTS4">
+<monogr>
+<title level="m">Biblia Sacra iuxta latinam vulgatam versionem</title>
+<editor>
+<orgName>Pontifical Abbey of St Jerome-in-the-City</orgName>
+</editor>
+<editor>
+<forename>Henri</forename>
+<surname>Quentin</surname>
+</editor>
+<imprint>
+<pubPlace>Rome</pubPlace>
+<publisher>Libreria Editrice Vaticana</publisher>
+<date>1926–1995</date>
+</imprint>
+</monogr>
+</biblStruct>
+</listBibl>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text xml:lang="la">
+<body>
+<div type="textpart">
+<pb n="634r"/>
+<cb n="a"/>
+<list>
+<lb/><item><supplied reason="omitted" source="#Heyse1873"><label>i</label></supplied> De filiis captiuitatis <name>iudae</name> quos elegit 
+<lb rend="indent"/><name>nabuchodonosor</name> rex ut litteras discerent</item>
+<lb/><item><label>ii</label> Vbi introducuntur <supplied reason="omitted" source="#Heyse1873">i</supplied>idem pueri ad regem 
+<lb rend="indent"/>et miratur sapientiam eorum</item>
+<lb/><item><label>iii</label> De somnio <name>nabuchodonosor</name> qui latuit 
+<lb rend="indent"/>pro quo iussit diuinos interfici</item>
+<lb/><item><label>iiii</label> Vbi <name>danihel</name> cum tri<expan>b<am>’</am><ex>us</ex></expan> pueris rogauit <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>m</expan></name> 
+<lb rend="indent"/>ut sibi uisionem regis manifestaret 
+<lb rend="indent"/>et ostendit ei quod regnum eius 
+<lb rend="indent"/>euerteretur</item>
+<lb/><item><label>v</label> De statua aurea et lapide exciso 
+<lb rend="indent"/>a monte qui est <name><expan><am>x</am><am rend="supraline">p</am><ex>christu</ex>s</expan> <expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>s</expan></name></item>
+<lb/><item><label>vi</label> De statua quam statuit <name>nabuchodonos<subst><del rend="alt">r</del><add place="inline">o</add></subst>r</name> 
+<lb rend="indent"/>et iussit eam ab omni<expan>b<am>’</am><ex>us</ex></expan> populis adorari</item>
+<lb/><item><label>vii</label> Vbi tr<choice><sic>i</sic><corr source="#Heyse1873">e</corr></choice>s pueri missi sunt in camino ignis 
+<lb rend="indent"/>ardentis</item>
+<lb/><item><label>viii</label> Oratio <name>azariae</name> in fornace<surplus source="#Heyse1873">m</surplus> 
+<lb rend="indent"/>et laus trium puerorum</item>
+<lb/><item><label>viiii</label> Vbi diabolus per <name>nabuchodono<del rend="erased">n</del>sor</name> 
+<lb rend="indent"/>confessus est <name><expan><am>x</am><am rend="supraline">p</am><ex>christu</ex>m</expan></name> filium <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name></item>
+<lb/><item><label>x</label> Aliud somnium interpretatus est 
+<lb rend="indent"/><name>danihel</name> regi <name>nabuchodonosor</name></item>
+<lb/><item><label>xi</label> Vox <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name> de caelo ad regem facta<reg>.</reg> quod 
+<lb rend="indent"/>regnum ab eo auferret et per paeniten
+<lb break="no"/>tiam restitutus est regno suo</item>
+<lb/><item><label>xii</label> De <name>balthazar</name> quod dum biberet in uasis <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> 
+<lb rend="indent"/>et laudaret deos suos statim ablatum 
+<lb rend="indent"/>est ab eo regnum</item>
+<lb/><item><label>xiii</label> Vbi <name>danihel</name> legit scripturam regi. 
+<lb rend="indent"/>et praedixit ei tolli ab eo regnum 
+<lb rend="indent"/>et dari <name>medis</name> et <name>persis</name></item>
+<lb/><item><label>xiiii</label> Vbi satrap<reg>a</reg>e accusant <name>danihelem</name> regi 
+<lb rend="indent"/>et missus est in lacum leonum</item>
+<lb/><item><label>xv</label> Vbi <subst><del rend="alt"><name>danihel</name> uidit</del><add place="inline">uidit <name>danihel</name></add></subst><!-- transpose --> quattuor bestias 
+<lb rend="indent"/>in figura quattuor regum</item>
+<lb/><item><label>xvi</label> Visio similitudinis <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name> et gloriae sedis eius</item>
+<lb/><item><label>xvii</label> Visio <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan> <expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>i</expan></name></item>
+<lb/><item><label>xviii</label> Visio <name>antichristi</name></item>
+<lb/><item><label>xviiii</label> De ariete et hirco</item>
+<lb/><item><label>xx</label> De die<expan>b<am>’</am><ex>us</ex></expan> duo milia trecentis</item>
+<lb/><item><label>xxi</label> De interpretatione <del rend="erased">h</del>arietis et hirci</item>
+<lb/><item><label>xxii</label> Vbi angelus loquitur ad <name>danihelem</name> 
+<lb rend="indent"/>de <num>lxx</num> <reg>h</reg>ebdomadis</item>
+<cb n="b"/>
+<lb/><item><label>xxiii</label> De <name><expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>o</expan> <expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>o</expan></name></item>
+<lb/><item><label>xxiiii</label> Vbi ieiunauit <name>danihel</name> tr<choice><sic>i</sic><corr source="#Heyse1873">e</corr></choice>s <reg>h</reg>ebdomadas 
+<lb rend="indent"/>et uidit angelum <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name></item>
+<lb/><item><label>xxv</label> De regi<expan>b<am>’</am><ex>us</ex></expan> <name>persarum</name> praedixit 
+<lb rend="indent"/>angelus <name>danihelo</name> <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name></item>
+<lb/><item><label>xxvi</label> De rege qui se attollet contra <name><expan>d<ex>eu</ex><abbr rend="supraline">m</abbr></expan></name> 
+<lb rend="indent"/>cum <name>antichristo</name></item>
+<lb/><item><label>xxvii</label> De resurrectione iustorum et iniustor<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> 
+<lb rend="indent"/>et dies <num>mille trecentos triginta quinque</num></item>
+<lb/><item><label>xxviii</label> De duo<expan>b<am>’</am><ex>us</ex></expan> pr<surplus>a</surplus>es<choice><orig>p</orig><reg>b</reg></choice>yteris qui concupierunt 
+<lb rend="indent"/><name>susannam</name> uiolare</item>
+<lb/><item><label>xxviiii</label> Vbi excitauit <name><expan>d<ex>eu</ex><abbr rend="supraline">s</abbr></expan></name> <name><expan>s<abbr rend="supraline">p</abbr><ex>iritu</ex>m</expan> <expan>s<ex>an</ex><abbr rend="supraline">c</abbr><ex>tu</ex>m</expan></name> in <name>danihelem</name> 
+<lb rend="indent"/>et liberauit <name>susannam</name> a morte</item>
+<lb/><item><label>xxx</label> Vbi <name>danihel</name> euertit <name>bel</name> et templum eius 
+<lb rend="indent"/>destruxit</item>
+<lb/><item><label>xxxi</label> Vbi <name>danihel</name> occidit drac<surplus>h</surplus>onem et missus 
+<lb rend="indent"/>est in lacum leonum et attulit ei 
+<lb rend="indent"/>prandium <name>ambacu</name> propheta</item>
+</list>
+<div type="textpart" subtype="finalRubric">
+<p rend="caps">
+<lb/><hi rend="red">expliciunt capitula</hi>
+<lb/><name>danihelis</name> prophetae
+</p>
+</div>
+</div>
+</body>
+</text>
+</TEI>

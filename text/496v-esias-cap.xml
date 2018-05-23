@@ -1,0 +1,356 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng"
+type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title xml:lang="la">Capitula</title>
+</titleStmt>
+<publicationStmt>
+<authority>Digital Latin Library</authority>
+<availability>
+<licence target="https://creativecommons.org/licences/by-sa/4.0/">Provided under a Creative Commons Attribution-ShareAlike 4.0 International Licence.</licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<settlement>Florence</settlement>
+<repository>Biblioteca Medicea Laurenziana</repository>
+<collection>Amiatino</collection>
+<idno>1</idno>
+<msName>Codex Amiatinus</msName>
+</msIdentifier>
+</msDesc>
+<listBibl>
+<biblStruct type="book" xml:id="Heyse1873" corresp="http://zotero.org/users/254032/items/69EHSXJZ">
+<monogr>
+<title level="m">Biblia sacra latina Veteris Testamenti Hieronymo interprete ex antiquissima auctoriatate in stichos descripta<reg>.</reg> Vulgatam lectionem ex editione Clementina principe anni MDXCII et Romana ultima anni MDCCCLXI repetitam testimonium comitatur Codicis Amiatini Latinorum omnium antiquissimi</title>
+<editor>
+<forename>Theodor</forename>
+<surname>Heyse</surname>
+</editor>
+<editor>
+<forename>Constantinus von</forename>
+<surname>Tischendorf</surname>
+</editor>
+<imprint>
+<pubPlace>Leipzig</pubPlace>
+<publisher>Brockhaus</publisher>
+<date>1873</date>
+<note type="url">https://archive.org/details/biblicasacralati00unse</note>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct type="book" xml:id="r" corresp="http://zotero.org/users/254032/items/SV9ECTS4">
+<monogr>
+<title level="m">Biblia Sacra iuxta latinam vulgatam versionem</title>
+<editor>
+<orgName>Pontifical Abbey of St Jerome-in-the-City</orgName>
+</editor>
+<editor>
+<forename>Henri</forename>
+<surname>Quentin</surname>
+</editor>
+<imprint>
+<pubPlace>Rome</pubPlace>
+<publisher>Libreria Editrice Vaticana</publisher>
+<date>1926–1995</date>
+</imprint>
+</monogr>
+</biblStruct>
+</listBibl>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text xml:lang="la">
+<body>
+<div type="textpart">
+<list>
+<head rend="red">
+<lb/>Incipiunt capitula
+</head>
+<cb n="b"/>
+<lb/><item><label>i</label> <hi rend="red">Sermo <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name> super <name>hierusalem</name></hi> 
+<lb rend="indent"/>et <name>iudaeam</name><reg>.</reg> propter peccata eas fuisse 
+<lb rend="indent"/>desertas cessanti<expan>b<am>’</am><ex>us</ex></expan> omni<expan>b<am>’</am><ex>us</ex></expan> solemni
+<lb break="no"/>tatibus legis</item>
+<lb/><item><label>ii</label> Lauacro futuro praedicauit propheta 
+<lb rend="indent"/>mundari homines a peccatis</item>
+<lb/><item><label>iii</label> Increpat <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>s</expan></name> <name>hierusalem</name> quae fuit fidelis 
+<lb rend="indent"/>et facta est meretrix cui minatur 
+<lb rend="indent"/>uindicari in illa ab inimicis</item>
+<lb/><item><label>iiii</label> De <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>o</expan> <expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>o</expan></name> quod mons sit dictus</item>
+<lb/><item><label>v</label> Typus populi noui repudiatis <name>iudaeis</name> pro 
+<lb rend="indent"/>idolis quae fecerunt et adorauerunt</item>
+<lb/><item><label>vi</label> Quod auferret <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>s</expan></name> a <name>iudaea</name> omnem potentiam 
+<lb rend="indent"/>uirtutis in qua praeualebant pro peccatis</item>
+<lb/><item><label>vii</label> De <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>o</expan> <expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>o</expan></name></item>
+<lb/><item><label>viii</label> De cogitatione <name>iudaeorum</name> ut occiderent 
+<lb rend="indent"/><name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>m</expan> <expan><am>x</am><am rend="supraline">p</am><ex>christu</ex>m</expan></name></item>
+<lb/><item><label>viiii</label> De <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>o</expan> <expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>o</expan></name> iudice et de iniquitate 
+<lb rend="indent"/><name>iudaeorum</name></item>
+<lb/><item><label>x</label> De <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>o</expan> <expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>o</expan></name></item>
+<lb/><item><label>xi</label> Canticum <name>esaię</name> super <name>hierusalem</name></item>
+<lb/><item><label>xii</label> De eo qui rapuit domum aut uillam</item>
+<lb/><item><label>xiii</label> De sicera sectanti<expan>b<am>’</am><ex>us</ex></expan><reg>.</reg> uicini lasciuiae 
+<lb rend="indent"/>uinum biberunt et suscepit eos 
+<lb rend="indent"/>tartarus et infernus</item>
+<lb/><item><label>xiiii</label> De peccatori<expan>b<am>’</am><ex>us</ex></expan> et potenti<expan>b<am>’</am><ex>us</ex></expan> populi <name><expan>i<abbr rend="supraline">sr</abbr><ex>ahe</ex>l</expan></name> 
+<lb rend="indent"/>qui ponunt malum bonum</item>
+<lb/><item><label>xv</label> Repromissio gentis</item>
+<lb/><item><label>xvi</label> Vbi <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>m</expan></name> uidit <name>esaias</name> in thronum</item>
+<lb/><item><label>xvii</label> Tactu carbonis altaris labia prophetae 
+<lb rend="indent"/>iussu <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name> <supplied reason="omitted" source="#Heyse1873">et</supplied> peccata cuncta 
+<lb rend="indent"/>purgata sunt</item>
+<lb/><item><label>xviii</label> Praedicat <name>esaias</name> populo ne conuerte
+<lb break="no"/>rentur et salui fierent</item>
+<lb/><item><label>xviiii</label> Quod deserta fieret <name>iudaea</name> et deci
+<lb break="no"/>maretur populo suo a rege 
+<lb rend="indent"/><name>assyriorum</name></item>
+<lb/><item><label>xx</label> De his qui uoluerunt expugnare 
+<lb rend="indent"/><name>hierusalem</name></item>
+<lb/><item><label>xxi</label> De natiuitate <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name> nostri <name><expan>i<am rend="supraline">h</am><ex>es</ex>u</expan> <expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>i</expan></name> 
+<lb rend="indent"/>et de baptismate</item>
+<lb/><item><label>xxii</label> De <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>o</expan> <expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>o</expan></name></item>
+<lb/><item><label>xxiii</label> Vox <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan> <expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>i</expan></name> de discipulis</item>
+<lb/><item><label>xxiiii</label> De <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan> <expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>i</expan></name> imperio super humeros eius</item>
+<pb n="497r"/>
+<cb n="a"/>
+<lb/><item><label>xxv</label> De <name>syris</name> quod sint a solis ortu et <name>graeci</name> ab occa
+<lb break="no"/>su et adflictione eorum</item>
+<lb/><item><label>xxvi<del rend="erased">i</del></label> De uidua et pupilla et populo oppressis</item>
+<lb/><item><label>xxvii<del rend="erased">i</del></label> Sermo <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name> super <name>hie<del rend="erased">s</del>rusalem</name> 
+<lb rend="indent"/>et <name>samariam</name> pro idolis</item>
+<lb/><item><label>xxviii<del rend="erased">i</del></label> De secure et serra</item>
+<lb/><item><label>xx<add place="inline">i</add>x</label> De <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>o</expan></name> nostro <name><expan>i<am rend="supraline">h</am><ex>es</ex>u</expan> <expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>o</expan></name></item>
+<lb/><item><label>xxx<del rend="erased">i</del></label> De <name>rama</name> ciuitate <name>saul</name></item>
+<lb/><item><label>xxxi<del rend="erased">i</del></label> De <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>o</expan></name> nostro <name><expan>i<am rend="supraline">h</am><ex>es</ex>u</expan> <expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>o</expan></name> et populo 
+<lb rend="indent"/>gentium <name><expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>i</expan>ano</name></item>
+<lb/><item><label>xxxii<del rend="erased">i</del></label> De <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>o</expan> <expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>o</expan></name> et aqua<del rend="strikethrough">m</del> baptismi</item>
+<lb/><item><label>xxxiii<del rend="erased">i</del></label> De passione crucis <name><expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>i</expan></name> et aduentu diei eius</item>
+<lb/><item><label>xxx<subst><del rend="alt">iiii</del><add place="overstrike">v</add></subst></label> Sermo <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name> super <name>babyloniam</name> inimicam 
+<lb rend="indent"/>populi <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name><reg>.</reg> quod in euersione eius habitent 
+<lb rend="indent"/>in ea syrenae ericii et onocentauri</item>
+<lb/><item><label>xxxv<del rend="erased">i</del></label> De diabolo loquitur <name><expan>s<abbr rend="supraline">p</abbr><ex>iritu</ex>s</expan> <expan>s<ex>an</ex><abbr rend="supraline">c</abbr><ex>tu</ex>s</expan></name> ubi dixit<reg>.</reg> <said>ero 
+<lb rend="indent"/>similis altissimo</said> et quod in se reges 
+<lb rend="indent"/>et orbem totum commoueat 
+<lb rend="indent"/>ad perdendum</item>
+<lb/><item><label>xxxvi<del rend="erased">i</del></label> Sermo <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name> super <name>babyloniam</name></item>
+<lb/><item><label>xxxvii<del rend="erased">i</del></label> Onus <name>moabitidum</name></item>
+<lb/><item><label>xxxviii<del rend="erased">i</del></label> De <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>o</expan> <expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>o</expan></name> et super <name>moab</name></item>
+<lb/><item><add place="inline"><label>xxxviiii</label></add> Sermo <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name> super <name>damascum</name></item>
+<lb/><item><label>xl</label> Indignatio <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name> super <name>iacob</name></item>
+<lb/><item><label>xli</label> Sermo <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name> super gentes et super 
+<lb rend="indent"/><name>aethiopiam</name></item>
+<lb/><item><label>xlii</label> De <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>o</expan> <expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>o</expan></name> quod uidendus esset 
+<lb rend="indent"/>in <name>hierusalem</name></item>
+<lb/><item><label>xliii</label> Sermo <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name> super <name>aegyptum</name> 
+<lb rend="indent"/>et super diuinos eius</item>
+<lb/><item><label>xliiii</label> Quod <name>aegyptus</name> creditura esset in <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>o</expan> <expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>o</expan></name></item>
+<lb/><item><label>xlv</label> Sermo <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name> super <name>aegyptios</name> et <name>aethiop<surplus><add place="above">h</add></surplus>as</name></item>
+<lb/><item><label>xlvi</label> Sermo <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name> super <name>tyrum</name></item>
+<lb/><item><label>xlvii</label> De ruina <name>babyloniae</name></item>
+<lb/><item><label>xlviii</label> Sermo <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name> super <name>idumaeam</name></item>
+<lb/><item><label>xlviiii</label> Sermo <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name> super <name>sion</name> pro idolis</item>
+<lb/><item><label>l</label> De auersione aquae et falso baptismo 
+<lb rend="indent"/><name>iudaeorum</name> et de idololatria et quod 
+<lb rend="indent"/>dicebant<reg>.</reg> <name>manducemus</name> et bibamus</item>
+<lb/><item><label>li</label> Sermo <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name> super <name>sobnam</name> scribam 
+<lb rend="indent"/>populi id est dispensator<choice><sic>is</sic><corr source="#Heyse1873">em</corr></choice></item>
+<lb/><item><label>lii</label> Sermo <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name> super <name>carthaginem</name> quod 
+<lb rend="indent"/><num>lxx</num> annis esset deserta 
+<lb rend="indent"/>et restitueretur</item>
+<cb n="b"/>
+<lb/><item><label>liii</label> De malis quae promisit <name><expan>d<ex>eu</ex><abbr rend="supraline">s</abbr></expan></name> dare super 
+<lb rend="indent"/>terram pro peccatis</item>
+<lb/><item><label>liiii</label> De ebrietate uini</item>
+<lb/><item><label>lv</label> De desperanti<expan>b<am>’</am><ex>us</ex></expan> et reprobanti<expan>b<am>’</am><ex>us</ex></expan> legem <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> 
+<lb rend="indent"/>et confusione solis et lunae</item>
+<lb/><item><label>lvi</label> De <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>o</expan> <expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>o</expan></name> quod regnaturus esset 
+<lb rend="indent"/>ueniens in carne</item>
+<lb/><item><label>lvii</label> De fide genti<expan>b<am>’</am><ex>us</ex></expan> promissa</item>
+<lb/><item><label>lviii</label> De <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>o</expan> <expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>o</expan></name> et de iusto et impio</item>
+<lb/><item><label>lviiii</label> De <name>domino <expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>o</expan></name> et resurrectione eius</item>
+<lb/><item><label>lx</label> De interitu diaboli et cantico uineae meri</item>
+<lb/><item><label>lxi</label> Sermo <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name> super terram pro idolis</item>
+<lb/><item><label>lxii</label> De mulieri<expan>b<am>’</am><ex>us</ex></expan> spectacula amantibus</item>
+<lb/><item><label>lxiii</label> Indignatio <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name> super <name>efraim</name></item>
+<lb/><item><label>lxiiii</label> De ebrietate uini et sicerae</item>
+<lb/><item><label>lxv</label> Sermo <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name> super principes populi 
+<lb rend="indent"/>et fallaces et de <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>o</expan> <expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>o</expan></name> nascituro 
+<lb rend="indent"/>qui in <name>sion</name> esset lapis offensionis</item>
+<lb/><item><label>lxvi</label> De git<add place="above">h</add> et cymino et omni frumento</item>
+<lb/><item><label>lxvii</label> Sermo <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name> super ciuitatem <name>arihel</name> 
+<lb rend="indent"/>quam expugnauit <name>dauid</name></item>
+<lb/><item><label>lxviii</label> Perire omnes dicit qui populum <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> 
+<lb rend="indent"/>laeserint</item>
+<lb/><item><label>lxviiii</label> Inebriatos dicit <name>iudaeos</name> spiritu trans
+<lb break="no"/>punctionis pro peccatis suis 
+<lb rend="indent"/>et de libro signato</item>
+<lb/><item><label>lxx</label> De his qui sine <name><expan>d<ex>e</ex><abbr rend="supraline">o</abbr></expan></name> aliquid faciunt et dicunt<reg>.</reg> 
+<lb rend="indent"/><said>non uidet <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>s</expan></name></said></item>
+<lb/><item><label>lxxi</label> De operi<expan>b<am>’</am><ex>us</ex></expan> <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan> <expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>i</expan></name> et quod nobis sit fides 
+<lb rend="indent"/>promissa non <name>iudaeis</name> qui in eum 
+<lb rend="indent"/>peccauerunt</item>
+<lb/><item><label>lxxii</label> De incredulitate <name>iudaeorum</name> qui pro
+<lb break="no"/>phetas audire contemnunt</item>
+<lb/><item><label>lxxiii</label> De paenitentia agenda</item>
+<lb/><item><label>lxxiiii</label> De <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>o</expan> <expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>o</expan></name> quod reuocaturus sit 
+<lb rend="indent"/>populum ab errore idolorum</item>
+<lb/><item><label>lxxv</label> De <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>o</expan> <expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>o</expan></name> de baptismo et populo nouo 
+<lb rend="indent"/><name>c<reg>h</reg>ristiano</name> et splendore solis et lunae</item>
+<lb/><item><label>lxxvi</label> Iratus est <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>s</expan></name> his qui cum peccato 
+<lb rend="indent"/>introierunt in <expan>s<ex>an</ex><abbr rend="supraline">c</abbr><ex>t</ex>uario</expan> et tradidit 
+<lb rend="indent"/>eos in manus inimicorum</item>
+<lb/><item><label>lxxvii</label> Sermo <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name> super populum quod accipere 
+<lb rend="indent"/>auxilia ab <name>aegypto</name> uoluerunt</item>
+<lb/><item><label>lxxviii</label> Sermo <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name> super terram et homines <expan><am>ꝓ</am><ex>pro</ex></expan> 
+<lb rend="indent"/>idolis</item>
+<pb n="497v"/>
+<cb n="a"/>
+<lb/><item><label>lxxviiii</label> De opulentia mulieris</item>
+<lb/><item><label>lxxx</label> De seminanti<expan>b<am>’</am><ex>us</ex></expan> super aqua</item>
+<lb/><item><label>lxxxi</label> De <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>o</expan> <expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>o</expan></name><reg>.</reg> de passione et resurrec
+<lb break="no"/>tione eius</item>
+<lb/><item><label>lxxxii</label> De prudenti<expan>b<am>’</am><ex>us</ex></expan> et consiliariis seruis 
+<lb rend="indent"/>qui <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>m</expan> <expan><am>x</am><am rend="supraline">p</am><ex>christu</ex>m</expan></name> cognouerunt</item>
+<lb/><item><label>lxxxiii</label> De <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>o</expan> <expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>o</expan></name> ecclesia et baptismate</item>
+<lb/><item><label>lxxxiiii</label> Quod traderetur populus inimicis 
+<lb rend="indent"/>in perditionem et de ruina <name>babyloniae</name></item>
+<lb/><item><label>lxxxv</label> De <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>o</expan> <expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>o</expan></name> et gentium populo de signis 
+<lb rend="indent"/>curationum et baptismo</item>
+<lb/><item><label>lxxxvi</label> De <name>sennacerib</name> rege <name>assyriorum</name> cum 
+<lb rend="indent"/>uellet expugnare <name>hierusalem</name> 
+<lb rend="indent"/>et <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>s</expan></name> non permisit unde consuluit 
+<lb rend="indent"/><name>ezechias</name> <name>esai<subst><del rend="strikethrough">as</del><add place="inline"><expan><abbr rend="supraline">a</abbr><ex>m</ex></expan></add></subst></name> prophetam</item>
+<lb/><item><label>lxxxvii</label> Oratio <name>ezechiae</name> et de idolis 
+<lb rend="indent"/>quod dii non sint</item>
+<lb/><item><label>lxxxviii</label> Auertit <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>s</expan></name> regem <name>assyriorum</name> ab <name>hierusal<expan><abbr rend="supraline">e</abbr><ex>m</ex></expan></name> 
+<lb rend="indent"/>et occidit ei angelus <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name> in castris per 
+<lb rend="indent"/>noctem centum <num>.lxxx.v.</num> milia uiror<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> 
+<lb rend="indent"/>et ipse post a filiis suis est interfectus</item>
+<lb/><item><label>lxxxviiii</label> Vbi <name><expan>d<ex>eu</ex><abbr rend="supraline">s</abbr></expan></name> addidit <name>ezechiae</name> regi annos <num>.xv.</num> 
+<lb rend="indent"/>ad uitam et canticum eiusdem</item>
+<lb/><item><label>xc</label> Sermo <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name> super <name>hierusalem</name><reg>.</reg> de aduentu 
+<lb rend="indent"/><name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name> et <name>iohannis</name></item>
+<lb/><item><label>xci</label> Quod omnis caro sit faenum</item>
+<lb/><item><label>xcii</label> De <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>o</expan> <expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>o</expan></name> congregans popul<subst><del rend="alt">u</del><add place="inline">o</add></subst>s ad ficlem</item>
+<lb/><item><label>xciii</label> Neminem scire consilium <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name></item>
+<lb/><item><label>xciiii</label> De idolis quae homo facit quod dii non sint</item>
+<lb/><item><label>xcv</label> <name><expan>D<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> sensum non conpraehendi et in ips<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> 
+<lb rend="indent"/>omnia nobis dari</item>
+<lb/><item><label>xcvi</label> De ecclesia et <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>o</expan> <expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>o</expan></name> reuocante 
+<lb rend="indent"/>ab idolis populum</item>
+<lb/><item><label>xcvii</label> De baptismo nouo praedicto</item>
+<lb/><item><label>xcviii</label> De iudicio <name>d<subst><del rend="alt">i</del><add place="inline">e</add></subst>i</name> in idolis</item>
+<lb/><item><label>xcviiii</label> De <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>o</expan> <expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>o</expan></name> est uox patris quod ei 
+<lb rend="indent"/>omnia dederit et de baptismo</item>
+<lb/><item><label>c</label> De idololatriis <name>iudaeorum</name> quod pro 
+<lb rend="indent"/>his traditi sint in direptionem</item>
+<lb/><item><label>ci</label> Non laedi aqua <add place="above">a</add>ut ign<choice><sic>e</sic><corr source="#Heyse1873">i</corr></choice> eum quem 
+<lb rend="indent"/><name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>s</expan></name> protegit</item>
+<lb/><item><label>cii</label> De populo nouo ex omni<expan>b<am>’</am><ex>us</ex></expan> genti<expan>b<am>’</am><ex>us</ex></expan> futuro</item>
+<lb/><item><label>ciii</label> Vox <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> patris <add place="above">de</add> <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>o</expan> <expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>o</expan></name> et baptismo</item>
+<lb/><item><label>ciiii</label> De sacrificiis et incensis <name>iudaeorum</name> <add place="inline">reprobatis</add></item>
+<cb n="b"/>
+<lb/><item><label>cv</label> De baptismo nouo promissio <name><expan>i<abbr rend="supraline">sr</abbr><ex>ahe</ex>l</expan></name></item>
+<lb/><item><label>cvi</label> De idolis gentium inutili<expan>b<am>’</am><ex>us</ex></expan> quae homo facit</item>
+<lb/><item><label>cvii</label> De <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>o</expan> <expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>o</expan></name><reg>.</reg> est uox <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> patris</item>
+<lb/><item><label>cviii</label> Increpat <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>s</expan></name> <name>iudaeos</name> pro idolis</item>
+<lb/><item><label>cviiii</label> De <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>o</expan> <expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>o</expan></name> quod saluator sit dictus 
+<lb rend="indent"/>et de adoptione gentium</item>
+<lb/><item><label>cx</label> De idolorum opere et colentium 
+<lb rend="indent"/>paenitentia</item>
+<lb/><item><label>cxi</label> Sermo <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name> super <name>babyloniam</name> 
+<lb rend="indent"/>pro idolis ceteris<expan>q<am>’</am><ex>ue</ex></expan> malis 
+<lb rend="indent"/>quae fecit in populum <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name></item>
+<lb/><item><label>cxii</label> De <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan> <expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>i</expan></name> indignatione maledicens 
+<lb rend="indent"/>in <name>babyloniam</name></item>
+<lb/><item><label>cxiii</label> Increpat <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>s</expan></name> <name>iudaeos</name> pro idolis 
+<lb rend="indent"/>et pro ceruice dura</item>
+<lb/><item><label>cxiiii</label> De <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>o</expan> <expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>o</expan></name> et de baptismo</item>
+<lb/><item><label>cxv</label> Vox <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan> <expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>i</expan></name> omnia sibi data 
+<lb rend="indent"/>a patre ad salutem <name>iacob</name> 
+<lb rend="indent"/>et <name>israhel</name> et omnium gentium</item>
+<lb/><item><label>cxvi</label> Vox <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name> consolantis <name>sion</name> id est 
+<lb rend="indent"/>ecclesiam et futuro baptismo</item>
+<lb/><item><label>cxvii</label> Vox <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan> <expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>i</expan></name> quod adsumant ad eum 
+<lb rend="indent"/>gentes filios suos in ulnas suas</item>
+<lb/><item><label>cxviii</label> De synagoga repudiata a <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>o</expan> <add place="inline"><expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>o</expan></add></name> 
+<lb rend="indent"/>in aduentu eius</item>
+<lb/><item><label>cxviiii</label> <name><expan>D<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>s</expan> <expan><am>x</am><am rend="supraline">p</am><ex>christu</ex>s</expan></name> passionem suam testatur 
+<lb rend="indent"/>et increpat <name>iudaeos</name> qui in eum 
+<lb rend="indent"/>erant peccaturi</item>
+<lb/><item><label>cxx</label> De ecclesia promissionis <name><expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>i</expan></name></item>
+<lb/><item><label>cxxi</label> Non despici a <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>o</expan></name> eos qui ab homini<expan>b<am>’</am><ex>us</ex></expan> 
+<lb rend="indent"/>despiciuntur</item>
+<lb/><item><label>cxxii</label> Promissio <expan>s<ex>an</ex><abbr rend="supraline">c</abbr><ex>t</ex>ae</expan> matris <del rend="expunct">a</del>ecclesiae 
+<lb rend="indent"/>de genti<expan>b<am>’</am><ex>us</ex></expan> et de <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>o</expan> <expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>o</expan></name></item>
+<lb/><item><label>cxxiii</label> <expan>D<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>s</expan> ulcisci facit populum suum 
+<lb rend="indent"/>de persecutori<expan>b<am>’</am><ex>us</ex></expan> et reformari 
+<lb rend="indent"/><name>hierusalem</name></item>
+<lb/><item><label>cxxiiii</label> Vox <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan> <expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>i</expan></name> ad <name>hierusalem</name> 
+<lb rend="indent"/>et de blasphemantibus</item>
+<lb/><item><label>cxxv</label> De <name>hierusalem</name> et de <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>o</expan> <expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>o</expan></name> et <expan>s<ex>an</ex><abbr rend="supraline">c</abbr><ex>t</ex>is</expan> eius</item>
+<lb/><item><label>cxxvi</label> Admonet <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>s</expan></name> recedere <expan>s<ex>an</ex><abbr rend="supraline">c</abbr><ex>t</ex>os</expan> de ciuitate 
+<lb rend="indent"/>peccantium et de aduentu <name><expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>i</expan></name></item>
+<lb/><item><label>cxxvh</label> De passione <name><expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>i</expan></name></item>
+<lb/><item><label>cxxvhi</label> Vox <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name> de ecclesia a genti<expan>b<am>’</am><ex>us</ex></expan> electa</item>
+<lb/><item><label>cxxviiii</label> De proselitis et aduenis</item>
+<pb n="498r"/>
+<cb n="a"/>
+<lb/><item><label>cxxx</label> Omnes qui exsurgunt in persecutione 
+<lb rend="indent"/>ecclesiae reos dicit remanere</item>
+<lb/><item><label>cxxxi</label> De baptismo et populo <name><expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>iano</expan></name></item>
+<lb/><item><label>cxxxh</label> Quaerentes <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>m</expan></name> iubet recedere a malis 
+<lb rend="indent"/>et uitam consequi</item>
+<lb/><item><label>cxxxhi</label> De spadoni<expan>b<am>’</am><ex>us</ex></expan> et mansioni<expan>b<am>’</am><ex>us</ex></expan> populi maligni</item>
+<lb/><item><label>cxxxiiii</label> De iusto</item>
+<lb/><item><label>cxxxv</label> Increpat <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>s</expan></name> <name>iudaeos</name> pro idololatria</item>
+<lb/><item><label>cxxxvi</label> De <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>o</expan> <expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>o</expan></name> et <expan>q<ex>uo</ex><abbr rend="supraline">d</abbr></expan> impiis non sit pax</item>
+<lb/><item><label>cxxxvii</label> De forma ieiuniorum</item>
+<lb/><item><label>cxxxviii</label> Delicta separant inter nos et <name><expan>d<ex>eu</ex><abbr rend="supraline">m</abbr></expan></name> ne 
+<lb rend="indent"/>a malis liberemur</item>
+<lb/><item><label>cxxxviiii</label> De aspidum feti<expan>b<am>’</am><ex>us</ex></expan> in persona <name>antichristor<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan></name> 
+<lb rend="indent"/>persecutorum nihil de <expan>s<ex>an</ex><abbr rend="supraline">c</abbr><ex>t</ex>is</expan> habentium</item>
+<lb/><item><label>cxl</label> Vox paenitentiae pro peccatis</item>
+<lb/><item><label>cxli</label> De <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>o</expan> <expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>o</expan></name> quod ueniens liberaret <name><expan>i<abbr rend="supraline">sr</abbr><ex>ahe</ex>l</expan></name> 
+<lb rend="indent"/>et populum gentium</item>
+<lb/><item><label>cxlii</label> De ecclesia cui <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>s</expan> <expan><am>x</am><am rend="supraline">p</am><ex>christu</ex>s</expan></name> exortus est in 
+<lb rend="indent"/><name>hierusalem</name> ex promissione eius ornanda</item>
+<lb/><item><label>cxliii</label> Vox <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan> <expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>i</expan></name> de se et de ecclesia et populo 
+<lb rend="indent"/>et sacerdoti<expan>b<am>’</am><ex>us</ex></expan></item>
+<lb/><item><label>cxliiii</label> De iniustitia et rapinis</item>
+<lb/><item><label>cxlv</label> Vox <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan> <expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>i</expan></name> de ecclesia et de <add place="above">se</add>ipso</item>
+<lb/><item><label>cxlvi</label> De <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>o</expan> <expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>o</expan></name> ecclesia et eius passione</item>
+<lb/><item><label>cxlvii</label> Quod <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>s</expan> <expan><am>x</am><am rend="supraline">p</am><ex>christu</ex>s</expan></name> <expan><am>ꝑ</am><ex>per</ex></expan> <name>mosen</name> transuexit 
+<lb rend="indent"/>populum per rubrum mare</item>
+<lb/><item><label>cxlviii</label> Exomologisis prophetae <subst><del rend="alt">pro populo ad <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>m</expan></name></del><add place="inline">ad <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>m</expan></name> pro populo</add></subst></item>
+<lb/><item><label>cxlviiii</label> De paenitentia populi pro panno menstruali</item>
+<lb/><item><label>cl</label> Vox <name><expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>i</expan></name> de passione sua et contra 
+<lb rend="indent"/>idololatriam</item>
+<lb/><item><label>cli</label> Non perdere <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>m</expan></name> seruientem sibi 
+<lb rend="indent"/>sed non seruientem</item>
+<lb/><item><label>c<add place="inRas">l</add>ii</label> De mercede seruientium <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>o</expan></name></item>
+<lb/><item><label>cliii</label> Promissio <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name> de reformatione <name>hierusal<expan><abbr rend="supraline">e</abbr><ex>m</ex></expan></name> 
+<lb rend="indent"/>et habitauit lupus cum agno</item>
+<lb/><item><label>cliiii</label> Quod humilem et quietum diligat <name><expan>d<ex>eu</ex><abbr rend="supraline">s</abbr></expan></name></item>
+<lb/><item><label>clv</label> Increpat <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>s</expan></name> <name>iudaeos</name> quod <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>m</expan></name> 
+<lb rend="indent"/>non receperunt</item>
+<lb/><item><label>clvi</label> Diligenti<expan>b<am>’</am><ex>us</ex></expan> <name>hierusalem</name> omnia 
+<lb rend="indent"/>bona abundare</item>
+<lb/><item><label>clvii</label> De aduentu futuri diei <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name></item>
+<lb/><item><label>clviii</label> <name><expan>D<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>s</expan> <expan><am>x</am><am rend="supraline">p</am><ex>christu</ex>s</expan></name> de se de apostolis et 
+<lb rend="indent"/>de populo loquitur</item>
+</list>
+<div type="textpart" subtype="finalRubric">
+<p rend="red">
+<lb/>expliciunt capitula
+</p>
+</div>
+</div>
+</body>
+</text>
+</TEI>

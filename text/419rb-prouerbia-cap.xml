@@ -1,0 +1,136 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng"
+type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title xml:lang="la">Capitula</title>
+</titleStmt>
+<publicationStmt>
+<authority>Digital Latin Library</authority>
+<availability>
+<licence target="https://creativecommons.org/licences/by-sa/4.0/">Provided under a Creative Commons Attribution-ShareAlike 4.0 International Licence.</licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<settlement>Florence</settlement>
+<repository>Biblioteca Medicea Laurenziana</repository>
+<collection>Amiatino</collection>
+<idno>1</idno>
+<msName>Codex Amiatinus</msName>
+</msIdentifier>
+</msDesc>
+<listBibl>
+<biblStruct type="book" xml:id="Heyse1873" corresp="http://zotero.org/users/254032/items/69EHSXJZ">
+<monogr>
+<title level="m">Biblia sacra latina Veteris Testamenti Hieronymo interprete ex antiquissima auctoriatate in stichos descripta: Vulgatam lectionem ex editione Clementina principe anni MDXCII et Romana ultima anni MDCCCLXI repetitam testimonium comitatur Codicis Amiatini Latinorum omnium antiquissimi</title>
+<editor>
+<forename>Theodor</forename>
+<surname>Heyse</surname>
+</editor>
+<editor>
+<forename>Constantinus von</forename>
+<surname>Tischendorf</surname>
+</editor>
+<imprint>
+<pubPlace>Leipzig</pubPlace>
+<publisher>Brockhaus</publisher>
+<date>1873</date>
+<note type="url">https://archive.org/details/biblicasacralati00unse</note>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct type="book" xml:id="r" corresp="http://zotero.org/users/254032/items/SV9ECTS4">
+<monogr>
+<title level="m">Biblia Sacra iuxta latinam vulgatam versionem</title>
+<editor>
+<orgName>Pontifical Abbey of St Jerome-in-the-City</orgName>
+</editor>
+<editor>
+<forename>Henri</forename>
+<surname>Quentin</surname>
+</editor>
+<imprint>
+<pubPlace>Rome</pubPlace>
+<publisher>Libreria Editrice Vaticana</publisher>
+<date>1926–1995</date>
+</imprint>
+</monogr>
+</biblStruct>
+</listBibl>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text xml:lang="la">
+<body>
+<div type="textpart">
+<list>
+<head rend="red caps">incipiunt capitula</head>
+<lb/><item><label>i</label> <hi rend="red"><hi rend="dropcap2">A</hi>d sciendam sapientiam</hi> 
+<lb rend="indent"/>et disciplinam</item>
+<lb/><item><label>ii</label> Siue non adquiescendum peccatori<expan>b<am>’</am><ex>us</ex></expan> ad 
+<lb rend="indent"/>malum<reg>.</reg> De praedicatione sapientiae</item>
+<lb/><item><label>iii</label> De suscipiendos sermones patris si intra
+<lb break="no"/>uerit sapientia cor tuum</item>
+<lb/><item><label>iiii</label> Vel non obliuiscendam legem <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name> et non 
+<lb rend="indent"/>abicienda disciplina eius</item>
+<lb/><item><label>v</label> De a<choice><orig>m</orig><reg>d</reg></choice>monitione patris ad filios ut disci
+<lb break="no"/>plinam custodiendo longęui fiant</item>
+<lb/><item><label>vi</label> Exoratio <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> ut omnis homo sapientiam 
+<lb rend="indent"/>quaerat et disciplinam conseruet</item>
+<lb/><item><label>vii</label> De fideiussore pro amico et de formic<reg>a</reg>e 
+<lb rend="indent"/>sapientiam uel de septem praeceptis 
+<lb rend="indent"/>ac muliere fornicaria fugienda</item>
+<lb/><item><label>viii</label> Custodiendos praecipit sermones 
+<lb rend="indent"/>suos <name><expan>d<ex>eu</ex><abbr rend="supraline">s</abbr></expan></name> et mulierem meretricem 
+<lb rend="indent"/>animas capientem uitandam</item>
+<lb/><item><label>viiii</label> De sapientia et timore <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name> 
+<lb rend="indent"/>quia malum odit</item>
+<lb/><item><label>x</label> De domo sapientiae et timore <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name></item>
+<lb/><item><label>xi</label> De filio sapienti quod laetitia 
+<lb rend="indent"/>patris sit. et de riso stulti quia scelus est</item>
+<lb/><item><label>xii</label> De corde prauo quod abominabile sit 
+<lb rend="indent"/>apud <name><expan>d<ex>eu</ex><abbr rend="supraline">m</abbr></expan></name> et in diuitiis non confidere</item>
+<lb/><item><label>xiii</label> De operatione terrae quia in ea abun
+<lb break="no"/>dantia est<reg>.</reg> Et de filio sapiente 
+<lb rend="indent"/>quod doctrina sit patris</item>
+<pb n="419v"/>
+<cb n="a"/>
+<lb/><item><label>xiiii</label> De prudente<del rend="erased">m</del><reg>.</reg> <quote>omnia cum consilio agit</quote><reg>.</reg> 
+<lb rend="indent"/>et de filio semper corripiendo</item>
+<lb/><item><label>xv</label> Non disperandum proximum 
+<lb rend="indent"/>et pauperi condolendum</item>
+<lb/><item><label>xvi</label> De stulto qui sapientiam inridet</item>
+<lb/><item><label>xvii</label> De regis diuinatione et de ira eius 
+<lb rend="indent"/>cauenda</item>
+<lb/><item><label>xviii</label> Quod malus homo semper iurgia quaerat</item>
+<lb/><item><label>xviiii</label> De bilingu<del rend="expunct">a</del>e qui fingit simplicitatem</item>
+<lb/><item><label>xx</label> Quod paupere <name><expan>d<ex>eu</ex><abbr rend="supraline">m</abbr></expan></name> timente 
+<lb rend="indent"/>nihil sit melius</item>
+<lb/><item><label>xxi</label> De uino sobrie potato et de emptione 
+<lb rend="indent"/>et uenditione</item>
+<lb/><item><label>xxii</label> Quod impiorum hostiae abominabiles 
+<lb rend="indent"/>sint apud <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>m</expan></name></item>
+<lb/><item><label>xxiii</label> Homini iracundo non coniungendum</item>
+<lb/><item><label>xxiiii</label> De conuiuiis po<del rend="strikethrough">r</del>tatorum uitandis</item>
+<lb/><item><label>xxv</label> De ruina inimici non esse gaudendum</item>
+<lb/><item><label>xxvi</label> De melle non multum edendum</item>
+<lb/><item><label>xxvii</label> Quod qui f<subst><del rend="alt">u</del><add place="inline">o</add></subst>dit foueam incidit in eam</item>
+<lb/><item><label>xxviii</label> De fuga impii nemine persequente</item>
+<lb/><item><label>xxviiii</label> De homine pauido quia beatus 
+<lb rend="indent"/>sit timendo <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>m</expan></name></item>
+<lb/><item><label>xxx</label> De uisionibus <name>salamonis</name> 
+<lb rend="indent"/>uel mulierem fortem<surplus>:⁓</surplus></item>
+</list>
+<div type="textpart" subtype="finalRubric">
+<p>
+<lb/><hi rend="red">expliciunt</hi> 
+<lb/>capitula</p>
+</div>
+</div>
+</body>
+</text>
+</TEI>

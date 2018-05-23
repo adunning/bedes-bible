@@ -140,7 +140,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb break="no" rend="indent"/>cessit in porcos</item>
 <item><lb/><label rend="red">xiiii</label> Vadens mortuam suscitare 
 <cb n="b"/>
-<lb rend="indent"/>filiam <name>Iairi</name> mulierem a<reg> </reg>proflu
+<lb rend="indent"/>filiam <name>iairi</name> mulierem a<reg> </reg>proflu
 <lb break="no" rend="indent"/>uio sanguinis sanans suscitat 
 <lb rend="indent"/>protinus et<reg> </reg>puellam</item>
 <item><lb/><label rend="red">xv</label> Mirantes doctrinam et<reg> </reg>uirtutes 
@@ -162,7 +162,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb rend="indent"/>non lotis mani<expan>b<am>’</am><ex>us</ex></expan> manducantes 
 <lb rend="indent"/>et increpantur ab<reg> </reg>eo de paren
 <lb break="no" rend="indent"/>tum in<reg> </reg>spretione uel de<reg> </reg>ceteris 
-<lb rend="indent"/>exponente quae poss<subst><del rend="alt">i</del><add place="inline">e</add></subst>nt homi
+<lb rend="indent"/>exponente quae poss<subst><del rend="alt">i</del><add place="inRas">e</add></subst>nt homi
 <lb break="no" rend="indent"/>nem inquinare</item>
 <item><lb/><label rend="red">xxi</label> Mulieris syrophenissae filiam 
 <lb rend="indent"/>a daemonio liberat</item>

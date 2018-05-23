@@ -1,0 +1,418 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng"
+type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title xml:lang="la">Capitula</title>
+</titleStmt>
+<publicationStmt>
+<authority>Digital Latin Library</authority>
+<availability>
+<licence target="https://creativecommons.org/licences/by-sa/4.0/">Provided under a Creative Commons Attribution-ShareAlike 4.0 International Licence.</licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<settlement>Florence</settlement>
+<repository>Biblioteca Medicea Laurenziana</repository>
+<collection>Amiatino</collection>
+<idno>1</idno>
+<msName>Codex Amiatinus</msName>
+</msIdentifier>
+</msDesc>
+<listBibl>
+<biblStruct type="book" xml:id="Heyse1873" corresp="http://zotero.org/users/254032/items/69EHSXJZ">
+<monogr>
+<title level="m">Biblia sacra latina Veteris Testamenti Hieronymo interprete ex antiquissima auctoriatate in stichos descripta: Vulgatam lectionem ex editione Clementina principe anni MDXCII et Romana ultima anni MDCCCLXI repetitam testimonium comitatur Codicis Amiatini Latinorum omnium antiquissimi</title>
+<editor>
+<forename>Theodor</forename>
+<surname>Heyse</surname>
+</editor>
+<editor>
+<forename>Constantinus von</forename>
+<surname>Tischendorf</surname>
+</editor>
+<imprint>
+<pubPlace>Leipzig</pubPlace>
+<publisher>Brockhaus</publisher>
+<date>1873</date>
+<note type="url">https://archive.org/details/biblicasacralati00unse</note>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct type="book" xml:id="r" corresp="http://zotero.org/users/254032/items/SV9ECTS4">
+<monogr>
+<title level="m">Biblia Sacra iuxta latinam vulgatam versionem</title>
+<editor>
+<orgName>Pontifical Abbey of St Jerome-in-the-City</orgName>
+</editor>
+<editor>
+<forename>Henri</forename>
+<surname>Quentin</surname>
+</editor>
+<imprint>
+<pubPlace>Rome</pubPlace>
+<publisher>Libreria Editrice Vaticana</publisher>
+<date>1926–1995</date>
+</imprint>
+</monogr>
+</biblStruct>
+</listBibl>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text xml:lang="la">
+<body>
+<div type="textpart">
+<list>
+<head rend="red">Incipit breuis</head>
+<cb n="b"/>
+<lb/><item><label>i</label> Duo filii <name>heli</name> <name>ophni</name> et <name>finees</name> sacerdotes<surplus>.</surplus></item>
+<lb/><item><label>ii</label> Anna ster<choice><orig>e</orig><reg>i</reg></choice>lis</item>
+<lb/><item><label>iii</label> Oratio <name>annae</name> habendi filium</item>
+<lb/><item><label>iiii</label> Canticum <name>annae</name></item>
+<lb/><item><label>v</label> Samuhel in ministerio domus <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> 
+<lb rend="indent"/>d<choice><sic>ili</sic><corr source="#Heyse1873">ele</corr></choice>gatur a parentibus</item>
+<lb/><item><label>vi</label> Excessus filiorum <name>heli</name> sacerdotis</item>
+<lb/><item><label>vii</label> Peccatum puerorum <name>heli</name> sacerdotis</item>
+<lb/><item><label>viii</label> Item <name>annae</name> ex benedictione 
+<lb rend="indent"/>nati sunt tres filii</item>
+<lb/><item><label>viiii</label> Adulterium filiorum <name>heli</name></item>
+<lb/><item><label>x</label> Heli arguitur a <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>o</expan></name> pro excessibus</item>
+<lb/><item><label>xi</label> Ministerium <name>samuhel</name></item>
+<lb/><item><label>xii</label> Vocatur <name>samuhel</name> a <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>o</expan></name> tertio per uision<expan><abbr rend="supraline">e</abbr><ex>m</ex></expan></item>
+<lb/><item><label>xiii</label> Sermo <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name> ad <name>samuhel</name> in <name>silo</name></item>
+<lb/><item><label>xiiii</label> Proelium <name>phi<add place="above">li</add>sthim</name> contra <name>israhel</name> 
+<lb rend="indent"/>in quo arca est capta etiam 
+<lb rend="indent"/><name>ophni</name> et <name>finees</name> mortui sunt</item>
+<lb/><item><label>xv</label> Veniens sceleri nuntius<!-- chk r --> et cecidit <name>heli</name> 
+<lb rend="indent"/>sacerdos et mortuus est et arca<supplied reason="omitted" source="#Heyse1873">m</supplied> <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> 
+<lb rend="indent"/>posuerunt contra simulac<surplus>h</surplus>rum 
+<lb rend="indent"/><name>dagon</name>. propter quod percussit <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>s</expan></name> 
+<lb rend="indent"/><name>philistheos</name> in posteriora et redux
+<lb break="no"/>erunt eam ad <name>israhel</name></item>
+<lb/><item><label>xvi</label> Adloquitur <name>samuhel</name> <name>israheli</name> ut relin
+<lb break="no"/>quant <name>bahalim</name> et <name>astaroth</name> et seruiant 
+<lb rend="indent"/><name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>o</expan></name> et orante eo liberati sunt 
+<lb rend="indent"/>a <name>ph<choice><orig>y</orig><reg>i</reg></choice>liste<choice><sic>o</sic><corr source="#Heyse1873">i</corr></choice>s</name> et nec ultra ualuerunt 
+<lb rend="indent"/>in diebus <name>samuhel</name></item>
+<lb/><item><label>xvii</label> Samuhel duos filios suos iudices <name>israhel</name> 
+<lb rend="indent"/>constituit qui excesserunt<reg>.</reg> quapropter 
+<lb rend="indent"/>petiit <name>israhel</name> a <name>samuhel</name> constitui 
+<lb rend="indent"/>sibi regem et <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>o</expan></name> displicuit</item>
+<lb/><item><label>xviii</label> Iubente <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>o</expan></name> ius regis constituitur <name><expan>i<abbr rend="supraline">sr</abbr><ex>ahe</ex>l</expan></name> 
+<lb rend="indent"/>quorum filios in seruitium redegit 
+<lb rend="indent"/>etiam praedia</item>
+<lb/><item><label>xviiii</label> In regnum eligitur <name>saul</name></item>
+<lb/><item><label>xx</label> Ignoranti <name>samuheli</name> deducitur <name>saul</name> 
+<lb rend="indent"/>a <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>o</expan></name> et constituitur dux <name>israhel</name></item>
+<lb/><item><label>xxi</label> Primum bellum <name>saul</name> contra <name>naas</name></item>
+<lb/><item><label>xxii</label> Renitentes aliquos ex populo<!-- chk r --> iterum 
+<lb rend="indent"/>innouauit regnum <name>saul</name> <name>samuhel</name> 
+<lb rend="indent"/>in <name>galgalis</name> et penituit populum 
+<lb rend="indent"/>petisse sibi regem</item>
+<pb n="219v"/>
+<cb n="a"/>
+<lb/><item><label>xxiii</label> Excessit <name>saul</name> offerens uictimas inlicita<choice><sic>m</sic><corr source="#Heyse1873">s</corr></choice></item>
+<lb/><item><label>xxiiii</label> Prima caedis <name>ionathae</name> de <name>philisthim</name> 
+<lb rend="indent"/>et nomina filiorum <name>saul</name><surplus>.</surplus></item>
+<lb/><item><label>xxv</label> Paenitet <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>m</expan></name> fecisse <name>saul</name> regem</item>
+<lb/><item><label>xxvi</label> Testimonium prophetae dicentis. 
+<lb rend="indent"/>nolle <name><expan>d<ex>eu</ex><abbr rend="supraline">m</abbr></expan></name> sacrificium sed oboedientiam 
+<lb rend="indent"/>paenituit <name>saul</name> et eo nolente orauit 
+<lb rend="indent"/><name>samuhel</name> et auertens se ab eo 
+<lb rend="indent"/>tenuit summitatem pall<add place="above">i</add>i eius 
+<lb rend="indent"/>et scissum est. et <name>samuhel</name> propheta 
+<lb rend="indent"/>mani<expan>b<am>’</am><ex>us</ex></expan> suis interfecit <name>agag</name> 
+<lb rend="indent"/>regem <name>amalech</name></item>
+<lb/><item><label>xxvii</label> Spr<surplus>a</surplus>eto <name>saul</name> rege elegit <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>s</expan></name> filium 
+<lb rend="indent"/><name>isai</name> in regno nomine <name>dauid</name> et <name>saul</name> 
+<lb rend="indent"/>uexatur ab <expan>s<abbr rend="supraline">p</abbr><ex>irit</ex>u</expan> malo<surplus>.</surplus></item>
+<lb/><item><label>xxviii</label> <name>Golia</name> spurius surrexit contra <name><expan>isra<ex>he</ex><abbr rend="supraline">l</abbr></expan></name>. 
+<lb rend="indent"/>quem extinxit <name>dauid</name> adiu<choice><sic>b</sic><corr source="#Heyse1873">u</corr></choice>ante <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>o</expan></name><reg>.</reg> 
+<lb rend="indent"/>principium belli eius</item>
+<lb/><item><label>xxviiii</label> <name>Ionatha</name> filius <name>saul</name> et <name>dauid</name> inierunt 
+<lb rend="indent"/>foedus<surplus>.</surplus> <del rend="expunct">anreptus <name>saul</name></del></item>
+<lb/><item><label>xxx</label> Anreptus <name>saul</name> percutere uoluit 
+<lb rend="indent"/><name>dauid</name> lancia</item>
+<lb/><item><label>xxxi</label> Post adreptionem <name>saul</name> denuo pro
+<lb break="no"/>phetauit cum ceteris<reg>.</reg> signum 
+<lb rend="indent"/>int<del rend="erased">.</del>er <name>dauid</name> et <name>ionatha</name></item>
+<lb/><item><label>xxxii</label> <name>Dauid</name> mutat regionem in qua panes pro
+<lb break="no"/>positionis acceptos ab <name>abimelech</name> sacer
+<lb break="no"/>dote comedit</item>
+<lb/><item><label>xxxiii</label> Refugit <name>dauid</name> ad <name>achis</name> regem <name>geth</name></item>
+<lb/><item><label>xxxiiii</label> Fugit iterum in speluncam <name>odollam</name> ubi 
+<lb rend="indent"/>incolae elegerunt eum sibi principem 
+<lb rend="indent"/>et commendauit matrem et fratres 
+<lb rend="indent"/>suos regi <name>moab</name></item>
+<lb/><item><label>xxxv</label> Arreptus diabolo <name>saul</name> iussit <name>doec</name><surplus>.</surplus> seruo 
+<lb rend="indent"/>suo et interfecit sacerdotes <num>.lxxv<reg>.</reg></num><!-- chk --> 
+<lb rend="indent"/>uestitos <name>e<choice><orig>f</orig><reg>ph</reg></choice>od</name> lineo et ciuitatem 
+<lb rend="indent"/>eorum percussit in ore gladii</item>
+<lb/><item><label>xxxvi</label> Consulit <name>dauid</name> <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>m</expan></name> secundo si iuberet 
+<lb rend="indent"/>ei ut exiret contra <name>ph<choice><orig>y</orig><reg>i</reg></choice>list<reg>h</reg>eos</name> in <name>ceila</name> 
+<lb rend="indent"/>et <reg>h</reg>ortatur et audiens <name>saul</name> consur
+<lb break="no"/>gens aduersus eum</item>
+<lb/><item><label>xxxvii</label> Occurrit <name>ionathan</name> in silua ad confor
+<lb break="no"/>tandum <name>dauid</name> quem incolae terrae 
+<lb rend="indent"/>prod<choice><sic>e</sic><corr source="#Heyse1873">u</corr></choice>nt ad <name>saul</name></item>
+<cb n="b"/>
+<lb/><item><label>xxxviii</label> Mutauit locum latendi <name>dauid</name> in <name><supplied reason="omitted" source="#Heyse1873">en</supplied>gaddi</name><reg>.</reg> 
+<lb rend="indent"/>quem secutus <name>saul</name> in spelunca intro
+<lb break="no"/>gresso ad secreta naturae amputauit 
+<lb rend="indent"/><name>dauid</name> extremum clamydis eius et non 
+<lb rend="indent"/>sensit<reg>.</reg> quem percutere noluit metu 
+<lb rend="indent"/><name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name> sed secutus est eum increpans<reg>.</reg> 
+<lb rend="indent"/>ostendit ei scissuram clamydis</item>
+<lb/><item><label>xxxviiii</label> Testimonium quod contra <name>saul</name> arguen
+<lb break="no"/>do dixit <name>dauid</name> et conpunctus <name>saul</name> 
+<lb rend="indent"/>fleuit et profitetur iustiorem 
+<lb rend="indent"/>esse<del rend="expunct">m</del> <name>dauid</name> quam se</item>
+<lb/><item><label>xl</label> Obitum<!-- chk --> <name>samuhel</name> prophetae<reg>.</reg> et <name>nabal</name> 
+<lb rend="indent"/>tondit oues qui respuit nuntios <name>dauid</name>. 
+<lb rend="indent"/>sed <name>abigail</name> uxor eius curauit uulnus 
+<lb rend="indent"/>quod fecerat uir suus</item>
+<lb/><item><label>xli</label> Iterum <name>saul</name> post beneficium quod ei con
+<lb break="no"/>cessit <name>dauid</name> persequitur eum in <name>ziph</name> 
+<lb rend="indent"/>et tradidit eum <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>s</expan></name> in manus <name>dauid</name> 
+<lb rend="indent"/>et noluit percutere eum</item>
+<lb/><item><label>xlii</label> Item fugiit <name>dauid</name> in regione <name>philisthi
+<lb break="no"/>norum</name><reg>.</reg> quem desiit persequi <name>saul</name> 
+<lb rend="indent"/>et percussit <name>dauid</name> omnem terram</item>
+<lb/><item><label>xliii</label> Bellum <name>achis</name> contra <name>israhel</name><reg>.</reg> et de 
+<lb rend="indent"/><name>samuhelis</name> morte<reg>.</reg> et <name>saul</name> abstulit 
+<lb rend="indent"/>magos de terra</item>
+<lb/><item><label>xliiii</label> <name>Saul</name> rex excedit quaerens pithoniss<expan><abbr rend="supraline">a</abbr><ex>m</ex></expan> 
+<lb rend="indent"/>et <expan>s<abbr rend="supraline">p</abbr><ex>iritu</ex>s</expan> <name>samuhel</name> loquitur ad eum 
+<lb rend="indent"/>qui ei praedixit mortem sibi uentu
+<lb break="no"/>ram in alio die et filiorum 
+<lb rend="indent"/>suorum pariter</item>
+<lb/><item><label>xlv</label> Populus <name>siceleg</name> lapidare uoluerunt 
+<lb rend="indent"/><name>dauid</name> dolentes pro suis qui fuerunt 
+<lb rend="indent"/>captiuati<reg>.</reg> spolia<surplus>m et</surplus><!-- chk r --> iubet <name>dauid</name> 
+<lb rend="indent"/>diuidi etiam his qui defecerant 
+<lb rend="indent"/>euntes post latrunculos. 
+<lb rend="indent"/>misit etiam dona senioribus <name>iuda</name> 
+<lb rend="indent"/>proximis suis</item>
+<lb/><item><label>xlvi</label> Superatur <name><expan>i<abbr rend="supraline">sr</abbr><ex>ahe</ex>l</expan></name> a <name>philisthim</name> et in
+<lb break="no"/>terficiunt filios <name>saul</name> et ipsum 
+<lb rend="indent"/>sagittis uulnerarunt. Postmod<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> 
+<lb rend="indent"/>gladio suo incubuit. et armiger 
+<lb rend="indent"/>eius similiter. Populus <name>iabin</name> 
+<lb rend="indent"/>secuti <name>philisthim</name> sustulerunt 
+<lb rend="indent"/>corpus <name>saul</name> et filiorum eius 
+<pb n="220r"/>
+<cb n="a"/>
+<lb rend="indent"/>et incenderunt igni et sepelierunt eos 
+<lb rend="indent"/>et ieiunauerunt septem diebus</item>
+<lb/><item><label>xlvii</label> Nunti<surplus source="#Heyse1873">at</surplus>um sceleris iubet <name>dauid</name> ante se 
+<lb rend="indent"/>interfici et pro morte <name>ionathae</name> 
+<lb rend="indent"/>et patris et fratrum eius</item>
+<lb/><item><label>xlviii</label> Luxit <name>dauid</name> mortem <name>saul</name> et filiorum 
+<lb rend="indent"/>eius quae ante praedicta sunt 
+<lb rend="indent"/>et testimoniis adloquitur <name>dauid</name></item>
+<lb/><item><label>xlviiii</label> Consuluit <name>dauid</name> <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>m</expan></name> in qua urbe <name>iudae</name> 
+<lb rend="indent"/>ascendat et respondit ei <said>in <name>hebron</name></said><reg>.</reg>
+<lb rend="indent"/>et egit gratias uiris <name>iabis</name> 
+<lb rend="indent"/>pro sepultura <name>saul</name></item>
+<lb/><item><label>l</label> <name>Abner</name> filius <name>ner</name> filium <name>saul</name> regem 
+<lb rend="indent"/>fecit et regnauit duo<expan>b<am>’</am><ex>us</ex></expan> annis<reg>.</reg> 
+<lb rend="indent"/>qui et pugnauerunt contra <name>dauid</name> 
+<lb rend="indent"/>grauiter et <name>asahel</name> ibi occiditur</item>
+<lb/><item><label>li</label> Longa fuit discordia inter domum <name>dauid</name> 
+<lb rend="indent"/>et <name>saul</name><reg>.</reg> et sex nomina filiorum <name>dauid</name> 
+<lb rend="indent"/>qui nati sunt ei in <name>hebron</name></item>
+<lb/><item><label>lii</label> Iurgium inter <name>abner</name> et filium <name>saul</name> causa<surplus source="#Heyse1873">e</surplus> 
+<lb rend="indent"/>concubina<supplied reason="omitted" source="#Heyse1873">e</supplied> <name>saul</name> patris sui et <name>michol</name> 
+<lb rend="indent"/>reducitur ad <name>dauid</name></item>
+<lb/><item><label>liii</label> <name>Abner</name> deseruit filium <name>saul</name> et uenit 
+<lb rend="indent"/>ad <name>dauid</name> cum uniuersis qui dissentie
+<lb break="no"/>bant quos <name>dauid</name> subdit<surplus>.</surplus></item>
+<lb/><item><label>liiii</label> <name>Io<add place="above">a</add>b</name> displicuit amicitia <name>abner</name> cum <name>dauid</name> 
+<lb rend="indent"/>quem reuocans occidit inscio rege 
+<lb rend="indent"/>pro <name>asahel</name> fratrem suum<!-- chk --></item>
+<lb/><item><label>lv</label> Displicuit <name>dauid</name> factum <name>ioab</name> et male
+<lb break="no"/>dixit eum dicens<reg>.</reg> <said>non deficiat de 
+<lb rend="indent"/>domo <name>i<subst><del rend="alt">a</del><add place="inline">o</add></subst>ab</name> fluxum seminis sustenens 
+<lb rend="indent"/>uel leprosus</said> et cetera</item>
+<lb/><item><label>lvi</label> <name>Dauid</name> exequias et luctum celebrari 
+<lb rend="indent"/>iubet percussorem <name>abner</name> id est 
+<lb rend="indent"/><name>ioab</name> etiam uulgus cum eo<reg>.</reg> 
+<lb rend="indent"/>et de morte <name>hisboseth</name></item>
+<lb/><item><label>lvii</label> Post necem filiorum <name>saul</name> uel <name>abner</name> 
+<lb rend="indent"/>uenit uniuersus <name>israhel</name> et seniores 
+<lb rend="indent"/>eorum ad <name>dauid</name> et celebrauit cum eis 
+<lb rend="indent"/>foedus quod quadraginta annis 
+<lb rend="indent"/>regnauerit in <name>israhel</name></item>
+<lb/><item><label>lviii</label> Rex <name>tyri<surplus source="#Heyse1873">i</surplus></name> misit munera <name>dauid</name><reg>.</reg> et nomina 
+<lb rend="indent"/>filiorum eius qui nati sunt ei 
+<lb rend="indent"/>in <name>hierusalem</name></item>
+<lb/><item><label>lviiii</label> Ascenderunt <name>philisthim</name> ad debellandum 
+<lb rend="indent"/><name>dauid</name><reg>.</reg> qui consuluit <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>m</expan></name> et iussit ei 
+<lb rend="indent"/>adgredi bellum<reg>.</reg> quos interfecit et re
+<lb break="no"/>parantes se secundo redeunt<reg>.</reg> Item<expan>q<am>’</am><ex>ue</ex></expan> 
+<lb rend="indent"/>consuluit <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>m</expan></name> et respondit ei quod 
+<lb rend="indent"/>ante faciem eius egrederetur contra 
+<lb rend="indent"/><del rend="erased">c</del> <name>philisthi<surplus source="#Heyse1873">i</surplus>m</name> cum arca <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name></item>
+<lb/><item><label>lx</label> <name>Oza</name> percussit manum in arca<surplus source="#Heyse1873">m</surplus> <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name> 
+<lb rend="indent"/>et contristatus est <name>dauid</name></item>
+<lb/><item><label>lxi</label> Benedixit <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>s</expan></name> <name>obededom</name> qui suscipit 
+<lb rend="indent"/>arcam <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> tribus mensibus<reg>.</reg> quod <name>dauid</name> 
+<lb rend="indent"/>noluit timeri</item>
+<lb/><item><label>lxii</label> <name>Dauid</name> reuocat arcam <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> de domo 
+<lb rend="indent"/><name>obededom</name> in ciuitatem suam cum 
+<lb rend="indent"/>gaudio saltans ante eam et obtulit 
+<lb rend="indent"/>holocaustum <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>o</expan></name> et dedit uiris et 
+<lb rend="indent"/>mulieribus collyridam panis unam 
+<lb rend="indent"/>et assaturam carnis bubulae unam 
+<lb rend="indent"/>et similam frixam oleo</item>
+<lb/><item><label>lxiii</label> <name>Michol</name> uxor <name>dauid</name> primaria filia <name>saul</name> 
+<lb rend="indent"/>displicuit quia saltauit ante arca 
+<lb rend="indent"/>cui <name>dauid</name> digne respondit<surplus>.</surplus></item>
+<lb/><item><label>lxiiii</label> Visum est <name>dauid</name> iniustum quod ipse 
+<lb rend="indent"/>habitaret in domo cedrina et arca 
+<lb rend="indent"/><name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> in pelli<expan>b<am>’</am><ex>us</ex></expan><reg>.</reg> et accepit responsum 
+<lb rend="indent"/>legis filium habiturum qui aedifica<choice><sic>u</sic><corr source="#Heyse1873">b</corr></choice>it 
+<lb rend="indent"/>domum <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>o</expan></name><reg>.</reg> et oratio <name>dauid</name></item>
+<lb/><item><label>lxv</label> Percussit <name>dauid</name> <name>moab</name> et abstulit 
+<lb rend="indent"/>frenum tributi de manu <name>philisthiim</name> 
+<lb rend="indent"/>et fecit eum sibi tributarium 
+<lb rend="indent"/>et alios reges et spolia eorum</item>
+<lb/><item><label>lxvi</label> <name>Thou</name> rex <name>emath</name> misit <name>ioram</name> filium 
+<lb rend="indent"/>suum cum muneribus ut salutaret 
+<lb rend="indent"/>eum. ut in ualle salinarum 
+<lb rend="indent"/>caesi<surplus source="#Heyse1873">s</surplus> <num>xii</num> milia</item>
+<lb/><item><label>lxvii</label> Filii <name>dauid</name> sacerdotes. requirit etiam 
+<lb rend="indent"/>semen <name>ionathae</name> ad retribuend<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> bona<surplus source="#Heyse1873">.</surplus></item>
+<lb/><item><label>lxviii</label> Requirit <name>dauid</name> filium <name>ammon</name> nomine 
+<lb rend="indent"/><surplus>,</surplus><name>anon</name><surplus>,</surplus><!-- what is going on with the commas? --> ut faceret cum eo misericordia<supplied reason="omitted" source="#Heyse1873">m</supplied>. 
+<lb rend="indent"/>recolens beneficia patris eius<num>.</num> 
+<lb rend="indent"/>qui adprehendens pueros <name>dauid</name> 
+<lb rend="indent"/>rasit dimidiam barbam eorum 
+<lb rend="indent"/>hortantes principes eius<reg>.</reg> exinde 
+<lb rend="indent"/>oritur proelium<surplus>.</surplus></item>
+<pb n="220v"/>
+<cb n="a"/>
+<lb/><item><label>lxviiii</label> Incurrit rex in uxorem <name>uriae</name> <name>etthei</name><reg>.</reg> 
+<lb rend="indent"/>quod displicuit <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>o</expan></name> et misit <name>nathan</name> 
+<lb rend="indent"/>prophetam ad <name>dauid</name> increpans eum 
+<lb rend="indent"/>pro facto hoc<reg>.</reg> et percussit 
+<lb rend="indent"/>filium eius morte</item>
+<lb/><item><label>lxx</label> Consilium <name>ioab</name> dicentis regi<reg>.</reg> <said>adesto 
+<lb rend="indent"/>uictoriae belli ne postmodum 
+<lb rend="indent"/>adscribatur mihi uictoria 
+<lb rend="indent"/>sed potius tibi</said></item>
+<lb/><item><label>lxxi</label> Filius <name>dauid</name> <name>amnon</name> sororem suam 
+<lb rend="indent"/><name>thamar</name> stuprauit propter quam 
+<lb rend="indent"/>occidit eum <name>absalon</name> et fugit 
+<lb rend="indent"/>ad regem <name>gessur</name></item>
+<lb/><item><label>lxxii</label> <name>Ioab</name> per mulierem sapientem figuri<supplied reason="omitted" source="#Heyse1873">s</supplied> 
+<lb rend="indent"/>fecit adire regem <name>dauid</name> ut parceret 
+<lb rend="indent"/>filio suo <name>absalon</name><reg>.</reg> et indulgens iussit 
+<lb rend="indent"/><name>ioab</name> reducere eum de <name>gessur</name> ita 
+<lb rend="indent"/>ut regem non uideret<reg>.</reg> qui reconcilia
+<lb break="no"/>tus patri obsculatus est eum 
+<lb rend="indent"/>faciente <name>ioab</name></item>
+<lb/><item><label>lxxiii</label> Fugiit rex <name>dauid</name> propter temeritatem 
+<lb rend="indent"/>filii sui <name>absalon</name></item>
+<item><supplied reason="omitted" source="#Heyse1873"><label>lxxiiii</label></supplied> Et arcam<name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> quam 
+<lb rend="indent"/>secum portauerit iussit in domum 
+<lb rend="indent"/><name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name> reuocari<surplus>,</surplus></item>
+<lb/><item><label>lxxv</label> <name>Semei</name> filius <name>gera</name> de cognatione domus 
+<lb rend="indent"/><name>saul</name> resultans lapidabat <name>dauid</name> 
+<lb rend="indent"/>exprobrans ei qui patienter sustenuit</item>
+<lb/><item><label>lxxvi</label> Consilium petiit <name>absalon</name> <name>ahit<surplus>h</surplus>ofel</name> 
+<lb rend="indent"/>qui dedit ei incertum petens ab eo 
+<lb rend="indent"/><num>xii</num> milia uirorum ut persequeretur 
+<lb rend="indent"/><name>dauid</name><reg>.</reg> et reuocat eum <name>husai</name> dans 
+<lb rend="indent"/>meliorem ut induceret <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>s</expan></name> super 
+<lb rend="indent"/><name>absalon</name> malum. Quod cernens 
+<lb rend="indent"/><name>ahitofel</name> non se praeualuisse reuersus 
+<lb rend="indent"/>domum suam suspendio interiit</item>
+<lb/><item><label>lxxvii</label> Diuidens <name>dauid</name> exercitum tri<expan>b<am>’</am><ex>us</ex></expan> duci<expan>b<am>’</am><ex>us</ex></expan> 
+<lb rend="indent"/>ipsum prohibent secum exire<reg>.</reg> qui<expan>b<am>’</am><ex>us</ex></expan> 
+<lb rend="indent"/>praecepit filium sibi <name>absalom</name> 
+<lb rend="indent"/>reseruari</item>
+<lb/><item><label>lxxviii</label> Interitus <name>absalon</name> filii <name>dauid</name><reg>.</reg> quem 
+<lb rend="indent"/>lugens pater argu<choice><sic>e</sic><corr source="#Heyse1873">i</corr></choice>t eum <name>ioab</name> 
+<lb rend="indent"/>princeps quod exercitum suum 
+<lb rend="indent"/>contristaret et quod in ciuitatem 
+<lb rend="indent"/>reuerti nollet</item>
+<cb n="b"/>
+<lb/><item><label>lxxviiii</label> Abs<expan>q<am>’</am><ex>ue</ex></expan> uoluntate omnis populi <name>israhel</name> 
+<lb rend="indent"/>noluit reuerti <name>dauid</name> in <name>hierusalem</name> 
+<lb rend="indent"/>post caede regis uel morte 
+<lb rend="indent"/><name>absalon</name> quem sibi elegerant<!-- chk r --></item>
+<lb/><item><label>lxxx</label> Clementia regis <name>dauid</name> circa omnes 
+<lb rend="indent"/>qui maledixerant ei pergenti 
+<lb rend="indent"/>a facie <name>absalon</name> uel qualiter 
+<lb rend="indent"/>responderit oranti sibi malum</item>
+<lb/><item><label>lxxxi</label> Beneficia <name>berzellai</name> circa regem<reg>.</reg> 
+<lb rend="indent"/>cui <supplied reason="omitted" source="#Heyse1873">cum</supplied> uoluera<choice><sic>ns</sic><corr source="#Heyse1873">t</corr></choice><!-- chk r --> reddere beneficium 
+<lb rend="indent"/>senectus inpediuit</item>
+<lb/><item><label>lxxxii</label> Iurgium inter tribum <name>iuda</name> qui erat 
+<lb rend="indent"/>cum <name>dauid</name> et <name>israhel</name> qui erat 
+<lb rend="indent"/>cum <name>seba</name> filium<!-- chk --> <name>bochri</name></item>
+<lb/><item><label>lxxxiii</label> <name>Seba</name> filius <name>bochri</name> cogitauit malum 
+<lb rend="indent"/>contra <name>dauid</name> regem quem <name>ioab</name> 
+<lb rend="indent"/>consecutus in ciuitatem obsidebat<reg>.</reg> 
+<lb rend="indent"/>quam subuertere uoluit nisi mulier 
+<lb rend="indent"/>per murum postulasset pro 
+<lb rend="indent"/>cunctis habitantibus. et amputasset 
+<lb rend="indent"/>caput <name>seba</name><reg>.</reg> tradidit <name>ioab</name> 
+<lb rend="indent"/>et saluauit ciuitatem</item>
+<lb/><item><label>lxxxiiii</label> Minatur <name><expan>d<ex>eu</ex><abbr rend="supraline">s</abbr></expan></name> <name>dauid</name> fame interemp
+<lb break="no"/>turum omnia propter <name>saul</name>. 
+<lb rend="indent"/>qui consuluit <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>m</expan></name> et dedit remedi<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> 
+<lb rend="indent"/>in uiris <num>.vii.</num> quos tradidit <name>gabaonitis</name> 
+<lb rend="indent"/>et placatus est. Recollectis 
+<lb rend="indent"/>ossis <name>saul</name> et <name>ionatha</name> sepeliuit 
+<lb rend="indent"/>in sepulchro <name>chis</name> patris sui</item>
+<lb/><item><label>lxxxv</label> De quattuor bella<reg>.</reg> statu proceri 
+<lb rend="indent"/>qui unus eorum senos digitos 
+<lb rend="indent"/>habuit in manibus et in pedibus 
+<lb rend="indent"/>id est uiginti quattuor digitos</item>
+<lb/><item><label>lxxxvi</label> Canticum <name>dauid</name> quem cantauit <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>o</expan></name> 
+<lb rend="indent"/>in die qua liberauit eum de manu 
+<lb rend="indent"/>inimicorum eius et de manu <name>saul</name></item>
+<lb/><item><label>lxxxvii</label> Vbi adloquitur <name>dauid</name> ad populum</item>
+<lb/><item><label>lxxxvhi</label> Sitiens <name>dauid</name> in spelunca desiderauit 
+<lb rend="indent"/>aqua<supplied reason="omitted" source="#Heyse1873">m</supplied> de cisterna quae est 
+<lb rend="indent"/>ad porta <name>bethleem</name><reg>.</reg> delatam 
+<lb rend="indent"/>noluit bibere propter 
+<lb rend="indent"/>temeritate portitorum dicens<reg>.</reg> 
+<lb rend="indent"/><said>Propitius</said> sit mihi <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>s</expan></name> ne bibam 
+<lb rend="indent"/>sanguinem hominum 
+<pb n="221r"/>
+<cb n="a"/>
+<lb rend="indent"/>et libauit eam <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>o</expan></name></item>
+<lb/><item><label>lxxxviiii</label> <name>Ab<choice><sic>a</sic><corr>i</corr></choice>sai</name> frater <name>ioab</name> qui leuauit manum 
+<lb rend="indent"/>contra trecentos uiros inter
+<lb break="no"/>fecit eos<reg>.</reg> et ceteri<surplus source="#Heyse1873">s</surplus> fortes uiri 
+<lb rend="indent"/>in quibus unus leones absque ferro 
+<lb rend="indent"/>occidit et <name>aegyptium</name> fortem 
+<lb rend="indent"/>hasta sua <surplus source="#Heyse1873">eum</surplus> puniit</item>
+<lb/><item><label>xc</label> Indignatur <name><expan>d<ex>eu</ex><abbr rend="supraline">s</abbr></expan></name> contra <name>israhel</name> 
+<lb rend="indent"/>iussit dinumerari et post dinume
+<lb break="no"/>rationem iubet eum per dilation<expan><abbr rend="supraline">e</abbr><ex>m</ex></expan> 
+<lb rend="indent"/>electione<supplied reason="omitted" source="#Heyse1873">m</supplied> plagarum trium 
+<lb rend="indent"/>e quibus una euenit in populo 
+<lb rend="indent"/>tribus diebus. Et iubetur angelo 
+<lb rend="indent"/>a <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>o</expan></name> quiescere et ut non sit 
+<lb rend="indent"/>offerendum holoca<add place="above">u</add>sta 
+<lb rend="indent"/>nisi de proprio 
+<lb rend="indent"/>labore</item>
+</list>
+<div type="textpart" subtype="finalRubric">
+<p>
+<lb/>explicit breuis
+</p>
+</div>
+</div>
+</body>
+</text>
+</TEI>

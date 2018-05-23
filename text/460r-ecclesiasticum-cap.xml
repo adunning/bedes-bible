@@ -1,0 +1,167 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng"
+type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title xml:lang="la">Capitula</title>
+</titleStmt>
+<publicationStmt>
+<authority>Digital Latin Library</authority>
+<availability>
+<licence target="https://creativecommons.org/licences/by-sa/4.0/">Provided under a Creative Commons Attribution-ShareAlike 4.0 International Licence.</licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<settlement>Florence</settlement>
+<repository>Biblioteca Medicea Laurenziana</repository>
+<collection>Amiatino</collection>
+<idno>1</idno>
+<msName>Codex Amiatinus</msName>
+</msIdentifier>
+</msDesc>
+<listBibl>
+<biblStruct type="book" xml:id="Heyse1873" corresp="http://zotero.org/users/254032/items/69EHSXJZ">
+<monogr>
+<title level="m">Biblia sacra latina Veteris Testamenti Hieronymo interprete ex antiquissima auctoriatate in stichos descripta<reg>.</reg> Vulgatam lectionem ex editione Clementina principe anni MDXCII et Romana ultima anni MDCCCLXI repetitam testimonium comitatur Codicis Amiatini Latinorum omnium antiquissimi</title>
+<editor>
+<forename>Theodor</forename>
+<surname>Heyse</surname>
+</editor>
+<editor>
+<forename>Constantinus von</forename>
+<surname>Tischendorf</surname>
+</editor>
+<imprint>
+<pubPlace>Leipzig</pubPlace>
+<publisher>Brockhaus</publisher>
+<date>1873</date>
+<note type="url">https://archive.org/details/biblicasacralati00unse</note>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct type="book" xml:id="r" corresp="http://zotero.org/users/254032/items/SV9ECTS4">
+<monogr>
+<title level="m">Biblia Sacra iuxta latinam vulgatam versionem</title>
+<editor>
+<orgName>Pontifical Abbey of St Jerome-in-the-City</orgName>
+</editor>
+<editor>
+<forename>Henri</forename>
+<surname>Quentin</surname>
+</editor>
+<imprint>
+<pubPlace>Rome</pubPlace>
+<publisher>Libreria Editrice Vaticana</publisher>
+<date>1926–1995</date>
+</imprint>
+</monogr>
+</biblStruct>
+</listBibl>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text xml:lang="la">
+<body>
+<div type="textpart">
+<list>
+<head>
+<lb/>Incipiunt capitula
+</head>
+<lb/><item><label>i</label> <hi rend="red dropcap2">Q</hi>uod omnis sapientia a <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>o</expan></name> <name><expan>d<ex>e</ex><abbr rend="supraline">o</abbr></expan></name> sit<reg>.</reg> 
+<lb rend="indent"/>quod plenitudo sapientiae sit 
+<lb rend="indent"/>timor <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name></item>
+<lb/><item><label>ii</label> De concupiscenda sapientia et ser
+<lb break="no"/>uanda iustitia uel metuentes <name><expan>d<ex>eu</ex><abbr rend="supraline">m</abbr></expan></name> 
+<lb rend="indent"/>et mercis eorum<reg>.</reg> quod filii sapientiae 
+<lb rend="indent"/>sint ecclesiae <expan>s<ex>an</ex><abbr rend="supraline">c</abbr><ex>t</ex>orum</expan></item>
+<lb/><item><label>iii</label> De honore parentum<reg>.</reg> de mansuetu
+<lb break="no"/>dine<reg>.</reg> de iudicando pupillo 
+<lb rend="indent"/>et uiduae</item>
+<pb n="460v"/>
+<cb n="a"/>
+<lb/><item><label>iiii</label> De studiis sapientiae uel non confidendo 
+<lb rend="indent"/>in diuitiis incertis<reg>.</reg> quod uerbum 
+<lb rend="indent"/>dulce<del rend="strikethrough">m</del> multiplicat amicos 
+<lb rend="indent"/>et mitigat inimicos</item>
+<lb/><item><label>v</label> Quod a iuuentute suscipienda sit doctri
+<lb break="no"/>na<reg>.</reg> malum nullo modo faciendum 
+<lb rend="indent"/>siue <supplied reason="omitted" source="#Heyse1873">de</supplied> mendacio uitando<reg>.</reg> de seruo bono</item>
+<lb/><item><label>vi</label> De eruditione filiorum et custodia 
+<lb rend="indent"/>ac traditione filiarum<reg>.</reg> quod in tota 
+<lb rend="indent"/>anima timendus sit <name><expan>d<ex>eu</ex><abbr rend="supraline">s</abbr></expan></name> et sacerdotes 
+<lb rend="indent"/>eius <expan>s<ex>an</ex><abbr rend="supraline">c</abbr><ex>t</ex>i</expan>ficare uel <supplied reason="omitted" source="#Heyse1873">de</supplied> non litigando cum 
+<lb rend="indent"/>homine potente</item>
+<lb/><item><label>vii</label> <supplied reason="omitted" source="#Heyse1873">De</supplied> non stando contra faciem contumeliosi<reg>.</reg> 
+<lb rend="indent"/>de non relinquendum amicum 
+<lb rend="indent"/>ant<subst><del rend="strikethrough">e</del><add place="above">i</add></subst>quum<reg>.</reg> quod non sit scelestius 
+<lb rend="indent"/>auaro nihil</item>
+<lb/><item><label>viii</label> Quod initium sit separationis a <name><expan>d<ex>e</ex><abbr rend="supraline">o</abbr></expan></name> 
+<lb rend="indent"/>superbia nec in multis sint actus 
+<lb rend="indent"/>et de integra societate diuitum 
+<lb rend="indent"/>et discretione amici</item>
+<lb/><item><label>viiii</label> De incongrua societate diuitis et pauperi<supplied reason="omitted">s</supplied><reg>.</reg> 
+<lb rend="indent"/>quod bona sit substantia cui non est 
+<lb rend="indent"/>peccatum in conscientia<reg>.</reg> non est 
+<lb rend="indent"/>speciosa laus in ore peccatoris</item>
+<lb/><item><label>x</label> De filiis impiis uel conuersione ad <name><expan>d<ex>eu</ex><abbr rend="supraline">m</abbr></expan></name> 
+<lb rend="indent"/>siue de continentia animae</item>
+<lb/><item><label>xi</label> De correptione amici<reg>.</reg> quod post peccat<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> 
+<lb rend="indent"/>non debet quis peccare siue fidem 
+<lb rend="indent"/>possidendam in proximo etiam 
+<lb rend="indent"/>in paupertate</item>
+<lb/><item><label>xii</label> De doctrina oris sui siue muliere adulte
+<lb break="no"/>ra<reg>.</reg> sapientiae laus siue <supplied reason="omitted" source="#Heyse1873">de</supplied> tri<expan>b<am>’</am><ex>us</ex></expan> bonis</item>
+<lb/><item><label>xiii</label> De dua<expan>b<am>’</am><ex>us</ex></expan> speciebus abominandis uel 
+<lb rend="indent"/>nequitia mulieris<reg>.</reg> de quattuor 
+<lb rend="indent"/>malis et timendis</item>
+<lb/><item><label>xiiii</label> De filia inreuerenti gratia mulieris 
+<lb rend="indent"/>sedulae siue iustitia sequenda</item>
+<lb/><item><label>xv</label> De dilectione proximi uel mala lingua 
+<lb rend="indent"/>discordia<supplied reason="omitted" source="#Heyse1873">m</supplied> seminante siue 
+<lb rend="indent"/>de fenore</item>
+<lb/><item><label>xvi</label> De fideiussore uel disciplina filiorum 
+<lb rend="indent"/>siue pauperem sanum et diuitem 
+<lb rend="indent"/>inbecillum</item>
+<lb/><item><label>xvii</label> De labore pauperis et diuitis uel 
+<cb n="b"/>
+<lb rend="indent"/>continentia siue uinolento et sobrio</item>
+<lb/><item><label>xviii</label> De non arguendo proximum in conuiuio 
+<lb rend="indent"/>uel seniore loquente siue 
+<lb rend="indent"/>iuniore</item>
+<lb/><item><label>xviiii</label> Omnia cum consilio facienda<reg>.</reg> <supplied reason="omitted" source="#Heyse1873">de</supplied> non 
+<lb rend="indent"/>danda potestate super se uel 
+<lb rend="indent"/>somnia quod sint uana</item>
+<lb/><item><label>xx</label> Quod <expan>s<abbr rend="supraline">p</abbr><ex>iritu</ex>s</expan> timentium <name><expan>d<ex>eu</ex><abbr rend="supraline">m</abbr></expan></name> quaeritur<reg>.</reg> 
+<lb rend="indent"/>de obseruatione mandatorum 
+<lb rend="indent"/>siue misericordia <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name></item>
+<lb/><item><label>xxi</label> De distinctione ciborum uel non con
+<lb break="no"/>siliando cum amico<reg>.</reg> de quattuor 
+<lb rend="indent"/>partibus</item>
+<lb/><item><label>xxii</label> De sapiente bono et malo siue medicum 
+<lb rend="indent"/>honorandum<reg>.</reg> de sapientia quattuor 
+<lb rend="indent"/>artificum</item>
+<lb/><item><label>xxiii</label> Quod sapientia omnia exquir<choice><sic>e</sic><corr source="#Heyse1873">i</corr></choice>t 
+<lb rend="indent"/>uel bona bonis et mala malis 
+<lb rend="indent"/>creata sunt<reg>.</reg> et quia omnia 
+<lb rend="indent"/>transeunt praeter fides</item>
+<lb/><item><label>xxiiii</label> De diuitia sibi suffic<supplied reason="omitted" source="#Heyse1873">i</supplied>ente 
+<lb rend="indent"/>uel duo genera mortis<reg>.</reg> 
+<lb rend="indent"/>de bono nomine</item>
+<lb/><item><label>xxv</label> De disciplina seruanda in pace 
+<lb rend="indent"/>uel signare et claudere 
+<lb rend="indent"/>et numerare et scribere</item>
+<lb/><item><label>xxvi</label> De filia inreuerenti et luxuriosa<reg>.</reg> 
+<lb rend="indent"/>laus creaturae uel laus 
+<lb rend="indent"/>parentum<surplus>:⁓</surplus></item>
+</list>
+<div type="textpart" subtype="finalRubric">
+<p rend="red">expliciunt capitula</p>
+</div>
+</div>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,160 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng"
+type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title xml:lang="la">Capitula</title>
+</titleStmt>
+<publicationStmt>
+<authority>Digital Latin Library</authority>
+<availability>
+<licence target="https://creativecommons.org/licences/by-sa/4.0/">Provided under a Creative Commons Attribution-ShareAlike 4.0 International Licence.</licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<settlement>Florence</settlement>
+<repository>Biblioteca Medicea Laurenziana</repository>
+<collection>Amiatino</collection>
+<idno>1</idno>
+<msName>Codex Amiatinus</msName>
+</msIdentifier>
+</msDesc>
+<listBibl>
+<biblStruct type="book" xml:id="Heyse1873" corresp="http://zotero.org/users/254032/items/69EHSXJZ">
+<monogr>
+<title level="m">Biblia sacra latina Veteris Testamenti Hieronymo interprete ex antiquissima auctoriatate in stichos descripta<reg>.</reg> Vulgatam lectionem ex editione Clementina principe anni MDXCII et Romana ultima anni MDCCCLXI repetitam testimonium comitatur Codicis Amiatini Latinorum omnium antiquissimi</title>
+<editor>
+<forename>Theodor</forename>
+<surname>Heyse</surname>
+</editor>
+<editor>
+<forename>Constantinus von</forename>
+<surname>Tischendorf</surname>
+</editor>
+<imprint>
+<pubPlace>Leipzig</pubPlace>
+<publisher>Brockhaus</publisher>
+<date>1873</date>
+<note type="url">https://archive.org/details/biblicasacralati00unse</note>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct type="book" xml:id="r" corresp="http://zotero.org/users/254032/items/SV9ECTS4">
+<monogr>
+<title level="m">Biblia Sacra iuxta latinam vulgatam versionem</title>
+<editor>
+<orgName>Pontifical Abbey of St Jerome-in-the-City</orgName>
+</editor>
+<editor>
+<forename>Henri</forename>
+<surname>Quentin</surname>
+</editor>
+<imprint>
+<pubPlace>Rome</pubPlace>
+<publisher>Libreria Editrice Vaticana</publisher>
+<date>1926–1995</date>
+</imprint>
+</monogr>
+</biblStruct>
+</listBibl>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text xml:lang="la">
+<body>
+<div type="textpart">
+<list>
+<head rend="caps">
+<lb/><hi rend="red">Incipiunt capitula</hi>
+<lb/>ecclesiastes
+</head>
+<pb n="437r"/>
+<cb n="a"/>
+<lb/><item><label>i</label> <hi rend="red"><hi rend="enlarged">V</hi>erba <name>ecclesiastes</name> fili <name>dauid</name></hi></item>
+<lb/><item><label>ii</label> Quod cunctae res difficilia sunt et quod 
+<lb rend="indent"/>sub sole nihil est nouum uel quod 
+<lb rend="indent"/><name>ecclesiastes</name> fuerit rex in <name>israhel</name></item>
+<lb/><item><label>iii</label> Magnus effectus est <name>salomon</name> 
+<lb rend="indent"/>de studiis sapientiae atque doctrina<add place="inline">e</add><reg>.</reg> 
+<lb rend="indent"/>quod uanitas sint affluentia delic<choice><sic>t</sic><corr source="#Heyse1873">i</corr></choice>o
+<lb break="no"/>rum<reg>.</reg> de magnificentia operum uel 
+<lb rend="indent"/>contemplanda sapientia</item>
+<lb/><item><label>iiii</label> Detestatio omnium industriarum<reg>.</reg> 
+<lb rend="indent"/>quod nullus ita uorauit et deliciis 
+<lb rend="indent"/>afluit ut <name>ecclesiastes</name><reg>.</reg> quod omnia 
+<lb rend="indent"/>tempus habent<reg>.</reg> de afflictione quam 
+<lb rend="indent"/>dedit <name><expan>d<ex>eu</ex><abbr rend="supraline">s</abbr></expan></name> filiis hominum uel 
+<lb rend="indent"/>opera quae fecit <name><expan>d<ex>eu</ex><abbr rend="supraline">s</abbr></expan></name> quod perseue
+<lb break="no"/>rent in aeternum</item>
+<lb/><item><label>v</label> De probatione filiorum hominum 
+<lb rend="indent"/>quod similes sint iumentis uel 
+<lb rend="indent"/><supplied reason="omitted" source="#Heyse1873">de</supplied> calumniis quae sub sole geruntur. 
+<lb rend="indent"/>de contemplatione omnium labor<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> 
+<lb rend="indent"/>et inuidia proximi<reg>.</reg> de uno et secund<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> 
+<lb rend="indent"/>non habente<surplus source="#Heyse1873">m</surplus> et tamen laborare 
+<lb rend="indent"/>non cessat nec satiantur 
+<lb rend="indent"/>oculi eius diuitiis</item>
+<lb/><item><label>vi</label> Quod melior est puer pauper. et sapi
+<lb break="no"/>ens rege sene et stulto<reg>.</reg> de cunctos 
+<lb rend="indent"/>uiuentes qui ambulant sub sole 
+<lb rend="indent"/>uel custodia pedum ingredi domum 
+<lb rend="indent"/><name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name><reg>.</reg> ne dederis os tuum ut peccare 
+<lb rend="indent"/>facias carnem tuam siue diuitiae 
+<lb rend="indent"/>congregatae malum domini sui</item>
+<lb/><item><label>vii</label> De eo cui dedit <name><expan>d<ex>eu</ex><abbr rend="supraline">s</abbr></expan></name> diuitias atque sub
+<lb break="no"/>stantiam item cui dedit <name><expan>d<ex>eu</ex><abbr rend="supraline">s</abbr></expan></name> 
+<lb rend="indent"/>diuitias et non tribuit ei potestatem 
+<lb rend="indent"/>comedendi ex eas<reg>.</reg> quod omnis 
+<lb rend="indent"/>labor hominis in ore eius sit et 
+<lb rend="indent"/>anima illius non impletur<reg>.</reg> non 
+<lb rend="indent"/>necesse est homini maiora se 
+<lb rend="indent"/>quaerere<surplus>.</surplus></item>
+<lb/><item><label>viii</label> De nomine bono<reg>.</reg> de corde sapientium 
+<lb rend="indent"/>et stultorum<reg>.</reg> quod melius est 
+<lb rend="indent"/>a sapiente corripi siue quia calumnia 
+<lb rend="indent"/>conturbat sapientem uel non 
+<lb rend="indent"/>irascendum uelociter<surplus>.</surplus></item>
+<cb n="b"/>
+<lb/><item><label>viiii</label> De tempori<expan>b<am>’</am><ex>us</ex></expan> diuersis siue considera
+<lb break="no"/>tione operum <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> et quia iustus 
+<lb rend="indent"/>in iustitia sua morietur<reg>.</reg> quod cuncta 
+<lb rend="indent"/>tem<reg>p</reg>tauit <name>ecclesiastes</name> in sapientia 
+<lb rend="indent"/>sua siue quia quaerenda est 
+<lb rend="indent"/>sapientia</item>
+<lb/><item><label>x</label> De uiro qui inuentus est bonus unus 
+<lb rend="indent"/>de mille<reg>.</reg> quod nullus similis sit 
+<lb rend="indent"/>sapienti seu quod sapientia obser
+<lb break="no"/>uet os regis uel quod non sit in 
+<lb rend="indent"/>hominis dicione prohibere <expan>s<abbr rend="supraline">p</abbr><ex>iritu</ex>m</expan><reg>.</reg> 
+<lb rend="indent"/>De dominatione hominis homini 
+<lb rend="indent"/>in malum suum</item>
+<lb/><item><label>xi</label> De malis quae accidunt iustis et pro
+<lb break="no"/>speritate impiorum<reg>.</reg> De eo qui die<expan>b<am>’</am><ex>us</ex></expan> 
+<lb rend="indent"/>ac nocti<expan>b<am>’</am><ex>us</ex></expan> somnum oculis non 
+<lb rend="indent"/>capit<reg>.</reg> quod opera iustorum sit 
+<lb rend="indent"/>in manu <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name><reg>.</reg> ut comedatur panis in 
+<lb rend="indent"/>laetitia et bibatur uinum in gaudio<reg>.</reg> 
+<lb rend="indent"/>quod nec uelocium sit cursum 
+<lb rend="indent"/>nec fortium bellum</item>
+<lb/><item><label>xii</label> De uiro sapiente qui liberauit ciuitat<expan><abbr rend="supraline">e</abbr><ex>m</ex></expan> 
+<lb rend="indent"/>sapientia sua<reg>.</reg> de stulto in honore 
+<lb rend="indent"/>posito<reg>.</reg> quod uae sit terrae cuius 
+<lb rend="indent"/>rex puer est siue iuuenis quod 
+<lb rend="indent"/>laetetur et in bono sit cor eius<reg>.</reg> 
+<lb rend="indent"/>ut ante mortem memoretur. 
+<lb rend="indent"/>quis creatorem suum<surplus>:⁓</surplus></item>
+</list>
+<div type="textpart" subtype="finalRubric">
+<p>
+<lb/><hi rend="red">expliciunt</hi> 
+<lb/>capitula
+</p>
+</div>
+</div>
+</body>
+</text>
+</TEI>

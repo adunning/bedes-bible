@@ -1,0 +1,172 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng"
+type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title xml:lang="la">Capitula</title>
+</titleStmt>
+<publicationStmt>
+<authority>Digital Latin Library</authority>
+<availability>
+<licence target="https://creativecommons.org/licences/by-sa/4.0/">Provided under a Creative Commons Attribution-ShareAlike 4.0 International Licence.</licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<settlement>Florence</settlement>
+<repository>Biblioteca Medicea Laurenziana</repository>
+<collection>Amiatino</collection>
+<idno>1</idno>
+<msName>Codex Amiatinus</msName>
+</msIdentifier>
+</msDesc>
+<listBibl>
+<biblStruct type="book" xml:id="Heyse1873" corresp="http://zotero.org/users/254032/items/69EHSXJZ">
+<monogr>
+<title level="m">Biblia sacra latina Veteris Testamenti Hieronymo interprete ex antiquissima auctoriatate in stichos descripta: Vulgatam lectionem ex editione Clementina principe anni MDXCII et Romana ultima anni MDCCCLXI repetitam testimonium comitatur Codicis Amiatini Latinorum omnium antiquissimi</title>
+<editor>
+<forename>Theodor</forename>
+<surname>Heyse</surname>
+</editor>
+<editor>
+<forename>Constantinus von</forename>
+<surname>Tischendorf</surname>
+</editor>
+<imprint>
+<pubPlace>Leipzig</pubPlace>
+<publisher>Brockhaus</publisher>
+<date>1873</date>
+<note type="url">https://archive.org/details/biblicasacralati00unse</note>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct type="book" xml:id="r" corresp="http://zotero.org/users/254032/items/SV9ECTS4">
+<monogr>
+<title level="m">Biblia Sacra iuxta latinam vulgatam versionem</title>
+<editor>
+<orgName>Pontifical Abbey of St Jerome-in-the-City</orgName>
+</editor>
+<editor>
+<forename>Henri</forename>
+<surname>Quentin</surname>
+</editor>
+<imprint>
+<pubPlace>Rome</pubPlace>
+<publisher>Libreria Editrice Vaticana</publisher>
+<date>1926–1995</date>
+</imprint>
+</monogr>
+</biblStruct>
+</listBibl>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text xml:lang="la">
+<body>
+<div type="textpart">
+<list>
+<head rend="red caps">
+<lb/>Incipiunt capitu
+<lb break="no"/>la <name>iob</name>
+</head>
+<pb n="683v"/>
+<cb n="a"/>
+<lb/><item><label>i</label> <hi rend="red">De</hi> origine <name>iob</name> et enumeratione filiorum 
+<lb rend="indent"/>ac substantiae eius</item>
+<lb/><item><label>ii</label> De <name>satan</name> ubi astans ante <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>m</expan></name> petit ab eo 
+<lb rend="indent"/>substantiam <name>iob</name> cui et data est</item>
+<lb/><item><label>iii</label> De <name>satan</name> ubi perdidit omnem substan
+<lb break="no"/>tiam <name>iob</name> et filios eius</item>
+<lb/><item><label>iiii</label> Vbi <name>iob</name> audiens perditionem substantiae 
+<lb rend="indent"/>suae ac filiorum interitum scidit uest<expan><abbr rend="supraline">e</abbr><ex>m</ex></expan> su<expan><abbr rend="supraline">a</abbr><ex>m</ex></expan></item>
+<lb/><item><label>v</label> Vbi <name>satan</name> petit a <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>o</expan></name> temptationem <name>iob</name><reg>.</reg> cui et 
+<lb rend="indent"/>iussit <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>s</expan></name> dato interdicto animae eius</item>
+<lb/><item><label>vi</label> Vbi <name>satan</name> accipiens potestatem a <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>o</expan></name> 
+<lb rend="indent"/>percussit <name>iob</name> ulcere pessimo</item>
+<lb/><item><label>vii</label> Vbi audientes tres amici <name>iob</name> uene
+<lb break="no"/>runt consolar<choice><sic>e</sic><corr source="#r">i</corr></choice> eum</item>
+<lb/><item><label>viii</label> Initium uerborum <name>iob</name> coram amicis suis</item>
+<lb/><item><label>viiii</label> Responsio <name>eliphaz</name> <name>themanites</name> de eo quod 
+<lb rend="indent"/>impii a <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>o</expan></name> flagella sustineant</item>
+<lb/><item><label>x</label> Vbi <name>iob</name> respondens sermoni<expan>b<am>’</am><ex>us</ex></expan> eius increpat eum 
+<lb rend="indent"/>detraxisse sermonibus suis</item>
+<lb/><item><label>xi</label> Responsio <name>balda<surplus>a</surplus>d</name> <name>suites</name> ubi ei dicit<reg>.</reg> <name>si</name> depraeca
+<lb break="no"/>ueris <name><expan>d<ex>eu</ex><abbr rend="supraline">m</abbr></expan></name> uenient tibi in nouissimo bona</item>
+<lb/><item><label>xii</label> Vbi <name>iob</name> respondens ei dicit ita esse et deprae
+<lb break="no"/>catur <name><expan>d<ex>eu</ex><abbr rend="supraline">m</abbr></expan></name> factorem suum</item>
+<lb/><item><label>xiii</label> Responsio <name>sophar</name> <name>naamatites</name> ubi dicit 
+<lb rend="indent"/>multa eum fuisse locutum</item>
+<lb/><item><label>xiiii</label> Vbi <name>iob</name> respondens e<surplus source="#r">t</surplus>docuit quod sine nutu 
+<lb rend="indent"/><name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> nihil possit fieri in terra</item>
+<lb/><item><label>xv</label> Vbi <name>eliphaz</name> <name>themanites</name> respondens dixit 
+<lb rend="indent"/>ad <name>iob</name><reg>.</reg> <said>quid te ele<choice><sic>b</sic><corr source="#Heyse1873 #r">u</corr></choice>at cor tuum in blasphemi<expan><abbr rend="supraline">a</abbr><ex>m</ex></expan></said></item>
+<lb/><item><label>xvi</label> Vbi <name>iob</name> respondens adprobat quod non ad con
+<lb break="no"/>solandum sed ad exprob<supplied reason="omitted" source="#r">r</supplied>andum uenerint ad e<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan></item>
+<lb/><item><label>xvii</label> Vbi respondens <name>balda<surplus>a</surplus>d</name> <name>suites</name> dixit 
+<lb rend="indent"/>quod impiorum lux extinguatur 
+<lb rend="indent"/>et memoria eorum pereat de terra</item>
+<lb/><item><label>xviii</label> Vbi respondens <name>iob</name> de resurrectione corpo
+<lb break="no"/>rum quam maxim<surplus source="#Heyse1873 #r">a</surplus>e prophetauit</item>
+<lb/><item><label>xviiii</label> Vbi respondens <name>sophar</name> <name>naamatites</name> dixit 
+<lb rend="indent"/>hoc se scire iniusti autem puniantur 
+<lb rend="indent"/>secundum opera sua</item>
+<lb/><item><label>xx</label> Vbi <name>iob</name> respondens petit se audiri et dicit 
+<lb rend="indent"/>quod impii uiuunt uidentes bona in uita 
+<lb rend="indent"/>consilium tamen eorum longe sit a me</item>
+<lb/><item><label>xxi</label> Responsio <name>eliphaz</name> <name>themanites</name> ubi dicit 
+<lb rend="indent"/>quod non possit homo comparari <name><expan>d<ex>e</ex><abbr rend="supraline">o</abbr></expan></name><reg>.</reg> etsi 
+<cb n="b"/>
+<lb rend="indent"/>reuersus fueris ad <name><expan>d<ex>eu</ex><abbr rend="supraline">m</abbr></expan></name> rursum aedifica<choice><sic>u</sic><corr source="#Heyse1873 #r">b</corr></choice>eris</item>
+<lb/><item><label>xxii</label> Vbi <name>iob</name> respondens ei dicit quod in amaritu
+<lb break="no"/>dine sit et nescit utrum uadat ad <name><expan>d<ex>eu</ex><abbr rend="supraline">m</abbr></expan></name><reg>.</reg> 
+<lb rend="indent"/>petitio eius</item>
+<lb/><item><label>xxiii</label> Vbi respondens <name>balda<surplus>a</surplus>d</name> <name>suites</name> dicit quod 
+<lb rend="indent"/>nullus hominum ex se mundus poterit 
+<lb rend="indent"/>esse in conspectu <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name></item>
+<lb/><item><label>xxiiii</label> Vbi <name>iob</name> respondens dicit quod solamen<surplus source="#Heyse1873 #r"><add place="above">s</add></surplus> homi
+<lb break="no"/>nis nullum sit cum <name><expan>d<ex>eu</ex><abbr rend="supraline">s</abbr></expan></name> fecerit omnia</item>
+<lb/><item><label>xxv</label> Vbi <name>iob</name> addens dicit quod numquam loquatur 
+<lb rend="indent"/>mala contra <name><expan>d<ex>eu</ex><abbr rend="supraline">m</abbr></expan></name> et quod pars impii nulla sit 
+<lb rend="indent"/>apud <name><expan>d<ex>eu</ex><abbr rend="supraline">m</abbr></expan></name> cum <name><expan>d<ex>eu</ex><abbr rend="supraline">s</abbr></expan></name> disponat uitam hominis</item>
+<lb/><item><label>xxvi</label> Vbi <name>iob</name> commemorat omnia uitae suae 
+<lb rend="indent"/>et post haec uenerit super eum cala
+<lb break="no"/>mitas et ignorat si exaudiat <name><expan>d<ex>eu</ex><abbr rend="supraline">s</abbr></expan></name> uoc<expan><abbr rend="supraline">e</abbr><ex>m</ex></expan> eius</item>
+<lb/><item><label>xxvii</label> Vbi finita sunt uerba <name>iob</name> et noluerunt 
+<lb rend="indent"/>respondere ei tres amici eius</item>
+<lb/><item><label>xxviii</label> Vbi <name>helius</name> audiens omnia uerba <name>iob</name> 
+<lb rend="indent"/>et amicorum eius et post haec 
+<lb rend="indent"/>etiam ipse locutus est</item>
+<lb/><item><label>xxviiii</label> Vbi <name>helius</name> addens in uerbis suis dicit 
+<lb rend="indent"/><name>iob</name> esse iniustum et stulte locutum</item>
+<lb/><item><label>xxx</label> Vbi <surplus source="#r">h</surplus>is ipse <name>helius</name> increpat <name>iob</name> quod 
+<lb rend="indent"/>abs<expan>q<am>’</am><ex>ue</ex></expan> scientia sit locutus</item>
+<lb/><item><label>xxxi</label> Vbi <name>helius</name> laudans scientiam suam docet 
+<lb rend="indent"/>quod in potestate <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> sit regnum homin<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan></item>
+<lb/><item><label>xxxii</label> Vbi misertus <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>s</expan></name> per nubem loquitur ad <name>iob</name></item>
+<lb/><item><label>xxxiii</label> Vbi respondens <name>iob</name> <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>o</expan></name> dixit 
+<lb rend="indent"/>quod non sit ausus loqui coram <name><expan>d<ex>e</ex><abbr rend="supraline">o</abbr></expan></name></item>
+<lb/><item><label>xxxiiii</label> Vbi <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>s</expan></name> loquens ad <name>iob</name> dixit<reg>.</reg> <said>confortare 
+<lb rend="indent"/>et responde mihi quod non sit 
+<lb rend="indent"/>similis mei in terra</said></item>
+<lb/><item><label>xxxv</label> Vbi <name>iob</name> respondens <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>o</expan></name> dicit ita esse 
+<lb rend="indent"/>agens paenitentiam</item>
+<lb/><item><label>xxxvi</label> Vbi <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>s</expan></name> loquitur ad <name>eliphaz</name> <name>themanites</name> 
+<lb rend="indent"/>dicens quod iratus esset contra eos 
+<lb rend="indent"/>eo quod non fuissent sic locuti quomo
+<lb break="no"/>do <name>iob</name><reg>.</reg> et ubi uenerunt ad <name>iob</name> omnes 
+<lb rend="indent"/>parentes eius et duplicata est omnis sub
+<lb break="no"/>stantia eius ac filii uidens bona 
+<lb rend="indent"/>omni<expan>b<am>’</am><ex>us</ex></expan> die<expan>b<am>’</am><ex>us</ex></expan> suis<surplus>.</surplus></item>
+</list>
+<div type="textpart" subtype="finalRubric">
+<p rend="caps red">
+<lb/>expliciunt capitula <name>iob</name>
+</p>
+</div>
+</div>
+</body>
+</text>
+</TEI>

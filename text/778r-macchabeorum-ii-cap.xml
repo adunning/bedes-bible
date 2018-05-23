@@ -1,0 +1,168 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng"
+type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title xml:lang="la">Capitula</title>
+</titleStmt>
+<publicationStmt>
+<authority>Digital Latin Library</authority>
+<availability>
+<licence target="https://creativecommons.org/licences/by-sa/4.0/">Provided under a Creative Commons Attribution-ShareAlike 4.0 International Licence.</licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<settlement>Florence</settlement>
+<repository>Biblioteca Medicea Laurenziana</repository>
+<collection>Amiatino</collection>
+<idno>1</idno>
+<msName>Codex Amiatinus</msName>
+</msIdentifier>
+</msDesc>
+<listBibl>
+<biblStruct type="book" xml:id="Heyse1873" corresp="http://zotero.org/users/254032/items/69EHSXJZ">
+<monogr>
+<title level="m">Biblia sacra latina Veteris Testamenti Hieronymo interprete ex antiquissima auctoriatate in stichos descripta: Vulgatam lectionem ex editione Clementina principe anni MDXCII et Romana ultima anni MDCCCLXI repetitam testimonium comitatur Codicis Amiatini Latinorum omnium antiquissimi</title>
+<editor>
+<forename>Theodor</forename>
+<surname>Heyse</surname>
+</editor>
+<editor>
+<forename>Constantinus von</forename>
+<surname>Tischendorf</surname>
+</editor>
+<imprint>
+<pubPlace>Leipzig</pubPlace>
+<publisher>Brockhaus</publisher>
+<date>1873</date>
+<note type="url">https://archive.org/details/biblicasacralati00unse</note>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct type="book" xml:id="r" corresp="http://zotero.org/users/254032/items/SV9ECTS4">
+<monogr>
+<title level="m">Biblia Sacra iuxta latinam vulgatam versionem</title>
+<editor>
+<orgName>Pontifical Abbey of St Jerome-in-the-City</orgName>
+</editor>
+<editor>
+<forename>Henri</forename>
+<surname>Quentin</surname>
+</editor>
+<imprint>
+<pubPlace>Rome</pubPlace>
+<publisher>Libreria Editrice Vaticana</publisher>
+<date>1926–1995</date>
+</imprint>
+</monogr>
+</biblStruct>
+</listBibl>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text xml:lang="la">
+<body>
+<div type="textpart">
+<pb n="778r"/>
+<cb n="a"/>
+<list>
+<lb/><item><label>i</label> Vbi occisus est <name>antiochus</name> rex in templo 
+<lb rend="indent"/><name>naneae</name> a sacerdoti<expan>b<am>’</am><ex>us</ex></expan> cum his 
+<lb rend="indent"/>qui secum erant</item>
+<lb/><item><label>ii</label> De igne sacrificii qui fuit absconditus 
+<lb rend="indent"/>in puteo</item>
+<lb/><item><label>iii</label> De oratione <name>ne<reg>h</reg>emiae</name><!-- chk r --> tenenda et quod 
+<lb rend="indent"/>regi <name>persarum</name> manifestum sit</item>
+<lb/><item><label>iiii</label> Vbi arca <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> et altare inclusa sunt 
+<lb rend="indent"/>ab <name>hieremia</name> propheta</item>
+<lb/><item><label>v</label> Vbi <name>simon</name> detulit dona templo <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name></item>
+<lb/><item><label>vi</label> Et mittitur <name>heliodor<choice><sic>o</sic><corr source="#Heyse1873">us</corr></choice></name> ad auferenda ea</item>
+<lb/><item><label>vii</label> Sacerdotes et populus orant <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>m</expan></name> <supplied reason="omitted" source="#Heyse1873">ut deposita custodiantur</supplied><!-- chk r --></item>
+<lb/><item><label>viii</label> Quomodo <name><add place="above">h</add>eliodorus</name> uolens 
+<lb rend="indent"/>spoliare templum <supplied reason="omitted" source="#Heyse1873">correptus est</supplied><!-- chk r --></item>
+<lb/><item><label>viiii</label> Summus sacerdos oblato sacrificio 
+<lb rend="indent"/>pro <name>heliodoro</name> orat<reg>.</reg> 
+<lb/>De insidiis <name>simonis</name> proditoris</item>
+<lb/><item><label>x</label> Vbi <name>iason</name> frater <name>oniae</name> praemi<choice><sic>um</sic><corr source="#Heyse1873">o</corr></choice> corru
+<lb break="no"/>pit regem <name>antiochum</name> pro adipiscendo 
+<lb rend="indent"/>summo sacerdotio</item>
+<lb/><item><label>xi</label> Vbi <name><del rend="erased"><unclear>ia</unclear></del>iason</name> misit argenti didragmas 
+<lb rend="indent"/><num>ccc·</num> ad sacrificium</item>
+<lb/><item><label>xii</label> Vbi <name>iason</name> misit <name>menelaum</name> ad regem 
+<lb rend="indent"/>et idem <name>me<add place="above">ne</add>laus</name> exclusit <name>iason<expan><abbr rend="supraline">e</abbr><ex>m</ex></expan></name> <add place="inline">de sacerdotio</add><!-- chk r; H adds Qui <name>menelaus</name> postea amotus est succedente ei <name>lysimacho</name> fratre suo --></item>
+<lb/><item><label>xiii</label> Vbi <name>onias</name> sacerdos occiditur ab <name>andronico</name></item>
+<lb/><item><label>xiiii</label> Vbi occiditur <name>andronicus</name> pro <name>onia</name> 
+<lb rend="indent"/>sacerdote occiso</item>
+<lb/><item><label>xv</label> Vbi <choice><sic>apollo</sic><corr source="#Heyse1873">a populo</corr></choice><!-- chk r --> <name>lysimachus</name> occisus est 
+<lb rend="indent"/>et contra <name>menelaum</name> apud regem <supplied reason="omitted" source="#Heyse1873">agitur<!-- chk r --></supplied></item>
+<lb/><item><label>xvi</label> De signis caelesti<expan>b<am>’</am><ex>us</ex></expan> apud <name>hier<choice><orig>u</orig><reg>o</reg></choice>solym<expan><abbr rend="supraline">a</abbr><ex>m</ex></expan></name> 
+<lb rend="indent"/>et de morte <name>iasonis</name> persecutoris ciui<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan></item>
+<lb/><item><label>xvii</label> Vbi <name>antiochus</name> persequens <name>iudęam</name> 
+<lb rend="indent"/>occiso populo</item>
+<lb/><item><label>xviii</label> Vbi <name>antiochus</name> expoliato templo 
+<lb rend="indent"/><name>antiochiam</name> profectus est<!-- chk r: H adds relictis persecutori<expan>b<am>’</am><ex>us</ex></expan> <name>iudaeorum</name> et <name>apollonio</name> per quem populum interfecit --></item>
+<lb/><item><label>xviiii</label> Vbi <name>iudas mac<reg>c</reg>habeus</name> in deserto 
+<lb rend="indent"/>ferarum uixit</item>
+<lb/><item><label>xx</label> De edicto persecutionis regis 
+<lb rend="indent"/>et de passione</item>
+<lb/><item><label>xxi</label> De passione <name>eleazari</name> et <num>vii</num> fratrum</item>
+<lb/><item><label>xxii</label> De zelo <name>iudae</name> et quomodo <name>ptolomeus</name> 
+<lb rend="indent"/>misit <name>nicanorem</name> et <name>gorgian</name><!-- chk r --> 
+<lb rend="indent"/>aduersus <choice><sic><name>nicanorem</name></sic><corr source="#Heyse1873"><name>iudaeos</name> a <name>philippo</name></corr></choice><!-- chk r --></item>
+<lb/><item><label>xxiii</label> Vbi <name>iudas</name> <name>mac<reg>c</reg>habeus</name> pro contritione <add place="inline">populi</add> 
+<cb n="b"/>
+<lb rend="indent"/>uindicat in perse<choice><orig>qu</orig><reg>c</reg></choice>utores</item>
+<lb/><item><label>xxiiii</label> Vbi duces aduersariorum superauit</item>
+<lb/><item><label>xxv</label> Vbi <name>antiochus</name> rex apud <name>persipoli<supplied reason="omitted" source="#Heyse1873">m</supplied></name> uictus 
+<lb rend="indent"/>turpiter fugit de <name>persid<del rend="expunct">a</del>e</name></item>
+<lb/><item><label>xxvi</label> Vbi <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>s</expan></name> <name>antiochum</name> plaga<del rend="strikethrough">m</del> percussit</item>
+<lb/><item><label>xxvii</label> Vbi <name>antiochus</name> in poenis positus 
+<lb rend="indent"/>paenitentiam agit<!-- chk r; H adds et <name>iudaeis</name> relaxat scribens eis --></item>
+<lb/><item><label>xxviii</label> De morte <name>antiochi</name> et de operi<expan>b<am>’</am><ex>us</ex></expan> eius</item>
+<lb/><item><label>xxviiii</label> Vbi <name>iudas</name> <name>macchabeus</name> <name>hierusalem</name> 
+<lb rend="indent"/>recepit et solemnia celebrauit</item>
+<lb/><item><label>xxx</label> Vbi <name>antiochi</name> filius regnum paternum obtinuit</item>
+<lb/><item><label>xxxi</label> Vbi <name>gorgias</name> superatur persecutor <name>iudaeorum</name></item>
+<lb/><item><label>xxxii</label> Vbi <name>timotheus</name> superatus est et fugatus</item>
+<lb/><item><label>xxxiii</label> De <name>timotheo</name> occiso et <name>cerea</name> et <name>apollofane</name></item>
+<lb/><item><label>xxxiiii</label> Vbi <name>lysias</name> impugnans <name>iudaeos</name> superatur a <name>iuda</name></item>
+<lb/><item><label>xxxv</label> De pactioni<expan>b<am>’</am><ex>us</ex></expan> <name>lysia<choice><sic>s</sic><corr source="#Heyse1873">e</corr></choice></name> et regis <name>antiochi</name><!-- chk r;  <name>romanorum</name> cum <name>iudaeis</name> --></item>
+<lb/><item><label>xxxvi</label> Vbi <name>ioppit<choice><sic>en</sic><corr source="#Heyse1873">ae</corr></choice></name> dolo occiderunt ducentos <add place="inRas"><name>iudaeor<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan></name></add></item>
+<lb/><item><label>xxxvii</label> De ciuitati<expan>b<am>’</am><ex>us</ex></expan> quas succendit <name>iudas</name></item>
+<lb/><item><label>xxxviii</label> Vbi <name>timotheus</name> a <name>iuda</name> expugnatus est</item>
+<lb/><item><label>xxxviiii</label> De proeliis <name>iudae</name> <name>macchabei</name> ad <name>efron</name> 
+<lb rend="indent"/>et ad <name>scitopolim<!-- chk r --></name></item>
+<lb/><item><label>xl</label> Vbi cum <name>gorgia</name> pugnauit <name>iudas</name> et ipso 
+<lb rend="indent"/>per fugam euadente exercitum 
+<lb rend="indent"/>eius fugauit</item>
+<lb/><item><label>xli</label> Vbi occisi sunt iudicio <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name></item>
+<lb/><item><label>xlii</label> De resurrectionis spe</item>
+<lb/><item><label>xliii</label> Vbi <name>antiochus</name> c<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> exercitu uenit in <name>iudaeam</name></item>
+<lb/><item><label>xliiii</label> Vbi in castris <name>antiochi</name> noctu <name>iudas</name> cum suis 
+<lb rend="indent"/>occiderit <num>iiii</num> milia uirorum</item>
+<lb/><item><label>xlv</label> Vbi uictus <name>antiochus</name> reuersus est in gratiam<!-- chk r; cum <name>iudaeis</name> et <name>ptolomenses</name> hoc referentes <name>lysias</name> alloquitur --></item>
+<lb/><item><label>xlvi</label> Vbi <name>demetrius</name> tenuit regnum</item>
+<lb/><item><label>xlvii</label> Vbi <name>demetrius</name> mittit <name>nicanorem</name> 
+<lb rend="indent"/>ad interficiendum <name>iuda<supplied reason="omitted" source="#Heyse1873">m</supplied></name></item>
+<lb/><item><label>xlviii</label> Vbi <name>nicanor</name> pacem iungit cum <name>iuda</name></item>
+<lb/><item><label>xlviiii</label> Vbi rurs<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> accusante<del rend="strikethrough">m</del> <name>alchimo</name> iubet rex 
+<lb rend="indent"/>pacem <supplied reason="omitted" source="#Heyse1873">solui</supplied> et uinctum ad se <name>iudam</name> mitti</item>
+<lb/><item><label>l</label> Vbi <name>macchabeus</name> fugit manus <name>nicanoris</name></item>
+<lb/><item><label>li</label> Vbi comminatur <name>nicanor</name> sacerdoti<expan>b<am>’</am><ex>us</ex></expan> 
+<lb rend="indent"/>ut <name>iudam</name> traderent</item>
+<lb/><item><label>lii</label> De <name>raxio</name> presbytero</item>
+<lb/><item><label>liii</label> Vbi <name>nicanor</name> superbia elatus blasphemat 
+<lb rend="indent"/>et <name>iudas</name> suos exhortatu<choice><sic>s</sic><corr source="#Heyse1873">r</corr></choice><!-- chk r --></item>
+<lb/><item><label>liiii</label> Vbi <name>iuda</name> pugnante interfectis <num>xxx</num> mili<expan>b<am>’</am><ex>us</ex></expan> 
+<lb rend="indent"/>cecidit <name>nicanor</name></item>
+<lb/><item><label>lv</label> Vbi caput et manum <name>nicanoris</name> abscidi <name>iudas</name> 
+<lb rend="indent"/>praecepit et <name>hierusolyma</name> mitti<surplus>:·</surplus></item>
+</list>
+</div>
+</body>
+</text>
+</TEI>

@@ -85,7 +85,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <list>
 <item><lb/><label rend="red">i</label> <hi rend="red">Generationum quadraginta duarum</hi> 
 <lb rend="indent"/>ab<reg> </reg><choice><sic><name>adam</name></sic><corr source="#Wordsworth1889"><name>abraham</name></corr></choice> us<expan>q<am>’</am><ex>ue</ex></expan> ad<reg> </reg><name><expan><am>x</am><am rend="supraline">p</am><ex>christu</ex>m</expan></name> ordo narratur</item>
-<item><lb/><label rend="red">ii</label> Natiuitas <name><expan>i<am rend="supraline">h</am><ex>es</ex>u</expan></name> <name><expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>i</expan></name> de <name>maria</name> sponso 
+<item><lb/><label rend="red">ii</label> Natiuitas <name><expan>i<am rend="supraline">h</am><ex>es</ex>u</expan> <expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>i</expan></name> de <name>maria</name> sponso 
 <lb rend="indent"/>eius <name>ioseph</name> angelo reuelante 
 <lb rend="indent"/>praedicitur</item>
 <item><lb/><label rend="red">iii</label> Natum <name><expan><am>x</am><am rend="supraline">p</am><ex>christu</ex>m</expan></name> magi stella sibi duce 
