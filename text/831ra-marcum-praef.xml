@@ -1,0 +1,158 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng"
+type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng"
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title xml:lang="la">Praefatio</title>
+</titleStmt>
+<publicationStmt>
+<authority>Digital Latin Library</authority>
+<availability>
+<licence target="https://creativecommons.org/licences/by-sa/4.0/">Provided under a Creative Commons Attribution-ShareAlike 4.0 International Licence.</licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<settlement>Florence</settlement>
+<repository>Biblioteca Medicea Laurenziana</repository>
+<collection>Amiatino</collection>
+<idno>1</idno>
+<msName>Codex Amiatinus</msName>
+</msIdentifier>
+</msDesc>
+<listBibl>
+<biblStruct type="book" xml:id="Tischendorf1850" corresp="http://zotero.org/users/254032/items/CCTVHEQ4">
+<monogr>
+<title level="m">Novum Testamentum Latine interprete Hieronymo. Ex celeberrimo Codice Amiatino</title>
+<title type="short">Novum Testamentum Amiatinum</title>
+<author>
+<forename>Constantinus von</forename>
+<surname>Tischendorf</surname>
+</author>
+<imprint>
+<pubPlace>Leipzig</pubPlace>
+<publisher>Avenarius et Mendelssohn</publisher>
+<date>1850</date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct type="book" xml:id="Wordsworth1889" corresp="http://zotero.org/users/254032/items/WCM7IWE8">
+<monogr>
+<title level="m">Nouum Testamentum Domini nostri Iesu Christi Latine secundum editionem sancti Hieronymi</title>
+<editor>
+<forename>John</forename>
+<surname>Wordsworth</surname>
+</editor>
+<editor>
+<forename>Henry Julian</forename>
+<surname>White</surname>
+</editor>
+<editor>
+<forename>Alexander</forename>
+<surname>Ramsbotham</surname>
+</editor>
+<editor>
+<forename>Hedley F.D.</forename>
+<surname>Sparks</surname>
+</editor>
+<editor>
+<forename>Claude</forename>
+<surname>Jenkins</surname>
+</editor>
+<editor>
+<forename>Arthur White</forename>
+<surname>Adams</surname>
+</editor>
+<imprint>
+<pubPlace>Oxford</pubPlace>
+<publisher>Clarendon Press</publisher>
+<date>1889–1954</date>
+</imprint>
+</monogr>
+</biblStruct>
+</listBibl>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text xml:lang="la">
+<body>
+<div type="textpart" subtype="praefatio">
+<head rend="red caps">
+<lb/><expan>Inc<ex>i</ex>p<am>’</am><ex>it</ex></expan> praefatio
+</head>
+<p>
+<lb/><name><hi rend="red"><hi rend="enlarged">M</hi>arcus</hi></name> euangelista <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> et <name>petri</name> in 
+<lb rend="indent"/>baptismate filius at<expan>q<am>’</am><ex>ue</ex></expan> in diuino ser
+<lb break="no"/>mone discipulus<reg>.</reg> sacerdotium 
+<lb rend="indent"/>in <name><expan>i<abbr rend="supraline">sr</abbr><ex>ahe</ex>l</expan></name> agens secundum carnem 
+<lb rend="indent"/><name>leuita</name><reg>.</reg> conuersus ad fidem <name><expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>i</expan></name> 
+<lb rend="indent"/>euangelium in <name>italia</name> scripsit. 
+<lb rend="indent"/>ostendens in eo quid et generi 
+<lb rend="indent"/>suo deberet et <name><expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>i</expan></name>. nam initium 
+<lb rend="indent"/>principii in uoce propheticae ex
+<lb break="no"/>clamationis instituens ordin<expan><abbr rend="supraline">e</abbr><ex>m</ex></expan> 
+<lb rend="indent"/><name>leuiticae</name> <add place="inline">e</add>lectionis ostendit. 
+<lb rend="indent"/>ut praedicans praedestinatum 
+<lb rend="indent"/><name>iohannem</name> filium <name>zachariae</name> in uo
+<lb break="no"/>ce angeli adnuntiantis emissum<!-- chk w; inmissum t --><reg>.</reg> 
+<lb rend="indent"/>non solum <quote>uerbum caro factum</quote> 
+<lb rend="indent"/>sed et corpus <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name> per uerbum 
+<lb rend="indent"/>diuinae uocis animatum initio 
+<lb rend="indent"/>euangelicae praedicationis osten
+<lb break="no"/>deret. ut qui haec legens sciret 
+<lb rend="indent"/>cui initium carnis in <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>o</expan></name> et <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> ad
+<lb break="no"/>uenientis habitaculum deberet 
+<lb rend="indent"/>agnoscere. at<expan>q<am>’</am><ex>ue</ex></expan> in se uerbum uo
+<lb break="no"/>cis quod in consonanti<expan>b<am>’</am><ex>us</ex></expan> perdi
+<lb break="no"/>derat inueniret.
+</p>
+<cb n="b"/>
+<p>
+<lb rend="indent"/>Deni<expan>q<am>’</am><ex>ue</ex></expan> et perfecti euangelii opus 
+<lb rend="indent"/>intrans et a baptismo <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name> prae
+<lb break="no"/>dicare <name><expan>d<ex>eu</ex><abbr rend="supraline">m</abbr></expan></name> inchoans non labora
+<lb break="no"/>uit natiuitatem carnis quam in pri
+<lb break="no"/>ori<expan>b<am>’</am><ex>us</ex></expan> uiderat dicere. sed totum in 
+<lb rend="indent"/>primis exp<del rend="expunct">l</del>osi<add place="above">ti</add>onem deserti ieiu
+<lb break="no"/>nium numeri tem<reg>p</reg>tationem diabo
+<lb break="no"/>li congregationem bestiarum et 
+<lb rend="indent"/>ministerium protulit angelor<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan>. 
+<lb rend="indent"/>ut instituens nos ad intellegen
+<lb break="no"/>dum singula in breui compingens 
+<lb rend="indent"/>nec auctoritatem factae rei deme
+<lb break="no"/>ret et perficiendo operi pleni
+<lb break="no"/>tudinem non negaret.
+</p>
+<p>
+<lb/>Deni<expan>q<am>’</am><ex>ue</ex></expan> amputasse sibi post fidem 
+<lb rend="indent"/>pollicem dicitur ut sacerdotio 
+<lb rend="indent"/>reprobus haberetur. sed tant<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> 
+<lb rend="indent"/>consentiens fidei praedestinata 
+<lb rend="indent"/>potuit electio. ut nec sic in opere 
+<lb rend="indent"/>uerbi perderet quod prius meru
+<lb break="no"/>erat in genere. Nam <name>alexandriae</name> 
+<lb rend="indent"/>episcopus fuit. cuius per singu
+<lb break="no"/>la opus scire et euangelii in se 
+<lb rend="indent"/>dicta disponere et disciplinam 
+<lb rend="indent"/>in se legis agnoscere et diuinam 
+<lb rend="indent"/><name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name> in carne intellegere natur<expan><abbr rend="supraline">a</abbr><ex>m</ex></expan>.
+</p>
+<p>
+<lb rend="indent"/>Quae <subst><del rend="expunct">et</del><add place="above">in</add></subst> nos primum requiri<reg>.</reg> dehinc 
+<lb rend="indent"/>inquisita uolumus agnosci. 
+<lb rend="indent"/>habentes mercedem exhortatio
+<lb break="no"/>nis quoniam qui plantat et qui ri
+<lb break="no"/>gat unum sunt<reg>.</reg> qui autem incre
+<lb break="no"/>mentum praestat <name><expan>d<ex>eu</ex><abbr rend="supraline">s</abbr></expan></name> est.</p>
+<div type="textpart" subtype="finalRubric">
+<p rend="caps"><expan>e<abbr rend="supraline">xp</abbr>l<ex>icit</ex></expan></p>
+</div>
+</div>
+</body>
+</text>
+</TEI>

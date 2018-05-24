@@ -1,0 +1,147 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng"
+type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng"
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title xml:lang="la">Praefatio</title>
+</titleStmt>
+<publicationStmt>
+<authority>Digital Latin Library</authority>
+<availability>
+<licence target="https://creativecommons.org/licences/by-sa/4.0/">Provided under a Creative Commons Attribution-ShareAlike 4.0 International Licence.</licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<settlement>Florence</settlement>
+<repository>Biblioteca Medicea Laurenziana</repository>
+<collection>Amiatino</collection>
+<idno>1</idno>
+<msName>Codex Amiatinus</msName>
+</msIdentifier>
+</msDesc>
+<listBibl>
+<biblStruct type="book" xml:id="Tischendorf1850" corresp="http://zotero.org/users/254032/items/CCTVHEQ4">
+<monogr>
+<title level="m">Novum Testamentum Latine interprete Hieronymo. Ex celeberrimo Codice Amiatino</title>
+<title type="short">Novum Testamentum Amiatinum</title>
+<author>
+<forename>Constantinus von</forename>
+<surname>Tischendorf</surname>
+</author>
+<imprint>
+<pubPlace>Leipzig</pubPlace>
+<publisher>Avenarius et Mendelssohn</publisher>
+<date>1850</date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct type="book" xml:id="Wordsworth1889" corresp="http://zotero.org/users/254032/items/WCM7IWE8">
+<monogr>
+<title level="m">Nouum Testamentum Domini nostri Iesu Christi Latine secundum editionem sancti Hieronymi</title>
+<editor>
+<forename>John</forename>
+<surname>Wordsworth</surname>
+</editor>
+<editor>
+<forename>Henry Julian</forename>
+<surname>White</surname>
+</editor>
+<editor>
+<forename>Alexander</forename>
+<surname>Ramsbotham</surname>
+</editor>
+<editor>
+<forename>Hedley F.D.</forename>
+<surname>Sparks</surname>
+</editor>
+<editor>
+<forename>Claude</forename>
+<surname>Jenkins</surname>
+</editor>
+<editor>
+<forename>Arthur White</forename>
+<surname>Adams</surname>
+</editor>
+<imprint>
+<pubPlace>Oxford</pubPlace>
+<publisher>Clarendon Press</publisher>
+<date>1889–1954</date>
+</imprint>
+</monogr>
+</biblStruct>
+</listBibl>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text xml:lang="la">
+<body>
+<div type="textpart" subtype="praefatio">
+<head rend="red caps">
+<lb/><expan>I<abbr rend="supraline">nc</abbr><ex>ipit</ex></expan> praefatio
+</head>
+<p>
+<lb/><hi rend="red"><hi rend="dropcap2">I</hi>ohannes</hi> euangelista unus ex disci
+<lb break="no"/>pulis <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name><reg>.</reg> qui uirgo electus a <name><expan>d<ex>e</ex><abbr rend="supraline">o</abbr></expan></name> est<reg>.</reg> 
+<lb rend="indent"/>quem de nuptiis uolentem nubere 
+<lb rend="indent"/>uocauit <name><expan>d<ex>eu</ex><abbr rend="supraline">s</abbr></expan></name><reg>.</reg> Cui uirginitatis in hoc 
+<lb rend="indent"/>duplex testimonium in euangelio 
+<lb rend="indent"/>datur<reg>.</reg> quod et prae ceteris dilectus 
+<lb rend="indent"/>a <name><expan>d<ex>e</ex><abbr rend="supraline">o</abbr></expan></name> dicitur<reg>.</reg> et huic matrem suam 
+<lb rend="indent"/>iens ad crucem commendauit <name><expan>d<ex>eu</ex><abbr rend="supraline">s</abbr></expan></name> 
+<lb rend="indent"/>ut uirginem uirgo seruaret.
+</p>
+<p>
+<lb/>Deni<expan>q<am>’</am><ex>ue</ex></expan> manifestans in euangelio 
+<lb rend="indent"/>quod erat ipse incorruptibilis 
+<lb rend="indent"/>uerbi opus inchoans solus<reg>.</reg> uerb<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> 
+<lb rend="indent"/>caro factum esse nec lumen a tene
+<lb break="no"/>bris comprehensum fuisse testa
+<lb break="no"/>tur<reg>.</reg> Primum signum ponens 
+<lb rend="indent"/>quod in nuptiis fecit <add place="above"><name><expan>d<ex>eu</ex><abbr rend="supraline">s</abbr></expan></name></add><reg>.</reg> ut ostendens 
+<lb rend="indent"/>quod ipse erat legenti<expan>b<am>’</am><ex>us</ex></expan> demon
+<lb break="no"/>straret quod ubi <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>s</expan></name> inuitatur 
+<lb rend="indent"/>deficere nuptiarum uinum debe
+<lb break="no"/>at<reg>.</reg> <choice><sic>e</sic><corr source="#Tischendorf1850">u</corr></choice>t<!-- chk w --> ueteri<expan>b<am>’</am><ex>us</ex></expan> inmutatis noua 
+<pb n="881v"/>
+<cb n="a"/>
+<lb rend="indent"/>omnia quae a <name><expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>o</expan></name> instituuntur ap
+<lb break="no"/>pareant<reg>.</reg> de quo singula quaeque in 
+<lb rend="indent"/>mysterio acta uel dicta euangelii ra
+<lb break="no"/>tio quaerenti<expan>b<am>’</am><ex>us</ex></expan> monstrat. Hoc au
+<lb break="no"/>tem euangelium scripsit in <name>asia</name><reg>.</reg> 
+<lb rend="indent"/>postquam in <name>pathmos</name> insula apo
+<lb break="no"/>calypsin scripserat<reg>.</reg> ut cum in prin
+<lb break="no"/>cipio canonis incorruptibile prin
+<lb break="no"/>cipium in <name>genesi</name><reg>.</reg> et incorruptibilis 
+<lb rend="indent"/>finis per uirginem in <name>apocalypsi</name> 
+<lb rend="indent"/>redderetur<reg>.</reg> dicente <name><expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>o</expan></name> <quote>ego s<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> 
+<lb rend="indent"/>α et ω.</quote> Et hic est <name>iohannes</name> qui sci
+<lb break="no"/>ens superuenisse diem recessus 
+<lb rend="indent"/>sui conuocatis discipulis suis in 
+<lb rend="indent"/><name>epheso</name> per multa signorum expe
+<lb break="no"/>rimenta promens <name><expan><am>x</am><am rend="supraline">p</am><ex>christu</ex>m</expan></name><reg>.</reg> descen
+<lb break="no"/>dens in defossum sepulturae suae 
+<lb rend="indent"/>locum facta oratione positus est 
+<lb rend="indent"/>ad patres suos<reg>.</reg> tam extraneus a do
+<lb break="no"/>lore mortis quam a corruptione car
+<lb break="no"/>nis inuenitur alienus. tamen post 
+<lb rend="indent"/>omnes euangelium scripsit. et 
+<lb rend="indent"/>hoc uirgini debebatur. quorum 
+<lb rend="indent"/>tamen uel scripturarum tempo
+<lb break="no"/>re dispositio uel librorum ordina
+<lb break="no"/>tio<reg>.</reg> ideo per singula a nobis non ex
+<lb break="no"/>ponitur<reg>.</reg> ut scienti desiderio con
+<lb break="no"/>locat<choice><sic>a</sic><corr source="#Tischendorf1850">o</corr></choice><!-- chk w --> et quaerenti<expan>b<am>’</am><ex>us</ex></expan> fructus la
+<lb break="no"/>boris et <name><expan>d<ex>e</ex><abbr rend="supraline">o</abbr></expan></name> magisterii doctrina 
+<lb rend="indent"/>seruetur<reg>.</reg> 
+</p>
+</div>
+</body>
+</text>
+</TEI>
