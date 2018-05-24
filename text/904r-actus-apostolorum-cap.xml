@@ -1,0 +1,405 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng"
+type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng"
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title xml:lang="la">Acts</title>
+</titleStmt>
+<publicationStmt>
+<authority>Digital Latin Library</authority>
+<availability>
+<licence target="https://creativecommons.org/licences/by-sa/4.0/">Provided under a Creative Commons Attribution-ShareAlike 4.0 International Licence.</licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<settlement>Florence</settlement>
+<repository>Biblioteca Medicea Laurenziana</repository>
+<collection>Amiatino</collection>
+<idno>1</idno>
+<msName>Codex Amiatinus</msName>
+</msIdentifier>
+</msDesc>
+<listBibl>
+<biblStruct type="book" xml:id="c" corresp="http://zotero.org/users/254032/items/GB722JVM">
+<monogr>
+<title level="m">Biblia sacra Vulgatae editionis, ex ipsis exemplari<expan>b<am>’</am><ex>us</ex></expan> Vaticanis inter se at<expan>q<am>’</am><ex>ue</ex></expan> cum indice errorum corrigendorum collatis</title>
+<editor>
+<forename>Michael</forename>
+<surname>Hetzenauer</surname>
+</editor>
+<imprint>
+<pubPlace>Innsbruck</pubPlace>
+<publisher>Wagner</publisher>
+<date>1906</date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct type="book" xml:id="Tischendorf1850" corresp="http://zotero.org/users/254032/items/CCTVHEQ4">
+<monogr>
+<title level="m">Novum Testamentum Latine interprete Hieronymo. Ex celeberrimo Codice Amiatino</title>
+<title type="short">Novum Testamentum Amiatinum</title>
+<author>
+<forename>Constantinus von</forename>
+<surname>Tischendorf</surname>
+</author>
+<imprint>
+<pubPlace>Leipzig</pubPlace>
+<publisher>Avenarius et Mendelssohn</publisher>
+<date>1850</date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct type="book" xml:id="s" corresp="http://zotero.org/users/254032/items/W6D8WMM3">
+<monogr>
+<title level="m">Biblia Sacra iuxta vulgatam versionem</title>
+<editor>
+<forename>Robert</forename>
+<surname>Weber</surname>
+</editor>
+<editor>
+<forename>Bonifatius</forename>
+<surname>Fischer</surname>
+</editor>
+<editor>
+<forename>Jean</forename>
+<surname>Gribomont</surname>
+</editor>
+<editor>
+<forename>Hedley F.D.</forename>
+<surname>Sparks</surname>
+</editor>
+<editor>
+<forename>Walter</forename>
+<surname>Thiele</surname>
+</editor>
+<editor>
+<forename>Roger</forename>
+<surname>Gryson</surname>
+</editor>
+<edition>5</edition>
+<imprint>
+<pubPlace>Stuttgart</pubPlace>
+<publisher>Deutsche Bibelgesellschaft</publisher>
+<date>2007</date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct type="book" xml:id="o" corresp="http://zotero.org/users/254032/items/WCM7IWE8">
+<monogr>
+<title level="m">Nouum Testamentum Domini nostri Iesu Christi Latine, secundum editionem sancti Hieronymi</title>
+<editor>
+<forename>John</forename>
+<surname>Wordsworth</surname>
+</editor>
+<editor>
+<forename>Henry Julian</forename>
+<surname>White</surname>
+</editor>
+<editor>
+<forename>Alexander</forename>
+<surname>Ramsbotham</surname>
+</editor>
+<editor>
+<forename>Hedley F.D.</forename>
+<surname>Sparks</surname>
+</editor>
+<editor>
+<forename>Claude</forename>
+<surname>Jenkins</surname>
+</editor>
+<editor>
+<forename>Arthur White</forename>
+<surname>Adams</surname>
+</editor>
+<imprint>
+<pubPlace>Oxford</pubPlace>
+<publisher>Clarendon Press</publisher>
+<date>1889–1954</date>
+</imprint>
+</monogr>
+</biblStruct>
+</listBibl>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text xml:lang="la">
+<body>
+<div type="textpart" subtype="capitula">
+<head>Incipit liber actuum apostolorum</head>
+<cb n="b"/>
+<list>
+<lb/><item><label>i</label> <hi rend="red">Vbi dicitur <name>theophilo</name> primum 
+<lb rend="indent"/>sermo</hi>nem iam factum fuisse 
+<lb rend="indent"/>de operi<expan>b<am>’</am><ex>us</ex></expan> et doctrina <name><expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>i</expan></name></item>
+<lb/><item><label>ii</label> Vbi exsurgens <name>petrus</name> in medio 
+<lb rend="indent"/>fratrum dixit de turba homi
+<lb break="no"/>num fere <num>cxx</num></item>
+<lb/><item><label>iii</label> Vbi completis die<expan>b<am>’</am><ex>us</ex></expan> pentecosten 
+<lb rend="indent"/>pariter erant congregati 
+<lb rend="indent"/>et <name><expan>s<abbr rend="supraline">p</abbr><ex>iritu</ex>s</expan> <expan>s<ex>an</ex><abbr rend="supraline">c</abbr><ex>tu</ex>s</expan></name> superuenit in eos</item>
+<lb/><item><label>iiii</label> Vbi stans <name>petrus</name> cum <num>xi</num> leuauit 
+<lb rend="indent"/>uocem suam et locutus est</item>
+<lb/><item><label>v</label> Vbi testimonium <name>petrus</name> de <name><expan>i<am rend="supraline">h</am><ex>es</ex>u</expan> 
+<lb rend="indent"/>nazareno</name> dicit ad populum</item>
+<lb/><item><label>vi</label> Vbi dixerunt ad <name>petrum</name> et ad 
+<lb rend="indent"/>reliquos apostolos quid facie
+<lb break="no"/>mus uiri <expan><abbr rend="supraline">f<am>f</am></abbr><ex>ratres</ex></expan> et <name>petrus</name> ad illos 
+<lb rend="indent"/><said>paenitentiam</said> inquit <said>agite</said></item>
+<lb/><item><label>vii</label> Vbi qui receperunt sermonem 
+<lb rend="indent"/>eius baptizati sunt</item>
+<lb/><item><label>viii</label> Vbi <name>petrus</name> et <name>iohannes</name> ascende
+<lb break="no"/>bant in templum ad horam 
+<lb rend="indent"/>orationis nonam et de clodo</item>
+<lb/><item><label>ix</label> Vbi <name>petrus</name> et <name>iohannes</name> loquen
+<lb break="no"/>tes ad populum superuenerunt 
+<lb rend="indent"/>sacerdotes et<del rend="erased"><gap reason="illegible" n="1" unit="character"/></del> magistratus 
+<lb rend="indent"/>templi tenuerunt <name>petrum</name> 
+<lb rend="indent"/>et <name>iohannem</name> in custodiam 
+<lb rend="indent"/>eo quod adnuntiarent in <name><expan>i<am rend="supraline">h</am><ex>es</ex>u</expan></name> 
+<lb rend="indent"/>resurrectionem</item>
+<lb/><item><label>x</label> Vbi cognouerunt quod <name>petrus</name> 
+<lb rend="indent"/>et <name>iohannes</name> homines essent 
+<lb rend="indent"/>sine litteris et idiotae et admi
+<lb break="no"/>rabant eos</item>
+<lb/><item><label>xi</label> Vbi dimissi <name>petrus</name> et <name>iohannes</name> 
+<lb rend="indent"/>uenerunt ad suos<reg>.</reg> dixerunt 
+<lb rend="indent"/>eis quanta ad eos principes 
+<lb rend="indent"/>sacerdotum et seniores dixissent</item>
+<lb/><item><label>xii</label> Vbi multitudo credentium 
+<lb rend="indent"/>erat cor et anima una et erant 
+<lb rend="indent"/>illis omnia communia</item>
+<lb/><item><label>xiii</label> Vbi <name>annanias</name> et <name>saphira</name> frauda
+<lb break="no"/>uerunt de pretio quod uen
+<lb break="no"/>diderant et mortui sunt</item>
+<pb n="904v"/>
+<cb n="a"/>
+<lb/><item><label>xiiii</label> Vbi per manus apostolorum fiebant 
+<lb rend="indent"/>signa et prodigia multa in plebe</item>
+<lb/><item><label>xv</label> Vbi exsurgens princeps sacerdo
+<lb break="no"/>tum et qui cum eo erant repleti 
+<lb rend="indent"/>zelo tenuerunt apostolos et po
+<lb break="no"/>suerunt illos in custodia publi
+<lb break="no"/>ca illi autem educti ab angelo 
+<lb rend="indent"/>praedicabant <name><expan>i<am rend="supraline">h</am><ex>esu</ex>m</expan> <expan><am>x</am><am rend="supraline">p</am><ex>christu</ex>m</expan></name></item>
+<lb/><item><label>xvi</label> Vbi conuocantes apostolos den<expan><abbr rend="supraline">u</abbr><ex>n</ex></expan>
+<lb break="no"/>tiauerunt eis ne loquerentur 
+<lb rend="indent"/>de nomine <name><expan>i<am rend="supraline">h</am><ex>es</ex>u</expan></name> et dimiserunt eos</item>
+<lb/><item><label>xvii</label> De numero crescentium discipu
+<lb break="no"/>lorum et murmur <name>graecorum</name> 
+<lb rend="indent"/>aduersus <name>hebreos</name> et electione 
+<lb rend="indent"/>septem <expan>diaco<abbr rend="supraline">n</abbr><ex>orum</ex></expan></item>
+<lb/><item><label>xviii</label> De <name>stephano</name> plenus gratia et for
+<lb break="no"/>titudine signa et prodigia 
+<lb rend="indent"/>faciebat in populo</item>
+<lb/><item><label>xix</label> Vbi <name>stephanus</name> confundit <name>iudae
+<lb break="no"/>os</name> testimoniis legis illi autem 
+<lb rend="indent"/>fremebant in eum</item>
+<lb/><item><label>xx</label> Vbi <name>stephanus</name> repletus <name><expan>s<abbr rend="supraline">p</abbr><ex>irit</ex>u</expan> <expan>s<ex>an</ex><abbr rend="supraline">c</abbr><ex>t</ex>o</expan></name> 
+<lb rend="indent"/>intendens in caelum uidit glo
+<lb break="no"/>riam <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> et <name><expan>i<am rend="supraline">h</am><ex>esu</ex>m</expan></name> stantem a dex
+<lb break="no"/>tris <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> et lapidauerunt eum</item>
+<lb/><item><label>xxi</label> De persecutione quae facta est 
+<lb rend="indent"/>in ecclesia <name>hierosolymis</name> et <name>sauli</name> 
+<lb rend="indent"/>deuastatione et <name>philippus</name> in 
+<lb rend="indent"/><name>samaria</name> praedicans</item>
+<lb/><item><label>xxii</label> De <name>simone</name> mago seducens gen
+<lb break="no"/>tem <name>samariae</name></item>
+<lb/><item><label>xxiii</label> Vbi <name>simon</name> uoluit dare pecuniam 
+<lb rend="indent"/>apostolis dicens date et mihi 
+<lb rend="indent"/>hanc potestatem ut cui inposue
+<lb break="no"/>ro manum accipiat <name><expan>s<abbr rend="supraline">p</abbr><ex>iritu</ex>m</expan> <expan>s<ex>an</ex><abbr rend="supraline">c</abbr><ex>tu</ex>m</expan></name> 
+<lb rend="indent"/>et repulerunt eum</item>
+<lb/><item><label>xxiiii</label> Vbi angelus <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name> loquitur <name>philip
+<lb break="no"/>po</name> dicens surge uade contra 
+<lb rend="indent"/>meridianum et dum abisset 
+<lb rend="indent"/>obuius est illi quidam <name>aethiops</name> 
+<lb rend="indent"/>eunuchus quem et baptizauit</item>
+<lb/><item><label>xxv</label> Vbi <name>saulus</name> accipiens a principe 
+<lb rend="indent"/>epistulas ad <name>damascum</name> ut uinc
+<cb n="b" break="no"/>
+<lb break="no"/>tos teneret <name><expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>i</expan>anos</name> et ubi cir
+<lb break="no"/>cumfulsit eum lux de caelo</item>
+<lb/><item><label>xxvi</label> Vbi <name>saulus</name> confundebat <name>iudaeos</name> 
+<lb rend="indent"/>qui habitabant <name>damascum</name> et ubi 
+<lb rend="indent"/>in sporta per murum dimissus est</item>
+<lb/><item><label>xxvii</label> Vbi <name>petrus</name> perambulans <expan>s<ex>an</ex><abbr rend="supraline">c</abbr><ex>t</ex>os</expan> 
+<lb rend="indent"/>qui erant <name>lyddae</name> peruenit ad ho
+<lb break="no"/>minem quendam nomine <name>aene
+<lb break="no"/>am</name> paralyticum ab annis octo 
+<lb rend="indent"/>quem et sanauit et in <name>ioppe</name> 
+<lb rend="indent"/>mulierem nomine <name>thabitas</name> 
+<lb rend="indent"/>resuscitauit</item>
+<lb/><item><label>xxviii</label> De <name>cornelio</name> centurione qui habi
+<lb break="no"/>tabat <name>caesaream</name> qui admonitus 
+<lb rend="indent"/>ab angelo accersiuit ad se <name>petr<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan></name> 
+<lb rend="indent"/>ut eum doceret<reg>.</reg> et ubi dum orat 
+<lb rend="indent"/><name>petrus</name> uidit caelum apertum 
+<lb rend="indent"/>et uas quoddam descendens 
+<lb rend="indent"/>ad terram in quo erant quadru
+<lb break="no"/>pedia et uolatilia</item>
+<lb/><item><label>xxviiii</label> Vbi <name>cornelius</name> occurrens <name>petro</name> 
+<lb rend="indent"/>procedens adorauit eum et ele
+<lb break="no"/>uauit eum <name>petrus</name> de terra 
+<lb rend="indent"/>interrogauit eum ob quam cau
+<lb break="no"/>sam miserit ad eum et indicauit 
+<lb rend="indent"/><name>cornelius</name> omnia quae ab angelo 
+<lb rend="indent"/>ei fuerant dicta</item>
+<lb/><item><label>xxx</label> Vbi <name>petrus</name> aperiens os suum 
+<lb rend="indent"/>docuit eum omnia de <name><expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>o</expan> <expan>i<am rend="supraline">h</am><ex>es</ex>u</expan></name> 
+<lb rend="indent"/>et uocatione gentium</item>
+<lb/><item><label>xxxi</label> Vbi audierunt apostoli quod et 
+<lb rend="indent"/>gentes receperunt uerbum <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> 
+<lb rend="indent"/>et <name>petrus</name> exposuit illis uision<expan><abbr rend="supraline">e</abbr><ex>m</ex></expan> 
+<lb rend="indent"/>quod uiderat de linteo</item>
+<lb/><item><label>xxxii</label> Vbi uenerunt prophetae ab <name>hie
+<lb break="no"/>rosolymis</name> <name>anthiociam</name> et surre
+<lb break="no"/>xit unus ex eis nomine <name>agabus</name> 
+<lb rend="indent"/>et significabat per <expan>s<abbr rend="supraline">p</abbr><ex>iritu</ex>m</expan> famem 
+<lb rend="indent"/>magnam futuram<reg>.</reg> et <name>herodes</name> rex 
+<lb rend="indent"/>occidit <name>iacobum</name> fratrem <name>iohan
+<lb break="no"/>nis</name> et <name>petrum</name> posuit in carcer<expan><abbr rend="supraline">e</abbr><ex>m</ex></expan></item>
+<lb/><item><label>xxxiii</label> Vbi angelus <name>petrum</name> de carcere 
+<lb rend="indent"/>producit</item>
+<pb n="905r"/>
+<cb n="a"/>
+<lb/><item><label>xxxiiii</label> Vbi perturbati milites quidnam de 
+<lb rend="indent"/><name>petro</name> factum fuisset</item>
+<lb/><item><label>xxxv</label> Vbi in ecclesia quae erat <name>anthiociae</name> 
+<lb rend="indent"/>prophetae et doctores conuene
+<lb break="no"/>rant et de <name>bariesu</name> pseudopropheta</item>
+<lb/><item><label>xxxvi</label> Vbi <name>paulus</name> nauigans ueniens <name>anthi
+<lb break="no"/>ociam</name> euangelizauit ibi <name><expan><am>x</am><am rend="supraline">p</am><ex>christu</ex>m</expan> 
+<lb rend="indent"/><expan>i<am rend="supraline">h</am><ex>esu</ex>m</expan></name> filium <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> uiui</item>
+<lb/><item><label>xxxvii</label> Vbi <name>iudaei</name> repleti zelo contradice
+<lb break="no"/>bant his quae a <name>paulo</name> dicebantur 
+<lb rend="indent"/>et gentes audiebant eum</item>
+<lb/><item><label>xxxviii</label> Vbi <name>paulus</name> et <name>barnabas</name> uenien
+<lb break="no"/>tes <name>iconio</name> et praedicantes in sy
+<lb break="no"/>nagoga crediderunt <name>iudaeor<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan></name> 
+<lb rend="indent"/>et <name>gr<reg>a</reg>ecorum</name> copiosa multitudo</item>
+<lb/><item><label>xxxix</label> Vbi <name>paulus</name> in <name>lystris</name> claudum ex 
+<lb rend="indent"/>utero matris curauit et ubi 
+<lb rend="indent"/><name>paulum</name> <name>mercurium</name> uocauerunt 
+<lb rend="indent"/>et <name>barnaban</name> <name>iouem</name></item>
+<lb/><item><label>xl</label> Quidam descendentes de <name>iudaea</name> 
+<lb rend="indent"/>docebant nisi circumcidamini 
+<lb rend="indent"/>non potestis salui fieri unde 
+<lb rend="indent"/>facta seditione <name>paulo</name> et <name>bar
+<lb break="no"/>nabae</name> ascenderunt <name>hierosoly
+<lb break="no"/>mam</name> ubi erant <name>petrus</name> et alii 
+<lb rend="indent"/>apostoli uidere de uerbo hoc</item>
+<lb/><item><label>xli</label> Vbi placuit apostolis et seniori<expan>b<am>’</am><ex>us</ex></expan> 
+<lb rend="indent"/>elegere uiros et mittere <name>anthi
+<lb break="no"/>ociam</name> cum <name>paulo</name> et <name>barnaban</name> 
+<lb rend="indent"/>scribentes epistulas</item>
+<lb/><item><label>xlii</label> Vbi <name>paulus</name> quendam discipulum 
+<lb rend="indent"/>nomine <name>timotheum</name> secum 
+<lb rend="indent"/>uoluit proficisci circumcidit e<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan></item>
+<lb/><item><label>xliii</label> Transeuntes autem <name>frygiam</name> et 
+<lb rend="indent"/><name>galatiam</name> uetati sunt ab <name><expan>s<abbr rend="supraline">p</abbr><ex>irit</ex>u</expan> <expan>s<ex>an</ex><abbr rend="supraline">c</abbr><ex>t</ex>o</expan></name> 
+<lb rend="indent"/>loqui uerbum in <name>asia</name> et tem<reg>p</reg>ta
+<lb break="no"/>bant ire <name>bythiniam</name> non permi
+<lb break="no"/>sit eos <expan>s<abbr rend="supraline">p</abbr><ex>iritu</ex>s</expan> <name><expan>i<am rend="supraline">h</am><ex>es</ex>u</expan></name></item>
+<lb/><item><label>xliiii</label> Vbi quaedam mulier nomine <name>lydia</name> 
+<lb rend="indent"/>intendebat in his quae diceban
+<lb break="no"/>tur a <name>paulo</name></item>
+<lb/><item><label>xlv</label> Vbi <name>paulus</name> <expan>s<abbr rend="supraline">p</abbr><ex>iritu</ex>m</expan> pithonis a puella 
+<lb rend="indent"/>expulit et dum missi fuissent
+<cb n="b"/>
+<lb rend="indent"/><name>paulus</name> et <name>silas</name> in carcerem custos 
+<lb rend="indent"/>carceris credidit et baptizatus est</item>
+<lb/><item><label>xlvi</label> Vbi <name>paulus</name> et <name>silas</name> uenerunt <name>tessa
+<lb break="no"/>lonicam</name> adaperiens de scriptu
+<lb break="no"/>ris et insinuans quia <name><expan><am>x</am><am rend="supraline">p</am><ex>christu</ex>m</expan></name> opor
+<lb break="no"/>tuit pati et zelantes <name>iudaei</name> tenu
+<lb break="no"/>erunt <name>iasonem</name></item>
+<lb/><item><label>xlvii</label> Vbi <name>paulus</name> ueniens <name>athenis</name> et 
+<lb rend="indent"/><name>epicurei</name> et <name>stoici</name> philosophi 
+<lb rend="indent"/>disserebant cum eo</item>
+<lb/><item><label>xlviii</label> Egressus <name>paulus</name> ab <name>athenis</name> uenit 
+<lb rend="indent"/><name>corinthum</name> ad quendam <name>iudae<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan></name> 
+<lb rend="indent"/>nomine <name>aquilam</name></item>
+<lb/><item><label>xlix</label> Vbi <name>gallio</name> proconsul noluit audi
+<lb break="no"/>re <name>iudaeos</name> accusantes <name>paulum</name></item>
+<lb/><item><label>l</label> Vbi <name>apollo</name> ueniens <name>efesum</name> prae
+<lb break="no"/>dicabat <name><expan><am>x</am><am rend="supraline">p</am><ex>christu</ex>m</expan></name> et superueniens 
+<lb rend="indent"/><name>paulus</name> <name>efesum</name> et baptizauit 
+<lb rend="indent"/>ibi in nomine <name><expan>i<am rend="supraline">h</am><ex>es</ex>u</expan> <expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>i</expan></name> qui bapti
+<lb break="no"/>smum <name>iohannis</name> acceperant</item>
+<lb/><item><label>li</label> Vbi tem<reg>p</reg>tauerunt quidam de cir
+<lb break="no"/>cueunti<expan>b<am>’</am><ex>us</ex></expan> <name>iudaeis</name> <expan>s<abbr rend="supraline">p</abbr><ex>iritu</ex>s</expan> malos 
+<lb rend="indent"/>in nomine <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan> <expan>i<am rend="supraline">h</am><ex>es</ex>u</expan></name> eicere et 
+<lb rend="indent"/>confusi sunt</item>
+<lb/><item><label>lii</label> Vbi <name>demetrius</name> faciens aedes ar
+<lb break="no"/>genteas <name>deanae</name></item>
+<lb/><item><label>liii</label> Vbi <name>paulus</name> ualefaciens discipu
+<lb break="no"/>lis profectus est <name>macedonia</name> 
+<lb rend="indent"/>et ubi puerum qui somno graui 
+<lb rend="indent"/>per fenestram ceciderat 
+<lb rend="indent"/>mortuum resuscitauit</item>
+<lb/><item><label>liiii</label> Vbi <name>paulus</name> per nauigium circui
+<lb break="no"/>ens <num>viiii</num> ciuitates uenit in do
+<lb break="no"/>mum <name>philippi</name> euangelistae cui 
+<lb rend="indent"/>erant filiae <num>·iiii·</num> prophetantes</item>
+<lb/><item><label>lv</label> Vbi prophetauit <name>agabus</name> <name>paulo</name> 
+<lb rend="indent"/>quod in <name>hierusalem</name> persecu
+<lb break="no"/>tionem a <name>iudaeis</name> pateretur 
+<lb rend="indent"/>pro <name><expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>o</expan></name></item>
+<lb/><item><label>lvi</label> Vbi <name>paulus</name> <name>hierusalem</name> ascendit 
+<lb rend="indent"/>deinde <name>hierosolymam</name> ad <expan><abbr rend="supraline">f<am>f</am></abbr><ex>ratres</ex></expan></item>
+<lb/><item><label>lvii</label> Vbi <name>paulus</name> purificans se intra
+<lb break="no"/>uit templum et <name>iudaei</name> iniecerunt
+<pb n="905v"/>
+<cb n="a"/>
+<lb rend="indent"/>in eum manus et exposuit illis <name>pau
+<lb break="no"/>lus</name> quomodo uocasset eum <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>s</expan> 
+<lb rend="indent"/><expan><am>x</am><am rend="supraline">p</am><ex>christu</ex>s</expan></name> et baptizasset eum <name>annanias</name></item>
+<lb/><item><label>lviii</label> Vbi quaerebant <name>iudaei</name> occidere 
+<lb rend="indent"/><name>paulum</name> et dixit se ciuem roma
+<lb break="no"/>num esse</item>
+<lb/><item><label>lviiii</label> Vbi <name>paulus</name> maledixit <name>annaniam</name> 
+<lb rend="indent"/>principem eo quod percusserit 
+<lb rend="indent"/>maxillam eius et insidias <name>iudae
+<lb break="no"/>orum</name> ut <name>paulum</name> occiderent</item>
+<lb/><item><label>lx</label> Et ubi <name>claudius lysias</name> scripsit 
+<lb rend="indent"/><name>felici</name> praesidi <name>caesarea</name> et com
+<lb break="no"/>mendat ei<!-- chk w --> <name>paulum</name></item>
+<lb/><item><label>lxi</label> Vbi milites <choice><sic>fecerunt</sic><corr source="#Tischendorf1850">secundum</corr></choice> praecept<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> 
+<lb rend="indent"/>duxerunt <name>paulum</name> <name>caesaream</name></item>
+<lb/><item><label>lxii</label> Vbi post <num>·v·</num> dies ascendit <name>annanias</name> 
+<lb rend="indent"/>princeps ut accusarent <name>paul<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan></name> 
+<lb rend="indent"/><name>caesari<del rend="erased"><unclear>s</unclear></del></name> <name>felici</name></item>
+<lb/><item><label>lxiii</label> Vbi <name>felix</name> <name>caesar</name> distulit accusatio
+<lb break="no"/>nes illorum</item>
+<lb/><item><label>lxiiii</label> Item ubi <name>festus</name> <name>agrippae</name> regi rati
+<lb break="no"/>onem de <name>paulo</name> reddit eo quod 
+<lb rend="indent"/>a <name>iudaeis</name> accusaretur</item>
+<lb/><item><label>lxv</label> <name>Agrippa</name> rex ait <name>paulo</name> <said>loquere 
+<lb rend="indent"/>pro te</said> et <name>paulus</name> dicit ration<expan><abbr rend="supraline">e</abbr><ex>m</ex></expan></item>
+<lb/><item><label>lxvi</label> Vbi <name>festus</name> ait insanis <name>paule</name></item>
+<lb/><item><label>lxvii</label> Vbi datus est <name>paulus</name> cuidam 
+<lb rend="indent"/>centurioni nomine <name>iulio</name> in cu
+<lb break="no"/>stodiam qui et nauigauit cum eo</item>
+<lb/><item><label>lxviii</label> De afflictione <name>pauli</name> et centurio
+<lb break="no"/>nis qui cum eo erat ieiunantes 
+<lb rend="indent"/>in nauigio</item>
+<lb/><item><label>lxix</label> Vbi <name>paulus</name> uiperam de igne man<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> 
+<lb rend="indent"/>pendentem protraxit et bar
+<lb break="no"/>bari putabant eum homicidam 
+<lb rend="indent"/>esse et ubi patrem <name>publi</name> 
+<lb rend="indent"/>febri<expan>b<am>’</am><ex>us</ex></expan> sanauit</item>
+<lb/><item><label>lxx</label> Vbi <name>paulus</name> iterum nauigans 
+<lb rend="indent"/>per <name>alexandrinam</name> uenit <name>roma</name> 
+<lb rend="indent"/>ubi mansit adductum</item>
+</list>
+<p rend="rubric supraline" xml:lang="grc">Θεωχαρϲ<!--correct? --></p>
+</div>
+</body>
+</text>
+</TEI>
