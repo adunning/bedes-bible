@@ -3,7 +3,7 @@
 type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:space="preserve">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -41,7 +41,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 </imprint>
 </monogr>
 </biblStruct>
-<biblStruct type="book" xml:id="Weber2007" corresp="http://zotero.org/users/254032/items/W6D8WMM3">
+<biblStruct type="book" xml:id="s" corresp="http://zotero.org/users/254032/items/W6D8WMM3">
 <monogr>
 <title level="m">Biblia Sacra iuxta vulgatam versionem</title>
 <editor>
@@ -117,52 +117,52 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <text xml:lang="la">
 <body>
 <p rend="prose">
-<lb rend="outdent"/>Plures fuisse qui<reg> </reg>euangelia scripse
-<lb break="no"/>runt et<reg> </reg><name>lucas</name> euangelista testatur 
+<lb rend="outdent"/>Plures fuisse qui euangelia scripse
+<lb break="no"/>runt et <name>lucas</name> euangelista testatur 
 <lb/>dicens quoniam quidem multi cona
 <lb break="no"/>ti sunt ordinare narrationem rer<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> 
-<lb/>quae in<reg> </reg>nobis completae sunt<unclear>.</unclear> sicut 
-<lb/>tradiderunt nobis qui<reg> </reg>ab<reg> </reg>initio ipsi 
+<lb/>quae in nobis completae sunt<unclear>.</unclear> sicut 
+<lb/>tradiderunt nobis qui ab initio ipsi 
 <lb/>uiderunt sermonem et ministra
 <lb break="no"/>uerunt ei. et perseuerantia us<expan>q<am>’</am><ex>ue</ex></expan> 
-<lb/>ad<reg> </reg>praesens tempus monumenta 
-<lb/>declarant. Quae a<reg> </reg>diuersis auctori<expan>b<am>’</am><ex>us</ex></expan> 
+<lb/>ad praesens tempus monumenta 
+<lb/>declarant. Quae a diuersis auctori<expan>b<am>’</am><ex>us</ex></expan> 
 <lb/>edita diuersarum heresium fuere 
-<lb/>principia. ut<reg> </reg>est illud iuxta <name>aegyp
-<lb break="no"/>tios</name> et<reg> </reg><name>thoman</name> et<reg> </reg><name>matthian</name> et<reg> </reg><name>bar
+<lb/>principia. ut est illud iuxta <name>aegyp
+<lb break="no"/>tios</name> et <name>thoman</name> et <name>matthian</name> et <name>bar
 <lb break="no"/>tholomeum</name> duodecim apostolor<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> 
 <lb/>et <name>basilidis</name> at<expan>q<am>’</am><ex>ue</ex></expan> <name>apell<choice><sic>e</sic><corr source="#Tischendorf1850">i</corr></choice>s</name> ac reliquor<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> 
 <lb/>quos enumerare longissimum est 
-<lb/>cum hoc<reg> </reg>tantum in praesentiarum 
+<lb/>cum hoc tantum in praesentiarum 
 <lb/>necesse est dicere extitisse quosd<expan><abbr rend="supraline">a</abbr><ex>m</ex></expan> 
 <lb/>qui sine <expan>s<abbr rend="supraline">p</abbr><ex>irit</ex>u</expan> et gratia conati sunt 
 <lb/>magis ordinare narrationem quam 
-<lb/>historiae texere ueritatem<supplied reason="omitted">.</supplied> 
+<lb/>historiae texere ueritatem<supplied reason="omitted" source="#s">.</supplied> 
 </p>
 <p rend="prose">
 <lb rend="outdent"/>Qui<expan>b<am>’</am><ex>us</ex></expan> iure potest illud propheticum 
-<lb/>coaptari. <quote rend="sidequotes">uae qui prophetant de<reg> </reg>corde 
-<lb/>suo. qui<reg> </reg>ambulant post <expan>s<abbr rend="supraline">p</abbr><ex>iritu</ex>m</expan> suum 
+<lb/>coaptari. <quote rend="sidequotes">uae qui prophetant de corde 
+<lb/>suo. qui ambulant post <expan>s<abbr rend="supraline">p</abbr><ex>iritu</ex>m</expan> suum 
 <lb/>qui dicunt <name>dicit</name> <expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>s</expan> et <expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>s</expan> non mi
-<lb break="no"/>sit eos.</quote> De<reg> </reg>qui<expan>b<am>’</am><ex>us</ex></expan> et<reg> </reg>saluator in<reg> </reg>euan
+<lb break="no"/>sit eos.</quote> De qui<expan>b<am>’</am><ex>us</ex></expan> et saluator in euan
 <lb break="no"/>gelio <name>iohannis</name> loquitur. <quote rend="sidequotes">omnes qui 
-<lb/>ante<reg> </reg>me uenerunt fures fuerunt 
+<lb/>ante me uenerunt fures fuerunt 
 <lb/>et latrones</quote> <space unit="character" n="2"/>qui uenerunt non qui 
 <lb/>missi sunt. Ipse enim ait <quote rend="sidequotes">ueniebant 
-<lb/>et ego non mittebam eos</quote>. In<reg> </reg>uenien
-<lb break="no"/>ti<expan>b<am>’</am><ex>us</ex></expan> praesumtio temeritatis in<reg> </reg>missis 
+<lb/>et ego non mittebam eos</quote>. In uenien
+<lb break="no"/>ti<expan>b<am>’</am><ex>us</ex></expan> praesumtio temeritatis in missis 
 <lb/>obsequium ueritatis est.
 </p>
 <p rend="prose">
 <lb rend="outdent"/>Ecclesia autem quae super petram <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name> 
-<lb/>rex in<reg> </reg>cubiculum suum. et ad quam 
+<lb/>rex in cubiculum suum. et ad quam 
 <lb/>per foramen descensionis occulte mi
 <lb break="no"/>sit manum suam similis dammulae 
 <lb/>hinnulorum ceruorum. quattuor 
 <lb/>flumina paradisi instar eructans 
 <lb/>quattuor et angulos et anulos habet 
 <lb/>per quos quasi per arcam testamen
-<lb break="no"/>ti et<reg> </reg>custos legis <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name> lignis mobili<expan>b<am>’</am><ex>us</ex></expan> 
+<lb break="no"/>ti et custos legis <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name> lignis mobili<expan>b<am>’</am><ex>us</ex></expan> 
 <lb/>uehitur.
 </p>
 <cb n="b"/>
@@ -171,7 +171,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb break="no"/>nus cognomento <name>leui</name> qui euangelium 
 <lb/>in <name>iudaea</name> hebreo sermone edidit. 
 <lb/>ob eorum uel maxime causam qui in 
-<lb/><name><expan>i<am rend="supraline">h</am><ex>esu</ex>m</expan></name> crediderant ex<reg> </reg><name>iudaeis</name>. et nequi
+<lb/><name><expan>i<am rend="supraline">h</am><ex>esu</ex>m</expan></name> crediderant ex <name>iudaeis</name>. et nequi
 <lb break="no"/>quam legis umbra succedente euan
 <lb break="no"/>gelii ueritatem seruabant.
 </p>
@@ -186,104 +186,104 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 </p>
 <p rend="prose">Tertius <name>lucas</name> medicus 
 <lb/>natione <name>syrus</name> <name>antiochensis</name> cuius 
-<lb/>laus in euangelio qui et<reg> </reg>ipse discipu
-<lb break="no"/>lus apostoli <name>pauli</name> in <name>achaiae</name> <name>boe<supplied reason="omitted">o</supplied>ti<supplied reason="omitted">ae</supplied>
+<lb/>laus in euangelio qui et ipse discipu
+<lb break="no"/>lus apostoli <name>pauli</name> in <name>achaiae</name> <name>boe<supplied reason="omitted" source="#s">o</supplied>ti<supplied reason="omitted" source="#s">ae</supplied>
 <lb break="no"/>que</name> parti<expan>b<am>’</am><ex>us</ex></expan> uolumen condidit 
-<lb/>quaedam altius repetens et ut<reg> </reg>ipse 
+<lb/>quaedam altius repetens et ut ipse 
 <lb/>in prohemio confitetur audita 
 <lb/>magis quam uisa describens.
 </p>
 <p rend="prose">
 <lb rend="outdent"/>Ultimus <name>iohannes</name> apostolus et eu
 <lb break="no"/>angelista quem <name><expan>i<am rend="supraline">h</am><ex>esu</ex>s</expan></name> amauit plurim<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> 
-<lb/>qui<reg> </reg>super pectus <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name> recumbens 
+<lb/>qui super pectus <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name> recumbens 
 <lb/>purissima doctrinarum fluenta 
-<lb/>potauit. et qui solus de<reg> </reg>cruce meru
+<lb/>potauit. et qui solus de cruce meru
 <lb break="no"/>it audire <space unit="character" n="2"/>ecce mater tua.
 </p>
 <p rend="prose">
 <lb rend="outdent"/>Is cum esset in <name>asia</name> et iam tunc here
 <lb break="no"/>ticorum semina pullulassent 
-<lb/><name>cer<choice><sic>e</sic><corr source="#Tischendorf1850">i</corr></choice>nthi</name> <name>hebionis</name> et<reg> </reg>ceterorum 
-<lb/>qui negant <name><expan><am>x</am><am rend="supraline">p</am><ex>christu</ex>m</expan></name> in<reg> </reg>carne uenisse 
-<lb/>quos et<reg> </reg>ipse in epistula sua anticri
-<lb break="no"/>stos<!-- NB: suggests they would expand xps as cristus --> uocat. et<reg> </reg>apostolus <name>paulus</name> 
+<lb/><name>cer<choice><sic>e</sic><corr source="#Tischendorf1850">i</corr></choice>nthi</name> <name>hebionis</name> et ceterorum 
+<lb/>qui negant <name><expan><am>x</am><am rend="supraline">p</am><ex>christu</ex>m</expan></name> in carne uenisse 
+<lb/>quos et ipse in epistula sua anticri
+<lb break="no"/>stos<!-- NB: suggests they would expand xps as cristus --> uocat. et apostolus <name>paulus</name> 
 <lb/>frequenter percutit coactus est 
-<lb/>ab<reg> </reg>omni<expan>b<am>’</am><ex>us</ex></expan> pene tunc <name>asiae</name> episcopis 
+<lb/>ab omni<expan>b<am>’</am><ex>us</ex></expan> pene tunc <name>asiae</name> episcopis 
 <lb/>et multarum ecclesiarum legationi
 <lb break="no"/>bus <supplied reason="omitted" source="#Tischendorf1850">de</supplied> diuinitate saluatoris altius scri
-<lb break="no"/>bere et<reg> </reg>ad<reg> </reg>ipsum ut<reg> </reg>ita dicam <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> uer
+<lb break="no"/>bere et ad ipsum ut ita dicam <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> uer
 <lb break="no"/>bum non tam audaci quam felici 
-<lb/>temeritate prorumpere ut<reg> </reg>ecclesia
+<lb/>temeritate prorumpere ut ecclesia
 <lb break="no"/>stica narrat historia <space unit="character" n="2"/>cum a fratri<expan>b<am>’</am><ex>us</ex></expan> 
-<lb/>cogeretur ut<reg> </reg>scriberet ita factur<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> 
-<lb/>respondisse si indicto ieiunio in<reg> </reg>com
+<lb/>cogeretur ut scriberet ita factur<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> 
+<lb/>respondisse si indicto ieiunio in com
 <lb break="no"/>mune omnes <name><expan>d<ex>eu</ex><abbr rend="supraline">m</abbr></expan></name> deprecarentur.
 </p>
 <pb n="802v"/>
 <cb n="a"/>
 <p rend="prose">
-<lb rend="outdent"/>Quo expleto reuelatione saturatus in<reg> </reg>il
+<lb rend="outdent"/>Quo expleto reuelatione saturatus in il
 <lb break="no"/>lud prohemium caelo ueniens eruc
 <lb break="no"/>tauit. <quote rend="sidequotes">In principio erat uerbum 
 <lb/>et uerbum erat apud <name><expan>d<ex>eu</ex><abbr rend="supraline">m</abbr></expan></name> et <name><expan>d<ex>eu</ex><abbr rend="supraline">s</abbr></expan></name> erat 
 <lb/>hoc uerbum. hoc erat in principio 
-<lb/><choice><sic>erat</sic><corr>apud</corr></choice> <name><expan>d<ex>eu</ex><abbr rend="supraline">m</abbr></expan></name>.</quote> Haec<reg> </reg>igitur quattuor eu
+<lb/><choice><sic>erat</sic><corr source="#s">apud</corr></choice> <name><expan>d<ex>eu</ex><abbr rend="supraline">m</abbr></expan></name>.</quote> Haec igitur quattuor eu
 <lb break="no"/>angelia multum ante praedicta <name>eze
 <lb break="no"/>chielis</name> quo<expan>q<am>’</am><ex>ue</ex></expan> uolumen probat. in quo 
-<lb/>prima uisio ita contexitur. <quote rend="sidequotes">et<reg> </reg>in<reg> </reg>me
+<lb/>prima uisio ita contexitur. <quote rend="sidequotes">et in me
 <lb break="no"/>dio sicut similitudo quattuor animali
-<lb break="no"/>um et<reg> </reg>uultus eorum facies hominis 
-<lb/>et<reg> </reg>facies leonis et<reg> </reg>facies uituli et<reg> </reg>fa
+<lb break="no"/>um et uultus eorum facies hominis 
+<lb/>et facies leonis et facies uituli et fa
 <lb break="no"/>cies aquilae.</quote> <space unit="character" n="2"/>Prima hominis facies 
-<lb/><name>matheum</name> significat qui<surplus>a</surplus> quasi de<reg> </reg>ho
+<lb/><name>matheum</name> significat qui<surplus source="#s">a</surplus> quasi de ho
 <lb break="no"/>mine exorsus est scribere. Liber ge
 <lb break="no"/>nerationis <name><expan>i<am rend="supraline">h</am><ex>es</ex>u</expan></name> <name><expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>i</expan></name> filii <name>dauid</name> filii <name>abra
-<lb break="no"/>ham</name>. Secunda <name>marcum</name> in<reg> </reg>quo uox 
-<lb/>leonis in<reg> </reg>heremo rugientis auditur. 
-<lb/><quote rend="sidequotes">Uox clamantis in<reg> </reg>deserto parate uiam 
+<lb break="no"/>ham</name>. Secunda <name>marcum</name> in quo uox 
+<lb/>leonis in heremo rugientis auditur. 
+<lb/><quote rend="sidequotes">Uox clamantis in deserto parate uiam 
 <lb/><name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name> rectas facite semitas eius.</quote>
 </p>
 <p rend="prose">
 <lb rend="outdent"/>Tertia uituli quae euangelistam <name>luc<expan><abbr rend="supraline">a</abbr><ex>m</ex></expan></name> 
-<lb/>a<reg> </reg><name>zacharia</name> sacerdote sumsisse initi<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> 
+<lb/>a <name>zacharia</name> sacerdote sumsisse initi<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> 
 <lb/>praefigurauit. <space unit="character" n="4"/>Quarta <name>iohannem</name> 
-<lb/>euangelistam qui<reg> </reg>adsumtis pinnis 
-<lb/>aquilae et<reg> </reg>ad<reg> </reg>altiora festinans et<reg> </reg>de 
+<lb/>euangelistam qui adsumtis pinnis 
+<lb/>aquilae et ad altiora festinans et de 
 <lb/>uerbo <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> disputat. cetera quae se
-<lb break="no"/>quuntur in eu<add place="above">n</add>dem sensum proficiunt<supplied reason="omitted">.</supplied>
+<lb break="no"/>quuntur in eu<add place="above">n</add>dem sensum proficiunt<supplied reason="omitted" source="#s">.</supplied>
 </p>
 <p rend="prose">
 <lb rend="outdent"/>Crura eorum recta et pinnati pedes 
-<lb/>et quocum<expan>q<am>’</am><ex>ue</ex></expan> <expan>s<abbr rend="supraline">p</abbr><ex>iritu</ex>s</expan> ibat ibant et<reg> </reg>non 
+<lb/>et quocum<expan>q<am>’</am><ex>ue</ex></expan> <expan>s<abbr rend="supraline">p</abbr><ex>iritu</ex>s</expan> ibat ibant et non 
 <lb/>reuertebantur. et dorsa eorum 
-<lb/>plena oculis et<reg> </reg>scintillae et<reg> </reg>lampa
-<lb break="no"/>des in<reg> </reg>medio discurrentes et<reg> </reg>rota 
-<lb/>in<reg> </reg>rota et in singulis quattuor facies<supplied reason="omitted">.</supplied>
+<lb/>plena oculis et scintillae et lampa
+<lb break="no"/>des in medio discurrentes et rota 
+<lb/>in rota et in singulis quattuor facies<supplied reason="omitted" source="#s">.</supplied>
 </p>
 <p rend="prose">
 <lb rend="outdent"/>Unde et apocalypsis <name>iohannis</name> post expo
-<lb break="no"/>sitionem xxiiii seniorum qui<reg> </reg>tenentes 
+<lb break="no"/>sitionem xxiiii seniorum qui tenentes 
 <lb/>citharas et fialas adorant agnum <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> 
-<lb/>introducit fulgura et<reg> </reg>tonitrua et 
+<lb/>introducit fulgura et tonitrua et 
 <lb/>septem <expan>s<abbr rend="supraline">p</abbr><ex>iritu</ex>s</expan> discurrentes et mare 
-<lb/>uitreum et<reg> </reg>quattuor animalia plena 
+<lb/>uitreum et quattuor animalia plena 
 <lb/>oculis dicens. animal primum simile 
 <lb/>leoni et secundum simile uitulo 
-<lb/>et<reg> </reg>tertium simile hominis et<reg> </reg>quar
+<lb/>et tertium simile hominis et quar
 <lb break="no"/>tum simile aquilae uolanti. et post 
 <lb/>paululum. plena inquit erant oculis 
 <cb n="b"/>
-<lb/>et requiem non<reg> </reg>habebant die ac nocte 
+<lb/>et requiem non habebant die ac nocte 
 <lb/>dicent<hi rend="acute">i</hi>a <expan>s<ex>an</ex><abbr rend="supraline">c</abbr><ex>tu</ex>s</expan> <expan>s<ex>an</ex><abbr rend="supraline">c</abbr><ex>tu</ex>s</expan> <expan>s<ex>an</ex><abbr rend="supraline">c</abbr><ex>tu</ex>s</expan> <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>s</expan></name> <name><expan>d<ex>eu</ex><abbr rend="supraline">s</abbr></expan></name> omnipo
-<lb break="no"/>tens qui<reg> </reg>erat et<reg> </reg>qui uenturus est<supplied reason="omitted">.</supplied>
+<lb break="no"/>tens qui erat et qui uenturus est<supplied reason="omitted" source="#s">.</supplied>
 </p>
 <p rend="prose">
 <lb rend="outdent"/>Qui<expan>b<am>’</am><ex>us</ex></expan> cunctis perspicue ostenditur 
 <lb/>quattuor tantum debere euangelia 
 <lb/>suscipi <space unit="character" n="2"/>et omnes apocriforum neni
 <lb break="no"/>as mortuis magis hereticis quam 
-<lb/>ecclesiasticis uiuis canendas<supplied reason="omitted">.</supplied>
+<lb/>ecclesiasticis uiuis canendas<supplied reason="omitted" source="#s">.</supplied>
 </p>
 </body>
 </text>

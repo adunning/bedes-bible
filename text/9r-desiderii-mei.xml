@@ -39,7 +39,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 </imprint>
 </monogr>
 </biblStruct>
-<biblStruct type="book" xml:id="Weber2007" corresp="http://zotero.org/users/254032/items/W6D8WMM3">
+<biblStruct type="book" xml:id="s" corresp="http://zotero.org/users/254032/items/W6D8WMM3">
 <monogr>
 <title level="m">Biblia Sacra iuxta vulgatam versionem</title>
 <editor>
@@ -84,82 +84,82 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <cb n="a"/>
 <p rend="prose">
 <lb/><hi rend="red"><name>Desiderii</name> mei desideratas</hi>
-<lb/>accepi epistulas qui<reg> </reg>quodam praesagio
+<lb/>accepi epistulas qui quodam praesagio
 <lb/>futurorum cum <name>danihele</name> sortitus est
-<lb/>nomen. obsecrantis ut<reg> </reg>translatum in
-<lb/>latinam linguam de<reg> </reg>hebr<reg>a</reg>eo sermone
+<lb/>nomen. obsecrantis ut translatum in
+<lb/>latinam linguam de hebr<reg>a</reg>eo sermone
 <lb/>pentatheucum nostrorum auri<expan>b<am>’</am><ex>us</ex></expan> trade
 <lb break="no"/>rem. periculosum opus certe obtrecta
 <lb break="no"/>torum latratibus patens<unclear>;</unclear> qui me adserunt 
-<lb/>in<reg> </reg>lxx interpretum suggillationem<reg> </reg>noua 
-<lb/>pro<reg> </reg>ueteribus cudere. Ita ingenium quasi 
+<lb/>in lxx interpretum suggillationem noua 
+<lb/>pro ueteribus cudere. Ita ingenium quasi 
 <lb/>uinum probantes; cum ego s<reg>a</reg>epissime testa
-<lb break="no"/>tus sim me pro<reg> </reg>uirili portione in<reg> </reg>taber
-<lb break="no"/>naculum <name><expan><abbr rend="supraline">d</abbr><ex>e</ex><abbr rend="supraline">i</abbr></expan></name> offerre quae possim. nec<reg> </reg>opes 
+<lb break="no"/>tus sim me pro uirili portione in taber
+<lb break="no"/>naculum <name><expan><abbr rend="supraline">d</abbr><ex>e</ex><abbr rend="supraline">i</abbr></expan></name> offerre quae possim. nec opes 
 <lb/>alterius aliorum paupertate foedari <unclear/>
-<lb/>quod ut<reg> </reg>auderem <name>origenis</name> me studium 
+<lb/>quod ut auderem <name>origenis</name> me studium 
 <lb/>prouocauit. qui editioni antiqu<reg>a</reg>e trans
-<lb break="no"/>lationem <name>theodotion<choice><sic>e</sic><corr>i</corr></choice>s</name> miscuit. aster
-<lb break="no"/>ischo et<reg> </reg>obelo id<reg> </reg>est stella et<reg> </reg>ueru 
+<lb break="no"/>lationem <name>theodotion<choice><sic>e</sic><corr source="#s">i</corr></choice>s</name> miscuit. aster
+<lb break="no"/>ischo et obelo id est stella et ueru 
 <lb/>opus omne distinguens. dum aut inluce
-<lb break="no"/>scere facit quae minus ante<reg> </reg>fuerant. 
-<lb/>aut superflua quaeque iugulat et<reg> </reg>con
+<lb break="no"/>scere facit quae minus ante fuerant. 
+<lb/>aut superflua quaeque iugulat et con
 <lb break="no"/>fodit. maximeque euangelistarum et 
-<lb/>apostolorum auctoritas <surplus><add place="above" hand="later">promulgauit</add></surplus>. In<reg> </reg>quibus 
-<lb/>multa de<reg> </reg>ueteri testamento legimus 
-<lb/>quae in<reg> </reg>nostris codici<expan>b<am>’</am><ex>us</ex></expan> non habentur 
-<lb/>ut<reg> </reg>est illud. <quote rend="sidequotes">ex<reg> </reg><name>aegypto</name> uocaui filium 
-<lb/>meum</quote> et<reg> </reg><quote rend="sidequotes"><expan>q<ex>uonia</ex><abbr rend="supraline">m</abbr></expan> <name>nazareus</name> uocabitur</quote>. 
-<lb/>et<reg> </reg><quote rend="sidequotes">uidebunt in<reg> </reg>quem conpunxerunt</quote><unclear>.</unclear> 
-<lb/>et<reg> </reg><quote rend="sidequotes">flumina de<reg> </reg>uentre eius fluent aquae 
-<lb/>uiuae</quote> et<reg> </reg><quote rend="sidequotes">quae nec<reg> </reg>oculus uidit nec<reg> </reg>auris 
-<lb/>audiuit nec<reg> </reg>in<reg> </reg>cor hominis ascenderunt 
-<lb/>quae<reg> </reg>praeparauit <name><expan><abbr rend="supraline">d</abbr><ex>eu</ex><abbr rend="supraline">s</abbr></expan></name> diligentibus se</quote><unclear>.</unclear> 
-<lb/>et<reg> </reg>multa alia quae<reg> </reg>proprium <hi rend="smcaps supraline lunate-sigma" xml:lang="grc">συνταγμα</hi> 
+<lb/>apostolorum auctoritas <surplus source="#s"><add place="above" hand="later">promulgauit</add></surplus>. In quibus 
+<lb/>multa de ueteri testamento legimus 
+<lb/>quae in nostris codici<expan>b<am>’</am><ex>us</ex></expan> non habentur 
+<lb/>ut est illud. <quote rend="sidequotes">ex <name>aegypto</name> uocaui filium 
+<lb/>meum</quote> et <quote rend="sidequotes"><expan>q<ex>uonia</ex><abbr rend="supraline">m</abbr></expan> <name>nazareus</name> uocabitur</quote>. 
+<lb/>et <quote rend="sidequotes">uidebunt in quem conpunxerunt</quote><unclear>.</unclear> 
+<lb/>et <quote rend="sidequotes">flumina de uentre eius fluent aquae 
+<lb/>uiuae</quote> et <quote rend="sidequotes">quae nec oculus uidit nec auris 
+<lb/>audiuit nec in cor hominis ascenderunt 
+<lb/>quae praeparauit <name><expan><abbr rend="supraline">d</abbr><ex>eu</ex><abbr rend="supraline">s</abbr></expan></name> diligentibus se</quote><unclear>.</unclear> 
+<lb/>et multa alia quae proprium <hi rend="smcaps supraline lunate-sigma" xml:lang="grc">συνταγμα</hi> 
 <lb/>desiderant<unclear>.</unclear> Interrogemus ergo eos 
-<lb/>ubi haec scripta sint<unclear>.</unclear> et<reg> </reg>cum dicere non 
-<lb/>potuerint de<reg> </reg>libris hebraicis profe
+<lb/>ubi haec scripta sint<unclear>.</unclear> et cum dicere non 
+<lb/>potuerint de libris hebraicis profe
 <lb break="no"/>ramus. primum testimonium est 
-<lb/>in<reg> </reg><name>osee</name>. secundum in<reg> </reg><name>isaia</name>. tertium 
-<lb/>in<reg> </reg><name>zaccharia</name>. quartum in<reg> </reg><title>prouerbiis</title>. 
-<lb/>quintum aequ<del rend="erased">i</del>e in<reg> </reg><name>isaia</name>. quod multi 
+<lb/>in <name>osee</name>. secundum in <name>isaia</name>. tertium 
+<lb/>in <name>zaccharia</name>. quartum in <title>prouerbiis</title>. 
+<lb/>quintum aequ<del rend="erased">i</del>e in <name>isaia</name>. quod multi 
 <lb/>ignorantes apocryforum deliramenta 
-<lb/>sectantur et<reg> </reg>hiberas nenias libris 
+<lb/>sectantur et hiberas nenias libris 
 <lb/>authenticis praeferunt<unclear>.</unclear> causas erro
-<lb break="no"/>ris non<reg> </reg>est meum exponere <name>iudaei</name> 
+<lb break="no"/>ris non est meum exponere <name>iudaei</name> 
 <cb n="b"/>
 <lb rend="indent"/>prudenti factum dicunt esse con
-<lb break="no" rend="indent"/>silio. ne<reg> </reg><name>ptolomeus</name> unius <expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan> cultor 
+<lb break="no" rend="indent"/>silio. ne <name>ptolomeus</name> unius <expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan> cultor 
 <lb rend="indent"/>etiam aput <name>hebrę<subst><del rend="alt">u</del><add place="inline">o</add></subst>s</name> duplicem diuini
-<lb break="no"/>tatem depr<surplus>a</surplus>ehenderet. quod maxime<!-- Rome: quos maximi--> 
-<lb/>idcirco faciebat quia in<reg> </reg><name>platonis</name> dogma 
+<lb break="no"/>tatem depr<surplus source="#s">a</surplus>ehenderet. quod maxime<!-- Rome: quos maximi--> 
+<lb/>idcirco faciebat quia in <name>platonis</name> dogma 
 <lb/>cadere uidebantur<unclear>.</unclear> denique ubicumque 
 <lb/>sacratum aliquid scriptura testatur 
-<lb/>de<reg> </reg><name>patre</name> et<reg> </reg><name>filio</name> et<reg> </reg><name><expan>s<abbr rend="supraline">p</abbr><ex>irit</ex>u</expan> <expan>s<ex>an</ex><abbr rend="supraline">c</abbr><ex>t</ex>o</expan></name><unclear>;</unclear> aut aliter 
-<lb/>interpr<surplus>a</surplus>etati sunt aut<reg> </reg>omnino tacu
-<lb break="no"/>erunt<unclear>;</unclear> ut<reg> </reg>et<reg> </reg>regi satisfacerent<unclear>.</unclear> et<reg> </reg>arca
+<lb/>de <name>patre</name> et <name>filio</name> et <name><expan>s<abbr rend="supraline">p</abbr><ex>irit</ex>u</expan> <expan>s<ex>an</ex><abbr rend="supraline">c</abbr><ex>t</ex>o</expan></name><unclear>;</unclear> aut aliter 
+<lb/>interpr<surplus source="#s">a</surplus>etati sunt aut omnino tacu
+<lb break="no"/>erunt<unclear>;</unclear> ut et regi satisfacerent<unclear>.</unclear> et arca
 <lb break="no"/>num fidei non uulgarent. et nescio quis 
 <lb/>primus auctor lxx cellulas <name>alexandriae</name> 
 <lb/>mendacio suo extruxerit<unclear>.</unclear> quibus diuisi 
-<lb/>eadem scriptitarint<unclear>.</unclear> cum<reg> </reg><name>aristheus</name> eius
-<lb break="no"/>dem <name>ptolomei</name>. <!--later hand transliterates in margin--><hi rend="smcaps supraline lunate-sigma" xml:lang="grc">υπερασπιστης</hi>. et<reg> </reg>multo <add place="inline">post</add> 
+<lb/>eadem scriptitarint<unclear>.</unclear> cum <name>aristheus</name> eius
+<lb break="no"/>dem <name>ptolomei</name>. <!--later hand transliterates in margin--><hi rend="smcaps supraline lunate-sigma" xml:lang="grc">υπερασπιστης</hi>. et multo <add place="inline">post</add> 
 <lb/>tempore <name>iosepphus</name> nihil tale rettule
-<lb break="no"/>rint<unclear>.</unclear> sed in<reg> </reg>una basilica congregatos 
+<lb break="no"/>rint<unclear>.</unclear> sed in una basilica congregatos 
 <lb/>contulisse scribant non prophetasse. 
 <lb/>aliud est enim uatem aliud esse inter
-<lb break="no"/>pretem<unclear>.</unclear> ibi<reg> </reg><expan>s<abbr rend="supraline">p</abbr><ex>iritu</ex>s</expan> uentura praedicit. 
-<lb/>hic eruditio et<reg> </reg>uerborum copia ea quae 
-<lb/>intellegit transfert. nisi<reg> </reg>forte putan
-<lb break="no"/>dus est <name>tullius</name> <title><choice><sic>eo</sic><corr>oe</corr></choice>conomicum</title> <name>xeno
-<lb break="no"/>fontis</name> et<reg> </reg><name>platonis</name> <title><name>protagoram</name></title> et 
-<lb/><name>demosthenis</name> <title>pro <name><choice><sic>th</sic><corr>ct</corr></choice>esi<surplus> </surplus>fonte</name></title> a<add place="above">f</add>flatus 
-<lb/>rethorico <expan>s<abbr rend="supraline">p</abbr><ex>irit</ex>u</expan> transtulisse<unclear>.</unclear> aut<reg> </reg>aliter 
-<lb/>de<reg> </reg>hisdem libris per lxx interpretes 
-<lb/>aliter per<reg> </reg>apostolos <name><expan>s<abbr rend="supraline">p</abbr><ex>iritu</ex>s</expan> <expan>s<ex>an</ex><abbr rend="supraline">c</abbr><ex>tu</ex>s</expan></name> testimo
-<lb break="no"/>nia texuit<unclear>.</unclear> ut<reg> </reg>quod<reg> </reg>illi tacuerunt hii 
+<lb break="no"/>pretem<unclear>.</unclear> ibi <expan>s<abbr rend="supraline">p</abbr><ex>iritu</ex>s</expan> uentura praedicit. 
+<lb/>hic eruditio et uerborum copia ea quae 
+<lb/>intellegit transfert. nisi forte putan
+<lb break="no"/>dus est <name>tullius</name> <title><choice><sic>eo</sic><corr source="#s">oe</corr></choice>conomicum</title> <name>xeno
+<lb break="no"/>fontis</name> et <name>platonis</name> <title><name>protagoram</name></title> et 
+<lb/><name>demosthenis</name> <title>pro <name><choice><sic>th</sic><corr source="#s">ct</corr></choice>esifonte</name></title> a<add place="above">f</add>flatus 
+<lb/>rethorico <expan>s<abbr rend="supraline">p</abbr><ex>irit</ex>u</expan> transtulisse<unclear>.</unclear> aut aliter 
+<lb/>de hisdem libris per lxx interpretes 
+<lb/>aliter per apostolos <name><expan>s<abbr rend="supraline">p</abbr><ex>iritu</ex>s</expan> <expan>s<ex>an</ex><abbr rend="supraline">c</abbr><ex>tu</ex>s</expan></name> testimo
+<lb break="no"/>nia texuit<unclear>.</unclear> ut quod illi tacuerunt hii 
 <lb/>scriptum esse mentiti sint<unclear>.</unclear> quid 
 <lb/>igitur damnamus ueteres<unclear>?</unclear> minime<unclear>.</unclear> 
-<lb/>sed post priorum studia in<reg> </reg>domo <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name> 
+<lb/>sed post priorum studia in domo <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name> 
 <lb/>quod possumus laboramus<unclear>.</unclear><!-- something added in margin by later hand, hard to read from CD: sintagora? --> illi inter
 <lb break="no"/>pretati sunt ante aduentum <name><expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>i</expan></name>. et 
 <lb/>quod nesciebant dubiis protulere 
@@ -168,30 +168,30 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb break="no"/>phetiam quam historiam scribimus. 
 <lb/>aliter enim audita aliter uisa narran
 <lb break="no"/>tur<unclear>.</unclear> quod melius intellegimus 
-<lb/>melius et<reg> </reg>proferimus. Audi<reg> </reg>igitur 
+<lb/>melius et proferimus. Audi igitur 
 <lb/>aemule. obtrectator auscul<subst><del rend="erased"><unclear>ta</unclear></del><add place="above">ta</add></subst>. non 
 <lb/>damno. non reprehendo lxx. sed con
 <lb break="no"/>fidenter cunctis illis apostolos 
 <pb n="9v"/>
 <cb n="a"/>praefero. per istorum os mihi <name><expan><am>x</am><am rend="supraline">p</am><ex>christu</ex>s</expan></name> sonat<unclear>.</unclear> 
 <lb/>quos ante prophetas inter spiritalia 
-<lb/>charismata positos lego<unclear>.</unclear> In<reg> </reg>qui<expan>b<am>’</am><ex>us</ex></expan> ultim<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> 
-<lb/>paene gradum interpr<surplus>a</surplus>etes tenent. 
+<lb/>charismata positos lego<unclear>.</unclear> In qui<expan>b<am>’</am><ex>us</ex></expan> ultim<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> 
+<lb/>paene gradum interpr<surplus source="#s">a</surplus>etes tenent. 
 <lb/>quid li<choice><orig>b</orig><reg>u</reg></choice>ore torqueris? quid imperitorum 
 <lb/>animos contra me concitas? sicubi tibi 
-<lb/>in<reg> </reg>translatione uideor errare<choice><sic>?</sic><corr>.</corr></choice><!-- is interrogatiuus later addition here? --> inter
+<lb/>in translatione uideor errare<choice><sic>?</sic><corr source="#s">.</corr></choice><!-- is interrogatiuus later addition here? --> inter
 <lb break="no"/>roga <name>hebraeos</name> diuersarum urbium magi
-<lb break="no"/>stros consule. quod illi habent de<reg> </reg><name><expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>o</expan></name> 
+<lb break="no"/>stros consule. quod illi habent de <name><expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>o</expan></name> 
 <lb/>tui codices non habent. Aliud est si con
 <lb break="no"/>tra se postea ab apostolis usurpata 
-<lb/>testimonia probauerunt<unclear>.</unclear> et<reg> </reg>emenda
+<lb/>testimonia probauerunt<unclear>.</unclear> et emenda
 <lb break="no"/>tiora sunt exemplaria latina quam 
-<lb/>gr<reg>a</reg>eca. gr<reg>a</reg>eca quam hebr<reg>a</reg>ea<unclear>.</unclear> uerum<reg> </reg>haec 
+<lb/>gr<reg>a</reg>eca. gr<reg>a</reg>eca quam hebr<reg>a</reg>ea<unclear>.</unclear> uerum haec 
 <lb/>contra inuidos. nunc te precor <name>deside
-<lb break="no"/>ri<surplus>i</surplus></name> carissime ut<reg> </reg>qui tantum opus me 
-<lb/>subire fecisti. et<reg> </reg>a<reg> </reg><title>genesi</title> exordium 
-<lb/>capere orationibus iuues quo<reg> </reg>possim 
-<lb/>eodem <expan>s<abbr rend="supraline">p</abbr><ex>irit</ex>u</expan> quo scripti sunt libri in<reg> </reg>lati
+<lb break="no"/>ri<surplus source="#s">i</surplus></name> carissime ut qui tantum opus me 
+<lb/>subire fecisti. et a <title>genesi</title> exordium 
+<lb/>capere orationibus iuues quo possim 
+<lb/>eodem <expan>s<abbr rend="supraline">p</abbr><ex>irit</ex>u</expan> quo scripti sunt libri in lati
 <lb break="no"/>num eos transferre sermonem
 </p>
 <p rend="finalRubric red caps">
