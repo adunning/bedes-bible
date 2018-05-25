@@ -26,7 +26,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 </msIdentifier>
 </msDesc>
 <listBibl>
-<biblStruct type="book" xml:id="Rome1926" corresp="http://zotero.org/users/254032/items/SV9ECTS4">
+<biblStruct type="book" xml:id="r" corresp="http://zotero.org/users/254032/items/SV9ECTS4">
 <monogr>
 <title level="m">Biblia Sacra iuxta latinam vulgatam versionem</title>
 <editor>
@@ -83,12 +83,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <pb n="9r"/>
 <cb n="a"/>
 <p rend="prose">
-<lb/><hi rend="red"><name>Desiderii</name> mei desideratas</hi>
+<lb rend="outdent"/><hi rend="red"><name>Desiderii</name> mei desideratas</hi>
 <lb/>accepi epistulas qui quodam praesagio
 <lb/>futurorum cum <name>danihele</name> sortitus est
 <lb/>nomen. obsecrantis ut translatum in
 <lb/>latinam linguam de hebr<reg>a</reg>eo sermone
-<lb/>pentatheucum nostrorum auri<expan>b<am>’</am><ex>us</ex></expan> trade
+<lb/><title>pentat<surplus>h</surplus>eucum</title> nostrorum auri<expan>b<am>’</am><ex>us</ex></expan> trade
 <lb break="no"/>rem. periculosum opus certe obtrecta
 <lb break="no"/>torum latratibus patens<unclear>;</unclear> qui me adserunt 
 <lb/>in lxx interpretum suggillationem noua 
@@ -131,7 +131,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb rend="indent"/>prudenti factum dicunt esse con
 <lb break="no" rend="indent"/>silio. ne <name>ptolomeus</name> unius <expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan> cultor 
 <lb rend="indent"/>etiam aput <name>hebrę<subst><del rend="alt">u</del><add place="inline">o</add></subst>s</name> duplicem diuini
-<lb break="no"/>tatem depr<surplus source="#s">a</surplus>ehenderet. quod maxime<!-- Rome: quos maximi--> 
+<lb break="no"/>tatem depr<surplus source="#s">a</surplus>ehenderet. <app><lem>quod maxime</lem><rdg source="#s #r">quos maximi</rdg></app> 
 <lb/>idcirco faciebat quia in <name>platonis</name> dogma 
 <lb/>cadere uidebantur<unclear>.</unclear> denique ubicumque 
 <lb/>sacratum aliquid scriptura testatur 
