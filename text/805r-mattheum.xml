@@ -4492,7 +4492,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb/>coeperunt singuli dicere
 <lb rend="indent"/>numquid ego sum <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>e</expan></name>
 <lb/><milestone unit="v" n="26.23"/><note type="canon">cclxxxi <hi rend="red supraline">ii</hi></note><note type="crossref">M clxii / L cclxviii</note>At ipse respondens ait
-<lb/>qui inting<supplied reason="omitted" source="#s">u</supplied>it mecum man<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> 
+<lb/>qui intingit<!-- intinguit S --> mecum man<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> 
 <lb rend="indent"/><!--presumably to be taken with the previous line regardless of the fact that the indentation is filled in with 'in', but S breaks it--><add place="inline">in</add> parapside hic me tradet
 <lb/><milestone unit="v" n="26.24"/><name>filius</name> quidem hominis uadit 
 <lb rend="indent"/>sicut scriptum est de illo
