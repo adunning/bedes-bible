@@ -1,0 +1,304 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng"
+type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng"
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title xml:lang="en">Prologue to the Epistles of Paul</title>
+</titleStmt>
+<publicationStmt>
+<authority>Digital Latin Library</authority>
+<availability>
+<licence target="https://creativecommons.org/licences/by-sa/4.0/">Provided under a Creative Commons Attribution-ShareAlike 4.0 International Licence.</licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier xml:id="A">
+<settlement>Florence</settlement>
+<repository>Biblioteca Medicea Laurenziana</repository>
+<collection>Amiatino</collection>
+<idno>1</idno>
+<msName>Codex Amiatinus</msName>
+</msIdentifier>
+</msDesc>
+<listBibl>
+<biblStruct type="book" xml:id="c" corresp="http://zotero.org/users/254032/items/GB722JVM">
+<monogr>
+<title level="m">Biblia sacra Vulgatae editionis<reg>.</reg> ex ipsis exemplari<expan>b<am>’</am><ex>us</ex></expan> Vaticanis inter se at<expan>q<am>’</am><ex>ue</ex></expan> cum indice errorum corrigendorum collatis</title>
+<editor>
+<forename>Michael</forename>
+<surname>Hetzenauer</surname>
+</editor>
+<imprint>
+<pubPlace>Innsbruck</pubPlace>
+<publisher>Wagner</publisher>
+<date>1906</date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct type="book" xml:id="Tischendorf" corresp="http://zotero.org/users/254032/items/CCTVHEQ4">
+<monogr>
+<title level="m">Novum Testamentum Latine interprete Hieronymo. Ex celeberrimo Codice Amiatino</title>
+<title type="short">Novum Testamentum Amiatinum</title>
+<author>
+<forename>Constantinus von</forename>
+<surname>Tischendorf</surname>
+</author>
+<imprint>
+<pubPlace>Leipzig</pubPlace>
+<publisher>Avenarius et Mendelssohn</publisher>
+<date>1850</date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct type="book" xml:id="s" corresp="http://zotero.org/users/254032/items/W6D8WMM3">
+<monogr>
+<title level="m">Biblia Sacra iuxta vulgatam versionem</title>
+<editor>
+<forename>Robert</forename>
+<surname>Weber</surname>
+</editor>
+<editor>
+<forename>Bonifatius</forename>
+<surname>Fischer</surname>
+</editor>
+<editor>
+<forename>Jean</forename>
+<surname>Gribomont</surname>
+</editor>
+<editor>
+<forename>Hedley F.D.</forename>
+<surname>Sparks</surname>
+</editor>
+<editor>
+<forename>Walter</forename>
+<surname>Thiele</surname>
+</editor>
+<editor>
+<forename>Roger</forename>
+<surname>Gryson</surname>
+</editor>
+<edition>5</edition>
+<imprint>
+<pubPlace>Stuttgart</pubPlace>
+<publisher>Deutsche Bibelgesellschaft</publisher>
+<date>2007</date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct type="book" xml:id="o" corresp="http://zotero.org/users/254032/items/WCM7IWE8">
+<monogr>
+<title level="m">Nouum Testamentum Domini nostri Iesu Christi Latine, secundum editionem sancti Hieronymi</title>
+<editor>
+<forename>John</forename>
+<surname>Wordsworth</surname>
+</editor>
+<editor>
+<forename>Henry Julian</forename>
+<surname>White</surname>
+</editor>
+<editor>
+<forename>Alexander</forename>
+<surname>Ramsbotham</surname>
+</editor>
+<editor>
+<forename>Hedley F.D.</forename>
+<surname>Sparks</surname>
+</editor>
+<editor>
+<forename>Claude</forename>
+<surname>Jenkins</surname>
+</editor>
+<editor>
+<forename>Arthur White</forename>
+<surname>Adams</surname>
+</editor>
+<imprint>
+<pubPlace>Oxford</pubPlace>
+<publisher>Clarendon Press</publisher>
+<date>1889–1954</date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct type="book" xml:id="Souter" corresp="http://zotero.org/users/254032/items/FVXZNHTL">
+<monogr>
+<title level="m">Pelagius's Expositions of thirteen epistles of St. Paul</title>
+<editor>
+<forename>Alexander</forename>
+<surname>Souter</surname>
+</editor>
+<imprint>
+<pubPlace>Cambridge</pubPlace>
+<publisher>University Press</publisher>
+<date>1922–1931</date>
+</imprint>
+</monogr>
+</biblStruct>
+</listBibl>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text xml:lang="la">
+<body>
+<div type="textpart">
+<p><!-- paragraphing is from Souter -->
+<lb/><hi rend="dropcap2">P</hi>rimum quaeritur quare 
+<lb/>post <name>euangelia</name><reg>.</reg> quae supple
+<lb break="no"/>mentum <name>legis</name> sunt et in quibus 
+<lb/>nobis exempla et praecepta uiuen
+<lb break="no"/>di plenissime digesta sunt<reg>.</reg> uolue
+<lb break="no"/>rit <name>apostolus</name> has epistulas ad sin
+<lb break="no"/>gulas ecclesias destinare<reg>.</reg> Hac autem 
+<lb/>causa factum uidetur<reg>.</reg> ut scilicet 
+<lb/>initia nascentis <name>ecclesiae</name> nouis 
+<lb/>causis existentibus <supplied reason="omitted" source="#s">praemuniret<reg>.</reg> ut</supplied> et praesentia 
+<lb/>atque orientia resecaret uitia 
+<lb/>et <surplus source="#s">ut</surplus> post futuras excluderet 
+<lb/>quaestiones. exemplo propheta
+<lb break="no"/>rum. qui post editam legem <name>mosi</name><reg>.</reg> 
+<lb/>in qua omnia <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> mandata legebantur<reg>.</reg> 
+<lb/>nihil<del rend="erased">h</del>ominus tamen doctrina sua 
+<lb/>rediuiua semper populi conpressere 
+<lb/>peccata et propter exemplum 
+<lb/>libri<supplied reason="omitted" source="#s">s</supplied> ad nostram etiam memoriam 
+<lb/>transmiserunt<reg>.</reg> Deinde quaeritur 
+<lb/>cur non amplius quam decem 
+<lb/>epistulas ad ecclesias scripserit. 
+<lb/>Decem sunt enim cum illa quae 
+<lb/>dicitur ad <name>hebraeos</name><reg>.</reg> Nam reliquae 
+<lb/>quattuor ad discipulos specialiter 
+<lb/>sunt porrectae<reg>.</reg> Vt ostenderet 
+<lb/>nouum non discrepare a ueteri 
+<lb/>testamento et se contra legem 
+<lb/>non facere <name>mosi</name><reg>.</reg> Ad <app><lem>pri<supplied reason="omitted" source="#s">m</supplied>orum 
+<lb/>numerum</lem><rdg source="#s">numerum primorum</rdg></app> decalogi mandatorum 
+<lb/>suas epistulas ordinauit <choice><sic>u</sic><corr source="#s">e</corr></choice>t<!-- S/Souter overlook --> quot 
+<lb/>ille praeceptis a <name>pharaone<del rend="erased"><unclear>m</unclear></del></name> 
+<lb/>instituit liberatos<reg>.</reg> totidem hic 
+<lb/>epistulis a diaboli et idolatriae 
+<lb/>seruitute edocet adquisitos. 
+<lb/>Nam et duas tabulas lapideas 
+<lb/>duorum testamentorum figur<expan><abbr rend="supraline">a</abbr><ex>m</ex></expan> 
+<lb/>habuisse uiri eruditissimi tradi
+<lb break="no"/>derunt<unclear>.</unclear>
+</p>
+<p>
+Epistulam sane quae ad <name>he
+<lb break="no"/><add place="inline">b</add>raeos</name> scribitur quidam <name>pauli</name> non 
+<lb/>esse contendunt<reg>.</reg> eo quod non sit 
+<lb/>eius nomine titulata. et propter 
+<lb/>sermonis stilique distantiam. 
+<lb/>sed aut <name>barnabae</name> iuxta <name>tertullian<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan></name> 
+<cb n="b"/>
+<lb/>aut <name>lucae</name> iuxta quosdam 
+<lb/><add place="inline">uel</add> certe <name>clementis</name> discipuli 
+<lb/>apostolorum et episcopi 
+<lb/>romanae ecclesiae post aposto
+<lb break="no"/>l<choice><sic>u</sic><corr source="#s">o</corr></choice>s ordinati<reg>.</reg> Quibus <app><lem>ita</lem><rdg source="#s"/></app> respon
+<lb break="no"/>dendum est<reg>.</reg> si <del rend="expunct">enim</del> propterea <add place="inRas"><name>pauli</name></add> 
+<lb/>non erit quia eius non habet nomen<reg>.</reg> 
+<lb/>ergo nec alicuius erit quia nullius 
+<lb/>nomine titulatur. Quod si absur
+<lb break="no"/>dum est ipsius magis esse credenda 
+<lb/>est quae tanto doctrinae suae 
+<lb/>fulget eloquio. Sed quoniam apu<choice><orig>t</orig><reg>d</reg></choice> 
+<lb/><name>hebraeorum</name> ecclesias quasi destruc
+<lb break="no"/>tor legis falsa suspicione habebatur<reg>.</reg> 
+<lb/>uoluit tacito nomine de figuris 
+<lb/>legis et ueritate <name><expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>i</expan></name> reddere ratio
+<lb break="no"/>nem<reg>.</reg> ne odium nominis fronte 
+<lb/>praelati utilitatem excluderet 
+<lb/>lectionis<reg>.</reg> Non est sane mirum 
+<lb/>si eloquentior uideatur in proprio 
+<lb/>id est hebraeo quam in peregrino 
+<lb/>id est graeco<reg>.</reg> quo ceterae epistulae 
+<lb/>sunt scriptae sermone<reg>.</reg>
+</p>
+<p>
+Mouet 
+<lb/>etiam quosdam quare <name>romanorum</name> 
+<lb/>epistula in primo sit posita<reg>.</reg> 
+<lb/>cum eam non primam scriptam 
+<lb/>ratio manifestet<reg>.</reg> Nam hanc se pro
+<lb break="no"/>ficiscentem <name>hierosolymam</name> scrip
+<lb break="no"/>sisse testatur<reg>.</reg> Cum <name>corinthios</name> 
+<lb/>et alios ante iam<reg>.</reg> ut ministerium 
+<lb/>quod secum portaturus erat colli
+<lb break="no"/>gere<add place="above">n</add>t<reg>.</reg> litteris adhortatus sit. 
+<lb/>Vnde intellegi quidam uolunt 
+<lb/>ita omnes epistulas ordinatas<reg>.</reg> 
+<lb/>ut <choice><sic>prior</sic><corr source="#s">prima</corr></choice> poneretur quae posterior 
+<lb/>fuerat destinata<reg>.</reg> ut per singul<choice><sic>o</sic><corr source="#s">a</corr></choice>s<!-- S overlooks --> 
+<lb/>epistulas gradibus ad perfectiora 
+<lb/>ueniretur<reg>.</reg> <name>Romanorum</name> namque 
+<lb/>plerique tam rudes erant<reg>.</reg> ut non 
+<lb/>intellegerent <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> se gratia et non 
+<lb/>suis meritis esse saluatos<reg>.</reg> Et ob hoc 
+<lb/>duo inter se populi conflictarent. 
+<lb/>Idcirco illos indigere adserit con
+<lb break="no"/>firmari<reg>.</reg> uitia gentilitatis priora 
+<pb n="935v"/>
+<cb n="a"/>
+<lb/>commemorans. <name>Corinthiis</name> aut<expan><abbr rend="supraline">e</abbr><ex>m</ex></expan> 
+<lb/>iam dicit scientiae gratiam esse 
+<lb/>concessam<reg>.</reg> et non tam omnes 
+<lb/>increpat quam cur peccantes non 
+<lb/>increpauerint reprehendit<reg>.</reg> 
+<lb/>sicut ait<reg>.</reg> <quote>Auditur inter uos forni
+<lb break="no"/>catio</quote><reg>.</reg> et iterum<reg>.</reg> <quote>congregatis uobis 
+<lb/>cum meo <expan>s<abbr rend="supraline">p</abbr><ex>irit</ex>u</expan> tradere huiusmodi 
+<lb/><name>satanae</name></quote><reg>.</reg> In secunda uero laudan
+<lb break="no"/>tur et ut magis ac magis proficiant 
+<lb/>admonentur<reg>.</reg> <name>Galatae</name> <app><lem>uero</lem><rdg source="#s"/></app> iam 
+<lb/>nullius criminis arguuntur<reg>.</reg> nisi 
+<lb/>quod callidissimis pseudoapos
+<lb break="no"/>tolis crediderunt<reg>.</reg> <name>Ephesi<supplied reason="omitted" source="#s">i</supplied></name> sane 
+<lb/>nulla repr<surplus>a</surplus>ehensione sed multa 
+<lb/>laude sunt digni<reg>.</reg> quia fidem apos
+<lb break="no"/>tolicam seruauerunt<reg>.</reg> <name>Philip
+<lb break="no"/>penses</name> etiam multo magis con
+<lb break="no"/>laudantur<reg>.</reg> qui nec audire quidem 
+<lb/>falsos apostolos uoluerunt<reg>.</reg> 
+<lb/><name>Colosenses</name> autem tales erant 
+<lb/>ut cum ab apostolo uisi corpora
+<lb break="no"/>liter non fuissent hac laude digni 
+<lb/>haberentur<reg>.</reg> <quote>Et si corpore absens 
+<lb/>sum<reg>.</reg> sed <expan>s<abbr rend="supraline">p</abbr><ex>irit</ex>u</expan> uobiscum sum 
+<lb/>gaudens et uidens ordinem uestr<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan></quote>. 
+<lb/><name>Thessalonicenses</name> nihilominus 
+<lb/>in duabus epistulis omni laude 
+<lb/>prosequitur<reg>.</reg> eo quod non solum 
+<lb/>fidem inconcussam seruauerint 
+<lb/>ueritatis<reg>.</reg> sed etiam in persecutione 
+<lb/>ciuium fuerint constantes inuenti<reg>.</reg> 
+<lb/>De <name>hebraeis</name> uero quid dicendum 
+<lb/>est<reg>.</reg> quorum <name>thessalonicenses</name> 
+<lb/>qui plurimum laudati sunt imita
+<lb break="no"/>tores facti esse dicuntur<reg>.</reg> 
+<lb/>Sicut ipse ait<reg>.</reg> <quote rend="sidequotes">Et uos fratres imita
+<lb break="no"/>tores facti estis ecclesiarum <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> 
+<lb/>quae sunt in <name>iudęa</name><reg>.</reg> Eadem enim 
+<lb/>passi estis et uos a contribulibus 
+<lb/>uestris quae et illi a <name>iudaeis</name></quote>. <choice><orig>a</orig><reg>A</reg></choice>pud 
+<lb/>ipsos quoque <name>hebr<reg>a</reg>eos</name> eadem 
+<lb/>commemorat dicens<reg>.</reg>
+<lb/><quote rend="sidequotes">Nam et uinctis conpassi estis 
+<cb n="b"/>
+<lb/>et rapinam bonorum uestrorum 
+<lb/>cum gaudio suscepistis cognoscen
+<lb break="no"/>tes uos habere meliorem 
+<lb/>et manentem substantiam</quote>.
+</p>
+<div type="textpart" subtype="finalRubric">
+<p rend="rubric rustic-caps">
+<lb/><expan>e<abbr rend="supraline">x</abbr>p<ex>licit</ex></expan> <expan>prol<abbr rend="supraline">o</abbr>g<ex>us</ex></expan> in omn<expan><abbr rend="supraline">e</abbr><ex>m</ex></expan> <expan>ap<abbr rend="supraline">o</abbr>st<ex>oli</ex></expan>
+</p>
+</div>
+</div>
+</body>
+</text>
+</TEI>

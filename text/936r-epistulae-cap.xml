@@ -1,0 +1,477 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng"
+type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng"
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:space="preserve">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title xml:lang="la">Capitula to the epistles</title>
+</titleStmt>
+<publicationStmt>
+<authority>Digital Latin Library</authority>
+<availability>
+<licence target="https://creativecommons.org/licences/by-sa/4.0/">Provided under a Creative Commons Attribution-ShareAlike 4.0 International Licence.</licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<settlement>Florence</settlement>
+<repository>Biblioteca Medicea Laurenziana</repository>
+<collection>Amiatino</collection>
+<idno>1</idno>
+<msName>Codex Amiatinus</msName>
+</msIdentifier>
+</msDesc>
+<listBibl>
+<biblStruct type="book" xml:id="Tischendorf1850" corresp="http://zotero.org/users/254032/items/CCTVHEQ4">
+<monogr>
+<title level="m">Novum Testamentum Latine interprete Hieronymo. Ex celeberrimo Codice Amiatino</title>
+<title type="short">Novum Testamentum Amiatinum</title>
+<author>
+<forename>Constantinus von</forename>
+<surname>Tischendorf</surname>
+</author>
+<imprint>
+<pubPlace>Leipzig</pubPlace>
+<publisher>Avenarius et Mendelssohn</publisher>
+<date>1850</date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct type="book" xml:id="o" corresp="http://zotero.org/users/254032/items/WCM7IWE8">
+<monogr>
+<title level="m">Nouum Testamentum Domini nostri Iesu Christi Latine secundum editionem sancti Hieronymi</title>
+<editor>
+<forename>John</forename>
+<surname>Wordsworth</surname>
+</editor>
+<editor>
+<forename>Henry Julian</forename>
+<surname>White</surname>
+</editor>
+<editor>
+<forename>Alexander</forename>
+<surname>Ramsbotham</surname>
+</editor>
+<editor>
+<forename>Hedley F.D.</forename>
+<surname>Sparks</surname>
+</editor>
+<editor>
+<forename>Claude</forename>
+<surname>Jenkins</surname>
+</editor>
+<editor>
+<forename>Arthur White</forename>
+<surname>Adams</surname>
+</editor>
+<imprint>
+<pubPlace>Oxford</pubPlace>
+<publisher>Clarendon Press</publisher>
+<date>1889–1954</date>
+</imprint>
+</monogr>
+</biblStruct>
+</listBibl>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text xml:lang="la">
+<body>
+<div type="textpart" subtype="capitula">
+<list>
+<head rend="rustic-caps">
+<lb/>Incipit capitulatio
+<lb/><hi rend="red">de omnibus epistulis</hi>
+</head>
+<lb/><item>De unitate ecclesiae ad <name>corint<reg>h</reg>ios</name> <expan><am>.</am><abbr rend="supraline">p</abbr><ex>rima</ex><am>.</am></expan> 
+<lb rend="indent"/><expan>c<abbr rend="supraline">ap</abbr><am>.</am><ex>itulum</ex></expan> <num>ii</num>. ad <name>ephesios</name> <num>xiiii</num>. et <num>xv</num>. ad <name><expan>p<abbr rend="supraline">hili</abbr>p<ex>penses</ex></expan></name> 
+<lb rend="indent"/><num>v</num>. et <num>vi</num>. et <num>vii</num>. et ad <name><expan><abbr rend="supraline">co</abbr>l<ex>osenses</ex></expan></name> <num>xiiii</num>.</item>
+<lb/><item>De perfectis ad <name><expan>co<abbr rend="supraline">rin</abbr>t<ex>hios</ex></expan></name> <expan><am>.</am><abbr rend="supraline">p</abbr><ex>rima</ex><am>.</am></expan> <num>ii</num>. et <num>vii</num>. 
+<lb rend="indent"/>et <num>lxiii</num>. ad <name><expan>co<abbr rend="supraline">rin</abbr>t<ex>hios</ex></expan></name> <expan><am>.</am><abbr rend="supraline">p</abbr><ex>rima</ex><am>.</am></expan> <num>ii</num>. <num>xxiii</num>. ad <name><expan>e<abbr rend="supraline">ph</abbr>es<ex>ios</ex><am>.</am></expan></name> <num>i</num>. 
+<lb rend="indent"/>et <num>xv</num>. ad <name><expan>p<abbr rend="supraline">hili</abbr>p<ex>penses</ex><am>.</am></expan></name> <num>xii</num>. ad <name><expan>col<abbr rend="supraline">ose</abbr>n<ex>ses</ex></expan></name> <num>iii</num>. 
+<lb rend="indent"/>et <num>xxvi</num>. ad <name><expan>t<add place="above">h</add><abbr rend="supraline">ess</abbr><ex>alonicenses</ex></expan></name> <expan><am>.</am><abbr rend="supraline">p</abbr><ex>rima</ex><am>.</am></expan> <surplus source="#Tischendorf1850">et</surplus><!-- or a number missing? chk WW --> <num>xxiii</num> 
+<lb rend="indent"/>ad <name>timotheum</name>. <expan><abbr rend="supraline">sec</abbr><ex>unda</ex></expan> <num>xvii</num>.</item>
+<lb/><item>De <name>domino patre</name> quod ante saecula 
+<lb rend="indent"/><name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>m</expan> filium</name> nobis promiserit 
+<lb rend="indent"/>quem postea suis temporibus 
+<lb rend="indent"/>declarauit ad <name><expan>co<abbr rend="supraline">rin</abbr>t<ex>hios</ex></expan></name> <expan><am>.</am><abbr rend="supraline">p</abbr><ex>rima</ex><am>.</am></expan> <num>vii</num>. ad <name><expan><abbr rend="supraline">tit</abbr><ex>um</ex><am>.</am></expan></name> <num>i</num>.</item>
+<lb/><item>De ae<add place="inRas">d</add>ificio cultuque doctrinae 
+<lb rend="indent"/>ad <name><expan>co<abbr rend="supraline">rin</abbr>t<ex>hios</ex></expan></name> <expan><am>.</am><abbr rend="supraline">p</abbr><ex>rima</ex><am>.</am></expan> <num>xii</num>. ad <name><expan>ep<abbr rend="supraline">hes</abbr><ex>ios</ex></expan></name> <num>viii</num>. 
+<lb rend="indent"/>et <num>xv</num> ad <name><expan>c<abbr rend="supraline">olos</abbr><ex>enses</ex><am>.</am></expan></name> <num>vi</num>. et <num>x</num>.</item>
+<lb/><item>De <expan>s<ex>an</ex><abbr rend="supraline">c</abbr><ex>t</ex>is</expan> hominibus quod templum 
+<pb n="936v"/>
+<cb n="a"/>
+<lb rend="indent"/>sint <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> ad <name><expan>co<abbr rend="supraline">rin</abbr>t<ex>hios</ex></expan></name> <expan><am>.</am><abbr rend="supraline">p</abbr><ex>rima</ex><am>.</am></expan> <num>xiii</num>. ad <name><expan>c<abbr rend="supraline">or</abbr><ex>inthios</ex><am>.</am></expan></name> <expan><abbr rend="supraline">sec</abbr><ex>unda</ex></expan>. 
+<lb rend="indent"/><num>xviii</num>. ad <name><expan>ep<abbr rend="supraline">hes</abbr><ex>ios</ex></expan></name> <num>viii</num>.</item>
+<lb/><item>De integritate apostoli et quod 
+<lb rend="indent"/>semper manibus sit operatus 
+<lb rend="indent"/>ad <name><expan>c<abbr rend="supraline">or</abbr><ex>rinthios</ex></expan></name> <expan><am>.</am><abbr rend="supraline">p</abbr><ex>rima</ex><am>.</am></expan> <num>xviii</num>. et <num>xli</num>. ad <name><expan>co<abbr rend="supraline">rin</abbr>t<ex>hios</ex></expan></name> <expan><abbr rend="supraline">sec</abbr><ex>unda</ex></expan>. 
+<lb rend="indent"/><num>xviiii</num>. et <num>xxv</num> et <num>xxvi</num> et <num>xxvii</num>. 
+<lb rend="indent"/>ad <name><expan>t<reg>h</reg>esa<abbr rend="supraline">lo</abbr>n<ex>icenses</ex></expan></name> <expan><am>.</am><abbr rend="supraline">p</abbr><ex>rima</ex><am>.</am></expan> <num>vii</num>.</item>
+<lb/><item>De apostoli potestate ad <name><expan>c<abbr rend="supraline">or</abbr><ex>inthios</ex></expan></name> <expan><abbr rend="supraline">p</abbr><ex>rima</ex></expan> <num>xxi</num> 
+<lb rend="indent"/>et <num>xxiii</num><reg>.</reg> ad <name><expan>c<abbr rend="supraline">or</abbr><ex>inthios</ex></expan></name> <expan><abbr rend="supraline">sec</abbr><ex>unda</ex></expan> <num>xxiii</num> et xxvii</item>
+<lb/><item>De absentia corporis apostoli 
+<lb rend="indent"/>et praesentia <expan>s<abbr rend="supraline">p</abbr><ex>iritu</ex>s</expan> ad <name><expan>c<abbr rend="supraline">or</abbr><ex>inthios</ex></expan></name> <expan><abbr rend="supraline">p</abbr><ex>rima</ex></expan> <num>xxii</num><reg>.</reg> 
+<lb rend="indent"/>ad <name><expan><abbr rend="supraline">col</abbr><ex>osenses</ex></expan></name> <num>v</num>. ad <name><expan>t<add place="above">h</add><abbr rend="supraline">ess</abbr>al<ex>onicenses</ex></expan></name> <num>i</num>. <num>viiii</num></item>
+<lb/><item>De traditione peccantium <name>satanae</name> 
+<lb rend="indent"/>ad <name><expan>c<abbr rend="supraline">or</abbr><ex>inthios</ex></expan></name> <expan><abbr rend="supraline">p</abbr><ex>rima</ex></expan> <num>xxiii</num><reg>.</reg> ad <name><expan>tim<abbr rend="supraline">ot</abbr><ex>heum</ex></expan></name> <num>i</num>. <num>iiii</num></item>
+<lb/><item>De separatione <expan>s<ex>an</ex><abbr rend="supraline">c</abbr><ex>t</ex>orum</expan> ab eis 
+<lb rend="indent"/>qui contra legem ueniunt 
+<lb rend="indent"/>ad <name><expan>c<abbr rend="supraline">or</abbr><ex>inthios</ex></expan></name> <expan><abbr rend="supraline">p</abbr><ex>rima</ex></expan> <label>xxiiii</label> ad <name><expan>c<abbr rend="supraline">or</abbr><ex>in</ex>t<ex>hios</ex></expan></name> <expan><abbr rend="supraline">sec</abbr><ex>unda</ex></expan> <num>vii</num><reg>.</reg> <num>viiii</num><reg>.</reg> 
+<lb rend="indent"/>ad <name><expan>e<abbr rend="supraline">ph</abbr>es<ex>ios</ex></expan></name> <num>xxii</num><reg>.</reg> ad <name><expan>t<add place="above">h</add><abbr rend="supraline">ess</abbr><ex>alonicenses</ex></expan></name> <expan><abbr rend="supraline">sec</abbr><ex>unda</ex></expan> <num>vii</num><reg>.</reg> <num>viiii</num><reg>.</reg> 
+<lb rend="indent"/>ad <name><expan>tim<abbr rend="supraline">ot</abbr><ex>heum</ex></expan></name> <expan><abbr rend="supraline">p</abbr><ex>rima</ex></expan> <num>xxiii</num> et <num>xxvi</num>. 
+<lb rend="indent"/>ad <name><expan>tim<abbr rend="supraline">oth</abbr><ex>eum</ex></expan></name> <num>ii</num>. <num>xiiii</num></item>
+<lb/><item>De baptismi gratia uniuersa cri
+<lb break="no"/>mina diluente ad <name><expan>cor<abbr rend="supraline">int</abbr><ex>hios</ex></expan></name> <expan><abbr rend="supraline">p</abbr><ex>rima</ex></expan> 
+<lb rend="indent"/><num>xxiii</num>. ad <name><expan>titu<ex>m</ex></expan></name> <num>v</num></item>
+<lb/><item>De <expan>s<ex>an</ex><abbr rend="supraline">c</abbr><ex>t</ex>is</expan> quod membra sint <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name> 
+<lb rend="indent"/>ad <name><expan>c<abbr rend="supraline">or</abbr><ex>in</ex>t<ex>hios</ex></expan></name> <expan><abbr rend="supraline">p</abbr><ex>rima</ex></expan> <num>xxiiii</num>. et <num>lv</num> et <num>lxi</num><reg>.</reg> 
+<lb rend="indent"/>ad <name><expan>ga<abbr rend="supraline">lat</abbr><ex>ias</ex><am>.</am></expan></name> <num>v</num>. ad <name><expan>e<abbr rend="supraline">ph</abbr>es<ex>ios</ex></expan></name> <num>ii</num> et <num>xv</num> 
+<lb rend="indent"/>et <num>xxiiii</num> et <num>xxv</num><reg>.</reg> ad <name><expan>col<abbr rend="supraline">os</abbr><ex>enses</ex><am>.</am></expan></name> <num>ii</num>. et <num>iii</num></item>
+<lb/><item>De libero et seruo in <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>o</expan></name> quod 
+<lb rend="indent"/>sint aequaliter conliberti 
+<lb rend="indent"/>ad <name><expan>cor<abbr rend="supraline">int</abbr><ex>hios</ex></expan></name> <expan><abbr rend="supraline">p</abbr><ex>rima</ex></expan> <num>xxxvi</num> et <num>lxi</num><reg>.</reg> ad <name><expan>g<abbr rend="supraline">al</abbr><ex>atias</ex></expan></name> <num>xvi</num><reg>.</reg> 
+<lb rend="indent"/>ad <name><expan>colo<abbr rend="supraline">sen</abbr><ex>ses</ex></expan></name> <num>xiii</num></item>
+<lb/><item>De contemptu inanis gloriae 
+<lb rend="indent"/>ac praesentis ad <name><expan>co<abbr rend="supraline">rin</abbr><ex>thios</ex></expan></name> <expan><abbr rend="supraline">p</abbr><ex>rima</ex></expan> <num>xxxviiii</num>. 
+<lb rend="indent"/>ad <name><expan>g<abbr rend="supraline">al</abbr><ex>atias</ex></expan></name> <num>xxx</num><reg>.</reg> ad <name><expan>p<abbr rend="supraline">hili</abbr>p<ex>penses</ex></expan></name> <num>vi</num>. ad <name><expan>t<abbr rend="supraline">hes</abbr><ex>alonicenses</ex></expan></name> <expan><am>.</am><abbr rend="supraline">p</abbr><ex>rima</ex><am>.</am></expan> <num>v</num></item>
+<lb/><item>De <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>o</expan></name> patre quod unus est et de 
+<lb rend="indent"/>uno filio mediatore <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> et homin<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> 
+<lb rend="indent"/><name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>o</expan> <expan>i<am rend="supraline">h</am><ex>es</ex>u</expan> <expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>o</expan></name> ad <name><expan>co<abbr rend="supraline">rint</abbr><ex>hios</ex></expan></name> <expan><abbr rend="supraline">p</abbr><ex>rima</ex></expan> <add place="above"><num>xl</num></add>. ad <name><expan>g<abbr rend="supraline">al</abbr><ex>atias</ex></expan></name> <num>xiii</num><reg>.</reg> 
+<lb rend="indent"/>ad <name><expan>ep<abbr rend="supraline">hes</abbr><ex>ios</ex><am>.</am></expan></name> <label>xiiii</label>. ad <name>titum</name> <num>.i.</num> et vii</item>
+<lb/><item>De his qui sacrariis deseruiunt 
+<lb rend="indent"/>quod eis de sacrario debeant 
+<lb rend="indent"/>exhiberi ad <name><expan>cori<abbr rend="supraline">nt</abbr><ex>hios</ex></expan></name> <expan><abbr rend="supraline">p</abbr><ex>rima</ex></expan> <num>xl</num> ad <name><expan>ti<abbr rend="supraline">mot</abbr><ex>heum</ex></expan></name> <expan><abbr rend="supraline">p</abbr><ex>rima</ex></expan> 
+<lb rend="indent"/><num>xviiii</num><reg>.</reg> ad <name><expan><abbr rend="supraline">tit</abbr><ex>um</ex></expan></name> <num>.ii.</num> et <num>vi</num></item>
+<lb/><item>De apostolo omnibus placente 
+<lb rend="indent"/>per omnia ad <name><expan>cor<abbr rend="supraline">int</abbr><ex>hios</ex></expan></name> <expan><abbr rend="supraline">p</abbr><ex>rima</ex></expan> <num>xli</num> et <num>lii</num>.</item>
+<cb n="b"/>
+<lb/><item>De traditione apostolica quod 
+<lb rend="indent"/>a nemine debeat immutari 
+<lb rend="indent"/>ad <name><expan>co<abbr rend="supraline">rin</abbr><ex>thios</ex></expan></name> <expan><abbr rend="supraline">p</abbr><ex>rima</ex></expan> <num>.liii.</num> ad <name><expan>g<abbr rend="supraline">al</abbr><ex>atias</ex></expan></name> <num>ii</num>. ad <name><expan>p<abbr rend="supraline">hili</abbr>p<ex>penses</ex></expan></name> <num>.xiii.</num> 
+<lb rend="indent"/>et <num><add place="inline">x</add>v</num>. et <name><expan>colos<abbr rend="supraline">en</abbr><ex>ses</ex></expan></name> <num>vi</num><reg>.</reg> ad <name><expan>t<abbr rend="supraline">hes</abbr><ex>alonicenses</ex></expan></name> <expan><abbr rend="supraline">sec</abbr><ex>unda</ex></expan> 
+<lb rend="indent"/><num>iiii</num> et <num>vii</num><reg>.</reg> ad <name>timotheum</name> <expan><abbr rend="supraline">sec</abbr><ex>unda</ex></expan> <num>iiii</num> et <name>viiii</name> 
+<lb rend="indent"/>et <num>xxii</num> et <num>xxviiii</num> et <num>xxx</num><reg>.</reg> 
+<lb rend="indent"/>ad <name><expan>ti<abbr rend="supraline">mo</abbr>t<ex>heum</ex></expan></name> <expan><abbr rend="supraline">sec</abbr><ex>unda</ex></expan> <num>iii</num> et <num>viiii</num> et <num>xvi</num></item>
+<lb/><item>De hereses ad <name><expan>co<abbr rend="supraline">rin</abbr><ex>thios</ex></expan></name> <expan><abbr rend="supraline">p</abbr><ex>rima</ex></expan> <num>lvi</num><reg>.</reg> 
+<lb rend="indent"/>ad <name><expan>g<abbr rend="supraline">al</abbr><ex>atias</ex></expan></name> <num>xxviiii</num><reg>.</reg> ad <name>titum</name> <num>viii</num></item>
+<lb/><item>De destructione prophet<add place="inline">i</add>ae 
+<lb rend="indent"/>atque linguarum et omnium 
+<lb rend="indent"/>quae ex parte sunt cum id quod 
+<lb rend="indent"/>perfectum est fuerit declaratum 
+<lb rend="indent"/>ad <name><expan>co<abbr rend="supraline">rin</abbr><ex>thios</ex><am>.</am></expan></name> <expan><abbr rend="supraline">p</abbr><ex>rima</ex><am>.</am></expan> <num>lvi</num><reg>.</reg> ad <name><expan>e<abbr rend="supraline">ph</abbr><ex>esios</ex></expan></name> <num>xv</num></item>
+<lb/><item>De examinatione prophetiae 
+<lb rend="indent"/>ad <name><expan>co<abbr rend="supraline">rin</abbr><ex>thios</ex></expan></name> <expan><abbr rend="supraline">p</abbr><ex>rima</ex></expan> <num>lxiii</num><reg>.</reg> ad <name><expan>t<add place="above">h</add><abbr rend="supraline">ess</abbr><ex>alonicenses</ex></expan></name> <expan><abbr rend="supraline">p</abbr><ex>rima</ex></expan> <num>xxii</num></item>
+<lb/><item>De silentio mulierum in ecclesia 
+<lb rend="indent"/>ad <name><expan>co<abbr rend="supraline">rin</abbr><ex>thios</ex></expan></name> <expan><abbr rend="supraline">p</abbr><ex>rima</ex></expan> <num>lxiii</num><reg>.</reg> ad <name><expan>tim<abbr rend="supraline">ot</abbr><ex>heum</ex></expan></name> <expan><abbr rend="supraline">p</abbr><ex>rima</ex></expan> <num>vii</num></item>
+<lb/><item>Do resurrectione ad <name><expan>co<abbr rend="supraline">rin</abbr><ex>thios</ex></expan></name> <expan><abbr rend="supraline">p</abbr><ex>rima</ex></expan> <num>lxv</num><reg>.</reg> 
+<lb rend="indent"/>ad <name><expan>th<abbr rend="supraline">ess</abbr><ex>alonicenses</ex></expan></name> <expan><abbr rend="supraline">p</abbr><ex>rima</ex></expan> <num>xviii</num>. ad <name><expan>th<abbr rend="supraline">ess</abbr><ex>alonicenses</ex></expan></name> <expan><abbr rend="supraline">sec</abbr><ex>unda</ex></expan> <num>.i.</num> et <num>.ii.</num></item>
+<lb/><item>Do exponendo ueterem et induendo 
+<lb rend="indent"/>nouum hominem ad <name><expan>c<abbr rend="supraline">or</abbr><ex>inthios</ex></expan></name> <expan><am>.</am><abbr rend="supraline">p</abbr><ex>rima</ex><am>.</am></expan> <num>lxv</num><reg>.</reg> 
+<lb rend="indent"/>ad <name><expan>ep<abbr rend="supraline">hes</abbr><ex>ios</ex></expan></name> <num>xvii</num>. ad <name><expan>col<abbr rend="supraline">os</abbr><ex>enses</ex></expan></name> <num>xiii</num></item>
+<lb/><item>De collectis et ministerio 
+<lb rend="indent"/>quod fit in <expan>s<ex>an</ex><abbr rend="supraline">c</abbr><ex>t</ex>is</expan> ad <name><expan>c<abbr rend="supraline">or</abbr><ex>inthios</ex></expan></name> <expan><abbr rend="supraline">p</abbr><ex>rima</ex></expan> <num>lxvi</num><reg>.</reg> 
+<lb rend="indent"/>ad <name><expan>c<abbr rend="supraline">or</abbr><ex>inthios</ex></expan></name> <expan><abbr rend="supraline">sec</abbr><ex>unda</ex></expan> <num>xxi</num> et <num>xxii</num></item>
+<lb/><item>De adulterantibus uerbum <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> 
+<lb rend="indent"/>ad <name><expan>c<abbr rend="supraline">or</abbr><ex>inthios</ex></expan></name> <expan><abbr rend="supraline">sec</abbr><ex>unda</ex></expan> <num>v</num>. et <num>viiii</num>.</item>
+<lb/><item>De commendantibus semet ipsos 
+<lb rend="indent"/>ad <name><expan>cor<abbr rend="supraline">int</abbr><ex>hios</ex></expan></name> <expan><abbr rend="supraline">sec</abbr><ex>unda</ex></expan> <num>iiii</num> et <num>xxiii</num></item>
+<lb/><item>De duobus testamentis ad <name><expan>cor<abbr rend="supraline">int</abbr><ex>hios</ex></expan></name> <add place="inline"><expan><abbr rend="supraline">sec</abbr><ex>unda</ex></expan></add> 
+<lb rend="indent"/><num>viii</num><reg>.</reg> ad <name><expan>g<abbr rend="supraline">al</abbr><ex>atias</ex></expan></name> <num>xxiii</num>.</item>
+<lb/><item>De <name><expan>d<ex>e</ex><abbr rend="supraline">o</abbr></expan></name> istius saeculi ad <name><expan>c<abbr rend="supraline">or</abbr><ex>inthios</ex></expan></name> <expan><abbr rend="supraline">sec</abbr><ex>unda</ex></expan> <num>x</num><reg>.</reg> 
+<lb rend="indent"/>ad <name><expan>ep<abbr rend="supraline">hes</abbr><ex>ios</ex></expan></name> <num>iii</num> et <num>xxx</num></item>
+<lb/><item>De <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>o</expan> <expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>o</expan></name> quod imago est <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> 
+<lb rend="indent"/>ad <name><expan>c<abbr rend="supraline">or</abbr><ex>inthios</ex></expan></name> <expan><abbr rend="supraline">p</abbr><ex>rima</ex></expan> <num>.ii.</num> ad <name><expan>p<abbr rend="supraline">hili</abbr>p<ex>penses</ex></expan></name> <num>vi</num>. ad <name><expan>c<abbr rend="supraline">ol</abbr>os<ex>enses</ex></expan></name> <num>.vi.</num></item>
+<lb/><item>De dissolutione terreni corporis 
+<lb rend="indent"/>ac praesentis ad <name><expan>co<abbr rend="supraline">rin</abbr><ex>thios</ex></expan></name> <expan><abbr rend="supraline">sec</abbr><ex>unda</ex></expan> <num>xii</num><reg>.</reg> 
+<lb rend="indent"/>ad <name><expan>phi<abbr rend="supraline">lip</abbr><ex>penses</ex></expan></name> <num>.v.</num> ad <name><expan>tim<abbr rend="supraline">ot</abbr><ex>heum</ex></expan></name> <expan><abbr rend="supraline">sec</abbr><ex>unda</ex></expan> <num>xx</num></item>
+<lb/><item>De <expan>s<ex>an</ex><abbr rend="supraline">c</abbr><ex>t</ex>is</expan> quod quantum auaritiam 
+<lb rend="indent"/>fugerint tantum <surplus>h</surplus>abundanter 
+<lb rend="indent"/>quod opus est debeant <add place="left">ad usus</add> propri<subst><del rend="alt">u</del><add place="inline">o</add></subst>s 
+<lb rend="indent"/>reseruare ad <name><expan>c<abbr rend="supraline">or</abbr><ex>inthios</ex></expan></name> <expan><abbr rend="supraline">sec</abbr><ex>unda</ex></expan> <num>xxii</num><reg>.</reg> ad <name><expan><abbr rend="supraline">thes</abbr><ex>alonicenses</ex></expan></name> <expan><abbr rend="supraline">p</abbr><ex>rima</ex><am>.</am></expan> 
+<lb rend="indent"/><num>xviiii</num> et <num>xxvii</num> et <num>xxviiii</num>.</item>
+<pb n="937r"/>
+<cb n="a"/>
+<lb/><item>De seductoribus ad <name><expan>c<abbr rend="supraline">or</abbr><ex>inthios</ex></expan></name> <expan><abbr rend="supraline">sec</abbr><ex>unda</ex></expan> <num>xxvi</num><reg>.</reg> 
+<lb rend="indent"/>ad <name><expan>g<abbr rend="supraline">al</abbr><ex>atias</ex></expan></name> <num>xxv</num> et <num>xxvii</num> et <num>xxxv</num><reg>.</reg> 
+<lb rend="indent"/>ad <name><expan>ep<abbr rend="supraline">hes</abbr><ex>ios</ex></expan></name> <num>xxii</num><reg>.</reg> ad <name><expan>phi<abbr rend="supraline">lip</abbr><ex>penses</ex></expan></name> <num>x</num> et <num>vii</num><reg>.</reg> 
+<lb rend="indent"/>ad <name><expan><abbr rend="supraline">col</abbr><ex>osenses</ex></expan></name><!-- something missing? --> et <num>vii</num> et <num>x</num><reg>.</reg> ad <name><expan>tim<abbr rend="supraline">ot</abbr><ex>heum</ex></expan></name> <expan><abbr rend="supraline">p</abbr><ex>rima</ex><am>.</am></expan> 
+<lb rend="indent"/><num>x</num> et <num>xxvi</num><reg>.</reg> ad <name><expan>tim<abbr rend="supraline">ot</abbr><ex>heum</ex></expan></name> <expan><abbr rend="supraline">sec</abbr><ex>unda</ex></expan> <num>x</num> et <num>xiiii</num> 
+<lb rend="indent"/>et <num>xv</num><reg>.</reg> ad <name>titum</name> <num>ii</num></item>
+<lb/><item>De falsis fratribus ad <name><expan>c<abbr rend="supraline">or</abbr><ex>inthios</ex></expan></name> <expan><abbr rend="supraline">sec</abbr><ex>unda</ex></expan> 
+<lb rend="indent"/><num>xxvi</num><reg>.</reg> ad <name><expan>g<abbr rend="supraline">al</abbr><ex>atias</ex></expan></name> <num>iii</num></item>
+<lb/><item>De apostolo hominibus displi
+<lb break="no"/>cente ad <name><expan>g<abbr rend="supraline">al</abbr><ex>atias</ex></expan></name> <num>iii</num>. ad <name><expan>t<add place="above">h</add><abbr rend="supraline">ess</abbr><ex>alonicenses</ex></expan></name> <expan><abbr rend="supraline">p</abbr><ex>rima</ex></expan> <num>iiii</num></item>
+<lb/><item>De <expan>s<ex>an</ex><abbr rend="supraline">c</abbr><ex>t</ex>is</expan> ex gentibus quod obser
+<lb break="no"/>uationem ueteris testamenti 
+<lb rend="indent"/>non debeant custodire ad <name><expan>g<abbr rend="supraline">al</abbr><ex>atias</ex></expan></name> <num>xx</num><reg>.</reg> 
+<lb rend="indent"/>ad <name><expan><abbr rend="supraline">col</abbr><ex>osenses</ex></expan></name> <num>viiii</num><reg>.</reg> ad <name>titum</name> <num>ii</num></item>
+<lb/><item>De mutua sustentatione <expan>s<ex>an</ex><abbr rend="supraline">c</abbr><ex>t</ex>orum</expan> 
+<lb rend="indent"/>ad <name><expan>g<abbr rend="supraline">al</abbr><ex>atias</ex></expan></name> <num>xxx</num><reg>.</reg> ad <name><expan>ep<abbr rend="supraline">hes</abbr><ex>ios</ex></expan></name> .<num>i</num>. <num>viiii</num> et <num>xiii</num><reg>.</reg> 
+<lb rend="indent"/>ad <name><expan><abbr rend="supraline">col</abbr><ex>osenses</ex></expan></name> <num>xv</num><reg>.</reg> ad <name><expan>t<add place="above">h</add><abbr rend="supraline">ess</abbr><ex>alonicenses</ex></expan></name> <num>lxxii</num>.</item>
+<lb/><item>De opere manuum ut alienum 
+<lb rend="indent"/>non accipiatur <subst><del rend="expunct">u</del><add place="above">e</add></subst>t ad usus proprios 
+<lb rend="indent"/>nihil desit ad <name><expan>e<abbr rend="supraline">ph</abbr>es<ex>ios</ex></expan></name> <num>xviiii</num>. ad <name><expan>t<abbr rend="supraline">hes</abbr><ex>alonicenses</ex></expan></name> <expan><abbr rend="supraline">p</abbr><ex>rima</ex></expan> 
+<lb rend="indent"/><num>xv</num>. ad <name><expan>t<abbr rend="supraline">hes</abbr><ex>alonicenses</ex><am>.</am></expan></name> <expan><abbr rend="supraline">sec</abbr><ex>unda</ex></expan> <num>vii</num> et <num>viii</num></item>
+<lb/><item>De <expan>s<ex>an</ex><abbr rend="supraline">c</abbr><ex>t</ex>is</expan> quod <name><expan>d<ex>eu</ex><abbr rend="supraline">m</abbr></expan></name> debeant in omni<expan>b<am>’</am><ex>us</ex></expan> 
+<lb rend="indent"/>imitari ad <name><expan>ep<abbr rend="supraline">hes</abbr><ex>ios</ex></expan></name> <num>xx</num><reg>.</reg> ad <name><expan>t<abbr rend="supraline">hes</abbr><ex>alonicenses</ex></expan></name> <expan><abbr rend="supraline">p</abbr><ex>rima</ex></expan> <num>ii</num></item>
+<lb/><item>De psalmis et hymnis et canticis 
+<lb rend="indent"/>in cordibus concinentis 
+<lb rend="indent"/>ad <name><expan>ep<abbr rend="supraline">hes</abbr><ex>ios</ex></expan></name> <num>xxiii</num><reg>.</reg> ad <name><expan>co<abbr rend="supraline">los</abbr><ex>enses</ex></expan></name> <num>xiiii</num></item>
+<lb/><item>De subiectione mulierum ad maritos 
+<lb rend="indent"/>ad <name><expan>ep<abbr rend="supraline">hes</abbr><ex>ios</ex></expan></name> <num>xxiiii</num><reg>.</reg> ad <name><expan>co<abbr rend="supraline">los</abbr><ex>enses</ex></expan></name> <num>xvi</num></item>
+<lb/><item>De uirorum dilectione ad coniuges 
+<lb rend="indent"/>ad <name><expan>ep<abbr rend="supraline">hes</abbr><ex>ios</ex></expan></name> <num>xxv</num><reg>.</reg> ad <name><expan>co<abbr rend="supraline">los</abbr><ex>enses</ex></expan></name> <num>xiiii</num></item>
+<lb/><item>De obsequio filiorum ad parentes 
+<lb rend="indent"/>ad <name><expan>ep<abbr rend="supraline">hes</abbr><ex>ios</ex></expan></name> <num>xxvii</num><!-- work out ref: last i exp? --><reg>.</reg> ad <name><expan><abbr rend="supraline">col</abbr><ex>osenses</ex></expan></name> <num>xvi<add place="inRas">i</add>i</num></item>
+<lb/><item>De parentum erga filios tempera
+<lb break="no"/>mento ad <name><expan>ep<abbr rend="supraline">hes</abbr><ex>ios</ex></expan></name> <num>xxvii</num>. ad <name><expan><abbr rend="supraline">co</abbr>l<ex>osenses</ex></expan></name> <num>xviiii</num></item>
+<lb/><item>De seruorum obsequio ad <name><expan>ep<abbr rend="supraline">hes</abbr><ex>ios</ex></expan></name> <num>xxviii</num><reg>.</reg> 
+<lb rend="indent"/>ad <name><expan><abbr rend="supraline">co</abbr>l<ex>osenses</ex></expan></name> <num>xx</num><reg>.</reg> ad <name><expan>tim<abbr rend="supraline">ot</abbr><ex>heum</ex></expan></name> <expan><abbr rend="supraline">p</abbr><ex>rima</ex></expan> <num>xxv</num>. ad <name><expan><abbr rend="supraline">tit</abbr><ex>um</ex><am>.</am></expan></name> <num>iiii</num>.</item>
+<lb/><item>De temperantia dominorum 
+<lb rend="indent"/>ad <name><expan>ep<abbr rend="supraline">hes</abbr><ex>ios</ex></expan></name> <num>xxviiii</num><reg>.</reg> ad <name><expan><abbr rend="supraline">co</abbr>l<ex>osenses</ex></expan></name> <num>xxi</num></item>
+<lb/><item>De apostolo petente <expan>s<ex>an</ex><abbr rend="supraline">c</abbr><ex>t</ex>os</expan> ut pro eo 
+<lb rend="indent"/>in orationi<expan>b<am>’</am><ex>us</ex></expan> postularent 
+<lb rend="indent"/>ad <name><expan>ep<abbr rend="supraline">hes</abbr><ex>ios</ex></expan></name> <num>xxx</num><reg>.</reg> ad <name><expan><abbr rend="supraline">co</abbr>l<ex>osenses</ex></expan></name> <num>xxv</num>. ad <name><expan>t<abbr rend="supraline">hes</abbr><ex>alonicenses</ex></expan></name> <expan><abbr rend="supraline">p</abbr><ex>rima</ex></expan> 
+<lb rend="indent"/><num>xxvii</num><reg>.</reg> ad <name><expan>t<abbr rend="supraline">hes</abbr><ex>alonicenses</ex></expan></name> <expan><abbr rend="supraline">sec</abbr><ex>unda</ex></expan> <num>v</num></item>
+<lb/><item>De pr<surplus>a</surplus>esbyteris quod ipsi fuerint 
+<lb rend="indent"/>aliquando episcopi ad <name><expan>t<abbr rend="supraline">im</abbr><ex>otheum</ex></expan></name> <expan><abbr rend="supraline">p</abbr><ex>rima</ex></expan> 
+<cb n="b"/>
+<lb rend="indent"/><num>viii</num><reg>.</reg> ad <name><expan><abbr rend="supraline">tit</abbr><ex>um</ex></expan></name> <num>ii</num></item>
+<lb/><item>De <add place="inRas">spe</add> <expan>s<ex>an</ex><abbr rend="supraline">c</abbr><ex>t</ex>o<del rend="expunct">po</del>rum</expan> quod cum <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>o</expan> 
+<lb rend="indent"/><expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>o</expan></name> in <name><expan>d<ex>e</ex><abbr rend="supraline">o</abbr></expan></name> abscondita sit in caelis 
+<lb rend="indent"/>ad <name><expan>phil<abbr rend="supraline">ip</abbr><ex>penses</ex></expan></name> <num>xiii</num><reg>.</reg> ad <name><expan><abbr rend="supraline">co</abbr>l<ex>osenses</ex></expan></name> <num>i</num> et <num>xi</num></item>
+<lb/><item>De mutua correptione <expan>s<ex>an</ex><abbr rend="supraline">c</abbr><ex>t</ex>o</expan>rum 
+<lb rend="indent"/>ad <name><expan><abbr rend="supraline">co</abbr>l<ex>osenses</ex></expan></name> <num>xiii</num><reg>.</reg> ad <name><expan>t<abbr rend="supraline">hes</abbr><ex>alonicenses</ex></expan></name> <expan><abbr rend="supraline">p</abbr><ex>rima</ex></expan> <num>xii</num>. ad <name><expan>t<abbr rend="supraline">hes</abbr><ex>alonicenses</ex></expan></name> <num>ii</num>. <num>viii</num></item>
+<lb/><item>De fabulis et genealogiis et doc
+<lb break="no"/>toribus uanis ad <name>timotheum</name> <expan><abbr rend="supraline">p</abbr><ex>rima</ex></expan> 
+<lb rend="indent"/><expan><abbr rend="supraline">sec</abbr><ex>unda</ex></expan> et <num>xi</num> et <num>xxvi</num> et <num>xxx</num><reg>.</reg> 
+<lb rend="indent"/>ad <name><expan>tim<abbr rend="supraline">ot</abbr><ex>heum</ex></expan></name> <expan><abbr rend="supraline">sec</abbr><ex>unda</ex></expan> et <num>xvi</num> et <num>xviiii</num><reg>.</reg> 
+<lb rend="indent"/>ad <name><expan><abbr rend="supraline">tit</abbr><ex>um</ex></expan></name> <num>ii</num> et <num>vii</num></item>
+<lb/><item>De episcoporum formula 
+<lb rend="indent"/>et de diaconorum ad <name><expan>tim<abbr rend="supraline">ot</abbr><ex>heum</ex></expan></name> <expan><abbr rend="supraline">p</abbr><ex>rima</ex></expan> 
+<lb rend="indent"/><num>viii<del rend="erased">i</del></num><reg>.</reg> ad <name><expan><abbr rend="supraline">tit</abbr><ex>um</ex></expan></name> <num>ii</num>.</item>
+<lb/><item>De <name><expan>s<abbr rend="supraline">p</abbr><ex>irit</ex>u</expan> <expan>s<ex>an</ex><abbr rend="supraline">c</abbr><ex>t</ex>o</expan></name> perfidia<supplied reason="omitted" source="#Tischendorf1850">m</supplied> nouissimi 
+<lb rend="indent"/>temporis per apostolum 
+<lb rend="indent"/>praedicante ad <name><expan>tim<abbr rend="supraline">ot</abbr><ex>heum</ex></expan></name> <expan><abbr rend="supraline">p</abbr><ex>rima</ex></expan> <num>x</num><reg>.</reg> 
+<lb rend="indent"/>ad <name><expan>t<abbr rend="supraline">im</abbr><ex>otheum</ex></expan></name> <expan><abbr rend="supraline">sec</abbr><ex>unda</ex></expan> et <num>xiiii</num> et <num>xviiii</num>.</item>
+<lb/><item>De <del rend="expunct">e</del>imperio docentium ad <name><expan>t<abbr rend="supraline">im</abbr><ex>otheum</ex></expan></name> <expan><abbr rend="supraline">p</abbr><ex>rima</ex></expan> 
+<lb rend="indent"/><num>xiii</num><reg>.</reg> ad <name><expan><abbr rend="supraline">tit</abbr><ex>um</ex></expan></name> <num>v</num>. ad <name><expan>phi<abbr rend="supraline">lip</abbr><ex>penses</ex></expan></name> <num>iii</num></item>
+<lb/><item>De doctore<del rend="erased">m</del> ut se ipsum formul<expan><abbr rend="supraline">a</abbr><ex>m</ex></expan> 
+<lb rend="indent"/>discipulis bonis operibus 
+<lb rend="indent"/>in omnibus debeat exhibere 
+<lb rend="indent"/>ad <name><expan>t<abbr rend="supraline">hes</abbr><ex>alonicenses</ex></expan></name> <expan><abbr rend="supraline">sec</abbr><ex>unda</ex></expan> <num>vii</num><reg>.</reg> ad <name><expan>tim<abbr rend="supraline">ot</abbr><ex>heum</ex></expan></name> <expan><abbr rend="supraline">p</abbr><ex>rima</ex></expan> <num>xiii</num><reg>.</reg> 
+<lb rend="indent"/>ad <name><expan>tim<abbr rend="supraline">ot</abbr><ex>heum</ex></expan></name> <expan><abbr rend="supraline">sec</abbr><ex>unda</ex></expan> <num>viiii</num><reg>.</reg> ad <name><expan><abbr rend="supraline">tit</abbr><ex>um</ex></expan></name> <num>iii</num></item>
+<lb/><item>De eo quod possibile sit omnibus 
+<lb rend="indent"/>et necesse uniuersa mandata 
+<lb rend="indent"/>dominica plenissime custodire 
+<lb rend="indent"/>ad <name><expan>ro<abbr rend="supraline">man</abbr><ex>os</ex></expan></name> <num>vi</num><reg>.</reg> ad <name><expan>c<abbr rend="supraline">or</abbr><ex>inthios</ex></expan></name> <expan><abbr rend="supraline">p</abbr><ex>rima</ex></expan> <num>xxvii</num><reg>.</reg> 
+<lb rend="indent"/>ad <name><expan>g<abbr rend="supraline">al</abbr><ex>atias</ex></expan></name> <num>xxv</num><reg>.</reg> ad <name><expan><abbr rend="supraline">tit</abbr><ex>um</ex></expan></name> <num>ii</num>.</item>
+</list>
+<div type="textpart" subtype="finalRubric">
+<p rend="red rustic-caps">
+<lb/>Explicit capitulatio de omni<expan>b<am>’</am><ex>us</ex></expan> <expan>e<abbr rend="supraline">pis</abbr>t<ex>ulis</ex></expan>
+</p>
+</div>
+</div>
+<div type="textpart" subtype="argumentum">
+<head rend="red rustic-caps">
+<lb/><expan>In<abbr rend="supraline">cip</abbr><ex>it</ex></expan> argumentum
+</head>
+<p rend="rustic-caps">
+<lb/><hi rend="enlarged">R</hi>omani sunt in parti<expan>b<am>’</am><ex>us</ex></expan> <name>italiae</name><reg>.</reg> Hi praeuen
+<lb break="no"/>ti<del rend="expunct">i</del> sunt a falsis apostolis et sub nomine 
+<lb/><name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name> <expan><abbr rend="supraline">n</abbr><ex>ostr</ex><abbr rend="supraline">i</abbr></expan> <name><expan>i<am rend="supraline">h</am><ex>es</ex>u</expan> <expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>i</expan></name> in legem et prophetas erant 
+<lb/>inducti<reg>.</reg> Hos reuocat apostolus ad ueram 
+<lb/>euangelicam<add place="above"><expan>q<am>’</am><ex>ue</ex></expan></add> fidem<reg>.</reg> scribens eis a <name>corintho</name><reg>.</reg> 
+</p>
+<div type="textpart" subtype="finalRubric">
+<p rend="red rustic-caps">
+<lb/><expan>e<abbr rend="supraline">xp</abbr><ex>licit</ex></expan> praefatio
+</p>
+</div>
+</div>
+<div type="textpart" subtype="capitula">
+<list>
+<head rend="red rustic-caps">
+<lb/>incipiunt breues
+</head>
+<pb n="937v"/>
+<cb n="a"/>
+<lb/><item><label>i</label> <hi rend="red">De natiuitate <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name> secundum carnem</hi></item>
+<lb/><item><label>ii</label> De fide <name>romanorum</name> et <name>paulo</name> pro 
+<lb rend="indent"/>eis <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>m</expan></name> deprecante</item>
+<lb/><item><label>iii</label> De gentibus grecis ac barbaris 
+<lb rend="indent"/>et primatu <name>iudaeorum</name> atque <name>grecor<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan></name></item>
+<lb/><item><label>iiii</label> De ira <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> in eos qui sunt ueritatis 
+<lb rend="indent"/>contrarii et cognitum <name><expan>d<ex>eu</ex><abbr rend="supraline">m</abbr></expan></name> 
+<lb rend="indent"/>deserunt et deserui<add place="above">u</add>nt creaturae</item>
+<lb/><item><label>v</label> De impudicis uiris ac feminis</item>
+<lb/><item><label>vi</label> De his indicibus qui mala quae alios 
+<lb rend="indent"/>prohibuerint ipsi committunt 
+<lb rend="indent"/>et patientia <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> ad paenitentiam 
+<lb rend="indent"/>reuocante et p<add place="inRas">o</add>enis mal<surplus source="#Tischendorf1850">a</surplus>e 
+<lb rend="indent"/>operantium et gloria operanti<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> 
+<lb rend="indent"/>bonitat<expan><abbr rend="supraline">e</abbr><ex>m</ex></expan><reg>.</reg> et quod non prosit 
+<lb rend="indent"/>circumcisio transgredientibus 
+<lb rend="indent"/>legem<reg>.</reg> nec obsit praeputium 
+<lb rend="indent"/>gentibus naturaliter <name><expan>d<ex>eu</ex><abbr rend="supraline">m</abbr></expan></name> summum 
+<lb rend="indent"/>colentibus et custodienti<expan>b<am>’</am><ex>us</ex></expan> aequitatem</item>
+<lb/><item><label>vii</label> De <name>iudaeo</name> quid<add place="inline"> </add>ampl<add place="inline">i</add>us<!-- read quidam plus before corr.; WW do not catch this --> habeat 
+<lb rend="indent"/>et quid ceteris gentibus antecellat</item>
+<lb/><item><label>viii</label> De humana calumnia aduersus 
+<lb rend="indent"/>iudicium <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> et dicentibus 
+<lb rend="indent"/><said>faciamus mala ut ueniant bona</said></item>
+<lb/><item><label>viiii</label> De <name>iudaeis</name> et <name>grecis</name> omnibus 
+<lb rend="indent"/>peccato constrictis et de iustitia 
+<lb rend="indent"/><name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> per fidem <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan> <expan>i<am rend="supraline">h</am><ex>es</ex>u</expan> <expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>i</expan></name></item>
+<lb/><item><label>x</label> De iustificatione hominis 
+<lb rend="indent"/>per fid<expan><abbr rend="supraline">e</abbr><ex>m</ex></expan> sine operibus</item>
+<lb/><item><label>xi</label> De gloriatione spei gloriae <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> 
+<lb rend="indent"/>pariter gloriatione tribulation<subst><del rend="expunct">e</del><add place="above">is</add></subst></item>
+<lb/><item><label>xii</label> De passione <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name> pro impiis nobis 
+<lb rend="indent"/><supplied reason="omitted" source="#Tischendorf1850">et</supplied> praeuaricatione hominis 
+<lb rend="indent"/>peccatoris <name>adae</name></item>
+<lb/><item><label>xiii</label> De morte regnante ab <name>adam</name> 
+<lb rend="indent"/>usque ad <name>moysen</name> et in eos 
+<lb rend="indent"/>qui non peccauerunt in simili
+<lb break="no"/>tudine praeuaricalionis <name>adae</name></item>
+<lb/><item><label>xiiii</label> De differentia<del rend="expunct strikethrough">m</del> magnitudinis 
+<lb rend="indent"/>peccati <name>iudae</name> humanum genus 
+<lb rend="indent"/>secum pariter deponentis 
+<lb rend="indent"/>ad mortem <supplied reason="omitted" source="#Tischendorf1850">et</supplied> gratiae <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name> apud se 
+<lb rend="indent"/>credentes omnes in se re<add place="above">l</add>euantes 
+<lb rend="indent"/>ad uitam et gloriam sempiternam</item>
+<cb n="b"/>
+<lb/><item><label>xv</label> De baptizatis quod in morte <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name> 
+<lb rend="indent"/>sint baptizati uiuant autem 
+<lb rend="indent"/>non peccato cui iam mortui sunt 
+<lb rend="indent"/>sed iustitiae <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> cui renati sunt 
+<lb rend="indent"/>et resurrecti<add place="above">o</add>ne <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan> <del rend="expunct strikethrough"><expan>n<ex>ostr</ex><abbr rend="supraline">i</abbr></expan></del> <expan>i<am rend="supraline">h</am><ex>es</ex>u</expan> <expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>i</expan></name></item>
+<lb/><item><label>xvi</label> De fidelibus quod non si<add place="above">n</add>t sub lege 
+<lb rend="indent"/>sed sub gratia<del rend="expunct">e</del> et quod liberati 
+<lb rend="indent"/>a seruitute peccati sint serui 
+<lb rend="indent"/>iustitiae <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name></item>
+<lb/><item><label>xvii</label> De homine quamdiu uiuit uinculo 
+<lb rend="indent"/>legis adstricto et in passione <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name> 
+<lb rend="indent"/>pariter moriente ut lege sit liber</item>
+<lb/><item><label>xviii</label> De disputatione carnis <del rend="expunct">et carnalium</del>
+<lb rend="indent"/>et carnalium operum et <expan>s<abbr rend="supraline">p</abbr><ex>iritu</ex>s</expan> 
+<lb rend="indent"/>ac spiritalium <expan>s<ex>an</ex><abbr rend="supraline">c</abbr><ex>t</ex>i</expan>tate</item>
+<lb/><item><label>xviiii</label> De <expan>s<ex>an</ex><abbr rend="supraline">c</abbr><ex>t</ex>is</expan> quod non carnis sint debitores 
+<lb rend="indent"/>sed <expan>s<abbr rend="supraline">p</abbr><ex>iritu</ex>s</expan> et quod non <expan>s<abbr rend="supraline">p</abbr><ex>iritu</ex>m</expan> timoris 
+<lb rend="indent"/>acciperint sed adoptionis 
+<lb rend="indent"/>filiorum <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name></item>
+<lb/><item><label>xx</label> De differentia passionum 
+<lb rend="indent"/>et praesentiae et futurae<reg>.</reg> 
+<lb rend="indent"/>a seruitute corruptionis 
+<lb rend="indent"/>liberari cupientes<reg>.</reg> et de spe 
+<lb rend="indent"/>et de <expan>s<abbr rend="supraline">p</abbr><ex>irit</ex>u</expan> pro <expan>s<ex>an</ex><abbr rend="supraline">c</abbr><ex>t</ex>is</expan> gemitibus 
+<lb rend="indent"/>qui uerbis deprimi non possunt 
+<lb rend="indent"/>ambitiosius postulante</item>
+<lb/><item><label>xxi</label> De praedestinatis conf<subst><del rend="alt">i</del><add place="inline">o</add></subst>rmibus 
+<lb rend="indent"/>filii <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name>. </item>
+<lb/><item><label>xxii</label> De <name><expan>d<ex>e</ex><abbr rend="supraline">o</abbr></expan></name> quod pro nobis filio proprio 
+<lb rend="indent"/>non pepercit</item>
+<lb/><item><label>xxiii</label> De inpossibilitate separationis 
+<lb rend="indent"/>hominis <name><expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>i</expan>ani</name> <choice><sic>in</sic><corr source="#Tischendorf1850">a</corr></choice> dilectione 
+<lb rend="indent"/><name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan> <expan>n<ex>ostr</ex><abbr rend="supraline">i</abbr></expan> <expan>i<am rend="supraline">h</am><ex>es</ex>u</expan> <expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>i</expan></name></item>
+<lb/><item><label>xxiiii</label> De<del rend="erased">d</del> testificatione <name>pauli</name> doloris 
+<lb rend="indent"/>et de tristitia pro <name>iudaeis</name></item>
+<lb/><item><label>xxv</label> De duobus populis</item>
+<lb/><item><label>xxvi</label> De uoluntate <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> quod quem uult 
+<lb rend="indent"/>indurat et cui uult clementis
+<lb break="no"/>sime miseretur</item>
+<lb/><item><label>xxvii</label> De comparatione figmenti 
+<lb rend="indent"/>et figuli</item>
+<lb/><item><label>xxviii</label> De uasis irae ac misericordiae 
+<lb rend="indent"/>et gentium uocatione</item>
+<lb/><item><label>xxviiii</label> De <name>esaia</name> clamante pro populo <name><expan>i<abbr rend="supraline">sr</abbr><ex>ahe</ex>l</expan></name></item>
+<pb n="938r"/>
+<cb n="a"/>
+<lb/><item><label>xxx</label> De gentibus iustitiam fidei 
+<lb rend="indent"/>conprehendentibus et <name>iudaeis</name> 
+<lb rend="indent"/>offendentibus in lapidem 
+<lb rend="indent"/>offensionis</item>
+<lb/><item><label>xxxi</label> De <name>paulo</name> testimonium perhibente 
+<lb rend="indent"/>quod <name>iudaei</name> aemulationem <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> 
+<lb rend="indent"/>habeant ignorantes et quod 
+<lb rend="indent"/>finis sit <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>s</expan> <expan><am>x</am><am rend="supraline">p</am><ex>christu</ex>s</expan></name></item>
+<lb/><item><label>xxxii</label> De iustitia legis et iustitia fidei</item>
+<lb/><item><label>xxxiii</label> De incredulitate <name>iudaeorum</name> 
+<lb rend="indent"/>et gentium fide</item>
+<lb/><item><label>xxxiiii</label> De <name>iudaeis</name> quod non sint <choice><sic>prę</sic><corr source="#o">re</corr></choice>pulsi a <name><expan>d<ex>e</ex><abbr rend="supraline">o</abbr></expan></name></item>
+<lb/><item><label>xxxv</label> De duritia <name>iudęorum</name></item>
+<lb/><item><label>xxxvi</label> De <name>iudaeorum</name> delicto cum sit 
+<lb rend="indent"/>gentibus salus quanto magis 
+<lb rend="indent"/>erit plenitudo eorum</item>
+<lb/><item><label>xxxvii</label> De apostolo reuelante <name>iudaeos</name> 
+<lb rend="indent"/>conparatione oliuae arboris 
+<lb rend="indent"/>et gentes ab elatione animi 
+<lb rend="indent"/>reprimente</item>
+<lb/><item><label>xxxviii</label> De salute omnium <name>iudaeorum</name></item>
+<lb/><item><label>xxxviiii</label> De inpossibilitate sciendi 
+<lb rend="indent"/>secretorum scientiam <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name></item>
+<lb/><item><label>xl</label> De apostolo obse<add place="above">c</add>r<del rend="expunct">u</del>ante <expan>s<ex>an</ex><abbr rend="supraline">c</abbr><ex>t</ex>os</expan> 
+<lb rend="indent"/>ut corpora sua exhibeant hostiam <name><expan>d<ex>e</ex><abbr rend="supraline">o</abbr></expan></name></item>
+<lb/><item><label>xli</label> De falsa et uera sapientia</item>
+<lb/><item><label>xlii</label> De ecclesia et conparatione cordis 
+<lb rend="indent"/>adque membrorum<reg>.</reg> quae in hoc 
+<lb rend="indent"/>capite sunt<reg>.</reg> de diuersitate donor<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> 
+<lb rend="indent"/>et dilectione<reg>.</reg> de odio mali et con
+<lb break="no"/>luctatione boni<reg>.</reg> de caritate<reg>.</reg> 
+<lb rend="indent"/>de obsequio<reg>.</reg> de sollicitudine<reg>.</reg> 
+<lb rend="indent"/>de feruore <expan>s<abbr rend="supraline">p</abbr><ex>iritu</ex>s</expan><reg>.</reg> de tempore 
+<lb rend="indent"/>seruiendo<reg>.</reg> de spei gaudio<reg>.</reg> 
+<lb rend="indent"/>de patientia tribulationis<reg>.</reg> 
+<lb rend="indent"/>de instantia orationis<reg>.</reg> de com
+<lb break="no"/>municatione <expan>s<ex>an</ex><abbr rend="supraline">c</abbr><ex>t</ex>o</expan>rum memoriis<reg>.</reg> 
+<lb rend="indent"/>de hospitalitate<reg>.</reg> de benedicendo 
+<lb rend="indent"/>et abstinentia maledicendi 
+<lb rend="indent"/>gaudio cum gaudentibus fletu 
+<lb rend="indent"/>cum flentibus<reg>.</reg> de unitate<reg>.</reg> 
+<lb rend="indent"/>de humilitate<reg>.</reg> de non reddenda 
+<lb rend="indent"/>iniuria<reg>.</reg> de prouisione bonorum 
+<lb rend="indent"/>coram <name><expan>d<ex>e</ex><abbr rend="supraline">o</abbr></expan></name> et hominibus<reg>.</reg> 
+<cb n="b"/>
+<lb rend="indent"/>de pace si fieri potest cum omni<expan>b<am>’</am><ex>us</ex></expan> 
+<lb rend="indent"/>hominibus<reg>.</reg> de uindicta a <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>o</expan></name> 
+<lb rend="indent"/>spectanda</item>
+<lb/><item><label>xliii</label> De subiectione erga principes 
+<lb rend="indent"/>et potestates</item>
+<lb/><item><label>xliiii</label> De redditione unicuique 
+<lb rend="indent"/>omnium debitorum</item>
+<lb/><item><label>xlv</label> De uigilantia et exercitio fidei 
+<lb rend="indent"/>et sobrietate et continentia</item>
+<lb/><item><label>xlvi</label> De neglegentia et traditione 
+<lb rend="indent"/>carnis et de manducantibus 
+<lb rend="indent"/>ac non manducantibus 
+<lb rend="indent"/>et indicantibus alternos 
+<lb rend="indent"/>uel uniuersos dies</item>
+<lb/><item><label>xlvii</label> De omnibus quod non sibi sed <name><expan>d<ex>e</ex><abbr rend="supraline">o</abbr></expan></name> 
+<lb rend="indent"/>aut moriantur aut uiuant</item>
+<lb/><item><label>xlviii</label> De passione <expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan> et potestate<surplus source="#Tischendorf1850">m</surplus> 
+<lb rend="indent"/>et quod nec edens non edentem 
+<lb rend="indent"/>et nec non manducans mandu
+<lb break="no"/>cantem debeat indicare</item>
+<lb/><item><label>xlviiii</label> De eo quod nihil commune est 
+<lb rend="indent"/>nisi ei qui existimat esse commune</item>
+<lb/><item><label>l</label> De periculo contristante 
+<lb rend="indent"/>fratrem suum <choice><sic>ex casu</sic><corr source="#Tischendorf1850 #o">esca sua</corr></choice> et quod 
+<lb rend="indent"/>non sit regnum <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> esca et potus 
+<lb rend="indent"/>sed iustitia et pax <subst><del rend="alt">et <name><expan>s<abbr rend="supraline">p</abbr><ex>irit</ex>u</expan> <expan>s<ex>an</ex><abbr rend="supraline">c</abbr><ex>t</ex>o</expan></name>
+<lb rend="indent"/>et gaudium</del><add place="inline">et gaudium <choice><sic>et</sic><corr source="#Tischendorf1850">in</corr></choice> <name><expan>s<abbr rend="supraline">p</abbr><ex>irit</ex>u</expan> <expan>s<ex>an</ex><abbr rend="supraline">c</abbr><ex>t</ex>o</expan></name></add></subst><!-- transpose --></item>
+<lb/><item><label>li<del rend="erased">i</del></label> De mysterio <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name> ante passion<expan><abbr rend="supraline">e</abbr><ex>m</ex></expan> 
+<lb rend="indent"/><supplied reason="omitted" source="#Tischendorf1850 #o">in silentio habito post passionem</supplied> uero ipsius reuelato</item>
+</list>
+<p rend="red rustic-caps">
+<lb/>expliciunt breues
+</p>
+</div>
+</body>
+</text>
+</TEI>

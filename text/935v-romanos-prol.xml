@@ -1,0 +1,273 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng"
+type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng"
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Argumentum to Romans</title>
+<author>Pelagius</author>
+</titleStmt>
+<publicationStmt>
+<authority>Digital Latin Library</authority>
+<availability>
+<licence target="https://creativecommons.org/licences/by-sa/4.0/">Provided under a Creative Commons Attribution-ShareAlike 4.0 International Licence.</licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<settlement>Florence</settlement>
+<repository>Biblioteca Medicea Laurenziana</repository>
+<collection>Amiatino</collection>
+<idno>1</idno>
+<msName>Codex Amiatinus</msName>
+</msIdentifier>
+</msDesc>
+<listBibl>
+<biblStruct type="book" xml:id="c" corresp="http://zotero.org/users/254032/items/GB722JVM">
+<monogr>
+<title level="m">Biblia sacra Vulgatae editionis, ex ipsis exemplari<expan>b<am>’</am><ex>us</ex></expan> Vaticanis inter se at<expan>q<am>’</am><ex>ue</ex></expan> cum indice errorum corrigendorum collatis</title>
+<editor>
+<forename>Michael</forename>
+<surname>Hetzenauer</surname>
+</editor>
+<imprint>
+<pubPlace>Innsbruck</pubPlace>
+<publisher>Wagner</publisher>
+<date>1906</date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct type="book" xml:id="Tischendorf1850" corresp="http://zotero.org/users/254032/items/CCTVHEQ4">
+<monogr>
+<title level="m">Novum Testamentum Latine interprete Hieronymo. Ex celeberrimo Codice Amiatino</title>
+<title type="short">Novum Testamentum Amiatinum</title>
+<author>
+<forename>Constantinus von</forename>
+<surname>Tischendorf</surname>
+</author>
+<imprint>
+<pubPlace>Leipzig</pubPlace>
+<publisher>Avenarius et Mendelssohn</publisher>
+<date>1850</date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct type="book" xml:id="s" corresp="http://zotero.org/users/254032/items/W6D8WMM3">
+<monogr>
+<title level="m">Biblia Sacra iuxta vulgatam versionem</title>
+<editor>
+<forename>Robert</forename>
+<surname>Weber</surname>
+</editor>
+<editor>
+<forename>Bonifatius</forename>
+<surname>Fischer</surname>
+</editor>
+<editor>
+<forename>Jean</forename>
+<surname>Gribomont</surname>
+</editor>
+<editor>
+<forename>Hedley F.D.</forename>
+<surname>Sparks</surname>
+</editor>
+<editor>
+<forename>Walter</forename>
+<surname>Thiele</surname>
+</editor>
+<editor>
+<forename>Roger</forename>
+<surname>Gryson</surname>
+</editor>
+<edition>5</edition>
+<imprint>
+<pubPlace>Stuttgart</pubPlace>
+<publisher>Deutsche Bibelgesellschaft</publisher>
+<date>2007</date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct type="book" xml:id="o" corresp="http://zotero.org/users/254032/items/WCM7IWE8">
+<monogr>
+<title level="m">Nouum Testamentum Domini nostri Iesu Christi Latine, secundum editionem sancti Hieronymi</title>
+<editor>
+<forename>John</forename>
+<surname>Wordsworth</surname>
+</editor>
+<editor>
+<forename>Henry Julian</forename>
+<surname>White</surname>
+</editor>
+<editor>
+<forename>Alexander</forename>
+<surname>Ramsbotham</surname>
+</editor>
+<editor>
+<forename>Hedley F.D.</forename>
+<surname>Sparks</surname>
+</editor>
+<editor>
+<forename>Claude</forename>
+<surname>Jenkins</surname>
+</editor>
+<editor>
+<forename>Arthur White</forename>
+<surname>Adams</surname>
+</editor>
+<imprint>
+<pubPlace>Oxford</pubPlace>
+<publisher>Clarendon Press</publisher>
+<date>1889–1954</date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct type="book" xml:id="Souter" corresp="http://zotero.org/users/254032/items/FVXZNHTL">
+<monogr>
+<title level="m">Pelagius's Expositions of thirteen epistles of St. Paul</title>
+<editor>
+<forename>Alexander</forename>
+<surname>Souter</surname>
+</editor>
+<imprint>
+<pubPlace>Cambridge</pubPlace>
+<publisher>University Press</publisher>
+<date>1922–1931</date>
+</imprint>
+</monogr>
+</biblStruct>
+</listBibl>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text xml:lang="la">
+<body>
+<!-- compare with Souter edn of the text: https://books.google.ca/books?id=dDNLAwAAQBAJ&pg=PT21 -->
+<div type="textpart" subtype="argumentum">
+<head rend="red rustic-caps">
+<lb/>incipit <expan>arg<abbr rend="supraline">u</abbr><ex>mentu</ex>m</expan> solius epistulae
+<lb/>ad <name>romanos</name></head>
+<p>
+<lb/><hi rend="red"><hi rend="enlarged">R</hi>omani</hi> qui ex <name>iudaeis</name> <quote>genti<add place="above">li</add>busque crediderant 
+<lb/>hi superba contentione 
+<lb/>uolebant se alterutrum superponere</quote><reg>.</reg> 
+<lb/>nam <name>iudaei</name> dicebant<reg>.</reg> <said>nos sumus popu
+<lb break="no"/>lus <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> quos ab initio dilexit et fouit,
+<lb/>nos circumcisi ex genere <name>abraham</name> 
+<lb/>ex stirpe <expan>s<ex>an</ex><abbr rend="supraline">c</abbr><ex>t</ex>a</expan> descendimus</said><reg>.</reg> Et <said>notus</said> 
+<lb/>retro <said>apud <name>iudaeam</name></said> tantum <said><said><add place="above"><name><expan>d<ex>eu</ex><abbr rend="supraline">s</abbr></expan></name></add></said><reg>.</reg> 
+<lb/>nos de <name>aegypto</name> signis et uirtutibus liberati 
+<lb/>mare sicco pertransiuimus pede 
+<lb/>cum inimicos nostros grauissimi 
+<lb/>fluctus inuoluerent<reg>.</reg> nobis manna<supplied reason="omitted" source="#Souter">m</supplied> 
+<lb/>pluit <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>s</expan></name> in deserto<reg>.</reg> Et quasi filiis 
+<lb/>suis caeleste pabulum ministrauit. 
+<lb/>Nos die noctuque in columna nubis 
+<lb/>ignisque praecessit ut nobis in inuio 
+<lb/>iter ostenderet. At<expan>q<am>’</am><ex>ue</ex></expan> ut cetera eius 
+<lb/>circa nos inmensa beneficia 
+<lb/>taceamus nos soli digni fuimus 
+<lb/><name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> legem accipere<reg>.</reg> et uocem <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> loquen
+<lb break="no"/>tis audire eiusque cognoscere 
+<lb/>uoluntatem<reg>.</reg> in qua lege repromis
+<lb break="no"/>sus est nobis <name><expan><am>x</am><am rend="supraline">p</am><ex>christu</ex>s</expan></name>. ad quos etiam 
+<lb/>ipse <add place="above">se</add> uenisse testatus est dicens 
+<lb/><quote>non ueni nisi ad oues quae perierant 
+<lb/>domus <name>israhel</name></quote>. cum uos canes 
+<lb/>potius quam homines appellauerit. 
+<lb/>Aequumne ergo est ut hodie idola 
+<lb/>deserentes<reg>.</reg> quibus ab initio deser
+<lb break="no"/>uistis<reg>.</reg> nobis comparemini. Et non 
+<lb/>potius in proselytorum locum 
+<lb/>ex legis auctoritate et consue
+<lb break="no"/>tudine deputemini<choice><orig>.</orig><reg>?</reg></choice> <add place="left">Et hoc ips<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> non merebamini</add> nisi quia 
+<lb/>larga <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> semper clementia uoluit 
+<lb/>uos ad nostram imitationem admittere.</said>
+</p>
+<pb n="936r"/>
+<cb n="a"/>
+<p>
+<lb/><hi rend="enlarged">G</hi>entes autem e contrario respon
+<lb break="no"/>debant <said>quanto <del rend="expunct">enim</del> maiora erga 
+<lb/>uos <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> beneficia narraueritis 
+<lb/>tanto ma<supplied reason="omitted" source="#Tischendorf1850">i</supplied>oris uos criminis reos 
+<lb/>esse monstrabitis. semper enim 
+<lb/>his omnibus extitistis ingrati. 
+<lb/>Nam ipsis pedibus qui<add place="above"><expan>b<am>’</am><ex>us</ex></expan></add> aridum mare 
+<lb/>trans<del rend="erased">s</del>istis <name>ludebatis</name> ante idola 
+<lb/>quae fecistis. et ipso ore quo paulo 
+<lb/>ante ob necem aduersarii <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>o</expan></name> 
+<lb/>cantaueratis simulacra uobis fieri 
+<lb/>poposcistis. illis oculis <subst><del rend="alt">ueneranda 
+<lb/>quibus</del><add place="inline">quibus ueneranda</add></subst> <name><expan>d<ex>eu</ex><abbr rend="supraline">m</abbr></expan></name> in nube uel igne conspi
+<lb break="no"/>cere solebatis <supplied reason="omitted" source="#Souter">simulacra intuebamini</supplied>. Manna quoque 
+<lb/>uobis fastidi<subst><del rend="erased">um</del><add place="overstrike">o</add></subst> fuit. et semper 
+<lb/>in deserto contra <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>m</expan></name> murmu
+<lb break="no"/>rastis. ad <name>aegyptum</name> unde uos 
+<lb/>manu ualida eiecerat redire uolentes. 
+<lb/>Quid plura<reg>?</reg> ita p<del rend="erased">r</del>atres uestri<del rend="erased">s</del> crebra 
+<lb/>pro<add place="above">uo</add>catione <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>m</expan></name> inritauerunt. 
+<lb/>ut omnes in heremo morerentur. 
+<lb/>nec plus ex senioribus eorum quam 
+<lb/>duo homines terram repromissio
+<lb break="no"/>nis intrarent. Sed quid antiqua repli
+<lb break="no"/>camus<reg>.</reg> cum etiamsi illa<del rend="erased">m</del> minime 
+<lb/>fecissetis. de hoc solo uos nemo dig
+<lb break="no"/>nos uenia indicaret. quod <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>m</expan> <expan><am>x</am><am rend="supraline">p</am><ex>christu</ex>m</expan></name> 
+<lb/>prophetarum semper uobis 
+<lb/>uocibus repromissum<reg>.</reg> Non solum 
+<lb/>suscipere noluistis sed etiam 
+<lb/>morte pessima peremistis<reg>.</reg> quem 
+<lb/>nos ut cognouimus statim credidi
+<lb break="no"/>mus cum nobis de eo ante non fu
+<lb break="no"/>erit praedicatum<reg>.</reg> Vnde probatur 
+<lb/>quod idolis seruiuimus non obsti
+<lb break="no"/>natione mentis sed ignorantiae 
+<lb/>deputandum<reg>.</reg> qui enim agnitum 
+<lb/>ilic<subst><del rend="erased">um</del><add place="overstrike">o</add></subst> sequimur olim utique 
+<lb/>sequeremur si ante cognouissemus<reg>.</reg> 
+<lb/>Si<add place="above">c</add> autem uos de generis nobilitate 
+<lb/>iactatis quasi non morum imitatio 
+<lb/>magis quam carnalis natiuitas 
+<lb/>filios nos faciat esse <expan>s<ex>an</ex><abbr rend="supraline">c</abbr><ex>t</ex>o</expan>rum<reg>.</reg> 
+<lb/>Denique <name>esau</name> et <name>ismahel</name> cum de stirpe 
+<cb n="b"/>
+<lb/>sint <name>abrahae</name><reg>.</reg> minime tamen 
+<lb/>in filiis reputantur<reg>.</reg></said>
+</p>
+<p>
+<lb/><hi rend="enlarged">H</hi>is ergo taliter altercantibus 
+<lb/>apostolus se medium interpo
+<lb break="no"/>nens ita partium dirimit quaesti
+<lb break="no"/>ones ut neutrum eorum sua 
+<lb/>iustitia salutem meruisse con
+<lb break="no"/>firmet<reg>.</reg> Ambos uero populos 
+<lb/>et scienter et grauiter delequisse<reg>.</reg>
+<lb/><name>Iudaeos</name> quidem quod per pręuari
+<lb break="no"/>cationem legis <name><expan>d<ex>eu</ex><abbr rend="supraline">m</abbr></expan></name> inhonoraue
+<lb break="no"/>rint<reg>.</reg> Gentes uero quod cum 
+<lb/>cognitum de creatura creator<expan><abbr rend="supraline">e</abbr><ex>m</ex></expan> 
+<lb/><add place="inline">ut</add> <name><expan>d<ex>eu</ex><abbr rend="supraline">m</abbr></expan></name> debueri<add place="above">n</add>t uenerari<reg>.</reg> glori<expan><abbr rend="supraline">a</abbr><ex>m</ex></expan> eius 
+<lb/>in manu facta mutauerint simu
+<lb break="no"/>lacra. Vtrosque etiam similiter 
+<lb/>ueniam consecutos aequales esse 
+<lb/>uer<supplied reason="omitted" source="#Souter">ac</supplied>issima ratione demonstrat. 
+<lb/>praesertim cum in eadem lege 
+<lb/>praedicatum sit et <name>iudaeos</name> 
+<lb/>et gentes ad <name><expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>i</expan></name> fidem uocandos
+<lb/><del rend="expunct strikethrough">ostendat</del> quam ob rem uicissim 
+<lb/>eos humilians ad pacem ad con
+<lb break="no"/>cordiam cohortatur<reg>.</reg>
+</p>
+<div type="textpart" subtype="finalRubric">
+<p rend="red rustic-caps">
+<lb/><expan>e<abbr rend="supraline">xp</abbr><ex>licit</ex></expan> argumentum
+</p>
+</div>
+</div>
+</body>
+</text>
+</TEI>

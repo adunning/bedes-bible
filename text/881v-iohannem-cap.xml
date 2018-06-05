@@ -1,0 +1,361 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng"
+type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng"
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:space="preserve">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title xml:lang="la">Capitula to Luke</title>
+</titleStmt>
+<publicationStmt>
+<authority>Digital Latin Library</authority>
+<availability>
+<licence target="https://creativecommons.org/licences/by-sa/4.0/">Provided under a Creative Commons Attribution-ShareAlike 4.0 International Licence.</licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<settlement>Florence</settlement>
+<repository>Biblioteca Medicea Laurenziana</repository>
+<collection>Amiatino</collection>
+<idno>1</idno>
+<msName>Codex Amiatinus</msName>
+</msIdentifier>
+</msDesc>
+<listBibl>
+<biblStruct type="book" xml:id="Tischendorf1850" corresp="http://zotero.org/users/254032/items/CCTVHEQ4">
+<monogr>
+<title level="m">Novum Testamentum Latine interprete Hieronymo. Ex celeberrimo Codice Amiatino</title>
+<title type="short">Novum Testamentum Amiatinum</title>
+<author>
+<forename>Constantinus von</forename>
+<surname>Tischendorf</surname>
+</author>
+<imprint>
+<pubPlace>Leipzig</pubPlace>
+<publisher>Avenarius et Mendelssohn</publisher>
+<date>1850</date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct type="book" xml:id="Wordsworth1889" corresp="http://zotero.org/users/254032/items/WCM7IWE8">
+<monogr>
+<title level="m">Nouum Testamentum Domini nostri Iesu Christi Latine secundum editionem sancti Hieronymi</title>
+<editor>
+<forename>John</forename>
+<surname>Wordsworth</surname>
+</editor>
+<editor>
+<forename>Henry Julian</forename>
+<surname>White</surname>
+</editor>
+<editor>
+<forename>Alexander</forename>
+<surname>Ramsbotham</surname>
+</editor>
+<editor>
+<forename>Hedley F.D.</forename>
+<surname>Sparks</surname>
+</editor>
+<editor>
+<forename>Claude</forename>
+<surname>Jenkins</surname>
+</editor>
+<editor>
+<forename>Arthur White</forename>
+<surname>Adams</surname>
+</editor>
+<imprint>
+<pubPlace>Oxford</pubPlace>
+<publisher>Clarendon Press</publisher>
+<date>1889–1954</date>
+</imprint>
+</monogr>
+</biblStruct>
+</listBibl>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text xml:lang="la">
+<body>
+<div type="textpart" subtype="capitula">
+<cb n="b"/>
+<list>
+<lb/><item><label>i</label> <hi rend="red">In principio uerbum <name><expan>d<ex>eu</ex><abbr rend="supraline">s</abbr></expan></name> apud <name><expan>d<ex>eu</ex><abbr rend="supraline">m</abbr></expan></name></hi> 
+<lb rend="indent"/>per quem facta sunt omnia et <name>io
+<lb break="no"/>hannes</name> missus refertur ante e<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan><reg>.</reg> 
+<lb rend="indent"/>Qui recipientes se facit filios <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> 
+<lb rend="indent"/>per gratiam suam</item>
+<lb/><item><label>ii</label> Interroganti<expan>b<am>’</am><ex>us</ex></expan> <name>iudaeis</name> <name>iohannes</name> 
+<lb rend="indent"/>negat se esse <name><expan><am>x</am><am rend="supraline">p</am><ex>christu</ex>m</expan></name> sed missum se 
+<lb rend="indent"/>ante illum uocem<expan>q<am>’</am><ex>ue</ex></expan> esse claman
+<lb break="no"/>tis in deserto secundum <name>esaiam</name> 
+<lb rend="indent"/>enuntiat. ipsum uero fatetur 
+<lb rend="indent"/>agnum tollentem peccata mundi 
+<lb rend="indent"/>et baptizantem in <name><expan>s<abbr rend="supraline">p</abbr><ex>irit</ex>u</expan> <expan>s<ex>an</ex><abbr rend="supraline">c</abbr><ex>t</ex>o</expan></name> eo quod 
+<lb rend="indent"/>ipse sit supra omnes</item>
+<lb/><item><label>iii</label> <hi rend="red">Ex</hi> duo<expan>b<am>’</am><ex>us</ex></expan> <name>iohannis</name> discipulis qui se
+<lb break="no"/>cuti fuerant <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>m</expan></name> unus <name>andreas</name> 
+<lb rend="indent"/>adduxit fratrem suum qui <name>petrus</name> 
+<lb rend="indent"/>ab ipso nuncupatus<reg>.</reg> <name>philippus</name> 
+<lb rend="indent"/>quo<expan>q<am>’</am><ex>ue</ex></expan> uocatus <name>nathanaheli</name> indicat 
+<lb rend="indent"/>qui mox inter cetera eum <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> fi
+<lb break="no"/>lium confitetur</item>
+<lb/><item><label>iiii</label> <hi rend="red">In</hi> nuptiis aquam conuertit in uin<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan><reg>.</reg> 
+<lb rend="indent"/>quo facto cognoscitur quod ubi 
+<lb rend="indent"/>ipse fuerit inuitatus uinum 
+<lb rend="indent"/>necesse sit deficere nuptiarum</item>
+<lb/><item><label>v</label> <hi rend="red">P</hi>ropinquante pascha <name>iudaeorum</name> 
+<lb rend="indent"/>eicit uendentes e templo et in
+<lb break="no"/>terroganti<expan>b<am>’</am><ex>us</ex></expan> quod signum 
+<lb rend="indent"/>daret soluendi templum et in 
+<lb rend="indent"/>triduo excitandi mysterium ponit</item>
+<lb/><item><label>vi</label> <hi rend="red">Ni</hi>codemo inter multa dicit nisi 
+<lb rend="indent"/>renatus in regnum <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> intrare 
+<lb rend="indent"/>non posse<reg>.</reg> Vel quod non iudicare 
+<lb rend="indent"/>sed saluare uenerit mundum 
+<lb rend="indent"/>et manifestari dicit opera quae 
+<lb rend="indent"/>in <name><expan>d<ex>e</ex><abbr rend="supraline">o</abbr></expan></name> sunt facta</item>
+<lb/><item><label>vii</label> <hi rend="red">Io</hi>hanni in <name>aenon</name> baptizanti dicitur 
+<lb rend="indent"/><name><expan>i<am rend="supraline">h</am><ex>esu</ex>m</expan></name> baptizare<reg>.</reg> quem ille spon
+<lb break="no"/>sum esse et oportere crescere 
+<lb rend="indent"/>se autem minui. illum<expan>q<am>’</am><ex>ue</ex></expan> de sur
+<lb break="no"/>sum et supra omnes esse cred<expan><abbr rend="supraline">e</abbr><ex>n</ex></expan>
+<lb break="no"/>tem<expan>q<am>’</am><ex>ue</ex></expan> in eum habere uitam aeter
+<lb break="no"/>nam super incredulum uero 
+<lb rend="indent"/>iram manere confirmat</item>
+<lb/><item><label>viii</label> <hi rend="red">A</hi>pud puteum <name>iacob</name> mulieri <name>samari
+<pb n="882r" break="no"/>
+<cb n="a" break="no"/>
+<lb break="no"/>tanae</name> manifestatus plurima 
+<lb rend="indent"/>mystice loquitur et multi <name>sama
+<lb break="no"/>ritanorum</name> credunt in eum dic<expan><abbr rend="supraline">e</abbr><ex>n</ex></expan>
+<lb break="no"/>tes<reg>.</reg> <said>hic est uere saluator mundi</said></item>
+<lb/><item><label>viiii</label> <hi rend="red">Re</hi>guli cuiusdam filius egrotans ab
+<lb break="no"/>sentis <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name> uoce sanatur dicentis 
+<lb rend="indent"/>patri eius<reg>.</reg> <said>uade filius tuus uiuit</said><reg>.</reg> 
+<lb rend="indent"/>credidit ipse et domus eius tota</item>
+<lb/><item><label>x</label> <hi rend="red">Ho</hi>minem <num>xxxviii</num> annos in infirmi
+<lb break="no"/>tate sua dicendo<reg>.</reg> <said>surge tolle grabat
+<lb break="no"/>tum tuum et ambula</said><reg>.</reg> in sabbato 
+<lb rend="indent"/>curat aequalem se quod erat fa
+<lb break="no"/>ciens <name><expan>d<ex>e</ex><abbr rend="supraline">o</abbr></expan></name></item> 
+<lb/><item><label>xi</label> <hi rend="red">Q</hi>uod filius sicut pater suscitans 
+<lb rend="indent"/>mortuos sit aequaliter honoran
+<lb break="no"/>dus in quo credentes transeant 
+<lb rend="indent"/>de morte ad uitam<reg>.</reg> uenturam 
+<lb rend="indent"/>quo<expan>q<am>’</am><ex>ue</ex></expan> pronuntiat horam qua de 
+<lb rend="indent"/>monumentis boni mali<expan>q<am>’</am><ex>ue</ex></expan> resurgant</item>
+<lb/><item><label>xii</label> <hi rend="red">P</hi>ro testimonio suo <name>iohannem</name> lu
+<lb break="no"/>cernam appellat<reg>.</reg> patrem quo<expan>q<am>’</am><ex>ue</ex></expan> 
+<lb rend="indent"/>et scripturas de se testimoni<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> 
+<lb rend="indent"/>perhibere <name>iudaeos</name> alium recep
+<lb break="no"/>turos de se autem <name>mosen</name> scrip
+<lb break="no"/>sisse testatur</item>
+<lb/><item><label>xiii</label> <hi rend="red">P</hi>ropinquante pascha <name>iudaeorum</name> 
+<lb rend="indent"/>de quin<expan>q<am>’</am><ex>ue</ex></expan> pani<expan>b<am>’</am><ex>us</ex></expan> et duobus pisci<expan>b<am>’</am><ex>us</ex></expan> 
+<lb rend="indent"/>quin<expan>q<am>’</am><ex>ue</ex></expan> milia hominum saturauit<reg>.</reg> 
+<lb rend="indent"/>pro quo signo cum regem eum 
+<lb rend="indent"/>uellent facere fugit<reg>.</reg> et ambu
+<lb break="no"/>lans supra mare pauenti<expan>b<am>’</am><ex>us</ex></expan> disci
+<lb break="no"/>pulis ait<reg>.</reg> <said>ego sum nolite timere</said></item>
+<lb/><item><label>xiiii</label> <hi rend="red">A</hi> turbis quaesitus et inuentus ait<reg>.</reg> 
+<lb rend="indent"/><said>operamini cibum qui non perit</said> 
+<lb rend="indent"/>et panem de caelis uerum dicit 
+<lb rend="indent"/>dare uitam mundo</item>
+<lb/><item xml:id="I15"><label>xv</label> <hi rend="red">P</hi>anem uitae se dicit et credentes 
+<lb rend="indent"/>in se resuscitaturum in nouissi
+<lb break="no"/>mo die</item><note rend="red rustic-caps" target="#I15">Legenda pro defunctis</note>
+<lb/><item><label>xvi</label> <hi rend="red">M</hi>urmurantes <name>ioseph</name> eum filium 
+<lb rend="indent"/>dicunt<reg>.</reg> at ipse inter multa carn<expan><abbr rend="supraline">e</abbr><ex>m</ex></expan> 
+<lb rend="indent"/>suam panem se daturum ait pro 
+<lb rend="indent"/>mundi uita et cetera similia 
+<lb rend="indent"/>plurima de pane et carne sua testatur</item>
+<cb n="b"/>
+<lb/><item xml:id="I17"><label>xvii</label> <hi rend="red">V</hi>erba sua <expan>s<abbr rend="supraline">p</abbr><ex>iritu</ex>m</expan> uitam<expan>q<am>’</am><ex>ue</ex></expan> pronun
+<lb break="no"/>tiat et unum ex duodecim diabo
+<lb break="no"/>lum appellat</item><note rend="red rustic-caps" target="#I17">Legenda circa pascha</note>
+<lb/><item><label>xviii</label> <name><hi rend="red">Iu</hi>daeis</name> interficere eum quaeren
+<lb break="no"/>ti<expan>b<am>’</am><ex>us</ex></expan> ascendit occulte ad diem 
+<lb rend="indent"/>festum scaenopegiae ubi diuersa 
+<lb rend="indent"/>de eo et ab eo dicuntur et quaer<expan><abbr rend="supraline">e</abbr><ex>n</ex></expan>
+<lb break="no"/>tes eum adprehendere nequeunt 
+<lb rend="indent"/>quia nondum uenerat hora eius</item>
+<lb/><item xml:id="I20"><label>xix</label> <hi rend="red">M</hi>ultis de turba credentibus pluri
+<lb break="no"/>ma loquitur inter quae ait<reg>.</reg> <said>qui 
+<lb rend="indent"/>sitit ueniat ad me et bibat</said><reg>.</reg> <name>nico
+<lb break="no"/>demo</name> quo<expan>q<am>’</am><ex>ue</ex></expan> pro ipso de audien
+<lb break="no"/>tia dicenti resistitur a <name>pharisęis</name></item>
+<note rend="red rustic-caps" target="#I20"><lb rend="indent"/>Legenda in quadragesima</note>
+<lb/><item><label>xx</label> <hi rend="red">M</hi>ulierem in adulterio reprehen
+<lb break="no"/>sam at<expan>q<am>’</am><ex>ue</ex></expan> ad se adductam nec ab 
+<lb rend="indent"/>accusatori<expan>b<am>’</am><ex>us</ex></expan> condemnatam 
+<lb rend="indent"/>ipse sub condicione qua ulterius 
+<lb rend="indent"/>non peccaret absoluit</item>
+<lb/><item><label>xxi</label> <hi rend="red">L</hi>ucem mundi se dicens <name>pharisaeos</name> 
+<lb rend="indent"/>de proprio testimonio resul
+<lb break="no"/>tantes arguit iudicium suum 
+<lb rend="indent"/>uerum esse confirmans</item>
+<lb/><item><label>xxii</label> <hi rend="red">D</hi>icit <name>iudaeis</name> <said>et uos in peccato uestro 
+<lb rend="indent"/>moriemini</said><reg>.</reg> a quibus interroga
+<lb break="no"/>tus <said>quis esset</said><surplus><hi rend="red">,</hi><!-- ? --></surplus> principium se esse 
+<lb rend="indent"/>respondit addens <said>cum exalta
+<lb break="no"/>ueritis filium hominis tunc 
+<lb rend="indent"/>cognoscetis quia ego sum</said></item>
+<lb/><item><label>xxiii</label> <name><hi rend="red">Iu</hi>daeis</name> credenti<expan>b<am>’</am><ex>us</ex></expan> ait <said>si manseri
+<lb break="no"/>tis in sermone meo ueritas li
+<lb break="no"/>berabit uos</said><reg>.</reg> qui<expan>b<am>’</am><ex>us</ex></expan> respondenti<expan>b<am>’</am><ex>us</ex></expan> 
+<lb rend="indent"/>se esse liberos dicit <said>qui facit 
+<lb rend="indent"/>peccatum seruus est peccati</said> 
+<lb rend="indent"/>et inter alia multa diabolum 
+<lb rend="indent"/>homicidam et mendacii patr<expan><abbr rend="supraline">e</abbr><ex>m</ex></expan> 
+<lb rend="indent"/>adsignat</item>
+<lb/><item><label>xxiiii</label> <hi rend="red">Q</hi>ui sermonem inquit meum 
+<lb rend="indent"/>seruauerit mortem non uide
+<lb break="no"/>bit in aeternum<reg>.</reg> et inter cete
+<lb break="no"/>ra plurima ante <name>abraham</name> se 
+<lb rend="indent"/>esse dicens exiuit de templo</item>
+<lb/><item><label>xxv</label> <hi rend="red">C</hi>aecum a natiuitate sanaturus 
+<pb n="882v"/>
+<cb n="a"/>
+<lb rend="indent"/>lucem mundi se dicit<reg>.</reg> quem cum 
+<lb rend="indent"/>inluminasset multa <name>pharisaeis</name> an
+<lb break="no"/>xietate turbatis at<expan>q<am>’</am><ex>ue</ex></expan> quaerenti<expan>b<am>’</am><ex>us</ex></expan> 
+<lb rend="indent"/>ipse ab inluminato cognitus adoratur</item>
+<lb/><item><label>xxvi</label> <hi rend="red">Qui</hi> non intrat inquit in ouile per 
+<lb rend="indent"/>ostium fur est se<expan>q<am>’</am><ex>ue</ex></expan> dicit osti<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> 
+<lb rend="indent"/>et pastorem ouium pro quibus 
+<lb rend="indent"/>se suam animam positurum et 
+<lb rend="indent"/>alias oues adducturum pronun
+<lb break="no"/>tiat ut fiat unum ouile unus pastor</item>
+<lb/><item><label>xxvii</label> <hi rend="red">P</hi>otestatem habere se dicit ponendi 
+<lb rend="indent"/>ac resumendi animam suam<reg>.</reg> 
+<lb rend="indent"/>facta quoque encenia <name>hierosoly
+<lb break="no"/>mis</name> inter multa quae <name>pliarisaeis</name> 
+<lb rend="indent"/>sciscitanti<expan>b<am>’</am><ex>us</ex></expan> dixerat ait <said>ego et 
+<lb rend="indent"/>pater unum sumus</said> et multi 
+<lb rend="indent"/>crediderunt in eum</item>
+<lb/><item><label>xxviii</label> <hi rend="red">La</hi>zarum quadriduanum mortu<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> 
+<lb rend="indent"/>suscitaturus dormire dicit<reg>.</reg> 
+<lb rend="indent"/>quem magna uoce clamando re
+<lb break="no"/>suscitans solui iubet et abire 
+<lb rend="indent"/>plurimis credenti<expan>b<am>’</am><ex>us</ex></expan> ex <name>iudaeis</name></item>
+<lb/><item><label>xxviiii</label> <hi rend="red">P</hi>ontifices aduersus eum consili<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> 
+<lb rend="indent"/>colligunt in quo <name>caiphas</name> unum 
+<lb rend="indent"/>debere mori pro populo prophe
+<lb break="no"/>tizat. et ante sex dies paschae 
+<lb rend="indent"/>ungento pedes <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name> perfundun
+<lb break="no"/>tur de cuius pretio <name>iudae</name> mur
+<lb break="no"/>mur arguitur</item>
+<lb/><item><label>xxx</label> <hi rend="red">T</hi>urba cum ramis palmarum oc
+<lb break="no"/>currens clamat osanna<reg>.</reg> ipse uero 
+<lb rend="indent"/>super pullum asinae sedit 
+<lb rend="indent"/><name>pharisaeis</name> dicenti<expan>b<am>’</am><ex>us</ex></expan><reg>.</reg> <said><del rend="erased">m</del>totus mun
+<lb break="no"/>dus post eum abiit</said></item> 
+<lb/><item><label>xxxi</label> <hi rend="red">N</hi>untiatis gentili<expan>b<am>’</am><ex>us</ex></expan> eum uidere 
+<lb rend="indent"/>uolenti<expan>b<am>’</am><ex>us</ex></expan> horam suae clarifica
+<lb break="no"/>tionis esse dicit et granum fru
+<lb break="no"/>menti mortuum multum 
+<lb rend="indent"/>fructum pronuntiat allatur<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan><reg>.</reg> 
+<lb rend="indent"/>ministrantem quo<expan>q<am>’</am><ex>ue</ex></expan> sibi hono
+<lb break="no"/>rificandum promittit a patre</item>
+<lb/><item><label>xxxii</label> <hi rend="red">A</hi>nimam suam turbatam esse di
+<lb break="no"/>centi et clarificari se a patre 
+<lb rend="indent"/>poscenti uox de caelo ait <said>clarificaui</said><reg>.</reg> 
+<cb n="b"/>
+<lb rend="indent"/>post haec multa prosequitur inter 
+<lb rend="indent"/>quae se non ad indicandum sed ad 
+<lb rend="indent"/>saluandum mundum uenisse <supplied reason="omitted" source="#Tischendorf1850">se</supplied> testatur</item>
+<lb/><item><label>xxxiii</label> <hi rend="red">S</hi>urgens a cena pedes lauit discipu
+<lb break="no"/>lorum exemplum dedisse se di
+<lb break="no"/>cens ut ipsi conseruis faciant 
+<lb rend="indent"/>quod omnium <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>m</expan></name> fecisse pro
+<lb break="no"/>barunt</item>
+<lb/><item><label>xxxiiii</label> <hi rend="red">N</hi>on esse seruum maiorem domi
+<lb break="no"/>no dicens post testimonium 
+<lb rend="indent"/>scripturae <name>iudam</name> intincti panis 
+<lb rend="indent"/>porrectione significat et disci
+<lb break="no"/>pulos multipliciter exhortatur</item> 
+<lb/><item><label>xxxv</label> <said><hi rend="red">N</hi>on turbetur cor uestrum</said> ait 
+<lb rend="indent"/>discipulis <said>ego sum uia ueritas 
+<lb rend="indent"/>et uita</said><reg>.</reg> <said>qui uidit me uidit et patr<expan><abbr rend="supraline">e</abbr><ex>m</ex></expan></said><reg>.</reg> 
+<lb rend="indent"/><said>ego in patre et pater in me</said><reg>.</reg> 
+<lb rend="indent"/><said>quodcumque petieritis in no
+<lb break="no"/>mine meo hoc faciam</said></item>
+<lb/><item><label>xxxvi</label> <hi rend="red">D</hi>iligenti<expan>b<am>’</am><ex>us</ex></expan> se discipulis mandata<expan>q<am>’</am><ex>ue</ex></expan> 
+<lb rend="indent"/>seruanti<expan>b<am>’</am><ex>us</ex></expan> paracletum promit
+<lb break="no"/>tit a patre mittendum mansu
+<lb break="no"/>rum<expan>q<am>’</am><ex>ue</ex></expan> cum eis in aeternum 
+<lb rend="indent"/>se<expan>q<am>’</am><ex>ue</ex></expan> pacem dare eis pacemque 
+<lb rend="indent"/>relinquere pollicetur</item>
+<lb/><item><label>xxxvii</label> <hi rend="red">Se</hi> ipsum uitem et patrem agrico
+<lb break="no"/>lam dicens discipulos<expan>q<am>’</am><ex>ue</ex></expan> palmites 
+<lb rend="indent"/>sine se nihil eos facere posse 
+<lb rend="indent"/>testatur<reg>.</reg> et multis locution<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> 
+<lb rend="indent"/>modis alternam eis dilectionem 
+<lb rend="indent"/>inculcat cuius merito possent 
+<lb rend="indent"/>quodcum<expan>q<am>’</am><ex>ue</ex></expan> petierint inpetrare</item>
+<lb/><item><label>xxxviii</label> <hi rend="red">E</hi>andem dilectionem instantius 
+<lb rend="indent"/>commendans contemnendum 
+<lb rend="indent"/>docet odium mundi praedicens 
+<lb rend="indent"/>qualia pro eius nomine sint pas
+<lb break="no"/>suri et arguendum mundum 
+<lb rend="indent"/>a paracleto de peccato de iustitia 
+<lb rend="indent"/>et de iudicio manifestat</item>
+<lb/><item><label>xxxix</label> <hi rend="red">M</hi>odicum et uidendum se dicit ab 
+<lb rend="indent"/>eis et iterum modicum et non 
+<lb rend="indent"/>uidendum<reg>.</reg> de quo quaerenti<expan>b<am>’</am><ex>us</ex></expan> 
+<lb rend="indent"/>discipulis similitudinem muli
+<lb break="no"/>eris post partum tristitiae 
+<pb n="883r"/>
+<cb n="a"/>
+<lb rend="indent"/>prae gaudio non reminiscentis 
+<lb rend="indent"/>inducit<reg>.</reg> quos et a patre amari 
+<lb rend="indent"/>significans corrob<choice><sic>u</sic><corr>o</corr></choice>rat se relic
+<lb break="no"/>turos dicens <said>in mundo pressu
+<lb break="no"/>ram habebitis sed confidite 
+<lb rend="indent"/>ego uici mundum</said></item>
+<lb/><item><label>xl</label> <hi rend="red">Ad</hi> patrem de clarificatione sua 
+<lb rend="indent"/>loquens discipulos prolixa 
+<lb rend="indent"/>et multimoda prosecutione 
+<lb rend="indent"/>commendat passione proti
+<lb break="no"/>nus inminente</item>
+<lb/><item><label>xli</label> <hi rend="red">T</hi>raditionis ac passionis eius per or
+<lb break="no"/>dinem gesta narrantur</item>
+<lb/><item><label>xlii</label> <hi rend="red">R</hi>esurrectionis similiter manife
+<lb break="no"/>statio declaratur qua <name>maria 
+<lb rend="indent"/>magdalene</name> <name>petro</name> et <name>iohanni</name> 
+<lb rend="indent"/>nuntiat sublatum corpus 
+<lb rend="indent"/>de monumento<reg>.</reg> qui<expan>b<am>’</am><ex>us</ex></expan> occur
+<lb break="no"/>renti<expan>b<am>’</am><ex>us</ex></expan> ac reuersis ipsa post 
+<lb rend="indent"/>angelicam uisionem uisum a se 
+<lb rend="indent"/><name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>m</expan></name> aestimans hortulanum 
+<lb rend="indent"/>quo mox cognito iubetur 
+<lb rend="indent"/>discipulis nuntiare</item>
+<lb/><item><label>xliii</label> <hi rend="red">C</hi>um fores essent clausae ueniens 
+<lb rend="indent"/>ad discipulos pacem infert mani<expan>b<am>’</am><ex>us</ex></expan> 
+<lb rend="indent"/>latere<expan>q<am>’</am><ex>ue</ex></expan> monstrato qui<expan>b<am>’</am><ex>us</ex></expan> insu
+<lb break="no"/>f<reg>f</reg>latione<supplied reason="omitted">m</supplied> significat <name><expan>s<abbr rend="supraline">p</abbr><ex>iritu</ex>m</expan> <expan>s<ex>an</ex><abbr rend="supraline">c</abbr><ex>tu</ex>m</expan></name><reg>.</reg> 
+<lb rend="indent"/>Item post dies octo <name>thomas</name> inspec
+<lb break="no"/>tione uel tactu lateris ac manu<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> 
+<lb rend="indent"/>confirmatur audiens <said>beati 
+<lb rend="indent"/>qui non uiderunt et crediderunt</said></item>
+<lb/><item><label>xliiii</label> <hi rend="red">M</hi>anifestat se iterum ad mare <name>tibe
+<lb break="no"/>riadis</name> septeni discipulis in cap
+<lb break="no"/>tura piscium centum quinqua
+<lb break="no"/>ginta trium cum resurrexisset 
+<lb rend="indent"/>a mortuis</item>
+<lb/><item><label>xlv</label> <hi rend="red">V</hi>sque tertio dicit <name>petro</name> <said>amas me</said><reg>?</reg> 
+<lb rend="indent"/>quia ter cum negauerat et pa
+<lb break="no"/>scendas oues aeque tertio com
+<lb break="no"/>mendans extensione manu<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> 
+<lb rend="indent"/>significat ei quod crucis morte 
+<lb rend="indent"/>foret martyrio coronandus</item>
+</list>
+</div>
+</body>
+</text>
+</TEI>

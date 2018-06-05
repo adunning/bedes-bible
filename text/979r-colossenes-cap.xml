@@ -1,0 +1,134 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng"
+type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng"
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:space="preserve">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title xml:lang="la">Capitula</title>
+</titleStmt>
+<publicationStmt>
+<authority>Digital Latin Library</authority>
+<availability>
+<licence target="https://creativecommons.org/licences/by-sa/4.0/">Provided under a Creative Commons Attribution-ShareAlike 4.0 International Licence.</licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<settlement>Florence</settlement>
+<repository>Biblioteca Medicea Laurenziana</repository>
+<collection>Amiatino</collection>
+<idno>1</idno>
+<msName>Codex Amiatinus</msName>
+</msIdentifier>
+</msDesc>
+<listBibl>
+<biblStruct type="book" xml:id="Tischendorf1850" corresp="http://zotero.org/users/254032/items/CCTVHEQ4">
+<monogr>
+<title level="m">Novum Testamentum Latine interprete Hieronymo. Ex celeberrimo Codice Amiatino</title>
+<title type="short">Novum Testamentum Amiatinum</title>
+<author>
+<forename>Constantinus von</forename>
+<surname>Tischendorf</surname>
+</author>
+<imprint>
+<pubPlace>Leipzig</pubPlace>
+<publisher>Avenarius et Mendelssohn</publisher>
+<date>1850</date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct type="book" xml:id="Wordsworth1889" corresp="http://zotero.org/users/254032/items/WCM7IWE8">
+<monogr>
+<title level="m">Nouum Testamentum Domini nostri Iesu Christi Latine, secundum editionem sancti Hieronymi</title>
+<editor>
+<forename>John</forename>
+<surname>Wordsworth</surname>
+</editor>
+<editor>
+<forename>Henry Julian</forename>
+<surname>White</surname>
+</editor>
+<editor>
+<forename>Alexander</forename>
+<surname>Ramsbotham</surname>
+</editor>
+<editor>
+<forename>Hedley F.D.</forename>
+<surname>Sparks</surname>
+</editor>
+<editor>
+<forename>Claude</forename>
+<surname>Jenkins</surname>
+</editor>
+<editor>
+<forename>Arthur White</forename>
+<surname>Adams</surname>
+</editor>
+<imprint>
+<pubPlace>Oxford</pubPlace>
+<publisher>Clarendon Press</publisher>
+<date>1889–1954</date>
+</imprint>
+</monogr>
+</biblStruct>
+</listBibl>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text xml:lang="la">
+<body>
+
+
+
+INCIPIT ARGVMENTVM AD COLOSENSES. 
+
+
+Colosenses et hi sicut <name>laudicenses</name> sunt <name>asiani</name>; et ipsi ‘praeuenti erant a pseudoapostolis, nec ad hos accessit ipse apostolus, sed et hos per epistulam recorrigit. <name>audierant</name> enim uerbum ab <name>arcippo</name>, cpii et ministerium in eos accepit. <name>ergo</name> apostolus iani ligatus scribit eis ab Epheso. 
+
+EXPLICIT ARGVMENTVM. 
+
+INCIPIVNT CAPITVLA. 
+<lb/><item><label>i</label> De spe reposita sanctis in caelis</item>
+<lb/><item><label>ii</label> De omni sapientia et intellectu spiritali: et de domino quod imago sit <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> inuisibilis, primogenitus totius creaturae, et quod in ipso et per ipsum creata sint uniuersa et omnia illi constent</item>
+<lb/><item><label>iii</label> De errore credentium primo et postea sanctitate</item>
+<lb/><item><label>iiii</label> De <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>o</expan> <expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>o</expan></name>, quod in eo sint omnes thesauri sapientiae atque scientiae conlocati</item>
+<lb/><item><label>v</label> De seducentium sublimitate uerborum</item>
+<lb/><item><label>vi</label> De traditione apostolica, cjuod a nemine debeat immutari</item>
+<lb/><item><label>vii</label> De philosofia et seductionibus</item>
+<lb/><item><label>viii</label> De domino conuiuificante cum ‘se sanctos ex gentibus ‘deleto decreti ‘cyrograffo crucique adfixo, ‘uniuersis omnia peccamina demittente</item>
+<lb/><item><label>ix</label> De sanctis ex gentibus, quod obseruationem temporum et escarum testamenti ueteris non debeant custodire</item>
+<lb/><item><label>x</label> De seductoribus</item>
+<lb/><item><label>xi</label> De sanctis, quod non terrena sapere debeant et quaerere sed superna</item>
+<lb/><item><label>xii</label> De mortificatione membrorum terrestrium, id est omnium abstinentia uitiorum</item>
+<lb/><item><label>xiii</label> De expoliatione ueteris hominis cum omnibus uitiis et indumento noui cum renouatione</item>
+
+
+CAPITVLA EPISTVLAE AD COLOSENSES 
+
+
+320 
+
+<lb/><item><label>xiiil</label> De uirtutibus spiritalibus</item>
+<lb/><item><label>xv</label> De sanctis, cpiod omnia dictu factuque in nomine domini <name><expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>i</expan></name> agentes gratias <name><expan>d<ex>e</ex><abbr rend="supraline">o</abbr></expan></name> patri per ipsum semper debeant operari</item>
+<lb/><item><label>xvi</label> De subiectione mulierum ad maritos</item>
+<lb/><item><label>xvii</label> De uirorum dilectione ad coniuges et temperantia disciplinae. xviii. <name>de</name> filiorum obsequio ad parentes</item>
+<lb/><item><label>xix</label> De patrum erga filios temperamento</item>
+<lb/><item><label>xx</label> De seruorum ofisequio</item>
+
+XX^I. <name>de</name> dominis erga seruos. 
+<lb/><item><label>xxii</label> De instantia et uigilantia orationis. • </item>
+<lb/><item><label>xxiii</label> De sermonis et salis et gratiae condimento</item>
+<lb/><item><label>xxiiii</label> De <name>thycico</name> et <name>onesimo</name></item>
+<lb/><item><label>xxv</label> De <name>aristharco</name> concaptiuo apostoli et <name>marco</name> consobrino <name>barna</name>- bae et lesu lusto ex circumcisione adiutoribus regni</item>
+<lb/><item><label>xxvi</label> De sollicitudine <name>ephafrae</name> in oratione pro * <name>colosensibus</name> et <name>lau</name>- dicensibus et <name>hieropolitanis</name></item>
+<lb/><item><label>xxvii</label> De <name>luca</name> medico et <name>dema</name></item>
+<lb/><item><label>xxviii</label> De <name>nympha</name> et domestica eius ecclesia</item>
+<lb/><item><label>xxix</label> De apostolo mandante ut <name>colossensium</name> epistulam <name>laudicenses</name> legerent et <name>laudicensium</name> <name>colossenses</name></item>
+
+
+EXPLICIVNT CAPITVLA. 
+

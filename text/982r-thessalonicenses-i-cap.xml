@@ -1,0 +1,190 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng"
+type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng"
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:space="preserve">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title xml:lang="la">Capitula</title>
+</titleStmt>
+<publicationStmt>
+<authority>Digital Latin Library</authority>
+<availability>
+<licence target="https://creativecommons.org/licences/by-sa/4.0/">Provided under a Creative Commons Attribution-ShareAlike 4.0 International Licence.</licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<settlement>Florence</settlement>
+<repository>Biblioteca Medicea Laurenziana</repository>
+<collection>Amiatino</collection>
+<idno>1</idno>
+<msName>Codex Amiatinus</msName>
+</msIdentifier>
+</msDesc>
+<listBibl>
+<biblStruct type="book" xml:id="Tischendorf1850" corresp="http://zotero.org/users/254032/items/CCTVHEQ4">
+<monogr>
+<title level="m">Novum Testamentum Latine interprete Hieronymo. Ex celeberrimo Codice Amiatino</title>
+<title type="short">Novum Testamentum Amiatinum</title>
+<author>
+<forename>Constantinus von</forename>
+<surname>Tischendorf</surname>
+</author>
+<imprint>
+<pubPlace>Leipzig</pubPlace>
+<publisher>Avenarius et Mendelssohn</publisher>
+<date>1850</date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct type="book" xml:id="Wordsworth1889" corresp="http://zotero.org/users/254032/items/WCM7IWE8">
+<monogr>
+<title level="m">Nouum Testamentum Domini nostri Iesu Christi Latine, secundum editionem sancti Hieronymi</title>
+<editor>
+<forename>John</forename>
+<surname>Wordsworth</surname>
+</editor>
+<editor>
+<forename>Henry Julian</forename>
+<surname>White</surname>
+</editor>
+<editor>
+<forename>Alexander</forename>
+<surname>Ramsbotham</surname>
+</editor>
+<editor>
+<forename>Hedley F.D.</forename>
+<surname>Sparks</surname>
+</editor>
+<editor>
+<forename>Claude</forename>
+<surname>Jenkins</surname>
+</editor>
+<editor>
+<forename>Arthur White</forename>
+<surname>Adams</surname>
+</editor>
+<imprint>
+<pubPlace>Oxford</pubPlace>
+<publisher>Clarendon Press</publisher>
+<date>1889–1954</date>
+</imprint>
+</monogr>
+</biblStruct>
+</listBibl>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text xml:lang="la">
+<body>
+<div type="textpart" subtype="capitula">
+<list>
+<head rend="red rustic-caps">
+<lb/><expan>In<abbr rend="supraline">cip</abbr><ex>iunt</ex></expan> ad <expan>the<abbr rend="supraline">ss</abbr>al<ex>onicenses</ex></expan> <expan><am>.</am><abbr rend="supraline">p</abbr><ex>rimae</ex><am>.</am></expan>
+</head>
+<cb n="b"/>
+<lb/><item><label>i</label> <hi rend="red">De</hi> apostolo et <name>s<subst><del rend="expunct">a</del><add place="above">i</add></subst>luano</name> et <name>timotheo</name> 
+<lb rend="indent"/>pro <name>thessalonicensibus</name> semper 
+<lb rend="indent"/>orantibus</item>
+<lb/><item><label>ii</label> De fide <name>thessalonicensium</name> singul<del rend="erased">i</del>ari 
+<lb rend="indent"/>et quod exemplum ceteris genti<expan>b<am>’</am><ex>us</ex></expan> 
+<lb rend="indent"/>fuerint ad <add place="above">cr</add>edendum</item>
+<lb/><item><label>iii</label> De passioni<expan>b<am>’</am><ex>us</ex></expan> apostolorum 
+<lb rend="indent"/>et contumeliis in <name>philippis</name></item>
+<lb/><item><label>iiii</label> De sinceritate apostoli<reg>.</reg> 
+<lb rend="indent"/>et quod non hominibus placen
+<lb break="no"/>dum sit sed <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>o</expan> <expan>d<ex>e</ex><abbr rend="supraline">o</abbr></expan></name></item>
+<lb/><item><label>v</label> De apostolo cum possit oneri esse 
+<lb rend="indent"/>tamquam <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan> <expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>i</expan></name> apostolus 
+<lb rend="indent"/>tamen adulationem et auaritiam 
+<lb rend="indent"/>et gloriam ab hominibus 
+<lb rend="indent"/>abnuente</item>
+<lb/><item><label>vi</label> De apostolo ne que<add place="inline">m</add> grauaret 
+<lb rend="indent"/>diebus ac noctibus manibus 
+<lb rend="indent"/>operante<del rend="expunct strikethrough">m</del></item>
+<lb/><item><label>yii</label> De ira <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> super <name>iudaeos</name> eo quod 
+<lb rend="indent"/>interf<subst><del rend="alt">i</del><add place="inline">e</add></subst>cer<subst><del rend="erased">e</del><add place="inRas">i</add></subst>nt <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>m</expan></name> et pro
+<lb break="no"/>phetas et apostolos fuerint 
+<lb rend="indent"/>persecuti</item>
+<lb/><item><label>viii</label> De apostol<subst><del rend="alt">o</del><add place="inline">i</add></subst> desiderio ueniendi 
+<lb rend="indent"/>ad <name>thessaloniceiises</name> et diaboli 
+<lb rend="indent"/>imp<subst><del rend="alt">l</del><add place="inline">e</add></subst>dimento</item>
+<lb/><item><label>ix</label> De <expan>s<ex>an</ex><abbr rend="supraline">c</abbr><ex>t</ex>is</expan> quod in tribulationibus 
+<lb rend="indent"/>moueri non debeant 
+<lb rend="indent"/>sed potius prouocari</item>
+<lb/><item><label>x</label> De temptatore</item>
+<lb/><item><label>xi</label> De <name>thessalonicensibus</name> apostolum 
+<lb rend="indent"/>uidere cupientibus</item>
+<lb/><item><label>xii</label> De apostolo gaudente pro <name>thes
+<lb break="no"/>salonicensibus</name> <add place="above">et</add> ad <name><expan>d<ex>eu</ex><abbr rend="supraline">m</abbr></expan></name> pre<add place="above">c</add>es<subst><del rend="erased">s</del><add place="inline"> </add></subst>et 
+<lb rend="indent"/>gratias referente</item>
+<lb/><item><label>xiii</label> De apostolo orante pro <name>thessa
+<lb break="no"/>lonicenses</name> ut secundum tradi
+<lb break="no"/>tionem ipsius ambularent</item>
+<lb/><item><label>xiiii</label> De abstinentia fornicationis 
+<lb rend="indent"/>et fraudis et de possessione 
+<lb rend="indent"/>coniugii proprii</item>
+<lb/><item><label>xv</label> De amore fraternitatis</item>
+<lb/><item><label>xvi</label> De <expan>s<ex>an</ex><abbr rend="supraline">c</abbr><ex>t</ex>is</expan> ut quieti sint et unus 
+<lb rend="indent"/>quisque agat suum negotium 
+<pb n="982v"/>
+<cb n="a"/>
+<lb rend="indent"/>et ut nullius egeant manibus 
+<lb rend="indent"/>operentur</item>
+<lb/><item><label>xvii</label> De resurrectione et <del rend="expunct">s</del>raptu <expan>s<ex>an</ex><abbr rend="supraline">c</abbr><ex>t</ex>orum</expan> 
+<lb rend="indent"/>in nubibus ad <add place="above">oc</add>currendum in aera 
+<lb rend="indent"/><name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>o</expan> <expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>o</expan> <expan>i<am rend="supraline">h</am><ex>es</ex>u</expan></name></item>
+<lb/><item><label>xviii</label> De infidelium ac male operantium 
+<lb rend="indent"/>interitu repentino</item>
+<lb/><item><label>xix</label> De fili<add place="inline">is</add> lucis ac diei et filiis noctis 
+<lb rend="indent"/>ac tenebrarum</item>
+<lb/><item><label>xx</label> De somno communi et somno 
+<lb rend="indent"/>perfidiae et spiritalibus 
+<lb rend="indent"/>monimentis</item>
+<lb/><item><label>xxi</label> De reuerentia in ministerio 
+<lb rend="indent"/>laborantium at<expan>q<am>’</am><ex>ue</ex></expan> doctorum</item>
+<lb/><item><label>xxii</label> De non extinguendo <expan>s<abbr rend="supraline">p</abbr><ex>irit</ex>u</expan> nec sper
+<lb break="no"/>nen<subst><del rend="alt">t</del><add place="inline">da</add></subst> prophetia et omnium 
+<lb rend="indent"/>examinatione</item>
+<lb/><item><label>kxiii</label> De apostolo praecante ut <name>thessaloni
+<lb break="no"/>cen<choice><orig>t</orig><reg>s</reg></choice>ium</name> integer <expan>s<abbr rend="supraline">p</abbr><ex>iritu</ex>s</expan> et anima 
+<lb rend="indent"/>et corpus in aduentum <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan> <expan>n<ex>ostr</ex><abbr rend="supraline">i</abbr></expan> 
+<lb rend="indent"/><expan>i<am rend="supraline">h</am><ex>es</ex>u</expan> <expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>i</expan></name> seruetur <del rend="expunct">omnes</del></item>
+<lb/><item><label>xxiiii</label> De apostolo petente ut pro eo 
+<lb rend="indent"/><name>thessalonicenses</name> in orationi<expan>b<am>’</am><ex>us</ex></expan> 
+<lb rend="indent"/>postularent</item>
+<lb/><item><label>xxv</label> De apostolo <name>thessalonicenses</name> 
+<lb rend="indent"/>adiurante per <name><expan>d<ex>eu</ex><abbr rend="supraline">m</abbr></expan></name> ut omnibus 
+<lb rend="indent"/>fratri<expan>b<am>’</am><ex>us</ex></expan> epistula legatur</item>
+</list>
+<div type="textpart" subtype="finalRubric">
+<p rend="red rustic-caps">
+<lb/><expan>e<abbr rend="supraline">x</abbr>p<ex>liciunt</ex></expan> capitula
+</p>
+</div>
+</div>
+<div type="textpart" subtype="argumentum">
+<head rend="red rustic-caps">
+<lb/><expan>in<abbr rend="supraline">cip</abbr><ex>it</ex></expan> <expan>argum<abbr rend="supraline">en</abbr><ex>tum</ex></expan>
+</head>
+<p>
+<lb/>Thessalonicenses sunt <name>machedones</name> 
+<lb/><del rend="expunct">in <name><expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>o</expan> <expan>i<am rend="supraline">h</am><ex>es</ex>u</expan></name></del> qui accepto uerbo ueritatis 
+<lb/>perstiterunt in fide etiam in persecutione 
+<lb/>ciuium suorum praeterea nec receperunt 
+<lb/>ea quae a falsis apostolis dicebantur<reg>.</reg> 
+<lb/>Hos conlaudat apostolus 
+<lb/>scribens eis ab 
+<lb/><name>athenis</name><choice><orig>:~</orig><reg>.</reg></choice> 
+</p>
+<p>
+<lb/><expan><expan>e<abbr rend="supraline">xp</abbr><ex>licit</ex></expan></expan> <expan>arg<ex>ument</ex><abbr rend="supraline">um</abbr></expan> 
+</p>
+</div>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,188 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng"
+type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng"
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:space="preserve">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title xml:lang="la">Capitula</title>
+</titleStmt>
+<publicationStmt>
+<authority>Digital Latin Library</authority>
+<availability>
+<licence target="https://creativecommons.org/licences/by-sa/4.0/">Provided under a Creative Commons Attribution-ShareAlike 4.0 International Licence.</licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<settlement>Florence</settlement>
+<repository>Biblioteca Medicea Laurenziana</repository>
+<collection>Amiatino</collection>
+<idno>1</idno>
+<msName>Codex Amiatinus</msName>
+</msIdentifier>
+</msDesc>
+<listBibl>
+<biblStruct type="book" xml:id="Tischendorf1850" corresp="http://zotero.org/users/254032/items/CCTVHEQ4">
+<monogr>
+<title level="m">Novum Testamentum Latine interprete Hieronymo. Ex celeberrimo Codice Amiatino</title>
+<title type="short">Novum Testamentum Amiatinum</title>
+<author>
+<forename>Constantinus von</forename>
+<surname>Tischendorf</surname>
+</author>
+<imprint>
+<pubPlace>Leipzig</pubPlace>
+<publisher>Avenarius et Mendelssohn</publisher>
+<date>1850</date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct type="book" xml:id="Wordsworth1889" corresp="http://zotero.org/users/254032/items/WCM7IWE8">
+<monogr>
+<title level="m">Nouum Testamentum Domini nostri Iesu Christi Latine, secundum editionem sancti Hieronymi</title>
+<editor>
+<forename>John</forename>
+<surname>Wordsworth</surname>
+</editor>
+<editor>
+<forename>Henry Julian</forename>
+<surname>White</surname>
+</editor>
+<editor>
+<forename>Alexander</forename>
+<surname>Ramsbotham</surname>
+</editor>
+<editor>
+<forename>Hedley F.D.</forename>
+<surname>Sparks</surname>
+</editor>
+<editor>
+<forename>Claude</forename>
+<surname>Jenkins</surname>
+</editor>
+<editor>
+<forename>Arthur White</forename>
+<surname>Adams</surname>
+</editor>
+<imprint>
+<pubPlace>Oxford</pubPlace>
+<publisher>Clarendon Press</publisher>
+<date>1889–1954</date>
+</imprint>
+</monogr>
+</biblStruct>
+</listBibl>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text xml:lang="la">
+<body>
+<div type="textpart" subtype="argumentum">
+<head rend="red rustic-caps">
+<lb/><expan>in<abbr rend="supraline">cip</abbr><ex>it</ex></expan> <expan><abbr rend="supraline">arg</abbr><ex>umentum</ex></expan> ad <name>thimothe<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan></name>
+</head>
+<p rend="rustic-caps">
+<lb/><name>Timotheum</name> instruit et docet 
+<lb/>de ordinatione episcopatus 
+<lb/>et diaconii et omnis ecclesias
+<lb break="no"/>tice disciplinae 
+<lb/>scribens ei a <name>machedonia</name>. 
+</p>
+<div type="textpart" subtype="finalRubric">
+<p rend="red rustic-caps">
+<lb/><expan><expan>e<abbr rend="supraline">xp</abbr><ex>licit</ex></expan></expan> <expan>a<abbr rend="supraline">ag</abbr><ex>umentum</ex></expan> 
+</p>
+</div>
+</div>
+<pb n="986v"/>
+<cb n="a"/>
+<div type="textpart" subtype="capitula">
+<list>
+<head rend="red rustic-caps">
+<lb/>Incipiunt breues
+</head>
+<lb/><item><label>i</label> <hi rend="red">De</hi> fabulis et genealogiis et doctori<expan>b<am>’</am><ex>us</ex></expan> 
+<lb rend="indent"/>uanis ac peruersa doctrina et ple
+<lb break="no"/>nitudine sanae doctrinae</item>
+<lb/><item><label>ii</label> De lege quod iustis posita non sit 
+<lb rend="indent"/>sed iniustis et omni<expan>b<am>’</am><ex>us</ex></expan> sceleratis<reg>.</reg> 
+<lb rend="indent"/>et de apostoli uita pristina 
+<lb rend="indent"/>et de misericordia <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> super igno
+<lb break="no"/>rantiam pro gratia</item>
+<lb/><item><label>iii</label> De <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>o</expan></name> quod saluare peccatores 
+<lb rend="indent"/>in saeculum uenerit<reg>.</reg> et de apos
+<lb break="no"/>tolo ad exemplum credentium 
+<lb rend="indent"/>misericordiam consecuto</item>
+<lb/><item><label>iiii</label> De <add place="inline">h</add>ymeneo et <name>alexandro</name> 
+<lb rend="indent"/>traditis <name>sa<add place="above">ta</add>nae</name></item>
+<lb/><item><label>v</label> De orationibus pro hominibus 
+<lb rend="indent"/>uniuersis<reg>.</reg> et quod omnes homines 
+<lb rend="indent"/>uelit saluos fieri <name><expan>d<ex>eu</ex><abbr rend="supraline">s</abbr></expan></name></item>
+<lb/><item><label>vi</label> De <name><expan>d<subst><del rend="expunct"><ex>omi</ex><abbr rend="supraline">n</abbr></del><add place="above"><ex>e</ex></add></subst><abbr rend="supraline">o</abbr></expan></name> quod unus est et de <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>o</expan></name> quod 
+<lb rend="indent"/>mediator <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> et hominum unus est 
+<lb rend="indent"/>homo <name><expan><am>x</am><am rend="supraline">p</am><ex>christu</ex>s</expan> <expan>i<am rend="supraline">h</am><ex>esu</ex>s</expan> <del rend="expunct"><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>s</expan></del></name></item>
+<lb/><item><label>vii</label> De libertate uirorum ac mulierum 
+<lb rend="indent"/>orandi in omni loco et habitu 
+<lb rend="indent"/>feminarum</item>
+<lb/><item><label>viii</label> De episcoporum et coniugum 
+<lb rend="indent"/>formula<del rend="expunct">m</del> et diaconorum<reg>.</reg> <add place="inline">et</add> 
+<lb rend="indent"/>quod aliquando idem episcopi 
+<lb rend="indent"/>qui et pr<surplus>a</surplus>esbyteri dicebantur</item>
+<lb/><item><label>viiii</label> De mysterio pietatis</item>
+<lb/><item><label>x</label> De <name><expan>s<abbr rend="supraline">p</abbr><ex>irit</ex>u</expan> <expan>s<ex>an</ex><abbr rend="supraline">c</abbr><ex>t</ex>o</expan></name> nouissima tempora 
+<lb rend="indent"/>et simulatores et infidelium 
+<lb rend="indent"/>perfidiam per apostolum 
+<lb rend="indent"/>praedicante</item>
+<lb/><item><label>xi</label> De profanis et anilibus fabulis 
+<lb rend="indent"/>et corporali exercitio <supplied reason="omitted" source="#Tischendorf1850">et exercitio</supplied><!-- chk WW --> pietatis</item>
+<lb/><item><label>xii</label> De labore <expan>s<ex>an</ex><abbr rend="supraline">c</abbr><ex>t</ex>o</expan>rum</item>
+<lb/><item><label>xiii</label> De doctore<del rend="expunct">m</del> quod se ipsum 
+<lb rend="indent"/>discipulis formulam bonis 
+<lb rend="indent"/>operibus in omnibus debea<del rend="expunct strikethrough">m</del>t 
+<lb rend="indent"/>exhibere</item>
+<lb/><item><label>xiiii</label> De doctore quod nihil aliud 
+<lb rend="indent"/>quam doctrinam et iustitias 
+<lb rend="indent"/><name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name> semper debeat meditari</item>
+<lb/><item><label>xv</label> De senioribus non increpandis</item>
+<lb/><item><label>xvi</label> De ueris uiduis et de uiduis filios 
+<cb n="b"/>
+<lb rend="indent"/>uel nepotes habentibus</item>
+<lb/><item><label>xvii</label> De uiduis adulescentioribus</item>
+<lb/><item><label>xviii</label> De fidelibus uiduas habenti<expan>b<am>’</am><ex>us</ex></expan></item>
+<lb/><item><label>xviiii</label> De pr<surplus>a</surplus>esbyteris praecedentibus 
+<lb rend="indent"/>maxime laborantibus doctrina</item>
+<lb/><item><label>xx</label> De accusatione<del rend="expunct strikethrough">m</del> aduersus 
+<lb rend="indent"/>maiorem natu</item>
+<lb/><item><label>xxi</label> De peccantib<subst><del rend="alt"><expan><am>’</am><ex>us</ex></expan></del><add place="inline">us</add></subst><!-- why did they do that? --> <add place="inRas">p</add>ublice 
+<lb rend="indent"/>corripiendis</item>
+<lb/><item><label>xxii</label> De traditione apostolica 
+<lb rend="indent"/>non transeund<add place="inRas">a</add></item>
+<lb/><item><label>xxiii</label> De manibus non temere inponendis 
+<lb rend="indent"/>et abstinentia peccatorum alieno
+<lb break="no"/>rum<reg>.</reg> et quod infirm<add place="above">ib</add>us etsi ante 
+<lb rend="indent"/>abstinueri<add place="above">n</add>t <add place="above">uti</add> uino modico liceat</item>
+<lb/><item><label>xxiiii</label> De pecca<del rend="expunct strikethrough">n</del>tis quorumdam 
+<lb rend="indent"/>manifestis uel subsequentibus 
+<lb rend="indent"/>similiter. et oper<del rend="expunct">ant</del>ibus bonis</item>
+<lb/><item><label>xxv</label> De seruis</item>
+<lb/><item><label>xxvi</label> De seductoribus ac doctoribus 
+<lb rend="indent"/>falsis et ab eis separatione 
+<lb rend="indent"/><expan>s<ex>an</ex><abbr rend="supraline">c</abbr><ex>t</ex>o</expan>rum</item>
+<lb/><item><label>xxvii</label> De sufficientia et auaritia</item>
+<lb/><item><label>xxviii</label> De iustitia et omni<expan>b<am>’</am><ex>us</ex></expan> uirtuti<expan>b<am>’</am><ex>us</ex></expan></item>
+<lb/><item><label>xxviiii</label> De diuiti<expan>b<am>’</am><ex>us</ex></expan> istius saeculi</item>
+<lb/><item><label>xxx</label> De prophanis nouitatibus uocum</item>
+</list>
+<div type="textpart" subtype="finalRubric">
+<p rend="red rustic-caps">
+<lb/><expan>e<abbr rend="supraline">x</abbr>p<ex>liciun</ex>t</expan> capitula
+</p>
+</div>
+</div>
+</body>
+</text>
+</TEI>

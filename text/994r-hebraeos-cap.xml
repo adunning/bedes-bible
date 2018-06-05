@@ -1,0 +1,220 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng"
+type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng"
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:space="preserve">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title xml:lang="la">Capitula</title>
+</titleStmt>
+<publicationStmt>
+<authority>Digital Latin Library</authority>
+<availability>
+<licence target="https://creativecommons.org/licences/by-sa/4.0/">Provided under a Creative Commons Attribution-ShareAlike 4.0 International Licence.</licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<settlement>Florence</settlement>
+<repository>Biblioteca Medicea Laurenziana</repository>
+<collection>Amiatino</collection>
+<idno>1</idno>
+<msName>Codex Amiatinus</msName>
+</msIdentifier>
+</msDesc>
+<listBibl>
+<biblStruct type="book" xml:id="Tischendorf1850" corresp="http://zotero.org/users/254032/items/CCTVHEQ4">
+<monogr>
+<title level="m">Novum Testamentum Latine interprete Hieronymo. Ex celeberrimo Codice Amiatino</title>
+<title type="short">Novum Testamentum Amiatinum</title>
+<author>
+<forename>Constantinus von</forename>
+<surname>Tischendorf</surname>
+</author>
+<imprint>
+<pubPlace>Leipzig</pubPlace>
+<publisher>Avenarius et Mendelssohn</publisher>
+<date>1850</date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct type="book" xml:id="Wordsworth1889" corresp="http://zotero.org/users/254032/items/WCM7IWE8">
+<monogr>
+<title level="m">Nouum Testamentum Domini nostri Iesu Christi Latine, secundum editionem sancti Hieronymi</title>
+<editor>
+<forename>John</forename>
+<surname>Wordsworth</surname>
+</editor>
+<editor>
+<forename>Henry Julian</forename>
+<surname>White</surname>
+</editor>
+<editor>
+<forename>Alexander</forename>
+<surname>Ramsbotham</surname>
+</editor>
+<editor>
+<forename>Hedley F.D.</forename>
+<surname>Sparks</surname>
+</editor>
+<editor>
+<forename>Claude</forename>
+<surname>Jenkins</surname>
+</editor>
+<editor>
+<forename>Arthur White</forename>
+<surname>Adams</surname>
+</editor>
+<imprint>
+<pubPlace>Oxford</pubPlace>
+<publisher>Clarendon Press</publisher>
+<date>1889–1954</date>
+</imprint>
+</monogr>
+</biblStruct>
+</listBibl>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text xml:lang="la">
+<body>
+<div type="textpart" subtype="argumentum">
+<head rend="red rustic-caps">
+<lb/>Incipit <expan>arg<abbr rend="supraline">u</abbr><ex>umentu</ex>m</expan> ad <name>hebr<reg>a</reg>eos</name>
+</head>
+<p rend="rustic-caps">
+<lb/>Inprimis dicendum est cur apostolus <name>paulus</name> 
+<lb/>in hac epistula scribendo non seruauerit 
+<lb/>morem suum. Vt uel uocabulum nominis 
+<lb/>sui uel ordinis scriberet dignitatem. 
+<lb/>Haec causa est quod ad eos scribens 
+<lb/>qui ex circumcisione crediderant 
+<lb/>quasi gentium apostolus et non <name>haebraeorum</name> 
+<lb rend="indent"/>sciens quoque eorum superbiam suamque 
+<lb/>humilitatem ipse demonstrans meritum 
+<lb/>officii sui noluit anteferre<reg>.</reg> Nam simili 
+<lb/>modo iam <name>iohannes</name> apostolus propter 
+<lb/>humilitatem in epistula sua nomen suum 
+<lb/>eadem ratione non praetulit<reg>.</reg> Hanc ergo 
+<lb/>epistulam fertur <add place="inRas">apostolus</add> ad <name><add place="above">h</add>ebraeos</name> 
+<lb/>conscriptam haebraica lingua misisse<reg>.</reg> 
+<lb/>Cuius sensum et ordinem retinens 
+<lb/><name>lucas</name> euangelista post excessum 
+<lb/>beati apostoli graeco 
+<lb/>sermone con
+<lb break="no"/>scripsit<choice><orig>:~</orig><reg>.</reg></choice>    
+</p>
+<div type="textpart" subtype="finalRubric">
+<p rend="red rustic-caps">
+<lb/><expan><expan>e<abbr rend="supraline">xp</abbr><ex>licit</ex></expan></expan> <expan>arg<abbr rend="supraline">u</abbr><ex>umentu</ex>m</expan>
+</p>
+</div>
+</div>
+<div type="textpart" subtype="capitula">
+<list>
+<head rend="red rustic-caps">
+<lb/><expan>In<abbr rend="supraline">cip</abbr><ex>iunt</ex></expan> breues ad <name>hebraeos</name>
+</head>
+<pb n="994v"/>
+<cb n="a"/>
+<lb/><item><label>i</label> De <name><expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>i</expan></name> quod <name><expan>d<ex>eu</ex><abbr rend="supraline">s</abbr></expan></name> sit<reg>.</reg> circa <name>iudaeus</name> 
+<lb rend="indent"/>ex<subst><del rend="alt">o</del><add place="inline">ho</add></subst>rtatio multiformis</item>
+<lb/><item><label>ii</label> De suppliciis quae euadere neque 
+<lb rend="indent"/>sunt praeconum <name><expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>i</expan></name> contemptores</item>
+<lb/><item><label>iii</label> De saluatore cui subiecta sunt 
+<lb rend="indent"/>omnia omni<expan>b<am>’</am><ex>us</ex></expan>que ipse per passio
+<lb break="no"/>nem subiectus est</item>
+<lb/><item><label>iiii</label> De passione per quam destruxit 
+<lb rend="indent"/>diab<choice><orig>u</orig><reg>o</reg></choice>lum sibi<expan>q<am>’</am><ex>ue</ex></expan> fratres instruit</item>
+<lb/><item><label>v</label> De plebe gentium <supplied reason="omitted" source="#Tischendorf1850">quam</supplied><!-- chk WW --> domum <name><expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>i</expan></name> 
+<lb rend="indent"/>esse disseruit</item>
+<lb/><item><label>vi</label> De terra <add place="above">re</add>promissionis quam <name>iudaeus</name> 
+<lb rend="indent"/>per fidem ingredi exhortat<choice><sic>o</sic><corr source="#Tischendorf1850">u</corr></choice>r</item>
+<lb/><item><label>vii</label> De sacramento diei septimi 
+<lb rend="indent"/>et millensimi anni</item>
+<lb/><item><label>viii</label> De uerbo diuino quod solum potest 
+<lb rend="indent"/>crimina expiare credentium</item>
+<lb/><item><label>viiii</label> De <name>iudaeis</name> quos prae omni<expan>b<am>’</am><ex>us</ex></expan> <name><expan><am>x</am><am rend="supraline">p</am><ex>christu</ex>m</expan></name> 
+<lb rend="indent"/>oportuit uenerari</item>
+<lb/><item><label>x</label> De <name>hebr<reg>a</reg>eis</name> quod ignorauerint <name><expan>d<ex>eu</ex><abbr rend="supraline">m</abbr></expan></name> 
+<lb rend="indent"/>et fuerint sine indicio caeci</item>
+<lb/><item><label>xi</label> De cruce <name><expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>i</expan></name> quam denuo in peccan
+<lb break="no"/>ti<expan>b<am>’</am><ex>us</ex></expan> post paenitentiae in<supplied reason="omitted" source="#Tischendorf1850">dul</supplied>gentiam 
+<lb rend="indent"/>sustinet</item>
+<lb/><item><label>xii</label> De exhortatione ministerii <expan>s<ex>an</ex><abbr rend="supraline">c</abbr><ex>t</ex>o</expan>rum 
+<lb rend="indent"/>et de <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>o</expan></name> iusiurandum</item>
+<lb/><item><label>xiii</label> De filio <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> qui <name>melchisedech</name> 
+<lb rend="indent"/>non inmerito conparatus</item>
+<lb/><item><label>xiiii</label> De inmutatione legis ueteris 
+<lb rend="indent"/>et sacerdotii</item>
+<lb/><item><label>xv</label> De promissione sacerdotii 
+<lb rend="indent"/>melior<choice><sic>e</sic><corr source="#Tischendorf1850">i</corr></choice>s testamenti</item>
+<lb/><item><label>xvi</label> De uno sacerdote qui est in cunctis 
+<lb rend="indent"/>ac ueris sacerdotibus <name><expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>i</expan></name></item>
+<lb/><item><label>xvii</label> De nouo testamento quod fuerit 
+<lb rend="indent"/>iam dudum<!-- leave as 2 words as MS? --> ore prophetico 
+<lb rend="indent"/>repromissum</item>
+<lb/><item><label>xviii</label> De tabernaculo et tabulas 
+<lb rend="indent"/>ueteris testamenti</item>
+<lb/><item><label>xviiii</label> De anniuersali sacrificio quod ex 
+<lb rend="indent"/>deuteronimio sacer<del rend="erased">t</del>dotum 
+<lb rend="indent"/>principes celebrab<choice><sic>u</sic><corr source="#Tischendorf1850">a</corr></choice>nt</item>
+<lb/><item><label>xx</label> De sanguine salutari quod ueteris 
+<lb rend="indent"/>uitae crimina purgat</item>
+<cb n="b"/>
+<lb/><item><label>xxi</label> De nouo testamento per quod <del rend="expunct">per</del>
+<lb rend="indent"/>animas diuino sanguine 
+<lb rend="indent"/>purificar<choice><sic>e</sic><corr source="#Tischendorf1850">i</corr></choice> testatur</item> 
+<lb/><item><label>xxii</label> De saluatore qui soli<surplus source="#Tischendorf1850">u</surplus>s terminum 
+<lb rend="indent"/>peccatis inponentibus apparere 
+<lb rend="indent"/>non cessat</item>
+<lb/><item><label>xxiii</label> De lege ueteri <expan>q<am>’</am><ex>u</ex><supplied reason="omitted" source="#Tischendorf1850">a</supplied><ex>e</ex></expan> noua<supplied reason="omitted" source="#Tischendorf1850">e</supplied> legis typum 
+<lb rend="indent"/>habuit ac habere monstratur</item>
+<lb/><item><label>xxiiii</label> De sacrificio laudis quod est offeren
+<lb break="no"/>dum post indulgentiam peccatorum</item>
+<lb/><item><label>xxv</label> De ex<reg>h</reg>ortatione credentium 
+<lb rend="indent"/>et incredulorum ignis iuge 
+<lb rend="indent"/>supplicium</item>
+<lb/><item><label>xxvi</label> De contemptori<expan>b<am>’</am><ex>us</ex></expan> nouae legis quod 
+<lb rend="indent"/>non temporale ut ueteres sustine
+<lb break="no"/>bunt sed perpetuum supplicium 
+<lb rend="indent"/>mereant</item>
+<lb/><item><label>xxvii</label> De perseuerantia fidei ex<reg>h</reg>ortatio</item>
+<lb/><item><label>xxviii</label> De typis ueteris fidei nouae 
+<lb rend="indent"/>quae proprietatis ex<reg>h</reg>ortatio</item>
+<lb/><item><label>xxviiii</label> De uictoriis ueterum bellatorum 
+<lb rend="indent"/>et strages infirmorum</item>
+<lb/><item><label>xxx</label> De ira inmanum<!-- chk WW --> <name>iudaeorum</name> qua<choice><sic>e</sic><corr source="#Tischendorf1850">m</corr></choice> 
+<lb rend="indent"/>ne in <expan>s<ex>an</ex><abbr rend="supraline">c</abbr><ex>t</ex>os</expan> us<expan>q<am>’</am><ex>ue</ex></expan>qua<expan>q<am>’</am><ex>ue</ex></expan> celebrent</item>
+<lb/><item><label>xxxi</label> De <name><expan>s<abbr rend="supraline">p</abbr><ex>irit</ex>u</expan> <expan>s<ex>an</ex><abbr rend="supraline">c</abbr><ex>t</ex>o</expan></name> e<add place="above">i</add>usdem<expan>q<am>’</am><ex>ue</ex></expan> ueritatis 
+<lb rend="indent"/>doctrina perpe<del rend="expunct">i</del>tua</item>
+<lb/><item><label>xxxii</label> De <name><expan>d<ex>e</ex><abbr rend="supraline">o</abbr></expan></name> quem nullus nisi uixerit 
+<lb rend="indent"/><expan>s<ex>an</ex><abbr rend="supraline">c</abbr><ex>t</ex>ae</expan> uidere ualebit</item>
+<lb/><item><label>xxxiii</label> De paenitentia quae nisi in ista uita 
+<lb rend="indent"/>medellae remedium non potest 
+<lb rend="indent"/>inuenire</item>
+<lb/><item><label>xxxiiii</label> De regno <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> quod praeter pios 
+<lb rend="indent"/>nullus poterit jiossidere</item>
+<lb/><item><label>xxxv</label> De duplici castitate superna 
+<lb rend="indent"/>dumtaxat et humili<surplus source="#Tischendorf1850">s</surplus></item>
+<lb/><item><label>xxxvi</label> De spiritali doctrina<surplus source="#Tischendorf1850">m</surplus> <choice><sic><expan>q<am>’</am><ex>ue</ex></expan></sic><corr source="#Tischendorf1850">quam</corr></choice> <expan>s<ex>an</ex><abbr rend="supraline">c</abbr><ex>t</ex>o</expan>rum 
+<lb rend="indent"/>fore esca<supplied reason="omitted" source="#Tischendorf1850">m</supplied> disseruit</item>
+<lb/><item><label>xxxvii</label> De sollicitudine alterna cleri 
+<lb rend="indent"/>dumtaxat et plebis</item>
+<lb/><item><label>xxxviii</label> De adsump<del rend="expunct">s</del>tione <name><expan>s<abbr rend="supraline">p</abbr><ex>iritu</ex><del rend="expunct">u</del>s</expan> <expan>s<ex>an</ex><abbr rend="supraline">c</abbr><ex>t</ex>i</expan></name> quo<surplus source="#Tischendorf1850">s</surplus> 
+<lb rend="indent"/><supplied reason="omitted" source="#Tischendorf1850">s</supplied>in<supplied reason="omitted" source="#Tischendorf1850">e</supplied> aeterna uita non potest inueniri</item>
+<lb/><item><label>xxxviiii</label> De uerbo s<subst><del rend="alt">a</del><add place="inline">o</add></subst>lacii quem cum <name>timotheo</name> 
+<lb rend="indent"/>una commendat<surplus>:~</surplus></item>
+</list>
+<div type="textpart" subtype="finalRubric">
+<p rend="red rustic-caps">
+<lb/><expan>e<abbr rend="supraline">x</abbr>p<ex>liciunt</ex></expan> capitula
+</p>
+</div>
+</div>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,175 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng"
+type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng"
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:space="preserve">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title xml:lang="la">Capitula</title>
+</titleStmt>
+<publicationStmt>
+<authority>Digital Latin Library</authority>
+<availability>
+<licence target="https://creativecommons.org/licences/by-sa/4.0/">Provided under a Creative Commons Attribution-ShareAlike 4.0 International Licence.</licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<settlement>Florence</settlement>
+<repository>Biblioteca Medicea Laurenziana</repository>
+<collection>Amiatino</collection>
+<idno>1</idno>
+<msName>Codex Amiatinus</msName>
+</msIdentifier>
+</msDesc>
+<listBibl>
+<biblStruct type="book" xml:id="Tischendorf1850" corresp="http://zotero.org/users/254032/items/CCTVHEQ4">
+<monogr>
+<title level="m">Novum Testamentum Latine interprete Hieronymo. Ex celeberrimo Codice Amiatino</title>
+<title type="short">Novum Testamentum Amiatinum</title>
+<author>
+<forename>Constantinus von</forename>
+<surname>Tischendorf</surname>
+</author>
+<imprint>
+<pubPlace>Leipzig</pubPlace>
+<publisher>Avenarius et Mendelssohn</publisher>
+<date>1850</date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct type="book" xml:id="Wordsworth1889" corresp="http://zotero.org/users/254032/items/WCM7IWE8">
+<monogr>
+<title level="m">Nouum Testamentum Domini nostri Iesu Christi Latine, secundum editionem sancti Hieronymi</title>
+<editor>
+<forename>John</forename>
+<surname>Wordsworth</surname>
+</editor>
+<editor>
+<forename>Henry Julian</forename>
+<surname>White</surname>
+</editor>
+<editor>
+<forename>Alexander</forename>
+<surname>Ramsbotham</surname>
+</editor>
+<editor>
+<forename>Hedley F.D.</forename>
+<surname>Sparks</surname>
+</editor>
+<editor>
+<forename>Claude</forename>
+<surname>Jenkins</surname>
+</editor>
+<editor>
+<forename>Arthur White</forename>
+<surname>Adams</surname>
+</editor>
+<imprint>
+<pubPlace>Oxford</pubPlace>
+<publisher>Clarendon Press</publisher>
+<date>1889–1954</date>
+</imprint>
+</monogr>
+</biblStruct>
+</listBibl>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text xml:lang="la">
+<body>
+<div type="textpart" subtype="capitula">
+<list>
+<head rend="red rustic-caps">
+<lb/><expan>in<abbr rend="supraline">cip</abbr><ex>iunt</ex></expan> <expan><abbr rend="supraline">cap</abbr><ex>itula</ex></expan> ad <name>ephesios</name> 
+</head>
+<lb/><item><label>i</label> De <expan>s<ex>an</ex><abbr rend="supraline">c</abbr><ex>t</ex>is</expan> quod ante constitutionem 
+<lb rend="indent"/>mundi in <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>o</expan> <expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>o</expan></name> electi sint et de 
+<lb rend="indent"/>omni sapientia et prudentia sacra
+<lb break="no"/>menti et renouatione omnium 
+<lb rend="indent"/>in <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>o</expan> <expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>o</expan></name> quae in caelis sunt 
+<lb rend="indent"/>et quae in terra</item>
+<lb/><item><label>ii</label> De apostolo pro <name>ephesiis</name> depraecante 
+<lb rend="indent"/>et resuitectione <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name> et a<del rend="erased">i</del>scensu 
+<lb rend="indent"/>et potestate</item>
+<lb/><item><label>iii</label> De principe potestatis aeris huius <expan>s<abbr rend="supraline">p</abbr><ex>iritu</ex>s</expan></item>
+<lb/><item><label>iiii</label> De <name><expan>d<ex>e</ex><abbr rend="supraline">o</abbr></expan></name> per diuitias misericordiae <expan>s<ex>an</ex><abbr rend="supraline">c</abbr><ex>t</ex>os</expan> 
+<lb rend="indent"/>cum <name><expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>o</expan> <expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>o</expan></name> conuiuificante et in 
+<lb rend="indent"/>caelestibus conlocante</item>
+<lb/><item><label>v</label> De <expan>s<ex>an</ex><abbr rend="supraline">c</abbr><ex>t</ex>is</expan> quod non uirtute sua ad <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name> 
+<lb rend="indent"/>grati<expan><abbr rend="supraline">a</abbr><ex>m</ex></expan> ueniant sed dono 
+<lb rend="indent"/>et beneuolentia <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name></item> 
+<lb/><item><label>vi</label> De praeputio et circumcisione</item>
+<lb/><item><label>vii</label> De <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>o</expan></name> legem m<subst><del rend="erased">u</del><add place="inRas">a</add></subst>ndatorum in sententiis 
+<lb rend="indent"/>euacuante ut <add place="inline">d</add>uos conderet 
+<lb rend="indent"/>in semet ipso</item>
+<lb/><item><label>viii</label> De ciuibus sanctorum et domesticis <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> 
+<lb rend="indent"/>et de aedificatione templi</item>
+<lb/><item><label>viiii</label> De mysterio <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name> quod ante passionem 
+<lb rend="indent"/>ipsius generationibus aliis 
+<lb rend="indent"/>non fuerit reuelatum</item>
+<lb/><item><label>x</label> De gloria tribulationis</item>
+<lb/><item><label>xi</label> De omni patre in caelis et in terris 
+<lb rend="indent"/>et homine interiore et plenitudine 
+<lb rend="indent"/>scientiae <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name></item>
+<pb n="972v"/>
+<cb n="a"/>
+<lb/><item><label>xii</label> De <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>o</expan></name> super omnia quam a <expan>s<ex>an</ex><abbr rend="supraline">c</abbr><ex>t</ex>is</expan> petitur 
+<lb rend="indent"/>abundantius largiente</item> 
+<lb/><item><label>xiii</label> De unitate et mutua sustentatione <expan>s<ex>an</ex><abbr rend="supraline">c</abbr><ex>t</ex>or<abbr rend="supraline">u</abbr><ex>m</ex></expan></item>
+<lb/><item><label>xiiii</label> De una fide et unum baptismum</item>
+<lb/><item><label>xv</label> De <add place="inRas">di</add>uersitate gratiae donationis <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> 
+<lb rend="indent"/>et aedificationis corporis <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name> 
+<lb rend="indent"/>et uiro perfecto in mensuram 
+<lb rend="indent"/>aetatis pleni<del rend="erased">d</del>tudinis <name><expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>i</expan></name></item>
+<lb/><item><label>xvi</label> De stultitia gentium et libidine 
+<lb rend="indent"/>et omni turpitudine delictorum</item>
+<lb/><item><label>xvii</label> De exponendo ueterem 
+<lb rend="indent"/>et induendo nouum hominem 
+<lb rend="indent"/>et de mendacio et ueritate</item>
+<lb/><item><label>xviii</label> De ira s<subst><del rend="alt"><unclear>ci</unclear></del><add place="inline">ed</add></subst> innocenti et opera manuum</item>
+<lb/><item><label>xix</label> De abstinentia mali sermonis 
+<lb rend="indent"/>et non contradicendo <name><expan>s<abbr rend="supraline">p</abbr><ex>iritu</ex>m</expan> <expan>s<ex>an</ex><abbr rend="supraline">c</abbr><ex>tu</ex>m</expan></name> 
+<lb rend="indent"/>et de mutua susten<add place="above">ta</add>tione <expan>s<ex>an</ex><abbr rend="supraline">c</abbr><ex>t</ex>o</expan>rum</item>
+<lb/><item><label>xx</label> De dilectione et quod <expan>s<ex>an</ex><abbr rend="supraline">c</abbr><ex>t</ex>i</expan> debeant 
+<lb rend="indent"/><name><expan>d<ex>eu</ex><abbr rend="supraline">m</abbr></expan></name> in omnibus imitari</item>
+<lb/><item><label>xxi</label> De abstinentia scurrilitatis 
+<lb rend="indent"/>et omnium uitiorum</item>
+<lb/><item><label>xxii</label> De seductoribus et inpudicis</item>
+<lb/><item><label>xxiii</label> De cautione uiuendi et sapientia</item>
+<lb/><item><label>xxiiii</label> De subiectione mulierum 
+<lb rend="indent"/>ad maritos</item>
+<lb/><item><label>xxv</label> De uiris ut diligant coniuges suas</item>
+<lb/><item><label>xxvi</label> De obsequio filiorum</item>
+<lb/><item><label>xxvii</label> De parentum erga <subst><del rend="alt">q</del><add place="inline">f</add></subst>ilios temperamento</item>
+<lb/><item><label>xxviii</label> De seruorum obsequio</item>
+<lb/><item><label>xxix</label> De temperamento dominorum</item>
+<lb/><item><label>xxx</label> De indumento armorum <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> 
+<lb rend="indent"/>et insidiis diab<subst><del rend="alt">u</del><add place="inline">o</add></subst>li et conluctatione 
+<lb rend="indent"/>aduersus potestates</item>
+<lb/><item><label>xxxi</label> De fidelitate et m<subst><del rend="alt">u</del><add place="inline">i</add><add place="above">ni</add></subst>sterio <name>tychici</name><surplus>:~</surplus></item>
+</list>
+<div type="textpart" subtype="finalRubric">
+<p>
+<lb/><expan>e<abbr rend="supraline">xp</abbr><ex>liciunt</ex></expan> capitula
+</p>
+</div>
+</div>
+<div type="textpart" subtype="argumentum">
+<head rend="red rustic-caps">
+<lb/>Incipit argumentum 
+</head>
+<p rend="rustic-caps">
+<lb/>Ephesi sunt <name>asiani</name><reg>.</reg> h<add place="inline">i</add> accepto uerbo 
+<lb/>ueritatis perst<choice><orig>e</orig><reg>i</reg></choice>terunt in fide<reg>.</reg> Hos 
+<lb/>conlaudat apostolus scribens eis 
+<lb/>a <name>roma</name> de carcere 
+<lb/>per <name>tychic<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan></name> <expan>di<abbr rend="supraline">ac</abbr><ex>onum</ex></expan><reg>.</reg> 
+</p>
+</div>
+</body>
+</text>
+</TEI>
