@@ -1,0 +1,214 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng"
+type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng"
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title xml:lang="en"></title>
+</titleStmt>
+<publicationStmt>
+<authority>Digital Latin Library</authority>
+<availability>
+<licence target="https://creativecommons.org/licences/by-sa/4.0/">Provided under a Creative Commons Attribution-ShareAlike 4.0 International Licence.</licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier xml:id="A">
+<settlement>Florence</settlement>
+<repository>Biblioteca Medicea Laurenziana</repository>
+<collection>Amiatino</collection>
+<idno>1</idno>
+<msName>Codex Amiatinus</msName>
+</msIdentifier>
+</msDesc>
+<listBibl>
+<biblStruct type="book" xml:id="c" corresp="http://zotero.org/users/254032/items/GB722JVM">
+<monogr>
+<title level="m">Biblia sacra Vulgatae editionis, ex ipsis exemplaribus Vaticanis inter se atque cum indice errorum corrigendorum collatis</title>
+<editor>
+<forename>Michael</forename>
+<surname>Hetzenauer</surname>
+</editor>
+<imprint>
+<pubPlace>Innsbruck</pubPlace>
+<publisher>Wagner</publisher>
+<date>1906</date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct type="book" xml:id="Tischendorf" corresp="http://zotero.org/users/254032/items/CCTVHEQ4">
+<monogr>
+<title level="m">Novum Testamentum Latine interprete Hieronymo. Ex celeberrimo Codice Amiatino</title>
+<title type="short">Novum Testamentum Amiatinum</title>
+<author>
+<forename>Constantinus von</forename>
+<surname>Tischendorf</surname>
+</author>
+<imprint>
+<pubPlace>Leipzig</pubPlace>
+<publisher>Avenarius et Mendelssohn</publisher>
+<date>1850</date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct type="book" xml:id="s" corresp="http://zotero.org/users/254032/items/W6D8WMM3">
+<monogr>
+<title level="m">Biblia Sacra iuxta vulgatam versionem</title>
+<editor>
+<forename>Robert</forename>
+<surname>Weber</surname>
+</editor>
+<editor>
+<forename>Bonifatius</forename>
+<surname>Fischer</surname>
+</editor>
+<editor>
+<forename>Jean</forename>
+<surname>Gribomont</surname>
+</editor>
+<editor>
+<forename>Hedley F.D.</forename>
+<surname>Sparks</surname>
+</editor>
+<editor>
+<forename>Walter</forename>
+<surname>Thiele</surname>
+</editor>
+<editor>
+<forename>Roger</forename>
+<surname>Gryson</surname>
+</editor>
+<edition>5</edition>
+<imprint>
+<pubPlace>Stuttgart</pubPlace>
+<publisher>Deutsche Bibelgesellschaft</publisher>
+<date>2007</date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct type="book" xml:id="o" corresp="http://zotero.org/users/254032/items/WCM7IWE8">
+<monogr>
+<title level="m">Nouum Testamentum Domini nostri Iesu Christi Latine, secundum editionem sancti Hieronymi</title>
+<editor>
+<forename>John</forename>
+<surname>Wordsworth</surname>
+</editor>
+<editor>
+<forename>Henry Julian</forename>
+<surname>White</surname>
+</editor>
+<editor>
+<forename>Alexander</forename>
+<surname>Ramsbotham</surname>
+</editor>
+<editor>
+<forename>Hedley F.D.</forename>
+<surname>Sparks</surname>
+</editor>
+<editor>
+<forename>Claude</forename>
+<surname>Jenkins</surname>
+</editor>
+<editor>
+<forename>Arthur White</forename>
+<surname>Adams</surname>
+</editor>
+<imprint>
+<pubPlace>Oxford</pubPlace>
+<publisher>Clarendon Press</publisher>
+<date>1889–1954</date>
+</imprint>
+</monogr>
+</biblStruct>
+</listBibl>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text xml:lang="la">
+<body>
+<div type="textpart" subtype="book">
+<head rend="rustic-caps red">
+<lb/>incipit <expan>ep<abbr rend="supraline">is</abbr>t<ex>ula</ex></expan> <name><expan>i<abbr rend="supraline">o</abbr>h<ex>annis</ex></expan></name> tertia
+</head>
+<p>
+<lb/><milestone unit="v" n="1"/><hi rend="red">Senior <name>gaio</name> carissimo</hi> 
+<lb rend="indent"/>quem ego diligo in ueritate
+<lb/><milestone unit="v" n="2"/>carissime de omnibus 
+<lb rend="indent"/>orationem facio 
+<lb/>prospere te ingredi et ualere
+<lb/>sicut prospere agit anima tua
+</p><p>
+<lb/><milestone unit="v" n="3"/>Gauisus sum ualde uenienti<expan>b<am>’</am><ex>us</ex></expan> 
+<lb rend="indent"/>fratribus et testimonium 
+<lb rend="indent"/>perhibenti<expan>b<am>’</am><ex>us</ex></expan> ueritati tuae
+<lb/>sicut tu in ueritate ambulas
+<lb/><milestone unit="v" n="4"/>maiorem horum 
+<lb rend="indent"/>non habeo gratiam
+<lb/>quam ut audiam filios meos 
+<lb rend="indent"/>in ueritate ambulantes
+</p>
+<cb n="b"/>
+<p>
+<label type="chapter" rend="red" n="2">ii</label>
+<lb/><milestone unit="v" n="5"/>Carissime fideliter facis 
+<lb rend="indent"/>quicquid operaris in fratres
+<lb/>et hoc in peregrinos
+<lb/><milestone unit="v" n="6"/>qui testimonium reddi
+<lb break="no"/>derunt caritati tuae 
+<lb rend="indent"/>in conspectu ecclesiae
+<lb/>quos bene facies <supplied reason="omitted" source="#s">de</supplied>ducens 
+<lb rend="indent"/>digne <name><expan>d<ex>e</ex><abbr rend="supraline">o</abbr></expan></name>
+<lb/><milestone unit="v" n="7"/>pro nomine enim profecti sunt
+<lb/>nihil accipientes a gentibus
+<lb/><milestone unit="v" n="8"/>nos ergo debemus 
+<lb rend="indent"/>suscipere huiusmodi
+<lb/>ut cooperatores simus 
+<lb rend="indent"/>ueritatis
+</p>
+<p>
+<label type="chapter" rend="red" n="3">iii</label>
+<lb/><milestone unit="v" n="9"/>Scripsissem forsitan 
+<lb rend="indent"/>ecclesiae
+<lb/>sed is qui amat primatum 
+<lb rend="indent"/>ge<choice><sic>n</sic><corr source="#s">r</corr></choice>ere in eis <name>diotrepes</name> 
+<lb rend="indent"/>non recipit nos
+<lb/><milestone unit="v" n="10"/>propter hoc si uenero 
+<lb rend="indent"/>commoneam eius opera 
+<lb rend="indent"/>quae facit uerbis malignis 
+<lb rend="indent"/>garriens in nos
+<lb/>et quasi non ei ista sufficiant
+<lb/>nec ipse suscipit fratres
+<lb/>et eos qui cupiunt prohibet 
+<lb rend="indent"/>et de ecclesia eicit
+</p>
+<p>
+<label type="chapter" rend="red" n="4">iiii</label>
+<lb/><milestone unit="v" n="11"/>Carissime noli imitari mal<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> 
+<lb rend="indent"/>sed quod bonum est
+<lb/>qui benefacit ex <name><expan>d<ex>e</ex><abbr rend="supraline">o</abbr></expan></name> est
+<lb rend="indent"/>qui malefacit non uid<choice><sic>e</sic><corr source="#s">i</corr></choice>t <name><expan>d<ex>eu</ex><abbr rend="supraline">m</abbr></expan></name>
+<lb/><milestone unit="v" n="12"/><name>demetrio</name> testimonium 
+<lb rend="indent"/>redditur ab omnibus
+<lb/>et ab <del rend="erased">a</del>ipsa ueritate
+<lb/>et nos <app><lem source="#o"/><rdg source="#s">autem</rdg></app> testimonium perhibemus
+<lb/>et nosti quoniam testimoni<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> 
+<lb rend="indent"/>nostrum uerum est
+</p>
+<p>
+<label type="chapter" rend="red" n="5">v</label>
+<lb/><milestone unit="v" n="13"/>Multa habui scribere tibi
+<lb/>sed nolui per atramentum 
+<lb rend="indent"/>et calamum scribere tibi
+<lb/><milestone unit="v" n="14"/>spero autem protinus 
+<lb rend="indent"/>te uidere et os ad os loquemur
+<lb/><milestone unit="v" n="15"/>pax tibi salutant te amici
+<lb/>saluta amicos per nomen
+</p>
+</div>
+</body>
+</text>
+</TEI>

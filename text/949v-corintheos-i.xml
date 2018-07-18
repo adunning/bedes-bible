@@ -1,0 +1,2296 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng"
+type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng"
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title xml:lang="en">1 Corinthians</title>
+</titleStmt>
+<publicationStmt>
+<authority>Digital Latin Library</authority>
+<availability>
+<licence target="https://creativecommons.org/licences/by-sa/4.0/">Provided under a Creative Commons Attribution-ShareAlike 4.0 International Licence.</licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier xml:id="A">
+<settlement>Florence</settlement>
+<repository>Biblioteca Medicea Laurenziana</repository>
+<collection>Amiatino</collection>
+<idno>1</idno>
+<msName>Codex Amiatinus</msName>
+</msIdentifier>
+</msDesc>
+<listBibl>
+<biblStruct type="book" xml:id="c" corresp="http://zotero.org/users/254032/items/GB722JVM">
+<monogr>
+<title level="m">Biblia sacra Vulgatae editionis, ex ipsis exemplaribus Vaticanis inter se atque cum indice errorum corrigendorum collatis</title>
+<editor>
+<forename>Michael</forename>
+<surname>Hetzenauer</surname>
+</editor>
+<imprint>
+<pubPlace>Innsbruck</pubPlace>
+<publisher>Wagner</publisher>
+<date>1906</date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct type="book" xml:id="Tischendorf" corresp="http://zotero.org/users/254032/items/CCTVHEQ4">
+<monogr>
+<title level="m">Novum Testamentum Latine interprete Hieronymo. Ex celeberrimo Codice Amiatino</title>
+<title type="short">Novum Testamentum Amiatinum</title>
+<author>
+<forename>Constantinus von</forename>
+<surname>Tischendorf</surname>
+</author>
+<imprint>
+<pubPlace>Leipzig</pubPlace>
+<publisher>Avenarius et Mendelssohn</publisher>
+<date>1850</date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct type="book" xml:id="s" corresp="http://zotero.org/users/254032/items/W6D8WMM3">
+<monogr>
+<title level="m">Biblia Sacra iuxta vulgatam versionem</title>
+<editor>
+<forename>Robert</forename>
+<surname>Weber</surname>
+</editor>
+<editor>
+<forename>Bonifatius</forename>
+<surname>Fischer</surname>
+</editor>
+<editor>
+<forename>Jean</forename>
+<surname>Gribomont</surname>
+</editor>
+<editor>
+<forename>Hedley F.D.</forename>
+<surname>Sparks</surname>
+</editor>
+<editor>
+<forename>Walter</forename>
+<surname>Thiele</surname>
+</editor>
+<editor>
+<forename>Roger</forename>
+<surname>Gryson</surname>
+</editor>
+<edition>5</edition>
+<imprint>
+<pubPlace>Stuttgart</pubPlace>
+<publisher>Deutsche Bibelgesellschaft</publisher>
+<date>2007</date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct type="book" xml:id="o" corresp="http://zotero.org/users/254032/items/WCM7IWE8">
+<monogr>
+<title level="m">Nouum Testamentum Domini nostri Iesu Christi Latine, secundum editionem sancti Hieronymi</title>
+<editor>
+<forename>John</forename>
+<surname>Wordsworth</surname>
+</editor>
+<editor>
+<forename>Henry Julian</forename>
+<surname>White</surname>
+</editor>
+<editor>
+<forename>Alexander</forename>
+<surname>Ramsbotham</surname>
+</editor>
+<editor>
+<forename>Hedley F.D.</forename>
+<surname>Sparks</surname>
+</editor>
+<editor>
+<forename>Claude</forename>
+<surname>Jenkins</surname>
+</editor>
+<editor>
+<forename>Arthur White</forename>
+<surname>Adams</surname>
+</editor>
+<imprint>
+<pubPlace>Oxford</pubPlace>
+<publisher>Clarendon Press</publisher>
+<date>1889–1954</date>
+</imprint>
+</monogr>
+</biblStruct>
+</listBibl>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text xml:lang="la">
+<body>
+<div type="textpart" subtype="book">
+<head rend="rustic-caps">
+<lb/>incipit epistula 
+<lb/><hi rend="red">ad <name>corinthios</name></hi></head>
+<pb n="950r"/>
+<cb n="a"/>
+<label type="chapter" n="1"/>
+<p>
+<lb/><milestone unit="v" n="1.1"/><hi rend="red"><name>Paulus</name> uocatus apostolus 
+<lb rend="indent"/><name><expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>i</expan> <expan>i<am rend="supraline">h</am><ex>es</ex>u</expan></name> per uoluntatem <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name></hi>
+<lb rend="indent"/>et <name>s<subst><del rend="alt">u</del><add place="inline">o</add></subst>sthenes</name><!-- om. S app. --> frater <milestone unit="v" n="1.2"/>ecclesiae 
+<lb rend="indent"/><name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> quae est <name>corinthi</name>
+<lb/>sanctificatis in <name><expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>o</expan> <expan>i<am rend="supraline">h</am><ex>es</ex>u</expan></name> 
+<lb rend="indent"/>uocatis <expan>s<subst><del rend="alt">u</del><add place="overstrike"><ex>an</ex><abbr rend="supraline">c</abbr><ex>t</ex>i</add></subst>s</expan>
+<lb/>cum omnibus qui inuocant 
+<lb rend="indent"/>nomen <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan> <expan>n<ex>ostr</ex><abbr rend="supraline">i</abbr></expan> <expan>i<am rend="supraline">h</am><ex>es</ex>u</expan> <expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>i</expan></name>
+<lb/>in omni loco ipsorum 
+<lb rend="indent"/>et nostro
+<lb/><milestone unit="v" n="1.3"/>gratia uobis et pax a <name><expan>d<ex>e</ex><abbr rend="supraline">o</abbr></expan></name> 
+<lb rend="indent"/><name>patre</name> nostro et <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>o</expan> <expan>i<am rend="supraline">h</am><ex>es</ex>u</expan> <expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>o</expan></name>
+<lb/><milestone unit="v" n="1.4"/>gratias ago <name><expan>d<ex>e</ex><abbr rend="supraline">o</abbr></expan></name> meo semper 
+<lb rend="indent"/>pro uobis
+<lb/>in gratia <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> quae data est 
+<lb rend="indent"/>uobis in <name><expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>o</expan> <expan>i<am rend="supraline">h</am><ex>es</ex>u</expan></name>
+<lb/><milestone unit="v" n="1.5"/>quia in omnibus diuites 
+<lb rend="indent"/>facti estis in illo
+<lb/>in omni uerbo et in omni 
+<lb rend="indent"/>scientia
+<lb/><milestone unit="v" n="1.6"/>sicut testimonium <name><expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>i</expan></name> 
+<lb rend="indent"/>confirmatum <add place="above">est</add><!-- om. S app. --> in uobis
+<lb/><milestone unit="v" n="1.7"/>ita ut nihil uobis desit 
+<lb rend="indent"/>in ulla gratia
+<lb/>expectantibus reuelationem 
+<lb rend="indent"/><name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan> <expan>n<ex>ostr</ex><abbr rend="supraline">i</abbr></expan> <expan>i<am rend="supraline">h</am><ex>es</ex>u</expan> <expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>i</expan></name>
+<lb/><milestone unit="v" n="1.8"/>qui et confirma<choice><sic>u</sic><corr source="#s">b</corr></choice>it uos 
+<lb rend="indent"/>us<expan>q<am>’</am><ex>ue</ex></expan> ad finem sine crimine
+<lb/>in die aduentus <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan> <expan>n<ex>ostr</ex><abbr rend="supraline">i</abbr></expan> <expan>i<am rend="supraline">h</am><ex>es</ex>u</expan> <expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>i</expan></name>
+<lb/><milestone unit="v" n="1.9"/>fidelis <name><expan>d<ex>eu</ex><abbr rend="supraline">s</abbr></expan></name> per quem uocati 
+<lb rend="indent"/>estis in societatem <name>filii</name> eius 
+<lb rend="indent"/><name><expan>i<am rend="supraline">h</am><ex>es</ex>u</expan> <expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>i</expan></name> <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan> <expan>n<ex>ostr</ex><abbr rend="supraline">i</abbr></expan></name>
+</p>
+<p>
+<label type="chapter" rend="red supraline" n="2">ii</label>
+<lb/><milestone unit="v" n="1.10"/><hi rend="red">Ob</hi>secro autem uos fratres 
+<lb rend="indent"/>per nomen <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan> <expan>n<ex>ostr</ex><abbr rend="supraline">i</abbr></expan> <expan>i<am rend="supraline">h</am><ex>es</ex>u</expan> <expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>i</expan></name>
+<lb/>ut id ipsum dicatis omnes
+<lb/><choice><sic>u</sic><corr source="#s">e</corr></choice>t<!-- om. S app. --> non sint in uobis scismata
+<lb/>sitis autem perfecti 
+<lb rend="indent"/>in eodem sensu et in 
+<lb rend="indent"/>eadem <app><lem source="#o">scientia</lem><rdg source="#s">sententia</rdg></app><!-- chk WW -->
+</p>
+<p>
+<label type="chapter" rend="red supraline" n="3">iii</label>
+<lb/><milestone unit="v" n="1.11"/><hi rend="red">Sig</hi>nificatum est enim mihi 
+<lb rend="indent"/>de uobis <space unit="character" n="3"/>fratres mei 
+<lb rend="indent"/>ab his qui sunt <name>c<reg>h</reg>loes</name>
+<lb/>quia contentiones 
+<lb rend="indent"/>inter uos sunt
+<cb n="b"/>
+<lb/><milestone unit="v" n="1.12"/>hoc autem dico
+<lb/>quod unusquisque uestrum 
+<lb rend="indent"/>dicit
+<lb/>ego quidem sum <name>pauli</name>
+<lb/>ego autem <name>apollo</name>
+<lb/>ego uero <name>cephae</name>
+<lb/>ego autem <name><expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>i</expan></name>
+<lb/><milestone unit="v" n="1.13"/>diuisus est <name><expan><am>x</am><am rend="supraline">p</am><ex>christu</ex>s</expan></name>
+<lb/>numquid <name>paulus</name> crucifixus 
+<lb rend="indent"/>est pro uobis
+<lb/>aut in nomine <name>pauli</name> 
+<lb rend="indent"/>baptizati estis
+</p>
+<p>
+<label type="chapter" rend="red supraline" n="4">iiii</label>
+<lb/><milestone unit="v" n="1.14"/><hi rend="red">Gra</hi>tias ago <name><expan>d<ex>e</ex><abbr rend="supraline">o</abbr></expan></name> quod neminem 
+<lb rend="indent"/>uestrum baptizaui
+<lb/>nisi <name>crispum</name> et <name>gaium</name>
+<lb/><milestone unit="v" n="1.15"/>ne quis dicat quod in nomine 
+<lb rend="indent"/>meo baptizati sitis
+<lb/><milestone unit="v" n="1.16"/>baptizaui autem 
+<lb rend="indent"/>et <name>stephanae</name> domum
+<lb/>ceterum nescio si quem 
+<lb rend="indent"/>alium baptizauerim
+<lb/><milestone unit="v" n="1.17"/>non enim misit me <name><expan><am>x</am><am rend="supraline">p</am><ex>christu</ex>s</expan></name> 
+<lb rend="indent"/>baptizare sed euangelizare
+<lb/>non in sapientia uerbi
+<lb/>ut non euacuetur crux <name><expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>i</expan></name>
+</p>
+<p>
+<label type="chapter" rend="red supraline" n="5">v</label>
+<lb/><milestone unit="v" n="1.18"/><hi rend="red">Verbum</hi> enim crucis
+<lb/>pereuntibus quidem 
+<lb rend="indent"/>stultitia est
+<lb/>his autem qui salui fiunt 
+<lb rend="indent"/><choice><sic><del rend="expunct strikethrough">id est nobis</del></sic><corr source="#s">id est nobis</corr></choice> uirtus <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> est
+<lb/><milestone unit="v" n="1.19"/>scriptum est enim
+<lb/>perdam sapientiam 
+<lb rend="indent"/>sapientium
+<lb/>et prudentiam prudentium 
+<lb rend="indent"/>reprobabo
+<lb/><milestone unit="v" n="1.20"/>ubi sapiens <space unit="character" n="3"/>ubi scriba
+<lb/>ubi <app><lem source="#o">inquisitor</lem><rdg source="#s">conquisitor</rdg></app> huius saeculi
+<lb/>nonne stultam fecit <name><expan>d<ex>eu</ex><abbr rend="supraline">s</abbr></expan></name> 
+<lb rend="indent"/>sapientiam huius mundi
+<lb/><milestone unit="v" n="1.21"/>nam quia in <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> sapientia<surplus source="#s">m</surplus> 
+<lb rend="indent"/>non cognouit mundus 
+<lb rend="indent"/>per sapientiam <name><expan>d<ex>eu</ex><abbr rend="supraline">m</abbr></expan></name>
+<lb/>placuit <name><expan>d<ex>e</ex><abbr rend="supraline">o</abbr></expan></name> per stultitiam 
+<lb rend="indent"/>praedicationis saluos facere 
+<pb n="950v"/>
+<cb n="a"/>
+<lb rend="indent"/>credentes
+<lb/><milestone unit="v" n="1.22"/>quoniam et <name>iudaei</name> signa 
+<lb rend="indent"/>petunt
+<lb/>et <name>graeci</name> sapientiam 
+<lb rend="indent"/>quaerunt
+<lb/><milestone unit="v" n="1.23"/>nos autem praedicamus 
+<lb rend="indent"/><name><expan><am>x</am><am rend="supraline">p</am><ex>christu</ex>m</expan></name> crucifixum
+<lb/><name>iudaeis</name> quidem scandalum
+<lb/>gentibus autem stultitiam
+<lb/><milestone unit="v" n="1.24"/>ipsis autem uocatis <name>iudaeis</name> 
+<lb rend="indent"/>atque <name>graecis</name>
+<lb/><name><expan><am>x</am><am rend="supraline">p</am><ex>christu</ex>m</expan></name> <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> uirtutem 
+<lb rend="indent"/>et <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> sapientiam
+<lb/><milestone unit="v" n="1.25"/>quia quod stultum est <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> 
+<lb/>sapientius est hominibus
+<lb/>et quod infirmum est <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> 
+<lb/>fortius est hominibus
+</p>
+<p>
+<label type="chapter" rend="red supraline" n="6">vi</label>
+<lb/><milestone unit="v" n="1.26"/><hi rend="red">Videte</hi> enim uocationem 
+<lb rend="indent"/>uestram fratres
+<lb/>quia non multi sapientes 
+<lb rend="indent"/>secundum carnem
+<lb/>non multi potentes
+<lb/>non multi nobiles
+<lb/><milestone unit="v" n="1.27"/>sed quae stulta sunt 
+<lb rend="indent"/>mundi elegit <name><expan>d<ex>eu</ex><abbr rend="supraline">s</abbr></expan></name>
+<lb/>ut confundat sapientes
+<lb/>et infirma mundi elegit <name><expan>d<ex>eu</ex><abbr rend="supraline">s</abbr></expan></name>
+<lb/>ut confundat fortia
+<lb/><milestone unit="v" n="1.28"/>et ignobilia mundi et con
+<lb break="no"/>temptibilia elegit <name><expan>d<ex>eu</ex><abbr rend="supraline">s</abbr></expan></name> 
+<lb rend="indent"/>et quae non sunt
+<lb/>ut ea quae sunt destrueret
+<lb/><milestone unit="v" n="1.29"/>ut non glorietur omnis caro 
+<lb rend="indent"/>in conspectu eius
+<lb/><milestone unit="v" n="1.30"/>ex ipso autem uos estis 
+<lb rend="indent"/>in <name><expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>o</expan> <expan>i<am rend="supraline">h</am><ex>es</ex>u</expan></name>
+<lb/>qui factus est sapientia 
+<lb rend="indent"/>nobis a <name><expan>d<ex>e</ex><abbr rend="supraline">o</abbr></expan></name>
+<lb/>e<subst><del rend="erased">x</del><add place="inRas">t</add></subst><!-- om. S app. --> iustitia et <expan>s<ex>an</ex><abbr rend="supraline">c</abbr><ex>t</ex>i</expan>ficatio 
+<lb rend="indent"/>et redemptio
+<lb/><milestone unit="v" n="1.31"/>ut quemadmodum 
+<lb rend="indent"/>scriptum est
+<lb/>qui gloriatur in <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>o</expan></name> 
+<lb rend="indent"/>glorietur
+<cb n="b"/>
+</p>
+<p>
+<label type="chapter" rend="red supraline" n="7">vii</label>
+<lb/><milestone unit="v" n="2.1"/><hi rend="red">Et</hi> ego cum uenissem 
+<lb rend="indent"/>ad uos fratres
+<lb/>ueni non per sublimitat<expan><abbr rend="supraline">e</abbr><ex>m</ex></expan> 
+<lb rend="indent"/>sermonis aut sapientiae
+<lb/>adnuntians uobis testi
+<lb break="no"/>monium <name><expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>i</expan></name>
+<lb/><milestone unit="v" n="2.2"/>non enim iudicaui <app><lem source="#c #o">me scire</lem><rdg source="#s">scire me</rdg></app> 
+<lb rend="indent"/>aliquid inter uos nisi <name><app><lem source="#o"><expan><am>x</am><am rend="supraline">p</am><ex>christu</ex>m</expan> <expan>i<am rend="supraline">h</am><ex>esu</ex>m</expan></lem><rdg source="#s">iesum christum</rdg></app></name>
+<lb/>et hunc crucifixum
+<lb/><milestone unit="v" n="2.3"/>et ego in infirmitate et timore 
+<lb rend="indent"/>et tremore multo fui 
+<lb rend="indent"/>apu<choice><orig>t</orig><reg>d</reg></choice> uos
+<lb/><milestone unit="v" n="2.4"/>et sermo meus et praedicatio 
+<lb rend="indent"/>mea non in persuasi<choice><sic>one</sic><corr source="#s">bilibus</corr></choice> 
+<lb rend="indent"/>sapientiae uerbi<supplied reason="omitted" source="#s">s</supplied>
+<lb/>sed in ostensione <name><expan>s<abbr rend="supraline">p</abbr><ex>iritu</ex>s</expan></name> 
+<lb rend="indent"/>et uirtutis
+<lb/><milestone unit="v" n="2.5"/>ut fides uestra non sit 
+<lb rend="indent"/>in sapientia hominum
+<lb/>sed in uirtute <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name>
+</p><p>
+<lb/><milestone unit="v" n="2.6"/>Sapientiam autem loquimur 
+<lb rend="indent"/>inter perfectos
+<lb/>sapientiam uero 
+<lb rend="indent"/>non huius saeculi
+<lb/>neque principum huius <expan>s<ex>ae</ex><abbr rend="supraline">c</abbr><ex>u</ex><abbr rend="supraline">l</abbr>i</expan> 
+<lb rend="indent"/>qui destruuntur
+<lb/><milestone unit="v" n="2.7"/>sed loquimur <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> sapientiam 
+<lb rend="indent"/>in mysterio quae abscon
+<lb break="no"/>dita est
+<lb/>quam praedestinauit <name><expan>d<ex>eu</ex><abbr rend="supraline">s</abbr></expan></name> 
+<lb rend="indent"/>ante saecula in gloriam nostr<expan><abbr rend="supraline">a</abbr><ex>m</ex></expan>
+<lb/><milestone unit="v" n="2.8"/>quam nemo principum 
+<lb rend="indent"/>huius saeculi cognouit
+<lb/>si enim cognouissent
+<lb/>numquam <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>m</expan></name> gloriae 
+<lb rend="indent"/>crucifixissent
+</p>
+<p>
+<label type="chapter" rend="red supraline" n="8">viii</label>
+<lb/><milestone unit="v" n="2.9"/><hi rend="red">Sed</hi> sicut scriptum est
+<quote rend="sidequotes"><lb/>quod oculus non uidit 
+<lb rend="indent"/>nec auris audiuit nec in cor 
+<lb rend="indent"/>hominis ascendit
+<lb/>quae praeparauit <name><expan>d<ex>eu</ex><abbr rend="supraline">s</abbr></expan></name> 
+<lb rend="indent"/>his qui diligunt illum</quote>
+</p>
+<p>
+<label type="chapter" rend="red supraline" n="9">viiii</label>
+<lb/><milestone unit="v" n="2.10"/><hi rend="red">Nobis</hi> autem reuela<choice><sic>b</sic><corr source="#s">u</corr></choice>it<!-- om. S app. --> <name><expan>d<ex>eu</ex><abbr rend="supraline">s</abbr></expan></name> 
+<lb rend="indent"/>per <name><expan>s<abbr rend="supraline">p</abbr><ex>iritu</ex>m</expan></name> suum
+<gb n="120"/>
+<pb n="951r"/>
+<cb n="a"/>
+<lb/><name><expan>s<abbr rend="supraline">p</abbr><ex>iritu</ex>s</expan></name> enim omnia scrutatur 
+<lb rend="indent"/>etiam profunda <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name>
+<lb/><milestone unit="v" n="2.11"/>quis enim scit hominum 
+<lb rend="indent"/>quae sint hominis
+<lb/>nisi <expan>s<abbr rend="supraline">p</abbr><ex>iritu</ex>s</expan> hominis 
+<lb rend="indent"/>qui in ipso est
+<lb/>ita et quae <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> sunt nemo 
+<lb rend="indent"/>cognouit nisi <name><expan>s<abbr rend="supraline">p</abbr><ex>iritu</ex>s</expan></name> <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name>
+</p>
+<p>
+<label type="chapter" rend="red supraline" n="10">x</label>
+<lb/><milestone unit="v" n="2.12"/><hi rend="red">Nos</hi> autem non <expan>s<abbr rend="supraline">p</abbr><ex>iritu</ex>m</expan> <app><lem source="#c">huius</lem><rdg source="#s"/></app> 
+<lb rend="indent"/>mundi accepimus
+<lb/>sed <name><expan>s<abbr rend="supraline">p</abbr><ex>iritu</ex>m</expan></name> qui ex <name><expan>d<ex>e</ex><abbr rend="supraline">o</abbr></expan></name> est
+<lb/>ut sciamus quae a <name><expan>d<ex>e</ex><abbr rend="supraline">o</abbr></expan></name> 
+<lb rend="indent"/>donata sunt nobis
+<lb/><milestone unit="v" n="2.13"/>quae et loquimur non in 
+<lb rend="indent"/>doctis humanae sapien
+<lb break="no"/>tiae uerbis
+<lb/>sed in doctrina <name><expan>s<abbr rend="supraline">p</abbr><ex>iritu</ex>s</expan></name> 
+<lb rend="indent"/><surplus source="#s">et uirtutis</surplus>
+<lb/>spiritalibus spiritalia 
+<lb rend="indent"/>conparantes
+<lb/><milestone unit="v" n="2.14"/>animalis autem homo 
+<lb rend="indent"/>non percipit ea quae sunt <name><expan>s<abbr rend="supraline">p</abbr><ex>iritu</ex>s</expan></name> <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name>
+<lb/>stultitia est enim illi
+<lb/>et non potest intellegere 
+<lb rend="indent"/>quia spiritaliter examina<del rend="expunct">ui</del>tur<!-- om. S app. -->
+<lb/><milestone unit="v" n="2.15"/>spiritalis autem iudicat omnia
+<lb/><add place="left">et</add> ipse a nemine iudicatur
+<quote rend="sidequotes"><lb/><milestone unit="v" n="2.16"/>quis enim cognouit sensum 
+<lb rend="indent"/><name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name> qui instruat eum</quote>
+<lb/>nos autem sensum <name><expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>i</expan></name> 
+<lb rend="indent"/>habemus
+</p>
+<p>
+<label type="chapter" rend="red supraline" n="11">xi</label>
+<lb/><milestone unit="v" n="3.1"/><hi rend="red">Et</hi> ego fratres non potui 
+<lb rend="indent"/>uobis loqui quasi spiritalibus
+<lb/>sed quasi carnalibus
+<lb/>tamquam <subst><del rend="alt">in <name><expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>o</expan></name> paruulis</del><add place="inline">paruulis in <name><expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>o</expan></name></add></subst><!-- transpose --><!-- om. S app. --> 
+<lb/><milestone unit="v" n="3.2"/>lac uobis potum dedi non esc<expan><abbr rend="supraline">a</abbr><ex>m</ex></expan>
+<lb/>nondum enim poteratis
+<lb/>sed <app><lem source="#c #o">nec</lem><rdg source="#s">ne</rdg></app> nun<add place="inline">c</add> quidem potestis
+<lb/>adhuc enim estis carnales
+<lb/><milestone unit="v" n="3.3"/>cum enim sit inter uos 
+<lb rend="indent"/>zelus et contentio
+<lb/>nonne carnales estis 
+<lb rend="indent"/>et secundum hominem 
+<lb rend="indent"/>ambulatis
+<cb n="b"/>
+<lb/><milestone unit="v" n="3.4"/>cum enim quis dicit
+<lb/>ego quidem sum <name>pauli</name>
+<lb/>alius autem ego <name>apollo</name>
+<lb/>nonne homines estis
+<lb/>quid igitur est <name>apollo</name>
+<lb/>quid uero <name>paulus</name>
+<lb/><milestone unit="v" n="3.5"/>ministri eius cui credidistis
+<lb/>et unicui<expan>q<am>’</am><ex>ue</ex></expan> sicut <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>s</expan></name> dedit
+</p><p>
+<lb/><milestone unit="v" n="3.6"/>Ego plantaui <name>apollo</name> rigauit
+<lb/>sed <name><expan>d<ex>eu</ex><abbr rend="supraline">s</abbr></expan></name> incrementum dedit
+<lb/><milestone unit="v" n="3.7"/>itaque neque qui plantat 
+<lb rend="indent"/>est aliquid
+<lb/>neque qui rigat
+<lb/>sed qui incrementum dat <name><expan>d<ex>eu</ex><abbr rend="supraline">s</abbr></expan></name>
+<lb/><milestone unit="v" n="3.8"/>qui plantat autem et qui 
+<lb rend="indent"/>rigat unum sunt
+<lb/>unusquisque autem propri<expan><abbr rend="supraline">a</abbr><ex>m</ex></expan> 
+<lb rend="indent"/>mercedem accipiet 
+<lb rend="indent"/>secundum suum laborem
+</p>
+<p>
+<label type="chapter" rend="red supraline" n="12">xii</label>
+<lb/><milestone unit="v" n="3.9"/><hi rend="red"><name><expan>D<ex>e</ex><abbr rend="supraline">i</abbr></expan></name></hi> enim sumus adiutores
+<lb/><name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> agricultura estis
+<lb/><name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> aedificatio estis
+<lb/><milestone unit="v" n="3.10"/>secundum gratiam <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> 
+<lb rend="indent"/>quae data est mihi
+<lb/>ut sapiens architectus 
+<lb rend="indent"/>fundamentum posui
+<lb/>alius autem superaedificat
+<lb/>unusquisque autem uideat 
+<lb rend="indent"/>quomodo superaedificet
+<lb/><milestone unit="v" n="3.11"/>fundamentum enim aliu<choice><orig>d</orig><reg>t</reg></choice> 
+<lb rend="indent"/>nemo potest ponere 
+<lb rend="indent"/>praeter id quod positum 
+<lb rend="indent"/>est <app><lem source="#c">quod</lem><rdg source="#s">qui</rdg></app> est <name><expan><am>x</am><am rend="supraline">p</am><ex>christu</ex>s</expan> <expan>i<am rend="supraline">h</am><ex>esu</ex>s</expan></name>
+</p><p>
+<lb/><milestone unit="v" n="3.12"/>Si quis autem superaedifi
+<lb break="no"/>cat supra fundamentum hoc
+<lb/>aurum argentum 
+<lb/>lapides pretiosos
+<lb/>ligna faenum stipulam
+<lb/><milestone unit="v" n="3.13"/>uniuscuiusque opus 
+<lb rend="indent"/>manifestum erit
+<lb/>dies enim declara<choice><sic>u</sic><corr source="#s">b</corr></choice>it
+<lb/>quia in igne reuelabitur
+<lb/>et uniuscuiusque opus 
+<lb rend="indent"/>quale sit ignis probabit
+<pb n="951v"/>
+<cb n="a"/>
+<lb/><milestone unit="v" n="3.14"/>si cuius opus manserit 
+<lb rend="indent"/>quod superaedificauit
+<lb/>mercedem accipiet
+<lb/><milestone unit="v" n="3.15"/>si cuius opus arserit
+<lb rend="indent"/>detrimentum patietur
+<lb/>ipse autem saluus erit
+<lb/>sic tamen quasi per ignem
+</p>
+<p>
+<label type="chapter" rend="red supraline" n="13">xiii</label>
+<lb/><milestone unit="v" n="3.16"/><hi rend="red">Nescitis</hi> quia templum <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> 
+<lb rend="indent"/>estis et <name><expan>s<abbr rend="supraline">p</abbr><ex>iritu</ex>s</expan></name> <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> habitat in uobis
+<lb/><milestone unit="v" n="3.17"/>si quis autem templum <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> 
+<lb rend="indent"/>uiolauerit
+<lb/>disperd<choice><sic>i</sic><corr source="#s">e</corr></choice>t illum <name><expan>d<ex>eu</ex><abbr rend="supraline">s</abbr></expan></name>
+<lb/>templum enim <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> <expan>s<ex>an</ex><abbr rend="supraline">c</abbr><ex>tu</ex>m</expan> est 
+<lb rend="indent"/>quod estis uos
+</p>
+<p>
+<label type="chapter" rend="red supraline" n="13">xiii</label>
+<lb/><milestone unit="v" n="3.18"/><hi rend="red">Nemo</hi> <choice><sic>uos</sic><corr source="#s">se</corr></choice> seducat
+<lb/>si quis uidetur inter uos 
+<lb rend="indent"/>sapiens esse in hoc saeculo
+<lb/>stultus fiat ut sit sapiens
+<lb/><milestone unit="v" n="3.19"/>sapientia<del rend="erased">m</del><!-- om. S app. --> enim huius mundi 
+<lb rend="indent"/>stultitia est apu<choice><orig>t</orig><reg>d</reg></choice> <name><expan>d<ex>eu</ex><abbr rend="supraline">m</abbr></expan></name>
+<lb/>scriptum est enim
+<lb/>conprehendam sapientes 
+<lb rend="indent"/>in astutia eorum
+<lb/><milestone unit="v" n="3.20"/>et iterum
+<lb/><name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>s</expan></name> nouit cogitationes <choice><sic>homi
+<lb break="no"/>num</sic><corr source="#s">sapientium</corr></choice> quoniam uanae sunt
+</p>
+<p>
+<label type="chapter" rend="red supraline" n="15">xv</label>
+<lb/><milestone unit="v" n="3.21"/><hi rend="red">Itaque</hi> nemo glorietur 
+<lb rend="indent"/>in hominibus
+<lb/>omnia enim uestra sunt
+<lb/><milestone unit="v" n="3.22"/>siue <name>paulus</name> <!-- tabbing --><space unit="character" n="4"/>siue <name>apollo</name>
+<lb/>siue <name>cephas</name> <space unit="character" n="4"/>siue mundus
+<lb/>siue uita <space unit="character" n="4"/>siue mors
+<lb/>siue praesentia <space unit="character" n="4"/>siue futura
+<lb/>omnia enim uestra sunt
+<lb/><milestone unit="v" n="3.23"/>uos autem <name><expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>i</expan></name>
+<lb/><name><expan><am>x</am><am rend="supraline">p</am><ex>christu</ex>s</expan></name> autem <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name>
+</p>
+<p>
+<label type="chapter" rend="red supraline" n="16">xvi</label>
+<lb/><milestone unit="v" n="4.1"/><hi rend="red">Sic</hi> nos existimet homo 
+<lb rend="indent"/>ut ministros <name><expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>i</expan></name>
+<lb/>et dispensatores mysterior<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name>
+<lb/><milestone unit="v" n="4.2"/>hic iam quaeritur inter 
+<lb rend="indent"/>dispensatores 
+<lb/>ut fidelis quis inueniatur
+<lb/><milestone unit="v" n="4.3"/>mihi autem pro minimo est 
+<lb rend="indent"/>ut a uobis iudicer 
+<cb n="b"/>
+<lb/>aut ab humano die
+<lb/>sed neque <surplus source="#s">ego</surplus> me ipsum iudico
+<lb/><milestone unit="v" n="4.4"/>nihil enim mihi conscius sum
+<lb/>sed non in hoc iustificatus sum
+<lb/>qui autem iudicat me <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>s</expan></name> est
+<lb/><milestone unit="v" n="4.5"/>itaque nolite ante tempus 
+<lb rend="indent"/>iudicare
+</p><p>
+<lb/><hi rend="dropcap2">Q</hi>uoadusque ueniat <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>s</expan></name>
+<lb rend="indent"/>qui et inluminabit 
+<lb rend="indent"/>abscondita tenebrarum
+<lb/>et manifesta<choice><sic>u</sic><corr source="#s">b</corr></choice>it consilia 
+<lb rend="indent"/>cordium
+<lb/>et tunc laus erit 
+<lb rend="indent"/>unicuique a <name><expan>d<ex>e</ex><abbr rend="supraline">o</abbr></expan></name>
+</p>
+<p>
+<label type="chapter" rend="red supraline" n="17">xvii</label>
+<lb/><milestone unit="v" n="4.6"/><hi rend="red">Haec</hi> autem fratres trans
+<lb break="no"/>figuraui in me et <name>apollo</name> 
+<lb/>propter uos
+<lb/>ut in nobis discatis
+<lb/>ne supra quam scriptum est
+<lb/>unus aduersus alterum 
+<lb rend="indent"/>infletur pro alio
+<lb/><milestone unit="v" n="4.7"/>quis enim te discernit
+<lb/>quid autem habes quod 
+<lb rend="indent"/>non accepisti
+<lb/>si autem accepisti
+<lb/>quid gloriaris quasi 
+<lb rend="indent"/>non acceperis
+<lb/><milestone unit="v" n="4.8"/>iam saturati estis
+<lb/>iam diuites facti estis
+<lb/>sine nobis regnastis
+<lb/>et utinam regnaretis
+<lb/>ut et nos uobiscum regnaremus
+</p>
+<p>
+<label type="chapter" rend="red supraline" n="18">xviii</label>
+<lb/><milestone unit="v" n="4.9"/><hi rend="red">Puto</hi> enim <choice><sic>nos <name><expan>d<ex>eu</ex><abbr rend="supraline">s</abbr></expan></name></sic><corr source="#s"><name>deus</name> nos</corr></choice> <choice><sic>nouissimos 
+<lb rend="indent"/>apostolos</sic><corr source="#s">apostolos nouissimos</corr></choice> ostendit 
+<lb rend="indent"/>tamquam morti destinatos
+<lb/>quia spectaculum facti sumus 
+<lb rend="indent"/>mundo
+<lb/>et angelis et hominibus
+<lb/><milestone unit="v" n="4.10"/>nos stulti propter <name><expan><am>x</am><am rend="supraline">p</am><ex>christu</ex>m</expan></name>
+<lb/>uos autem prudentes in <name><expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>o</expan></name>
+<lb/>nos infirmi
+<lb/>uos autem fortes
+<lb/>uos nobiles
+<lb/>nos autem ignobiles
+<pb n="952r"/>
+<cb n="a"/>
+<lb/><milestone unit="v" n="4.11"/>usque in hanc <supplied reason="omitted" source="#s">h</supplied>oram
+<lb/>et esurimus et sitimus
+<lb/>et nudi sumus
+<lb/>et colaphis <del rend="erased"><unclear>et</unclear></del> cędimur
+<lb/>et instabiles sumus
+<lb/><milestone unit="v" n="4.12"/>et laboramus operan
+<lb break="no"/>tes manibus nostris
+<lb/>maledicimur et benedicimus
+<lb/>persecutionem patimur 
+<lb rend="indent"/>et sustinemus
+<lb/><milestone unit="v" n="4.13"/>blasphemamur et obsecramus
+<lb/>tamquam purgamenta 
+<lb rend="indent"/>huius mundi facti sumus
+<lb rend="indent"/>omnium peripsima 
+<lb rend="indent"/>usque adhuc
+</p><p>
+<lb/><milestone unit="v" n="4.14"/>Non ut confundam uos 
+<lb rend="indent"/>haec scribo
+<lb/>sed ut filios meos carissi
+<lb break="no"/>mos moneo
+</p>
+<p>
+<label type="chapter" rend="red supraline" n="19">xix</label>
+<lb/><milestone unit="v" n="4.15"/><hi rend="red">Nam</hi> si decem milia peda<add place="above">go</add>gor<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan><!-- om. S app. --> 
+<lb rend="indent"/>habeatis in <name><expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>o</expan></name>
+<lb/>sed non multos patres
+<lb/>nam in <name><expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>o</expan> <expan>i<am rend="supraline">h</am><ex>es</ex>u</expan></name> per euangeli<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> 
+<lb rend="indent"/>ego uos genui
+</p><p>
+<lb/><milestone unit="v" n="4.16"/>Rogo ergo uos imitatores 
+<lb rend="indent"/>mei estote
+<lb/><milestone unit="v" n="4.17"/>ideo misi ad uos <name>timotheum</name>
+<lb/>qui est filius meus carissimus 
+<lb rend="indent"/>et fidelis in <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>o</expan></name>
+<lb/>qui uos commonefaciat 
+<lb rend="indent"/>uias meas quae sunt in <name><expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>o</expan></name>
+<lb/>sicut ubique in omni 
+<lb rend="indent"/>ecclesia doceo
+</p>
+<p>
+<label type="chapter" rend="red supraline" n="20">xx</label>
+<lb/><milestone unit="v" n="4.18"/><hi rend="red">Tam</hi>quam non uenturus 
+<lb rend="indent"/>sim ad uos
+<lb/>sic inflati sunt quidam
+<lb/><milestone unit="v" n="4.19"/>ueniam autem cito ad uos 
+<lb rend="indent"/>si <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>s</expan></name> uoluerit
+<lb/>et cognoscam non sermon<expan><abbr rend="supraline">e</abbr><ex>m</ex></expan> 
+<lb rend="indent"/>eorum qui inflati sunt 
+<lb rend="indent"/>sed uirtutem
+<lb/><milestone unit="v" n="4.20"/>non enim in sermone est 
+<lb rend="indent"/>regnum <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> sed in uirtute
+</p><p>
+<lb/><milestone unit="v" n="4.21"/>Quid uultis in uirga ueni<expan><abbr rend="supraline">a</abbr><ex>m</ex></expan> ad uos
+<cb n="b"/>
+<lb/><choice><sic>aut</sic><corr source="#s">an</corr></choice> in caritate et <expan>s<abbr rend="supraline">p</abbr><ex>irit</ex>u</expan> 
+<lb rend="indent"/>mansuetudinis
+</p>
+<p>
+<label type="chapter" rend="red supraline" n="21">xxi</label>
+<lb/><milestone unit="v" n="5.1"/><hi rend="red">Omnino</hi> auditur inter uos 
+<lb rend="indent"/>fornicatio
+<lb/>et talis fornicatio qual<choice><sic>e</sic><corr source="#s">i</corr></choice>s<!-- om. S app. --> 
+<lb rend="indent"/>nec inter gentes
+<lb/>ita ut uxorem patris 
+<lb rend="indent"/>aliquis habeat
+<lb/><milestone unit="v" n="5.2"/>et uos inflati estis
+<lb/>et non magis luctum habuistis 
+<lb rend="indent"/>ut toll<choice><sic>ere</sic><corr source="#s">a</corr></choice>tur de medio 
+<lb rend="indent"/>uestrum qui hoc opus fecit
+</p>
+<p>
+<label type="chapter" rend="red supraline" n="22">xxii</label>
+<lb/><milestone unit="v" n="5.3"/><hi rend="red">Ego</hi> quidem absens corpore
+<lb/>praesens autem <expan>s<abbr rend="supraline">p</abbr><ex>irit</ex>u</expan>
+<lb/>iam iudicaui ut praesens 
+<lb/>eum qui sic operatus est
+<lb/><milestone unit="v" n="5.4"/>in nomine <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan> <expan>n<ex>ostr</ex><abbr rend="supraline">i</abbr></expan> <expan>i<am rend="supraline">h</am><ex>es</ex>u</expan> <expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>i</expan></name> congregatis uobis 
+<lb/>et meo spiritu 
+<lb/>cum uirtute <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan> <expan>i<am rend="supraline">h</am><ex>es</ex>u</expan></name>
+<lb/><milestone unit="v" n="5.5"/>tradere huiusmodi <name>satanae</name> 
+<lb rend="indent"/>in interitum carnis
+<lb/>ut <expan>s<abbr rend="supraline">p</abbr><ex>iritu</ex>s</expan> saluus sit in die <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan> <expan>i<am rend="supraline">h</am><ex>es</ex>u</expan></name>
+</p>
+<p>
+<label type="chapter" rend="red supraline" n="23">xxiii</label>
+<lb/><milestone unit="v" n="5.6"/><hi rend="red">Non</hi> bona gloriatio uestra
+<lb/>nescitis quia modicum 
+<lb rend="indent"/>fermentum totam massam 
+<lb rend="indent"/>corrumpit
+</p><p>
+<lb/><milestone unit="v" n="5.7"/>Expurgate uetus fermentum
+<lb/>ut sitis noua consparsio 
+<lb/>sicut estis azymi
+<lb/>etenim pascha nostrum 
+<lb rend="indent"/>immolatus est <name><expan><am>x</am><am rend="supraline">p</am><ex>christu</ex>s</expan></name>
+<lb/><milestone unit="v" n="5.8"/>itaque epulemur non in 
+<lb rend="indent"/>fermento ueteri
+<lb/>neque in fermento malitiae 
+<lb rend="indent"/>et nequitiae
+<lb/>sed in azymis sinceritatis 
+<lb rend="indent"/>et ueri<add place="above">ta</add>tis
+</p>
+<p>
+<label type="chapter" rend="red supraline" n="24">xxiiii</label>
+<lb/><milestone unit="v" n="5.9"/><hi rend="red">Scripsi</hi> uobis in epistula 
+<lb rend="indent"/>ne commisceamini forni<add place="right">cariis <choice><orig>·</orig><reg><lb/></reg></choice><milestone unit="v" n="5.10"/>non utique forni</add>cariis h<add place="above">u</add>ius mundi
+<lb/>aut auaris <space unit="character" n="3"/>aut rapacibus
+<lb/>aut idolis seruientibus
+<lb/>alioquin debueratis 
+<pb n="952v"/>
+<cb n="a"/>
+<lb rend="indent"/>de hoc mundo exisse
+<lb/><milestone unit="v" n="5.11"/>nunc autem scripsi uobis 
+<lb rend="indent"/>non commisceri
+<lb/>si <del rend="expunct strikethrough">h</del>is qui frater nominatur 
+<lb/>est fornicator
+<lb/>aut auarus <space unit="character" n="3"/>aut idolis seruiens
+<lb/>aut maledicus <space unit="character" n="3"/>aut ebriosus 
+<lb/>aut rapax <space unit="character" n="4"/>cum eiusmodi 
+<lb rend="indent"/>nec cibum sumere
+<lb/><milestone unit="v" n="5.12"/>quid enim mihi de his qui foris 
+<lb rend="indent"/>sunt iudicare
+<lb/>nonne de his qui intus sunt 
+<lb rend="indent"/>uos iudicatis
+<lb/><milestone unit="v" n="5.13"/>nam eos qui foris sunt 
+<lb rend="indent"/><name><expan>d<ex>eu</ex><abbr rend="supraline">s</abbr></expan></name> iudicabit
+<lb/>auferte malum ex uobis ipsis
+</p>
+<p>
+<label type="chapter" rend="red supraline" n="25">xxv</label>
+<lb/><milestone unit="v" n="6.1"/><hi rend="red">Audet</hi> aliquis uestrum 
+<lb rend="indent"/>habens negotium 
+<lb rend="indent"/>aduersus alterum
+<lb/>iudicari apu<choice><orig>t</orig><reg>d</reg></choice> iniquos 
+<lb/>et non apu<choice><orig>t</orig><reg>d</reg></choice> sanctos
+<lb/><milestone unit="v" n="6.2"/>an nescitis quoniam <expan>s<ex>an</ex><abbr rend="supraline">c</abbr><ex>t</ex>i</expan> 
+<lb rend="indent"/>de mundo iudicabunt
+<lb/>et si in uobis iudicabitur 
+<lb rend="indent"/>mundus
+<lb/>indigni estis qui de minimis 
+<lb rend="indent"/>iudicetis
+<lb/><milestone unit="v" n="6.3"/>nescitis quoniam angelos 
+<lb rend="indent"/>iudicabimus
+<lb/>quanto magis saecularia
+<lb/><milestone unit="v" n="6.4"/>saecularia igitur iudicia 
+<lb rend="indent"/>si habueritis
+<lb/>contemptibiles qui sunt 
+<lb rend="indent"/>in ecclesia illos constitui
+<lb break="no"/>te ad iudicandum
+<lb/><milestone unit="v" n="6.5"/>ad uerecundiam uestram dico
+<lb/>sic non est inter uos sapiens 
+<lb rend="indent"/>quisquam 
+<lb/>qui possit iudicare inter 
+<lb rend="indent"/>fratrem suum
+<lb/><milestone unit="v" n="6.6"/>sed frater cum fratre 
+<lb rend="indent"/>iudicio contendit
+<lb/>et hoc apu<choice><orig>t</orig><reg>d</reg></choice> infideles
+</p>
+<p>
+<label type="chapter" rend="red supraline" n="26">xxvi</label>
+<lb/><milestone unit="v" n="6.7"/><hi rend="red">Iam</hi> quidem omnino 
+<cb n="b"/>
+<lb rend="indent"/>delictum est in uobis 
+<lb rend="indent"/>quod iudicia habetis inter uos
+<lb/>quare non magis iniuriam 
+<lb rend="indent"/>accipitis
+<lb/>quare non magis 
+<lb rend="indent"/>fraudem patimini
+<lb/><milestone unit="v" n="6.8"/>sed uos iniuriam facitis 
+<lb rend="indent"/>et fraudatis et hoc fratri<expan>b<am>’</am><ex>us</ex></expan>
+</p>
+<p>
+<label type="chapter" rend="red supraline" n="27">xxvii</label>
+<lb/><milestone unit="v" n="6.9"/><hi rend="red">An</hi> nescitis quia iniqui 
+<lb rend="indent"/>regnum <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> non possidebunt
+<lb/>nolite errare
+<lb/>neque fornicarii
+<lb/>neque idolis seruientes
+<lb/>neque adulteri
+<lb/><milestone unit="v" n="6.10"/>neque molles
+<lb/>neque masculorum 
+<lb rend="indent"/>concubitores
+<lb/>neque fures <space unit="character" n="3"/>neque auari
+<lb/>neque ebriosi
+<lb/>neque maledici
+<lb/>neque rapaces
+<lb/>regnum <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> possidebunt
+</p><p>
+<lb/><milestone unit="v" n="6.11"/>Et haec quidam fuistis
+<lb/>sed abluti estis
+<lb/>sed sanctificati estis
+<lb/>sed iustificati estis
+<lb/>in nomine <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan> <expan>n<ex>ostr</ex><abbr rend="supraline">i</abbr></expan> <expan>i<am rend="supraline">h</am><ex>es</ex>u</expan> <expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>i</expan></name> 
+<lb rend="indent"/>et in <name><expan>s<abbr rend="supraline">p</abbr><ex>irit</ex>u</expan></name> <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> <expan>n<ex>ostr</ex><abbr rend="supraline">i</abbr></expan>
+</p>
+<p>
+<label type="chapter" rend="red supraline" n="28">xxviii</label>
+<lb/><milestone unit="v" n="6.12"/><hi rend="red">Omnia</hi> mihi licent
+<lb/>sed non omnia expediunt
+<lb/>omnia mihi licent
+<lb/>sed ego sub nullius 
+<lb rend="indent"/>redigar potestate
+<lb/><milestone unit="v" n="6.13"/>esca uentri 
+<lb/>et uenter escis
+<lb/><name><expan>d<ex>eu</ex><abbr rend="supraline">s</abbr></expan></name> autem et hunc et haec 
+<lb rend="indent"/>destruet
+<lb/>corpus autem non fornicationi 
+<lb/>sed <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>o</expan></name> <space unit="character" n="3"/>et <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>s</expan></name> corpori
+<lb/><milestone unit="v" n="6.14"/><name><expan>d<ex>eu</ex><abbr rend="supraline">s</abbr></expan></name> uero et <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>m</expan></name> suscitauit 
+<lb/>et nos suscita<choice><sic>u</sic><corr source="#s">b</corr></choice>it per 
+<lb rend="indent"/>uirtutem suam
+</p>
+<p>
+<label type="chapter" rend="red supraline" n="xxix">29</label>
+<lb/><milestone unit="v" n="6.15"/><hi rend="red">Nescitis</hi> quoniam corpora 
+<lb rend="indent"/>uestra membra <name><expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>i</expan></name> sunt
+<pb n="953r"/>
+<cb n="a"/>
+<lb/>tollens ergo membra <name><expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>i</expan></name> 
+<lb rend="indent"/>faciam membra meretricis
+<lb/>absit <space unit="character" n="3"/><milestone unit="v" n="6.16"/>an nescitis quoniam 
+<lb rend="indent"/>qui adheret meretrici 
+<lb rend="indent"/>unum corpus efficitur
+<lb/><quote rend="sidequotes">erunt</quote> enim inqui<choice><orig>d</orig><reg>t</reg></choice> <quote rend="sidequotes">duo 
+<lb rend="indent"/>in carne una</quote>
+<lb/><milestone unit="v" n="6.17"/>qui autem adheret <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>o</expan></name> 
+<lb rend="indent"/>unus <expan>s<abbr rend="supraline">p</abbr><ex>iritu</ex>s</expan> est
+<lb/><milestone unit="v" n="6.18"/>fugite fornicationem
+</p>
+<p>
+<label type="chapter" rend="red supraline" n="30">xxx</label>
+<lb/><hi rend="red">Omne</hi> <surplus source="#s">enim</surplus> peccatum 
+<lb rend="indent"/>quodcumque fecerit 
+<lb rend="indent"/>homo extra corpus est
+<lb/>qui autem fornicatur 
+<lb rend="indent"/>in corpus suum peccat
+<lb/><milestone unit="v" n="6.19"/>an nescitis quoniam 
+<lb rend="indent"/>membra uestra templ<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> 
+<lb rend="indent"/>est <name><expan>s<abbr rend="supraline">p</abbr><ex>iritu</ex>s</expan> <expan>s<ex>an</ex><abbr rend="supraline">c</abbr><ex>t</ex>i</expan></name> qui in uobis est
+<lb/>qu<expan><abbr rend="supraline">e</abbr><ex>m</ex></expan> habetis a <name><expan>d<ex>e</ex><abbr rend="supraline">o</abbr></expan></name>
+<lb/>et non estis uestri
+<lb/><milestone unit="v" n="6.20"/>empti enim estis pretio 
+<lb rend="indent"/>magno
+<lb/>glorificate et portate <name><expan>d<ex>eu</ex><abbr rend="supraline">m</abbr></expan></name> 
+<lb rend="indent"/>in corpore uestro
+</p>
+<p>
+<label type="chapter" rend="red supraline" n="31">xxxi</label>
+<lb/><milestone unit="v" n="7.1"/><hi rend="red">De</hi> quibus autem scripsistis
+<lb/>bonum est homini mulier<expan><abbr rend="supraline">e</abbr><ex>m</ex></expan> 
+<lb rend="indent"/>non tangere
+<lb/><milestone unit="v" n="7.2"/>propter <app><lem source="#c #o">fornicationem</lem><rdg source="#s">fornicationes</rdg></app> 
+<lb rend="indent"/>autem 
+<lb/>unusquis<expan>q<am>’</am><ex>ue</ex></expan> suam uxorem 
+<lb rend="indent"/>habeat
+<lb/>et unaquaeque suum uirum 
+<lb rend="indent"/>habeat
+<lb/><milestone unit="v" n="7.3"/>uxori uir debitum reddat
+<lb/>similiter autem et uxor uiro
+<lb/><milestone unit="v" n="7.4"/>mulier sui corporis 
+<lb rend="indent"/>potestatem non habe<surplus source="#s">a</surplus>t 
+<lb rend="indent"/>sed uir
+<lb/>similiter autem et uir sui 
+<lb rend="indent"/>corporis potestatem 
+<lb rend="indent"/>non habet sed mulier
+<lb/><milestone unit="v" n="7.5"/>nolite fraudare inuicem
+<lb/>nisi forte ex consensu 
+<lb rend="indent"/>ad tempus
+<cb n="b"/>
+<lb/>ut uacetis orationi
+<lb/>et iterum reuertimini 
+<lb rend="indent"/>in id ipsum
+<lb/>ne temptet uos <name>satanas</name> 
+<lb rend="indent"/>propter incontinentiam 
+<lb rend="indent"/>uestram
+</p>
+<p>
+<label type="chapter" rend="red supraline" n="32">xxxii</label>
+<lb/><milestone unit="v" n="7.6"/><hi rend="red">Hoc</hi> autem dico secundum 
+<lb rend="indent"/>indulgentiam
+<lb/>non secundum imperium
+<lb/><milestone unit="v" n="7.7"/>uolo autem omnes homines 
+<lb rend="indent"/>esse sicut me ipsum
+<lb/>sed unusquisque proprium 
+<lb rend="indent"/>habet donum ex <name><expan>d<ex>e</ex><abbr rend="supraline">o</abbr></expan></name>
+<lb/>alius quidem sic 
+<lb/>alius uero sic
+</p>
+<p>
+<label type="chapter" rend="red supraline" n="33">xxxiii</label>
+<lb/><milestone unit="v" n="7.8"/><hi rend="red">Dico</hi> autem non nuptis 
+<lb rend="indent"/>et uiduis
+<lb/>bonum est illis si sic maneant 
+<lb rend="indent"/>sicut et ego
+<lb/><milestone unit="v" n="7.9"/>quod si non se continent nubant
+<lb/>melius est enim nubere 
+<lb rend="indent"/>quam uri
+</p>
+<p>
+<label type="chapter" rend="red supraline" n="34">xxxiiii</label>
+<lb/><milestone unit="v" n="7.10"/><hi rend="red">H</hi>is <choice><sic>enim</sic><corr source="#s">autem</corr></choice> qui matrimonio 
+<lb rend="indent"/>iuncti sunt praecipio 
+<lb rend="indent"/>non ego sed <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>s</expan></name>
+<lb/>uxorem a uiro non discedere
+<lb/><milestone unit="v" n="7.11"/>quod si discesserit manere 
+<lb rend="indent"/>innu<choice><orig>b</orig><reg>p</reg></choice>tam
+<lb/>aut uiro suo reconciliari
+<lb/>et uir uxorem ne dimittat
+<lb/><milestone unit="v" n="7.12"/>nam ceteris ego dico 
+<lb rend="indent"/>non <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>s</expan></name>
+</p>
+<p>
+<label type="chapter" rend="red supraline" n="35">xxxv</label>
+<lb/><hi rend="red">Si</hi> quis frater uxorem 
+<lb rend="indent"/>habet infidelem
+<lb/>et haec consentit 
+<lb rend="indent"/>habitare cum illo
+<lb/>non dimittat illam
+<lb/><milestone unit="v" n="7.13"/>et si qu<del rend="erased">i</del>a<!-- om. S app. --> mulier habet 
+<lb rend="indent"/>uirum infidelem
+<lb/>et hic consentit habitare 
+<lb rend="indent"/>cum illa
+<lb/>non dimittat uirum
+<lb/><milestone unit="v" n="7.14"/><expan>s<ex>an</ex><abbr rend="supraline">c</abbr><ex>t</ex>i</expan>ficatus est enim uir 
+<lb rend="indent"/>infidelis in muliere fideli
+<pb n="953v"/>
+<cb n="a"/>
+<lb/>et sanctificata est mulier 
+<lb rend="indent"/>infidelis per uirum fidel<expan><abbr rend="supraline">e</abbr><ex>m</ex></expan>
+<lb/>alioquin filii uestri inmundi 
+<lb rend="indent"/>essent
+<lb/>nunc autem <expan>s<ex>an</ex><abbr rend="supraline">c</abbr><ex>t</ex>i</expan> sunt
+<lb/><milestone unit="v" n="7.15"/>quod si infidelis discedit 
+<lb rend="indent"/>discedat <space unit="character" n="3"/>non est enim 
+<lb rend="indent"/>seruituti subiectus 
+<lb rend="indent"/>frater aut soror in eiusmodi
+<lb/>in pace autem uocauit nos <name><expan>d<ex>eu</ex><abbr rend="supraline">s</abbr></expan></name>
+<lb/><milestone unit="v" n="7.16"/>unde enim scis mulier 
+<lb rend="indent"/>si uirum saluum facies
+<lb/>aut unde scis uir si mulierem 
+<lb rend="indent"/>saluam facies
+<lb/><milestone unit="v" n="7.17"/>nisi unicuique sicut diuisit <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>s</expan></name>
+<lb/>unumquemque sicut uocauit <name><expan>d<ex>eu</ex><abbr rend="supraline">s</abbr></expan></name> 
+<lb rend="indent"/>ita ambulet
+<lb/>et <app><lem source="#c #o">sicut</lem><rdg source="#s">sic</rdg></app> <surplus source="#s">ubique</surplus> in omnibus 
+<lb rend="indent"/>ecclesiis doceo
+<lb/><milestone unit="v" n="7.18"/>circumcisus aliquis 
+<lb rend="indent"/>uocatus est
+<lb/>non adducat praeputium 
+<lb rend="indent"/><!-- chk: what is that sign doing? -->in praeputio aliquis 
+<lb rend="indent"/>uocatus est
+<lb/>non circumcidatur
+<lb/><milestone unit="v" n="7.19"/>circumcisio nihil est
+<lb/>et praeputium nihil est
+<lb/>sed obseruatio mandatorum <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name>
+<lb/><milestone unit="v" n="7.20"/>unusquisque in qua uocatione 
+<lb rend="indent"/>uocatus est in ea permaneat
+<lb/><milestone unit="v" n="7.21"/>seruus uocatus es
+<lb/>non sit tibi curae
+<lb/>sed et si potes<del rend="erased">t</del> liber fieri 
+<lb rend="indent"/>magis utere
+<lb/><milestone unit="v" n="7.22"/>qui enim in <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>o</expan></name> uocatus est 
+<lb rend="indent"/>seruus
+<lb/>libertus est <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name>
+<lb/>similiter qui liber uocatus est 
+<lb rend="indent"/>seruus est <name><expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>i</expan></name>
+<lb/><milestone unit="v" n="7.23"/>pretio empti estis nolite 
+<lb rend="indent"/>fieri serui hominum
+</p>
+<p>
+<label type="chapter" rend="red supraline" n="36">xxxvi</label>
+<lb/><milestone unit="v" n="7.24"/><hi rend="red">Unus</hi>quisque in qu<choice><sic>a</sic><corr source="#s">o</corr></choice> uocatus 
+<lb rend="indent"/>est fratres in hoc <app><lem source="#c">permane
+<lb break="no"/>at</lem><rdg source="#s">maneat</rdg></app> apu<choice><orig>t</orig><reg>d</reg></choice> <name><expan>d<ex>eu</ex><abbr rend="supraline">m</abbr></expan></name>
+</p>
+<cb n="b"/>
+<p>
+<lb rend="outdent"/><milestone unit="v" n="7.25"/>De uirginibus autem 
+<lb/>praeceptum <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name> non habeo
+<lb/>consilium autem do tamquam 
+<lb rend="indent"/>misericordiam <del rend="expunct strikethrough">suam</del><!-- om. S app. --> con
+<lb break="no"/>secutus a <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>o</expan></name> ut sim fidelis
+<lb/><milestone unit="v" n="7.26"/>existimo ergo <supplied reason="omitted" source="#s">hoc</supplied> bonum esse 
+<lb rend="indent"/>propter instantem 
+<lb rend="indent"/>necessitatem
+<lb/>quoniam bonum est homini 
+<lb rend="indent"/>sic esse
+<lb/><milestone unit="v" n="7.27"/>alligatus es uxori noli quae
+<lb break="no"/>rere solutionem
+<lb/>solutus es ab uxore
+<lb/>noli quaerere uxorem
+<lb/><milestone unit="v" n="7.28"/>si autem acceperis uxorem 
+<lb rend="indent"/>non peccasti
+<lb/>et si nupserit uirgo non pecca<choice><sic>b</sic><corr source="#s">u</corr></choice>it
+<lb/>tribulationem tamen carnis 
+<lb rend="indent"/>habebunt huiusmodi
+<lb/>ego autem uobis parc<choice><sic>am</sic><corr source="#s">o</corr></choice>
+<lb/><milestone unit="v" n="7.29"/>hoc itaque dico fratres
+<lb/>tempus breue est
+<lb/>reliquum est ut qui habent 
+<lb rend="indent"/>uxores tamquam non 
+<lb rend="indent"/>habentes sint· <milestone unit="v" n="7.30"/>et qui flent 
+<lb/>tamquam non flentes
+<lb/>et qui gaudent 
+<lb/>tamquam non gaudentes
+<lb/>et qui emunt 
+<lb/>tamquam non possidentes
+<lb/><milestone unit="v" n="7.31"/>et qui utuntur hoc mundo 
+<lb/>tamquam non utantur
+<lb/>praeterit enim figura 
+<lb rend="indent"/>huius mundi
+<lb/><milestone unit="v" n="7.32"/>uolo autem uos sine 
+<lb rend="indent"/>sollicitudine esse
+<lb/>qui sine uxore est sollicitus 
+<lb rend="indent"/>est quae <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name> sunt quomodo 
+<lb rend="indent"/>placeat <name><expan>d<ex>e</ex><abbr rend="supraline">o</abbr></expan></name>
+<lb/><milestone unit="v" n="7.33"/>qui autem cum uxore est 
+<lb rend="indent"/>sollicitus est quae sunt 
+<lb rend="indent"/><surplus source="#s">huius</surplus> mundi quomodo 
+<lb rend="indent"/>placeat uxori
+<lb/>et diuisus est
+<pb n="954r"/>
+<cb n="a"/>
+<lb/><milestone unit="v" n="7.34"/>et mulier innupta et uirgo
+<lb rend="indent"/>cogitat quae <name><expan>d<subst><del><ex>e</ex></del><add place="above"><ex>omi</ex><abbr rend="supraline">n</abbr></add></subst>i</expan></name><!-- om. S app. --> sunt
+<lb/>ut sit <expan>s<ex>an</ex><abbr rend="supraline">c</abbr><ex>t</ex>a</expan> et corpore et <expan>s<abbr rend="supraline">p</abbr><ex>irit</ex>u</expan>
+<lb/>quae autem nu<choice><orig>b</orig><reg>p</reg></choice>ta est
+<lb/>cogitat quae sunt mundi
+<lb/>quomodo placeat uiro
+<lb/><milestone unit="v" n="7.35"/>porro hoc ad utilitatem 
+<lb rend="indent"/>uestram dico
+<lb/>non ut laqueum uobis 
+<lb rend="indent"/>iniciam
+<lb/>sed ad id quod honestum est
+<lb/>et <supplied reason="omitted" source="#s">quod</supplied> facultatem praebeat 
+<lb rend="indent"/>sine inpedimento 
+<lb rend="indent"/><name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>m</expan></name> <app><lem source="#c"><!-- chk O -->obse<add place="above">c</add>r<del rend="expunct">u</del>andi</lem><rdg source="#s">obseruandi</rdg></app>
+</p>
+<p>
+<label type="chapter" rend="red supraline" n="37">xxxvii</label>
+<lb/><milestone unit="v" n="7.36"/><hi rend="red">Si</hi> quis autem turpem se 
+<lb rend="indent"/>uideri ex<del rend="erased">s</del>istimat super 
+<lb rend="indent"/><app><lem source="#o">uirginem suam</lem><rdg source="#s">uirgine sua</rdg></app> 
+<lb/>quod sit superadulta
+<lb/>et ita oportet fieri
+<lb/>quod uult faciat
+<lb/>non peccat <app><lem source="#c #o">si</lem><rdg source="#s"/></app> nubat
+<lb/><milestone unit="v" n="7.37"/>nam qui statuit in corde 
+<lb rend="indent"/>suo firmus
+<lb/>non habens ne<del rend="erased"><unclear>c</unclear></del>cessitatem
+<lb/>potestatem autem habe<choice><sic>ns</sic><corr source="#s">t</corr></choice> 
+<lb rend="indent"/>suae uoluntatis
+<lb/>et hoc iudicauit in corde 
+<lb rend="indent"/>suo seruare uirginem 
+<lb rend="indent"/>suam bene facit
+<lb/><milestone unit="v" n="7.38"/>igitur et qui matrimonio 
+<lb rend="indent"/>iungit uirginem suam 
+<lb rend="indent"/>bene facit
+<lb/>et qui non iungit 
+<lb rend="indent"/>melius facit
+<lb/><milestone unit="v" n="7.39"/>mulier alligata est quanto 
+<lb rend="indent"/>tempore uir eius uiuit
+<lb/>quod si dormierit uir eius 
+<lb/>liberata <add place="above">est</add><!-- om. S app. --> cui uult nubat 
+<lb/>tantum in <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>o</expan></name>
+<lb/><milestone unit="v" n="7.40"/>beatior autem erit si sic <add place="inline">permanserit</add><!-- om. S app. --> 
+<lb rend="indent"/>secundum meum consili<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan>
+<lb/>puto autem quod et ego 
+<lb rend="indent"/><name><expan>s<abbr rend="supraline">p</abbr><ex>iritu</ex>m</expan></name> <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> habeo
+</p>
+<p>
+<label type="chapter" rend="red supraline" n="38">xxxviii</label>
+<lb/><milestone unit="v" n="8.1"/><hi rend="red">De</hi> his autem quae idolis 
+<cb n="b"/>
+<lb rend="indent"/>sacrificantur
+<lb/>scimus <choice><sic>quoniam</sic><corr source="#s">quia</corr></choice> omnes 
+<lb rend="indent"/>scientiam habemus
+<lb/>scientia inflat
+<lb/>caritas uero aedificat
+<lb/><milestone unit="v" n="8.2"/>si quis <add place="inRas">se</add> ex<del rend="expunct">h</del>istimat scire 
+<lb rend="indent"/>aliquid nondum cognouit 
+<lb rend="indent"/>quemadmodum oporteat 
+<lb rend="indent"/>eum scire
+<lb/><milestone unit="v" n="8.3"/>si quis autem diligit <name><expan>d<ex>eu</ex><abbr rend="supraline">m</abbr></expan></name>
+<lb/>hic cognitus est ab eo
+</p><p>
+<lb/><milestone unit="v" n="8.4"/>De escis autem quae idolis 
+<lb rend="indent"/>immolantur
+<lb/>scimus quia nihil est 
+<lb rend="indent"/>idolum in mundo
+<lb/>et quod nullus <name><expan>d<ex>eu</ex><abbr rend="supraline">s</abbr></expan></name> nisi unus
+<lb/><milestone unit="v" n="8.5"/>nam et si sunt qui dicantur dii 
+<lb rend="indent"/>siue in caelo siue in terra
+<lb/>siquidem sunt dii multi 
+<lb rend="indent"/>et domini multi
+<lb/><milestone unit="v" n="8.6"/>nobis tamen unus <name><expan>d<ex>eu</ex><abbr rend="supraline">s</abbr></expan></name> <surplus source="#s">et</surplus> <name>pater</name> 
+<lb/>ex quo omnia et nos in illum
+<lb/>et unus <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>s</expan> <expan>i<am rend="supraline">h</am><ex>esu</ex>s</expan> <expan><am>x</am><am rend="supraline">p</am><ex>christu</ex>s</expan></name> per quem 
+<lb rend="indent"/>omnia et nos per ipsum
+<lb/><milestone unit="v" n="8.7"/>sed non in omnibus est 
+<lb rend="indent"/>scientia
+<lb/>quidam autem conscientia 
+<lb rend="indent"/>usque nunc idoli
+<lb/>quasi idolot<add place="inline">h</add>ytum manducant
+<lb/>et conscientia ipsorum 
+<lb/>cum sit infirma polluitur
+<lb/><milestone unit="v" n="8.8"/>esca autem nos non com
+<lb break="no"/>mendat <name><expan>d<ex>e</ex><abbr rend="supraline">o</abbr></expan></name>
+<lb/>neque si non manducauerimus 
+<lb rend="indent"/>deficiemus
+<lb/>neque si manducauerimus 
+<lb rend="indent"/>abunda<choice><sic>u</sic><corr source="#s">b</corr></choice>imus
+<lb/><milestone unit="v" n="8.9"/>uidete autem ne forte 
+<lb rend="indent"/>haec licentia uestra 
+<lb/>offendiculum fiat infirmibus
+<lb/><milestone unit="v" n="8.10"/>si enim quis uiderit eum 
+<lb rend="indent"/>qui habet scientiam in idol<supplied reason="omitted" source="#s">i</supplied>o 
+<lb rend="indent"/>recumbentem
+<lb/>nonne conscientia eius 
+<pb n="954v"/>
+<cb n="a"/>
+<lb rend="indent"/>cum sit infirma aedifica
+<lb break="no"/>bitur ad manducandum 
+<lb rend="indent"/>idolothyta
+<lb/><milestone unit="v" n="8.11"/>et peribit infirmus 
+<lb rend="indent"/>in tua scientia
+<lb/>frater propter quem <name><expan><am>x</am><am rend="supraline">p</am><ex>christu</ex>s</expan></name> 
+<lb rend="indent"/>mortuus est
+<lb/><milestone unit="v" n="8.12"/>sic autem peccantes in fratres
+<lb/>et percutientes conscienti<expan><abbr rend="supraline">a</abbr><ex>m</ex></expan> 
+<lb rend="indent"/>eorum infirmam
+<lb/>in <name><expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>o</expan></name> peccatis
+<lb/><milestone unit="v" n="8.13"/>quapropter si esca scandalizat 
+<lb rend="indent"/>fratrem meum
+<lb/>non manducabo carnem 
+<lb rend="indent"/>in aeternum
+<lb/>ne fratrem meum scandaliz<expan><abbr rend="supraline">e</abbr><ex>m</ex></expan>
+</p>
+<p>
+<label type="chapter" rend="red supraline" n="40">xl</label>
+<lb/><milestone unit="v" n="9.1"/><hi rend="red">Non</hi> sum liber
+<lb/>non sum apostolus
+<lb/>nonne <name><expan>i<am rend="supraline">h</am><ex>esu</ex>m</expan> <expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>m</expan></name> <expan>n<ex>ostru</ex><abbr rend="supraline">m</abbr></expan> uidi
+<lb/>non opus meum 
+<lb rend="indent"/>uos estis in <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>o</expan></name>
+<lb/><milestone unit="v" n="9.2"/>si aliis non sum apostolus
+<lb/>sed tamen uobis sum
+<lb/>nam signaculum aposto
+<lb break="no"/>latus mei uos estis in <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>o</expan></name>
+<lb/><milestone unit="v" n="9.3"/>mea defensio apu<choice><orig>t</orig><reg>d</reg></choice> eos 
+<lb rend="indent"/>qui me interrogant 
+<lb rend="indent"/>haec est
+<lb/><milestone unit="v" n="9.4"/>numquid non habemus 
+<lb rend="indent"/>potestatem manducandi 
+<lb rend="indent"/>et bibendi
+<lb/><milestone unit="v" n="9.5"/>numquid non habemus 
+<lb rend="indent"/>potestatem sororem 
+<lb rend="indent"/>mulierem circumducendi
+<lb/>sicut et ceteri apostoli 
+<lb/>et fratres <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name> et <name>cephas</name>
+<lb/><milestone unit="v" n="9.6"/>aut solus ego et <name>barnabas</name> 
+<lb rend="indent"/>non habemus potestatem 
+<lb rend="indent"/>hoc operandi
+<lb/><milestone unit="v" n="9.7"/>quis militat suis 
+<lb rend="indent"/>stipendiis umquam
+<lb/>quis plantat uineam 
+<lb rend="indent"/>et <surplus source="#s">de</surplus>fructum eius non edit
+<lb/>quis pasc<choice><sic>e</sic><corr source="#s">i</corr></choice>t gregem 
+<cb n="b"/>
+<lb rend="indent"/>et de lacte gregis non manducat
+<lb/><milestone unit="v" n="9.8"/>numquid secundum hominem 
+<lb rend="indent"/>haec dico
+<lb/>an et lex haec non dicit
+<lb/><milestone unit="v" n="9.9"/>scriptum est enim 
+<lb rend="indent"/>in lege <name>mosi</name>
+<quote rend="sidequotes"><lb/>non alligabis os boui trituranti</quote>
+<lb/>numquid de bubus cura est <name><expan>d<ex>e</ex><abbr rend="supraline">o</abbr></expan></name>
+<lb/><milestone unit="v" n="9.10"/>an propter nos utique dicit
+<lb/>nam propter nos scripta sunt
+<lb/>quoniam debet in spe 
+<lb rend="indent"/>qui arat· arare
+<lb/>et qui triturat in spe 
+<lb rend="indent"/>fructus percipiendi
+<lb/><milestone unit="v" n="9.11"/>si nos uobis spiritalia 
+<lb rend="indent"/>seminauimus
+<lb/>magnum est si nos carnalia 
+<lb rend="indent"/>uestra metamus
+<lb/><milestone unit="v" n="9.12"/>si alii potestatis uestrae 
+<lb rend="indent"/>participes sunt
+<lb/>non potius nos
+<lb/>sed non usi sumus 
+<lb rend="indent"/>hac potestate
+<lb/>sed <del rend="expunct strikethrough">non</del><!-- om. S app. --> omnia sustinemus
+<lb/>ne quod offendicu<add place="above">lu</add>m<!-- om. S app. --> demus 
+<lb rend="indent"/>euangelio <name><expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>i</expan></name>
+<lb/><milestone unit="v" n="9.13"/>nescitis quoniam qui in 
+<lb rend="indent"/>sacrario opera<add place="above">n</add>tur<!-- om. S app. -->
+<lb/>quae de sacrario sunt edunt
+<lb/>qui altario deseruiunt 
+<lb/>cum altario participantur
+<lb/><milestone unit="v" n="9.14"/>ita et <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>s</expan></name> ordinauit 
+<lb rend="indent"/>his qui euangelium adnuntiant
+<lb/>de euangelio uiuere
+<lb/><milestone unit="v" n="9.15"/>ego autem nullo horum 
+<lb rend="indent"/>usus sum
+<lb/>non scripsi autem haec 
+<lb rend="indent"/>ut ita fiant in me
+<lb/>bonum est enim mihi 
+<lb rend="indent"/>magis mori 
+<lb/>quam ut gloriam meam 
+<lb rend="indent"/>quis euacuet
+<lb/><milestone unit="v" n="9.16"/>nam si euangelizauero 
+<lb/>non est mihi gloria
+<pb n="955r"/>
+<cb n="a"/>
+<lb/>necessitas enim mihi incumbit
+<lb/>uae enim mihi est si non 
+<lb rend="indent"/>euangelizauero
+<lb/><milestone unit="v" n="9.17"/>si enim uolens hoc ago 
+<lb/>mercedem habeo
+<lb/>si autem inuitus dispensatio 
+<lb rend="indent"/>mihi credita est
+<lb/><milestone unit="v" n="9.18"/>quae est ergo merces mea
+<lb/>ut euangelium praedicans 
+<lb rend="indent"/>sine sumptu ponam 
+<lb rend="indent"/>euangelium
+<lb/>ut non abutar potestate mea 
+<lb rend="indent"/>in euangelio
+</p>
+<p>
+<label type="chapter" rend="red supraline" n="41">xli</label>
+<lb/><milestone unit="v" n="9.19"/><hi rend="red">Nam</hi> cum liber essem ex om
+<lb break="no"/>nibus omnium me seruum 
+<lb rend="indent"/>feci ut plures lucri facerem
+<lb/><milestone unit="v" n="9.20"/>et factus sum <name>iudaeis</name> 
+<lb rend="indent"/>tamquam <name>iudaeus</name> 
+<lb rend="indent"/>ut <name>iudaeos</name> lucrarer
+<lb/><milestone unit="v" n="9.21"/>his qui sub lege sunt quasi 
+<lb rend="indent"/>sub lege essem cum ipse 
+<lb rend="indent"/>non essem sub lege
+<lb/>ut eos qui sub lege erant 
+<lb rend="indent"/>lucri facerem
+<lb/>his qui sine lege erant 
+<lb rend="indent"/>tamquam sine lege essem
+<lb/>cum sine lege <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> non essem 
+<lb rend="indent"/>sed in lege essem <name><expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>i</expan></name>
+<lb/>ut lucri facerem eos 
+<lb rend="indent"/>qui sine lege erant
+<lb/><milestone unit="v" n="9.22"/>factus sum infirmis infirmus
+<lb/>ut infirmos lucri facerem
+<lb/>omnibus omnia factus sum
+<lb/>ut omnes facerem saluos
+<lb/><milestone unit="v" n="9.23"/>omnia autem facio propter 
+<lb rend="indent"/>euangelium
+<lb/>ut particeps eius efficiar
+</p>
+<p>
+<label type="chapter" rend="red supraline" n="43">xliii</label>
+<lb/><milestone unit="v" n="9.24"/><hi rend="red">Nescitis</hi> quod hi qui in stadio 
+<lb rend="indent"/>currunt
+<lb/>omnes quidem currunt
+<lb/>sed unus accipit bra<choice><sic>b</sic><corr source="#s">u</corr></choice>ium
+<lb/>sic currite ut <surplus source="#s"><add place="right">omnes</add></surplus> conprehendatis
+<lb/><milestone unit="v" n="9.25"/>omnis autem qui in agone 
+<lb rend="indent"/>contendit ab omni<expan>b<am>’</am><ex>us</ex></expan> se abstinet
+<cb n="b"/>
+<lb/>et illi quidem ut corruptibilem 
+<lb rend="indent"/>coronam accipiant
+<lb/>nos autem incorruptam
+</p>
+<p>
+<label type="chapter" rend="red supraline" n="43">xliii</label>
+<lb/><milestone unit="v" n="9.26"/><hi rend="red">Ego</hi> igitur si<add place="above">c</add> curro 
+<lb/>non quasi in incertum
+<lb/>sic pugno <space unit="character" n="3"/>non quasi 
+<lb rend="indent"/>aerem uerberan<choice><sic>t</sic><corr source="#s">s</corr></choice><!-- om. S app. -->
+<lb/><milestone unit="v" n="9.27"/>sed castigo corpus meum 
+<lb rend="indent"/>et in seruitutem redigo
+<lb/>ne forte cum aliis praedicauer<expan><abbr rend="supraline">i</abbr><ex>m</ex></expan> 
+<lb rend="indent"/>ipse reprobus efficiar
+</p>
+<p>
+<label type="chapter" rend="red supraline" n="44">xl<del rend="erased">v</del>iiii</label><!-- chk WW and T: what happened here? -->
+<lb/><milestone unit="v" n="10.1"/><hi rend="red">Nolo</hi> enim uos ignorare <expan><abbr rend="supraline">f<am>f</am></abbr><ex>ratres</ex></expan>
+<lb/>quoniam patres nostri 
+<lb rend="indent"/>omnes sub nube fuerunt
+<lb/>et omnes mare transierunt
+<lb/><milestone unit="v" n="10.2"/>et omnes in <name>mose</name> baptizati sunt 
+<lb rend="indent"/>in nube et in mari
+<lb/><milestone unit="v" n="10.3"/>et omnes eandem escam 
+<lb rend="indent"/>spiritalem manducauerunt
+<lb/><milestone unit="v" n="10.4"/>et omnes eundem potum 
+<lb rend="indent"/>spiritalem biberunt
+<lb/>bibebant autem de spiritali 
+<lb rend="indent"/>consequenti eos petra
+<lb/>petra autem erat <name><expan><am>x</am><am rend="supraline">p</am><ex>christu</ex>s</expan></name>
+<lb/><milestone unit="v" n="10.5"/>sed non in pluribus eorum 
+<lb rend="indent"/>beneplacitum est <name><expan>d<ex>e</ex><abbr rend="supraline">o</abbr></expan></name>
+<lb/>nam prostrati sunt in deserto
+</p>
+<p>
+<label type="chapter" rend="red supraline" n="45">xlv<del rend="erased">i</del></label>
+<lb/><milestone unit="v" n="10.6"/><hi rend="red">Haec</hi> autem in figura facta sunt <expan>n<ex>ostr</ex><abbr rend="supraline">i</abbr></expan>
+<lb/>ut non simus concupiscentes 
+<lb rend="indent"/>mal<choice><sic>a</sic><corr source="#s">orum</corr></choice><!-- om. S app.; chk WW --> sicut et illi concupierunt
+<lb/><milestone unit="v" n="10.7"/>neque <app><lem source="#c #o">idololatr<del rend="erased">i</del>ae</lem><rdg source="#s">idolorum cultores</rdg></app> efficiamini 
+<lb/>sicut quidam ex ipsis
+<lb/>quemadmodum scriptum est
+<quote rend="sidequotes"><lb/>sedit populus manducare 
+<lb rend="indent"/>et bibere et surrexerunt 
+<lb rend="indent"/>ludere</quote>
+<lb/><milestone unit="v" n="10.8"/>ne<add place="above"><expan>q<am>’</am><ex>ue</ex></expan></add><!-- om. S app. --> fornicemur sicut quidam 
+<lb rend="indent"/>ex ipsis fornicati sunt
+<lb/>et ceciderunt una die <choice><orig><num rend="supraline">xxiii</num></orig><reg>uiginti tria</reg></choice> <supplied reason="omitted" source="#s">milia</supplied><!-- om. S app.; chk WW -->
+<lb/><milestone unit="v" n="10.9"/>neque temptemus <name><expan><am>x</am><am rend="supraline">p</am><ex>christu</ex>m</expan></name> 
+<lb/>sicut quidam eorum tempta
+<lb break="no"/>uerunt et a serpentibus 
+<lb rend="indent"/>perierunt
+<lb/><milestone unit="v" n="10.10"/>neque murmuraueritis 
+<pb n="955v"/>
+<cb n="a"/>
+<lb/>sicut quidam eorum 
+<lb rend="indent"/>murmurauerunt
+<lb/>et perierunt ab exterminatore
+</p>
+<p>
+<label type="chapter" rend="red supraline" n="46">xlvi</label>
+<lb/><milestone unit="v" n="10.11"/><hi rend="red">Haec</hi> autem omnia in figura 
+<lb rend="indent"/>contingebant illis
+<lb/>scripta sunt autem ad cor
+<lb break="no"/>reptionem nostram
+<lb/>in quos fines saeculorum 
+<lb rend="indent"/>deuenerunt
+<lb/><milestone unit="v" n="10.12"/>itaque qui se existimat stare 
+<lb rend="indent"/>uideat ne cadat
+<lb/><milestone unit="v" n="10.13"/>temptatio uos non adpre
+<lb break="no"/>hendat nisi humana
+</p>
+<p>
+<label type="chapter" rend="red supraline" n="47">xlvii</label>
+<lb/><hi rend="red">Fidelis</hi> autem <name><expan>d<ex>eu</ex><abbr rend="supraline">s</abbr></expan></name> qui <add place="above"><expan><abbr rend="supraline">n</abbr><ex>on</ex></expan></add><!-- om. S app. --> patie
+<lb break="no"/>tur uos temptari super id 
+<lb rend="indent"/>quod potestis
+<lb/>sed faciet cum temptatione 
+<lb rend="indent"/>etiam prouentum ut pos
+<lb break="no"/>sitis sustinere
+<lb/><milestone unit="v" n="10.14"/>propter quod carissimi mihi ,
+<lb rend="indent"/>fugite ab idolorum cultura
+</p>
+<p>
+<label type="chapter" rend="red supraline" n="48">xlviii</label>
+<lb/><milestone unit="v" n="10.15"/><hi rend="red">Vt</hi> prudenti<expan>b<am>’</am><ex>us</ex></expan> loquor
+<lb/>uos iudicate quod dico
+<lb/><milestone unit="v" n="10.16"/><app><lem source="#c #o">cali<subst><del rend="erased">cem</del><add place="inRas">x</add></subst></lem><rdg source="#s">calicem</rdg></app> benedictionis 
+<lb rend="indent"/>cui benedicimus
+<lb/>nonne communicatio 
+<lb rend="indent"/>sanguinis <name><expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>i</expan></name> est
+<lb/>et panis quem frangimus
+<lb rend="indent"/>nonne participatio 
+<lb rend="indent"/>corporis <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name> est
+<lb/><milestone unit="v" n="10.17"/>quon<subst><del rend="alt">u</del><add place="inline">i</add></subst>am unus panis 
+<lb/>unum corpus multi sumus
+<lb/><app><lem source="#o">omnesque de</lem><rdg source="#s">omnes quidem de</rdg></app> uno pane 
+<lb rend="indent"/>participamur
+</p>
+<p>
+<label type="chapter" rend="red supraline" n="49">xlviiii</label>
+<lb/><milestone unit="v" n="10.18"/><hi rend="red">Vid</hi>ete <name><expan>i<abbr rend="supraline">sr</abbr><ex>ahe</ex>l</expan></name> secundum carn<expan><abbr rend="supraline">e</abbr><ex>m</ex></expan>
+<lb/>nonne qui edunt hostias 
+<lb rend="indent"/>participes sunt altaris
+<lb/><milestone unit="v" n="10.19"/>quid ergo dico
+<lb/>quod idolis immolatum 
+<lb rend="indent"/>sit aliquid
+<lb/>aut quod idolum sit aliquid
+<lb/><milestone unit="v" n="10.20"/>sed quae immolant gentes
+<lb rend="indent"/>daemoniis immolant 
+<lb rend="indent"/>et non <name><expan>d<ex>e</ex><abbr rend="supraline">o</abbr></expan></name>
+<cb n="b"/>
+<lb/>nolo autem uos socios 
+<lb rend="indent"/>fieri daemoniorum
+<lb/>non potestis calicem <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name> 
+<lb rend="indent"/>bibere et calicem daemonior<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan>
+<lb/><milestone unit="v" n="10.21"/>non potestis mensae <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name> 
+<lb rend="indent"/>participes esse 
+<lb rend="indent"/>et mensae daemoniorum
+<lb/><milestone unit="v" n="10.22"/>an aemul<choice><sic>e</sic><corr source="#s">a</corr></choice>mur <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>m</expan></name>
+<lb/>numquid fortiores illo sumus
+<lb/>omnia licent
+<lb/>sed non omnia expediunt
+<lb/><milestone unit="v" n="10.23"/>omnia licent
+<lb/>sed non omnia aedificant
+<lb/><milestone unit="v" n="10.24"/>nemo quod suum ess<del rend="expunct">s</del>t quaerat
+<lb/>sed quod alterius
+<lb/><milestone unit="v" n="10.25"/>omne quod in macello uenit 
+<lb/>manducate<add place="inline"><choice><orig>;</orig><reg><lb/></reg></choice></add> nihil interrogantes 
+<lb rend="indent"/>propter conscientiam <del rend="erased"><gap reason="illegible" quantity="2" unit="character"/></del>
+<lb rend="indent"/><milestone unit="v" n="10.26"/><quote rend="sidequotes"><name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name> est terra et plenitudo eius</quote>
+</p><p>
+<!-- what are those L marks? --><lb/><milestone unit="v" n="10.27"/>Si quis uocat uos infidelium 
+<lb/>et uultis ire
+<lb/>omne quod uobis adponitur 
+<lb rend="indent"/>manducate
+<lb/>nihil interrogantes propter 
+<lb rend="indent"/>conscientiam
+<lb/><milestone unit="v" n="10.28"/>si quis autem dixerit hoc 
+<lb rend="indent"/>immolati<add place="above">ci</add>um est idolis
+<lb/>nolite manducare propter 
+<lb rend="indent"/>illum qui indicauit 
+<lb rend="indent"/>et propter conscientiam
+<lb/><milestone unit="v" n="10.29"/>conscientiam autem dico 
+<lb rend="indent"/>non tuam sed alterius
+<lb/>ut quid enim libertas mea 
+<lb rend="indent"/>iudicatur ab alia conscientia
+<lb/><milestone unit="v" n="10.30"/>si ego cum gratia participo
+<lb/>quid blasphemor pro eo 
+<lb rend="indent"/>quod gratias ago
+</p>
+<p>
+<label type="chapter" rend="red supraline" n="52">lii</label>
+<lb/><milestone unit="v" n="10.31"/><hi rend="red">S</hi>iue ergo manducatis 
+<lb/>siue bibitis uel aliud quid facitis
+<lb/>omnia in gloria<choice><sic><del rend="expunct strikethrough">m</del></sic><corr source="#s">m</corr></choice><!-- chk S app. --> <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> facite
+<lb/><milestone unit="v" n="10.32"/>sine offensione estote 
+<lb rend="indent"/><name>iudaeis</name> et <app><lem source="#c #o">genti<expan>b<am>’</am><ex>us</ex></expan></lem><rdg source="#s">gentilibus</rdg></app> et ecclesiae <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name>
+<lb/><milestone unit="v" n="10.33"/>sicut et ego per omnia 
+<lb rend="indent"/>omnibus placeo
+<pb n="956r"/>
+<cb n="a"/>
+<lb/>non quęrens quod mihi 
+<lb rend="indent"/>utile est
+<lb/>sed quod multis ut salui fiant
+</p>
+<p>
+<label type="chapter" rend="red supraline" n="53">liii</label>
+<lb/><milestone unit="v" n="11.1"/><hi rend="red">Imi</hi>tatores mei estote 
+<lb rend="indent"/>sicut et ego <name><expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>i</expan></name>
+<lb/><milestone unit="v" n="11.2"/>laudo autem uos <expan><abbr rend="supraline">f<am>f</am></abbr><ex>ratres</ex></expan> quod omnia 
+<lb rend="indent"/>mei memores estis
+<lb/>et sicut tradidi uobis 
+<lb rend="indent"/>praecepta mea tenetis
+</p>
+<p>
+<label type="chapter" rend="red supraline" n="54">liiii</label>
+<lb/><milestone unit="v" n="11.3"/><hi rend="red">Volo</hi> autem uos scire quod 
+<lb rend="indent"/>omnis uiri caput <name><expan><am>x</am><am rend="supraline">p</am><ex>christu</ex>s</expan></name> est
+<lb/>caput autem mulieris uir
+<lb/>caput uero <name><expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>i</expan></name> <name><expan>d<ex>eu</ex><abbr rend="supraline">s</abbr></expan></name>
+
+</p>
+<p>
+<label type="chapter" rend="red supraline" n="55">lv</label>
+<lb/><milestone unit="v" n="11.4"/><hi rend="red">Omnis</hi> uir orans aut prophe
+<lb break="no"/>tans uelato capite
+<lb/>deturpat caput suum
+<lb/><milestone unit="v" n="11.5"/><add place="inRas">omnis autem</add> mulier orans 
+<lb rend="indent"/>aut prophetans non 
+<lb rend="indent"/>uelato capite
+<lb/>deturpat caput suum
+<lb/>unum est enim atque 
+<lb rend="indent"/>si decaluetur
+<lb/><milestone unit="v" n="11.6"/>nam si non uelatur mulier
+<lb/>et tondeatur
+<lb/>si uero turpe est mulieri 
+<lb rend="indent"/>tonderi aut decaluari
+<lb/>uelet caput suum
+<lb/><milestone unit="v" n="11.7"/>uir quidem non debet uelare 
+<lb rend="indent"/>caput <space unit="character" n="3"/>quoniam imago 
+<lb rend="indent"/>et glori<del rend="erased">t</del>a est <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name>
+<lb/>mulier autem gloria uiri est
+<lb/><milestone unit="v" n="11.8"/>non enim uir<del rend="erased">i</del><!-- om. S app. --> ex muliere est
+<lb/>sed mulier ex uiro
+<lb/><milestone unit="v" n="11.9"/>etenim non est creatus uir 
+<lb rend="indent"/>propter mulierem
+<lb/>sed mulier propter uirum
+<lb/><milestone unit="v" n="11.10"/>ideo debet mulier potestat<expan><abbr rend="supraline">e</abbr><ex>m</ex></expan> 
+<lb rend="indent"/>habere supra caput 
+<lb rend="indent"/>propter angelos
+<lb/><milestone unit="v" n="11.11"/>uerumtamen neque uir 
+<lb rend="indent"/>sine muliere
+<lb/>neque mulier sine uiro in <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>o</expan></name>
+<lb/><milestone unit="v" n="11.12"/>nam sicut mulier de uiro
+<lb/>ita et uir per mulierem
+<cb n="b"/>
+<lb/>omnia autem ex <name><expan>d<ex>e</ex><abbr rend="supraline">o</abbr></expan></name>
+<lb/><milestone unit="v" n="11.13"/>uos <choice><sic>autem</sic><corr source="#s">ipsi</corr></choice> iudicate
+<lb/>decet mulierem non uelatam 
+<lb rend="indent"/>orare <name><expan>d<ex>eu</ex><abbr rend="supraline">m</abbr></expan></name>
+<lb/><milestone unit="v" n="11.14"/>nec ipsa natura docet uos
+<lb/>quod uir quidem si comam 
+<lb rend="indent"/>nutriat ignominia est illi
+<lb/><milestone unit="v" n="11.15"/>mulier uero si comam 
+<lb rend="indent"/>nutriat gloria est illi
+<lb/>quoniam capilli pro uelamine 
+<lb rend="indent"/>ei dati sunt
+<lb/><milestone unit="v" n="11.16"/>si quis autem uidetur 
+<lb rend="indent"/>contentiosus esse
+<lb/>nos talem consuetudinem 
+<lb rend="indent"/>non habemus 
+<lb/>neque ecclesiae <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name>
+<lb/><milestone unit="v" n="11.17"/>hoc autem praecipio 
+<lb rend="indent"/>non laudans
+<lb/>quod non in melius 
+<lb/>sed in deterius conuenitis
+</p>
+<p>
+<label type="chapter" rend="red supraline" n="56">lvi</label>
+<lb/><milestone unit="v" n="11.18"/><hi rend="red">Primum</hi> quidem conuenienti<expan>b<am>’</am><ex>us</ex></expan> 
+<lb rend="indent"/>uobis in ecclesia
+<lb/>audio scissuras esse
+<lb/>et ex parte credo
+<lb/><milestone unit="v" n="11.19"/>nam oportet et hereses esse 
+<lb rend="indent"/>ut et qui probati sunt mani
+<lb break="no"/>festi fiant <subst><del rend="alt">u</del><add place="inline">u</add></subst>n uobis<!-- where did that note come from? -->
+</p><p>
+<lb/><milestone unit="v" n="11.20"/>Conuenientibus ergo 
+<lb rend="indent"/>uobis in unum
+<lb/>iam non est dominicam 
+<lb rend="indent"/>cenam m<subst><del rend="erased">u</del><add place="inRas">a</add></subst>nducare
+<lb/><milestone unit="v" n="11.21"/>unusquisque enim suam 
+<lb rend="indent"/>cenam praesumit 
+<lb rend="indent"/>ad manducandum
+<lb/>et alius quidem esurit
+<lb/>alius autem ebrius est
+<lb/><milestone unit="v" n="11.22"/>numquid domos non habetis 
+<lb rend="indent"/>ad manducandum 
+<lb rend="indent"/>et bibendum
+<lb/>aut ecclesiam <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> contemnitis
+<lb/>et con<del rend="erased"><unclear>d</unclear>e</del>funditis eos 
+<lb rend="indent"/>qui non habent
+<lb/>quid dicam uobis laudo uos
+<lb rend="indent"/>in hoc non laudo
+</p>
+<pb n="956v"/>
+<cb n="a"/>
+<p>
+<label type="chapter" rend="red supraline" n="57">lvii</label>
+<lb/><milestone unit="v" n="11.23"/><hi rend="red">Ego</hi> enim accepi<!-- chk WW: 'e' looks exp. but that makes no sense --> a <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>o</expan></name>
+<lb/>quod et tradidi uobis
+<lb/>quoniam <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>s</expan> <surplus source="#s"><add place="above"><expan>n<ex>oste</ex><abbr rend="supraline">r</abbr></expan></add></surplus> <expan>i<am rend="supraline">h</am><ex>esu</ex>s</expan></name> in qua 
+<lb rend="indent"/>nocte tradebatur
+<lb/>accepit panem <space unit="character" n="3"/><milestone unit="v" n="11.24"/>et gratias 
+<lb rend="indent"/>agens fregit et dixit
+<lb/>hoc est corpus meum 
+<lb rend="indent"/><app><lem source="#s"/><rdg source="#c #o">quod</rdg></app> pro uobis <app><lem source="#c #o">tradetur</lem><rdg source="#s"/></app>
+<lb/>hoc facite in meam com
+<lb break="no"/>memorationem
+<lb/><milestone unit="v" n="11.25"/>similiter et calicem post
+<lb break="no"/>quam cenauit dicens
+<lb/>hic calix nouum testament<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> 
+<lb rend="indent"/>est in meo sanguine
+<lb/>hoc facite quotienscumque 
+<lb rend="indent"/>bib<choice><sic>i</sic><corr source="#s">e</corr></choice>tis<!-- chk WW; this would be a good illustrative example --> in meam comme
+<lb break="no"/>morationem
+<lb/><milestone unit="v" n="11.26"/>quotie<del rend="expunct strikethrough">n</del>scumque<!-- quotienscumque S, quotiescumque C --> enim 
+<lb rend="indent"/>manducabitis panem hunc 
+<lb/>et calicem bibetis
+<lb/>mortem <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name> adnuntiatis 
+<lb rend="indent"/>donec ueniat
+</p>
+<p>
+<label type="chapter" rend="red supraline" n="58">lviii</label>
+<lb/><milestone unit="v" n="11.27"/><hi rend="red">Itaque</hi> quicumque mandu
+<lb break="no"/>cauerit panem 
+<lb/>uel biberit calicem <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name> 
+<lb rend="indent"/>indigne
+<lb/>reus erit corporis 
+<lb rend="indent"/>et sanguinis <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name>
+<lb/><milestone unit="v" n="11.28"/>probet autem se ipsum homo
+<lb/>et sic de pane illo edat 
+<lb rend="indent"/>et de calice bibat
+<lb/><milestone unit="v" n="11.29"/>qui enim manducat et bibit 
+<lb rend="indent"/>indigne
+<lb/>iudicium sibi manducat et bibit
+<lb/>non diiudicans corpus <app><lem source="#c"><add place="inline"><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></add></lem><rdg source="#s"/></app>
+<lb/><milestone unit="v" n="11.30"/>ideo inter uos multi <app><lem source="#c #o">infirmi</lem><rdg source="#s">infirmes</rdg></app> 
+<lb rend="indent"/>et inbecilles <surplus source="#s">sunt</surplus> 
+<lb/>et dormiunt multi
+<lb/><milestone unit="v" n="11.31"/>quod si nosmet ipsos 
+<lb rend="indent"/>diiudicaremus
+<lb/>non utique iudicaremur
+<lb/><milestone unit="v" n="11.32"/>dum iudicamur autem 
+<lb rend="indent"/>a <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>o</expan></name> corripimur
+<lb/>ut non cum hoc mundo damne
+<lb break="no"/>mur
+</p>
+<cb n="b"/>
+<p>
+<label type="chapter" rend="red supraline" n="59">lviiii</label>
+<lb/><milestone unit="v" n="11.33"/><hi rend="red">Ita<expan>q<am>’</am><ex>ue</ex></expan></hi> fratres mei cum con
+<lb break="no"/>uenitis ad manducandum 
+<lb rend="indent"/>inuicem expect<subst><del rend="erased">e</del><add place="inline">ate</add></subst><!-- om. S app. -->
+<lb/><milestone unit="v" n="11.34"/>si quis esurit domi manducet
+<lb/>ut non in iudicium conueniatis
+<lb/>cetera autem cum uenero 
+<lb rend="indent"/>disponam
+</p>
+<p>
+<label type="chapter" rend="red supraline" n="60">lx</label>
+<lb/><milestone unit="v" n="12.1"/><hi rend="red">De</hi> spiritalibus autem nolo 
+<lb rend="indent"/>uos ignorare fratres
+<lb/><milestone unit="v" n="12.2"/>scitis quoniam cum gentes 
+<lb rend="indent"/>essetis ad simulac<surplus source="#s">h</surplus>ra muta 
+<lb rend="indent"/>prout ducebamini euntes
+<lb/><milestone unit="v" n="12.3"/>ideo notum uobis facio 
+<lb rend="indent"/>quod nemo in <name><expan>s<abbr rend="supraline">p</abbr><ex>irit</ex>u</expan></name> <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> 
+<lb rend="indent"/>loquens
+<lb/>dicit anathema <name><expan>i<am rend="supraline">h</am><ex>es</ex>u</expan></name>
+<lb/>et nemo pote<del rend="erased">n</del>s<add place="inline">t</add><!-- om. S app. --> dicere 
+<lb rend="indent"/><name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>s</expan> <expan>i<am rend="supraline">h</am><ex>esu</ex>s</expan></name> nisi in <name><expan>s<abbr rend="supraline">p</abbr><ex>irit</ex>u</expan> <expan>s<ex>an</ex><abbr rend="supraline">c</abbr><ex>t</ex>o</expan></name>
+<lb/><milestone unit="v" n="12.4"/>diuisiones uero gratiarum 
+<lb rend="indent"/>sunt idem<!-- spaces here seem to be for hole in parchment rather than sense --> autem <name><expan>s<abbr rend="supraline">p</abbr><ex>iritu</ex>s</expan></name>
+<lb/><milestone unit="v" n="12.5"/>et diuisiones ministrati
+<lb break="no"/>onum sunt
+<lb/>idem autem <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>s</expan></name>
+<lb/><milestone unit="v" n="12.6"/>et diuisiones operation<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> sunt
+<lb/>idem uero <name><expan>d<ex>eu</ex><abbr rend="supraline">s</abbr></expan></name> 
+<lb/>qui operatur omnia in omni<expan>b<am>’</am><ex>us</ex></expan>
+<lb/><milestone unit="v" n="12.7"/>unicuique autem datur 
+<lb rend="indent"/>manifestatio <name><expan>s<abbr rend="supraline">p</abbr><ex>iritu</ex>s</expan></name> ad utilitatem
+<lb/><milestone unit="v" n="12.8"/>alii quidem per <name><expan>s<abbr rend="supraline">p</abbr><ex>iritu</ex>m</expan></name> datur 
+<lb rend="indent"/>sermo sapientiae
+<lb/>alii autem sermo scientiae 
+<lb rend="indent"/>secundum eundem <name><expan>s<abbr rend="supraline">p</abbr><ex>iritu</ex>m</expan></name>
+<lb/><milestone unit="v" n="12.9"/>alteri fides in eodem <name><expan>s<abbr rend="supraline">p</abbr><ex>irit</ex>u</expan></name>
+<lb/>alii gratia sanitatum in uno <name><expan>s<abbr rend="supraline">p</abbr><ex>irit</ex>u</expan></name>
+<lb/><milestone unit="v" n="12.10"/>alii opera<del rend="erased">s</del>tio uirtutum
+<lb/>alii <app><lem source="#c #o">prophetia</lem><rdg source="#s">prophetatio</rdg></app>
+<lb/>alii discretio spirituum
+<lb/>alii genera linguarum
+<lb/>alii interpretatio sermonum
+</p><p>
+<lb/><milestone unit="v" n="12.11"/>Haec autem omnia operatur 
+<lb rend="indent"/>unus atque idem <name><expan>s<abbr rend="supraline">p</abbr><ex>iritu</ex>s</expan></name>
+<lb/>diuidens singulis prout uult
+<lb/><milestone unit="v" n="12.12"/>sicut enim corpus unum est 
+<lb rend="indent"/>et membra habet multa
+<pb n="957r"/>
+<cb n="a"/>
+<lb/>omnia autem membra cor
+<lb break="no"/>poris cum sint multa 
+<lb rend="indent"/>unum corpus sunt
+<lb/>ita et <name><expan><am>x</am><am rend="supraline">p</am><ex>christu</ex>s</expan></name>
+<lb/><milestone unit="v" n="12.13"/>etenim in uno <name><expan>s<abbr rend="supraline">p</abbr><ex>irit</ex>u</expan></name> omnes 
+<lb rend="indent"/>nos in unum corpus 
+<lb rend="indent"/>baptizati sumus
+<lb/>siue <name>iudaei</name> <space unit="character" n="3"/>siue gentiles<!-- tabbing -->
+<lb/>siue serui <space unit="character" n="3"/>siue liberi
+<lb/>et omnes unum <name><expan>s<abbr rend="supraline">p</abbr><ex>iritu</ex>m</expan></name> potati 
+<lb rend="indent"/>sumus
+<lb/><milestone unit="v" n="12.14"/>nam et corpus non est unum 
+<lb rend="indent"/>membrum sed multa
+<lb/><milestone unit="v" n="12.15"/>si dixerit pes quoniam non 
+<lb rend="indent"/>sum manus non sum 
+<lb rend="indent"/>de corpore· non ideo 
+<lb/>non est de corpore
+<lb/><milestone unit="v" n="12.16"/><supplied reason="omitted" source="#s">et</supplied><!-- om. S app., chk WW --> si dixerit auris quia non sum 
+<lb rend="indent"/>oculus non sum de corpore
+<lb rend="indent"/>non ideo non est de corpore
+<lb/><milestone unit="v" n="12.17"/>si totum corpus oculus 
+<lb/>ubi auditus
+<lb/>si totum auditus 
+<lb/>ubi odoratus
+<lb/><milestone unit="v" n="12.18"/>nunc autem posuit <name><expan>d<ex>eu</ex><abbr rend="supraline">s</abbr></expan></name> membra
+<lb/>unumquodque eorum 
+<lb rend="indent"/>in corpore sicut uoluit
+<lb/><milestone unit="v" n="12.19"/>quod si essent omnia 
+<lb rend="indent"/>unum membrum ubi corpus
+<lb/><milestone unit="v" n="12.20"/>nunc autem multa quidem 
+<lb rend="indent"/>membra unum autem corpus
+<lb/><milestone unit="v" n="12.21"/>non potest <app><lem source="#c">autem</lem><rdg source="#s"/></app> dicere 
+<lb rend="indent"/>oculus manui
+<lb/>opera tua non indigeo
+<lb/>aut iterum caput pedibus
+<lb/>non estis mihi necessarii
+<lb/><milestone unit="v" n="12.22"/>sed multo magis quae uiden
+<lb break="no"/>tur m<add place="inRas">em</add>bra corporis 
+<lb rend="indent"/>infirmiora esse necessariora <expan>s<ex>un</ex><abbr rend="supraline">t</abbr></expan>
+<lb/><milestone unit="v" n="12.23"/>et quae putamus ignobiliora 
+<lb rend="indent"/>membra esse corporis
+<lb/>his honorem abundantior<expan><abbr rend="supraline">e</abbr><ex>m</ex></expan> 
+<lb rend="indent"/>circumdamus
+<lb/>et quae inhonesta sunt nostra
+<cb n="b"/>
+<lb/>abundantiorem honestat<expan><abbr rend="supraline">e</abbr><ex>m</ex></expan> 
+<lb rend="indent"/>habent
+<lb/><milestone unit="v" n="12.24"/>honesta autem nostra 
+<lb rend="indent"/>nullius egent
+<lb/>sed <name><expan>d<ex>eu</ex><abbr rend="supraline">s</abbr></expan></name> temperauit corpus
+<lb/>ei cui de<del rend="erased"><unclear>e</unclear></del>erat abundantior<expan><abbr rend="supraline">e</abbr><ex>m</ex></expan> 
+<lb rend="indent"/>tribuendo honorem
+<lb/><milestone unit="v" n="12.25"/>ut non sit schisma in corpore
+<lb/>sed id ipsum pro inuicem 
+<lb rend="indent"/>sollicita s<subst><del rend="expunct">u</del><add place="inline">i</add></subst>nt membra
+<lb/><milestone unit="v" n="12.26"/>et si quid patitur unum 
+<lb rend="indent"/>membrum
+<lb/>conpatiuntur omnia membra
+<lb/>siue gloriatur unum membr<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan>
+<lb/>congaudent omnia membra
+<lb/><milestone unit="v" n="12.27"/>uos autem estis corpus <name><expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>i</expan></name>
+<lb/>et membra de membro
+<lb/><milestone unit="v" n="12.28"/>et quosdam quidem posuit 
+<lb rend="indent"/><name><expan>d<ex>eu</ex><abbr rend="supraline">s</abbr></expan></name> in ecclesia
+<lb/>primum apostolos
+<lb/>secundo prophetas
+<lb/>tertio doctores
+<lb/>deinde uirtutes
+<lb/><app><lem source="#c">exin<add place="above">de</add></lem><rdg source="#s">exin</rdg></app> gratia<add place="inline">s</add> curationum
+<lb/>opitulationes
+<lb/>gubernationes
+<lb/>genera linguarum
+<lb/><milestone unit="v" n="12.29"/>numquid omnes apostoli
+<lb/>numquid omnes prophetae
+<lb/>numquid omnes doctores
+<lb/><milestone unit="v" n="12.30"/>numquid omnes uirtutes
+<lb/>numquid omnes gratiam 
+<lb rend="indent"/>habent curationum
+<lb/>numquid omnes linguis 
+<lb rend="indent"/>loquuntur
+<lb/>numquid omnes interpretantur
+<lb/><milestone unit="v" n="12.31"/>aemulamini autem charis
+<lb break="no"/>mata maiora
+</p>
+<p>
+<label type="chapter" rend="red supraline" n="61">lxi</label>
+<lb/><hi rend="red">Et</hi> adhuc excellentiorem 
+<lb rend="indent"/>uiam uobis demonstro
+<lb/><milestone unit="v" n="13.1"/>si linguis hominum loquar 
+<lb rend="indent"/>et angelorum
+<lb/>caritatem autem non habeam
+<lb/>factus sum uel<add place="above">ut</add><!-- om. S app. --> aes sonans 
+<pb n="957v"/>
+<cb n="a"/>
+<lb rend="indent"/>aut cymbalum tinniens
+<lb/><milestone unit="v" n="13.2"/>et si habuero prophetiam
+<lb/>et nouerim mysteria omnia 
+<lb rend="indent"/><add place="inline">et</add> omnem scientiam
+<lb/>et habuero omnem fidem 
+<lb rend="indent"/>ita ut montes transferam
+<lb/>caritatem autem non habuero
+<lb/>nihil sum <space unit="character" n="3"/><milestone unit="v" n="13.3"/>et si distribuero 
+<lb rend="indent"/>in cibos pauperum 
+<lb rend="indent"/>omnes facultates meas
+<lb/>et si tradidero corpus meum 
+<lb rend="indent"/>ut ardea<choice><sic>t</sic><corr source="#s">m</corr></choice>
+<lb/>caritatem autem non habuero
+<lb/>nihil mihi prodest
+</p><p>
+<lb/><milestone unit="v" n="13.4"/>Caritas patiens est
+<lb/>benigna est
+<lb/>caritas non aemulatur
+<lb/>non agit perperam
+<lb/>non inflatur
+<lb/><milestone unit="v" n="13.5"/>non est ambitiosa
+<lb/>non quaerit quae sua sunt
+<lb/>non inritatur
+<lb/>non cogitat malum
+<lb/><milestone unit="v" n="13.6"/>non gaudet super iniquitatem
+<lb/>congaudet autem ueritati
+<lb/><milestone unit="v" n="13.7"/>omnia suffert
+<lb/>omnia credit
+<lb/>omnia sperat
+<lb/>omnia sustinet
+</p><p>
+<lb/><milestone unit="v" n="13.8"/>Caritas numquam exc<choice><sic>e</sic><corr source="#s">i</corr></choice>dit
+<lb/>siue prophetiae euacuabuntur
+<lb/>siue linguae cessabunt
+<lb/>siue scientia destruetur
+<lb/><milestone unit="v" n="13.9"/>ex parte enim cognoscimus
+<lb/>et ex parte prophetamus
+<lb/><milestone unit="v" n="13.10"/>cum autem uenerit 
+<lb rend="indent"/>quod perfectum est
+<lb/>euacuabitur quod ex parte est
+<lb/><milestone unit="v" n="13.11"/>cum essem paruulus
+<lb/>loquebar ut paruulus
+<lb/>sapiebam ut paruulus
+<lb/>cogitabam ut paruulus
+<lb/>quando factus sum uir
+<lb/>euacuaui quae erant paruuli
+</p>
+<cb n="b"/>
+<p>
+<lb/><milestone unit="v" n="13.12"/>Videmus nunc per speculum 
+<lb rend="indent"/>in aenigmate<!-- enigmate S -->
+<lb/>tunc autem facie ad faciem
+<lb/>nunc cognosco ex parte
+<lb/>tunc autem cognoscam 
+<lb rend="indent"/>sicut et cognitus sum
+<lb/><milestone unit="v" n="13.13"/>nunc autem manet
+<lb/>fides <space unit="character" n="3"/>spes <space n="3" unit="character"/>caritas
+<lb/>tria haec
+<lb/>maior autem his est caritas
+</p>
+<p>
+<label type="chapter" rend="red supraline" n="62">lxii</label>
+<lb/><milestone unit="v" n="14.1"/><hi rend="red">Sec</hi>tamini caritatem
+<lb/>aemulamini spiritalia
+<lb/>magis autem ut pro<subst><del rend="alt">f</del><add place="inline">p</add></subst><add place="above">h</add><subst><del rend="alt">i</del><add place="inline">e</add></subst>tetis
+<lb/><milestone unit="v" n="14.2"/>qui enim loquitur lingua
+<lb/>non hominibus loquitur 
+<lb/>sed <name><expan>d<ex>e</ex><abbr rend="supraline">o</abbr></expan></name> <space unit="character" n="3"/>nemo enim audit
+<lb/><name>spiritu<surplus source="#s"><add place="inline">s</add></surplus></name> autem loquitur 
+<lb rend="indent"/>mysteria
+<lb/><milestone unit="v" n="14.3"/>nam qui prophetat
+<lb/>hominibus loquitur aedifica
+<lb break="no"/>tionem et ex<add place="above">h</add>ortationem 
+<lb rend="indent"/>et consolationes
+<lb/><milestone unit="v" n="14.4"/>qui loquitur lingua
+<lb/>semet ipsum aedificat
+<lb/>qui autem prophetat
+<lb/>ecclesiam aedificat
+</p><p>
+<lb/><milestone unit="v" n="14.5"/>Volo autem omnes uos 
+<lb rend="indent"/><choice><sic>linguis loqui</sic><corr source="#s">loqui linguis</corr></choice><!-- transpose -->
+<lb/>magis autem prophetare
+<lb/>nam maior est qui prophetat
+<lb/>quam qui loquitur linguis
+<lb/>nisi <app><lem source="#c #o"/><rdg source="#s">si</rdg></app> forte ut interpretetur
+<lb/>ut ecclesia aedificationem 
+<lb rend="indent"/>accipiat
+</p><p>
+<lb/><milestone unit="v" n="14.6"/>Nunc autem fratres 
+<lb rend="indent"/>si uenero ad uos linguis 
+<lb rend="indent"/>loquens
+<lb/>quid uobis prodero
+<lb/>nisi si uobis loquar
+<lb rend="indent"/>aut in reuelatione<del rend="expunct strikethrough">m</del>
+<lb/>aut scientia
+<lb/>aut prophetia
+<lb/>aut in doctrina <space unit="character" n="3"/><milestone unit="v" n="14.7"/>tamen 
+<surplus source="#s"><lb/></surplus>quae<!-- chk that will render properly --> sine anima sunt uocem dan
+<lb break="no"/>tia
+<pb n="958r"/>
+<cb n="a"/>
+<lb/>siue tibia <space unit="character" n="3"/>siue cithara
+<lb/>nisi distinctionem 
+<lb rend="indent"/>sonituum dederint
+<lb/>quomodo scietur quod 
+<lb rend="indent"/>canitur aut quod citha
+<lb break="no"/>rizatur
+<lb/><milestone unit="v" n="14.8"/>etenim si incertam uoc<expan><abbr rend="supraline">e</abbr><ex>m</ex></expan> 
+<lb rend="indent"/>de<add place="above">t</add><!-- om. S app. --> tu<del rend="erased">r</del>ba<!-- om. S app. -->
+<lb/>quis para<choice><sic>u</sic><corr source="#s">b</corr></choice>it se ad bellum
+<lb/><milestone unit="v" n="14.9"/>ita et uos
+<lb/>per linguam nisi manifes
+<lb break="no"/>tum <del rend="erased"><gap reason="illegible" quantity="2" unit="character"/></del><!-- chk WW --> sermonem dederitis
+<lb/>quomodo scietur id quod 
+<lb rend="indent"/>dicitur· eritis enim 
+<lb rend="indent"/>in aer<choice><sic>e</sic><corr source="#s">a</corr></choice> loquentes
+<lb/><milestone unit="v" n="14.10"/>tam multa ut puta genera 
+<lb rend="indent"/>linguarum sunt in mundo
+<lb/>et nihil sine uoce est
+<lb/><milestone unit="v" n="14.11"/>si ergo nesciero uirtutem 
+<lb rend="indent"/>uocis <space unit="character" n="3"/>ero ei cui loquor 
+<lb rend="indent"/>barbarus
+<lb/>et qui loquitur mihi barbarus
+<lb/><milestone unit="v" n="14.12"/>sic et uos
+<lb/>quoniam aemulatores 
+<lb rend="indent"/>estis spirituum
+<lb/>ad aedificationem ecclesiae 
+<lb rend="indent"/>quaerite ut abundetis
+<lb/><milestone unit="v" n="14.13"/>et ideo qui loquitur lingua
+<lb/>oret ut interpretetur
+<lb/><milestone unit="v" n="14.14"/>nam si orem lingua
+<lb/><expan>s<abbr rend="supraline">p</abbr><ex>iritu</ex>s</expan> meus orat
+<lb/>mens autem mea sine 
+<lb rend="indent"/>fructu est
+<lb/><milestone unit="v" n="14.15"/>quid ergo est
+<lb/>orabo <expan>s<abbr rend="supraline">p</abbr><ex>irit</ex>u</expan> <space unit="character" n="3"/>orabo et mente
+<lb/>psall<expan><abbr rend="supraline">a</abbr><ex>m</ex></expan> <expan>s<abbr rend="supraline">p</abbr><ex>irit</ex>u</expan> <space unit="character" n="3"/>psall<expan><abbr rend="supraline">a</abbr><ex>m</ex></expan> <add place="above">et</add><!-- om. S app. --> mente
+<lb/><milestone unit="v" n="14.16"/>ceterum si benedixeris <expan>s<abbr rend="supraline">p</abbr><ex>irit</ex>u</expan>
+<lb/><app><lem source="#o">quis</lem><rdg source="#s">qui</rdg></app> supplet locum idiotae
+<lb rend="indent"/>quomodo dicet amen su
+<lb break="no"/>per tuam benedictionem
+<lb/>quoniam quid dicas nescit
+<lb/><milestone unit="v" n="14.17"/>nam tu quidem bene 
+<lb rend="indent"/>gratias agis
+<lb/>sed alter non aedificatur
+<cb n="b"/>
+<lb/><milestone unit="v" n="14.18"/>gratias ago <name><expan>d<ex>e</ex><abbr rend="supraline">o</abbr></expan></name> quod omni<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> 
+<lb rend="indent"/>uestrum lingua loquor
+<lb/><milestone unit="v" n="14.19"/>sed in ecclesia uolo quinque 
+<lb rend="indent"/>uerba sensu meo<!-- sensum eo p.c. --> loqui 
+<lb rend="indent"/>ut et alios instruam
+<lb/>quam decem milia 
+<lb rend="indent"/>uerborum in lingua
+</p><p>
+<lb/><milestone unit="v" n="14.20"/>Fratres nolite pueri effici 
+<lb rend="indent"/>sensibus
+<lb/>sed malitia paruuli estote
+<lb/>sensibus autem perfecti 
+<lb rend="indent"/>estote
+<lb/><milestone unit="v" n="14.21"/>in lege scriptum est
+<quote rend="sidequotes"><lb/>quoniam in aliis linguis 
+<lb rend="indent"/>et labiis aliis loquar 
+<lb rend="indent"/>populo huic
+<lb/>et nec sic exaudient me 
+<lb rend="indent"/>dicit <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>s</expan></name></quote>
+<lb/><milestone unit="v" n="14.22"/>itaque linguae in <subst><del rend="alt">sunt signum</del><add place="inline">signum sunt</add></subst><!-- transpose -->
+<lb/>non fidelibus 
+<lb/>sed infidelibus
+<lb/><app><lem source="#c #o">prophetiae</lem><rdg source="#s">prophetia</rdg></app> autem 
+<lb rend="indent"/>non infidelibus 
+<lb/>sed fidelibus
+<lb/><milestone unit="v" n="14.23"/>si ergo conueniat uniuersa 
+<lb rend="indent"/>ecclesia in unum
+<lb/>et omnes linguis loquantur
+<lb/>intrent autem idiotae 
+<lb rend="indent"/>aut infideles
+<lb/>nonne dicent quod insanitis
+<lb/><milestone unit="v" n="14.24"/>si autem omnes prophetent
+<lb/>intret autem quis infidelis 
+<lb rend="indent"/>uel idiota
+<lb/>conuincitur ab omnibus
+<lb/>diiudicatur ab omnibus
+<lb/><milestone unit="v" n="14.25"/>occulta cordis eius 
+<lb rend="indent"/>manifesta fiunt
+<lb/>et ita cadens in faciem 
+<lb rend="indent"/>adora<choice><sic>u</sic><corr source="#s">b</corr></choice>it <name><expan>d<ex>eu</ex><abbr rend="supraline">m</abbr></expan></name>
+<lb/>pronuntians quod uere 
+<lb rend="indent"/><name><expan>d<ex>eu</ex><abbr rend="supraline">s</abbr></expan></name> in uobis <app><lem source="#c #o">sit</lem><rdg source="#s">est</rdg></app>
+</p><p>
+<lb/><milestone unit="v" n="14.26"/>Quid ergo est fratres
+<lb/>cum conuenitis
+<lb/>unusquisque uestrum
+<pb n="958v"/>
+<cb n="a"/>
+<lb/>psalmum habet
+<lb/>doctrinam habet
+<lb/>apocalypsin habet
+<lb/>linguam habet
+<lb/>interpretationem habet
+<lb/>omnia ad aedificationem fiant
+<lb/><milestone unit="v" n="14.27"/>siue lingua quis loquitur
+<lb rend="indent"/>secundum duos 
+<lb/>aut ut multum tres
+<lb/>et per partes
+<lb/>et unus interpretetur
+<lb/><milestone unit="v" n="14.28"/>si autem non fuerit interpres
+<lb/>taceat in ecclesia
+<lb/>sibi autem loquatur et <name><expan>d<ex>e</ex><abbr rend="supraline">o</abbr></expan></name>
+</p>
+<p>
+<label type="chapter" rend="red supraline" n="53">liii</label>
+<lb/><milestone unit="v" n="14.29"/><hi rend="red">Pro</hi>phetae duo aut tres dicant 
+<lb/>et ceteri diiudicent
+<lb/><milestone unit="v" n="14.30"/>quod si alii reuelatum fuerit 
+<lb rend="indent"/>sedenti <space unit="character" n="3"/>prior taceat
+<lb/><milestone unit="v" n="14.31"/>potestis enim omnes 
+<lb rend="indent"/>per singulos prophetare
+<lb/>ut omnes discant et omnes 
+<lb rend="indent"/>ex<add place="above">h</add>ortentur
+<lb/><milestone unit="v" n="14.32"/>et <expan>s<abbr rend="supraline">p</abbr><ex>iritu</ex>s</expan> prophetarum 
+<lb rend="indent"/>prophetis subiecti sunt
+<lb/><milestone unit="v" n="14.33"/>non enim est dissensionis 
+<lb rend="indent"/><name><expan>d<ex>eu</ex><abbr rend="supraline">s</abbr></expan></name> <add place="inline">s</add>e<subst><del rend="alt">t</del><add place="inline">d</add></subst><!-- om. S app. --> pacis
+<lb/>sicut in omnibus ecclesiis 
+<lb rend="indent"/>sanctorum
+</p>
+<p>
+<label type="chapter" rend="red supraline" n="54">liiii</label>
+<lb/><milestone unit="v" n="14.34"/><hi rend="red">Mu</hi>lieres in ecclesiis taceant
+<lb/>non enim permittitur 
+<lb rend="indent"/>eis loqui sed subdit<subst><del rend="erased"><unclear>u</unclear></del><add place="inRas">a</add></subst>s esse 
+<lb rend="indent"/>sicut et lex dicit
+<lb/><milestone unit="v" n="14.35"/>si quid autem uolunt discere
+<lb/>domi uiros suos interrogent
+<lb/>turpe est enim mulieri 
+<lb rend="indent"/>loqui in ecclesia
+<lb/><milestone unit="v" n="14.36"/>an a uobis uerbum <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> 
+<lb rend="indent"/>processit
+<lb/>aut in uos solos peruenit
+<lb/><milestone unit="v" n="14.37"/>si quis uidetur propheta 
+<lb rend="indent"/>esse aut spiritalis
+<lb/>cognoscat quae scribo uobis
+<lb/>quia <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name> sunt mandata
+<lb/><milestone unit="v" n="14.38"/>si quis autem ignorat ignorabi
+<lb break="no"/>tur
+<cb n="b"/>
+<lb/><milestone unit="v" n="14.39"/>itaque fratres aemulamini 
+<lb rend="indent"/>prophetare
+<lb/>et loqui linguis nolite 
+<lb rend="indent"/>prohibere
+<lb/><milestone unit="v" n="14.40"/>omnia autem honeste et se
+<lb break="no"/>cundum ordin<expan><abbr rend="supraline">e</abbr><ex>m</ex></expan> fiant
+<!-- paraph add. in marg. --><lb/><milestone unit="v" n="15.1"/>notum autem uobis facio <expan><abbr rend="supraline">f<am>f</am></abbr><ex>ratres</ex></expan> 
+<lb rend="indent"/>euangelium quod prae
+<lb break="no"/>dicaui uobis
+<lb/>quod et accepistis
+<lb/>in quo et statis
+<lb/><milestone unit="v" n="15.2"/>per quod et saluamini
+<lb/>qua ratione praedicauerim 
+<lb rend="indent"/>uobis si tenetis nisi si frus
+<lb break="no"/>tra credidistis
+</p>
+<p>
+<label type="chapter" rend="red supraline" n="65">lxv</label>
+<lb/><milestone unit="v" n="15.3"/><hi rend="red">Tra</hi>didi <add place="above">enim</add> uobis <del rend="expunct strikethrough">enim</del><!-- om. S app. --> in primis 
+<lb rend="indent"/>quod et accepi
+<lb/>quoniam <name><expan><am>x</am><am rend="supraline">p</am><ex>christu</ex>s</expan></name> mortuus est 
+<lb rend="indent"/>pro peccatis nostris 
+<lb rend="indent"/>secundum scripturas
+<lb/><milestone unit="v" n="15.4"/>et qu<add place="above">i</add>a<!-- om. S app. --> sepultus est
+<lb/>et quia <app><lem source="#o">surrexit</lem><rdg source="#s">resurrexit</rdg></app> tertia die 
+<lb rend="indent"/>secundum scripturas
+<lb/><milestone unit="v" n="15.5"/><supplied reason="omitted" source="#s">et</supplied><!-- om. S app., chk WW --> quia uisus est <name>cephae</name>
+<lb/>et post haec undecim
+<lb/><milestone unit="v" n="15.6"/>deinde uisus est plus quam 
+<lb rend="indent"/>quingentis fratribus 
+<lb rend="indent"/>simul· ex quibus multi 
+<lb rend="indent"/>manent usque adhuc
+<lb/>quidam autem dormierunt
+<lb/><milestone unit="v" n="15.7"/>deinde uisus est <surplus source="#s">et</surplus> <name>iacobo</name>
+<lb/><add place="left">dein</add>de<!-- om. S app. --> apostolis omnibus
+<lb/><milestone unit="v" n="15.8"/>nouissime autem omnium 
+<lb rend="indent"/>tamquam abortiuo 
+<lb rend="indent"/>uisus est et mihi
+</p><p>
+<lb/><milestone unit="v" n="15.9"/>Ego enim sum minimus 
+<lb rend="indent"/>apostolorum
+<lb/>qui non sum dignus uocari 
+<lb rend="indent"/>apostolus
+<lb/>quoniam persecutus sum 
+<lb rend="indent"/>ecclesiam <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name>
+<lb/><milestone unit="v" n="15.10"/>gratia<del rend="erased">m</del> autem <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> sum 
+<lb rend="indent"/>id quod sum
+<lb/>et gratia eius in me uacua non 
+<lb rend="indent"/>fuit
+<pb n="959r"/>
+<cb n="a"/>
+<lb/>sed <del rend="expunct">h</del>abundantius illis omnibus 
+<lb rend="indent"/>laboraui
+<lb/>non ego autem 
+<lb/>sed gratia <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> mecum
+<lb/><milestone unit="v" n="15.11"/>siue enim ego siue illi
+<lb/>sic praedicamus 
+<lb/>et sic credidistis
+<lb/><milestone unit="v" n="15.12"/>si<del rend="erased">c</del> autem <name><expan><am>x</am><am rend="supraline">p</am><ex>christu</ex>s</expan></name> praedicatur 
+<lb rend="indent"/>quod resurrexit a mortuis
+<lb/>quomodo quidam dicunt 
+<lb rend="indent"/>in uobis quoniam resurrectio 
+<lb rend="indent"/>mortuorum non est
+<lb/><milestone unit="v" n="15.13"/>si autem resurrectio 
+<lb rend="indent"/>mortuorum non est
+<lb/>neque <name><expan><am>x</am><am rend="supraline">p</am><ex>christu</ex>s</expan></name> resurrexit
+<lb/><milestone unit="v" n="15.14"/>si autem <name><expan><am>x</am><am rend="supraline">p</am><ex>christu</ex>s</expan></name> <add place="above">non</add><!-- om. S app. --> resurrexit
+<lb/>inan<subst><del rend="erased"><unclear>e</unclear></del><add place="inRas">i</add></subst>s<!-- om. S app. --> <choice><sic>ergo est</sic><corr source="#s">est ergo</corr></choice> praedicatio 
+<lb rend="indent"/>nostra
+<lb/>inan<subst><del rend="erased"><unclear>e</unclear></del><add place="inRas">i</add></subst>s<!-- om. S app. --> <surplus source="#s">ergo</surplus> est et fides uestra
+<lb/><milestone unit="v" n="15.15"/>inuenimur autem et falsi 
+<lb rend="indent"/>testes <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name>
+<lb/>quoniam testimonium 
+<lb rend="indent"/>diximus aduersus <name><expan>d<ex>eu</ex><abbr rend="supraline">m</abbr></expan></name>
+<lb/>quod suscitauerit <name><expan><am>x</am><am rend="supraline">p</am><ex>christu</ex>m</expan></name>
+<lb rend="indent"/>quem non suscitauit 
+<lb/>si mortui non resurgunt
+<supplied reason="omitted" source="#s"><lb/><milestone unit="v" n="15.16"/>nam si mortui non resurgunt</supplied>
+<lb rend="indent"/>neque <name><expan><am>x</am><am rend="supraline">p</am><ex>christu</ex>s</expan></name> resurrexit
+<lb/><milestone unit="v" n="15.17"/>quod si <name><expan><am>x</am><am rend="supraline">p</am><ex>christu</ex>s</expan></name> non resurrexit
+<lb/>uana est fides uestra
+<lb/>adhuc enim estis in peccatis uestris
+</p><p>
+<lb/><milestone unit="v" n="15.18"/>Ergo et qui dormierunt 
+<lb rend="indent"/>in <name><expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>o</expan></name> perierunt
+<lb/><milestone unit="v" n="15.19"/>si in hac uita tantum in <name><expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>o</expan></name> 
+<lb rend="indent"/>sperantes sumus
+<lb/>miserabiliores sumus 
+<lb rend="indent"/>omnibus hominibus
+<lb/><milestone unit="v" n="15.20"/>nunc autem <name><expan><am>x</am><am rend="supraline">p</am><ex>christu</ex>s</expan></name> resurrexit 
+<lb rend="indent"/>a mortuis 
+<lb/>primitiae dormientium
+<lb/><milestone unit="v" n="15.21"/>quoniam enim per hominem 
+<lb rend="indent"/>mors
+<lb/>et per hominem resurrectio 
+<lb rend="indent"/>mortuorum
+<lb/><milestone unit="v" n="15.22"/>et sicut in <name>adam</name> omnes moriun
+<lb break="no"/>tur
+<cb n="b"/>
+<lb/>ita et in <name><expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>o</expan></name> omnes uiuifica<choice><sic><del rend="erased">bu</del></sic><corr source="#s">bu</corr></choice>ntur
+<lb/><milestone unit="v" n="15.23"/>unusquisque autem in suo 
+<lb rend="indent"/>ordine<space unit="character" n="3"/>primitiae <name><expan><am>x</am><am rend="supraline">p</am><ex>christu</ex>s</expan></name>
+<lb/>deinde hi <space unit="character" n="3"/>qui sunt <name><expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>i</expan></name> 
+<lb rend="indent"/>in aduentu eius
+<lb/><milestone unit="v" n="15.24"/>deinde finis
+<lb/>cum<!-- looks like a cap, but does that make sense? --> tradiderit regnum <name><expan>d<ex>e</ex><abbr rend="supraline">o</abbr></expan></name> 
+<lb rend="indent"/>et <name>patri</name> <space unit="character" n="3"/>cum euacuauerit 
+<lb rend="indent"/>omn<expan><abbr rend="supraline">e</abbr><ex>m</ex></expan> principatum et potes
+<lb break="no"/>tatem et uirtutem
+<lb/><milestone unit="v" n="15.25"/>oportet autem illum regnare 
+<lb rend="indent"/>donec ponat <add place="left">omnes</add><!-- om. S app. --> inimicos 
+<lb rend="indent"/>sub pedibus eius
+<lb/><milestone unit="v" n="15.26"/>nouissima autem inimica 
+<lb rend="indent"/>destruetur mors
+<lb/><quote rend="sidequotes">omnia enim subiecit sub pedi<expan>b<am>’</am><ex>us</ex></expan> 
+<lb rend="indent"/>eius</quote> <space unit="character" n="3"/>cum autem dicat 
+<lb rend="indent"/><milestone unit="v" n="15.27"/><quote rend="sidequotes">omnia subiecta sunt <app><lem source="#c #o">ei</lem><rdg source="#s"/></app></quote>
+<lb/>sine dubio praeter eum 
+<lb rend="indent"/>qui subiecit ei omnia
+<lb/><milestone unit="v" n="15.28"/>cum autem subiecta fuerint 
+<lb rend="indent"/>illi omnia
+<lb/>tunc ipse <name>filius</name> subiectus 
+<lb rend="indent"/>erit illi qui sibi subiecit 
+<lb rend="indent"/>omnia
+<lb/>ut sit <name><expan>d<ex>eu</ex><abbr rend="supraline">s</abbr></expan></name> omnia in omni<subst><del rend="erased">a</del><add place="inline">bus</add></subst><!-- om. S app. -->
+<lb/><milestone unit="v" n="15.29"/>alioquin quid facient 
+<lb rend="indent"/>qui baptizantur pro 
+<lb rend="indent"/>mortuis
+<lb/>si <add place="above">o</add>mnino mortui non resurgunt
+<lb/>ut quid et baptizantur 
+<lb rend="indent"/>pro illis
+<lb/><milestone unit="v" n="15.30"/>ut quid et nos periclitamur 
+<lb rend="indent"/>omni hora
+<lb/><milestone unit="v" n="15.31"/>cotidie morior <app><lem source="#o">propter</lem><rdg source="#s">per</rdg></app> 
+<lb rend="indent"/>uestram gloriam fratres
+<lb/>quam habeo in <name><expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>o</expan> <expan>i<am rend="supraline">h</am><ex>es</ex>u</expan></name> <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>o</expan></name> <expan>n<ex>ostr</ex><abbr rend="supraline">o</abbr></expan>
+<lb/><milestone unit="v" n="15.32"/>si secundum hominem 
+<lb rend="indent"/>ad bestias pugnaui <name>ephesi</name>
+<lb/>quid mihi prodest si mortui 
+<lb rend="indent"/>non resurgunt
+<said rend="sidequotes"><lb/>manducemus et bibamus 
+<lb rend="indent"/>cras enim moriemur</said>
+<lb/><milestone unit="v" n="15.33"/>nolite seduci
+<pb n="959v"/>
+<cb n="a"/>
+<lb/>corrumpunt mores bonos 
+<lb rend="indent"/>conloquia mala
+<lb/><milestone unit="v" n="15.34"/>euigilate iuste et nolite 
+<lb rend="indent"/>peccare
+<lb/>ignorantiam <choice><sic><name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> enim</sic><corr source="#s">enim <name>dei</name></corr></choice><!-- om. S app.; chk WW --> 
+<lb rend="indent"/>quidam habent
+<lb/>ad reuerentiam uobis loquor
+<lb/><milestone unit="v" n="15.35"/>sed dicet aliquis
+<lb/>quomodo resurgunt mortui
+<lb/>quali autem corpore ueniunt
+<lb/><milestone unit="v" n="15.36"/>insipiens <space unit="character" n="3"/>tu quod seminas <add place="inline">non</add> 
+<lb rend="indent"/>uiuificatur nisi prius moriatur
+<lb/><milestone unit="v" n="15.37"/>et quod seminas
+<lb/>non corpus quod futurum 
+<lb rend="indent"/>est seminas
+<lb/>sed nudum granum ut puta 
+<lb rend="indent"/>tritici aut alicuius ceteror<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan>
+</p><p>
+<lb/><milestone unit="v" n="15.38"/><name><expan>D<ex>eu</ex><abbr rend="supraline">s</abbr></expan></name> autem dat illi corpus 
+<lb rend="indent"/>sicut uoluit et unicuique 
+<lb rend="indent"/>seminum proprium corpus
+<lb/><milestone unit="v" n="15.39"/>non omnis caro eadem caro
+<lb/>sed alia hominum
+<lb/>alia pecorum
+<lb/>alia caro uolucrum
+<lb/>alia autem piscium
+<lb/><milestone unit="v" n="15.40"/>et corpora caelestia
+<lb/>et corpora terrestria
+<lb/>sed alia quidem caelestium 
+<lb rend="indent"/>gloria
+<lb/>alia autem terrestrium
+<lb/><milestone unit="v" n="15.41"/>alia claritas solis
+<lb/>alia claritas lunae
+<lb/><app><lem source="#o"/><rdg source="#s">et</rdg></app> alia claritas stellarum
+<lb/>stella enim ab stella 
+<lb rend="indent"/>differt in claritate
+<lb/><milestone unit="v" n="15.42"/>sic et resurrectio mortuor<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan>
+<lb/>seminatur in corruptione
+<lb/>surg<choice><sic>e</sic><corr source="#s">i</corr></choice>t in incorruptione
+<lb/><milestone unit="v" n="15.43"/>seminatur in ignobilitate
+<lb/>surg<choice><sic>e</sic><corr source="#s">i</corr></choice>t in gloria
+<lb/>seminatur in infirmitate
+<lb/>surg<choice><sic>e</sic><corr source="#s">i</corr></choice>t in uirtute
+<lb/><milestone unit="v" n="15.44"/>seminatur corpus animale
+<lb/>surgit corpus spiritale
+<cb n="b"/>
+<lb/>si est corpus animale
+<lb/>est et spiritale
+<lb/>sic et scriptum est
+<quote rend="sidequotes"><lb/><milestone unit="v" n="15.45"/>factus est primus homo <name>adam</name> 
+<lb rend="indent"/>in animam uiuentem</quote>
+<lb/>nouissimus <name>adam</name> in <expan>s<abbr rend="supraline">p</abbr><ex>irit</ex>u</expan> 
+<lb rend="indent"/>uiuificantem
+<lb/><milestone unit="v" n="15.46"/>sed <add place="above">non</add><!-- om. S app. --> prius <del rend="expunct strikethrough">non</del> quod spiritale <add place="inline">est</add>
+<lb/>sed quod animale est
+<lb/>deinde quod spiritale
+<lb/><milestone unit="v" n="15.47"/>primus homo de terra 
+<lb rend="indent"/>terrenus
+<lb/>secundus homo de caelo <add place="inline">caelestis</add><!-- om. S app. -->
+<lb/><milestone unit="v" n="15.48"/>qualis terrenus 
+<lb/>tales et terreni
+<lb/><add place="left">et</add> qualis caelestis 
+<lb/>tales et caelest<subst><del rend="alt">i</del><add place="inline">e</add></subst>s<!-- om. S app. -->
+<lb/><milestone unit="v" n="15.49"/>igitur sicut portauimus 
+<lb rend="indent"/>imaginem terreni
+<lb/>portemus et imaginem 
+<lb rend="indent"/>caelestis
+</p><p>
+<lb rend="outdent"/><milestone unit="v" n="15.50"/>Hoc autem dico fratres
+<lb/>quoniam caro et sanguis regn<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> 
+<lb rend="indent"/><name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> poss<subst><del rend="expunct">e</del><add place="above">i</add></subst>dere<!-- om. S app. --> non possunt
+<lb/>neque corruptio incorrupte
+<lb break="no"/>lam posside<choice><sic>re</sic><corr source="#s">bit</corr></choice><!-- om. S app. -->
+<lb/><milestone unit="v" n="15.51"/>ec<subst><del rend="alt">e</del><add place="inline">c</add></subst>e mysterium uobis dico
+<lb/>omnes quidem <subst><del rend="erased">s</del><del rend="alt">u</del><add place="inline">r</add></subst>esurg<choice><sic>i</sic><corr source="#s">e</corr></choice>mus
+<lb/>sed non omnes i<choice><orig>m</orig><reg>n</reg></choice>mutabimur
+<lb/><milestone unit="v" n="15.52"/>in momento in ictu oculi 
+<lb/>in nouissima tuba <space unit="character" n="3"/>canet enim
+<lb/><!-- indented, but then next is as well; interpreting as a new division -->et mortui resurgent 
+<lb rend="indent"/>incorrupti
+<lb/>et nos inmutabimur
+<lb/><milestone unit="v" n="15.53"/>oportet enim corruptibile 
+<lb rend="indent"/>hoc induere incorruptelam
+<lb/>et mortale hoc induere 
+<lb rend="indent"/>inmortalitatem
+<lb/><milestone unit="v" n="15.54"/>cum autem mortale hoc 
+<lb rend="indent"/>induerit inmortalitatem
+<lb/>tunc fiet sermo 
+<lb rend="indent"/>qui<del rend="erased">a</del><!-- om. S app. --> scriptus est
+<quote rend="sidequotes"><lb/>absorta est mors in uictoria
+<lb/><milestone unit="v" n="15.55"/>ubi est mors uictoria tua
+<pb n="960r"/>
+<cb n="a"/>
+<lb/>u<del rend="erased"><gap reason="illegible" quantity="1" unit="character"/></del>bi est mors stimulus tuus</quote>
+<lb/><milestone unit="v" n="15.56"/>stimulus autem mortis 
+<lb rend="indent"/>peccatum est
+<lb/>uirtus uero peccati lex
+<lb/><milestone unit="v" n="15.57"/><name><expan>d<ex>e</ex><abbr rend="supraline">o</abbr></expan></name> autem gratias qui dedit 
+<lb rend="indent"/>nobis uictoriam per <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>m</expan></name> 
+<lb rend="indent"/><expan>n<ex>ostru</ex><abbr rend="supraline">m</abbr></expan> <name><expan>i<am rend="supraline">h</am><ex>esu</ex>m</expan> <expan><am>x</am><am rend="supraline">p</am><ex>christu</ex>m</expan></name>
+</p><p>
+<lb/><milestone unit="v" n="15.58"/>Itaque fratres mei dilecti
+<lb/>stabiles estote· et inmobiles
+<lb/>abundantes in oper<choice><sic>a</sic><corr source="#s">e</corr></choice> <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name> <add place="inline">semper</add><!-- om. S app. -->
+<lb/>scientes quod labor uester 
+<lb rend="indent"/>non est inanis in <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>o</expan></name>
+</p>
+<p>
+<label type="chapter" rend="red supraline" n="66">lxvi</label>
+<lb/><milestone unit="v" n="16.1"/><hi rend="red">De</hi> collectis autem quae fiunt 
+<lb rend="indent"/>in <expan>s<ex>an</ex><abbr rend="supraline">c</abbr><ex>t</ex><choice><sic>i</sic><corr source="#s">o</corr></choice>s</expan> <space unit="character" n="3"/>sicut ordinaui 
+<lb rend="indent"/>ecclesiis <name>galatiae</name>
+<lb/>ita et uos facite
+<lb/><milestone unit="v" n="16.2"/>per unam sabbati unusquis<expan>q<am>’</am><ex>ue</ex></expan> 
+<lb rend="indent"/>uestrum apu<choice><orig>t</orig><reg>d</reg></choice> se ponat 
+<lb rend="indent"/>recondens quod ei <supplied reason="omitted" source="#s">bene</supplied>placuerit
+<lb/>ut non cum uenero tunc 
+<lb rend="indent"/>collecta<add place="above">e</add> fiant
+<lb/><milestone unit="v" n="16.3"/>cum autem pręsens fuero
+<lb/>quos probaueritis per epis
+<lb break="no"/>tulas hos mittam perferre 
+<lb rend="indent"/>gratiam uestram in <name>hierusal<expan><abbr rend="supraline">e</abbr><ex>m</ex></expan></name>
+<lb/><milestone unit="v" n="16.4"/>quod si dignum fuerit ut <app><lem source="#o"/><rdg source="#s">et</rdg></app> ego 
+<lb rend="indent"/>eam mecum ibunt
+</p><p>
+<lb/><milestone unit="v" n="16.5"/>Veniam autem ad uos cum 
+<lb rend="indent"/><name>macedoniam</name> pertransiero
+<lb/>nam <name>mac<surplus source="#s">h</surplus>edoniam</name> pertransibo
+<lb/><milestone unit="v" n="16.6"/>apud uos <supplied reason="omitted" source="#s">autem</supplied> forsitan manebo 
+<lb rend="indent"/>uel etiam hiemabo
+<lb/>ut uos me deducatis 
+<lb rend="indent"/>quocumque iero
+<lb/><milestone unit="v" n="16.7"/>nolo enim uos modo 
+<lb rend="indent"/>in transitu<surplus source="#s">m</surplus> uidere
+<lb/>spero enim me aliquantum 
+<lb rend="indent"/>temporis manere apud uos 
+<lb rend="indent"/>si <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>s</expan></name> permiserit
+<lb/><milestone unit="v" n="16.8"/>permanebo autem <name>ephesi</name> 
+<lb rend="indent"/>usque ad pentecosten
+<lb/><milestone unit="v" n="16.9"/>ostium enim mihi apertum 
+<lb rend="indent"/>est magnum et <add place="inRas">euidens</add>
+<lb/>et aduersarii multi
+</p>
+<cb n="b"/>
+<p>
+<lb/><milestone unit="v" n="16.10"/>Si autem uenerit <name>timotheus</name>
+<lb/>uidete ut sine timore sit 
+<lb rend="indent"/>apud uos <space unit="character" n="3"/>opus enim <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name> 
+<lb rend="indent"/>operatur sicut et ego
+<lb/><milestone unit="v" n="16.11"/>ne quis ergo illum spernat
+<lb/>deducite autem illum in pace 
+<lb rend="indent"/>ut ueniat ad me
+<lb/>expecto enim illum cum fratri<expan>b<am>’</am><ex>us</ex></expan>
+</p>
+<p>
+<label type="chapter" rend="red supraline" n="67">lxvii</label>
+<lb/><milestone unit="v" n="16.12"/><hi rend="red">De</hi> <name>apollo</name> autem fratre<del rend="erased">s</del><!-- om. S app. -->
+<lb/>multum rogaui eum ut ueniret 
+<lb rend="indent"/>ad uos cum fratribus
+<lb/>et utique non fuit uoluntas 
+<lb rend="indent"/>ut nun<add place="inline">c</add> ueniret
+<lb/>ueni<subst><del rend="erased">a</del><add place="inRas">e</add></subst>t<!-- om. S app. --> autem cum ei uacuum fuerit
+</p>
+<p>
+<label type="chapter" rend="red supraline" n="68">lxviii</label>
+<lb/><milestone unit="v" n="16.13"/><hi rend="red">Vi</hi>gilate <space n="3" unit="character"/>state in fide
+<lb/>uiriliter agite <space unit="character" n="3"/>et confortamini
+<lb/><milestone unit="v" n="16.14"/>omnia uestra in caritate fiant
+</p>
+<p>
+<label type="chapter" rend="red supraline" n="69">lxviiii</label>
+<lb/><milestone unit="v" n="16.15"/><hi rend="red">Ob</hi>secro autem uos fratres
+<lb/>nostis domum <name>stephanae</name> 
+<lb rend="indent"/>et <name>fort<subst><del rend="erased">i</del><add place="inRas">u</add></subst>nati</name><!-- om. S app. -->
+<lb/>quoniam sunt primitiae <name>achaiae</name>
+<lb/>et in m<subst><del rend="erased">u</del><add place="inRas">i</add></subst>nisterium <expan>s<ex>an</ex><abbr rend="supraline">c</abbr><ex>t</ex>orum</expan> 
+<lb rend="indent"/>ordinauerunt se ipsos
+<lb/><milestone unit="v" n="16.16"/>ut et uos subditi sitis eiusmodi
+<lb/>et omni cooperanti et laboranti
+</p>
+<p>
+<label type="chapter" rend="red supraline" n="70">lxx</label>
+<lb/><milestone unit="v" n="16.17"/><hi rend="red">Gau</hi>deo autem in praesentia 
+<lb rend="indent"/><name>stephanae</name> et <name>fortunati</name> et <name>achaici</name>
+<lb/>quoniam id quod uobis deerat 
+<lb rend="indent"/>ipsi suppleuerunt
+<lb/><milestone unit="v" n="16.18"/>refecerunt enim et meum 
+<lb rend="indent"/><expan>s<abbr rend="supraline">p</abbr><ex>iritu</ex>m</expan> et <del rend="erased"><gap reason="illegible" quantity="2" unit="character"/>e</del> uestrum
+<lb/>cognoscite ergo qui eiusmodi sunt
+</p>
+<p>
+<label type="chapter" rend="red supraline" n="71">lxxi</label>
+<lb/><milestone unit="v" n="16.19"/><hi rend="red">Sa</hi>lutant uos ecclesiae <name>asiae</name>
+<lb/>salutant uos in <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>o</expan></name> multum 
+<lb rend="indent"/><name>aquila</name> et <name>prisca</name>
+<lb/>cum domestica sua ecclesia
+<lb/><milestone unit="v" n="16.20"/>salutant uos fratres omnes
+<lb/>salutate inuicem in osculo <expan>s<ex>an</ex><abbr rend="supraline">c</abbr><ex>t</ex>o</expan>
+<lb/><milestone unit="v" n="16.21"/>salutatio mea manu <name>pauli</name>
+<lb/><milestone unit="v" n="16.22"/>si quis non amat <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>m</expan> <expan>i<am rend="supraline">h</am><ex>esu</ex>m</expan> <expan><am>x</am><am rend="supraline">p</am><ex>christu</ex>m</expan></name>
+<lb rend="indent"/>sit anathema· marana<add place="above">t</add>ha
+</p><p>
+<lb/><milestone unit="v" n="16.23"/>Gratia <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan> <expan>i<am rend="supraline">h</am><ex>es</ex>u</expan></name> uobiscum
+<lb/><milestone unit="v" n="16.24"/>caritas mea cum omnibus 
+<lb rend="indent"/>uobis in <name><expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>o</expan> <expan>i<am rend="supraline">h</am><ex>es</ex>u</expan></name> <space n="2" unit="character"/>amen
+</p>
+<div type="textpart" subtype="finalRubric">
+<p rend="rustic-caps red"><expan>e<abbr rend="supraline">xp</abbr><ex>licit</ex></expan></p>
+</div>
+</div>
+</body>
+</text>
+</TEI>

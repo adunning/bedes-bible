@@ -145,7 +145,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <text xml:lang="la">
 <body>
 <div type="textpart">
-<p><!-- paragraphing is from Souter -->
+<p><!-- paragraphing is from S -->
 <lb/><hi rend="dropcap2">P</hi>rimum quaeritur quare 
 <lb/>post <name>euangelia</name><reg>.</reg> quae supple
 <lb break="no"/>mentum <name>legis</name> sunt et in quibus 

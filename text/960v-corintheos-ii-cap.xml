@@ -81,6 +81,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 </teiHeader>
 <text xml:lang="la">
 <body>
+<pb n="960v"/>
+<cb n="a"/>
 <div type="textpart" subtype="argumentum">
 <head rend="red rustic-caps">
 <lb/><expan>inc<abbr rend="supraline">ip</abbr><ex>it</ex></expan> argumentum
