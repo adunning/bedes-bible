@@ -141,7 +141,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb rend="indent"/>orationem facio 
 <lb/>prospere te ingredi et ualere
 <lb/>sicut prospere agit anima tua
-</p><p>
+</p>
+<p>
 <lb/><milestone unit="v" n="3"/>Gauisus sum ualde uenienti<expan>b<am>’</am><ex>us</ex></expan> 
 <lb rend="indent"/>fratribus et testimonium 
 <lb rend="indent"/>perhibenti<expan>b<am>’</am><ex>us</ex></expan> ueritati tuae

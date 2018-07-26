@@ -357,7 +357,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb break="no"/>facientes obmutescere 
 <lb rend="indent"/>faciatis inprudentium 
 <lb rend="indent"/>hominum ignorantiam
-</p><p>
+</p>
+<p>
 <lb/><milestone unit="v" n="2.16"/>Quasi liberi et non quasi 
 <lb rend="indent"/>uelamen habentes 
 <lb rend="indent"/>malitiae libertatem
@@ -440,7 +441,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb/>cuius estis filiae benefacientes
 <lb/>et non timentes ullam 
 <lb rend="indent"/>perturbationem
-</p><p>
+</p>
+<p>
 <lb/><milestone unit="v" n="3.7"/>Viri similiter cohabitantes 
 <lb rend="indent"/>secundum scientiam
 <lb/>quasi infirmiori uaso muliebri 
@@ -520,7 +522,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <cb n="b"/>
 <lb/>in qua pauci id est octo animae saluae 
 <lb rend="indent"/>factae sunt per aqu<expan><abbr rend="supraline">a</abbr><ex>m</ex></expan>
-</p><p>
+</p>
+<p>
 <lb/><milestone unit="v" n="3.21"/>Quod et uos nunc similis 
 <lb rend="indent"/>formae saluos f<choice><sic>e</sic><corr source="#s">a</corr></choice>cit 
 <lb rend="indent"/>baptisma
@@ -668,7 +671,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb rend="indent"/>pastorum
 <lb/>percipietis inmarcescibil<expan><abbr rend="supraline">e</abbr><ex>m</ex></expan> 
 <lb rend="indent"/>gloriae coronam
-</p><p>
+</p>
+<p>
 <lb/><milestone unit="v" n="5.5"/>Similiter adul<subst><del rend="alt">i</del><add place="inline">e</add></subst>scentes 
 <lb rend="indent"/>subditi estote senioribus
 <lb/>omnes autem inuicem 
@@ -711,7 +715,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb/>obsecrans et contestans 
 <lb rend="indent"/>hanc esse ueram gratiam 
 <lb rend="indent"/><name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> in qua state
-</p><p>
+</p>
+<p>
 <lb/><milestone unit="v" n="5.13"/>Salutat uos <app><lem source="#c #o">ecclesia</lem><rdg source="#s"/></app> 
 <lb rend="indent"/>quae est in <name>babylone</name> 
 <lb rend="indent"/><app><lem source="#c #o">conelecta</lem><rdg source="#s">cumelecta</rdg></app>

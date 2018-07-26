@@ -225,7 +225,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb/><milestone unit="v" n="1.17"/>sed cum <name>romam</name> uenisse<choice><sic>m</sic><corr source="#s">t</corr></choice> 
 <lb rend="indent"/>sollicite me quaesiuit 
 <lb rend="indent"/>et inuenit
-</p><p>
+</p>
+<p>
 <lb/><milestone unit="v" n="1.18"/>Det illi <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>s</expan></name> inuenire miseri
 <lb break="no"/>cordiam a <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>o</expan></name> in illa die
 <lb/>et quanta <name>ephesi</name> ministra

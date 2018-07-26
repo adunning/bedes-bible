@@ -211,7 +211,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb rend="indent"/>non sincere
 <lb/>existimantes pressuram 
 <lb rend="indent"/>se suscitare uinculis meis
-</p><p>
+</p>
+<p>
 <lb/><milestone unit="v" n="1.18"/>Quid enim 
 <lb/>dum omni modo siue per 
 <lb rend="indent"/>occasionem siue per ueri
@@ -242,7 +243,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb/>multo magis melius
 <lb/><milestone unit="v" n="1.24"/>permanere autem in carne <app><lem source="#c #o"/><rdg source="#s">magis</rdg></app> 
 <lb rend="indent"/>necessarium est propter uos
-</p><p>
+</p>
+<p>
 <lb/><milestone unit="v" n="1.25"/>Et hoc confidens scio quia 
 <lb rend="indent"/>manebo et permanebo 
 <lb rend="indent"/>omnibus uobis ad profectum 
@@ -293,7 +295,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb/><milestone unit="v" n="2.4"/>non quae sua sunt <add place="inRas">singuli</add> 
 <lb rend="indent"/>considerantes
 <lb/>sed et ea quae aliorum
-</p><p>
+</p>
+<p>
 <lb/><milestone unit="v" n="2.5"/>Hoc enim sentite in uobis 
 <lb rend="indent"/>quod et in <name><expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>o</expan> <expan>i<am rend="supraline">h</am><ex>es</ex>u</expan></name>
 <lb/><milestone unit="v" n="2.6"/>qui cum in forma <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> esset
@@ -535,7 +538,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb/>secundum operationem 
 <lb rend="indent"/>qua possit etiam subicere 
 <lb rend="indent"/>sibi omnia
-</p><p>
+</p>
+<p>
 <lb/><milestone unit="v" n="4.1"/>Itaque fratres mei carissimi 
 <lb rend="indent"/>et desiderantissimi
 <lb/>gaudium meum et corona mea

@@ -212,7 +212,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb/>siue potestates
 <lb/>omnia per ipsum et in ipso 
 <lb rend="indent"/>creata sunt
-</p><p>
+</p>
+<p>
 <lb/><milestone unit="v" n="1.17"/>Et ipse est ante omnes
 <lb/>et omnia in ipso constant
 <lb/><milestone unit="v" n="1.18"/>et ipse est caput corporis 

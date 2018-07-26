@@ -265,7 +265,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb rend="indent"/>in tribulatione eorum
 <lb/><app><lem source="#c">et</lem><rdg source="#s"/></app> inmaculatum se custo
 <lb break="no"/>dire ab hoc saeculo
-</p><p>
+</p>
+<p>
 <lb/><milestone unit="v" n="2.1"/>Fratres mei nolite in perso
 <lb break="no"/>narum acceptione habere 
 <lb rend="indent"/>fidem <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan> <expan>n<ex>ostr</ex><abbr rend="supraline">i</abbr></expan> <expan>i<am rend="supraline">h</am><ex>es</ex>u</expan> <expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>i</expan></name> gloriae
@@ -288,7 +289,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb rend="indent"/>uosmet ipsos
 <lb/>et facti estis iudices 
 <lb rend="indent"/>cogitationum iniquarum
-</p><p>
+</p>
+<p>
 <lb/><milestone unit="v" n="2.5"/>Audite fratres mei dilec
 <lb break="no"/>tissimi
 <lb/>nonne <name><expan>d<ex>eu</ex><abbr rend="supraline">s</abbr></expan></name> elegit pauperes 
@@ -501,7 +503,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb/><milestone unit="v" n="3.18"/>fructus autem iustitiae 
 <lb rend="indent"/>in pace seminatur 
 <lb rend="indent"/>facientibus pacem
-</p><p>
+</p>
+<p>
 <lb/><milestone unit="v" n="4.1"/>Vnde bella et lites <choice><sic>inter uos</sic><corr source="#s">in uobis</corr></choice>
 <lb/>nonne <supplied reason="omitted" source="#s">hinc</supplied> ex concupiscentiis 
 <lb rend="indent"/>uestris quae militant 
@@ -655,7 +658,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb rend="indent"/>uidistis
 <lb/>quoniam misericors est 
 <lb rend="indent"/><name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>s</expan></name> et miserator
-</p><p>
+</p>
+<p>
 <lb/><milestone unit="v" n="5.12"/>Ante omnia autem <expan><abbr rend="supraline">f<am>f</am></abbr><ex>ratres</ex></expan> mei
 <lb/>nolite iurare neque per cael<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> 
 <lb rend="indent"/>neque per terram
@@ -676,7 +680,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb rend="indent"/>eum <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>s</expan></name>
 <lb/>et si in peccatis sit 
 <lb rend="indent"/>dimittentur ei
-</p><p>
+</p>
+<p>
 <lb/><milestone unit="v" n="5.16"/>Confitemini ergo alter
 <lb break="no"/>utrum peccata uestra
 <lb/>et orate pro inuicem 

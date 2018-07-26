@@ -210,7 +210,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb rend="indent"/>uetari prohibens benedicit</item>
 <item><lb/><label rend="red">xxxii</label> De difficultate diuitum intran
 <lb break="no" rend="indent"/>di in regnum <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> mirantibus 
-<lb rend="indent"/>discipulis ait contemtores 
+<lb rend="indent"/>discipulis ait contem<reg>p</reg>tores 
 <lb rend="indent"/>bonorum saecularium centu
 <lb break="no" rend="indent"/>plum cum persecutionibus 
 <lb rend="indent"/>recepturos</item>
@@ -239,7 +239,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb break="no" rend="indent"/>prascriptione uel imagine 
 <lb rend="indent"/>confutauit</item>
 <item><lb/><label rend="red">xxxiiii</label> <name>Sadducaeis</name> de muliere septem 
-<lb rend="indent"/>fratrum uxore temtantibus 
+<lb rend="indent"/>fratrum uxore tem<reg>p</reg>tantibus 
 <lb rend="indent"/>ob incredulitatem resurrec
 <lb break="no" rend="indent"/>tionis exprobrat</item>
 <item><lb/><label rend="red">xl</label> Scribae de mandato legis interro
@@ -255,7 +255,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <item><lb/><label rend="red">xlii</label> Aedificationes templi monstr<expan><abbr rend="supraline">a</abbr><ex>n</ex></expan>
 <lb break="no" rend="indent"/>ti<expan>b<am>’</am><ex>us</ex></expan> praenuntiat ruituras 
 <lb rend="indent"/>et de diuersis ultimi temporis 
-<lb rend="indent"/>temtationi<expan>b<am>’</am><ex>us</ex></expan> futuris prolixius 
+<lb rend="indent"/>tem<reg>p</reg>tationi<expan>b<am>’</am><ex>us</ex></expan> futuris prolixius 
 <lb rend="indent"/>disputans seductiones ammo
 <lb break="no" rend="indent"/>net praecauendas</item>
 <item><lb/><label rend="red">xliii</label> Diem aduentus solum patrem 

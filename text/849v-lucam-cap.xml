@@ -136,7 +136,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb rend="indent"/>declaratur. generationum lxxvii 
 <lb rend="indent"/>a <name><expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>o</expan></name> sursum uersus us<expan>q<am>’</am><ex>ue</ex></expan> ad <name><expan>d<ex>eu</ex><abbr rend="supraline">m</abbr></expan></name> 
 <lb rend="indent"/>ordo conte<del rend="erased"><gap reason="illegible" quantity="2" unit="character"/></del>xitur</item>
-<item><lb/><label rend="red">xi</label> <hi rend="red">XL</hi> dierum ieiunium et trina temta
+<item><lb/><label rend="red">xi</label> <hi rend="red">XL</hi> dierum ieiunium et trina tem<reg>p</reg>ta
 <lb break="no" rend="indent"/>tione diabolus superatus osten
 <lb break="no" rend="indent"/>ditur</item>
 <item><lb/><label rend="red">xii</label> <hi rend="red">F</hi>ama regressi in <name>galilaeam</name> refer
@@ -246,7 +246,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb rend="indent"/>humilitatem docet et non pro
 <lb break="no" rend="indent"/>hiberi uirtutes in ipsius nomi
 <lb break="no" rend="indent"/>ne facientem</item>
-<item><lb/><label rend="red">xl</label> <hi rend="red">Ig</hi>nem de caelo super contemto
+<item><lb/><label rend="red">xl</label> <hi rend="red">Ig</hi>nem de caelo super contem<reg>p</reg>to
 <lb break="no" rend="indent"/>res petere uolentes discipu
 <lb break="no" rend="indent"/>los increpat et dicenti sequar 
 <lb rend="indent"/>te uulpes foueas habere 

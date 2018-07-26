@@ -196,7 +196,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb/>qui uniuersas domos subuer
 <lb break="no"/>tunt docentes quae non opor
 <lb break="no"/>tet turpis lucri gratia
-</p><p>
+</p>
+<p>
 <lb/><milestone unit="v" n="1.12"/>Dixit quidam ex illis proprius 
 <lb rend="indent"/><choice><sic>e</sic><corr source="#s">ips</corr></choice>orum propheta
 <lb/><name>cretenses</name> semper mendaces
@@ -209,7 +210,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb rend="indent"/>iudaicis fabulis
 <lb/>et mandatis hominum 
 <lb rend="indent"/>auersantium se a ueritate
-</p><p>
+</p>
+<p>
 <lb/><milestone unit="v" n="1.15"/>Omnia munda mundis
 <lb/>coinquinatis autem et infide
 <lb break="no"/>libus nihil mundum
@@ -229,7 +231,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb/><milestone unit="v" n="2.2"/>senes ut sobrii sint
 <lb/>pudici <space unit="character" n="3"/>prudentes <choice><orig>·</orig><reg><lb/></reg></choice> sani fide 
 <lb/>dilectione <space unit="character" n="3"/><del rend="erased">in</del> patientia
-</p><p>
+</p>
+<p>
 <lb/><milestone unit="v" n="2.3"/>Anus similiter in habitu <expan>s<ex>an</ex><abbr rend="supraline">c</abbr><ex>t</ex>o</expan>
 <pb n="993r"/>
 <cb n="a"/>
@@ -237,7 +240,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb/>non uino multo seruientes
 <lb/>bene docentes
 <lb/><milestone unit="v" n="2.4"/>ut prudentiam doceant
-</p><p>
+</p>
+<p>
 <lb/>Adulescentulas ut uiros 
 <lb rend="indent"/>suos ament
 <lb/>filios diligant
@@ -246,7 +250,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb/>benignas <space unit="character" n="2"/>subditas suis uiris
 <lb/>ut non blasphemetur 
 <lb rend="indent"/>uerbum <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name>
-</p><p>
+</p>
+<p>
 <lb/><milestone unit="v" n="2.6"/>Iuuenes similiter hortare 
 <lb rend="indent"/>ut sobrii sint
 <lb/><milestone unit="v" n="2.7"/>in omnibus te ipsum praebe 
@@ -271,7 +276,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb rend="indent"/>ostendentes
 <lb/>ut doctrinam salutaris <choice><sic><name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> <expan>n<ex>ostr</ex><abbr rend="supraline">i</abbr></expan></sic><corr source="#s">nostri <name>dei</name></corr></choice> 
 <lb rend="indent"/>ornent in omnibus
-</p><p>
+</p>
+<p>
 <lb/><milestone unit="v" n="2.11"/>Apparuit enim gratia <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> 
 <lb rend="indent"/><app><lem source="#c #o">saluatoris</lem><rdg source="#s">salutaris</rdg></app> omnibus 
 <lb rend="indent"/>hominibus
@@ -316,7 +322,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb break="no"/>luptati<expan>b<am>’</am><ex>us</ex></expan> uariis
 <lb/>in malitia et inuidia agentes
 <lb/>odibiles <space unit="character" n="3"/>odientes inuicem
-</p><p>
+</p>
+<p>
 <lb/><milestone unit="v" n="3.4"/>Cum autem benignitas 
 <lb rend="indent"/>et humanitas apparuit 
 <lb rend="indent"/>saluatoris nostri <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name>

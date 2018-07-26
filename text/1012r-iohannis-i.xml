@@ -147,7 +147,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb rend="indent"/>uitam aeternam 
 <lb/>quae erat apud <name>patrem</name>
 <lb rend="indent"/>et apparuit nobis
-</p><p>
+</p>
+<p>
 <lb/><milestone unit="v" n="1.3"/>Quod uidimus et audiuimus 
 <lb rend="indent"/><choice><sic>et adnuntiamus</sic><corr source="#s">adnuntiamus et</corr></choice> uobis
 <lb/>ut et uos societatem 
@@ -377,7 +378,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb rend="indent"/>non peccat 
 <lb/><app><lem source="#c #o">et</lem><rdg source="#s"/></app> omnis qui peccat non uidit 
 <lb rend="indent"/>eum nec cognouit eum
-</p><p>
+</p>
+<p>
 <lb/><milestone unit="v" n="3.7"/>Filioli nemo uos seducat
 <lb/>qui facit iustitiam iustus est 
 <lb rend="indent"/>sicut et ille iustus est
@@ -406,7 +408,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb/>quoniam opera eius maligna 
 <lb rend="indent"/>erant fratris autem 
 <lb rend="indent"/>eius iusta
-</p><p>
+</p>
+<p>
 <del rend="erased"><label type="chapter" rend="red" n="11">xi</label></del>
 <lb/><milestone unit="v" n="3.13"/>Nolite mirari <expan><abbr rend="supraline">f<am>f</am></abbr><ex>ratres</ex></expan> si odit <choice><sic>n</sic><corr source="#s">u</corr></choice>os mundus
 <lb/><milestone unit="v" n="3.14"/>nos scimus quoniam trans

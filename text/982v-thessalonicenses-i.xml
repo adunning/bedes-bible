@@ -173,7 +173,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb/><milestone unit="v" n="1.7"/>ita ut facti sitis forma 
 <lb rend="indent"/>omnibus credentibus 
 <lb rend="indent"/>in <name>mac<surplus source="#s">h</surplus>edonia</name> et in <name>achaia</name>
-</p><p>
+</p>
+<p>
 <lb/><milestone unit="v" n="1.8"/>A uobis enim diffamatus est 
 <lb rend="indent"/>sermo <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name>
 <lb/>non solum in <name>mac<surplus source="#s">h</surplus>edonia</name> 
@@ -487,7 +488,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb rend="indent"/>mortuus est et resurrexit
 <lb/>ita et <name><expan>d<ex>eu</ex><abbr rend="supraline">s</abbr></expan></name> eos qui dormierunt 
 <lb rend="indent"/>per <name><expan>i<am rend="supraline">h</am><ex>esu</ex>m</expan></name> adducet cum eo
-</p><p>
+</p>
+<p>
 <lb/><milestone unit="v" n="4.15"/>Hoc enim uobis dicimus 
 <lb rend="indent"/>in uerbo <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name>
 <lb/>quia nos qui uiuimus qui 
@@ -579,7 +581,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb rend="indent"/>in caritate
 <lb/>propter opus illorum
 <lb/>pacem habete cum eis
-</p><p>
+</p>
+<p>
 <lb/><milestone unit="v" n="5.14"/>Rogamus autem uos <expan><abbr rend="supraline">f<am>f</am></abbr><ex>ratres</ex></expan>
 <lb/>corripite inquietos
 <lb/>consolamini pusillianimes
@@ -590,7 +593,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb/>sed semper quod bonum est 
 <lb rend="indent"/>sectamini et in <add place="above">in</add>uicem 
 <lb rend="indent"/>et in omnes
-</p><p>
+</p>
+<p>
 <lb/><milestone unit="v" n="5.16"/>Semper gaudete
 <lb/><milestone unit="v" n="5.17"/>sine intermissione orate
 <lb/><milestone unit="v" n="5.18"/>in omnibus gratias agite

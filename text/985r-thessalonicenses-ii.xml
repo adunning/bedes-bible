@@ -219,7 +219,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb/>ita ut in templo <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> sedeat
 <lb/>ostendens se <app><lem source="#c #o">tamquam</lem><rdg source="#s">quia</rdg></app> 
 <lb rend="indent"/>sit <name><expan>d<ex>eu</ex><abbr rend="supraline">s</abbr></expan></name>
-</p><p>
+</p>
+<p>
 <lb/><milestone unit="v" n="2.5"/>Non retinetis quod cum <supplied reason="omitted" source="#s">adhuc</supplied> 
 <lb rend="indent"/>essem<surplus source="#s">us</surplus> apud uos haec 
 <lb rend="indent"/>dicebam<surplus source="#s">us</surplus> uobis

@@ -548,7 +548,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb rend="indent"/>in caritate 
 <lb/>crescamus in illo per omnia
 <lb/>qui est caput <name><expan><am>x</am><am rend="supraline">p</am><ex>christu</ex>s</expan></name>
-</p><p>
+</p>
+<p>
 <lb/><milestone unit="v" n="4.16"/>Ex quo totum corpus 
 <lb rend="indent"/>conpactum et conexum
 <lb/>per omnem iuncturam 
@@ -632,7 +633,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb/><milestone unit="v" n="4.30"/>et nolite contristare 
 <lb rend="indent"/><name><expan>s<abbr rend="supraline">p</abbr><ex>iritu</ex>m</expan> <expan>s<ex>an</ex><abbr rend="supraline">c</abbr><ex>tu</ex>m</expan></name> <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> in quo signati 
 <lb rend="indent"/>estis in die redemptionis
-</p><p>
+</p>
+<p>
 <lb/><milestone unit="v" n="4.31"/>Omnis amaritudo
 <lb/>et ira <space n="3" unit="character"/>et indignatio
 <lb/>et clamor <space n="3" unit="character"/>et blasphemia
@@ -686,7 +688,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb rend="indent"/>ira <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> in filios diffidentiae
 <lb/><milestone unit="v" n="5.7"/>nolite ergo effici 
 <lb rend="indent"/>participes eorum
-</p><p>
+</p>
+<p>
 <lb/><milestone unit="v" n="5.8"/>Eratis enim aliquando 
 <lb rend="indent"/>tenebrae
 <lb/>nunc <add place="inRas">a</add>utem lux in <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>o</expan></name>
@@ -768,7 +771,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb rend="indent"/>uxores suas ut corpora sua
 <lb/>qui suam uxorem diligit 
 <lb rend="indent"/>se ipsum diligit
-</p><p>
+</p>
+<p>
 <lb/><milestone unit="v" n="5.29"/>Nemo enim umquam 
 <lb rend="indent"/>carnem suam odio habuit
 <lb/>sed nutrit et fouet eam
@@ -776,7 +780,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb/><milestone unit="v" n="5.30"/>quia membra sumus 
 <lb rend="indent"/>corporis eius
 <lb/>de carne eius et de ossi<expan>b<am>’</am><ex>us</ex></expan> eius
-</p><p>
+</p>
+<p>
 <quote rend="sidequotes"><lb/><milestone unit="v" n="5.31"/>Propter hoc relinquet 
 <lb rend="indent"/>homo patrem et matrem su
 <lb break="no"/>am
