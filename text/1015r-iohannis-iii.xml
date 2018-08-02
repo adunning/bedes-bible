@@ -159,7 +159,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb rend="indent"/>quicquid operaris in fratres
 <lb/>et hoc in peregrinos
 <lb/><milestone unit="v" n="6"/>qui testimonium reddi
-<lb break="no"/>derunt caritati tuae 
+<lb break="no" rend="indent"/>derunt caritati tuae 
 <lb rend="indent"/>in conspectu ecclesiae
 <lb/>quos bene facies <supplied reason="omitted" source="#s">de</supplied>ducens 
 <lb rend="indent"/>digne <name><expan>d<ex>e</ex><abbr rend="supraline">o</abbr></expan></name>

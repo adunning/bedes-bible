@@ -96,7 +96,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb rend="indent"/>occidit infantes</item>
 <item><lb/><label rend="red">v</label> De praedicatione <name>iohannis</name> baptistae 
 <lb rend="indent"/>quod uox clamantis sit paeniten
-<lb rend="indent"/>tiam agite</item>
+<lb break="no" rend="indent"/>tiam agite</item>
 <item><lb/><label rend="red">vi</label> De baptismo <name><expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>i</expan></name> in <name>iordane</name> a <name>iohanne</name> 
 <lb rend="indent"/>et signo trinitatis patris scilicet 
 <lb rend="indent"/>eius in uoce et utriusque <expan>s<abbr rend="supraline">p</abbr><ex>iritu</ex>s</expan> 
@@ -324,7 +324,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <item><lb/><label rend="red">lxv</label> Praecepit oblatos sibi benedicendos 
 <lb rend="indent"/>paruulos non repelli</item>
 <item><lb/><label rend="red">lxvi</label> Secunda <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name> responsione diuite 
-<lb break="no" rend="indent"/>contristato <space unit="character" n="2"/>contemnentibus 
+<lb rend="indent"/>contristato <space unit="character" n="2"/>contemnentibus 
 <lb rend="indent"/>propter se temporalia centu
 <lb break="no" rend="indent"/>plum et uitam promittit aetern<expan><abbr rend="supraline">a</abbr><ex>m</ex></expan></item>
 <item><lb/><label rend="red">lxvii</label> Parabola<del rend="expunct">m</del> de operariis in uinea 

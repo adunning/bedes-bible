@@ -142,7 +142,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb/><milestone unit="v" n="2"/>misericordia uobis et pax 
 <lb rend="indent"/>et caritas adimpleatur
 <lb/><milestone unit="v" n="3"/>carissim<add place="above">i</add> <subst><del rend="alt">e</del><add place="inline">o</add></subst>mnem sollicitudi
-<lb break="no"/>nem faciens scribendi uobis
+<lb break="no" rend="indent"/>nem faciens scribendi uobis
 <lb/>de communi uestra salute 
 <lb rend="indent"/>necesse habui scribere 
 <lb rend="indent"/>uobis
@@ -165,9 +165,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb/>quoniam <name><expan>i<am rend="supraline">h</am><ex>esu</ex>s</expan></name> populum 
 <lb rend="indent"/>de terra <name>aegypti</name> saluans
 <lb/>secundo eos qui non credi
-<lb break="no"/>derunt perdidit
+<lb break="no" rend="indent"/>derunt perdidit
 <lb/><milestone unit="v" n="6"/>angelos uero qui non serua
-<lb break="no"/>uerunt suum principatum
+<lb break="no" rend="indent"/>uerunt suum principatum
 <lb/>sed dereliquerunt suum 
 <lb rend="indent"/>domicilium
 <lb/>in iudicium magni diei uinculis 
@@ -220,9 +220,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <p>
 <lb/>Arbores autumnales 
 <lb rend="indent"/>infructuosae bis mor
-<lb break="no"/>tuae eradicatae
+<lb break="no" rend="indent"/>tuae eradicatae
 <lb/><milestone unit="v" n="13"/>fluctus feri maris despu
-<lb break="no"/>mantes suas confusiones
+<lb break="no" rend="indent"/>mantes suas confusiones
 <lb/>sidera errantia quibus 
 <lb rend="indent"/>procella tenebrarum 
 <lb rend="indent"/>in aeternum seruata est
@@ -258,7 +258,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb rend="indent"/>memores estote 
 <lb rend="indent"/>uerborum 
 <lb/>quae praedicta sunt ab apos
-<lb break="no"/>tolis <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan> <expan>n<ex>ostr</ex><abbr rend="supraline">i</abbr></expan> <expan>i<am rend="supraline">h</am><ex>es</ex>u</expan> <expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>i</expan></name>
+<lb break="no" rend="indent"/>tolis <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan> <expan>n<ex>ostr</ex><abbr rend="supraline">i</abbr></expan> <expan>i<am rend="supraline">h</am><ex>es</ex>u</expan> <expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>i</expan></name>
 <lb/><milestone unit="v" n="18"/><app><lem source="#c #o">qui</lem><rdg source="#s">quia</rdg></app> dicebant uobis
 <lb/>quoniam in nouissimo 
 <lb rend="indent"/>tempore uenient 
@@ -294,7 +294,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb/><milestone unit="v" n="24"/>Ei autem qui potest uos 
 <lb rend="indent"/>conseruare sine peccato
 <lb/>et constituere ante con
-<lb break="no"/>spectum gloriae suae 
+<lb break="no" rend="indent"/>spectum gloriae suae 
 <lb/>inmaculatos in exultatione
 <lb/><milestone unit="v" n="25"/>soli <name><expan>d<ex>e</ex><abbr rend="supraline">o</abbr></expan></name> saluatori nostro 
 <lb rend="indent"/>per <name><expan>i<am rend="supraline">h</am><ex>esu</ex>m</expan> <expan><am>x</am><am rend="supraline">p</am><ex>christu</ex>m</expan> <expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>m</expan></name> <expan>n<ex>ostru</ex><abbr rend="supraline">m</abbr></expan>
@@ -302,7 +302,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb rend="indent"/>imperium et potestas
 <lb/>ante omne saeculum 
 <lb rend="indent"/>et nunc et in om
-<lb break="no"/>nia saecula 
+<lb break="no" rend="indent"/>nia saecula 
 <lb rend="indent"/>amen
 </p>
 <div type="textpart" subtype="finalRubric">

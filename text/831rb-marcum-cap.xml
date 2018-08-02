@@ -180,7 +180,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <item><lb/><label rend="red">xxvi</label> Interrogantibus quem eum di
 <lb break="no" rend="indent"/>cerent <name>petrus</name> <name><expan><am>x</am><am rend="supraline">p</am><ex>christu</ex>m</expan></name> <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> confitetur· et mox quia <expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>o</expan> 
 <lb rend="indent"/>passurum se dicenti contra
-<lb rend="indent"/>dixerit<!--contradicit T--> arguitur</item>
+<lb break="no" rend="indent"/>dixerit<!--contradicit T--> arguitur</item>
 <item><lb/><label rend="red">xxvii</label> Qui perdit inquit animam suam 
 <lb rend="indent"/>propter me inuenit eam 
 <pb n="832r"/>

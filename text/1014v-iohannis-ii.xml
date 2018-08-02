@@ -142,10 +142,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb/>et non ego solus sed et omnes 
 <lb rend="indent"/>qui cognouerunt ueritatem
 <lb/><milestone unit="v" n="2"/>propter ueritatem quae per
-<lb break="no"/>manet in nobis
+<lb break="no" rend="indent"/>manet in nobis
 <lb/>et nobiscum erit in aeternum
 <lb/><milestone unit="v" n="3"/>sit nobiscum gratia miseri
-<lb break="no"/>cordia pax a <name><expan>d<ex>e</ex><abbr rend="supraline">o</abbr></expan></name> <name>patre</name>
+<lb break="no" rend="indent"/>cordia pax a <name><expan>d<ex>e</ex><abbr rend="supraline">o</abbr></expan></name> <name>patre</name>
 <lb rend="indent"/>et <supplied reason="omitted" source="#s">a</supplied> <name><expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>o</expan> <expan>i<am rend="supraline">h</am><ex>es</ex>u</expan></name> <name>filio</name> <name>patris</name> 
 <lb rend="indent"/>in ueritate et caritate
 </p>
@@ -153,21 +153,21 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <label type="chapter" rend="red" n="2">ii</label>
 <lb/><milestone unit="v" n="4"/>Gauisus sum ualde quoniam 
 <lb rend="indent"/>inueni de filiis tuis ambu
-<lb break="no"/>lantes in ueritate
+<lb break="no" rend="indent"/>lantes in ueritate
 <lb/>sicut mandat<subst><del rend="alt">a</del><add place="inline">u</add></subst>m accepi
-<lb break="no"/>mus a <name>patre</name>
+<lb break="no" rend="indent"/>mus a <name>patre</name>
 <lb/><milestone unit="v" n="5"/>et nunc rogo te domina
 <lb/>non tamquam mandatum 
 <lb rend="indent"/>nouum scribens tibi
 <lb/>sed quod habuimus ab initio 
 <lb rend="indent"/>ut diligamus alterutrum
 <lb/><milestone unit="v" n="6"/>et haec est caritas ut ambu
-<lb break="no"/>lemus secundum mandata eius
+<lb break="no" rend="indent"/>lemus secundum mandata eius
 </p>
 <p>
 <label type="chapter" rend="red" n="3">iii</label>
 <lb/>Hoc mandatum est ut quem
-<lb break="no"/>admodum audistis ab initio 
+<lb break="no" rend="indent"/>admodum audistis ab initio 
 <lb rend="indent"/>in eo ambuletis
 <lb/><milestone unit="v" n="7"/>quoniam multi seductores 
 <lb rend="indent"/>exierunt in mundum
@@ -194,13 +194,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <pb n="1015r"/>
 <cb n="a"/>
 <lb/><milestone unit="v" n="11"/>qui enim dicit illi aue<!-- haue S --> com
-<lb break="no"/>municat operibus <add place="right">illius</add> malignis
+<lb break="no" rend="indent"/>municat operibus <add place="right">illius</add> malignis
 </p>
 <p>
 <label type="chapter" n="5"><add place="inline">v</add></label>
 <lb/><milestone unit="v" n="12"/>Plura habens uobis scribere
 <lb/>nolui per c<surplus source="#s"><add place="above">h</add></surplus>artam et atra
-<lb break="no"/>mentum
+<lb break="no" rend="indent"/>mentum
 <lb/>spero enim me futurum 
 <lb rend="indent"/>apud uos et os ad os loqui
 <lb/>ut gaudium uestrum 

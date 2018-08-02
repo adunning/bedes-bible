@@ -183,13 +183,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb/>dicit <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>s</expan></name> <name><expan>d<ex>eu</ex><abbr rend="supraline">s</abbr></expan></name> qui est et qui erat 
 <cb n="b"/>
 <lb rend="indent"/>et qui uenturus est <name>omni
-<lb break="no"/>potens</name>
+<lb break="no" rend="indent"/>potens</name>
 </p>
 <p>
 <lb/><milestone unit="v" n="1.9"/>Ego <name>iohannes</name> frater uester
 <lb rend="indent"/>et particeps in tribula
-<lb break="no"/>tione et regno et pati
-<lb break="no"/>entia in <name><expan>i<am rend="supraline">h</am><ex>es</ex>u</expan></name>
+<lb break="no" rend="indent"/>tione et regno et pati
+<lb break="no" rend="indent"/>entia in <name><expan>i<am rend="supraline">h</am><ex>es</ex>u</expan></name>
 <lb/>fui in insula<del rend="expunct strikethrough">m</del><!-- om. S app. --> qu<add place="above">a</add><subst><del rend="alt">i</del><add place="inline">e</add></subst><!-- om. S app. --> appellatur 
 <lb rend="indent"/><name>pat<surplus source="#s">h</surplus>mos</name>
 <lb/>propter uerbum <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> 
@@ -213,7 +213,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb/><milestone unit="v" n="1.13"/>et in medio <add place="left">sept<expan><abbr rend="supraline">e</abbr><ex>m</ex></expan></add> candelabrorum 
 <lb rend="indent"/>similem <name>fili<subst><del rend="alt">u</del><add place="inline">o</add></subst><del rend="erased">m</del> hominis</name>
 <lb/>uestitum podere<surplus source="#s">m</surplus> et prae
-<lb break="no"/>cinctum ad mamillas 
+<lb break="no" rend="indent"/>cinctum ad mamillas 
 <lb rend="indent"/>zonam auream
 <lb/><milestone unit="v" n="1.14"/>caput autem <add place="left">eius</add> et capilli erant 
 <lb rend="indent"/>candidi tamquam lana alba 
@@ -330,7 +330,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 </p>
 <p>
 <lb/>Haec dicit qui habet rom
-<lb break="no"/>pheam utraque parte 
+<lb break="no" rend="indent"/>pheam utraque parte 
 <lb rend="indent"/>acutam
 <pb n="1017v"/>
 <cb n="a"/>
@@ -389,7 +389,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb rend="indent"/>fornicari et manducar<subst><del rend="alt">i</del><add place="inline">e</add></subst> <add place="inline">de</add> 
 <lb rend="indent"/>idolothytis
 <lb/><milestone unit="v" n="2.21"/>et dedi illi tempus ut paeni
-<lb break="no"/>tentiam ageret
+<lb break="no" rend="indent"/>tentiam ageret
 <lb/>et non uult paeniteri 
 <lb rend="indent"/>a fornicatione sua
 <lb/><milestone unit="v" n="2.22"/>ecce mitto eam in lectum
@@ -416,7 +416,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb/><milestone unit="v" n="2.25"/>tamen id quod habetis 
 <lb rend="indent"/>tenete donec ueniam
 <lb/><milestone unit="v" n="2.26"/>et qui uicerit et qui custo
-<lb break="no"/>dierit usque in finem 
+<lb break="no" rend="indent"/>dierit usque in finem 
 <lb rend="indent"/>opera mea
 <lb/>dabo <choice><sic>e</sic><corr source="#s">ill</corr></choice>i potestatem super 
 <lb rend="indent"/>gentes 
@@ -453,7 +453,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb rend="indent"/>ueniam ad te
 <lb/><milestone unit="v" n="3.4"/>sed habes pauca nomina 
 <lb rend="indent"/>in <name>sardis</name> qui non inquina
-<lb break="no"/>uerunt uestimenta sua
+<lb break="no" rend="indent"/>uerunt uestimenta sua
 <lb/>et ambula<supplied reason="omitted" source="#s">bu</supplied>nt mecum in albis 
 <lb rend="indent"/>quia digni sunt
 <lb/><milestone unit="v" n="3.5"/>qui uicerit sic uestietur 
@@ -548,7 +548,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb/><milestone unit="v" n="3.19"/>ego quos amo arguo 
 <lb rend="indent"/>et castigo
 <lb/>aemulare ergo et paeni
-<lb break="no"/>tentiam age
+<lb break="no" rend="indent"/>tentiam age
 <lb/><milestone unit="v" n="3.20"/>ecce sto ad ostium et pulso
 <lb/>si quis audierit uocem me<expan><abbr rend="supraline">a</abbr><ex>m</ex></expan> 
 <lb rend="indent"/>et aperuerit ianuam
@@ -569,7 +569,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb rend="indent"/>apertum in caelo
 <lb/>et uox prima quam audi<add place="inline">ui</add> 
 <lb rend="indent"/>tamquam tubae loquen
-<lb break="no"/>tis mecum dicens
+<lb break="no" rend="indent"/>tis mecum dicens
 <lb/>ascende huc et ostendam 
 <lb rend="indent"/>tibi quae oportet fieri 
 <lb rend="indent"/>pos<add place="above">t</add> haec
@@ -636,7 +636,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb rend="indent"/>ante thronum dicentes
 <lb/><milestone unit="v" n="4.11"/>dignus es <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>e</expan></name> et <name><expan>d<ex>eu</ex><abbr rend="supraline">s</abbr></expan></name> noster 
 <lb rend="indent"/>accipere gloriam et hono
-<lb break="no"/>rem et uirtutem quia tu 
+<lb break="no" rend="indent"/>rem et uirtutem quia tu 
 <lb rend="indent"/>creasti omnia
 <lb/>et propter uoluntatem 
 <lb rend="indent"/>tuam erant et creata sunt
@@ -677,20 +677,20 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb rend="indent"/>animalium 
 <lb/>et in medio seniorum
 <lb/>agnum stantem tamquam occi
-<lb break="no"/>sum
+<lb break="no" rend="indent"/>sum
 <cb n="b"/>
 <lb/>habentem cor<del rend="erased">o</del>n<add place="above">u</add>a<!-- om. S app. --> septem 
 <lb rend="indent"/>et oculos septem
 <lb/>qui sunt <app><lem source="#c"><add place="left">sept<expan><abbr rend="supraline">e</abbr><ex>m</ex></expan></add></lem><rdg source="#s"/></app> <expan>s<abbr rend="supraline">p</abbr><ex>iritu</ex>s</expan> <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> missi 
 <lb rend="indent"/>in omnem terram
 <lb/><milestone unit="v" n="5.7"/>et uenit et accepit <surplus source="#s"><add place="right">librum</add></surplus> de dex
-<lb break="no"/>tera sedentis de throno
+<lb break="no" rend="indent"/>tera sedentis de throno
 </p>
 <p>
 <lb/><milestone unit="v" n="5.8"/>Et cum aperuisset librum
 <lb/>quattuor animalia et uiginti 
 <lb rend="indent"/>quattuor seniores ceci
-<lb break="no"/>derunt coram agno
+<lb break="no" rend="indent"/>derunt coram agno
 <lb/>habentes singuli citharas 
 <lb rend="indent"/>et phialas<!-- fialas S --> aureas plenas 
 <lb rend="indent"/>odoramentorum 
@@ -717,9 +717,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb rend="indent"/>milia milium <milestone unit="v" n="5.12"/>dicentium 
 <lb rend="indent"/>uoce magna
 <lb/>dignus est agnus qui occi
-<lb break="no"/>sus est accipere uirtutem 
+<lb break="no" rend="indent"/>sus est accipere uirtutem 
 <lb rend="indent"/>et diuinitatem <space unit="character" n="2"/>et sapien
-<lb break="no"/>tiam et fortitudinem
+<lb break="no" rend="indent"/>tiam et fortitudinem
 <lb/>et honorem et gloriam<!-- -i- not erased in spite of first appearances --> 
 <lb rend="indent"/>et benedictionem
 <lb/><milestone unit="v" n="5.13"/>et omnem creaturam 
@@ -749,7 +749,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb rend="indent"/>tamquam uocem tonitrui 
 <lb rend="indent"/>ueni <milestone unit="v" n="6.2"/>et uidi
 <lb/>et ecce equus albus et qui se
-<lb break="no"/>debat super illum 
+<lb break="no" rend="indent"/>debat super illum 
 <lb rend="indent"/>habebat arcum
 <lb/>et data est ei corona
 <lb/>et exiuit uincens ut uinceret
@@ -796,7 +796,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb rend="indent"/>super quattuor partes 
 <lb rend="indent"/>terrae interficere gladio 
 <lb/>fame et morte et bes
-<lb break="no"/>t<choice><sic>e</sic><corr source="#s">i</corr></choice>is terrae
+<lb break="no" rend="indent"/>t<choice><sic>e</sic><corr source="#s">i</corr></choice>is terrae
 </p>
 <p>
 <lb/><milestone unit="v" n="6.9"/>Et cum aperuisset quintum 
@@ -816,7 +816,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb/><milestone unit="v" n="6.11"/>et datae sunt <choice><sic>e</sic><corr source="#s">ill</corr></choice>is singulae 
 <lb rend="indent"/>stolae albae
 <lb/>et dictum est illis ut requi
-<lb break="no"/>escerent tempus 
+<lb break="no" rend="indent"/>escerent tempus 
 <lb rend="indent"/>adhuc modicum
 <lb/>donec implea<add place="above">n</add>tur conserui 
 <lb rend="indent"/>eorum et fratres eorum 
@@ -864,7 +864,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb rend="indent"/>angelos stantes sup<choice><sic>ra</sic><corr source="#s">er</corr></choice> 
 <lb rend="indent"/>quattuor angulos terrae
 <lb/>tenentes quattuor uen
-<lb break="no"/>tos terrae
+<lb break="no" rend="indent"/>tos terrae
 <lb/>ne flaret uentus super terr<expan><abbr rend="supraline">a</abbr><ex>m</ex></expan> 
 <lb/>neque super mare neque 
 <lb rend="indent"/>in ullam arborem
@@ -918,7 +918,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <label type="chapter" rend="red" n="7">vii</label>
 <lb/><milestone unit="v" n="7.9"/>Post haec uidi turbam 
 <lb rend="indent"/>magnam quam dinu
-<lb break="no"/>merare nemo poterat
+<lb break="no" rend="indent"/>merare nemo poterat
 <lb/>ex omnibus gentibus 
 <lb rend="indent"/>et tribubus et populis 
 <lb rend="indent"/>et linguis
@@ -939,14 +939,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb/>et ceciderunt in conspectu 
 <lb rend="indent"/>throni in facies suas
 <lb/>et adorauerunt <name><expan>d<ex>eu</ex><abbr rend="supraline">m</abbr></expan></name> <milestone unit="v" n="7.12"/>dicen
-<lb break="no"/>tes amen
+<lb break="no" rend="indent"/>tes amen
 <lb/>benedictio et c<add place="above">l</add>aritas 
 <lb rend="indent"/>et sapientia et gratiarum 
 <lb rend="indent"/>actio et honor et uirtus 
 <lb/>et fortitudo <name><expan>d<ex>e</ex><abbr rend="supraline">o</abbr></expan></name> nostro 
 <lb rend="indent"/>in <expan>s<ex>ae</ex>c<ex>u</ex><abbr rend="crossed">l</abbr>a</expan> saeculorum amen
 <lb/><milestone unit="v" n="7.13"/>et respondit unus de sen<add place="above">i</add>o
-<lb break="no"/>ribus dicens mihi
+<lb break="no" rend="indent"/>ribus dicens mihi
 <lb/>hi qui amicti sunt stolis 
 <lb rend="indent"/>albis qui sunt et unde 
 <lb rend="indent"/>uenerunt
@@ -991,11 +991,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb rend="indent"/>habens tur<choice><sic>a</sic><corr source="#s">i</corr></choice>bulum aureum
 <lb/>et data<del rend="erased">e</del> sunt illi incensa 
 <lb rend="indent"/>multa <space unit="character" n="2"/>ut daret oratio
-<lb break="no"/>nibus <expan>s<ex>an</ex><abbr rend="supraline">c</abbr><ex>t</ex>orum</expan> omnium 
+<lb break="no" rend="indent"/>nibus <expan>s<ex>an</ex><abbr rend="supraline">c</abbr><ex>t</ex>orum</expan> omnium 
 <lb/>super altare aureum 
 <lb rend="indent"/>quod est ante thronum
 <lb/><milestone unit="v" n="8.4"/>et ascendit fumus incen
-<lb break="no"/>sorum de orationibus 
+<lb break="no" rend="indent"/>sorum de orationibus 
 <lb rend="indent"/><expan>s<ex>an</ex><abbr rend="supraline">c</abbr><ex>t</ex>orum</expan> <surplus source="#s"><add place="above">et</add></surplus> de manu angeli 
 <lb rend="indent"/>coram <name><expan>d<ex>e</ex><abbr rend="supraline">o</abbr></expan></name>
 <lb/><milestone unit="v" n="8.5"/>et accepit angelus turibul<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> 
@@ -1005,7 +1005,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb rend="indent"/>et uoces et 
 <lb rend="indent"/>fulgora et terraemotus
 <lb/><milestone unit="v" n="8.6"/>et septem angeli qui habe
-<lb break="no"/>bant septem tubas 
+<lb break="no" rend="indent"/>bant septem tubas 
 <lb rend="indent"/>parauerunt se <choice><sic>e</sic><corr source="#s">u</corr></choice>t<!-- om. S app. --> tuba 
 <lb rend="indent"/>canerent
 </p>
@@ -1100,8 +1100,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb/>nisi tantum homines qui non 
 <lb rend="indent"/>habent signum <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> in fronti<expan>b<am>’</am><ex>us</ex></expan>
 <lb/><milestone unit="v" n="9.5"/>et datum est illis ne occide
-<lb break="no"/>rent eos sed ut cruciaren
-<lb break="no"/>tur mensibus quinque
+<lb break="no" rend="indent"/>rent eos sed ut cruciaren
+<lb break="no" rend="indent"/>tur mensibus quinque
 <lb/>et cruciatus eorum <add place="above">ut</add><!-- om. S app. --> cruciatus 
 <lb rend="indent"/>scorpii cum percutit 
 <lb rend="indent"/>hominem
@@ -1164,7 +1164,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb/>ut occiderent tertiam 
 <lb rend="indent"/>partem hominum
 <lb/><milestone unit="v" n="9.16"/>et numerus equestris exerci
-<lb break="no"/>tus uicies milies dena milia
+<lb break="no" rend="indent"/>tus uicies milies dena milia
 <lb/>audiui numerum eorum
 <lb/><milestone unit="v" n="9.17"/>et ita uidi equos in uisione
 <lb/>et qui sedebant super eos 
@@ -1192,14 +1192,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb rend="indent"/>de operibus manuum 
 <lb rend="indent"/>suarum
 <lb/>ut non ador<supplied reason="omitted" source="#s">ar</supplied>ent <add place="above">daemonia</add><!-- om. S app. --> et simula
-<lb break="no"/>c<surplus source="#s">h</surplus>ra aurea et argentea 
+<lb break="no" rend="indent"/>c<surplus source="#s">h</surplus>ra aurea et argentea 
 <lb rend="indent"/>et aerea et lapidea 
 <lb rend="indent"/>et lignea
 <lb/>quae neque uidere possunt 
 <lb rend="indent"/>neque audire neque 
 <lb rend="indent"/>ambulare
 <lb/><milestone unit="v" n="9.21"/>et non egerunt paeniten
-<lb break="no"/>tiam ab homicidiis suis
+<lb break="no" rend="indent"/>tiam ab homicidiis suis
 <lb/>neque a <choice><sic>b</sic><corr source="#s">u</corr></choice>enefic<add place="inline">i</add>is suis
 <lb/>neque a fornicatione sua
 <lb rend="indent"/>neque a furtis suis
@@ -1242,8 +1242,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb/><milestone unit="v" n="10.5"/>Et angelum quem uidi stantem 
 <lb rend="indent"/>supra mare et supra terram
 <lb/>leuauit manum suam ad cae
-<lb break="no"/>lum <milestone unit="v" n="10.6"/>et iurauit per uiuen
-<lb break="no"/>tem in saecula 
+<lb break="no" rend="indent"/>lum <milestone unit="v" n="10.6"/>et iurauit per uiuen
+<lb break="no" rend="indent"/>tem in saecula 
 <lb rend="indent"/>saeculorum
 <lb/>qui creauit caelum et ea 
 <lb rend="indent"/>quae in illo sunt
@@ -1289,7 +1289,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb rend="indent"/>similis uirgę dicens
 <lb/>surge et metire templum 
 <lb rend="indent"/><name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> et altare et adoran
-<lb break="no"/>tes in eo
+<lb break="no" rend="indent"/>tes in eo
 <lb/><milestone unit="v" n="11.2"/>atrium autem quod est 
 <lb rend="indent"/>foris templum eice foras 
 <lb/>et ne <app><lem source="#c">metiaris</lem><rdg source="#s">metieris</rdg></app> eum quoniam 
@@ -1314,10 +1314,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb rend="indent"/>ipsorum
 <lb/>et potestatem habent 
 <lb rend="indent"/>super aquas conuer
-<lb break="no"/>tendi eas in sanguinem
+<lb break="no" rend="indent"/>tendi eas in sanguinem
 <lb/>et percutere terram 
 <lb rend="indent"/>omni plaga quotiens
-<lb break="no"/>cumque uoluerint
+<lb break="no" rend="indent"/>cumque uoluerint
 <lb/><milestone unit="v" n="11.7"/>et cum finierint 
 <lb rend="indent"/>testimonium suum
 <lb/>bestia quae ascendit de abysso 
@@ -1328,12 +1328,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <pb n="1022v"/>
 <cb n="a"/>
 <lb rend="indent"/>ciuitatis magnae <app><lem source="#c"><add place="above">iacebunt</add></lem><rdg source="#s"/></app> quae uo
-<lb break="no"/>catur spiritaliter <name>sodoma</name> 
+<lb break="no" rend="indent"/>catur spiritaliter <name>sodoma</name> 
 <lb rend="indent"/>et <name>aegyptus</name>
 <lb/>ubi et <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>s</expan></name> eorum cruci
-<lb break="no"/>fixus est
+<lb break="no" rend="indent"/>fixus est
 <lb/><milestone unit="v" n="11.9"/>et uidebunt de populis et tri
-<lb break="no"/>bubus et linguis et genti<expan>b<am>’</am><ex>us</ex></expan> 
+<lb break="no" rend="indent"/>bubus et linguis et genti<expan>b<am>’</am><ex>us</ex></expan> 
 <lb rend="indent"/>corpora eorum per tres 
 <lb rend="indent"/>dies et dimidium
 <lb/>et corpora eorum non sinunt 
@@ -1344,7 +1344,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb/>et munera mittent inuicem
 <lb/>quoniam hi duo prophetae 
 <lb rend="indent"/>cruciauerunt eos qui <app><lem source="#c">habi<add place="inline">ta</add>
-<lb break="no"/><subst><del rend="alt">t</del><add place="inline">b</add></subst>ant</lem><rdg source="#s">inhabitant</rdg></app><!-- good example of why S really should record corrected version --> super terram
+<lb break="no" rend="indent"/><subst><del rend="alt">t</del><add place="inline">b</add></subst>ant</lem><rdg source="#s">inhabitant</rdg></app><!-- good example of why S really should record corrected version --> super terram
 <lb/><milestone unit="v" n="11.11"/>et post dies tres et dimidi<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan>
 <lb/><expan>s<abbr rend="supraline">p</abbr><ex>iritu</ex>s</expan> uitae a <name><expan>d<ex>e</ex><abbr rend="supraline">o</abbr></expan></name> intrauit in e<subst><del rend="erased">i</del><add place="inline">o</add></subst>s<!-- om. S app. --> 
 <lb rend="indent"/>et steterunt super pedes suos<!-- chk WW: is that an addition? -->
@@ -1403,7 +1403,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb rend="indent"/>nomen tuum pusillis 
 <lb rend="indent"/>et magnis
 <lb/>et <add place="above">ex</add>terminandi eos qui cor
-<lb break="no"/>ruperunt terram
+<lb break="no" rend="indent"/>ruperunt terram
 </p>
 <p>
 <label type="chapter" rend="red" n="12">xii</label>
@@ -1443,7 +1443,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb rend="indent"/>stellarum caeli
 <lb/>et misit eas in terram
 <lb/>et draco stetit <add place="inRas">ante muli</add>
-<lb break="no"/>erem quae erat paritura
+<lb break="no" rend="indent"/>erem quae erat paritura
 <lb/>ut cum peperisset filium 
 <lb rend="indent"/>eius deuoraret
 <lb/><milestone unit="v" n="12.5"/>et peperit filium mascul<expan><abbr rend="supraline">u</abbr><ex>m</ex></expan> 
@@ -1486,9 +1486,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb/>qui<add place="above">a</add><!-- om. S app. --> proiectus est <subst><del rend="erased"><gap reason="illegible" quantity="6" unit="character"/></del><add place="inRas">accus</add></subst>ator<!-- chk WW/T --> 
 <lb rend="indent"/>fratrum nostrorum
 <lb rend="semiindent"/><!-- not sure how to interpret partially indented lines -->qui accusabat illos ante con
-<lb break="no"/>spectum <name><expan>d<choice><sic><ex>omi</ex><abbr rend="supraline">n</abbr></sic><corr source="#s"><ex>e</ex></corr></choice><abbr rend="supraline">i</abbr></expan></name> <expan>n<ex>ostr</ex><abbr rend="supraline">i</abbr></expan> die ac nocte
+<lb break="no" rend="indent"/>spectum <name><expan>d<choice><sic><ex>omi</ex><abbr rend="supraline">n</abbr></sic><corr source="#s"><ex>e</ex></corr></choice><abbr rend="supraline">i</abbr></expan></name> <expan>n<ex>ostr</ex><abbr rend="supraline">i</abbr></expan> die ac nocte
 <lb/><milestone unit="v" n="12.11"/>et ipsi uicerunt illum prop
-<lb break="no"/>ter sanguinem agni 
+<lb break="no" rend="indent"/>ter sanguinem agni 
 <lb rend="semiindent"/>et propter uerbum 
 <lb rend="indent"/>testimonii sui
 <lb/>et non dilexerunt animam 
@@ -1564,8 +1564,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb/>et data est illi potestas 
 <lb rend="indent"/>facere menses <choice><orig><num>xlii</num></orig><reg>quadraginta duo</reg></choice>
 <lb/><milestone unit="v" n="13.6"/>et aperuit os suum in blas
-<lb break="no"/>phemia<supplied reason="omitted" source="#s">s</supplied> ad <name><expan>d<ex>eu</ex><abbr rend="supraline">m</abbr></expan></name> blasphe
-<lb break="no"/>mare nomen eius
+<lb break="no" rend="indent"/>phemia<supplied reason="omitted" source="#s">s</supplied> ad <name><expan>d<ex>eu</ex><abbr rend="supraline">m</abbr></expan></name> blasphe
+<lb break="no" rend="indent"/>mare nomen eius
 <lb/>et tabernaculum eius 
 <lb rend="indent"/>et eos qui in caelo habitant
 <lb/><milestone unit="v" n="13.7"/>et datum est illi bellum 
@@ -1648,7 +1648,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb/><milestone unit="v" n="14.1"/>Et uidi et ecce agnus stabat 
 <lb rend="indent"/>supra montem <name>sion</name>
 <lb/>et cum illo centum quadra
-<lb break="no"/>ginta quattuor milia
+<lb break="no" rend="indent"/>ginta quattuor milia
 <lb/>habente<subst><del rend="erased">m</del><add place="inRas">s</add></subst><!-- om. S app. --> nomen eius 
 <lb rend="indent"/>et nomen <name>patris</name> eius 
 <lb rend="indent"/>scriptum in frontibus suis
@@ -1660,7 +1660,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb rend="indent"/>uocem tonitrui magni
 <lb/>et uocem quam audiui sicut 
 <lb rend="indent"/>citharoedorum cithari
-<lb break="no"/>zantium in citharis suis
+<lb break="no" rend="indent"/>zantium in citharis suis
 <lb/><milestone unit="v" n="14.3"/>et cantabant quasi canticum 
 <lb rend="indent"/>nouum ante sedem et ante 
 <lb rend="indent"/>quattuor animalia et seniores
@@ -1723,7 +1723,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb rend="indent"/>qui mixtus est mero 
 <lb rend="indent"/>in calice irae ipsius
 <lb/>et cruciabitur igne et sulphu
-<lb break="no"/>r<del rend="erased">a</del>e<!-- om. S app. --> in conspectu angelorum 
+<lb break="no" rend="indent"/>r<del rend="erased">a</del>e<!-- om. S app. --> in conspectu angelorum 
 <lb rend="indent"/><expan>s<ex>an</ex><abbr rend="supraline">c</abbr><ex>t</ex>orum</expan>
 <lb/>et ante conspectum agni
 <lb/><milestone unit="v" n="14.11"/>et fumus tormentorum 
@@ -1818,7 +1818,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb/>iustae et uerae uiae tuae 
 <lb rend="indent"/>rex saeculorum
 <lb/><milestone unit="v" n="15.4"/>quis non timebit <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>e</expan></name> et mag
-<lb break="no"/>nifica<choice><sic>u</sic><corr source="#s">b</corr></choice>it nomen tuum 
+<lb break="no" rend="indent"/>nifica<choice><sic>u</sic><corr source="#s">b</corr></choice>it nomen tuum 
 <lb rend="indent"/>quia solus pius <app><lem source="#c"><add place="inline">es</add></lem><rdg source="#s"/></app>
 <lb/>quoniam omnes gentes 
 <lb rend="indent"/>uenient et adorabunt 
@@ -1842,14 +1842,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb/><milestone unit="v" n="15.7"/>et unus ex quattuor animali<expan>b<am>’</am><ex>us</ex></expan>
 <lb/>dedit septem angelis septem 
 <lb rend="indent"/>phialas<!-- fialas S (and so below) --> aureas plenas iracun
-<lb break="no"/>diae <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> uiuentis in saecula 
+<lb break="no" rend="indent"/>diae <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> uiuentis in saecula 
 <lb rend="indent"/>saeculorum
 <lb/><milestone unit="v" n="15.8"/>et impletum est templum 
 <lb rend="indent"/>fumo a maiestate <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name> 
 <lb rend="indent"/>et de uirtute eius
 <lb/>et nemo poterat introire 
 <lb rend="indent"/>in templum donec consum
-<lb break="no"/>marentur septem plagae 
+<lb break="no" rend="indent"/>marentur septem plagae 
 <lb rend="indent"/>septem angelorum
 </p>
 <p>
@@ -1959,7 +1959,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb/>et terraemotus factus est 
 <lb rend="indent"/>magnus <space unit="character" n="2"/>qualis numquam 
 <lb rend="indent"/>fuit ex quo homines fue
-<lb break="no"/>runt super terram
+<lb break="no" rend="indent"/>runt super terram
 <lb/>talis terraemotus sic magnus
 <lb/><milestone unit="v" n="16.19"/>et facta est ciuitas magna 
 <lb rend="indent"/>in tres partes
@@ -1968,7 +1968,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb/>et <name>babylon</name> magna uenit 
 <lb rend="indent"/>in memoriam ante <name><expan>d<ex>eu</ex><abbr rend="supraline">m</abbr></expan></name>
 <lb/>dare ei calicem uini indig
-<lb break="no"/>nationis irae eius
+<lb break="no" rend="indent"/>nationis irae eius
 <lb/><milestone unit="v" n="16.20"/>et omnis insula fugit
 <lb/>et montes non sunt inuenti
 <lb/><milestone unit="v" n="16.21"/>et grando magna sicut 
@@ -1987,7 +1987,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <cb n="b"/>
 <lb/>et locutus est mecum dicens
 <lb/>ueni ostendam tibi damna
-<lb break="no"/>tionem meretricis magnae 
+<lb break="no" rend="indent"/>tionem meretricis magnae 
 <lb rend="indent"/>quae sedet super aquas 
 <lb rend="indent"/>multas
 </p>
@@ -1996,7 +1996,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb rend="indent"/>reges terrae
 <lb/>et inebriati sunt qui inhabitant 
 <lb rend="indent"/>terram de uino prostitu
-<lb break="no"/>tionis eius
+<lb break="no" rend="indent"/>tionis eius
 <lb/><milestone unit="v" n="17.3"/>et abstulit me in desertum in <expan>s<abbr rend="supraline">p</abbr><ex>irit</ex>u</expan>
 <lb/>et uidi mulierem sedentem 
 <lb rend="indent"/>super bestiam coccineam 
@@ -2015,8 +2015,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb/><milestone unit="v" n="17.5"/>et in fronte eius nomen 
 <lb rend="indent"/>scriptum mysterium
 <lb/><name>babylon</name> magna mater forni
-<lb break="no"/>cationum et abomina
-<lb break="no"/>tionum terrae
+<lb break="no" rend="indent"/>cationum et abomina
+<lb break="no" rend="indent"/>tionum terrae
 </p>
 <p>
 <lb/><milestone unit="v" n="17.6"/>Et uidi mulierem ebriam 
@@ -2077,7 +2077,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb rend="indent"/>et electi et fideles
 <lb/><milestone unit="v" n="17.15"/>et dixit mihi
 <lb/>aquas quas uidisti ubi mere
-<lb break="no"/>trix sedet <choice><orig>,</orig><reg><lb/></reg></choice> populi sunt 
+<lb break="no" rend="indent"/>trix sedet <choice><orig>,</orig><reg><lb/></reg></choice> populi sunt 
 <lb rend="indent"/>et gentes et linguae
 <lb/><milestone unit="v" n="17.16"/>et decem cornua quae uidisti 
 <lb/>et bestiam hi odient 
@@ -2150,13 +2150,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb rend="indent"/>eius mors et luctus et fames
 <lb/>et igni conburet<add place="inRas">u</add>r
 <lb/>quia fortis est <name><expan>d<ex>eu</ex><abbr rend="supraline">s</abbr></expan></name> qui iudica
-<lb break="no"/>uit illam
+<lb break="no" rend="indent"/>uit illam
 <lb/><milestone unit="v" n="18.9"/>et flebunt et plangent 
 <lb rend="indent"/>se super illam reges terrae 
 <lb rend="indent"/>qui cum illa fornicati sunt 
 <lb rend="indent"/>et in deliciis uixerunt
 <lb/>cum uiderint fumum incen
-<lb break="no"/>dii eius <milestone unit="v" n="18.10"/>longe stantes 
+<lb break="no" rend="indent"/>dii eius <milestone unit="v" n="18.10"/>longe stantes 
 <lb rend="indent"/>propter timorem 
 <lb rend="indent"/>tormentorum eius
 <lb/>dicentes uae uae ciuitas 
@@ -2171,14 +2171,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb/><milestone unit="v" n="18.12"/>mercem auri et argenti 
 <lb rend="indent"/>et lapidis pretiosi
 <lb/>et margariti<supplied reason="omitted" source="#s">s</supplied> et byssi et pur
-<lb break="no"/>purae et serici et cocci
+<lb break="no" rend="indent"/>purae et serici et cocci
 <lb/>et omne lignum thyinum
 <lb/>et omnia uasa eboris
 <lb/>et omnia uasa de lapide 
 <lb rend="indent"/>pretioso 
 <lb/>et <subst><del rend="erased"><unclear>l</unclear></del><add place="inRas">a</add></subst>eramento et ferro 
 <lb rend="indent"/>et marmore <milestone unit="v" n="18.13"/>et cinna
-<lb break="no"/>momum et amomum
+<lb break="no" rend="indent"/>momum et amomum
 <cb n="b"/>
 <lb/>et odoramentorum 
 <lb rend="indent"/>et unguenti <space unit="character" n="2"/>et turis <space unit="character" n="2"/>et uini 
@@ -2196,7 +2196,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb rend="indent"/>facti sunt ab ea longe 
 <lb rend="indent"/>stabunt
 <lb/>propter timorem tormen<del rend="erased">to</del>
-<lb break="no"/>torum eius
+<lb break="no" rend="indent"/>torum eius
 <lb/>flentes ac lugentes <milestone unit="v" n="18.16"/>et dicentes
 <lb/>uae uae ciuitas illa magna
 <lb/>quae amicta erat byssino 
@@ -2238,7 +2238,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb rend="indent"/><name>babylon</name> <choice><sic>illa magna ciuitas</sic><corr source="#s">magna illa ciuitas</corr></choice> 
 <lb rend="indent"/>et ultra iam non inuenietur
 <lb/><milestone unit="v" n="18.22"/>et uox cithar<reg>o</reg>edorum et musi
-<lb break="no"/>corum et tibia canentium 
+<lb break="no" rend="indent"/>corum et tibia canentium 
 <lb/>et tuba non audietur 
 <lb rend="indent"/>in te amplius
 <lb/>et omnis artifex <add place="inRas">o</add>mnis 
@@ -2263,7 +2263,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <label type="chapter" rend="red" n="19">xix</label>
 <lb/><milestone unit="v" n="19.1"/>Post haec audiui quasi uocem 
 <lb rend="indent"/>magnam tu<supplied reason="omitted" source="#s">r</supplied>barum<!-- should that be left? --> mul
-<lb break="no"/>tarum in caelo 
+<lb break="no" rend="indent"/>tarum in caelo 
 <lb/>dicentium alleluia
 <lb/><supplied reason="omitted" source="#s">sa</supplied>l<surplus source="#s">a</surplus>u<add place="inRas">s</add> et gloria et uirtus 
 <lb rend="indent"/><name><expan>d<ex>e</ex><abbr rend="supraline">o</abbr></expan></name> nostro est
@@ -2307,7 +2307,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb/><add place="inRas">quia</add> uenerunt nuptiae agni
 <lb/>et uxor eius praeparauit se
 <lb/><milestone unit="v" n="19.8"/>et datum est illi ut coope
-<lb break="no"/>riat se byssinum splendens 
+<lb break="no" rend="indent"/>riat se byssinum splendens 
 <lb rend="indent"/>candidum
 <lb/>byssinum enim iustificationes 
 <lb rend="indent"/>sunt <expan>s<ex>an</ex><abbr rend="supraline">c</abbr><ex>t</ex>orum</expan>
@@ -2364,7 +2364,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb rend="indent"/>stantem in sole
 <lb/>et clamauit uoce magna dicens 
 <lb rend="indent"/>omnibus auibus quae uola
-<lb break="no"/>bant per medium caeli
+<lb break="no" rend="indent"/>bant per medium caeli
 <lb/>uenite congregamini 
 <lb rend="indent"/>ad cenam magnam <name><expan>d<ex>e</ex><abbr rend="supraline">i</abbr></expan></name>
 <lb/><milestone unit="v" n="19.18"/>ut manducetis carnes regum 
@@ -2433,7 +2433,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb/>et uixerunt et regnauerunt 
 <lb rend="indent"/>cum <name><expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>o</expan></name> mille annis
 <lb/><milestone unit="v" n="20.5"/>ceteri mortuorum non uixe<del rend="erased">r</del>
-<lb break="no"/>runt donec consummentur 
+<lb break="no" rend="indent"/>runt donec consummentur 
 <lb rend="indent"/>mille anni
 </p>
 <p>
@@ -2456,7 +2456,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb/>quorum numerus est sicut 
 <lb rend="indent"/><reg>h</reg>arena maris
 <lb/><milestone unit="v" n="20.8"/>et ascenderunt super lati
-<lb break="no"/>tudinem terrae
+<lb break="no" rend="indent"/>tudinem terrae
 <lb/>et circumierunt castra 
 <lb rend="indent"/><expan>s<ex>an</ex><abbr rend="supraline">c</abbr><ex>t</ex>orum</expan> et ciuitatem 
 <lb rend="indent"/>dilectam
@@ -2466,7 +2466,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb rend="indent"/>missus est in stagnum ignis 
 <lb rend="indent"/>et sulph<choice><orig>o</orig><reg>u</reg></choice>ris
 <lb/>ubi et bestia <milestone unit="v" n="20.10"/>et pseudoprophe
-<lb break="no"/>t<choice><sic>i</sic><corr source="#s">e</corr></choice>s et cruciabuntur die ac 
+<lb break="no" rend="indent"/>t<choice><sic>i</sic><corr source="#s">e</corr></choice>s et cruciabuntur die ac 
 <lb rend="indent"/>nocte in saecula saeculorum
 <lb/><milestone unit="v" n="20.11"/>et uidi thronum magnum 
 <lb rend="indent"/>candidum
@@ -2516,7 +2516,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb rend="indent"/>eis et ipsi populus eius erunt
 <lb/>et ipse <name><expan>d<ex>eu</ex><abbr rend="supraline">s</abbr></expan></name> cum eis erit eorum <name><expan>d<ex>eu</ex><abbr rend="supraline">s</abbr></expan></name>
 <lb/><milestone unit="v" n="21.4"/>et absterget <name><expan>d<ex>eu</ex><abbr rend="supraline">s</abbr></expan></name> omnem lacri
-<lb break="no"/>mam ab oculis <del rend="erased"><unclear>d</unclear></del>eorum
+<lb break="no" rend="indent"/>mam ab oculis <del rend="erased"><unclear>d</unclear></del>eorum
 <pb n="1028v"/>
 <cb n="a"/>
 <lb/>et mors ultra non erit 
@@ -2590,11 +2590,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb rend="indent"/>de harundine per stadia 
 <lb rend="indent"/>duodecim milia
 <lb/>longitudo et latitudo et alti
-<lb break="no"/>tudo eius <damage>a</damage>equalia sunt
+<lb break="no" rend="indent"/>tudo eius <damage>a</damage>equalia sunt
 <lb/><milestone unit="v" n="21.17"/>et mensus est murus eius 
 <lb rend="indent"/>centum quadraginta quattuor 
 <lb rend="indent"/>cubitorum mensura homi
-<lb break="no"/>nis quae est angeli
+<lb break="no" rend="indent"/>nis quae est angeli
 <lb/><milestone unit="v" n="21.18"/>et erat structura muri eius 
 <lb rend="indent"/>ex lapide iaspide
 <lb/>ipsa uero ciuitas auro mundo 
@@ -2634,12 +2634,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb rend="indent"/>per lumen eius
 <lb/>et reges terrae a<choice><orig>f</orig><reg>d</reg></choice>ferent 
 <lb rend="indent"/>gloriam suam et hono
-<lb break="no"/>rem in illam
+<lb break="no" rend="indent"/>rem in illam
 <lb/><milestone unit="v" n="21.25"/>et portae eius non cludentur 
 <lb rend="indent"/>per diem <choice><orig>,</orig><reg><lb/></reg></choice> nox enim 
 <lb rend="indent"/>non erit illic
 <lb/><milestone unit="v" n="21.26"/>et a<choice><orig>f</orig><reg>d</reg></choice>ferent gloriam et hono
-<lb break="no"/>rem gentium in illam
+<lb break="no" rend="indent"/>rem gentium in illam
 <lb/><milestone unit="v" n="21.27"/>ne<subst><del rend="alt">t</del><add place="inline">c</add></subst> intra<choice><sic>u</sic><corr source="#s">b</corr></choice>it in ea aliquid 
 <lb rend="indent"/>coinquinatum 
 <lb/><supplied reason="omitted" source="#s">et</supplied> faciens abominationem 
@@ -2670,7 +2670,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb/>et nomen eius in fronti<expan>b<am>’</am><ex>us</ex></expan> eorum
 <lb/><milestone unit="v" n="22.5"/>et nox ultra non erit
 <lb/>et non egebunt lum<choice><sic>en</sic><corr source="#s">ine</corr></choice> lucer
-<lb break="no"/>nae neque lum<choice><sic>en</sic><corr source="#s">ine</corr></choice> solis
+<lb break="no" rend="indent"/>nae neque lum<choice><sic>en</sic><corr source="#s">ine</corr></choice> solis
 <lb/>quoniam <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr><ex>u</ex>s</expan></name> <name><expan>d<ex>eu</ex><abbr rend="supraline">s</abbr></expan></name> inluminat illos
 <lb/>et regnabunt in saecula 
 <lb rend="indent"/>saeculorum
@@ -2728,7 +2728,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb rend="indent"/>in ciuitatem
 <lb/><milestone unit="v" n="22.15"/>foris canes et uenefici 
 <lb rend="indent"/>et inpudici et homi
-<lb break="no"/>cidae <space unit="character" n="2"/>et idolis 
+<lb break="no" rend="indent"/>cidae <space unit="character" n="2"/>et idolis 
 <lb rend="indent"/>seruientes
 <lb/>et omnis qui amat et facit 
 <lb rend="indent"/>mendacium
@@ -2752,7 +2752,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <p>
 <lb/><milestone unit="v" n="22.18"/>Contestor ego omni 
 <lb rend="indent"/>audienti uerba pro
-<lb break="no"/>phetiae libri huius
+<lb break="no" rend="indent"/>phetiae libri huius
 </p>
 <p>
 <lb/>Si quis adposuerit ad haec

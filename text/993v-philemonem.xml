@@ -170,7 +170,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <p>
 <label type="chapter" rend="red" n="3">iii</label>
 <lb/><milestone unit="v" n="8"/>Propter quod multam fidu
-<lb break="no"/>ciam <app><lem source="#c #o">habens</lem><rdg source="#s">habentes</rdg></app> in <name><expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>o</expan> <expan>i<am rend="supraline">h</am><ex>es</ex>u</expan></name> 
+<lb break="no" rend="indent"/>ciam <app><lem source="#c #o">habens</lem><rdg source="#s">habentes</rdg></app> in <name><expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>o</expan> <expan>i<am rend="supraline">h</am><ex>es</ex>u</expan></name> 
 <lb rend="indent"/>imperandi tibi quod ad rem 
 <lb rend="indent"/>pertinet
 <lb/><milestone unit="v" n="9"/>propter caritatem magis 
@@ -231,7 +231,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <p>
 <label type="chapter" rend="red" n="4">iiii</label>
 <lb/><milestone unit="v" n="23"/>Salutat te <name>epaphras</name> con
-<lb break="no"/>captiuus meus in <name><expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>o</expan> <expan>i<am rend="supraline">h</am><ex>es</ex>u</expan></name>
+<lb break="no" rend="indent"/>captiuus meus in <name><expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>o</expan> <expan>i<am rend="supraline">h</am><ex>es</ex>u</expan></name>
 <lb/><milestone unit="v" n="24"/><name>marcus</name> <choice><orig>·</orig><reg><lb/></reg></choice> <name>aristarchus</name> 
 <lb/><name>demas</name> <name>lucas</name> 
 <lb rend="indent"/>adiutores mei
