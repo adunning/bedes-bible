@@ -113,7 +113,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb rend="indent"/><name>assyriorum</name></item>
 <lb/><item><label>xx</label> De his qui uoluerunt expugnare 
 <lb rend="indent"/><name>hierusalem</name></item>
-<lb/><item><label>xxi</label> De natiuitate <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan></name> nostri <name><expan>i<am rend="supraline">h</am><ex>es</ex>u</expan> <expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>i</expan></name> 
+<lb/><item><label>xxi</label> De natiuitate <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan> nostri <expan>i<am rend="supraline">h</am><ex>es</ex>u</expan> <expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>i</expan></name> 
 <lb rend="indent"/>et de baptismate</item>
 <lb/><item><label>xxii</label> De <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>o</expan> <expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>o</expan></name></item>
 <lb/><item><label>xxiii</label> Vox <name><expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan> <expan><am>x</am><am rend="supraline">p</am><ex>christ</ex>i</expan></name> de discipulis</item>

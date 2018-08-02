@@ -155,7 +155,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb break="no"/>turus sit <name>pharao</name> <placeName><expan>i<abbr rend="supraline">sr</abbr><ex>ahe</ex>l</expan></placeName>. et ubi <name>pha
 <lb break="no"/>rao</name> <name>israhelem</name> secutus est super 
 <lb rend="indent"/>mare. ac timore coartati murmu
-<lb rend="indent"/>rauerunt contra <name>mosen</name>. <name>mosi<expan>q<am>’</am><ex>ue</ex></expan></name> 
+<lb break="no" rend="indent"/>rauerunt contra <name>mosen</name>. <name>mosi<expan>q<am>’</am><ex>ue</ex></expan></name> 
 <lb rend="indent"/>praecipitur ut mota castra mare 
 <lb rend="indent"/>percutiat ac diuidat. de transitu 
 <lb rend="indent"/>eorum et nece <name>aegyptiorum</name>. 

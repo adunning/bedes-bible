@@ -3,7 +3,7 @@
 type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -224,7 +224,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <item><name>ionas</name></item>
 <item><name>michas</name></item>
 <lb/><item><name>naum</name></item>
-<item><name><name>habacuc</name></name></item>
+<item><name>habacuc</name></item>
 <lb/><item><name>soffonias</name></item>
 <item><name>aggeus</name></item>
 <lb/><item><name>zacharias</name></item>
@@ -517,7 +517,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 </div>
 <pb n="8r"/>
 <div type="textpart">
-<p><add place="inline">
+<p>
+<add place="inline">
 <lb/>Eloquium <expan>d<ex>omi</ex><abbr rend="supraline">n</abbr>i</expan> quaecum<expan>q<am>’</am><ex>ue</ex></expan> uolumina pandunt 
 <lb/><name><expan>s<abbr rend="supraline">p</abbr><ex>iritu</ex>s</expan> hoc sancto</name> fudit ab ore <expan>d<ex>eu</ex><abbr rend="supraline">s</abbr></expan></add>
 </p>

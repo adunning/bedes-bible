@@ -119,7 +119,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb rend="indent"/>et <name>loth</name> in <name>sodomis</name></item>
 <lb/><item><label>xiv</label> <name>Abraham</name> expugnatis regibus reduxit 
 <lb rend="indent"/><name>loth</name> fratrem suum cum substan
-<lb rend="indent"/>tia sua</item>
+<lb break="no" rend="indent"/>tia sua</item>
 <lb/><item><label>xv</label> <name>Melchisedech</name> rex <name>sale</name> proferens 
 <lb rend="indent"/>panes et uinum occurrit</item>
 <lb/><item><label>xvi</label> <name>Abrahae</name> promittit <name><expan>d<ex>eu</ex><abbr rend="supraline">s</abbr></expan></name> filium habiturum</item>
