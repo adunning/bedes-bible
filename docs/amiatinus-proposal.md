@@ -2,7 +2,7 @@
 title: "Bede's Bible"
 subtitle: An Edition of the Latin Vulgate from the Codex Amiatinus
 author: Andrew Dunning
-...
+---
 
 # Executive summary
 
